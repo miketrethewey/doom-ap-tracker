@@ -105,35 +105,35 @@
           {
             "name": "Chainsaw",
             "access_rules": [
-              "$e1m2_redaccess"
+              "$key_access|e1m2|red"
             ],
             "item_count": 1
           },
           {
             "name": "Armor 3",
             "access_rules": [
-              "$e1m2_redaccess"
+              "$key_access|e1m2|red"
             ],
             "item_count": 1
           },
           {
             "name": "Mega Armor",
             "access_rules": [
-              "$e1m2_redaccess"
+              "$key_access|e1m2|red"
             ],
             "item_count": 1
           },
           {
             "name": "Backpack 2",
             "access_rules": [
-              "$e1m2_redaccess"
+              "$key_access|e1m2|red"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$e1m2_redaccess"
+              "$key_access|e1m2|red"
             ],
             "hosted_item": "e1m2_complete"
           }
@@ -225,14 +225,14 @@
           {
             "name": "Armor 3",
             "access_rules": [
-              "$e1m3_blueaccess"
+              "$key_access|e1m3|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Chainsaw",
             "access_rules": [
-              "$e1m3_blueaccess"
+              "$key_access|e1m3|blue"
             ],
             "item_count": 1
           },
@@ -260,7 +260,7 @@
           {
             "name": "Exit",
             "access_rules": [
-              "$e1m3_blueaccess"
+              "$key_access|e1m3|blue"
             ],
             "hosted_item": "e1m3_complete"
           }
@@ -416,63 +416,63 @@
           {
             "name": "Blue Keycard",
             "access_rules": [
-              "$e1m5_yellowaccess"
+              "$key_access|e1m5|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Mega Armor 2",
             "access_rules": [
-              "$e1m5_yellowaccess"
+              "$key_access|e1m5|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Chainsaw",
             "access_rules": [
-              "$e1m5_yellowaccess"
+              "$key_access|e1m5|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge",
             "access_rules": [
-              "$e1m5_yellowaccess"
+              "$key_access|e1m5|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Chaingun",
             "access_rules": [
-              "$e1m5_yellowaccess"
+              "$key_access|e1m5|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Computer Area Map",
             "access_rules": [
-              "$e1m5_yellowaccess"
+              "$key_access|e1m5|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Partial Invisibility",
             "access_rules": [
-              "$e1m5_yellowaccess"
+              "$key_access|e1m5|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Armor 2",
             "access_rules": [
-              "$e1m5_yellowaccess"
+              "$key_access|e1m5|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Backpack",
             "access_rules": [
-              "$e1m5_yellowaccess"
+              "$key_access|e1m5|yellow"
             ],
             "item_count": 1
           },
@@ -557,42 +557,42 @@
           {
             "name": "Supercharge 2",
             "access_rules": [
-              "$e1m6_blueaccess"
+              "$key_access|e1m6|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Yellow Keycard",
             "access_rules": [
-              "$e1m6_blueaccess"
+              "$key_access|e1m6|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Computer Area Map",
             "access_rules": [
-              "$e1m6_blueaccess"
+              "$key_access|e1m6|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Backpack 2",
             "access_rules": [
-              "$e1m6_blueaccess"
+              "$key_access|e1m6|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Backpack 3",
             "access_rules": [
-              "$e1m6_blueaccess"
+              "$key_access|e1m6|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Armor 2",
             "access_rules": [
-              "$e1m6_blueaccess"
+              "$key_access|e1m6|blue"
             ],
             "item_count": 1
           },
@@ -606,28 +606,28 @@
           {
             "name": "Supercharge",
             "access_rules": [
-              "$e1m6_redaccess"
+              "$key_access|e1m6|red"
             ],
             "item_count": 1
           },
           {
             "name": "Blue Keycard",
             "access_rules": [
-              "$e1m6_redaccess"
+              "$key_access|e1m6|red"
             ],
             "item_count": 1
           },
           {
             "name": "Partial Invisibility 2",
             "access_rules": [
-              "$e1m6_redaccess"
+              "$key_access|e1m6|red"
             ],
             "item_count": 1
           },
           {
             "name": "Mega Armor",
             "access_rules": [
-              "$e1m6_redaccess"
+              "$key_access|e1m6|red"
             ],
             "item_count": 1
           },
@@ -684,70 +684,70 @@
           {
             "name": "Chainsaw",
             "access_rules": [
-              "$e1m7_yellowaccess"
+              "$key_access|e1m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Chaingun",
             "access_rules": [
-              "$e1m7_yellowaccess"
+              "$key_access|e1m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Red Keycard",
             "access_rules": [
-              "$e1m7_yellowaccess"
+              "$key_access|e1m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher",
             "access_rules": [
-              "$e1m7_yellowaccess"
+              "$key_access|e1m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Mega Armor",
             "access_rules": [
-              "$e1m7_yellowaccess"
+              "$key_access|e1m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Computer Area Map",
             "access_rules": [
-              "$e1m7_yellowaccess"
+              "$key_access|e1m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge",
             "access_rules": [
-              "$e1m7_yellowaccess"
+              "$key_access|e1m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Backpack",
             "access_rules": [
-              "$e1m7_yellowaccess"
+              "$key_access|e1m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Armor 2",
             "access_rules": [
-              "$e1m7_yellowaccess"
+              "$key_access|e1m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Blue Keycard",
             "access_rules": [
-              "$e1m7_redaccess"
+              "$key_access|e1m7|red"
             ],
             "item_count": 1
           },
@@ -882,42 +882,42 @@
           {
             "name": "Backpack",
             "access_rules": [
-              "$e1m9_blueaccess"
+              "$key_access|e1m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Shotgun",
             "access_rules": [
-              "$e1m9_blueaccess"
+              "$key_access|e1m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Chainsaw",
             "access_rules": [
-              "$e1m9_blueaccess"
+              "$key_access|e1m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Red Keycard",
             "access_rules": [
-              "$e1m9_yellowaccess"
+              "$key_access|e1m9|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Blue Keycard",
             "access_rules": [
-              "$e1m9_redaccess"
+              "$key_access|e1m9|red"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$e1m9_blueaccess"
+              "$key_access|e1m9|blue"
             ],
             "hosted_item": "e1m9_complete"
           }
@@ -1122,28 +1122,28 @@
           {
             "name": "Red Keycard",
             "access_rules": [
-              "$e2m2_blueaccess"
+              "$key_access|e2m2|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Chaingun",
             "access_rules": [
-              "$e2m2_yellowaccess"
+              "$key_access|e2m2|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Backpack 2",
             "access_rules": [
-              "$e2m2_yellowaccess"
+              "$key_access|e2m2|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher",
             "access_rules": [
-              "$e2m2_yellowaccess"
+              "$key_access|e2m2|yellow"
             ],
             "item_count": 1
           },
@@ -1235,21 +1235,21 @@
           {
             "name": "Supercharge",
             "access_rules": [
-              "$e2m3_blueaccess"
+              "$key_access|e2m3|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Partial Invisibility",
             "access_rules": [
-              "$e2m3_blueaccess"
+              "$key_access|e2m3|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$e2m3_blueaccess"
+              "$key_access|e2m3|blue"
             ],
             "hosted_item": "e2m3_complete"
           }
@@ -1355,7 +1355,7 @@
           {
             "name": "Yellow Keycard",
             "access_rules": [
-              "$e2m4_blueaccess"
+              "$key_access|e2m4|blue"
             ],
             "item_count": 1
           },
@@ -1588,28 +1588,28 @@
           {
             "name": "Yellow Skull Key",
             "access_rules": [
-              "$e2m6_yellowaccess"
+              "$key_access|e2m6|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Partial Invisibility 2",
             "access_rules": [
-              "$e2m6_yellowaccess"
+              "$key_access|e2m6|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Computer Area Map",
             "access_rules": [
-              "$e2m6_yellowaccess"
+              "$key_access|e2m6|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge",
             "access_rules": [
-              "$e2m6_yellowaccess"
+              "$key_access|e2m6|yellow"
             ],
             "item_count": 1
           },
@@ -1715,28 +1715,28 @@
           {
             "name": "Yellow Keycard",
             "access_rules": [
-              "$e2m7_blueaccess"
+              "$key_access|e2m7|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Chaingun",
             "access_rules": [
-              "$e2m7_blueaccess"
+              "$key_access|e2m7|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Backpack",
             "access_rules": [
-              "$e2m7_blueaccess"
+              "$key_access|e2m7|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Red Keycard",
             "access_rules": [
-              "$e2m7_yellowaccess"
+              "$key_access|e2m7|yellow"
             ],
             "item_count": 1
           },
@@ -1892,21 +1892,21 @@
           {
             "name": "Red Skull Key",
             "access_rules": [
-              "$e2m9_blueaccess"
+              "$key_access|e2m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Yellow Skull Key",
             "access_rules": [
-              "$e2m9_redaccess"
+              "$key_access|e2m9|red"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$e2m9_yellowaccess"
+              "$key_access|e2m9|yellow"
             ],
             "hosted_item": "e2m9_complete"
           }
@@ -2027,7 +2027,7 @@
           {
             "name": "Exit",
             "access_rules": [
-              "$e3m2_blueaccess"
+              "$key_access|e3m2|blue"
             ],
             "hosted_item": "e3m2_complete"
           }
@@ -2147,7 +2147,7 @@
           {
             "name": "Exit",
             "access_rules": [
-              "$e3m3_blueaccess"
+              "$key_access|e3m3|blue"
             ],
             "hosted_item": "e3m3_complete"
           }
@@ -2232,42 +2232,42 @@
           {
             "name": "Yellow Skull Key",
             "access_rules": [
-              "$e3m4_blueaccess"
+              "$key_access|e3m4|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Partial Invisibility",
             "access_rules": [
-              "$e3m4_blueaccess"
+              "$key_access|e3m4|blue"
             ],
             "item_count": 1
           },
           {
             "name": "BFG9000",
             "access_rules": [
-              "$e3m4_blueaccess"
+              "$key_access|e3m4|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge",
             "access_rules": [
-              "$e3m4_blueaccess"
+              "$key_access|e3m4|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Invulnerability 2",
             "access_rules": [
-              "$e3m4_blueaccess"
+              "$key_access|e3m4|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Armor 3",
             "access_rules": [
-              "$e3m4_blueaccess"
+              "$key_access|e3m4|blue"
             ],
             "item_count": 1
           },
@@ -2394,28 +2394,28 @@
           {
             "name": "BFG9000",
             "access_rules": [
-              "$e3m5_blueaccess"
+              "$key_access|e3m5|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Chainsaw",
             "access_rules": [
-              "$e3m5_yellowaccess"
+              "$key_access|e3m5|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge 2",
             "access_rules": [
-              "$e3m5_yellowaccess"
+              "$key_access|e3m5|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$e3m5_blueaccess"
+              "$key_access|e3m5|blue"
             ],
             "hosted_item": "e3m5_complete"
           }
@@ -2556,7 +2556,7 @@
           {
             "name": "Exit",
             "access_rules": [
-              "$e3m6_blueaccess"
+              "$key_access|e3m6|blue"
             ],
             "hosted_item": "e3m6_complete"
           }
@@ -2620,35 +2620,35 @@
           {
             "name": "BFG9000",
             "access_rules": [
-              "$e3m7_blueaccess"
+              "$key_access|e3m7|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Red Skull Key",
             "access_rules": [
-              "$e3m7_blueaccess"
+              "$key_access|e3m7|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Armor",
             "access_rules": [
-              "$e3m7_redaccess"
+              "$key_access|e3m7|red"
             ],
             "item_count": 1
           },
           {
             "name": "Yellow Skull Key",
             "access_rules": [
-              "$e3m7_redaccess"
+              "$key_access|e3m7|red"
             ],
             "item_count": 1
           },
           {
             "name": "Plasma Gun",
             "access_rules": [
-              "$e3m7_redaccess"
+              "$key_access|e3m7|red"
             ],
             "item_count": 1
           },
@@ -2727,105 +2727,105 @@
           {
             "name": "Rocket Launcher",
             "access_rules": [
-              "$e3m9_blueaccess"
+              "$key_access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher 2",
             "access_rules": [
-              "$e3m9_blueaccess"
+              "$key_access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge",
             "access_rules": [
-              "$e3m9_blueaccess"
+              "$key_access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Blue Skull Key",
             "access_rules": [
-              "$e3m9_blueaccess"
+              "$key_access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Berserk",
             "access_rules": [
-              "$e3m9_blueaccess"
+              "$key_access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Invulnerability",
             "access_rules": [
-              "$e3m9_blueaccess"
+              "$key_access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Partial Invisibility",
             "access_rules": [
-              "$e3m9_blueaccess"
+              "$key_access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Chaingun",
             "access_rules": [
-              "$e3m9_blueaccess"
+              "$key_access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Plasma Gun",
             "access_rules": [
-              "$e3m9_blueaccess"
+              "$key_access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Invulnerability 2",
             "access_rules": [
-              "$e3m9_blueaccess"
+              "$key_access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Armor",
             "access_rules": [
-              "$e3m9_blueaccess"
+              "$key_access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Chainsaw",
             "access_rules": [
-              "$e3m9_blueaccess"
+              "$key_access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "BFG9000",
             "access_rules": [
-              "$e3m9_blueaccess"
+              "$key_access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Red Skull Key",
             "access_rules": [
-              "$e3m9_blueaccess"
+              "$key_access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge 2",
             "access_rules": [
-              "$e3m9_blueaccess"
+              "$key_access|e3m9|blue"
             ],
             "item_count": 1
           },
@@ -2967,14 +2967,14 @@
           {
             "name": "BFG9000",
             "access_rules": [
-              "$e4m2_blueaccess"
+              "$key_access|e4m2|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher",
             "access_rules": [
-              "$e4m2_yellowaccess"
+              "$key_access|e4m2|yellow"
             ],
             "item_count": 1
           },
@@ -3002,7 +3002,7 @@
           {
             "name": "Exit",
             "access_rules": [
-              "$e4m2_blueaccess"
+              "$key_access|e4m2|blue"
             ],
             "hosted_item": "e4m2_complete"
           }
@@ -3214,7 +3214,7 @@
           {
             "name": "Exit",
             "access_rules": [
-              "$e4m4_redaccess"
+              "$key_access|e4m4|red"
             ],
             "hosted_item": "e4m4_complete"
           }
@@ -3264,56 +3264,56 @@
           {
             "name": "Yellow Skull Key",
             "access_rules": [
-              "$e4m5_redaccess"
+              "$key_access|e4m5|red"
             ],
             "item_count": 1
           },
           {
             "name": "Blue Skull Key",
             "access_rules": [
-              "$e4m5_redaccess"
+              "$key_access|e4m5|red"
             ],
             "item_count": 1
           },
           {
             "name": "BFG9000",
             "access_rules": [
-              "$e4m5_redaccess"
+              "$key_access|e4m5|red"
             ],
             "item_count": 1
           },
           {
             "name": "Plasma Gun",
             "access_rules": [
-              "$e4m5_redaccess"
+              "$key_access|e4m5|red"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge",
             "access_rules": [
-              "$e4m5_redaccess"
+              "$key_access|e4m5|red"
             ],
             "item_count": 1
           },
           {
             "name": "Invulnerability",
             "access_rules": [
-              "$e4m5_redaccess"
+              "$key_access|e4m5|red"
             ],
             "item_count": 1
           },
           {
             "name": "Berserk",
             "access_rules": [
-              "$e4m5_redaccess"
+              "$key_access|e4m5|red"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$e4m5_redaccess"
+              "$key_access|e4m5|red"
             ],
             "hosted_item": "e4m5_complete"
           }
@@ -3398,7 +3398,7 @@
           {
             "name": "Yellow Skull Key",
             "access_rules": [
-              "$e4m6_blueaccess"
+              "$key_access|e4m6|blue"
             ],
             "item_count": 1
           },
@@ -3563,70 +3563,70 @@
           {
             "name": "Yellow Skull Key",
             "access_rules": [
-              "$e4m7_blueaccess"
+              "$key_access|e4m7|blue"
             ],
             "item_count": 1
           },
           {
             "name": "BFG9000",
             "access_rules": [
-              "$e4m7_yellowaccess"
+              "$key_access|e4m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Mega Armor 2",
             "access_rules": [
-              "$e4m7_yellowaccess"
+              "$key_access|e4m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Invulnerability",
             "access_rules": [
-              "$e4m7_yellowaccess"
+              "$key_access|e4m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Invulnerability 2",
             "access_rules": [
-              "$e4m7_yellowaccess"
+              "$key_access|e4m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge 2",
             "access_rules": [
-              "$e4m7_yellowaccess"
+              "$key_access|e4m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher 2",
             "access_rules": [
-              "$e4m7_yellowaccess"
+              "$key_access|e4m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Plasma Gun",
             "access_rules": [
-              "$e4m7_redaccess"
+              "$key_access|e4m7|red"
             ],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher 3",
             "access_rules": [
-              "$e4m7_redaccess"
+              "$key_access|e4m7|red"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$e4m7_redaccess"
+              "$key_access|e4m7|red"
             ],
             "hosted_item": "e4m7_complete"
           }
@@ -3845,14 +3845,14 @@
           {
             "name": "Backpack",
             "access_rules": [
-              "$e4m9_yellowaccess"
+              "$key_access|e4m9|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$e4m9_yellowaccess"
+              "$key_access|e4m9|yellow"
             ],
             "hosted_item": "e4m9_complete"
           }
