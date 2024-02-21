@@ -1,8 +1,8 @@
 [
   {
     "name": "Mars",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Hangar (E1M1)",
@@ -3869,8 +3869,8 @@
   },
   {
     "name": "E1M1",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Mega Armor",
@@ -3956,8 +3956,8 @@
   },
   {
     "name": "E1M2",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Shotgun",
@@ -4203,8 +4203,8 @@
   },
   {
     "name": "E1M3",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Armor",
@@ -4530,8 +4530,8 @@
   },
   {
     "name": "E1M4",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Chaingun",
@@ -4737,8 +4737,8 @@
   },
   {
     "name": "E1M5",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Yellow Keycard",
@@ -5084,8 +5084,8 @@
   },
   {
     "name": "E1M6",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Red Keycard",
@@ -5491,8 +5491,8 @@
   },
   {
     "name": "E1M7",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Shotgun 2",
@@ -5818,8 +5818,8 @@
   },
   {
     "name": "E1M8",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Supercharge",
@@ -5985,8 +5985,8 @@
   },
   {
     "name": "E1M9",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Yellow Keycard",
@@ -6192,8 +6192,8 @@
   },
   {
     "name": "E2M1",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Shotgun",
@@ -6379,8 +6379,8 @@
   },
   {
     "name": "E2M2",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Shotgun",
@@ -6786,8 +6786,8 @@
   },
   {
     "name": "E2M3",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Chaingun",
@@ -7033,8 +7033,8 @@
   },
   {
     "name": "E2M4",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Shotgun",
@@ -7380,8 +7380,8 @@
   },
   {
     "name": "E2M5",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Backpack",
@@ -7607,8 +7607,8 @@
   },
   {
     "name": "E2M6",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Shotgun",
@@ -7974,8 +7974,8 @@
   },
   {
     "name": "E2M7",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Rocket Launcher",
@@ -8321,8 +8321,8 @@
   },
   {
     "name": "E2M8",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Rocket Launcher",
@@ -8428,8 +8428,8 @@
   },
   {
     "name": "E2M9",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Supercharge",
@@ -8695,8 +8695,8 @@
   },
   {
     "name": "E3M1",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Shotgun",
@@ -8762,8 +8762,8 @@
   },
   {
     "name": "E3M2",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Chaingun",
@@ -8969,8 +8969,8 @@
   },
   {
     "name": "E3M3",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Berserk",
@@ -9276,8 +9276,8 @@
   },
   {
     "name": "E3M4",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Shotgun",
@@ -9663,8 +9663,8 @@
   },
   {
     "name": "E3M5",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Blue Skull Key",
@@ -9970,8 +9970,8 @@
   },
   {
     "name": "E3M6",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Mega Armor",
@@ -10337,8 +10337,8 @@
   },
   {
     "name": "E3M7",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Blue Skull Key",
@@ -10584,8 +10584,8 @@
   },
   {
     "name": "E3M8",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Rocket Launcher",
@@ -10671,8 +10671,8 @@
   },
   {
     "name": "E3M9",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Shotgun",
@@ -11018,8 +11018,8 @@
   },
   {
     "name": "E4M1",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Red Skull Key",
@@ -11165,8 +11165,8 @@
   },
   {
     "name": "E4M2",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Plasma Gun",
@@ -11432,8 +11432,8 @@
   },
   {
     "name": "E4M3",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Invulnerability",
@@ -11779,8 +11779,8 @@
   },
   {
     "name": "E4M4",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Rocket Launcher",
@@ -11966,8 +11966,8 @@
   },
   {
     "name": "E4M5",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Red Skull Key",
@@ -12213,8 +12213,8 @@
   },
   {
     "name": "E4M6",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Plasma Gun",
@@ -12560,8 +12560,8 @@
   },
   {
     "name": "E4M7",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Chaingun",
@@ -13027,8 +13027,8 @@
   },
   {
     "name": "E4M8",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Shotgun",
@@ -13394,8 +13394,8 @@
   },
   {
     "name": "E4M9",
-    "chest_unopened_img": "/images/items/cacodemon.png",
-    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
       {
         "name": "Yellow Skull Key",
