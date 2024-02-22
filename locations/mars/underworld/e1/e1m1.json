@@ -1,0 +1,124 @@
+[
+  {
+    "name": "E1M1",
+    "parent": "Hangar (E1M1)",
+    "children": [
+      {
+        "name": "Entrance",
+        "access_rules": [
+          "e1m1_access"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "hosted_item": "e1m1_access"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "size": 20,
+            "x": 418,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": [
+          "@Hangar (E1M1)/Mega Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Hangar (E1M1)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 585,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": [
+          "@Hangar (E1M1)/Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Mars/Hangar (E1M1)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 131,
+            "y": 281
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": [
+          "@Hangar (E1M1)/Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Mars/Hangar (E1M1)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 910,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "access_rules": [
+          "@Hangar (E1M1)/Exit"
+        ],
+        "sections": [
+          {
+            "ref": "Mars/Hangar (E1M1)/Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "size": 20,
+            "x": 833,
+            "y": 625
+          }
+        ]
+      }
+    ]
+  }
+]

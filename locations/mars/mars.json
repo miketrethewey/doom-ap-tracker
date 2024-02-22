@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Mars",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Phobos",
+        "children": [
+          {
+            "name": "Knee-Deep in the Dead (E1)",
+            "color": "#00ff00"
+          }
+        ]
+      },
+      {
+        "name": "Deimos",
+        "children": [
+          {
+            "name": "The Shores of Hell (E2)",
+            "color": "#0000ff"
+          }
+        ]
+      },
+      {
+        "name": "Hell",
+        "children": [
+          {
+            "name": "Inferno (E3)",
+            "color": "#ff0000"
+          }
+        ]
+      },
+      {
+        "name": "Earth",
+        "children": [
+          {
+            "name": "Thy Flesh Consumed (E4)",
+            "color": "#ffff00"
+          }
+        ]
+      }
+    ]
+  }
+]

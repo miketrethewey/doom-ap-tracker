@@ -25,7 +25,14 @@ Tracker:AddLayouts("layouts/broadcast.json")
 
 -- Locations
 print("Loading Locations")
-Tracker:AddLocations("locations/locations.json")
+Tracker:AddLocations("locations/mars/mars.json")            -- Mars
+Tracker:AddLocations("locations/mars/overworld/e1.json")    -- KDitD
+Tracker:AddLocations("locations/mars/underworld/e1/e1m1.json")
+Tracker:AddLocations("locations/mars/underworld/e1/e1m2.json")
+Tracker:AddLocations("locations/mars/overworld/e2.json")    -- TSoH
+Tracker:AddLocations("locations/mars/overworld/e3.json")    -- I
+Tracker:AddLocations("locations/mars/overworld/e4.json")    -- TFC
+Tracker:AddLocations("locations/locations.json")            -- Mars (Original)
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then

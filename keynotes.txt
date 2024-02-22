@@ -1,0 +1,16 @@
+1-2 xxx 1-3 1-4 1-5 1-6 1-7 xxx 1-9 : 7
+  R     BY  BY  BY  BYR BYR     BYR
+
+2-1 2-2 2-3 2-4 xxx 2-6 2-7 xxx 2-9 : 7
+B R BYR B   BY      BYR BYR     BYR
+
+xxx 3-2 3-3 3-4 3-5 3-6 3-7 xxx 3-9 : 7
+    B   B   BYR BY  B   BYR     B R
+
+4-1 4-2 4-3 4-4 4-5 4-6 4-7 4-8 4-9 : 9
+B R BY  B R   R BYR BYR BYR BY   Y
+
+Keys:   1-2 to 2-4
+Skulls: 2-6
+Keys:   2-7
+Skulls  2-9 to 4-9

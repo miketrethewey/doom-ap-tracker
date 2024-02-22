@@ -1,0 +1,308 @@
+[
+  {
+    "name": "E1M2",
+    "parent": "Nuclear Plant (E1M2)",
+    "children": [
+      {
+        "name": "Entrance",
+        "access_rules": [
+          "e1m2_access"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "hosted_item": "e1m2_access"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "size": 20,
+            "x": 543,
+            "y": 608
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": [
+          "@Nuclear Plant (E1M2)/Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 505,
+            "y": 451
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": [
+          "@Nuclear Plant (E1M2)/Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 590,
+            "y": 465
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": [
+          "@Nuclear Plant (E1M2)/Supercharge"
+        ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 910,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": [
+          "@Nuclear Plant (E1M2)/Chaingun"
+        ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 725,
+            "y": 608
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "access_rules": [
+          "@Nuclear Plant (E1M2)/Red Keycard"
+        ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Red Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 765,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "access_rules": [
+          "@Nuclear Plant (E1M2)/Armor 2"
+        ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Armor 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 543,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": [
+          "@Nuclear Plant (E1M2)/Backpack"
+        ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 570,
+            "y": 451
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": [
+          "@Nuclear Plant (E1M2)/Chainsaw"
+        ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Chainsaw",
+            "name": "Requires Red Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 142,
+            "y": 372
+          }
+        ]
+      },
+      {
+        "name": "Armor 3",
+        "access_rules": [
+          "@Nuclear Plant (E1M2)/Armor 3"
+        ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Armor 3",
+            "name": "Requires Red Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 130,
+            "y": 620
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": [
+          "@Nuclear Plant (E1M2)/Mega Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Mega Armor",
+            "name": "Requires Red Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 265,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Backpack 2",
+        "access_rules": [
+          "@Nuclear Plant (E1M2)/Backpack 2"
+        ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Backpack 2",
+            "name": "Requires Red Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 678,
+            "y": 720
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "access_rules": [
+          "@Nuclear Plant (E1M2)/Exit"
+        ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "size": 20,
+            "x": 495,
+            "y": 97
+          }
+        ]
+      }
+    ]
+  }
+]
