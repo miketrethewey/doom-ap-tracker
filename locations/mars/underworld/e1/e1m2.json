@@ -5,13 +5,15 @@
     "children": [
       {
         "name": "Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
-          "e1m2_access"
+          "$access|null"
         ],
         "sections": [
           {
             "name": "Level Start",
-            "hosted_item": "e1m2_access"
+            "item_count": 1
           }
         ],
         "map_locations": [

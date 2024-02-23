@@ -6,7 +6,7 @@
       {
         "name": "Hell Beneath (E4M1)",
         "access_rules": [
-          "e4m1_access"
+          "$access|e4m1"
         ],
         "sections": [
           {
@@ -37,14 +37,14 @@
           {
             "name": "Blue Skull Key",
             "access_rules": [
-              "$key_access|e4m1|red"
+              "$access|e4m1|red"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$key_access|e4m1|blue"
+              "$access|e4m1|blue"
             ],
             "hosted_item": "e4m1_complete"
           }
@@ -63,7 +63,7 @@
       {
         "name": "Perfect Hatred (E4M2)",
         "access_rules": [
-          "e4m2_access"
+          "$access|e4m2"
         ],
         "sections": [
           {
@@ -104,42 +104,42 @@
           {
             "name": "BFG9000",
             "access_rules": [
-              "$key_access|e4m2|blue"
+              "$access|e4m2|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher",
             "access_rules": [
-              "$key_access|e4m2|yellow"
+              "$access|e4m2|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Chainsaw",
             "access_rules": [
-              "$e4m2_blueyellowaccess"
+              "$or_access|e4m2|blue|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Armor 2",
             "access_rules": [
-              "$e4m2_blueyellowaccess"
+              "$or_access|e4m2|blue|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Blue Skull Key",
             "access_rules": [
-              "$e4m2_blueyellowaccess"
+              "$or_access|e4m2|blue|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$key_access|e4m2|blue"
+              "$access|e4m2|blue"
             ],
             "hosted_item": "e4m2_complete"
           }
@@ -158,7 +158,7 @@
       {
         "name": "Sever the Wicked (E4M3)",
         "access_rules": [
-          "e4m3_access"
+          "$access|e4m3"
         ],
         "sections": [
           {
@@ -239,14 +239,14 @@
           {
             "name": "Plasma Gun",
             "access_rules": [
-              "$e4m3_blueredaccess"
+              "$access|e4m3|blue|red"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$e4m3_blueredaccess"
+              "$access|e4m3|blue|red"
             ],
             "hosted_item": "e4m3_complete"
           }
@@ -265,7 +265,7 @@
       {
         "name": "Unruly Evil (E4M4)",
         "access_rules": [
-          "e4m4_access"
+          "$access|e4m4"
         ],
         "sections": [
           {
@@ -311,7 +311,7 @@
           {
             "name": "Exit",
             "access_rules": [
-              "$key_access|e4m4|red"
+              "$access|e4m4|red"
             ],
             "hosted_item": "e4m4_complete"
           }
@@ -330,7 +330,7 @@
       {
         "name": "They Will Repent (E4M5)",
         "access_rules": [
-          "e4m5_access"
+          "$access|e4m5"
         ],
         "sections": [
           {
@@ -356,56 +356,56 @@
           {
             "name": "Yellow Skull Key",
             "access_rules": [
-              "$key_access|e4m5|red"
+              "$access|e4m5|red"
             ],
             "item_count": 1
           },
           {
             "name": "Blue Skull Key",
             "access_rules": [
-              "$key_access|e4m5|red"
+              "$access|e4m5|red"
             ],
             "item_count": 1
           },
           {
             "name": "BFG9000",
             "access_rules": [
-              "$key_access|e4m5|red"
+              "$access|e4m5|red"
             ],
             "item_count": 1
           },
           {
             "name": "Plasma Gun",
             "access_rules": [
-              "$key_access|e4m5|red"
+              "$access|e4m5|red"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge",
             "access_rules": [
-              "$key_access|e4m5|red"
+              "$access|e4m5|red"
             ],
             "item_count": 1
           },
           {
             "name": "Invulnerability",
             "access_rules": [
-              "$key_access|e4m5|red"
+              "$access|e4m5|red"
             ],
             "item_count": 1
           },
           {
             "name": "Berserk",
             "access_rules": [
-              "$key_access|e4m5|red"
+              "$access|e4m5|red"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$key_access|e4m5|red"
+              "$access|e4m5|red"
             ],
             "hosted_item": "e4m5_complete"
           }
@@ -424,7 +424,7 @@
       {
         "name": "Against Thee Wickedly (E4M6)",
         "access_rules": [
-          "e4m6_access"
+          "$access|e4m6"
         ],
         "sections": [
           {
@@ -475,59 +475,59 @@
           {
             "name": "Yellow Skull Key",
             "access_rules": [
-              "$key_access|e4m6|blue"
+              "$access|e4m6|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Red Skull Key",
             "access_rules": [
-              "[e4m6_yellow], e4m6_blue, e4m6_red, ",
-              "e4m6_yellow, e4m6_blue, "
+              "[$access|e4m6|yellow], $access|e4m6|blue, $access|e4m6|red, ",
+              "$access|e4m6|yellow, $access|e4m6|blue, "
             ],
             "item_count": 1
           },
           {
             "name": "Invulnerability 2",
             "access_rules": [
-              "[e4m6_yellow], e4m6_blue, e4m6_red, ",
-              "e4m6_yellow, e4m6_blue, "
+              "[$access|e4m6|yellow], $access|e4m6|blue, $access|e4m6|red, ",
+              "$access|e4m6|yellow, $access|e4m6|blue, "
             ],
             "item_count": 1
           },
           {
             "name": "Invulnerability",
             "access_rules": [
-              "[$e4m6_bluered], "
+              "[$access|e4m6|blue|red], "
             ],
             "item_count": 1
           },
           {
             "name": "BFG9000",
             "access_rules": [
-              "$e4m6_blueredaccess"
+              "$access|e4m6|blue|red"
             ],
             "item_count": 1
           },
           {
             "name": "Backpack",
             "access_rules": [
-              "[$e4m6_bluered], "
+              "[$access|e4m6|blue|red], "
             ],
             "item_count": 1
           },
           {
             "name": "Berserk",
             "access_rules": [
-              "$e4m6_blueredaccess"
+              "$access|e4m6|blue|red"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "[e4m6_yellow], e4m6_blue, e4m6_red",
-              "e4m6_yellow, e4m6_blue"
+              "[$access|e4m6|yellow], $access|e4m6|blue, $access|e4m6|red",
+              "$access|e4m6|yellow, $access|e4m6|blue"
             ],
             "hosted_item": "e4m6_complete"
           }
@@ -546,7 +546,7 @@
       {
         "name": "And Hell Followed (E4M7)",
         "access_rules": [
-          "e4m7_access"
+          "$access|e4m7"
         ],
         "sections": [
           {
@@ -617,70 +617,70 @@
           {
             "name": "Yellow Skull Key",
             "access_rules": [
-              "$key_access|e4m7|blue"
+              "$access|e4m7|blue"
             ],
             "item_count": 1
           },
           {
             "name": "BFG9000",
             "access_rules": [
-              "$key_access|e4m7|yellow"
+              "$access|e4m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Mega Armor 2",
             "access_rules": [
-              "$key_access|e4m7|yellow"
+              "$access|e4m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Invulnerability",
             "access_rules": [
-              "$key_access|e4m7|yellow"
+              "$access|e4m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Invulnerability 2",
             "access_rules": [
-              "$key_access|e4m7|yellow"
+              "$access|e4m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge 2",
             "access_rules": [
-              "$key_access|e4m7|yellow"
+              "$access|e4m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher 2",
             "access_rules": [
-              "$key_access|e4m7|yellow"
+              "$access|e4m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Plasma Gun",
             "access_rules": [
-              "$key_access|e4m7|red"
+              "$access|e4m7|red"
             ],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher 3",
             "access_rules": [
-              "$key_access|e4m7|red"
+              "$access|e4m7|red"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$key_access|e4m7|red"
+              "$access|e4m7|red"
             ],
             "hosted_item": "e4m7_complete"
           }
@@ -699,7 +699,7 @@
       {
         "name": "Unto the Cruel (E4M8)",
         "access_rules": [
-          "e4m8_access"
+          "$access|e4m8"
         ],
         "sections": [
           {
@@ -765,42 +765,42 @@
           {
             "name": "Mega Armor",
             "access_rules": [
-              "$e4m8_yellowredaccess"
+              "$access|e4m8|yellow|red"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge 2",
             "access_rules": [
-              "$e4m8_yellowredaccess"
+              "$access|e4m8|yellow|red"
             ],
             "item_count": 1
           },
           {
             "name": "BFG9000",
             "access_rules": [
-              "$e4m8_yellowredaccess"
+              "$access|e4m8|yellow|red"
             ],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher 2",
             "access_rules": [
-              "$e4m8_yellowredaccess"
+              "$access|e4m8|yellow|red"
             ],
             "item_count": 1
           },
           {
             "name": "Plasma Gun",
             "access_rules": [
-              "$e4m8_yellowredaccess"
+              "$access|e4m8|yellow|red"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$e4m8_yellowredaccess"
+              "$access|e4m8|yellow|red"
             ],
             "hosted_item": "e4m8_complete"
           }
@@ -819,7 +819,7 @@
       {
         "name": "Fear (E4M9)",
         "access_rules": [
-          "e4m9_access"
+          "$access|e4m9"
         ],
         "sections": [
           {
@@ -865,14 +865,14 @@
           {
             "name": "Backpack",
             "access_rules": [
-              "$key_access|e4m9|yellow"
+              "$access|e4m9|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$key_access|e4m9|yellow"
+              "$access|e4m9|yellow"
             ],
             "hosted_item": "e4m9_complete"
           }

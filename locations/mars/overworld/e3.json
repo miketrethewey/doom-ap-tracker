@@ -6,7 +6,7 @@
       {
         "name": "Hell Keep (E3M1)",
         "access_rules": [
-          "e3m1_access"
+          "$access|e3m1"
         ],
         "sections": [
           {
@@ -37,7 +37,7 @@
       {
         "name": "Slough of Despair (E3M2)",
         "access_rules": [
-          "e3m2_access"
+          "$access|e3m2"
         ],
         "sections": [
           {
@@ -88,7 +88,7 @@
           {
             "name": "Exit",
             "access_rules": [
-              "$key_access|e3m2|blue"
+              "$access|e3m2|blue"
             ],
             "hosted_item": "e3m2_complete"
           }
@@ -105,7 +105,7 @@
       {
         "name": "Pandemonium (E3M3)",
         "access_rules": [
-          "e3m3_access"
+          "$access|e3m3"
         ],
         "sections": [
           {
@@ -181,7 +181,7 @@
           {
             "name": "Exit",
             "access_rules": [
-              "$key_access|e3m3|blue"
+              "$access|e3m3|blue"
             ],
             "hosted_item": "e3m3_complete"
           }
@@ -198,7 +198,7 @@
       {
         "name": "House of Pain (E3M4)",
         "access_rules": [
-          "e3m4_access"
+          "$access|e3m4"
         ],
         "sections": [
           {
@@ -249,70 +249,70 @@
           {
             "name": "Yellow Skull Key",
             "access_rules": [
-              "$key_access|e3m4|blue"
+              "$access|e3m4|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Partial Invisibility",
             "access_rules": [
-              "$key_access|e3m4|blue"
+              "$access|e3m4|blue"
             ],
             "item_count": 1
           },
           {
             "name": "BFG9000",
             "access_rules": [
-              "$key_access|e3m4|blue"
+              "$access|e3m4|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge",
             "access_rules": [
-              "$key_access|e3m4|blue"
+              "$access|e3m4|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Invulnerability 2",
             "access_rules": [
-              "$key_access|e3m4|blue"
+              "$access|e3m4|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Armor 3",
             "access_rules": [
-              "$key_access|e3m4|blue"
+              "$access|e3m4|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Red Skull Key",
             "access_rules": [
-              "$e3m4_blueyellowaccess"
+              "$access|e3m4|blue|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Backpack",
             "access_rules": [
-              "$e3m4_blueredaccess"
+              "$access|e3m4|blue|red"
             ],
             "item_count": 1
           },
           {
             "name": "Mega Armor 2",
             "access_rules": [
-              "$e3m4_blueredaccess"
+              "$access|e3m4|blue|red"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$e3m4_blueredaccess"
+              "$access|e3m4|blue|red"
             ],
             "hosted_item": "e3m4_complete"
           }
@@ -329,7 +329,7 @@
       {
         "name": "Unholy Cathedral (E3M5)",
         "access_rules": [
-          "e3m5_access"
+          "$access|e3m5"
         ],
         "sections": [
           {
@@ -390,28 +390,28 @@
           {
             "name": "BFG9000",
             "access_rules": [
-              "$key_access|e3m5|blue"
+              "$access|e3m5|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Chainsaw",
             "access_rules": [
-              "$key_access|e3m5|yellow"
+              "$access|e3m5|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge 2",
             "access_rules": [
-              "$key_access|e3m5|yellow"
+              "$access|e3m5|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$key_access|e3m5|blue"
+              "$access|e3m5|blue"
             ],
             "hosted_item": "e3m5_complete"
           }
@@ -428,7 +428,7 @@
       {
         "name": "Mt. Erebus (E3M6)",
         "access_rules": [
-          "e3m6_access"
+          "$access|e3m6"
         ],
         "sections": [
           {
@@ -519,7 +519,7 @@
           {
             "name": "Exit",
             "access_rules": [
-              "$key_access|e3m6|blue"
+              "$access|e3m6|blue"
             ],
             "hosted_item": "e3m6_complete"
           }
@@ -536,7 +536,7 @@
       {
         "name": "Limbo (E3M7)",
         "access_rules": [
-          "e3m7_access"
+          "$access|e3m7"
         ],
         "sections": [
           {
@@ -572,42 +572,42 @@
           {
             "name": "BFG9000",
             "access_rules": [
-              "$key_access|e3m7|blue"
+              "$access|e3m7|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Red Skull Key",
             "access_rules": [
-              "$key_access|e3m7|blue"
+              "$access|e3m7|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Armor",
             "access_rules": [
-              "$key_access|e3m7|red"
+              "$access|e3m7|red"
             ],
             "item_count": 1
           },
           {
             "name": "Yellow Skull Key",
             "access_rules": [
-              "$key_access|e3m7|red"
+              "$access|e3m7|red"
             ],
             "item_count": 1
           },
           {
             "name": "Plasma Gun",
             "access_rules": [
-              "$key_access|e3m7|red"
+              "$access|e3m7|red"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$e3m7_yellowredaccess"
+              "$access|e3m7|yellow|red"
             ],
             "hosted_item": "e3m7_complete"
           }
@@ -624,7 +624,7 @@
       {
         "name": "Dis (E3M8)",
         "access_rules": [
-          "e3m8_access"
+          "$access|e3m8"
         ],
         "sections": [
           {
@@ -660,7 +660,7 @@
       {
         "name": "Warrens (E3M9)",
         "access_rules": [
-          "e3m9_access"
+          "$access|e3m9"
         ],
         "sections": [
           {
@@ -671,112 +671,112 @@
           {
             "name": "Rocket Launcher",
             "access_rules": [
-              "$key_access|e3m9|blue"
+              "$access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher 2",
             "access_rules": [
-              "$key_access|e3m9|blue"
+              "$access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge",
             "access_rules": [
-              "$key_access|e3m9|blue"
+              "$access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Blue Skull Key",
             "access_rules": [
-              "$key_access|e3m9|blue"
+              "$access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Berserk",
             "access_rules": [
-              "$key_access|e3m9|blue"
+              "$access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Invulnerability",
             "access_rules": [
-              "$key_access|e3m9|blue"
+              "$access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Partial Invisibility",
             "access_rules": [
-              "$key_access|e3m9|blue"
+              "$access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Chaingun",
             "access_rules": [
-              "$key_access|e3m9|blue"
+              "$access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Plasma Gun",
             "access_rules": [
-              "$key_access|e3m9|blue"
+              "$access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Invulnerability 2",
             "access_rules": [
-              "$key_access|e3m9|blue"
+              "$access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Armor",
             "access_rules": [
-              "$key_access|e3m9|blue"
+              "$access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Chainsaw",
             "access_rules": [
-              "$key_access|e3m9|blue"
+              "$access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "BFG9000",
             "access_rules": [
-              "$key_access|e3m9|blue"
+              "$access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Red Skull Key",
             "access_rules": [
-              "$key_access|e3m9|blue"
+              "$access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge 2",
             "access_rules": [
-              "$key_access|e3m9|blue"
+              "$access|e3m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$e3m9_blueredaccess"
+              "$access|e3m9|blue|red"
             ],
             "hosted_item": "e3m9_complete"
           }

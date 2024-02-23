@@ -6,7 +6,7 @@
       {
         "name": "Deimos Anomaly (E2M1)",
         "access_rules": [
-          "e2m1_access"
+          "$access|e2m1"
         ],
         "sections": [
           {
@@ -42,21 +42,21 @@
           {
             "name": "Computer Area Map",
             "access_rules": [
-              "$key_access|e2m1|red"
+              "$access|e2m1|red"
             ],
             "item_count": 1
           },
           {
             "name": "Mega Armor",
             "access_rules": [
-              "$key_access|e2m1|red"
+              "$access|e2m1|red"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$key_access|e2m1|blue"
+              "$access|e2m1|blue"
             ],
             "hosted_item": "e2m1_complete"
           }
@@ -73,7 +73,7 @@
       {
         "name": "Containment Area (E2M2)",
         "access_rules": [
-          "e2m2_access"
+          "$access|e2m2"
         ],
         "sections": [
           {
@@ -154,35 +154,35 @@
           {
             "name": "Red Keycard",
             "access_rules": [
-              "$key_access|e2m2|blue"
+              "$access|e2m2|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Chaingun",
             "access_rules": [
-              "$key_access|e2m2|yellow"
+              "$access|e2m2|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Backpack 2",
             "access_rules": [
-              "$key_access|e2m2|yellow"
+              "$access|e2m2|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher",
             "access_rules": [
-              "$key_access|e2m2|yellow"
+              "$access|e2m2|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "[e2m2_red]"
+              "[$access|e2m2|red]"
             ],
             "hosted_item": "e2m2_complete"
           }
@@ -199,7 +199,7 @@
       {
         "name": "Refinery (E2M3)",
         "access_rules": [
-          "e2m3_access"
+          "$access|e2m3"
         ],
         "sections": [
           {
@@ -250,21 +250,21 @@
           {
             "name": "Supercharge",
             "access_rules": [
-              "$key_access|e2m3|blue"
+              "$access|e2m3|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Partial Invisibility",
             "access_rules": [
-              "$key_access|e2m3|blue"
+              "$access|e2m3|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$key_access|e2m3|blue"
+              "$access|e2m3|blue"
             ],
             "hosted_item": "e2m3_complete"
           }
@@ -281,7 +281,7 @@
       {
         "name": "Deimos Lab (E2M4)",
         "access_rules": [
-          "e2m4_access"
+          "$access|e2m4"
         ],
         "sections": [
           {
@@ -347,35 +347,35 @@
           {
             "name": "Yellow Keycard",
             "access_rules": [
-              "$key_access|e2m4|blue"
+              "$access|e2m4|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Plasma Gun",
             "access_rules": [
-              "$e2m4_blueyellowaccess"
+              "$access|e2m4|blue|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge",
             "access_rules": [
-              "$e2m4_blueyellowaccess"
+              "$access|e2m4|blue|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Mega Armor",
             "access_rules": [
-              "$e2m4_blueyellowaccess"
+              "$access|e2m4|blue|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$e2m4_blueyellowaccess"
+              "$access|e2m4|blue|yellow"
             ],
             "hosted_item": "e2m4_complete"
           }
@@ -392,7 +392,7 @@
       {
         "name": "Command Center (E2M5)",
         "access_rules": [
-          "e2m5_access"
+          "$access|e2m5"
         ],
         "sections": [
           {
@@ -463,7 +463,7 @@
       {
         "name": "Halls of the Damned (E2M6)",
         "access_rules": [
-          "e2m6_access"
+          "$access|e2m6"
         ],
         "sections": [
           {
@@ -534,35 +534,35 @@
           {
             "name": "Yellow Skull Key",
             "access_rules": [
-              "$key_access|e2m6|yellow"
+              "$access|e2m6|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Partial Invisibility 2",
             "access_rules": [
-              "$key_access|e2m6|yellow"
+              "$access|e2m6|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Computer Area Map",
             "access_rules": [
-              "$key_access|e2m6|yellow"
+              "$access|e2m6|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge",
             "access_rules": [
-              "$key_access|e2m6|yellow"
+              "$access|e2m6|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$e2m6_blueyellowredaccess"
+              "$access|e2m6|blue|yellow|red"
             ],
             "hosted_item": "e2m6_complete"
           }
@@ -579,7 +579,7 @@
       {
         "name": "Spawning Vats (E2M7)",
         "access_rules": [
-          "e2m7_access"
+          "$access|e2m7"
         ],
         "sections": [
           {
@@ -640,42 +640,42 @@
           {
             "name": "Yellow Keycard",
             "access_rules": [
-              "$key_access|e2m7|blue"
+              "$access|e2m7|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Chaingun",
             "access_rules": [
-              "$key_access|e2m7|blue"
+              "$access|e2m7|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Backpack",
             "access_rules": [
-              "$key_access|e2m7|blue"
+              "$access|e2m7|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Red Keycard",
             "access_rules": [
-              "$key_access|e2m7|yellow"
+              "$access|e2m7|yellow"
             ],
             "item_count": 1
           },
           {
             "name": "Supercharge",
             "access_rules": [
-              "$e2m7_blueredaccess"
+              "$access|e2m7|blue|red"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "[e2m7_red]"
+              "[$access|e2m7|red]"
             ],
             "hosted_item": "e2m7_complete"
           }
@@ -692,7 +692,7 @@
       {
         "name": "Tower of Babel (E2M8)",
         "access_rules": [
-          "e2m8_access"
+          "$access|e2m8"
         ],
         "sections": [
           {
@@ -733,7 +733,7 @@
       {
         "name": "Fortress of Mystery (E2M9)",
         "access_rules": [
-          "e2m9_access"
+          "$access|e2m9"
         ],
         "sections": [
           {
@@ -789,21 +789,21 @@
           {
             "name": "Red Skull Key",
             "access_rules": [
-              "$key_access|e2m9|blue"
+              "$access|e2m9|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Yellow Skull Key",
             "access_rules": [
-              "$key_access|e2m9|red"
+              "$access|e2m9|red"
             ],
             "item_count": 1
           },
           {
             "name": "Exit",
             "access_rules": [
-              "$key_access|e2m9|yellow"
+              "$access|e2m9|yellow"
             ],
             "hosted_item": "e2m9_complete"
           }
