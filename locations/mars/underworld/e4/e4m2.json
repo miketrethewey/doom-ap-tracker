@@ -1,0 +1,333 @@
+[
+  {
+    "name": "E4M2",
+    "children": [
+      {
+        "name": "Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "visibility_rules": [
+              "ep4_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "sections": [
+          {
+            "ref": "Perfect Hatred (E4M2)/Plasma Gun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 151,
+            "y": 490,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Perfect Hatred (E4M2)/Plasma Gun"
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "sections": [
+          {
+            "ref": "Perfect Hatred (E4M2)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 296,
+            "y": 712,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Perfect Hatred (E4M2)/Shotgun"
+        ]
+      },
+      {
+        "name": "Berserk",
+        "sections": [
+          {
+            "ref": "Perfect Hatred (E4M2)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 63,
+            "y": 305,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Perfect Hatred (E4M2)/Berserk"
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "sections": [
+          {
+            "ref": "Perfect Hatred (E4M2)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 295,
+            "y": 435,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Perfect Hatred (E4M2)/Supercharge"
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "sections": [
+          {
+            "ref": "Perfect Hatred (E4M2)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 119,
+            "y": 248,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Perfect Hatred (E4M2)/Mega Armor"
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "sections": [
+          {
+            "ref": "Perfect Hatred (E4M2)/Yellow Skull Key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 151,
+            "y": 462,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Perfect Hatred (E4M2)/Yellow Skull Key"
+        ]
+      },
+      {
+        "name": "Armor",
+        "sections": [
+          {
+            "ref": "Perfect Hatred (E4M2)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 332,
+            "y": 510,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Perfect Hatred (E4M2)/Armor"
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "sections": [
+          {
+            "ref": "Perfect Hatred (E4M2)/BFG9000",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 182,
+            "y": 251,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Perfect Hatred (E4M2)/BFG9000"
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "sections": [
+          {
+            "ref": "Perfect Hatred (E4M2)/Rocket Launcher",
+            "name": "Requires Yellow Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 360,
+            "y": 425,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Perfect Hatred (E4M2)/Rocket Launcher"
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "sections": [
+          {
+            "ref": "Perfect Hatred (E4M2)/Chainsaw",
+            "name": "Requires Blue or Yellow Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 495,
+            "y": 365,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Perfect Hatred (E4M2)/Chainsaw"
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "sections": [
+          {
+            "ref": "Perfect Hatred (E4M2)/Armor 2",
+            "name": "Requires Blue or Yellow Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 495,
+            "y": 320,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Perfect Hatred (E4M2)/Armor 2"
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "sections": [
+          {
+            "ref": "Perfect Hatred (E4M2)/Blue Skull Key",
+            "name": "Requires Blue or Yellow Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 490,
+            "y": 770,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Perfect Hatred (E4M2)/Blue Skull Key"
+        ]
+      },
+      {
+        "name": "Exit",
+        "sections": [
+          {
+            "ref": "Perfect Hatred (E4M2)/Exit",
+            "name": "Level Completed",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 286,
+            "y": 10,
+            "size": 20,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Perfect Hatred (E4M2)/Exit"
+        ]
+      }
+    ],
+    "parent": "Perfect Hatred (E4M2)"
+  }
+]

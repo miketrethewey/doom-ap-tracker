@@ -1,0 +1,494 @@
+[
+  {
+    "name": "E2M2",
+    "children": [
+      {
+        "name": "Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "visibility_rules": [
+              "ep2_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 138,
+            "y": 72,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Shotgun"
+        ]
+      },
+      {
+        "name": "Shotgun 2",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Shotgun 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 131,
+            "y": 45,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Shotgun 2"
+        ]
+      },
+      {
+        "name": "Berserk",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 299,
+            "y": 185,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Berserk"
+        ]
+      },
+      {
+        "name": "Armor",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 325,
+            "y": 215,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Armor"
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Armor 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 115,
+            "y": 45,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Armor 2"
+        ]
+      },
+      {
+        "name": "Armor 3",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Armor 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 140,
+            "y": 695,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Armor 3"
+        ]
+      },
+      {
+        "name": "Armor 4",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Armor 4",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 400,
+            "y": 339,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Armor 4"
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Yellow Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 325,
+            "y": 470,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Yellow Keycard"
+        ]
+      },
+      {
+        "name": "Backpack",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 115,
+            "y": 424,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Backpack"
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 216,
+            "y": 495,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Computer Area Map"
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 85,
+            "y": 642,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Mega Armor"
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Plasma Gun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 221,
+            "y": 616,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Plasma Gun"
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 201,
+            "y": 689,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Chainsaw"
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 440,
+            "y": 470,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Supercharge"
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 410,
+            "y": 487,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Blue Keycard"
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Red Keycard",
+            "name": "Requires Blue Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 457,
+            "y": 394,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Red Keycard"
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Chaingun",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 241,
+            "y": 96,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Chaingun"
+        ]
+      },
+      {
+        "name": "Backpack 2",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Backpack 2",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 380,
+            "y": 35,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Backpack 2"
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Rocket Launcher",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 460,
+            "y": 121,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Rocket Launcher"
+        ]
+      },
+      {
+        "name": "Exit",
+        "sections": [
+          {
+            "ref": "Containment Area (E2M2)/Exit",
+            "name": "Level Completed",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 10,
+            "y": 709,
+            "size": 20,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Containment Area (E2M2)/Exit"
+        ]
+      }
+    ],
+    "parent": "Containment Area (E2M2)"
+  }
+]

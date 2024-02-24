@@ -1,0 +1,425 @@
+[
+  {
+    "name": "E1M5",
+    "children": [
+      {
+        "name": "Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Yellow Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 715,
+            "y": 418,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Yellow Keycard"
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 861,
+            "y": 585,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Mega Armor"
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 861,
+            "y": 600,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Rocket Launcher"
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 620,
+            "y": 528,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Shotgun"
+        ]
+      },
+      {
+        "name": "Shotgun 2",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Shotgun 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 757,
+            "y": 537,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Shotgun 2"
+        ]
+      },
+      {
+        "name": "Shotgun 3",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Shotgun 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 482,
+            "y": 600,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Shotgun 3"
+        ]
+      },
+      {
+        "name": "Armor",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 455,
+            "y": 645,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Armor"
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Blue Keycard",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 595,
+            "y": 360,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Blue Keycard"
+        ]
+      },
+      {
+        "name": "Mega Armor 2",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Mega Armor 2",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 255,
+            "y": 344,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Mega Armor 2"
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Chainsaw",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 101,
+            "y": 427,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Chainsaw"
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Supercharge",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 112,
+            "y": 505,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Supercharge"
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Chaingun",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 953,
+            "y": 465,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Chaingun"
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Computer Area Map",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 910,
+            "y": 450,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Computer Area Map"
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Partial Invisibility",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 325,
+            "y": 250,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Partial Invisibility"
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Armor 2",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 577,
+            "y": 385,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Armor 2"
+        ]
+      },
+      {
+        "name": "Backpack",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Backpack",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 953,
+            "y": 449,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Backpack"
+        ]
+      },
+      {
+        "name": "Exit",
+        "sections": [
+          {
+            "ref": "Phobos Lab (E1M5)/Exit",
+            "name": "Level Completed",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 477,
+            "y": 15,
+            "size": 20,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Phobos Lab (E1M5)/Exit"
+        ]
+      }
+    ],
+    "parent": "Phobos Lab (E1M5)"
+  }
+]

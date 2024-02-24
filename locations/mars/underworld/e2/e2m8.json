@@ -1,0 +1,149 @@
+[
+  {
+    "name": "E2M8",
+    "children": [
+      {
+        "name": "Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m8",
+            "visibility_rules": [
+              "ep2_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "sections": [
+          {
+            "ref": "Tower of Babel (E2M8)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m8",
+            "x": 315,
+            "y": 385,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Tower of Babel (E2M8)/Rocket Launcher"
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "sections": [
+          {
+            "ref": "Tower of Babel (E2M8)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m8",
+            "x": 250,
+            "y": 447,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Tower of Babel (E2M8)/Supercharge"
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "sections": [
+          {
+            "ref": "Tower of Babel (E2M8)/Supercharge 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m8",
+            "x": 185,
+            "y": 385,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Tower of Babel (E2M8)/Supercharge 2"
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "sections": [
+          {
+            "ref": "Tower of Babel (E2M8)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m8",
+            "x": 263,
+            "y": 395,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Tower of Babel (E2M8)/Mega Armor"
+        ]
+      },
+      {
+        "name": "Exit",
+        "sections": [
+          {
+            "ref": "Tower of Babel (E2M8)/Exit",
+            "name": "Level Completed",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m8",
+            "x": 50,
+            "y": 170,
+            "size": 20,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Tower of Babel (E2M8)/Exit"
+        ]
+      }
+    ],
+    "parent": "Tower of Babel (E2M8)"
+  }
+]

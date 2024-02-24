@@ -1,0 +1,264 @@
+[
+  {
+    "name": "E1M4",
+    "children": [
+      {
+        "name": "Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "sections": [
+          {
+            "ref": "Command Control (E1M4)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 490,
+            "y": 465,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Command Control (E1M4)/Chaingun"
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "sections": [
+          {
+            "ref": "Command Control (E1M4)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 500,
+            "y": 403,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Command Control (E1M4)/Blue Keycard"
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "sections": [
+          {
+            "ref": "Command Control (E1M4)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 881,
+            "y": 540,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Command Control (E1M4)/Supercharge"
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "sections": [
+          {
+            "ref": "Command Control (E1M4)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 888,
+            "y": 610,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Command Control (E1M4)/Rocket Launcher"
+        ]
+      },
+      {
+        "name": "Backpack",
+        "sections": [
+          {
+            "ref": "Command Control (E1M4)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 985,
+            "y": 345,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Command Control (E1M4)/Backpack"
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "sections": [
+          {
+            "ref": "Command Control (E1M4)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 817,
+            "y": 401,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Command Control (E1M4)/Shotgun"
+        ]
+      },
+      {
+        "name": "Armor",
+        "sections": [
+          {
+            "ref": "Command Control (E1M4)/Armor",
+            "name": "Requires Blue or Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 97,
+            "y": 310,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Command Control (E1M4)/Armor"
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "sections": [
+          {
+            "ref": "Command Control (E1M4)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 735,
+            "y": 95,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Command Control (E1M4)/Mega Armor"
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "sections": [
+          {
+            "ref": "Command Control (E1M4)/Yellow Keycard",
+            "name": "Requires Blue or Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 115,
+            "y": 268,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Command Control (E1M4)/Yellow Keycard"
+        ]
+      },
+      {
+        "name": "Exit",
+        "sections": [
+          {
+            "ref": "Command Control (E1M4)/Exit",
+            "name": "Level Completed",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 20,
+            "y": 100,
+            "size": 20,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Command Control (E1M4)/Exit"
+        ]
+      }
+    ],
+    "parent": "Command Control (E1M4)"
+  }
+]

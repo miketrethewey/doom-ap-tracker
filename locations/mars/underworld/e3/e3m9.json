@@ -1,0 +1,425 @@
+[
+  {
+    "name": "E3M9",
+    "children": [
+      {
+        "name": "Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "visibility_rules": [
+              "ep3_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 180,
+            "y": 493,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/Shotgun"
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/Rocket Launcher",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 127,
+            "y": 270,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/Rocket Launcher"
+        ]
+      },
+      {
+        "name": "Rocket Launcher 2",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/Rocket Launcher 2",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 150,
+            "y": 60,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/Rocket Launcher 2"
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/Supercharge",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 120,
+            "y": 150,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/Supercharge"
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/Blue Skull Key",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 150,
+            "y": 45,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/Blue Skull Key"
+        ]
+      },
+      {
+        "name": "Berserk",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/Berserk",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 195,
+            "y": 260,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/Berserk"
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/Invulnerability",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 150,
+            "y": 30,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/Invulnerability"
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/Partial Invisibility",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 20,
+            "y": 150,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/Partial Invisibility"
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/Chaingun",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 195,
+            "y": 245,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/Chaingun"
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/Plasma Gun",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 357,
+            "y": 505,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/Plasma Gun"
+        ]
+      },
+      {
+        "name": "Invulnerability 2",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/Invulnerability 2",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 299,
+            "y": 284,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/Invulnerability 2"
+        ]
+      },
+      {
+        "name": "Armor",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/Armor",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 299,
+            "y": 270,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/Armor"
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/Chainsaw",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 299,
+            "y": 256,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/Chainsaw"
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/BFG9000",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 108,
+            "y": 545,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/BFG9000"
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/Red Skull Key",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 675,
+            "y": 485,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/Red Skull Key"
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/Supercharge 2",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 730,
+            "y": 485,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/Supercharge 2"
+        ]
+      },
+      {
+        "name": "Exit",
+        "sections": [
+          {
+            "ref": "Warrens (E3M9)/Exit",
+            "name": "Level Completed",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 299,
+            "y": 554,
+            "size": 20,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Warrens (E3M9)/Exit"
+        ]
+      }
+    ],
+    "parent": "Warrens (E3M9)"
+  }
+]

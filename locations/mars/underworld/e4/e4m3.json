@@ -1,0 +1,425 @@
+[
+  {
+    "name": "E4M3",
+    "children": [
+      {
+        "name": "Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "visibility_rules": [
+              "ep4_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 667,
+            "y": 281,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Invulnerability"
+        ]
+      },
+      {
+        "name": "Berserk",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 511,
+            "y": 265,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Berserk"
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Partial Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 511,
+            "y": 245,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Partial Invisibility"
+        ]
+      },
+      {
+        "name": "Backpack",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 470,
+            "y": 240,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Backpack"
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Red Skull Key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 257,
+            "y": 585,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Red Skull Key"
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Blue Skull Key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 451,
+            "y": 105,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Blue Skull Key"
+        ]
+      },
+      {
+        "name": "Backpack 2",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Backpack 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 313,
+            "y": 391,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Backpack 2"
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 289,
+            "y": 415,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Chainsaw"
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 301,
+            "y": 403,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Mega Armor"
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 225,
+            "y": 490,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Supercharge"
+        ]
+      },
+      {
+        "name": "Plasma Gun 2",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Plasma Gun 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 512,
+            "y": 348,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Plasma Gun 2"
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 733,
+            "y": 472,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Chaingun"
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 438,
+            "y": 257,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Shotgun"
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 145,
+            "y": 675,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Rocket Launcher"
+        ]
+      },
+      {
+        "name": "Partial Invisibility 2",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Partial Invisibility 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 180,
+            "y": 230,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Partial Invisibility 2"
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Plasma Gun",
+            "name": "Requires Blue & Red Skull Keys",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 650,
+            "y": 413,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Plasma Gun"
+        ]
+      },
+      {
+        "name": "Exit",
+        "sections": [
+          {
+            "ref": "Sever the Wicked (E4M3)/Exit",
+            "name": "Level Completed",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 624,
+            "y": 413,
+            "size": 20,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sever the Wicked (E4M3)/Exit"
+        ]
+      }
+    ],
+    "parent": "Sever the Wicked (E4M3)"
+  }
+]

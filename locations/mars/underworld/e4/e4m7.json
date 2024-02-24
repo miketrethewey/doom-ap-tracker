@@ -1,0 +1,563 @@
+[
+  {
+    "name": "E4M7",
+    "children": [
+      {
+        "name": "Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "visibility_rules": [
+              "ep4_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 402,
+            "y": 558,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Chaingun"
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 180,
+            "y": 517,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Rocket Launcher"
+        ]
+      },
+      {
+        "name": "Backpack",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 462,
+            "y": 372,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Backpack"
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 459,
+            "y": 464,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Supercharge"
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Blue Skull Key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 427,
+            "y": 464,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Blue Skull Key"
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Partial Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 110,
+            "y": 517,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Partial Invisibility"
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 489,
+            "y": 394,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Mega Armor"
+        ]
+      },
+      {
+        "name": "Armor",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 224,
+            "y": 558,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Armor"
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 313,
+            "y": 558,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Computer Area Map"
+        ]
+      },
+      {
+        "name": "Berserk",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 373,
+            "y": 527,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Berserk"
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Red Skull Key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 110,
+            "y": 600,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Red Skull Key"
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 110,
+            "y": 317,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Chainsaw"
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Yellow Skull Key",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 536,
+            "y": 543,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Yellow Skull Key"
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 313,
+            "y": 475,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Shotgun"
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/BFG9000",
+            "name": "Requires Yellow Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 312,
+            "y": 735,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/BFG9000"
+        ]
+      },
+      {
+        "name": "Mega Armor 2",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Mega Armor 2",
+            "name": "Requires Yellow Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 402,
+            "y": 675,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Mega Armor 2"
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Invulnerability",
+            "name": "Requires Yellow Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 324,
+            "y": 759,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Invulnerability"
+        ]
+      },
+      {
+        "name": "Invulnerability 2",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Invulnerability 2",
+            "name": "Requires Yellow Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 335,
+            "y": 749,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Invulnerability 2"
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Supercharge 2",
+            "name": "Requires Yellow Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 300,
+            "y": 759,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Supercharge 2"
+        ]
+      },
+      {
+        "name": "Rocket Launcher 2",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Rocket Launcher 2",
+            "name": "Requires Yellow Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 312,
+            "y": 759,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Rocket Launcher 2"
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Plasma Gun",
+            "name": "Requires Red Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 448,
+            "y": 215,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Plasma Gun"
+        ]
+      },
+      {
+        "name": "Rocket Launcher 3",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Rocket Launcher 3",
+            "name": "Requires Red Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 180,
+            "y": 215,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Rocket Launcher 3"
+        ]
+      },
+      {
+        "name": "Exit",
+        "sections": [
+          {
+            "ref": "And Hell Followed (E4M7)/Exit",
+            "name": "Level Completed",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 304,
+            "y": 139,
+            "size": 20,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@And Hell Followed (E4M7)/Exit"
+        ]
+      }
+    ],
+    "parent": "And Hell Followed (E4M7)"
+  }
+]

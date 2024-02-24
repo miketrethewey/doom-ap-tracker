@@ -1,0 +1,310 @@
+[
+  {
+    "name": "E3M7",
+    "children": [
+      {
+        "name": "Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "visibility_rules": [
+              "ep3_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "sections": [
+          {
+            "ref": "Limbo (E3M7)/Blue Skull Key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 389,
+            "y": 757,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Limbo (E3M7)/Blue Skull Key"
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "sections": [
+          {
+            "ref": "Limbo (E3M7)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 124,
+            "y": 516,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Limbo (E3M7)/Supercharge"
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "sections": [
+          {
+            "ref": "Limbo (E3M7)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 136,
+            "y": 498,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Limbo (E3M7)/Rocket Launcher"
+        ]
+      },
+      {
+        "name": "Backpack",
+        "sections": [
+          {
+            "ref": "Limbo (E3M7)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 443,
+            "y": 759,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Limbo (E3M7)/Backpack"
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "sections": [
+          {
+            "ref": "Limbo (E3M7)/Armor 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 250,
+            "y": 695,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Limbo (E3M7)/Armor 2"
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "sections": [
+          {
+            "ref": "Limbo (E3M7)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 216,
+            "y": 611,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Limbo (E3M7)/Mega Armor"
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "sections": [
+          {
+            "ref": "Limbo (E3M7)/BFG9000",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 740,
+            "y": 158,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Limbo (E3M7)/BFG9000"
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "sections": [
+          {
+            "ref": "Limbo (E3M7)/Red Skull Key",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 270,
+            "y": 77,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Limbo (E3M7)/Red Skull Key"
+        ]
+      },
+      {
+        "name": "Armor",
+        "sections": [
+          {
+            "ref": "Limbo (E3M7)/Armor",
+            "name": "Requires Red Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 249,
+            "y": 57,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Limbo (E3M7)/Armor"
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "sections": [
+          {
+            "ref": "Limbo (E3M7)/Yellow Skull Key",
+            "name": "Requires Red Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 247,
+            "y": 127,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Limbo (E3M7)/Yellow Skull Key"
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "sections": [
+          {
+            "ref": "Limbo (E3M7)/Plasma Gun",
+            "name": "Requires Red Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 235,
+            "y": 44,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Limbo (E3M7)/Plasma Gun"
+        ]
+      },
+      {
+        "name": "Exit",
+        "sections": [
+          {
+            "ref": "Limbo (E3M7)/Exit",
+            "name": "Level Completed",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 136,
+            "y": 92,
+            "size": 20,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Limbo (E3M7)/Exit"
+        ]
+      }
+    ],
+    "parent": "Limbo (E3M7)"
+  }
+]

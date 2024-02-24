@@ -1,0 +1,264 @@
+[
+  {
+    "name": "E4M9",
+    "children": [
+      {
+        "name": "Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "visibility_rules": [
+              "ep4_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "sections": [
+          {
+            "ref": "Fear (E4M9)/Yellow Skull Key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 312,
+            "y": 419,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Fear (E4M9)/Yellow Skull Key"
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "sections": [
+          {
+            "ref": "Fear (E4M9)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 202,
+            "y": 430,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Fear (E4M9)/Shotgun"
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "sections": [
+          {
+            "ref": "Fear (E4M9)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 122,
+            "y": 446,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Fear (E4M9)/Mega Armor"
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "sections": [
+          {
+            "ref": "Fear (E4M9)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 163,
+            "y": 685,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Fear (E4M9)/Rocket Launcher"
+        ]
+      },
+      {
+        "name": "Rocket Launcher 2",
+        "sections": [
+          {
+            "ref": "Fear (E4M9)/Rocket Launcher 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 196,
+            "y": 611,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Fear (E4M9)/Rocket Launcher 2"
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "sections": [
+          {
+            "ref": "Fear (E4M9)/Plasma Gun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 81,
+            "y": 422,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Fear (E4M9)/Plasma Gun"
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "sections": [
+          {
+            "ref": "Fear (E4M9)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 202,
+            "y": 247,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Fear (E4M9)/Chaingun"
+        ]
+      },
+      {
+        "name": "Berserk",
+        "sections": [
+          {
+            "ref": "Fear (E4M9)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 84,
+            "y": 617,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Fear (E4M9)/Berserk"
+        ]
+      },
+      {
+        "name": "Backpack",
+        "sections": [
+          {
+            "ref": "Fear (E4M9)/Backpack",
+            "name": "Requires Yellow Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 202,
+            "y": 34,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Fear (E4M9)/Backpack"
+        ]
+      },
+      {
+        "name": "Exit",
+        "sections": [
+          {
+            "ref": "Fear (E4M9)/Exit",
+            "name": "Level Completed",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 202,
+            "y": 5,
+            "size": 20,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Fear (E4M9)/Exit"
+        ]
+      }
+    ],
+    "parent": "Fear (E4M9)"
+  }
+]

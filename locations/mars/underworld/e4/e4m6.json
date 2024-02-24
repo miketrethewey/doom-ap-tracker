@@ -1,0 +1,425 @@
+[
+  {
+    "name": "E4M6",
+    "children": [
+      {
+        "name": "Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "visibility_rules": [
+              "ep4_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/Plasma Gun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 365,
+            "y": 270,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/Plasma Gun"
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/Blue Skull Key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 292,
+            "y": 398,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/Blue Skull Key"
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 402,
+            "y": 468,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/Supercharge"
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 515,
+            "y": 215,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/Rocket Launcher"
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 548,
+            "y": 398,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/Chaingun"
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/Partial Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 427,
+            "y": 502,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/Partial Invisibility"
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 148,
+            "y": 358,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/Shotgun"
+        ]
+      },
+      {
+        "name": "Armor",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 420,
+            "y": 398,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/Armor"
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 310,
+            "y": 245,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/Mega Armor"
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/Yellow Skull Key",
+            "name": "Requires Blue Skull Key",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 624,
+            "y": 112,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/Yellow Skull Key"
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/Red Skull Key",
+            "name": "Requires Blue & Yellow/Red Skull Keys",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 818,
+            "y": 410,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/Red Skull Key"
+        ]
+      },
+      {
+        "name": "Invulnerability 2",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/Invulnerability 2",
+            "name": "Requires Blue & Yellow/Red Skull Keys",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 628,
+            "y": 587,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/Invulnerability 2"
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/Invulnerability",
+            "name": "Requires Blue & Red Skull Keys",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 570,
+            "y": 600,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/Invulnerability"
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/BFG9000",
+            "name": "Requires Blue & Red Skull Keys",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 848,
+            "y": 467,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/BFG9000"
+        ]
+      },
+      {
+        "name": "Backpack",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/Backpack",
+            "name": "Requires Blue & Red Skull Keys",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 556,
+            "y": 614,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/Backpack"
+        ]
+      },
+      {
+        "name": "Berserk",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/Berserk",
+            "name": "Requires Blue & Red Skull Keys",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 848,
+            "y": 430,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/Berserk"
+        ]
+      },
+      {
+        "name": "Exit",
+        "sections": [
+          {
+            "ref": "Against Thee Wickedly (E4M6)/Exit",
+            "name": "Level Completed",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 668,
+            "y": 683,
+            "size": 20,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Against Thee Wickedly (E4M6)/Exit"
+        ]
+      }
+    ],
+    "parent": "Against Thee Wickedly (E4M6)"
+  }
+]

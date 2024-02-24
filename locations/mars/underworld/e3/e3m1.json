@@ -1,0 +1,103 @@
+[
+  {
+    "name": "E3M1",
+    "children": [
+      {
+        "name": "Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m1",
+            "visibility_rules": [
+              "ep3_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "sections": [
+          {
+            "ref": "Hell Keep (E3M1)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m1",
+            "x": 115,
+            "y": 390,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Hell Keep (E3M1)/Shotgun"
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "sections": [
+          {
+            "ref": "Hell Keep (E3M1)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m1",
+            "x": 52,
+            "y": 95,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Hell Keep (E3M1)/Rocket Launcher"
+        ]
+      },
+      {
+        "name": "Exit",
+        "sections": [
+          {
+            "ref": "Hell Keep (E3M1)/Exit",
+            "name": "Level Completed",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m1",
+            "x": 77,
+            "y": 40,
+            "size": 20,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Hell Keep (E3M1)/Exit"
+        ]
+      }
+    ],
+    "parent": "Hell Keep (E3M1)"
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "name": "E1M7",
+    "children": [
+      {
+        "name": "Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "visibility_rules": [
+              "ep1_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 2",
+        "sections": [
+          {
+            "ref": "Computer Station (E1M7)/Shotgun 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 440,
+            "y": 63,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Computer Station (E1M7)/Shotgun 2"
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "sections": [
+          {
+            "ref": "Computer Station (E1M7)/Yellow Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 717,
+            "y": 196,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Computer Station (E1M7)/Yellow Keycard"
+        ]
+      },
+      {
+        "name": "Armor",
+        "sections": [
+          {
+            "ref": "Computer Station (E1M7)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 459,
+            "y": 150,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Computer Station (E1M7)/Armor"
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "sections": [
+          {
+            "ref": "Computer Station (E1M7)/Shotgun",
+            "name": "Requires Blue & Yellow Keycards",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 513,
+            "y": 577,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Computer Station (E1M7)/Shotgun"
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "sections": [
+          {
+            "ref": "Computer Station (E1M7)/Chainsaw",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 122,
+            "y": 748,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Computer Station (E1M7)/Chainsaw"
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "sections": [
+          {
+            "ref": "Computer Station (E1M7)/Chaingun",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 370,
+            "y": 657,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Computer Station (E1M7)/Chaingun"
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "sections": [
+          {
+            "ref": "Computer Station (E1M7)/Red Keycard",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 100,
+            "y": 68,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Computer Station (E1M7)/Red Keycard"
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "sections": [
+          {
+            "ref": "Computer Station (E1M7)/Rocket Launcher",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 543,
+            "y": 370,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Computer Station (E1M7)/Rocket Launcher"
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "sections": [
+          {
+            "ref": "Computer Station (E1M7)/Mega Armor",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 340,
+            "y": 454,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Computer Station (E1M7)/Mega Armor"
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "sections": [
+          {
+            "ref": "Computer Station (E1M7)/Computer Area Map",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 407,
+            "y": 547,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Computer Station (E1M7)/Computer Area Map"
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "sections": [
+          {
+            "ref": "Computer Station (E1M7)/Supercharge",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 280,
+            "y": 174,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Computer Station (E1M7)/Supercharge"
+        ]
+      },
+      {
+        "name": "Backpack",
+        "sections": [
+          {
+            "ref": "Computer Station (E1M7)/Backpack",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 450,
+            "y": 653,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Computer Station (E1M7)/Backpack"
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "sections": [
+          {
+            "ref": "Computer Station (E1M7)/Armor 2",
+            "name": "Requires Yellow Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 160,
+            "y": 280,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Computer Station (E1M7)/Armor 2"
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "sections": [
+          {
+            "ref": "Computer Station (E1M7)/Blue Keycard",
+            "name": "Requires Red Keycard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 193,
+            "y": 93,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Computer Station (E1M7)/Blue Keycard"
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "sections": [
+          {
+            "ref": "Computer Station (E1M7)/Partial Invisibility",
+            "name": "Requires Yellow & Red Keycards",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 696,
+            "y": 403,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Computer Station (E1M7)/Partial Invisibility"
+        ]
+      },
+      {
+        "name": "Exit",
+        "sections": [
+          {
+            "ref": "Computer Station (E1M7)/Exit",
+            "name": "Level Completed",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 848,
+            "y": 666,
+            "size": 20,
+            "visibility_rules": [
+              "ep1_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Computer Station (E1M7)/Exit"
+        ]
+      }
+    ],
+    "parent": "Computer Station (E1M7)"
+  }
+]
