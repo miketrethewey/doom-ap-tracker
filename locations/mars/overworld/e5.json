@@ -1,0 +1,15 @@
+[
+  {
+    "name": "SI6IL of Baphomet (E5)",
+    "parent": "SI6IL of Baphomet (E5)",
+    "children": [
+      {
+        "name": "Baphomet's Demesne (E5M1)",
+        "access_rules": [
+          "$access|e5m1"
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

@@ -267,7 +267,7 @@
               }
             },
             {
-              "title": "Mt. Erebus",
+              "title": "Mt. Erebus*",
               "icon": "images/overlays/3-6.png",
               "content": {
                 "type": "map",
@@ -406,6 +406,22 @@
               }
             }
           ]
+        }
+      },
+      {
+        "title": "SI6IL (E5)",
+        "icon": "images/levels/e5.png",
+        "content": {
+          "type": "tabbed",
+          "tabs": []
+        }
+      },
+      {
+        "title": "SI6IL II (E6)",
+        "icon": "images/levels/e6.png",
+        "content": {
+          "type": "tabbed",
+          "tabs": []
         }
       }
     ]
