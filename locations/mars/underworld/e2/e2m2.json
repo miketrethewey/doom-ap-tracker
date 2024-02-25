@@ -22,8 +22,8 @@
               "ep2_on"
             ],
             "size": 20,
-            "x": 0,
-            "y": 0
+            "x": 155,
+            "y": 12
           }
         ]
       },
@@ -470,7 +470,7 @@
           {
             "ref": "Containment Area (E2M2)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e2m2_complete"
           }
         ],
         "map_locations": [

@@ -401,7 +401,7 @@
           {
             "ref": "Against Thee Wickedly (E4M6)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e4m6_complete"
           }
         ],
         "map_locations": [

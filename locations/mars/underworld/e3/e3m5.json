@@ -355,7 +355,7 @@
           {
             "ref": "Unholy Cathedral (E3M5)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e3m5_complete"
           }
         ],
         "map_locations": [

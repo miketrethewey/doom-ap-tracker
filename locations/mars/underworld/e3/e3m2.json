@@ -22,8 +22,8 @@
               "ep3_on"
             ],
             "size": 20,
-            "x": 0,
-            "y": 0
+            "x": 502,
+            "y": 672
           }
         ]
       },
@@ -240,7 +240,7 @@
           {
             "ref": "Slough of Despair (E3M2)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e3m2_complete"
           }
         ],
         "map_locations": [

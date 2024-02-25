@@ -22,8 +22,8 @@
               "ep2_on"
             ],
             "size": 20,
-            "x": 0,
-            "y": 0
+            "x": 480,
+            "y": 36
           }
         ]
       },
@@ -263,7 +263,7 @@
           {
             "ref": "Command Center (E2M5)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e2m5_complete"
           }
         ],
         "map_locations": [
@@ -271,6 +271,30 @@
             "map": "e2m5",
             "x": 770,
             "y": 175,
+            "size": 20,
+            "visibility_rules": [
+              "ep2_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Command Center (E2M5)/Exit"
+        ]
+      },
+      {
+        "name": "Secret Exit",
+        "sections": [
+          {
+            "ref": "Command Center (E2M5)/Secret Exit",
+            "name": "Level Completed",
+            "hosted_item": "e2m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m5",
+            "x": 731,
+            "y": 49,
             "size": 20,
             "visibility_rules": [
               "ep2_on"

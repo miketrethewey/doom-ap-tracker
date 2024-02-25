@@ -240,7 +240,7 @@
           {
             "ref": "Fear (E4M9)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e4m9_complete"
           }
         ],
         "map_locations": [

@@ -22,8 +22,8 @@
               "ep1_on"
             ],
             "size": 20,
-            "x": 0,
-            "y": 0
+            "x": 309,
+            "y": 762
           }
         ]
       },
@@ -194,7 +194,7 @@
           {
             "ref": "Phobos Anomaly (E1M8)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e1m8_complete"
           }
         ],
         "map_locations": [

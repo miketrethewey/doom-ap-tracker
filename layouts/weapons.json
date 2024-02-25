@@ -16,13 +16,11 @@
                         "rows": [
                             [
                                 "chainsaw",
-                                "shotgun"
+                                "shotgun",
+                                "chaingun"
                             ],
                             [
-                                "chaingun",
-                                "rocketlauncher"
-                            ],
-                            [
+                                "rocketlauncher",
                                 "plasmagun",
                                 "bfg9000"
                             ]

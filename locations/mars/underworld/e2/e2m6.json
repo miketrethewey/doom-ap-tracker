@@ -22,8 +22,8 @@
               "ep2_on"
             ],
             "size": 20,
-            "x": 0,
-            "y": 0
+            "x": 311,
+            "y": 488
           }
         ]
       },
@@ -424,7 +424,7 @@
           {
             "ref": "Halls of the Damned (E2M6)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e2m6_complete"
           }
         ],
         "map_locations": [

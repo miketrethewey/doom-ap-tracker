@@ -424,7 +424,7 @@
           {
             "ref": "Unto the Cruel (E4M8)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e4m8_complete"
           }
         ],
         "map_locations": [

@@ -447,7 +447,7 @@
           {
             "ref": "House of Pain (E3M4)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e3m4_complete"
           }
         ],
         "map_locations": [

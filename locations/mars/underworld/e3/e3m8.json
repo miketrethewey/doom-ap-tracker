@@ -102,7 +102,7 @@
           {
             "ref": "Dis (E3M8)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e3m8_complete"
           }
         ],
         "map_locations": [

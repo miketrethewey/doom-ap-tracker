@@ -22,8 +22,8 @@
               "ep2_on"
             ],
             "size": 20,
-            "x": 0,
-            "y": 0
+            "x": 280,
+            "y": 280
           }
         ]
       },
@@ -309,7 +309,7 @@
           {
             "ref": "Fortress of Mystery (E2M9)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e2m9_complete"
           }
         ],
         "map_locations": [

@@ -17,6 +17,8 @@ if os.path.isfile(locationsPath):
                 del mapData["chest_opened_img"]
                 for child in mapData["children"]:
                     if child["name"] == "Exit":
+                        del child["sections"][0]["item_count"]
+                        child["sections"][0]["hosted_item"] = f"e{epID}m{mapID}_complete"
                         child["map_locations"][0]["size"] = 20
                     child["map_locations"][0]["visibility_rules"] = child["visibility_rules"]
                     del child["visibility_rules"]

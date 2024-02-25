@@ -1,9 +1,19 @@
 local variant = Tracker.ActiveVariantUID
 IS_UNLABELLED = variant:find("maps-u")
 
+-- Load Constants
+print("Load Constants")
+ScriptHost:LoadScript("./scripts/constants/constants.lua")
+print("")
+
 -- Items
 print("Loading Items")
 Tracker:AddItems("items/items.json")
+ScriptHost:LoadScript("scripts/class.lua")
+ScriptHost:LoadScript("scripts/items/custom_item.lua")
+ScriptHost:LoadScript("scripts/items/access.lua")
+ScriptHost:LoadScript("scripts/items/complete.lua")
+ScriptHost:LoadScript("scripts/items/key.lua")
 print("")
 
 -- Logic

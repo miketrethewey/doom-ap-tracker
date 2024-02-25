@@ -22,8 +22,8 @@
               "ep1_on"
             ],
             "size": 20,
-            "x": 0,
-            "y": 0
+            "x": 496,
+            "y": 782
           }
         ]
       },
@@ -401,7 +401,7 @@
           {
             "ref": "Phobos Lab (E1M5)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e1m5_complete"
           }
         ],
         "map_locations": [

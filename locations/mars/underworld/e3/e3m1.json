@@ -22,8 +22,8 @@
               "ep3_on"
             ],
             "size": 20,
-            "x": 0,
-            "y": 0
+            "x": 260,
+            "y": 710
           }
         ]
       },
@@ -79,7 +79,7 @@
           {
             "ref": "Hell Keep (E3M1)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e3m1_complete"
           }
         ],
         "map_locations": [

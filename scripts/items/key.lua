@@ -1,0 +1,164 @@
+KeyItem = class(CustomItem)
+
+function KeyItem:init(
+    name,
+    code,
+    color,
+    size
+)
+    size = size or "normal"
+    -- print(name,code,img,size)
+
+    keyType = "cards"
+    if string.find(code,"e2m6") or
+        string.find(code,"e2m9") or
+        string.find(code,"e3") or
+        string.find(code,"e4") then
+        keyType = "skulls"
+    end
+
+    if keyType == "cards" then
+        name = name .. " keycard"
+    elseif keyType == "skulls" then
+        name = name .. " skull key"
+    end
+
+    self:createItem(name)
+    self.code = {}
+    self:setProperty("active", false)
+    self.code[code] = true
+
+    img = "images/items/keys/" .. keyType .. "/" .. color
+    imgMods = ""
+    if size == "slim" then
+        code = code .. "_slim"
+        img = img .. "_slim"
+        self.code[code] = true
+    else
+        imgMods = "overlay|images/overlays/" .. string.sub(code,2,2) .. '-' .. string.sub(code,4,4) .. ".png"
+    end
+
+    img = img .. ".png"
+
+    disabledMods = imgMods .. "," .. "@disabled"
+
+    self.activeImage = ImageReference:FromPackRelativePath(
+        img,
+        imgMods
+    )
+    self.disabledImage = ImageReference:FromPackRelativePath(
+        disabledImg or img,
+        disabledMods or imgMods
+    )
+
+    self:updateIcon()
+end
+
+-- Set state to Active
+function KeyItem:setActive(active)
+    -- print(self.ItemInstance.Name .. " Value to " .. (active and "Active" or "Inactive"))
+    self:setProperty("active", active)
+end
+
+-- Get if it's In/Active
+function KeyItem:getActive()
+    -- print(self.ItemInstance.Name .. " State is " .. (self:getProperty("active") and "Active" or "Inactive"))
+    return self:getProperty("active")
+end
+
+-- Update Icon
+function KeyItem:updateIcon()
+    if self:getActive() then
+        -- print(self.ItemInstance.Name .. " Icon to Active")
+        self.ItemInstance.Icon = self.activeImage
+    else
+        -- print(self.ItemInstance.Name .. " Icon to Inactive")
+        self.ItemInstance.Icon = self.disabledImage
+    end
+end
+
+-- OnLeftClick: Toggle
+function KeyItem:onLeftClick()
+    self:setActive(not self:getActive())
+end
+
+-- OnRightClick: Use Left Click
+function KeyItem:onRightClick()
+    self:onLeftClick()
+end
+
+-- True if code is present
+function KeyItem:canProvideCode(code)
+    if self.code[code] ~= nil then
+        -- print(self.ItemInstance.Name .. " can provide " .. code)
+        return true
+    else
+        -- print(self.ItemInstance.Name .. " can NOT provide " .. code)
+        return false
+    end
+end
+
+-- True if code is present and item is active
+function KeyItem:providesCode(code)
+    if self.code[code]~=nil and self:getActive() then
+        -- print(self.ItemInstance.Name .. " " .. tostring(self.code[code]) .. " is checking")
+        return 1
+    end
+    return 0
+end
+
+-- Save state
+function KeyItem:save()
+    local saveData = {}
+    saveData["active"] = self:getActive()
+    return saveData
+end
+
+-- Load state
+function KeyItem:load(data)
+    if data["active"] ~= nil then
+        self:setActive(data["active"])
+    end
+    return true
+end
+
+-- Update icon if property is changed
+function KeyItem:propertyChanged(key, value)
+    -- print(self.ItemInstance.Name .. " '" .. key .. "' changed to [" .. tostring(value) .. ']')
+    self:updateIcon()
+end
+
+items = {}
+for epID,episode in ipairs(mapNames) do
+    for mapID,map in ipairs(episode) do
+        if keySets[epID] then
+            if keySets[epID][mapID] then
+                if keySets[epID][mapID] ~= "" then
+                    colorSet = keySets[epID][mapID]
+                    for c in colorSet:gmatch"." do
+                        c = string.lower(c)
+                        if c == "b" then
+                            c = "blue"
+                        elseif c == "y" then
+                            c = "yellow"
+                        elseif c == "r" then
+                            c = "red"
+                        end
+                        name = map .. " (E" .. epID .. "M" .. mapID .. ")" .. " - " .. string.upper(string.sub(c,0,1)) .. string.sub(c,2)
+                        KeyItem(
+                            name,
+                            "e" .. epID .. "m" .. mapID .. "_" .. c,
+                            c
+                        )
+                        KeyItem(
+                            name,
+                            "e" .. epID .. "m" .. mapID .. "_" .. c,
+                            c,
+                            "slim"
+                        )
+                    end
+                end
+            end
+        end
+    end
+end

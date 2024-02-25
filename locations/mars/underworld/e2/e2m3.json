@@ -22,8 +22,8 @@
               "ep2_on"
             ],
             "size": 20,
-            "x": 0,
-            "y": 0
+            "x": 534,
+            "y": 12
           }
         ]
       },
@@ -286,7 +286,7 @@
           {
             "ref": "Refinery (E2M3)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e2m3_complete"
           }
         ],
         "map_locations": [

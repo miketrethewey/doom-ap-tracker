@@ -22,8 +22,8 @@
               "ep1_on"
             ],
             "size": 20,
-            "x": 0,
-            "y": 0
+            "x": 460,
+            "y": 20
           }
         ]
       },
@@ -378,7 +378,7 @@
           {
             "ref": "Computer Station (E1M7)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e1m7_complete"
           }
         ],
         "map_locations": [

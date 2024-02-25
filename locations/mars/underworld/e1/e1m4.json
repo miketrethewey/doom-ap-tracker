@@ -22,8 +22,8 @@
               "ep1_on"
             ],
             "size": 20,
-            "x": 0,
-            "y": 0
+            "x": 1040,
+            "y": 302
           }
         ]
       },
@@ -240,7 +240,7 @@
           {
             "ref": "Command Control (E1M4)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e1m4_complete"
           }
         ],
         "map_locations": [

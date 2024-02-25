@@ -286,7 +286,7 @@
           {
             "ref": "They Will Repent (E4M5)/Exit",
             "name": "Level Completed",
-            "item_count": 1
+            "hosted_item": "e4m5_complete"
           }
         ],
         "map_locations": [

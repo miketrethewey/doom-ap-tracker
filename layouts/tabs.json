@@ -13,7 +13,7 @@
         }
       },
       {
-        "title": "Episode 1",
+        "title": "Knee-Deep in the Dead (E1)",
         "icon": "images/levels/e1.png",
         "content": {
           "type": "tabbed",
@@ -39,7 +39,7 @@
               }
             },
             {
-              "title": "Toxin Refinery",
+              "title": "Toxin Refinery*",
               "icon": "images/overlays/1-3.png",
               "content": {
                 "type": "map",
@@ -112,7 +112,7 @@
         }
       },
       {
-        "title": "Episode 2",
+        "title": "The Shores of Hell (E2)",
         "icon": "images/levels/e2.png",
         "content": {
           "type": "tabbed",
@@ -158,7 +158,7 @@
               }
             },
             {
-              "title": "Command Center",
+              "title": "Command Center*",
               "icon": "images/overlays/2-5.png",
               "content": {
                 "type": "map",
@@ -211,7 +211,7 @@
         }
       },
       {
-        "title": "Episode 3",
+        "title": "Inferno (E3)",
         "icon": "images/levels/e3.png",
         "content": {
           "type": "tabbed",
@@ -310,7 +310,7 @@
         }
       },
       {
-        "title": "Episode 4",
+        "title": "Thy Flesh Consumed (E4)",
         "icon": "images/levels/e4.png",
         "content": {
           "type": "tabbed",
