@@ -22,8 +22,8 @@
               "ep3_on"
             ],
             "size": 20,
-            "x": 0,
-            "y": 0
+            "x": 500,
+            "y": 595
           }
         ]
       },
@@ -432,6 +432,30 @@
             "map": "e3m6",
             "x": 163,
             "y": 356,
+            "size": 20,
+            "visibility_rules": [
+              "ep3_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Mt. Erebus (E3M6)/Exit"
+        ]
+      },
+      {
+        "name": "Secret Exit",
+        "sections": [
+          {
+            "ref": "Mt. Erebus (E3M6)/Secret Exit",
+            "name": "Level Completed",
+            "hosted_item": "e3m6_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 406,
+            "y": 36,
             "size": 20,
             "visibility_rules": [
               "ep3_on"

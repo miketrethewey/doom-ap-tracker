@@ -22,8 +22,8 @@
               "ep3_on"
             ],
             "size": 20,
-            "x": 0,
-            "y": 0
+            "x": 285,
+            "y": 730
           }
         ]
       },
@@ -55,7 +55,7 @@
         "sections": [
           {
             "ref": "Warrens (E3M9)/Rocket Launcher",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
@@ -101,7 +101,7 @@
         "sections": [
           {
             "ref": "Warrens (E3M9)/Supercharge",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
@@ -124,7 +124,7 @@
         "sections": [
           {
             "ref": "Warrens (E3M9)/Blue Skull Key",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
@@ -147,7 +147,7 @@
         "sections": [
           {
             "ref": "Warrens (E3M9)/Berserk",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
@@ -170,7 +170,7 @@
         "sections": [
           {
             "ref": "Warrens (E3M9)/Invulnerability",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
@@ -193,7 +193,7 @@
         "sections": [
           {
             "ref": "Warrens (E3M9)/Partial Invisibility",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
@@ -216,7 +216,7 @@
         "sections": [
           {
             "ref": "Warrens (E3M9)/Chaingun",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],

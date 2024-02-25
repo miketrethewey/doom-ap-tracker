@@ -671,7 +671,7 @@
           {
             "name": "Rocket Launcher",
             "access_rules": [
-              "$access|e3m9|blue"
+              "$access|e3m9"
             ],
             "item_count": 1
           },
@@ -685,42 +685,42 @@
           {
             "name": "Supercharge",
             "access_rules": [
-              "$access|e3m9|blue"
+              "$access|e3m9"
             ],
             "item_count": 1
           },
           {
             "name": "Blue Skull Key",
             "access_rules": [
-              "$access|e3m9|blue"
+              "$access|e3m9"
             ],
             "item_count": 1
           },
           {
             "name": "Berserk",
             "access_rules": [
-              "$access|e3m9|blue"
+              "$access|e3m9"
             ],
             "item_count": 1
           },
           {
             "name": "Invulnerability",
             "access_rules": [
-              "$access|e3m9|blue"
+              "$access|e3m9"
             ],
             "item_count": 1
           },
           {
             "name": "Partial Invisibility",
             "access_rules": [
-              "$access|e3m9|blue"
+              "$access|e3m9"
             ],
             "item_count": 1
           },
           {
             "name": "Chaingun",
             "access_rules": [
-              "$access|e3m9|blue"
+              "$access|e3m9"
             ],
             "item_count": 1
           },
