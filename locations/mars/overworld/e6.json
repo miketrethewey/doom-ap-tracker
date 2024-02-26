@@ -1,68 +1,68 @@
 [
   {
-    "name": "SI6IL of Baphomet (E5)",
-    "parent": "SI6IL of Baphomet (E5)",
+    "name": "SI6IL II (E6)",
+    "parent": "SI6IL II (E6)",
     "children": [
       {
-        "name": "Baphomet's Demesne (E5M1)",
+        "name": "Cursed Darkness (E6M1)",
         "access_rules": [
-          "$access|e5m1"
+          "$access|e6m1"
         ],
         "sections": []
       },
       {
-        "name": "Sheol (E5M2)",
+        "name": "Violent Hatred (E6M2)",
         "access_rules": [
-          "$access|e5m2"
+          "$access|e6m2"
         ],
         "sections": []
       },
       {
-        "name": "Cages of the Damned (E5M3)",
+        "name": "Twilight Desolation (E6M3)",
         "access_rules": [
-          "$access|e5m3"
+          "$access|e6m3"
         ],
         "sections": []
       },
       {
-        "name": "Paths of Wretchedness (E5M4)",
+        "name": "Fragments of Sanity (E6M4)",
         "access_rules": [
-          "$access|e5m4"
+          "$access|e6m4"
         ],
         "sections": []
       },
       {
-        "name": "Abaddon's Void (E5M5)",
+        "name": "Wrathful Reckoning (E6M5)",
         "access_rules": [
-          "$access|e5m5"
+          "$access|e6m5"
         ],
         "sections": []
       },
       {
-        "name": "Unspeakable Persecution (E5M6)",
+        "name": "Vengeance Unleashed (E6M6)",
         "access_rules": [
-          "$access|e5m6"
+          "$access|e6m6"
         ],
         "sections": []
       },
       {
-        "name": "Nightmare Underworld (E5M7)",
+        "name": "Descent Into Terror (E6M7)",
         "access_rules": [
-          "$access|e5m7"
+          "$access|e6m7"
         ],
         "sections": []
       },
       {
-        "name": "Halls of Perdition (E5M8)",
+        "name": "Abyss of Despair (E6M8)",
         "access_rules": [
-          "$access|e5m8"
+          "$access|e6m8"
         ],
         "sections": []
       },
       {
-        "name": "Realm of Iblis (E5M9)",
+        "name": "Shattered Homecoming (E6M9)",
         "access_rules": [
-          "$access|e5m9"
+          "$access|e6m9"
         ],
         "sections": []
       }

@@ -1,0 +1,59 @@
+[
+  {
+    "name": "E5M1",
+    "children": [
+      {
+        "name": "Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "visibility_rules": [
+              "ep5_on",
+              ""
+            ],
+            "size": 20,
+            "x": 345,
+            "y": 840
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "sections": [
+          {
+            "ref": "Baphomet's Demesne (E5M1)/Exit",
+            "name": "Level Completed",
+            "hosted_item": "e5m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "x": 940,
+            "y": 895,
+            "size": 20,
+            "visibility_rules": [
+              "ep5_on",
+              ""
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Baphomet's Demesne (E5M1)/Exit"
+        ]
+      }
+    ],
+    "parent": "Baphomet's Demesne (E5M1)"
+  }
+]

@@ -326,6 +326,30 @@
         "access_rules": [
           "@Perfect Hatred (E4M2)/Exit"
         ]
+      },
+      {
+        "name": "Secret Exit",
+        "sections": [
+          {
+            "ref": "Perfect Hatred (E4M2)/Secret Exit",
+            "name": "Level Completed",
+            "hosted_item": "e4m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 160,
+            "y": 680,
+            "size": 20,
+            "visibility_rules": [
+              "ep4_on"
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Perfect Hatred (E4M2)/Exit"
+        ]
       }
     ],
     "parent": "Perfect Hatred (E4M2)"

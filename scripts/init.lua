@@ -40,7 +40,7 @@ print("")
 -- Locations
 print("Loading Locations")
 Tracker:AddLocations("locations/mars/mars.json") -- Mars
-for e = 1,4
+for e = 1,6
 do
     Tracker:AddLocations(
         "locations/mars/overworld/" ..

@@ -7,14 +7,21 @@ function KeyItem:init(
     size
 )
     size = size or "normal"
-    -- print(name,code,img,size)
+    print(name,code,img,size)
 
     keyType = "cards"
     if string.find(code,"e2m6") or
         string.find(code,"e2m9") or
         string.find(code,"e3") or
-        string.find(code,"e4") then
+        string.find(code,"e4") or
+        string.find(code,"e5") or
+        string.find(code,"e6") then
         keyType = "skulls"
+    end
+    if string.find(code,"e6m5") or
+        (string.find(code,"e6m7") and color == "red") or
+        string.find(code,"e6m9") then
+        keyType = "cards"
     end
 
     if keyType == "cards" then

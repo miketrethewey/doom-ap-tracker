@@ -14,10 +14,17 @@ print(CONSTANTS)
 keysgrid = {
     "keys_grid": {
         "type": "array",
-        "orientation": "horizontal",
-        "content": []
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "content": []
+            }
+        ]
     }
 }
+
 for epID, maps in enumerate(CONSTANTS["mapnames"]):
     epID = epID + 1
     episode = {
@@ -56,7 +63,7 @@ for epID, maps in enumerate(CONSTANTS["mapnames"]):
                 map["rows"].append([""])
         map["rows"].append([f"e{epID}m{mapID}_complete"])
         episode["content"].append(map)
-    keysgrid["keys_grid"]["content"].append(episode)
+    keysgrid["keys_grid"]["content"][0]["content"].append(episode)
 
 with open(os.path.join("layouts","keys2.json"), "w") as keysFile:
     json.dump(keysgrid, keysFile, indent=2)

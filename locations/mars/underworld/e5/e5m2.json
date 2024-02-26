@@ -1,0 +1,59 @@
+[
+  {
+    "name": "E5M2",
+    "children": [
+      {
+        "name": "Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m2",
+            "visibility_rules": [
+              "ep5_on",
+              ""
+            ],
+            "size": 20,
+            "x": 476,
+            "y": 700
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "sections": [
+          {
+            "ref": "Sheol (E5M2)/Exit",
+            "name": "Level Completed",
+            "hosted_item": "e5m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m2",
+            "x": 765,
+            "y": 590,
+            "size": 20,
+            "visibility_rules": [
+              "ep5_on",
+              ""
+            ]
+          }
+        ],
+        "access_rules": [
+          "@Sheol (E5M2)/Exit"
+        ]
+      }
+    ],
+    "parent": "Sheol (E5M2)"
+  }
+]

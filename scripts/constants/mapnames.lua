@@ -42,5 +42,27 @@ mapNames = {
         "And Hell Followed",
         "Unto the Cruel",
         "Fear"
+    },
+    {
+        "Baphomet's Demesne",
+        "Sheol",
+        "Cages of the Damned",
+        "Paths of Wretchedness",
+        "Abaddon's Void",
+        "Unspeakable Persecution",
+        "Nightmare Underworld",
+        "Halls of Perdition",
+        "Realm of Iblis"
+    },
+    {
+        "Cursed Darkness",
+        "Violent Hatred",
+        "Twilight Desolation",
+        "Fragments of Sanity",
+        "Wrathful Reckoning",
+        "Vengeance Unleashed",
+        "Descent Into Terror",
+        "Abyss of Despair",
+        "Shattered Homecoming"
     }
 }
