@@ -7,7 +7,7 @@ function KeyItem:init(
     size
 )
     size = size or "normal"
-    print(name,code,img,size)
+    -- print(name,code,img,size)
 
     keyType = "cards"
     if string.find(code,"e2m6") or

@@ -8,42 +8,278 @@
         "access_rules": [
           "$access|e5m1"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Computer Area Map",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ]
       },
       {
         "name": "Sheol (E5M2)",
         "access_rules": [
           "$access|e5m2"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull Key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Superchage",
+            "access_rules": [ "$access|e5m2|red" ],
+            "item_count": 1
+          }
+        ]
       },
       {
         "name": "Cages of the Damned (E5M3)",
         "access_rules": [
           "$access|e5m3"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull Key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [ "$access|e5m3|red" ],
+            "item_count": 1
+          }
+        ]
       },
       {
         "name": "Paths of Wretchedness (E5M4)",
         "access_rules": [
           "$access|e5m4"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Chainsaw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull Key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Skull Key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invulnerability",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Skull Key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [ "$access|e5m4|blue|yellow|red" ],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [ "$access|e5m4|blue|yellow|red" ],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": [ "$access|e5m4|blue|yellow|red" ],
+            "item_count": 1
+          }
+        ]
       },
       {
         "name": "Abaddon's Void (E5M5)",
         "access_rules": [
           "$access|e5m5"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "note": "Western building, in acid",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chainsaw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Skull Key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 2",
+            "note": "On catwalk after teleporter after vanilla Blue Skull Key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Skull Key",
+            "access_rules": [ "$access|e5m5|blue" ],
+            "item_count": 1
+          }
+        ]
       },
       {
         "name": "Unspeakable Persecution (E5M6)",
         "access_rules": [
           "$access|e5m6"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Rifle",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Lignt-Amplification Goggles",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull Key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chainsaw",
+            "access_rules": [ "$access|e5m6|red" ],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [ "$access|e5m6|red" ],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "note": "On path to east",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk 2",
+            "note": "In east",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor 2",
+            "note": "In east, above Berserk 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ]
       },
       {
         "name": "Nightmare Underworld (E5M7)",
