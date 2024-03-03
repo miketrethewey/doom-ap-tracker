@@ -7,10 +7,52 @@
     "codes": "chainsaw"
   },
   {
+    "name": "Pistol",
+    "type": "static",
+    "img": "/images/items/inventory/pistol.png",
+    "codes": "pistol"
+  },
+  {
     "name": "Shotgun",
     "type": "toggle",
     "img": "/images/items/inventory/shotgun.png",
     "codes": "shotgun"
+  },
+  {
+    "name": "Super Shotgun",
+    "type": "toggle",
+    "img": "/images/items/inventory/supershotgun.png",
+    "codes": "shotgun,supershotgun"
+  },
+  {
+    "name": "Shotguns",
+    "type": "composite_toggle",
+    "item_left": "shotgun",
+    "item_right": "supershotgun",
+    "codes": "shotguns",
+    "images": [
+      {
+        "img": "/images/items/inventory/shotgun.png",
+        "left": true,
+        "right": false
+      },
+      {
+        "img": "/images/items/inventory/supershotgun.png",
+        "left": false,
+        "right": true
+      },
+      {
+        "img": "/images/items/inventory/shotguns.png",
+        "left": true,
+        "right": true
+      },
+      {
+        "img": "/images/items/inventory/shotguns.png",
+        "img_mods": "@disabled",
+        "left": false,
+        "right": false
+      }
+    ]
   },
   {
     "name": "Chaingun",
@@ -159,6 +201,48 @@
         "img": "images/settings/e4.png",
         "name": "Episode 4 - On",
         "codes": "ep4,ep4_on"
+      }
+    ]
+  },
+  {
+    "name": "SIGIL (E5)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/e5.png",
+        "img_mods": "overlay|images/settings/off.png",
+        "name": "Episode 5 - Off",
+        "codes": "ep5,ep5_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/e5.png",
+        "name": "Episode 5 - On",
+        "codes": "ep5,ep5_on"
+      }
+    ]
+  },
+  {
+    "name": "SIGIL II (E6)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/e6.png",
+        "img_mods": "overlay|images/settings/off.png",
+        "name": "Episode 6 - Off",
+        "codes": "ep6,ep6_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/e6.png",
+        "name": "Episode 6 - On",
+        "codes": "ep6,ep6_on"
       }
     ]
   },

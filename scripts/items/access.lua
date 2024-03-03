@@ -111,16 +111,26 @@ function AccessItem:propertyChanged(key, value)
 end
 
 items = {}
-for epID,episode in ipairs(mapNames) do
-    for mapID,map in ipairs(episode) do
-        name = map .. " (E" .. epID .. "M" .. mapID .. ")"
-        items[name] = AccessItem(
-            name,
-            "e" .. epID .. "m" .. mapID .. "_access",
-            "images/levels/" .. "e" .. epID .. ".png",
-            nil,
-            "overlay|images/overlays/" .. epID .. "-" .. mapID .. ".png",
-            "@disabled,overlay|images/overlays/" .. epID .. "-" .. mapID .. ".png"
-        )
+for epID,episode in pairs(keySets[baseGame]["episodes"]) do
+    if episode ~= nil and not skip_episode(epID) then
+        epName = episode["name"]
+        msg = baseGame .. ": " .. epName .. " (E" .. epID .. ")"
+        -- print(msg)
+        if episode["maps"] ~= nil then
+            for mapID,map in pairs(episode["maps"]) do
+                mapName = map["name"]
+                msg = " " .. mapName .. " (E" .. epID .. "M" .. mapID .. ") - Access"
+                itemName = msg
+                items[itemName] = AccessItem(
+                    itemName,
+                    "e" .. epID .. "m" .. mapID .. "_access",
+                    "images/levels/" .. "e" .. epID .. ".png",
+                    nil,
+                    "overlay|images/overlays/" .. epID .. "-" .. mapID .. ".png",
+                    "@disabled,overlay|images/overlays/" .. epID .. "-" .. mapID .. ".png"
+                )
+                -- print(msg)
+            end
+        end
     end
 end

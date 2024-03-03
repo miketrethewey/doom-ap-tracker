@@ -1,0 +1,59 @@
+[
+    {
+      "name": "E5M7",
+      "children": [
+        {
+          "name": "E5M7 Entrance",
+          "chest_unopened_img": "/images/items/levelstart.png",
+          "chest_opened_img": "/images/items/levelstart.png",
+          "access_rules": [
+            "$access|null"
+          ],
+          "sections": [
+            {
+              "name": "Level Start",
+              "item_count": 1
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "e5m7",
+              "visibility_rules": [
+                "ep5_on",
+                ""
+              ],
+              "size": 20,
+              "x": 107,
+              "y": 487
+            }
+          ]
+        },
+        {
+          "name": "E5M7 Exit",
+          "sections": [
+            {
+              "ref": "Nightmare Underworld (E5M7)/Exit",
+              "name": "Level Completed",
+              "hosted_item": "e5m7_complete"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "e5m7",
+              "x": 286,
+              "y": 730,
+              "size": 20,
+              "visibility_rules": [
+                "ep5_on",
+                ""
+              ]
+            }
+          ],
+          "access_rules": [
+            "@Nightmare Underworld (E5M7)/Exit"
+          ]
+        }
+      ],
+      "parent": "Nightmare Underworld (E5M7)"
+    }
+  ]

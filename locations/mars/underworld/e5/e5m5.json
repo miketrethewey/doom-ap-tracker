@@ -1,9 +1,9 @@
 [
     {
-      "name": "E5M3",
+      "name": "E5M5",
       "children": [
         {
-          "name": "Entrance",
+          "name": "E5M5 Entrance",
           "chest_unopened_img": "/images/items/levelstart.png",
           "chest_opened_img": "/images/items/levelstart.png",
           "access_rules": [
@@ -19,8 +19,7 @@
             {
               "map": "e5m5",
               "visibility_rules": [
-                "ep5_on",
-                ""
+                "ep5_on"
               ],
               "size": 20,
               "x": 1150,
@@ -29,7 +28,7 @@
           ]
         },
         {
-          "name": "Exit",
+          "name": "E5M5 Exit",
           "sections": [
             {
               "ref": "Abaddon's Void (E5M5)/Exit",
@@ -44,8 +43,7 @@
               "y": 630,
               "size": 20,
               "visibility_rules": [
-                "ep5_on",
-                ""
+                "ep5_on"
               ]
             }
           ],

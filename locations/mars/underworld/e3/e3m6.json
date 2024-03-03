@@ -419,7 +419,7 @@
         ]
       },
       {
-        "name": "Exit",
+        "name": "E3M6 Exit",
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Exit",
@@ -443,7 +443,7 @@
         ]
       },
       {
-        "name": "Secret Exit",
+        "name": "E3M6 Secret Exit",
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Secret Exit",

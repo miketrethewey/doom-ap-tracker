@@ -1,0 +1,427 @@
+E4:
+  M1:
+    locations:
+    - name: E4M1 Entrance
+      x: 630
+      y: 10
+    - name: Red Skull Key
+      x: 390
+      y: 455
+    - name: Rocket Launcher
+      x: 520
+      y: 308
+    - name: Shotgun
+      x: 657
+      y: 152
+    - name: Armor
+      x: 509
+      y: 205
+    - name: Chaingun
+      x: 297
+      y: 385
+    - name: Blue Skull Key
+      x: 1018
+      y: 266
+    - name: E4M1 Exit
+      x: 23
+      y: 266
+  M2:
+    locations:
+    - name: E4M2 Entrance
+      x: 296
+      y: 712
+    - name: Plasma Gun
+      x: 151
+      y: 490
+    - name: Shotgun
+      x: 296
+      y: 712
+    - name: Berserk
+      x: 63
+      y: 305
+    - name: Supercharge
+      x: 295
+      y: 435
+    - name: Mega Armor
+      x: 119
+      y: 248
+    - name: Yellow Skull Key
+      x: 151
+      y: 462
+    - name: Armor
+      x: 332
+      y: 510
+    - name: BFG9000
+      x: 182
+      y: 251
+    - name: Rocket Launcher
+      x: 360
+      y: 425
+    - name: Chainsaw
+      x: 495
+      y: 365
+    - name: Armor 2
+      x: 495
+      y: 320
+    - name: Blue Skull Key
+      x: 490
+      y: 770
+    - name: E4M2 Exit
+      x: 286
+      y: 10
+    - name: E4M2 Secret Exit
+      x: 160
+      y: 680
+  M3:
+    locations:
+    - name: E4M3 Entrance
+      x: 450
+      y: 250
+    - name: Invulnerability
+      x: 667
+      y: 281
+    - name: Berserk
+      x: 511
+      y: 265
+    - name: Partial Invisibility
+      x: 511
+      y: 245
+    - name: Backpack
+      x: 470
+      y: 240
+    - name: Red Skull Key
+      x: 257
+      y: 585
+    - name: Blue Skull Key
+      x: 451
+      y: 105
+    - name: Backpack 2
+      x: 313
+      y: 391
+    - name: Chainsaw
+      x: 289
+      y: 415
+    - name: Mega Armor
+      x: 301
+      y: 403
+    - name: Supercharge
+      x: 225
+      y: 490
+    - name: Plasma Gun 2
+      x: 512
+      y: 348
+    - name: Chaingun
+      x: 733
+      y: 472
+    - name: Shotgun
+      x: 438
+      y: 257
+    - name: Rocket Launcher
+      x: 145
+      y: 675
+    - name: Partial Invisibility 2
+      x: 180
+      y: 230
+    - name: Plasma Gun
+      x: 650
+      y: 413
+    - name: E4M3 Exit
+      x: 624
+      y: 413
+  M4:
+    locations:
+    - name: E4M4 Entrance
+      x: 7
+      y: 590
+    - name: Rocket Launcher
+      x: 110
+      y: 400
+    - name: Berserk
+      x: 50
+      y: 460
+    - name: Red Skull Key
+      x: 318
+      y: 392
+    - name: Chaingun
+      x: 385
+      y: 735
+    - name: Shotgun
+      x: 150
+      y: 600
+    - name: Partial Invisibility
+      x: 555
+      y: 472
+    - name: Invulnerability
+      x: 850
+      y: 670
+    - name: Supercharge
+      x: 850
+      y: 627
+    - name: E4M4 Exit
+      x: 456
+      y: 28
+  M5:
+    locations:
+    - name: E4M5 Entrance
+      x: 720
+      y: 230
+    - name: Red Skull Key
+      x: 575
+      y: 345
+    - name: Chaingun
+      x: 620
+      y: 610
+    - name: Rocket Launcher
+      x: 713
+      y: 600
+    - name: Armor
+      x: 460
+      y: 775
+    - name: Yellow Skull Key
+      x: 415
+      y: 35
+    - name: Blue Skull Key
+      x: 59
+      y: 412
+    - name: BFG9000
+      x: 473
+      y: 38
+    - name: Plasma Gun
+      x: 257
+      y: 430
+    - name: Supercharge
+      x: 223
+      y: 330
+    - name: Invulnerability
+      x: 570
+      y: 140
+    - name: Berserk
+      x: 430
+      y: 200
+    - name: E4M5 Exit
+      x: 488
+      y: 95
+  M6:
+    locations:
+    - name: E4M6 Entrance
+      x: 780
+      y: 340
+    - name: Plasma Gun
+      x: 365
+      y: 270
+    - name: Blue Skull Key
+      x: 292
+      y: 398
+    - name: Supercharge
+      x: 402
+      y: 468
+    - name: Rocket Launcher
+      x: 515
+      y: 215
+    - name: Chaingun
+      x: 548
+      y: 398
+    - name: Partial Invisibility
+      x: 427
+      y: 502
+    - name: Shotgun
+      x: 148
+      y: 358
+    - name: Armor
+      x: 420
+      y: 398
+    - name: Mega Armor
+      x: 310
+      y: 245
+    - name: Yellow Skull Key
+      x: 624
+      y: 112
+    - name: Red Skull Key
+      x: 818
+      y: 410
+    - name: Invulnerability 2
+      x: 628
+      y: 587
+    - name: Invulnerability
+      x: 570
+      y: 600
+    - name: BFG9000
+      x: 848
+      y: 467
+    - name: Backpack
+      x: 556
+      y: 614
+    - name: Berserk
+      x: 848
+      y: 430
+    - name: E4M6 Exit
+      x: 668
+      y: 683
+  M7:
+    locations:
+    - name: E4M7 Entrance
+      x: 314
+      y: 508
+    - name: Chaingun
+      x: 402
+      y: 558
+    - name: Rocket Launcher
+      x: 180
+      y: 517
+    - name: Backpack
+      x: 462
+      y: 372
+    - name: Supercharge
+      x: 459
+      y: 464
+    - name: Blue Skull Key
+      x: 427
+      y: 464
+    - name: Partial Invisibility
+      x: 110
+      y: 517
+    - name: Mega Armor
+      x: 489
+      y: 394
+    - name: Armor
+      x: 224
+      y: 558
+    - name: Computer Area Map
+      x: 313
+      y: 558
+    - name: Berserk
+      x: 373
+      y: 527
+    - name: Red Skull Key
+      x: 110
+      y: 600
+    - name: Chainsaw
+      x: 110
+      y: 317
+    - name: Yellow Skull Key
+      x: 536
+      y: 543
+    - name: Shotgun
+      x: 313
+      y: 475
+    - name: BFG9000
+      x: 312
+      y: 735
+    - name: Mega Armor 2
+      x: 402
+      y: 675
+    - name: Invulnerability
+      x: 324
+      y: 759
+    - name: Invulnerability 2
+      x: 335
+      y: 749
+    - name: Supercharge 2
+      x: 300
+      y: 759
+    - name: Rocket Launcher 2
+      x: 312
+      y: 759
+    - name: Plasma Gun
+      x: 448
+      y: 215
+    - name: Rocket Launcher 3
+      x: 180
+      y: 215
+    - name: E4M7 Exit
+      x: 304
+      y: 139
+  M8:
+    locations:
+    - name: E4M8 Entrance
+      x: 620
+      y: 140
+    - name: Shotgun
+      x: 595
+      y: 145
+    - name: Supercharge
+      x: 345
+      y: 370
+    - name: Rocket Launcher
+      x: 305
+      y: 30
+    - name: Mega Armor 2
+      x: 499
+      y: 435
+    - name: Yellow Skull Key
+      x: 521
+      y: 370
+    - name: Berserk
+      x: 471
+      y: 650
+    - name: Red Skull Key
+      x: 328
+      y: 30
+    - name: Chaingun
+      x: 616
+      y: 220
+    - name: Supercharge 3
+      x: 578
+      y: 745
+    - name: Partial Invisibility
+      x: 585
+      y: 543
+    - name: Backpack
+      x: 527
+      y: 669
+    - name: Plasma Gun 2
+      x: 480
+      y: 470
+    - name: Mega Armor
+      x: 202
+      y: 100
+    - name: Supercharge 2
+      x: 202
+      y: 187
+    - name: BFG9000
+      x: 57
+      y: 143
+    - name: Rocket Launcher 2
+      x: 67
+      y: 120
+    - name: Plasma Gun
+      x: 67
+      y: 165
+    - name: E4M8 Exit
+      x: 168
+      y: 143
+  M9:
+    locations:
+    - name: E4M9 Entrance
+      x: 200
+      y: 345
+    - name: Yellow Skull Key
+      x: 312
+      y: 419
+    - name: Shotgun
+      x: 202
+      y: 430
+    - name: Mega Armor
+      x: 122
+      y: 446
+    - name: Rocket Launcher
+      x: 163
+      y: 685
+    - name: Rocket Launcher 2
+      x: 196
+      y: 611
+    - name: Plasma Gun
+      x: 81
+      y: 422
+    - name: Chaingun
+      x: 202
+      y: 247
+    - name: Berserk
+      x: 84
+      y: 617
+    - name: Backpack
+      x: 202
+      y: 34
+    - name: E4M9 Exit
+      x: 202
+      y: 5

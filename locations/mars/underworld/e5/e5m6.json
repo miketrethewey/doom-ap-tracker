@@ -1,9 +1,9 @@
 [
     {
-      "name": "E5M3",
+      "name": "E5M6",
       "children": [
         {
-          "name": "Entrance",
+          "name": "E5M6 Entrance",
           "chest_unopened_img": "/images/items/levelstart.png",
           "chest_opened_img": "/images/items/levelstart.png",
           "access_rules": [
@@ -29,7 +29,7 @@
           ]
         },
         {
-          "name": "Exit",
+          "name": "E5M6 Exit",
           "sections": [
             {
               "ref": "Unspeakable Persecution (E5M6)/Exit",
@@ -42,6 +42,31 @@
               "map": "e5m6",
               "x": 560,
               "y": 390,
+              "size": 20,
+              "visibility_rules": [
+                "ep5_on",
+                ""
+              ]
+            }
+          ],
+          "access_rules": [
+            "@Unspeakable Persecution (E5M6)/Exit"
+          ]
+        },
+        {
+          "name": "E5M6 Secret Exit",
+          "sections": [
+            {
+              "ref": "Unspeakable Persecution (E5M6)/Secret Exit",
+              "name": "Level Completed",
+              "hosted_item": "e5m6_complete"
+            }
+          ],
+          "map_locations": [
+            {
+              "map": "e5m6",
+              "x": 1216,
+              "y": 300,
               "size": 20,
               "visibility_rules": [
                 "ep5_on",

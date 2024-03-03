@@ -1,0 +1,388 @@
+E1:
+  M1:
+    locations:
+    - name: E1M1 Entrance
+      x: 418
+      y: 380
+    - name: Mega Armor
+      x: 585
+      y: 290
+    - name: Armor
+      x: 131
+      y: 281
+    - name: Shotgun
+      x: 910
+      y: 435
+    - name: E1M1 Exit
+      x: 833
+      y: 625
+  M2:
+    locations:
+    - name: E1M2 Entrance
+      x: 543
+      y: 608
+    - name: Shotgun
+      x: 505
+      y: 451
+    - name: Armor
+      x: 590
+      y: 465
+    - name: Supercharge
+      x: 910
+      y: 480
+    - name: Chaingun
+      x: 725
+      y: 608
+    - name: Red Keycard
+      x: 765
+      y: 480
+    - name: Armor 2
+      x: 543
+      y: 360
+    - name: Backpack
+      x: 570
+      y: 451
+    - name: Chainsaw
+      x: 142
+      y: 372
+    - name: Armor 3
+      x: 130
+      y: 620
+    - name: Mega Armor
+      x: 265
+      y: 200
+    - name: Backpack 2
+      x: 678
+      y: 720
+    - name: E1M2 Exit
+      x: 495
+      y: 97
+  M3:
+    locations:
+    - name: E1M3 Entrance
+      x: 450
+      y: 758
+    - name: Armor
+      x: 82
+      y: 200
+    - name: Supercharge
+      x: 248
+      y: 529
+    - name: Yellow Keycard
+      x: 163
+      y: 351
+    - name: Blue Keycard
+      x: 775
+      y: 142
+    - name: Shotgun
+      x: 450
+      y: 715
+    - name: Shotgun 2
+      x: 320
+      y: 305
+    - name: Armor 2
+      x: 293
+      y: 358
+    - name: Rocket Launcher
+      x: 90
+      y: 150
+    - name: Chaingun
+      x: 310
+      y: 265
+    - name: Backpack
+      x: 206
+      y: 160
+    - name: Armor 3
+      x: 495
+      y: 453
+    - name: Chainsaw
+      x: 790
+      y: 522
+    - name: Mega Armor
+      x: 880
+      y: 565
+    - name: Supercharge 2
+      x: 900
+      y: 580
+    - name: Partial Invisibility
+      x: 880
+      y: 595
+    - name: E1M3 Exit
+      x: 986
+      y: 352
+    - name: E1M3 Secret Exit
+      x: 550
+      y: 304
+  M4:
+    locations:
+    - name: E1M4 Entrance
+      x: 1040
+      y: 302
+    - name: Chaingun
+      x: 490
+      y: 465
+    - name: Blue Keycard
+      x: 500
+      y: 403
+    - name: Supercharge
+      x: 881
+      y: 540
+    - name: Rocket Launcher
+      x: 888
+      y: 610
+    - name: Backpack
+      x: 985
+      y: 345
+    - name: Shotgun
+      x: 817
+      y: 401
+    - name: Armor
+      x: 97
+      y: 310
+    - name: Mega Armor
+      x: 735
+      y: 95
+    - name: Yellow Keycard
+      x: 115
+      y: 268
+    - name: E1M4 Exit
+      x: 20
+      y: 100
+  M5:
+    locations:
+    - name: E1M5 Entrance
+      x: 496
+      y: 782
+    - name: Yellow Keycard
+      x: 715
+      y: 418
+    - name: Mega Armor
+      x: 861
+      y: 585
+    - name: Rocket Launcher
+      x: 861
+      y: 600
+    - name: Shotgun
+      x: 620
+      y: 528
+    - name: Shotgun 2
+      x: 757
+      y: 537
+    - name: Shotgun 3
+      x: 482
+      y: 600
+    - name: Armor
+      x: 455
+      y: 645
+    - name: Blue Keycard
+      x: 595
+      y: 360
+    - name: Mega Armor 2
+      x: 255
+      y: 344
+    - name: Chainsaw
+      x: 101
+      y: 427
+    - name: Supercharge
+      x: 112
+      y: 505
+    - name: Chaingun
+      x: 953
+      y: 465
+    - name: Computer Area Map
+      x: 910
+      y: 450
+    - name: Partial Invisibility
+      x: 325
+      y: 250
+    - name: Armor 2
+      x: 577
+      y: 385
+    - name: Backpack
+      x: 953
+      y: 449
+    - name: E1M5 Exit
+      x: 477
+      y: 15
+  M6:
+    locations:
+    - name: E1M6 Entrance
+      x: 370
+      y: 640
+    - name: Red Keycard
+      x: 649
+      y: 623
+    - name: Partial Invisibility
+      x: 522
+      y: 557
+    - name: Chaingun
+      x: 590
+      y: 655
+    - name: Shotgun
+      x: 296
+      y: 625
+    - name: Rocket Launcher
+      x: 539
+      y: 557
+    - name: Backpack
+      x: 505
+      y: 557
+    - name: Armor
+      x: 386
+      y: 428
+    - name: Armor 4
+      x: 250
+      y: 470
+    - name: Supercharge 2
+      x: 424
+      y: 128
+    - name: Yellow Keycard
+      x: 557
+      y: 506
+    - name: Computer Area Map
+      x: 935
+      y: 654
+    - name: Backpack 2
+      x: 572
+      y: 492
+    - name: Backpack 3
+      x: 478
+      y: 180
+    - name: Armor 2
+      x: 542
+      y: 520
+    - name: Armor 3
+      x: 230
+      y: 200
+    - name: Supercharge
+      x: 46
+      y: 788
+    - name: Blue Keycard
+      x: 131
+      y: 686
+    - name: Partial Invisibility 2
+      x: 337
+      y: 654
+    - name: Mega Armor
+      x: 195
+      y: 685
+    - name: E1M6 Exit
+      x: 75
+      y: 83
+  M7:
+    locations:
+    - name: E1M7 Entrance
+      x: 460
+      y: 20
+    - name: Shotgun 2
+      x: 440
+      y: 63
+    - name: Yellow Keycard
+      x: 717
+      y: 196
+    - name: Armor
+      x: 459
+      y: 150
+    - name: Shotgun
+      x: 513
+      y: 577
+    - name: Chainsaw
+      x: 122
+      y: 748
+    - name: Chaingun
+      x: 370
+      y: 657
+    - name: Red Keycard
+      x: 100
+      y: 68
+    - name: Rocket Launcher
+      x: 543
+      y: 370
+    - name: Mega Armor
+      x: 340
+      y: 454
+    - name: Computer Area Map
+      x: 407
+      y: 547
+    - name: Supercharge
+      x: 280
+      y: 174
+    - name: Backpack
+      x: 450
+      y: 653
+    - name: Armor 2
+      x: 160
+      y: 280
+    - name: Blue Keycard
+      x: 193
+      y: 93
+    - name: Partial Invisibility
+      x: 696
+      y: 403
+    - name: E1M7 Exit
+      x: 848
+      y: 666
+  M8:
+    locations:
+    - name: E1M8 Entrance
+      x: 309
+      y: 762
+    - name: Supercharge
+      x: 385
+      y: 695
+    - name: Shotgun
+      x: 313
+      y: 645
+    - name: Shotgun 2
+      x: 434
+      y: 500
+    - name: Armor
+      x: 370
+      y: 640
+    - name: Chaingun
+      x: 425
+      y: 645
+    - name: Partial Invisibility
+      x: 278
+      y: 381
+    - name: Computer Area Map
+      x: 424
+      y: 760
+    - name: E1M8 Exit
+      x: 390
+      y: 40
+  M9:
+    locations:
+    - name: E1M9 Entrance
+      x: 177
+      y: 492
+    - name: Yellow Keycard
+      x: 45
+      y: 410
+    - name: Chaingun
+      x: 492
+      y: 549
+    - name: Armor
+      x: 777
+      y: 280
+    - name: Rocket Launcher
+      x: 100
+      y: 172
+    - name: Backpack
+      x: 577
+      y: 188
+    - name: Shotgun
+      x: 569
+      y: 150
+    - name: Chainsaw
+      x: 614
+      y: 197
+    - name: Red Keycard
+      x: 631
+      y: 688
+    - name: Blue Keycard
+      x: 355
+      y: 672
+    - name: E1M9 Exit
+      x: 290
+      y: 100

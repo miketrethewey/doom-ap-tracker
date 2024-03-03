@@ -1,6 +1,6 @@
 [
   {
-    "name": "SI6IL II (E6)",
+    "name": "SI6IL II",
     "parent": "SI6IL II (E6)",
     "children": [
       {
@@ -8,63 +8,189 @@
         "access_rules": [
           "$access|e6m1"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e6m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 830,
+            "y": 1044,
+            "visibility_rules": [ "ep6_on" ]
+          }
+        ]
       },
       {
         "name": "Violent Hatred (E6M2)",
         "access_rules": [
           "$access|e6m2"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e6m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1042,
+            "y": 888,
+            "visibility_rules": [ "ep6_on" ]
+          }
+        ]
       },
       {
         "name": "Twilight Desolation (E6M3)",
         "access_rules": [
           "$access|e6m3"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e6m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 960,
+            "y": 1145,
+            "visibility_rules": [ "ep6_on" ]
+          }
+        ]
       },
       {
         "name": "Fragments of Sanity (E6M4)",
         "access_rules": [
           "$access|e6m4"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e6m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 877,
+            "y": 886,
+            "visibility_rules": [ "ep6_on" ]
+          }
+        ]
       },
       {
         "name": "Wrathful Reckoning (E6M5)",
         "access_rules": [
           "$access|e6m5"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e6m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1088,
+            "y": 1043,
+            "visibility_rules": [ "ep6_on" ]
+          }
+        ]
       },
       {
         "name": "Vengeance Unleashed (E6M6)",
         "access_rules": [
           "$access|e6m6"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e6m6_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 960,
+            "y": 977,
+            "visibility_rules": [ "ep6_on" ]
+          }
+        ]
       },
       {
         "name": "Descent Into Terror (E6M7)",
         "access_rules": [
           "$access|e6m7"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e6m7_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 977,
+            "y": 999,
+            "visibility_rules": [ "ep6_on" ]
+          }
+        ]
       },
       {
         "name": "Abyss of Despair (E6M8)",
         "access_rules": [
           "$access|e6m8"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e6m8_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 943,
+            "y": 998,
+            "visibility_rules": [ "ep6_on" ]
+          }
+        ]
       },
       {
         "name": "Shattered Homecoming (E6M9)",
         "access_rules": [
           "$access|e6m9"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e6m9_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 961,
+            "y": 993,
+            "visibility_rules": [ "ep6_on" ]
+          }
+        ]
       }
     ]
   }

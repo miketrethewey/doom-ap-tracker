@@ -3,7 +3,7 @@
     "name": "E5M1",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E5M1 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -23,13 +23,13 @@
               ""
             ],
             "size": 20,
-            "x": 345,
-            "y": 840
+            "x": 375,
+            "y": 820
           }
         ]
       },
       {
-        "name": "Exit",
+        "name": "E5M1 Exit",
         "sections": [
           {
             "ref": "Baphomet's Demesne (E5M1)/Exit",

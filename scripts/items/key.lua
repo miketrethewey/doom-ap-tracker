@@ -136,12 +136,19 @@ function KeyItem:propertyChanged(key, value)
 end
 
 items = {}
-for epID,episode in ipairs(mapNames) do
-    for mapID,map in ipairs(episode) do
-        if keySets[epID] then
-            if keySets[epID][mapID] then
-                if keySets[epID][mapID] ~= "" then
-                    colorSet = keySets[epID][mapID]
+for epID,episode in pairs(keySets[baseGame]["episodes"]) do
+    if episode ~= nil and not skip_episode(epID) then
+        epName = episode["name"]
+        msg = baseGame .. ": " .. epName .. " (E" .. epID .. ")"
+        -- print(msg)
+        if episode["maps"] ~= nil then
+            for mapID,map in pairs(episode["maps"]) do
+                mapName = map["name"]
+                msg = " " .. mapName .. " (E" .. epID .. "M" .. mapID .. ")"
+                itemName = msg
+                if map["keys"] ~= nil then
+                    msg = msg .. " [" .. map["keys"] .. "]"
+                    colorSet = map["keys"]
                     for c in colorSet:gmatch"." do
                         c = string.lower(c)
                         if c == "b" then
@@ -151,18 +158,20 @@ for epID,episode in ipairs(mapNames) do
                         elseif c == "r" then
                             c = "red"
                         end
-                        name = map .. " (E" .. epID .. "M" .. mapID .. ")" .. " - " .. string.upper(string.sub(c,0,1)) .. string.sub(c,2)
+                        keyName = itemName .. " - " .. string.upper(string.sub(c,0,1)) .. string.sub(c,2)
+                        msg = keyName
                         KeyItem(
-                            name,
+                            keyName,
                             "e" .. epID .. "m" .. mapID .. "_" .. c,
                             c
                         )
                         KeyItem(
-                            name,
+                            keyName,
                             "e" .. epID .. "m" .. mapID .. "_" .. c,
                             c,
                             "slim"
                         )
+                        -- print(msg)
                     end
                 end
             end

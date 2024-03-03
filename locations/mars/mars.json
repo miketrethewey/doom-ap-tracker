@@ -18,7 +18,7 @@
         "children": [
           {
             "name": "The Shores of Hell (E2)",
-            "color": "#0000ff"
+            "color": "#007fff"
           }
         ]
       },
@@ -37,6 +37,19 @@
           {
             "name": "Thy Flesh Consumed (E4)",
             "color": "#ffff00"
+          }
+        ]
+      },
+      {
+        "name": "Hell (again)",
+        "children": [
+          {
+            "name": "SI6IL of Baphomet (E5)",
+            "color": "#00ffff"
+          },
+          {
+            "name": "SI6IL II (E6)",
+            "color": "#fe7ffe"
           }
         ]
       }

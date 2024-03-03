@@ -15,8 +15,11 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "chainsaw",
-                                "shotgun",
+                                "chainsaw"
+                            ],
+                            [
+                                "pistol",
+                                "shotguns",
                                 "chaingun"
                             ],
                             [

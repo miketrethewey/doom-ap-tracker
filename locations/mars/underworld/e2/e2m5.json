@@ -258,7 +258,7 @@
         ]
       },
       {
-        "name": "Exit",
+        "name": "E2M5 Exit",
         "sections": [
           {
             "ref": "Command Center (E2M5)/Exit",
@@ -282,7 +282,7 @@
         ]
       },
       {
-        "name": "Secret Exit",
+        "name": "E2M5 Secret Exit",
         "sections": [
           {
             "ref": "Command Center (E2M5)/Secret Exit",

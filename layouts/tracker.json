@@ -57,6 +57,13 @@
                 "v_alignment": "center",
                 "key": "setting_grid"
               }
+            },
+            {
+              "type": "group",
+              "header": "Pinned Locations",
+              "content": {
+                "type": "recentpins"
+              }
             }
           ]
         },

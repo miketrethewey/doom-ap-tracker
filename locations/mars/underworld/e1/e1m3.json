@@ -373,7 +373,7 @@
         ]
       },
       {
-        "name": "Exit",
+        "name": "E1M3 Exit",
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Exit",
@@ -397,7 +397,7 @@
         ]
       },
       {
-        "name": "Secret Exit",
+        "name": "E1M3 Secret Exit",
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Secret Exit",

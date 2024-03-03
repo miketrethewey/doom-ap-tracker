@@ -1,0 +1,183 @@
+E5:
+  M1:
+    things:
+    - name: Shotgun
+    - name: Chaingun
+    - name: Supercharge
+    - name: Map
+    locations:
+    - name: E5M1 Entrance
+      x: 375
+      y: 820
+    - name: E5M1 Exit
+      x: 940
+      y: 895
+  M2:
+    things:
+    - name: Chainsaw
+    - name: Shotgun
+    - name: Chaingun
+    - name: Mega Armor
+    - name: Supercharge
+      q: 3
+    - name: Berserk
+    - name: Red Skull
+    locations:
+    - name: E5M2 Entrance
+      x: 476
+      y: 700
+    - name: E5M2 Exit
+      x: 765
+      y: 590
+  M3:
+    things:
+    - name: Chaingun
+    - name: Rocket
+    - name: Armor
+    - name: Supercharge
+    - name: Backpack
+    - name: Berserk
+    - name: Map
+    - name: Red Skull
+    locations:
+    - name: E5M3 Entrance
+      x: 250
+      y: 120
+    - name: E5M3 Exit
+      x: 105
+      y: 750
+  M4:
+    things:
+    - name: Chainsaw
+    - name: Shotgun
+    - name: Chaingun
+    - name: Rocket
+      q: 2
+    - name: Armor
+    - name: Mega Armor
+      q: 2
+    - name: Supercharge
+      q: 2
+    - name: Backpack
+    - name: Invulnerability
+    - name: Blue Skull
+    - name: Red Skull
+    - name: Yellow Skull
+    locations:
+    - name: E5M4 Entrance
+      x: 334
+      y: 5
+    - name: E5M4 Exit
+      x: 594
+      y: 1260
+  M5:
+    things:
+    - name: Chainsaw
+    - name: Shotgun
+    - name: Chaingun
+    - name: Rocket
+      q: 2
+    - name: Armor
+      q: 2
+    - name: Mega Armor
+    - name: Supercharge
+      q: 2
+    - name: Blue Skull
+    - name: Yellow Skull
+    locations:
+    - name: E5M5 Entrance
+      x: 1150
+      y: 990
+    - name: E5M5 Exit
+      x: 1100
+      y: 630
+  M6:
+    things:
+    - name: Chainsaw
+      q: 2
+    - name: Shotgun
+    - name: Chaingun
+    - name: Plasma
+    - name: BFG
+    - name: Armor
+      q: 2
+    - name: Mega Armor
+    - name: Supercharge
+    - name: Berserk
+      q: 2
+    - name: Invulnerability
+    - name: Red Skull
+    locations:
+    - name: E5M6 Entrance
+      x: 560
+      y: 160
+    - name: E5M6 Exit
+      x: 560
+      y: 390
+    - name: E5M6 Secret Exit
+      x: 1216
+      y: 300
+  M7:
+    things:
+    - name: Chainsaw
+    - name: Shotgun
+    - name: Chaingun
+    - name: Rocket
+    - name: Plasma
+    - name: BFG
+    - name: Armor
+      q: 3
+    - name: Mega Armor
+      q: 2
+    - name: Supercharge
+      q: 3
+    - name: Map
+    - name: Invulnerability
+    - name: Red Skull
+    - name: Yellow Skull
+    locations:
+    - name: E5M7 Entrance
+      x: 107
+      y: 487
+    - name: E5M7 Exit
+      x: 286
+      y: 730
+  M8:
+    things:
+    - name: Shotgun
+    - name: Chaingun
+    - name: Rocket
+    - name: Plasma
+    - name: BFG
+    - name: Armor
+    - name: Supercharge
+    - name: Backpack
+    - name: Red Skull
+    locations:
+    - name: E5M8 Entrance
+      x: 107
+      y: 487
+    - name: E5M8 Exit
+      x: 377
+      y: 350
+  M9:
+    things:
+    - name: Shotgun
+    - name: Chaingun
+    - name: Rocket
+    - name: Plasma
+    - name: Armor
+      q: 2
+    - name: Supercharge
+      q: 2
+    - name: Berserk
+    - name: Blue Skull
+    - name: Red Skull
+    - name: Yellow Skull
+    locations:
+    - name: E5M9 Entrance
+      x: 472
+      y: 579
+    - name: E5M9 Exit
+      x: 240
+      y: 100

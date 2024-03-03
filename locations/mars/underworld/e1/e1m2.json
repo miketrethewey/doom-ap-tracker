@@ -282,7 +282,7 @@
         ]
       },
       {
-        "name": "Exit",
+        "name": "E1M2 Exit",
         "access_rules": [
           "@Nuclear Plant (E1M2)/Exit"
         ],

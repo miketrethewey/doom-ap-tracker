@@ -3,7 +3,7 @@
     "name": "E5M2",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E5M2 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -29,7 +29,7 @@
         ]
       },
       {
-        "name": "Exit",
+        "name": "E5M2 Exit",
         "sections": [
           {
             "ref": "Sheol (E5M2)/Exit",

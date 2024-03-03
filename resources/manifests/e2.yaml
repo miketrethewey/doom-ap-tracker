@@ -1,0 +1,415 @@
+E2:
+  M1:
+    locations:
+    - name: E2M1 Entrance
+      x: 117
+      y: 427
+    - name: Shotgun
+      x: 890
+      y: 450
+    - name: Shotgun 2
+      x: 110
+      y: 60
+    - name: Red Keycard
+      x: 555
+      y: 200
+    - name: Armor
+      x: 597
+      y: 448
+    - name: Plasma Gun
+      x: 205
+      y: 180
+    - name: Blue Keycard
+      x: 692
+      y: 490
+    - name: Computer Area Map
+      x: 315
+      y: 445
+    - name: Mega Armor
+      x: 210
+      y: 445
+    - name: E2M1 Exit
+      x: 945
+      y: 750
+  M2:
+    locations:
+    - name: E2M2 Entrance
+      x: 155
+      y: 12
+    - name: Shotgun
+      x: 138
+      y: 72
+    - name: Shotgun 2
+      x: 131
+      y: 45
+    - name: Berserk
+      x: 299
+      y: 185
+    - name: Armor
+      x: 325
+      y: 215
+    - name: Armor 2
+      x: 115
+      y: 45
+    - name: Armor 3
+      x: 140
+      y: 695
+    - name: Armor 4
+      x: 400
+      y: 339
+    - name: Yellow Keycard
+      x: 325
+      y: 470
+    - name: Backpack
+      x: 115
+      y: 424
+    - name: Computer Area Map
+      x: 216
+      y: 495
+    - name: Mega Armor
+      x: 85
+      y: 642
+    - name: Plasma Gun
+      x: 221
+      y: 616
+    - name: Chainsaw
+      x: 201
+      y: 689
+    - name: Supercharge
+      x: 440
+      y: 470
+    - name: Blue Keycard
+      x: 410
+      y: 487
+    - name: Red Keycard
+      x: 457
+      y: 394
+    - name: Chaingun
+      x: 241
+      y: 96
+    - name: Backpack 2
+      x: 380
+      y: 35
+    - name: Rocket Launcher
+      x: 460
+      y: 121
+    - name: E2M2 Exit
+      x: 10
+      y: 709
+  M3:
+    locations:
+    - name: E2M3 Entrance
+      x: 534
+      y: 12
+    - name: Chaingun
+      x: 146
+      y: 286
+    - name: Shotgun
+      x: 404
+      y: 655
+    - name: Berserk
+      x: 404
+      y: 102
+    - name: Partial Invisibility 2
+      x: 535
+      y: 360
+    - name: Mega Armor
+      x: 457
+      y: 693
+    - name: Backpack
+      x: 644
+      y: 655
+    - name: Plasma Gun
+      x: 77
+      y: 520
+    - name: Blue Keycard
+      x: 109
+      y: 396
+    - name: Armor
+      x: 422
+      y: 194
+    - name: Supercharge
+      x: 1010
+      y: 302
+    - name: Partial Invisibility
+      x: 1033
+      y: 713
+    - name: E2M3 Exit
+      x: 772
+      y: 121
+  M4:
+    locations:
+    - name: E2M4 Entrance
+      x: 19
+      y: 704
+    - name: Shotgun
+      x: 230
+      y: 750
+    - name: Computer Area Map
+      x: 735
+      y: 225
+    - name: Armor 2
+      x: 735
+      y: 242
+    - name: Partial Invisibility
+      x: 525
+      y: 455
+    - name: Armor
+      x: 502
+      y: 455
+    - name: Berserk
+      x: 391
+      y: 730
+    - name: Backpack
+      x: 55
+      y: 428
+    - name: Supercharge 2
+      x: 624
+      y: 238
+    - name: Partial Invisibility 2
+      x: 406
+      y: 402
+    - name: Chaingun
+      x: 415
+      y: 380
+    - name: Armor 3
+      x: 198
+      y: 465
+    - name: Blue Keycard
+      x: 110
+      y: 630
+    - name: Yellow Keycard
+      x: 104
+      y: 94
+    - name: Plasma Gun
+      x: 507
+      y: 234
+    - name: Supercharge
+      x: 632
+      y: 722
+    - name: Mega Armor
+      x: 485
+      y: 258
+    - name: E2M4 Exit
+      x: 790
+      y: 730
+  M5:
+    locations:
+    - name: E2M5 Entrance
+      x: 480
+      y: 36
+    - name: Backpack
+      x: 500
+      y: 287
+    - name: Mega Armor
+      x: 800
+      y: 315
+    - name: Berserk
+      x: 460
+      y: 287
+    - name: Chaingun
+      x: 453
+      y: 434
+    - name: Chainsaw
+      x: 585
+      y: 506
+    - name: Plasma Gun
+      x: 235
+      y: 109
+    - name: Computer Area Map
+      x: 506
+      y: 434
+    - name: Armor
+      x: 650
+      y: 280
+    - name: Armor 2
+      x: 300
+      y: 633
+    - name: Partial Invisibility
+      x: 389
+      y: 704
+    - name: E2M5 Exit
+      x: 770
+      y: 175
+    - name: E2M5 Secret Exit
+      x: 731
+      y: 49
+  M6:
+    locations:
+    - name: E2M6 Entrance
+      x: 311
+      y: 488
+    - name: Shotgun
+      x: 335
+      y: 420
+    - name: Rocket Launcher
+      x: 330
+      y: 400
+    - name: Berserk
+      x: 329
+      y: 200
+    - name: Chainsaw
+      x: 457
+      y: 600
+    - name: Mega Armor
+      x: 133
+      y: 545
+    - name: Backpack
+      x: 257
+      y: 547
+    - name: Plasma Gun
+      x: 260
+      y: 772
+    - name: Yellow Skull Key
+      x: 193
+      y: 310
+    - name: Partial Invisibility 3
+      x: 103
+      y: 612
+    - name: Partial Invisibility
+      x: 187
+      y: 53
+    - name: Armor
+      x: 201
+      y: 63
+    - name: Chaingun
+      x: 35
+      y: 160
+    - name: Red Skull Key
+      x: 109
+      y: 680
+    - name: Blue Skull Key
+      x: 500
+      y: 530
+    - name: Partial Invisibility 2
+      x: 153
+      y: 310
+    - name: Computer Area Map
+      x: 338
+      y: 30
+    - name: Supercharge
+      x: 405
+      y: 150
+    - name: E2M6 Exit
+      x: 500
+      y: 392
+  M7:
+    locations:
+    - name: E2M7 Entrance
+      x: 403
+      y: 12
+    - name: Rocket Launcher
+      x: 57
+      y: 550
+    - name: Partial Invisibility
+      x: 904
+      y: 316
+    - name: Mega Armor
+      x: 644
+      y: 201
+    - name: Armor
+      x: 120
+      y: 133
+    - name: Blue Keycard
+      x: 898
+      y: 655
+    - name: Invulnerability
+      x: 1009
+      y: 268
+    - name: Berserk
+      x: 922
+      y: 275
+    - name: Chainsaw
+      x: 157
+      y: 70
+    - name: Invulnerability 2
+      x: 196
+      y: 290
+    - name: Computer Area Map
+      x: 930
+      y: 316
+    - name: Plasma Gun
+      x: 44
+      y: 305
+    - name: Yellow Keycard
+      x: 502
+      y: 288
+    - name: Chaingun
+      x: 225
+      y: 60
+    - name: Backpack
+      x: 280
+      y: 465
+    - name: Red Keycard
+      x: 501
+      y: 614
+    - name: Supercharge
+      x: 435
+      y: 47
+    - name: E2M7 Exit
+      x: 321
+      y: 700
+  M8:
+    locations:
+    - name: E2M8 Entrance
+      x: 250
+      y: 383
+    - name: Rocket Launcher
+      x: 315
+      y: 385
+    - name: Supercharge
+      x: 250
+      y: 447
+    - name: Supercharge 2
+      x: 185
+      y: 385
+    - name: Mega Armor
+      x: 263
+      y: 395
+    - name: E2M8 Exit
+      x: 50
+      y: 170
+  M9:
+    locations:
+    - name: E2M9 Entrance
+      x: 280
+      y: 280
+    - name: Supercharge
+      x: 738
+      y: 284
+    - name: Blue Skull Key
+      x: 983
+      y: 255
+    - name: Backpack
+      x: 30
+      y: 283
+    - name: Chaingun
+      x: 136
+      y: 135
+    - name: Plasma Gun
+      x: 283
+      y: 30
+    - name: Rocket Launcher
+      x: 425
+      y: 135
+    - name: Shotgun
+      x: 425
+      y: 430
+    - name: Chainsaw
+      x: 283
+      y: 540
+    - name: Computer Area Map
+      x: 136
+      y: 430
+    - name: Mega Armor
+      x: 280
+      y: 290
+    - name: Red Skull Key
+      x: 971
+      y: 312
+    - name: Yellow Skull Key
+      x: 1027
+      y: 294
+    - name: E2M9 Exit
+      x: 1003
+      y: 236

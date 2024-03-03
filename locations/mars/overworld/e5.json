@@ -1,6 +1,6 @@
 [
   {
-    "name": "SI6IL of Baphomet (E5)",
+    "name": "SI6IL of Baphomet",
     "parent": "SI6IL of Baphomet (E5)",
     "children": [
       {
@@ -9,6 +9,11 @@
           "$access|e5m1"
         ],
         "sections": [
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
           {
             "name": "Supercharge",
             "access_rules": [],
@@ -23,10 +28,24 @@
             "name": "Computer Area Map",
             "access_rules": [],
             "item_count": 1
+          },
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e5m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 189,
+            "y": 1044,
+            "visibility_rules": [ "ep5_on" ]
           }
         ]
       },
       {
+        // Chainsaw
         "name": "Sheol (E5M2)",
         "access_rules": [
           "$access|e5m2"
@@ -43,14 +62,50 @@
             "item_count": 1
           },
           {
+            "name": "Supercharge",
+            "note": "Behind Berserk",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "note": "With Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
             "name": "Red Skull Key",
             "access_rules": [],
             "item_count": 1
           },
           {
-            "name": "Superchage",
+            "name": "Supercharge",
+            "note": "Behind Red Switch",
             "access_rules": [ "$access|e5m2|red" ],
             "item_count": 1
+          },
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e5m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 401,
+            "y": 888,
+            "visibility_rules": [ "ep5_on" ]
           }
         ]
       },
@@ -66,12 +121,12 @@
             "item_count": 1
           },
           {
-            "name": "Shotgun",
+            "name": "Berserk",
             "access_rules": [],
             "item_count": 1
           },
           {
-            "name": "Berserk",
+            "name": "Computer Area Map",
             "access_rules": [],
             "item_count": 1
           },
@@ -89,10 +144,35 @@
             "name": "Rocket Launcher",
             "access_rules": [ "$access|e5m3|red" ],
             "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [ "$access|e5m3|red" ],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [ "$access|e5m3|red" ],
+            "item_count": 1
+          },
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e5m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 319,
+            "y": 1145,
+            "visibility_rules": [ "ep5_on" ]
           }
         ]
       },
       {
+        // Rocket Launcher (2),
+        // Mega Armor (2), Supercharge,
         "name": "Paths of Wretchedness (E5M4)",
         "access_rules": [
           "$access|e5m4"
@@ -110,31 +190,49 @@
           },
           {
             "name": "Supercharge",
+            "note": "Left section",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Red Skull Key",
+            "note": "Left section",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Mega Armor",
+            "note": "In switch courtyard",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Yellow Skull Key",
+            "note": "Middle section",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Invulnerability",
+            "note": "Right section",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "note": "Right section, behind false wall",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "note": "Right section, in crusher area",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Blue Skull Key",
+            "note": "Right section, in crusher area",
             "access_rules": [],
             "item_count": 1
           },
@@ -152,6 +250,19 @@
             "name": "Armor",
             "access_rules": [ "$access|e5m4|blue|yellow|red" ],
             "item_count": 1
+          },
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e5m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 236,
+            "y": 886,
+            "visibility_rules": [ "ep5_on" ]
           }
         ]
       },
@@ -168,6 +279,13 @@
           },
           {
             "name": "Armor",
+            "note": "Eastern building",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "note": "Outside eastern building",
             "access_rules": [],
             "item_count": 1
           },
@@ -207,10 +325,30 @@
             "name": "Yellow Skull Key",
             "access_rules": [ "$access|e5m5|blue" ],
             "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "note": "Near exit",
+            "access_rules": [ "$access|e5m5|yellow" ],
+            "item_count": 1
+          },
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e5m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 447,
+            "y": 1043,
+            "visibility_rules": [ "ep5_on" ]
           }
         ]
       },
       {
+        // Chainsaw,
         "name": "Unspeakable Persecution (E5M6)",
         "access_rules": [
           "$access|e5m6"
@@ -247,6 +385,16 @@
             "item_count": 1
           },
           {
+            "name": "BFG9000",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invulnerability",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
             "name": "Chainsaw",
             "access_rules": [ "$access|e5m6|red" ],
             "item_count": 1
@@ -278,29 +426,229 @@
             "name": "Supercharge",
             "access_rules": [],
             "item_count": 1
+          },
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e5m6_complete"
+          },
+          {
+            "name": "Secret Exit",
+            "access_rules": [],
+            "hosted_item": "e5m6_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 319,
+            "y": 977,
+            "visibility_rules": [ "ep5_on" ]
           }
         ]
       },
       {
+        // Plasma Rifle
+        // Armor (2), Mega Armor,
+        // Supercharge (3), Computer Area Map, Invulnerability
         "name": "Nightmare Underworld (E5M7)",
         "access_rules": [
           "$access|e5m7"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "note": "Next to vanilla Chainsaw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chainsaw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull Key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "note": "Across acid from vanilla Red Skull Key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "note": "Near Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Skull Key",
+            "access_rules": [ "$access|e5m7|red" ],
+            "item_count": 1
+          },
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e5m7_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 336,
+            "y": 999,
+            "visibility_rules": [ "ep5_on" ]
+          }
+        ]
       },
       {
+        // BFG9000,
         "name": "Halls of Perdition (E5M8)",
         "access_rules": [
           "$access|e5m8"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull Key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [ "$access|e5m8|red" ],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Rifle",
+            "access_rules": [ "$access|e5m8|red" ],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": [ "$access|e5m8|red" ],
+            "item_count": 1
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": [ "$access|e5m8|red" ],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [ "$access|e5m8|red" ],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [ "$access|e5m8|red" ],
+            "item_count": 1
+          },
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e5m8_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 302,
+            "y": 998,
+            "visibility_rules": [ "ep5_on" ]
+          }
+        ]
       },
       {
+        // Shotgun, Rocket Launcher, Plasma Rifle,
+        // Armor (2), Supercharge (2), Berserk,
+        // Blue Skull Key, Yellow Skull Key
         "name": "Realm of Iblis (E5M9)",
         "access_rules": [
           "$access|e5m9"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull Key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Skull Key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [ "$access|e5m9|blue" ],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Skull Key",
+            "access_rules": [ "$access|e5m9|blue" ],
+            "item_count": 1
+          },
+          {
+            "name": "Exit",
+            "access_rules": [],
+            "hosted_item": "e5m9_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 320,
+            "y": 993,
+            "visibility_rules": [ "ep5_on" ]
+          }
+        ]
       }
     ]
   }

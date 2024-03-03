@@ -1,9 +1,9 @@
 [
     {
-      "name": "E5M3",
+      "name": "E5M4",
       "children": [
         {
-          "name": "Entrance",
+          "name": "E5M4 Entrance",
           "chest_unopened_img": "/images/items/levelstart.png",
           "chest_opened_img": "/images/items/levelstart.png",
           "access_rules": [
@@ -29,7 +29,7 @@
           ]
         },
         {
-          "name": "Exit",
+          "name": "E5M4 Exit",
           "sections": [
             {
               "ref": "Paths of Wretchedness (E5M4)/Exit",

@@ -98,7 +98,7 @@
         ]
       },
       {
-        "name": "Exit",
+        "name": "E1M1 Exit",
         "access_rules": [
           "@Hangar (E1M1)/Exit"
         ],
