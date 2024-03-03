@@ -1,9 +1,10 @@
 [
   {
     "name": "E4M8",
+    "parent": "Unto the Cruel (E4M8)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E4M8 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "Unto the Cruel (E4M8)/E4M8 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e4m8",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Shotgun",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/Shotgun"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/Shotgun",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 595,
-            "y": 145,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 595,
+            "y": 145
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Shotgun"
         ]
       },
       {
         "name": "Supercharge",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/Supercharge"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/Supercharge",
@@ -62,19 +67,19 @@
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 345,
-            "y": 370,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 345,
+            "y": 370
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Supercharge"
         ]
       },
       {
         "name": "Rocket Launcher",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/Rocket Launcher"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/Rocket Launcher",
@@ -85,19 +90,19 @@
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 305,
-            "y": 30,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 305,
+            "y": 30
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Rocket Launcher"
         ]
       },
       {
         "name": "Mega Armor 2",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/Mega Armor 2"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/Mega Armor 2",
@@ -108,19 +113,19 @@
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 499,
-            "y": 435,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 499,
+            "y": 435
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Mega Armor 2"
         ]
       },
       {
         "name": "Yellow Skull Key",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/Yellow Skull Key"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/Yellow Skull Key",
@@ -131,19 +136,19 @@
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 521,
-            "y": 370,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 521,
+            "y": 370
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Yellow Skull Key"
         ]
       },
       {
         "name": "Berserk",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/Berserk"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/Berserk",
@@ -154,19 +159,19 @@
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 471,
-            "y": 650,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 471,
+            "y": 650
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Berserk"
         ]
       },
       {
         "name": "Red Skull Key",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/Red Skull Key"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/Red Skull Key",
@@ -177,19 +182,19 @@
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 328,
-            "y": 30,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 328,
+            "y": 30
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Red Skull Key"
         ]
       },
       {
         "name": "Chaingun",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/Chaingun"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/Chaingun",
@@ -200,19 +205,19 @@
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 616,
-            "y": 220,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 616,
+            "y": 220
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Chaingun"
         ]
       },
       {
         "name": "Supercharge 3",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/Supercharge 3"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/Supercharge 3",
@@ -223,19 +228,19 @@
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 578,
-            "y": 745,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 578,
+            "y": 745
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Supercharge 3"
         ]
       },
       {
         "name": "Partial Invisibility",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/Partial Invisibility"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/Partial Invisibility",
@@ -246,19 +251,19 @@
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 585,
-            "y": 543,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 585,
+            "y": 543
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Partial Invisibility"
         ]
       },
       {
         "name": "Backpack",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/Backpack"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/Backpack",
@@ -269,19 +274,19 @@
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 527,
-            "y": 669,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 527,
+            "y": 669
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Backpack"
         ]
       },
       {
         "name": "Plasma Gun 2",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/Plasma Gun 2"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/Plasma Gun 2",
@@ -292,137 +297,137 @@
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 480,
-            "y": 470,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 480,
+            "y": 470
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Plasma Gun 2"
         ]
       },
       {
         "name": "Mega Armor",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/Mega Armor"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/Mega Armor",
-            "name": "Requires Yellow & Red Skull Keys",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 202,
-            "y": 100,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 202,
+            "y": 100
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Mega Armor"
         ]
       },
       {
         "name": "Supercharge 2",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/Supercharge 2"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/Supercharge 2",
-            "name": "Requires Yellow & Red Skull Keys",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 202,
-            "y": 187,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 202,
+            "y": 187
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Supercharge 2"
         ]
       },
       {
         "name": "BFG9000",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/BFG9000"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/BFG9000",
-            "name": "Requires Yellow & Red Skull Keys",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 57,
-            "y": 143,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 57,
+            "y": 143
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/BFG9000"
         ]
       },
       {
         "name": "Rocket Launcher 2",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/Rocket Launcher 2"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/Rocket Launcher 2",
-            "name": "Requires Yellow & Red Skull Keys",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 67,
-            "y": 120,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 67,
+            "y": 120
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Rocket Launcher 2"
         ]
       },
       {
         "name": "Plasma Gun",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/Plasma Gun"
+        ],
         "sections": [
           {
             "ref": "Unto the Cruel (E4M8)/Plasma Gun",
-            "name": "Requires Yellow & Red Skull Keys",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 67,
-            "y": 165,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 67,
+            "y": 165
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Plasma Gun"
         ]
       },
       {
         "name": "E4M8 Exit",
+        "access_rules": [
+          "@Unto the Cruel (E4M8)/E4M8 Exit"
+        ],
         "sections": [
           {
-            "ref": "Unto the Cruel (E4M8)/Exit",
+            "ref": "Unto the Cruel (E4M8)/E4M8 Exit",
             "name": "Level Completed",
             "hosted_item": "e4m8_complete"
           }
@@ -430,19 +435,15 @@
         "map_locations": [
           {
             "map": "e4m8",
-            "x": 168,
-            "y": 143,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "size": 20,
+            "x": 168,
+            "y": 143
           }
-        ],
-        "access_rules": [
-          "@Unto the Cruel (E4M8)/Exit"
         ]
       }
-    ],
-    "parent": "Unto the Cruel (E4M8)"
+    ]
   }
 ]

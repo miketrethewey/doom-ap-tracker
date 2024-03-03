@@ -1,9 +1,10 @@
 [
   {
     "name": "E3M2",
+    "parent": "Slough of Despair (E3M2)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E3M2 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "Slough of Despair (E3M2)/E3M2 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e3m2",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Chaingun",
+        "access_rules": [
+          "@Slough of Despair (E3M2)/Chaingun"
+        ],
         "sections": [
           {
             "ref": "Slough of Despair (E3M2)/Chaingun",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e3m2",
-            "x": 433,
-            "y": 256,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 433,
+            "y": 256
           }
-        ],
-        "access_rules": [
-          "@Slough of Despair (E3M2)/Chaingun"
         ]
       },
       {
         "name": "Berserk",
+        "access_rules": [
+          "@Slough of Despair (E3M2)/Berserk"
+        ],
         "sections": [
           {
             "ref": "Slough of Despair (E3M2)/Berserk",
@@ -62,19 +67,19 @@
         "map_locations": [
           {
             "map": "e3m2",
-            "x": 263,
-            "y": 582,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 263,
+            "y": 582
           }
-        ],
-        "access_rules": [
-          "@Slough of Despair (E3M2)/Berserk"
         ]
       },
       {
         "name": "Mega Armor",
+        "access_rules": [
+          "@Slough of Despair (E3M2)/Mega Armor"
+        ],
         "sections": [
           {
             "ref": "Slough of Despair (E3M2)/Mega Armor",
@@ -85,19 +90,19 @@
         "map_locations": [
           {
             "map": "e3m2",
-            "x": 215,
-            "y": 486,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 215,
+            "y": 486
           }
-        ],
-        "access_rules": [
-          "@Slough of Despair (E3M2)/Mega Armor"
         ]
       },
       {
         "name": "Armor",
+        "access_rules": [
+          "@Slough of Despair (E3M2)/Armor"
+        ],
         "sections": [
           {
             "ref": "Slough of Despair (E3M2)/Armor",
@@ -108,19 +113,19 @@
         "map_locations": [
           {
             "map": "e3m2",
-            "x": 330,
-            "y": 632,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 330,
+            "y": 632
           }
-        ],
-        "access_rules": [
-          "@Slough of Despair (E3M2)/Armor"
         ]
       },
       {
         "name": "Rocket Launcher",
+        "access_rules": [
+          "@Slough of Despair (E3M2)/Rocket Launcher"
+        ],
         "sections": [
           {
             "ref": "Slough of Despair (E3M2)/Rocket Launcher",
@@ -131,19 +136,19 @@
         "map_locations": [
           {
             "map": "e3m2",
-            "x": 280,
-            "y": 450,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 280,
+            "y": 450
           }
-        ],
-        "access_rules": [
-          "@Slough of Despair (E3M2)/Rocket Launcher"
         ]
       },
       {
         "name": "Plasma Gun",
+        "access_rules": [
+          "@Slough of Despair (E3M2)/Plasma Gun"
+        ],
         "sections": [
           {
             "ref": "Slough of Despair (E3M2)/Plasma Gun",
@@ -154,19 +159,19 @@
         "map_locations": [
           {
             "map": "e3m2",
-            "x": 218,
-            "y": 388,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 218,
+            "y": 388
           }
-        ],
-        "access_rules": [
-          "@Slough of Despair (E3M2)/Plasma Gun"
         ]
       },
       {
         "name": "Computer Area Map",
+        "access_rules": [
+          "@Slough of Despair (E3M2)/Computer Area Map"
+        ],
         "sections": [
           {
             "ref": "Slough of Despair (E3M2)/Computer Area Map",
@@ -177,19 +182,19 @@
         "map_locations": [
           {
             "map": "e3m2",
-            "x": 27,
-            "y": 260,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 27,
+            "y": 260
           }
-        ],
-        "access_rules": [
-          "@Slough of Despair (E3M2)/Computer Area Map"
         ]
       },
       {
         "name": "Blue Skull Key",
+        "access_rules": [
+          "@Slough of Despair (E3M2)/Blue Skull Key"
+        ],
         "sections": [
           {
             "ref": "Slough of Despair (E3M2)/Blue Skull Key",
@@ -200,19 +205,19 @@
         "map_locations": [
           {
             "map": "e3m2",
-            "x": 27,
-            "y": 300,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 27,
+            "y": 300
           }
-        ],
-        "access_rules": [
-          "@Slough of Despair (E3M2)/Blue Skull Key"
         ]
       },
       {
         "name": "Supercharge",
+        "access_rules": [
+          "@Slough of Despair (E3M2)/Supercharge"
+        ],
         "sections": [
           {
             "ref": "Slough of Despair (E3M2)/Supercharge",
@@ -223,22 +228,22 @@
         "map_locations": [
           {
             "map": "e3m2",
-            "x": 224,
-            "y": 78,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 224,
+            "y": 78
           }
-        ],
-        "access_rules": [
-          "@Slough of Despair (E3M2)/Supercharge"
         ]
       },
       {
         "name": "E3M2 Exit",
+        "access_rules": [
+          "@Slough of Despair (E3M2)/E3M2 Exit"
+        ],
         "sections": [
           {
-            "ref": "Slough of Despair (E3M2)/Exit",
+            "ref": "Slough of Despair (E3M2)/E3M2 Exit",
             "name": "Level Completed",
             "hosted_item": "e3m2_complete"
           }
@@ -246,19 +251,15 @@
         "map_locations": [
           {
             "map": "e3m2",
-            "x": 108,
-            "y": 162,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "size": 20,
+            "x": 108,
+            "y": 162
           }
-        ],
-        "access_rules": [
-          "@Slough of Despair (E3M2)/Exit"
         ]
       }
-    ],
-    "parent": "Slough of Despair (E3M2)"
+    ]
   }
 ]

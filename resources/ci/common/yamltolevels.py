@@ -58,20 +58,23 @@ for epID in range(1,4+1):
                         child["map_locations"] = [
                             {
                                 "map": f"e{epID}m{mapID}",
-                                "restrict_visibility_rules": [
+                                "restrict_visibility:rules": [
                                     f"ep{epID}_on"
-                                ],
-                                "x": location["x"],
-                                "y": location["y"]
+                                ]
                             }
                         ]
+
+                        if isEntrance or isExit:
+                            child["map_locations"][0]["size"] = 20
+
+                        child["map_locations"][0]["x"] = location["x"]
+                        child["map_locations"][0]["y"] = location["y"]
+
                         if isEntrance:
                             child["access_rules"] = [ "$access|null" ]
                             child["sections"] = [ { "ref": ref, "name": "Level Start", "item_count": 1 } ]
                         if isExit:
                             child["sections"] = [ { "ref": ref, "name": "Level Completed", "hosted_item": f"e{epID}m{mapID}_complete" } ]
-                        if isEntrance or isExit:
-                            child["map_locations"][0]["size"] = 20
                         jsonData[0]["children"].append(child)
                     with open(os.path.join("locations","mars","underworld",f"e{epID}",f"e{epID}m{mapID}.json"), "w") as jsonFile:
                         json.dump(jsonData, jsonFile, indent=2)

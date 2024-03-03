@@ -3,12 +3,12 @@ IS_UNLABELLED = variant:find("maps-u")
 
 function skip_episode(epID)
     skip = false
-    if epID == 1 or
-        epID == 2 or
-        epID == 3 or
-        epID == 4 then
-        skip = true
-    end
+    -- if epID == 1 or
+    --     epID == 2 or
+    --     epID == 3 or
+    --     epID == 4 then
+    --     skip = true
+    -- end
     return skip
 end
 
@@ -74,10 +74,12 @@ for epID,episode in pairs(keySets[baseGame]["episodes"]) do
                 itemObject = Tracker:FindObjectForCode(completedCode)
 
                 for _,locationCode in pairs({exitCode, string.gsub(exitCode, "Exit", "Secret Exit")}) do
-                    locationObject = Tracker:FindObjectForCode(exitCode)
-                    if locationObject ~= nil then
-                        if itemObject ~= nil then
-                            locationObject.CapturedItem = itemObject
+                    if type(locationCode) == "string" then
+                        locationObject = Tracker:FindObjectForCode(locationCode)
+                        if locationObject ~= nil then
+                            if itemObject ~= nil then
+                                locationObject.CapturedItem = itemObject
+                            end
                         end
                     end
                 end

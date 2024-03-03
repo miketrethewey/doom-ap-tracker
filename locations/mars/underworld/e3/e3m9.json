@@ -1,9 +1,10 @@
 [
   {
     "name": "E3M9",
+    "parent": "Warrens (E3M9)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E3M9 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "Warrens (E3M9)/E3M9 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Shotgun",
+        "access_rules": [
+          "@Warrens (E3M9)/Shotgun"
+        ],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Shotgun",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 180,
-            "y": 493,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 180,
+            "y": 493
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/Shotgun"
         ]
       },
       {
         "name": "Rocket Launcher",
+        "access_rules": [
+          "@Warrens (E3M9)/Rocket Launcher"
+        ],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Rocket Launcher",
@@ -62,42 +67,42 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 127,
-            "y": 270,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 127,
+            "y": 270
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/Rocket Launcher"
         ]
       },
       {
         "name": "Rocket Launcher 2",
+        "access_rules": [
+          "@Warrens (E3M9)/Rocket Launcher 2"
+        ],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Rocket Launcher 2",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 150,
-            "y": 60,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 150,
+            "y": 60
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/Rocket Launcher 2"
         ]
       },
       {
         "name": "Supercharge",
+        "access_rules": [
+          "@Warrens (E3M9)/Supercharge"
+        ],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Supercharge",
@@ -108,19 +113,19 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 120,
-            "y": 150,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 120,
+            "y": 150
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/Supercharge"
         ]
       },
       {
         "name": "Blue Skull Key",
+        "access_rules": [
+          "@Warrens (E3M9)/Blue Skull Key"
+        ],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Blue Skull Key",
@@ -131,19 +136,19 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 150,
-            "y": 45,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 150,
+            "y": 45
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/Blue Skull Key"
         ]
       },
       {
         "name": "Berserk",
+        "access_rules": [
+          "@Warrens (E3M9)/Berserk"
+        ],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Berserk",
@@ -154,19 +159,19 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 195,
-            "y": 260,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 195,
+            "y": 260
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/Berserk"
         ]
       },
       {
         "name": "Invulnerability",
+        "access_rules": [
+          "@Warrens (E3M9)/Invulnerability"
+        ],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Invulnerability",
@@ -177,19 +182,19 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 150,
-            "y": 30,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 150,
+            "y": 30
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/Invulnerability"
         ]
       },
       {
         "name": "Partial Invisibility",
+        "access_rules": [
+          "@Warrens (E3M9)/Partial Invisibility"
+        ],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Partial Invisibility",
@@ -200,19 +205,19 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 20,
-            "y": 150,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 20,
+            "y": 150
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/Partial Invisibility"
         ]
       },
       {
         "name": "Chaingun",
+        "access_rules": [
+          "@Warrens (E3M9)/Chaingun"
+        ],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Chaingun",
@@ -223,183 +228,183 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 195,
-            "y": 245,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 195,
+            "y": 245
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/Chaingun"
         ]
       },
       {
         "name": "Plasma Gun",
+        "access_rules": [
+          "@Warrens (E3M9)/Plasma Gun"
+        ],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Plasma Gun",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 357,
-            "y": 505,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 357,
+            "y": 505
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/Plasma Gun"
         ]
       },
       {
         "name": "Invulnerability 2",
+        "access_rules": [
+          "@Warrens (E3M9)/Invulnerability 2"
+        ],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Invulnerability 2",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 299,
-            "y": 284,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 299,
+            "y": 284
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/Invulnerability 2"
         ]
       },
       {
         "name": "Armor",
+        "access_rules": [
+          "@Warrens (E3M9)/Armor"
+        ],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Armor",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 299,
-            "y": 270,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 299,
+            "y": 270
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/Armor"
         ]
       },
       {
         "name": "Chainsaw",
+        "access_rules": [
+          "@Warrens (E3M9)/Chainsaw"
+        ],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Chainsaw",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 299,
-            "y": 256,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 299,
+            "y": 256
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/Chainsaw"
         ]
       },
       {
         "name": "BFG9000",
+        "access_rules": [
+          "@Warrens (E3M9)/BFG9000"
+        ],
         "sections": [
           {
             "ref": "Warrens (E3M9)/BFG9000",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 108,
-            "y": 545,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 108,
+            "y": 545
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/BFG9000"
         ]
       },
       {
         "name": "Red Skull Key",
+        "access_rules": [
+          "@Warrens (E3M9)/Red Skull Key"
+        ],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Red Skull Key",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 675,
-            "y": 485,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 675,
+            "y": 485
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/Red Skull Key"
         ]
       },
       {
         "name": "Supercharge 2",
+        "access_rules": [
+          "@Warrens (E3M9)/Supercharge 2"
+        ],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Supercharge 2",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 730,
-            "y": 485,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 730,
+            "y": 485
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/Supercharge 2"
         ]
       },
       {
         "name": "E3M9 Exit",
+        "access_rules": [
+          "@Warrens (E3M9)/E3M9 Exit"
+        ],
         "sections": [
           {
-            "ref": "Warrens (E3M9)/Exit",
+            "ref": "Warrens (E3M9)/E3M9 Exit",
             "name": "Level Completed",
             "hosted_item": "e3m9_complete"
           }
@@ -407,19 +412,15 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "x": 299,
-            "y": 554,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "size": 20,
+            "x": 299,
+            "y": 554
           }
-        ],
-        "access_rules": [
-          "@Warrens (E3M9)/Exit"
         ]
       }
-    ],
-    "parent": "Warrens (E3M9)"
+    ]
   }
 ]

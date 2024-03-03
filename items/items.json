@@ -1,10 +1,48 @@
 [
   // WEAPONS
   {
+    "name": "Fist",
+    "type": "toggle",
+    "img": "/images/items/inventory/fist.png",
+    "allow_disabled": false,
+    "codes": "fist"
+  },
+  {
     "name": "Chainsaw",
     "type": "toggle",
     "img": "/images/items/inventory/chainsaw.png",
     "codes": "chainsaw"
+  },
+  {
+    "name": "Melee",
+    "type": "composite_toggle",
+    "item_left": "fist",
+    "item_right": "chainsaw",
+    "allow_disabled": false,
+    "codes": "melee,chainsaw,fist",
+    "images": [
+      {
+        "img": "/images/items/inventory/fist.png",
+        "left": true,
+        "right": false
+      },
+      {
+        "img": "/images/items/inventory/chainsaw.png",
+        "left": false,
+        "right": true
+      },
+      {
+        "img": "/images/items/inventory/melee.png",
+        "left": true,
+        "right": true
+      },
+      {
+        "img": "/images/items/inventory/chainsaw.png",
+        "img_mods": "@disabled",
+        "left": false,
+        "right": false
+      }
+    ]
   },
   {
     "name": "Pistol",
@@ -47,7 +85,7 @@
         "right": true
       },
       {
-        "img": "/images/items/inventory/shotguns.png",
+        "img": "/images/items/inventory/shotgun.png",
         "img_mods": "@disabled",
         "left": false,
         "right": false

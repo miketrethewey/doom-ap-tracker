@@ -1,9 +1,10 @@
 [
   {
     "name": "E1M8",
+    "parent": "Phobos Anomaly (E1M8)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E1M8 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "Phobos Anomaly (E1M8)/E1M8 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Supercharge",
+        "access_rules": [
+          "@Phobos Anomaly (E1M8)/Supercharge"
+        ],
         "sections": [
           {
             "ref": "Phobos Anomaly (E1M8)/Supercharge",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "x": 385,
-            "y": 695,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 385,
+            "y": 695
           }
-        ],
-        "access_rules": [
-          "@Phobos Anomaly (E1M8)/Supercharge"
         ]
       },
       {
         "name": "Shotgun",
+        "access_rules": [
+          "@Phobos Anomaly (E1M8)/Shotgun"
+        ],
         "sections": [
           {
             "ref": "Phobos Anomaly (E1M8)/Shotgun",
@@ -62,19 +67,19 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "x": 313,
-            "y": 645,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 313,
+            "y": 645
           }
-        ],
-        "access_rules": [
-          "@Phobos Anomaly (E1M8)/Shotgun"
         ]
       },
       {
         "name": "Shotgun 2",
+        "access_rules": [
+          "@Phobos Anomaly (E1M8)/Shotgun 2"
+        ],
         "sections": [
           {
             "ref": "Phobos Anomaly (E1M8)/Shotgun 2",
@@ -85,19 +90,19 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "x": 434,
-            "y": 500,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 434,
+            "y": 500
           }
-        ],
-        "access_rules": [
-          "@Phobos Anomaly (E1M8)/Shotgun 2"
         ]
       },
       {
         "name": "Armor",
+        "access_rules": [
+          "@Phobos Anomaly (E1M8)/Armor"
+        ],
         "sections": [
           {
             "ref": "Phobos Anomaly (E1M8)/Armor",
@@ -108,19 +113,19 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "x": 370,
-            "y": 640,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 370,
+            "y": 640
           }
-        ],
-        "access_rules": [
-          "@Phobos Anomaly (E1M8)/Armor"
         ]
       },
       {
         "name": "Chaingun",
+        "access_rules": [
+          "@Phobos Anomaly (E1M8)/Chaingun"
+        ],
         "sections": [
           {
             "ref": "Phobos Anomaly (E1M8)/Chaingun",
@@ -131,19 +136,19 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "x": 425,
-            "y": 645,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 425,
+            "y": 645
           }
-        ],
-        "access_rules": [
-          "@Phobos Anomaly (E1M8)/Chaingun"
         ]
       },
       {
         "name": "Partial Invisibility",
+        "access_rules": [
+          "@Phobos Anomaly (E1M8)/Partial Invisibility"
+        ],
         "sections": [
           {
             "ref": "Phobos Anomaly (E1M8)/Partial Invisibility",
@@ -154,19 +159,19 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "x": 278,
-            "y": 381,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 278,
+            "y": 381
           }
-        ],
-        "access_rules": [
-          "@Phobos Anomaly (E1M8)/Partial Invisibility"
         ]
       },
       {
         "name": "Computer Area Map",
+        "access_rules": [
+          "@Phobos Anomaly (E1M8)/Computer Area Map"
+        ],
         "sections": [
           {
             "ref": "Phobos Anomaly (E1M8)/Computer Area Map",
@@ -177,22 +182,22 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "x": 424,
-            "y": 760,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 424,
+            "y": 760
           }
-        ],
-        "access_rules": [
-          "@Phobos Anomaly (E1M8)/Computer Area Map"
         ]
       },
       {
         "name": "E1M8 Exit",
+        "access_rules": [
+          "@Phobos Anomaly (E1M8)/E1M8 Exit"
+        ],
         "sections": [
           {
-            "ref": "Phobos Anomaly (E1M8)/Exit",
+            "ref": "Phobos Anomaly (E1M8)/E1M8 Exit",
             "name": "Level Completed",
             "hosted_item": "e1m8_complete"
           }
@@ -200,19 +205,15 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "x": 390,
-            "y": 40,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "size": 20,
+            "x": 390,
+            "y": 40
           }
-        ],
-        "access_rules": [
-          "@Phobos Anomaly (E1M8)/Exit"
         ]
       }
-    ],
-    "parent": "Phobos Anomaly (E1M8)"
+    ]
   }
 ]

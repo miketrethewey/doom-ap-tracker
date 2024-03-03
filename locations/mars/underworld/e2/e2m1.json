@@ -1,9 +1,10 @@
 [
   {
     "name": "E2M1",
+    "parent": "Deimos Anomaly (E2M1)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E2M1 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "Deimos Anomaly (E2M1)/E2M1 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e2m1",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Shotgun",
+        "access_rules": [
+          "@Deimos Anomaly (E2M1)/Shotgun"
+        ],
         "sections": [
           {
             "ref": "Deimos Anomaly (E2M1)/Shotgun",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e2m1",
-            "x": 890,
-            "y": 450,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 890,
+            "y": 450
           }
-        ],
-        "access_rules": [
-          "@Deimos Anomaly (E2M1)/Shotgun"
         ]
       },
       {
         "name": "Shotgun 2",
+        "access_rules": [
+          "@Deimos Anomaly (E2M1)/Shotgun 2"
+        ],
         "sections": [
           {
             "ref": "Deimos Anomaly (E2M1)/Shotgun 2",
@@ -62,19 +67,19 @@
         "map_locations": [
           {
             "map": "e2m1",
-            "x": 110,
-            "y": 60,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 110,
+            "y": 60
           }
-        ],
-        "access_rules": [
-          "@Deimos Anomaly (E2M1)/Shotgun 2"
         ]
       },
       {
         "name": "Red Keycard",
+        "access_rules": [
+          "@Deimos Anomaly (E2M1)/Red Keycard"
+        ],
         "sections": [
           {
             "ref": "Deimos Anomaly (E2M1)/Red Keycard",
@@ -85,19 +90,19 @@
         "map_locations": [
           {
             "map": "e2m1",
-            "x": 555,
-            "y": 200,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 555,
+            "y": 200
           }
-        ],
-        "access_rules": [
-          "@Deimos Anomaly (E2M1)/Red Keycard"
         ]
       },
       {
         "name": "Armor",
+        "access_rules": [
+          "@Deimos Anomaly (E2M1)/Armor"
+        ],
         "sections": [
           {
             "ref": "Deimos Anomaly (E2M1)/Armor",
@@ -108,19 +113,19 @@
         "map_locations": [
           {
             "map": "e2m1",
-            "x": 597,
-            "y": 448,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 597,
+            "y": 448
           }
-        ],
-        "access_rules": [
-          "@Deimos Anomaly (E2M1)/Armor"
         ]
       },
       {
         "name": "Plasma Gun",
+        "access_rules": [
+          "@Deimos Anomaly (E2M1)/Plasma Gun"
+        ],
         "sections": [
           {
             "ref": "Deimos Anomaly (E2M1)/Plasma Gun",
@@ -131,19 +136,19 @@
         "map_locations": [
           {
             "map": "e2m1",
-            "x": 205,
-            "y": 180,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 205,
+            "y": 180
           }
-        ],
-        "access_rules": [
-          "@Deimos Anomaly (E2M1)/Plasma Gun"
         ]
       },
       {
         "name": "Blue Keycard",
+        "access_rules": [
+          "@Deimos Anomaly (E2M1)/Blue Keycard"
+        ],
         "sections": [
           {
             "ref": "Deimos Anomaly (E2M1)/Blue Keycard",
@@ -154,68 +159,68 @@
         "map_locations": [
           {
             "map": "e2m1",
-            "x": 692,
-            "y": 490,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 692,
+            "y": 490
           }
-        ],
-        "access_rules": [
-          "@Deimos Anomaly (E2M1)/Blue Keycard"
         ]
       },
       {
         "name": "Computer Area Map",
+        "access_rules": [
+          "@Deimos Anomaly (E2M1)/Computer Area Map"
+        ],
         "sections": [
           {
             "ref": "Deimos Anomaly (E2M1)/Computer Area Map",
-            "name": "Requires Red Keycard",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m1",
-            "x": 315,
-            "y": 445,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 315,
+            "y": 445
           }
-        ],
-        "access_rules": [
-          "@Deimos Anomaly (E2M1)/Computer Area Map"
         ]
       },
       {
         "name": "Mega Armor",
+        "access_rules": [
+          "@Deimos Anomaly (E2M1)/Mega Armor"
+        ],
         "sections": [
           {
             "ref": "Deimos Anomaly (E2M1)/Mega Armor",
-            "name": "Requires Red Keycard",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m1",
-            "x": 210,
-            "y": 445,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 210,
+            "y": 445
           }
-        ],
-        "access_rules": [
-          "@Deimos Anomaly (E2M1)/Mega Armor"
         ]
       },
       {
         "name": "E2M1 Exit",
+        "access_rules": [
+          "@Deimos Anomaly (E2M1)/E2M1 Exit"
+        ],
         "sections": [
           {
-            "ref": "Deimos Anomaly (E2M1)/Exit",
+            "ref": "Deimos Anomaly (E2M1)/E2M1 Exit",
             "name": "Level Completed",
             "hosted_item": "e2m1_complete"
           }
@@ -223,19 +228,15 @@
         "map_locations": [
           {
             "map": "e2m1",
-            "x": 945,
-            "y": 750,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "size": 20,
+            "x": 945,
+            "y": 750
           }
-        ],
-        "access_rules": [
-          "@Deimos Anomaly (E2M1)/Exit"
         ]
       }
-    ],
-    "parent": "Deimos Anomaly (E2M1)"
+    ]
   }
 ]

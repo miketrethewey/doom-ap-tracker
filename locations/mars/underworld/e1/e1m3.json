@@ -1,9 +1,10 @@
 [
   {
     "name": "E1M3",
+    "parent": "Toxin Refinery (E1M3)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E1M3 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "Toxin Refinery (E1M3)/E1M3 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Armor",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/Armor"
+        ],
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Armor",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 82,
-            "y": 200,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 82,
+            "y": 200
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Armor"
         ]
       },
       {
         "name": "Supercharge",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/Supercharge"
+        ],
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Supercharge",
@@ -62,19 +67,19 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 248,
-            "y": 529,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 248,
+            "y": 529
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Supercharge"
         ]
       },
       {
         "name": "Yellow Keycard",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/Yellow Keycard"
+        ],
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Yellow Keycard",
@@ -85,19 +90,19 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 163,
-            "y": 351,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 163,
+            "y": 351
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Yellow Keycard"
         ]
       },
       {
         "name": "Blue Keycard",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/Blue Keycard"
+        ],
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Blue Keycard",
@@ -108,19 +113,19 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 775,
-            "y": 142,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 775,
+            "y": 142
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Blue Keycard"
         ]
       },
       {
         "name": "Shotgun",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/Shotgun"
+        ],
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Shotgun",
@@ -131,19 +136,19 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 450,
-            "y": 715,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 450,
+            "y": 715
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Shotgun"
         ]
       },
       {
         "name": "Shotgun 2",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/Shotgun 2"
+        ],
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Shotgun 2",
@@ -154,19 +159,19 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 320,
-            "y": 305,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 320,
+            "y": 305
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Shotgun 2"
         ]
       },
       {
         "name": "Armor 2",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/Armor 2"
+        ],
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Armor 2",
@@ -177,19 +182,19 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 293,
-            "y": 358,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 293,
+            "y": 358
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Armor 2"
         ]
       },
       {
         "name": "Rocket Launcher",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/Rocket Launcher"
+        ],
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Rocket Launcher",
@@ -200,19 +205,19 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 90,
-            "y": 150,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 90,
+            "y": 150
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Rocket Launcher"
         ]
       },
       {
         "name": "Chaingun",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/Chaingun"
+        ],
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Chaingun",
@@ -223,19 +228,19 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 310,
-            "y": 265,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 310,
+            "y": 265
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Chaingun"
         ]
       },
       {
         "name": "Backpack",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/Backpack"
+        ],
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Backpack",
@@ -246,137 +251,137 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 206,
-            "y": 160,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 206,
+            "y": 160
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Backpack"
         ]
       },
       {
         "name": "Armor 3",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/Armor 3"
+        ],
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Armor 3",
-            "name": "Requires Blue Keycard",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 495,
-            "y": 453,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 495,
+            "y": 453
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Armor 3"
         ]
       },
       {
         "name": "Chainsaw",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/Chainsaw"
+        ],
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Chainsaw",
-            "name": "Requires Blue Keycard",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 790,
-            "y": 522,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 790,
+            "y": 522
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Chainsaw"
         ]
       },
       {
         "name": "Mega Armor",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/Mega Armor"
+        ],
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Mega Armor",
-            "name": "Requires Blue & Yellow Keycards",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 880,
-            "y": 565,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 880,
+            "y": 565
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Mega Armor"
         ]
       },
       {
         "name": "Supercharge 2",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/Supercharge 2"
+        ],
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Supercharge 2",
-            "name": "Requires Blue & Yellow Keycards",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 900,
-            "y": 580,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 900,
+            "y": 580
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Supercharge 2"
         ]
       },
       {
         "name": "Partial Invisibility",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/Partial Invisibility"
+        ],
         "sections": [
           {
             "ref": "Toxin Refinery (E1M3)/Partial Invisibility",
-            "name": "Requires Blue & Yellow Keycards",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 880,
-            "y": 595,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "x": 880,
+            "y": 595
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Partial Invisibility"
         ]
       },
       {
         "name": "E1M3 Exit",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/E1M3 Exit"
+        ],
         "sections": [
           {
-            "ref": "Toxin Refinery (E1M3)/Exit",
+            "ref": "Toxin Refinery (E1M3)/E1M3 Exit",
             "name": "Level Completed",
             "hosted_item": "e1m3_complete"
           }
@@ -384,23 +389,23 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 986,
-            "y": 352,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "size": 20,
+            "x": 986,
+            "y": 352
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Exit"
         ]
       },
       {
         "name": "E1M3 Secret Exit",
+        "access_rules": [
+          "@Toxin Refinery (E1M3)/E1M3 Secret Exit"
+        ],
         "sections": [
           {
-            "ref": "Toxin Refinery (E1M3)/Secret Exit",
+            "ref": "Toxin Refinery (E1M3)/E1M3 Secret Exit",
             "name": "Level Completed",
             "hosted_item": "e1m3_complete"
           }
@@ -408,19 +413,15 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "x": 550,
-            "y": 304,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
-            ]
+            ],
+            "size": 20,
+            "x": 550,
+            "y": 304
           }
-        ],
-        "access_rules": [
-          "@Toxin Refinery (E1M3)/Backpack"
         ]
       }
-    ],
-    "parent": "Toxin Refinery (E1M3)"
+    ]
   }
 ]

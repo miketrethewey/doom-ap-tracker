@@ -1,9 +1,10 @@
 [
   {
     "name": "E2M3",
+    "parent": "Refinery (E2M3)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E2M3 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "Refinery (E2M3)/E2M3 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Chaingun",
+        "access_rules": [
+          "@Refinery (E2M3)/Chaingun"
+        ],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Chaingun",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "x": 146,
-            "y": 286,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 146,
+            "y": 286
           }
-        ],
-        "access_rules": [
-          "@Refinery (E2M3)/Chaingun"
         ]
       },
       {
         "name": "Shotgun",
+        "access_rules": [
+          "@Refinery (E2M3)/Shotgun"
+        ],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Shotgun",
@@ -62,19 +67,19 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "x": 404,
-            "y": 655,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 404,
+            "y": 655
           }
-        ],
-        "access_rules": [
-          "@Refinery (E2M3)/Shotgun"
         ]
       },
       {
         "name": "Berserk",
+        "access_rules": [
+          "@Refinery (E2M3)/Berserk"
+        ],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Berserk",
@@ -85,19 +90,19 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "x": 404,
-            "y": 102,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 404,
+            "y": 102
           }
-        ],
-        "access_rules": [
-          "@Refinery (E2M3)/Berserk"
         ]
       },
       {
         "name": "Partial Invisibility 2",
+        "access_rules": [
+          "@Refinery (E2M3)/Partial Invisibility 2"
+        ],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Partial Invisibility 2",
@@ -108,19 +113,19 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "x": 535,
-            "y": 360,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 535,
+            "y": 360
           }
-        ],
-        "access_rules": [
-          "@Refinery (E2M3)/Partial Invisibility 2"
         ]
       },
       {
         "name": "Mega Armor",
+        "access_rules": [
+          "@Refinery (E2M3)/Mega Armor"
+        ],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Mega Armor",
@@ -131,19 +136,19 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "x": 457,
-            "y": 693,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 457,
+            "y": 693
           }
-        ],
-        "access_rules": [
-          "@Refinery (E2M3)/Mega Armor"
         ]
       },
       {
         "name": "Backpack",
+        "access_rules": [
+          "@Refinery (E2M3)/Backpack"
+        ],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Backpack",
@@ -154,19 +159,19 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "x": 644,
-            "y": 655,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 644,
+            "y": 655
           }
-        ],
-        "access_rules": [
-          "@Refinery (E2M3)/Backpack"
         ]
       },
       {
         "name": "Plasma Gun",
+        "access_rules": [
+          "@Refinery (E2M3)/Plasma Gun"
+        ],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Plasma Gun",
@@ -177,19 +182,19 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "x": 77,
-            "y": 520,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 77,
+            "y": 520
           }
-        ],
-        "access_rules": [
-          "@Refinery (E2M3)/Plasma Gun"
         ]
       },
       {
         "name": "Blue Keycard",
+        "access_rules": [
+          "@Refinery (E2M3)/Blue Keycard"
+        ],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Blue Keycard",
@@ -200,19 +205,19 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "x": 109,
-            "y": 396,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 109,
+            "y": 396
           }
-        ],
-        "access_rules": [
-          "@Refinery (E2M3)/Blue Keycard"
         ]
       },
       {
         "name": "Armor",
+        "access_rules": [
+          "@Refinery (E2M3)/Armor"
+        ],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Armor",
@@ -223,68 +228,68 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "x": 422,
-            "y": 194,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 422,
+            "y": 194
           }
-        ],
-        "access_rules": [
-          "@Refinery (E2M3)/Armor"
         ]
       },
       {
         "name": "Supercharge",
+        "access_rules": [
+          "@Refinery (E2M3)/Supercharge"
+        ],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Supercharge",
-            "name": "Requires Blue Keycard",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m3",
-            "x": 1010,
-            "y": 302,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 1010,
+            "y": 302
           }
-        ],
-        "access_rules": [
-          "@Refinery (E2M3)/Supercharge"
         ]
       },
       {
         "name": "Partial Invisibility",
+        "access_rules": [
+          "@Refinery (E2M3)/Partial Invisibility"
+        ],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Partial Invisibility",
-            "name": "Requires Blue Keycard",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m3",
-            "x": 1033,
-            "y": 713,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 1033,
+            "y": 713
           }
-        ],
-        "access_rules": [
-          "@Refinery (E2M3)/Partial Invisibility"
         ]
       },
       {
         "name": "E2M3 Exit",
+        "access_rules": [
+          "@Refinery (E2M3)/E2M3 Exit"
+        ],
         "sections": [
           {
-            "ref": "Refinery (E2M3)/Exit",
+            "ref": "Refinery (E2M3)/E2M3 Exit",
             "name": "Level Completed",
             "hosted_item": "e2m3_complete"
           }
@@ -292,19 +297,15 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "x": 772,
-            "y": 121,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "size": 20,
+            "x": 772,
+            "y": 121
           }
-        ],
-        "access_rules": [
-          "@Refinery (E2M3)/Exit"
         ]
       }
-    ],
-    "parent": "Refinery (E2M3)"
+    ]
   }
 ]

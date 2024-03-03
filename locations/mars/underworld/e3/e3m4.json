@@ -1,9 +1,10 @@
 [
   {
     "name": "E3M4",
+    "parent": "House of Pain (E3M4)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E3M4 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "House of Pain (E3M4)/E3M4 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e3m4",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Shotgun",
+        "access_rules": [
+          "@House of Pain (E3M4)/Shotgun"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Shotgun",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 368,
-            "y": 205,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 368,
+            "y": 205
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Shotgun"
         ]
       },
       {
         "name": "Berserk",
+        "access_rules": [
+          "@House of Pain (E3M4)/Berserk"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Berserk",
@@ -62,19 +67,19 @@
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 615,
-            "y": 165,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 615,
+            "y": 165
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Berserk"
         ]
       },
       {
         "name": "Mega Armor",
+        "access_rules": [
+          "@House of Pain (E3M4)/Mega Armor"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Mega Armor",
@@ -85,19 +90,19 @@
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 600,
-            "y": 170,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 600,
+            "y": 170
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Mega Armor"
         ]
       },
       {
         "name": "Chaingun",
+        "access_rules": [
+          "@House of Pain (E3M4)/Chaingun"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Chaingun",
@@ -108,19 +113,19 @@
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 402,
-            "y": 308,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 402,
+            "y": 308
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Chaingun"
         ]
       },
       {
         "name": "Invulnerability",
+        "access_rules": [
+          "@House of Pain (E3M4)/Invulnerability"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Invulnerability",
@@ -131,19 +136,19 @@
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 461,
-            "y": 347,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 461,
+            "y": 347
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Invulnerability"
         ]
       },
       {
         "name": "Blue Skull Key",
+        "access_rules": [
+          "@House of Pain (E3M4)/Blue Skull Key"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Blue Skull Key",
@@ -154,19 +159,19 @@
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 471,
-            "y": 738,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 471,
+            "y": 738
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Blue Skull Key"
         ]
       },
       {
         "name": "Armor",
+        "access_rules": [
+          "@House of Pain (E3M4)/Armor"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Armor",
@@ -177,19 +182,19 @@
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 500,
-            "y": 570,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 500,
+            "y": 570
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Armor"
         ]
       },
       {
         "name": "Armor 2",
+        "access_rules": [
+          "@House of Pain (E3M4)/Armor 2"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Armor 2",
@@ -200,19 +205,19 @@
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 422,
-            "y": 57,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 422,
+            "y": 57
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Armor 2"
         ]
       },
       {
         "name": "Rocket Launcher",
+        "access_rules": [
+          "@House of Pain (E3M4)/Rocket Launcher"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Rocket Launcher",
@@ -223,229 +228,229 @@
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 417,
-            "y": 42,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 417,
+            "y": 42
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Rocket Launcher"
         ]
       },
       {
         "name": "Yellow Skull Key",
+        "access_rules": [
+          "@House of Pain (E3M4)/Yellow Skull Key"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Yellow Skull Key",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 612,
-            "y": 263,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 612,
+            "y": 263
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Yellow Skull Key"
         ]
       },
       {
         "name": "Partial Invisibility",
+        "access_rules": [
+          "@House of Pain (E3M4)/Partial Invisibility"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Partial Invisibility",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 549,
-            "y": 490,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 549,
+            "y": 490
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Partial Invisibility"
         ]
       },
       {
         "name": "BFG9000",
+        "access_rules": [
+          "@House of Pain (E3M4)/BFG9000"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/BFG9000",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 408,
-            "y": 405,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 408,
+            "y": 405
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/BFG9000"
         ]
       },
       {
         "name": "Supercharge",
+        "access_rules": [
+          "@House of Pain (E3M4)/Supercharge"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Supercharge",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 309,
-            "y": 468,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 309,
+            "y": 468
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Supercharge"
         ]
       },
       {
         "name": "Invulnerability 2",
+        "access_rules": [
+          "@House of Pain (E3M4)/Invulnerability 2"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Invulnerability 2",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 600,
-            "y": 293,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 600,
+            "y": 293
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Invulnerability 2"
         ]
       },
       {
         "name": "Armor 3",
+        "access_rules": [
+          "@House of Pain (E3M4)/Armor 3"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Armor 3",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 635,
-            "y": 570,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 635,
+            "y": 570
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Armor 3"
         ]
       },
       {
         "name": "Red Skull Key",
+        "access_rules": [
+          "@House of Pain (E3M4)/Red Skull Key"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Red Skull Key",
-            "name": "Requires Blue & Yellow Skull Keys",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 732,
-            "y": 248,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 732,
+            "y": 248
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Red Skull Key"
         ]
       },
       {
         "name": "Backpack",
+        "access_rules": [
+          "@House of Pain (E3M4)/Backpack"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Backpack",
-            "name": "Requires Blue & Red Skull Keys",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 820,
-            "y": 235,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 820,
+            "y": 235
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Backpack"
         ]
       },
       {
         "name": "Mega Armor 2",
+        "access_rules": [
+          "@House of Pain (E3M4)/Mega Armor 2"
+        ],
         "sections": [
           {
             "ref": "House of Pain (E3M4)/Mega Armor 2",
-            "name": "Requires Blue & Red Skull Keys",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 742,
-            "y": 226,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 742,
+            "y": 226
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Mega Armor 2"
         ]
       },
       {
         "name": "E3M4 Exit",
+        "access_rules": [
+          "@House of Pain (E3M4)/E3M4 Exit"
+        ],
         "sections": [
           {
-            "ref": "House of Pain (E3M4)/Exit",
+            "ref": "House of Pain (E3M4)/E3M4 Exit",
             "name": "Level Completed",
             "hosted_item": "e3m4_complete"
           }
@@ -453,19 +458,15 @@
         "map_locations": [
           {
             "map": "e3m4",
-            "x": 835,
-            "y": 60,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "size": 20,
+            "x": 835,
+            "y": 60
           }
-        ],
-        "access_rules": [
-          "@House of Pain (E3M4)/Exit"
         ]
       }
-    ],
-    "parent": "House of Pain (E3M4)"
+    ]
   }
 ]

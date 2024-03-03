@@ -1,9 +1,10 @@
 [
   {
     "name": "E2M8",
+    "parent": "Tower of Babel (E2M8)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E2M8 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "Tower of Babel (E2M8)/E2M8 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e2m8",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Rocket Launcher",
+        "access_rules": [
+          "@Tower of Babel (E2M8)/Rocket Launcher"
+        ],
         "sections": [
           {
             "ref": "Tower of Babel (E2M8)/Rocket Launcher",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e2m8",
-            "x": 315,
-            "y": 385,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 315,
+            "y": 385
           }
-        ],
-        "access_rules": [
-          "@Tower of Babel (E2M8)/Rocket Launcher"
         ]
       },
       {
         "name": "Supercharge",
+        "access_rules": [
+          "@Tower of Babel (E2M8)/Supercharge"
+        ],
         "sections": [
           {
             "ref": "Tower of Babel (E2M8)/Supercharge",
@@ -62,19 +67,19 @@
         "map_locations": [
           {
             "map": "e2m8",
-            "x": 250,
-            "y": 447,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 250,
+            "y": 447
           }
-        ],
-        "access_rules": [
-          "@Tower of Babel (E2M8)/Supercharge"
         ]
       },
       {
         "name": "Supercharge 2",
+        "access_rules": [
+          "@Tower of Babel (E2M8)/Supercharge 2"
+        ],
         "sections": [
           {
             "ref": "Tower of Babel (E2M8)/Supercharge 2",
@@ -85,19 +90,19 @@
         "map_locations": [
           {
             "map": "e2m8",
-            "x": 185,
-            "y": 385,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 185,
+            "y": 385
           }
-        ],
-        "access_rules": [
-          "@Tower of Babel (E2M8)/Supercharge 2"
         ]
       },
       {
         "name": "Mega Armor",
+        "access_rules": [
+          "@Tower of Babel (E2M8)/Mega Armor"
+        ],
         "sections": [
           {
             "ref": "Tower of Babel (E2M8)/Mega Armor",
@@ -108,22 +113,22 @@
         "map_locations": [
           {
             "map": "e2m8",
-            "x": 263,
-            "y": 395,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 263,
+            "y": 395
           }
-        ],
-        "access_rules": [
-          "@Tower of Babel (E2M8)/Mega Armor"
         ]
       },
       {
         "name": "E2M8 Exit",
+        "access_rules": [
+          "@Tower of Babel (E2M8)/E2M8 Exit"
+        ],
         "sections": [
           {
-            "ref": "Tower of Babel (E2M8)/Exit",
+            "ref": "Tower of Babel (E2M8)/E2M8 Exit",
             "name": "Level Completed",
             "hosted_item": "e2m8_complete"
           }
@@ -131,19 +136,15 @@
         "map_locations": [
           {
             "map": "e2m8",
-            "x": 50,
-            "y": 170,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "size": 20,
+            "x": 50,
+            "y": 170
           }
-        ],
-        "access_rules": [
-          "@Tower of Babel (E2M8)/Exit"
         ]
       }
-    ],
-    "parent": "Tower of Babel (E2M8)"
+    ]
   }
 ]

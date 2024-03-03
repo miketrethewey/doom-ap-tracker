@@ -1,9 +1,10 @@
 [
   {
     "name": "E4M1",
+    "parent": "Hell Beneath (E4M1)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E4M1 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "Hell Beneath (E4M1)/E4M1 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e4m1",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Red Skull Key",
+        "access_rules": [
+          "@Hell Beneath (E4M1)/Red Skull Key"
+        ],
         "sections": [
           {
             "ref": "Hell Beneath (E4M1)/Red Skull Key",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e4m1",
-            "x": 390,
-            "y": 455,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 390,
+            "y": 455
           }
-        ],
-        "access_rules": [
-          "@Hell Beneath (E4M1)/Red Skull Key"
         ]
       },
       {
         "name": "Rocket Launcher",
+        "access_rules": [
+          "@Hell Beneath (E4M1)/Rocket Launcher"
+        ],
         "sections": [
           {
             "ref": "Hell Beneath (E4M1)/Rocket Launcher",
@@ -62,19 +67,19 @@
         "map_locations": [
           {
             "map": "e4m1",
-            "x": 520,
-            "y": 308,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 520,
+            "y": 308
           }
-        ],
-        "access_rules": [
-          "@Hell Beneath (E4M1)/Rocket Launcher"
         ]
       },
       {
         "name": "Shotgun",
+        "access_rules": [
+          "@Hell Beneath (E4M1)/Shotgun"
+        ],
         "sections": [
           {
             "ref": "Hell Beneath (E4M1)/Shotgun",
@@ -85,19 +90,19 @@
         "map_locations": [
           {
             "map": "e4m1",
-            "x": 657,
-            "y": 152,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 657,
+            "y": 152
           }
-        ],
-        "access_rules": [
-          "@Hell Beneath (E4M1)/Shotgun"
         ]
       },
       {
         "name": "Armor",
+        "access_rules": [
+          "@Hell Beneath (E4M1)/Armor"
+        ],
         "sections": [
           {
             "ref": "Hell Beneath (E4M1)/Armor",
@@ -108,19 +113,19 @@
         "map_locations": [
           {
             "map": "e4m1",
-            "x": 509,
-            "y": 205,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 509,
+            "y": 205
           }
-        ],
-        "access_rules": [
-          "@Hell Beneath (E4M1)/Armor"
         ]
       },
       {
         "name": "Chaingun",
+        "access_rules": [
+          "@Hell Beneath (E4M1)/Chaingun"
+        ],
         "sections": [
           {
             "ref": "Hell Beneath (E4M1)/Chaingun",
@@ -131,45 +136,45 @@
         "map_locations": [
           {
             "map": "e4m1",
-            "x": 297,
-            "y": 385,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 297,
+            "y": 385
           }
-        ],
-        "access_rules": [
-          "@Hell Beneath (E4M1)/Chaingun"
         ]
       },
       {
         "name": "Blue Skull Key",
+        "access_rules": [
+          "@Hell Beneath (E4M1)/Blue Skull Key"
+        ],
         "sections": [
           {
             "ref": "Hell Beneath (E4M1)/Blue Skull Key",
-            "name": "Requires Red Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e4m1",
-            "x": 1018,
-            "y": 266,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 1018,
+            "y": 266
           }
-        ],
-        "access_rules": [
-          "@Hell Beneath (E4M1)/Blue Skull Key"
         ]
       },
       {
         "name": "E4M1 Exit",
+        "access_rules": [
+          "@Hell Beneath (E4M1)/E4M1 Exit"
+        ],
         "sections": [
           {
-            "ref": "Hell Beneath (E4M1)/Exit",
+            "ref": "Hell Beneath (E4M1)/E4M1 Exit",
             "name": "Level Completed",
             "hosted_item": "e4m1_complete"
           }
@@ -177,19 +182,15 @@
         "map_locations": [
           {
             "map": "e4m1",
-            "x": 23,
-            "y": 266,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "size": 20,
+            "x": 23,
+            "y": 266
           }
-        ],
-        "access_rules": [
-          "@Hell Beneath (E4M1)/Exit"
         ]
       }
-    ],
-    "parent": "Hell Beneath (E4M1)"
+    ]
   }
 ]

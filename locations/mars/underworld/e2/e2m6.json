@@ -1,9 +1,10 @@
 [
   {
     "name": "E2M6",
+    "parent": "Halls of the Damned (E2M6)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E2M6 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "Halls of the Damned (E2M6)/E2M6 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e2m6",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Shotgun",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Shotgun"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Shotgun",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 335,
-            "y": 420,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 335,
+            "y": 420
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Shotgun"
         ]
       },
       {
         "name": "Rocket Launcher",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Rocket Launcher"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Rocket Launcher",
@@ -62,19 +67,19 @@
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 330,
-            "y": 400,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 330,
+            "y": 400
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Rocket Launcher"
         ]
       },
       {
         "name": "Berserk",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Berserk"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Berserk",
@@ -85,19 +90,19 @@
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 329,
-            "y": 200,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 329,
+            "y": 200
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Berserk"
         ]
       },
       {
         "name": "Chainsaw",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Chainsaw"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Chainsaw",
@@ -108,19 +113,19 @@
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 457,
-            "y": 600,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 457,
+            "y": 600
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Chainsaw"
         ]
       },
       {
         "name": "Mega Armor",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Mega Armor"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Mega Armor",
@@ -131,19 +136,19 @@
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 133,
-            "y": 545,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 133,
+            "y": 545
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Mega Armor"
         ]
       },
       {
         "name": "Backpack",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Backpack"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Backpack",
@@ -154,19 +159,19 @@
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 257,
-            "y": 547,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 257,
+            "y": 547
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Backpack"
         ]
       },
       {
         "name": "Plasma Gun",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Plasma Gun"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Plasma Gun",
@@ -177,42 +182,42 @@
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 260,
-            "y": 772,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 260,
+            "y": 772
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Plasma Gun"
         ]
       },
       {
         "name": "Yellow Skull Key",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Yellow Skull Key"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Yellow Skull Key",
-            "name": "Requires Yellow Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 193,
-            "y": 310,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 193,
+            "y": 310
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Yellow Skull Key"
         ]
       },
       {
         "name": "Partial Invisibility 3",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Partial Invisibility 3"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Partial Invisibility 3",
@@ -223,19 +228,19 @@
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 103,
-            "y": 612,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 103,
+            "y": 612
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Partial Invisibility 3"
         ]
       },
       {
         "name": "Partial Invisibility",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Partial Invisibility"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Partial Invisibility",
@@ -246,19 +251,19 @@
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 187,
-            "y": 53,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 187,
+            "y": 53
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Partial Invisibility"
         ]
       },
       {
         "name": "Armor",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Armor"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Armor",
@@ -269,19 +274,19 @@
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 201,
-            "y": 63,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 201,
+            "y": 63
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Armor"
         ]
       },
       {
         "name": "Chaingun",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Chaingun"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Chaingun",
@@ -292,19 +297,19 @@
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 35,
-            "y": 160,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 35,
+            "y": 160
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Chaingun"
         ]
       },
       {
         "name": "Red Skull Key",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Red Skull Key"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Red Skull Key",
@@ -315,19 +320,19 @@
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 109,
-            "y": 680,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 109,
+            "y": 680
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Red Skull Key"
         ]
       },
       {
         "name": "Blue Skull Key",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Blue Skull Key"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Blue Skull Key",
@@ -338,91 +343,91 @@
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 500,
-            "y": 530,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 500,
+            "y": 530
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Blue Skull Key"
         ]
       },
       {
         "name": "Partial Invisibility 2",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Partial Invisibility 2"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Partial Invisibility 2",
-            "name": "Requires Yellow Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 153,
-            "y": 310,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 153,
+            "y": 310
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Partial Invisibility 2"
         ]
       },
       {
         "name": "Computer Area Map",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Computer Area Map"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Computer Area Map",
-            "name": "Requires Yellow Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 338,
-            "y": 30,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 338,
+            "y": 30
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Computer Area Map"
         ]
       },
       {
         "name": "Supercharge",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/Supercharge"
+        ],
         "sections": [
           {
             "ref": "Halls of the Damned (E2M6)/Supercharge",
-            "name": "Requires Yellow Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 405,
-            "y": 150,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 405,
+            "y": 150
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Supercharge"
         ]
       },
       {
         "name": "E2M6 Exit",
+        "access_rules": [
+          "@Halls of the Damned (E2M6)/E2M6 Exit"
+        ],
         "sections": [
           {
-            "ref": "Halls of the Damned (E2M6)/Exit",
+            "ref": "Halls of the Damned (E2M6)/E2M6 Exit",
             "name": "Level Completed",
             "hosted_item": "e2m6_complete"
           }
@@ -430,19 +435,15 @@
         "map_locations": [
           {
             "map": "e2m6",
-            "x": 500,
-            "y": 392,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "size": 20,
+            "x": 500,
+            "y": 392
           }
-        ],
-        "access_rules": [
-          "@Halls of the Damned (E2M6)/Exit"
         ]
       }
-    ],
-    "parent": "Halls of the Damned (E2M6)"
+    ]
   }
 ]

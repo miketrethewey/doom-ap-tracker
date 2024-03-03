@@ -4,7 +4,7 @@
     "parent": "Hangar (E1M1)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E1M1 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -12,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "Hangar (E1M1)/E1M1 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -19,7 +20,7 @@
         "map_locations": [
           {
             "map": "e1m1",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
             ],
             "size": 20,
@@ -43,7 +44,7 @@
         "map_locations": [
           {
             "map": "e1m1",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
             ],
             "x": 585,
@@ -58,7 +59,7 @@
         ],
         "sections": [
           {
-            "ref": "Mars/Hangar (E1M1)/Armor",
+            "ref": "Hangar (E1M1)/Armor",
             "name": "Item",
             "item_count": 1
           }
@@ -66,7 +67,7 @@
         "map_locations": [
           {
             "map": "e1m1",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
             ],
             "x": 131,
@@ -81,7 +82,7 @@
         ],
         "sections": [
           {
-            "ref": "Mars/Hangar (E1M1)/Shotgun",
+            "ref": "Hangar (E1M1)/Shotgun",
             "name": "Item",
             "item_count": 1
           }
@@ -89,7 +90,7 @@
         "map_locations": [
           {
             "map": "e1m1",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
             ],
             "x": 910,
@@ -100,11 +101,11 @@
       {
         "name": "E1M1 Exit",
         "access_rules": [
-          "@Hangar (E1M1)/Exit"
+          "@Hangar (E1M1)/E1M1 Exit"
         ],
         "sections": [
           {
-            "ref": "Mars/Hangar (E1M1)/Exit",
+            "ref": "Hangar (E1M1)/E1M1 Exit",
             "name": "Level Completed",
             "hosted_item": "e1m1_complete"
           }
@@ -112,7 +113,7 @@
         "map_locations": [
           {
             "map": "e1m1",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep1_on"
             ],
             "size": 20,

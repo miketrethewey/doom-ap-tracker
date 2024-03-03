@@ -1,9 +1,10 @@
 [
   {
     "name": "E3M8",
+    "parent": "Dis (E3M8)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E3M8 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "Dis (E3M8)/E3M8 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e3m8",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Rocket Launcher",
+        "access_rules": [
+          "@Dis (E3M8)/Rocket Launcher"
+        ],
         "sections": [
           {
             "ref": "Dis (E3M8)/Rocket Launcher",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e3m8",
-            "x": 381,
-            "y": 570,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 381,
+            "y": 570
           }
-        ],
-        "access_rules": [
-          "@Dis (E3M8)/Rocket Launcher"
         ]
       },
       {
         "name": "Plasma Gun",
+        "access_rules": [
+          "@Dis (E3M8)/Plasma Gun"
+        ],
         "sections": [
           {
             "ref": "Dis (E3M8)/Plasma Gun",
@@ -62,19 +67,19 @@
         "map_locations": [
           {
             "map": "e3m8",
-            "x": 395,
-            "y": 377,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 395,
+            "y": 377
           }
-        ],
-        "access_rules": [
-          "@Dis (E3M8)/Plasma Gun"
         ]
       },
       {
         "name": "Mega Armor",
+        "access_rules": [
+          "@Dis (E3M8)/Mega Armor"
+        ],
         "sections": [
           {
             "ref": "Dis (E3M8)/Mega Armor",
@@ -85,22 +90,22 @@
         "map_locations": [
           {
             "map": "e3m8",
-            "x": 367,
-            "y": 349,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 367,
+            "y": 349
           }
-        ],
-        "access_rules": [
-          "@Dis (E3M8)/Mega Armor"
         ]
       },
       {
         "name": "E3M8 Exit",
+        "access_rules": [
+          "@Dis (E3M8)/E3M8 Exit"
+        ],
         "sections": [
           {
-            "ref": "Dis (E3M8)/Exit",
+            "ref": "Dis (E3M8)/E3M8 Exit",
             "name": "Level Completed",
             "hosted_item": "e3m8_complete"
           }
@@ -108,19 +113,15 @@
         "map_locations": [
           {
             "map": "e3m8",
-            "x": 670,
-            "y": 640,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "size": 20,
+            "x": 670,
+            "y": 640
           }
-        ],
-        "access_rules": [
-          "@Dis (E3M8)/Exit"
         ]
       }
-    ],
-    "parent": "Dis (E3M8)"
+    ]
   }
 ]

@@ -1,9 +1,10 @@
 [
   {
     "name": "E2M4",
+    "parent": "Deimos Lab (E2M4)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E2M4 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "Deimos Lab (E2M4)/E2M4 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e2m4",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Shotgun",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/Shotgun"
+        ],
         "sections": [
           {
             "ref": "Deimos Lab (E2M4)/Shotgun",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 230,
-            "y": 750,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 230,
+            "y": 750
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Shotgun"
         ]
       },
       {
         "name": "Computer Area Map",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/Computer Area Map"
+        ],
         "sections": [
           {
             "ref": "Deimos Lab (E2M4)/Computer Area Map",
@@ -62,19 +67,19 @@
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 735,
-            "y": 225,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 735,
+            "y": 225
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Computer Area Map"
         ]
       },
       {
         "name": "Armor 2",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/Armor 2"
+        ],
         "sections": [
           {
             "ref": "Deimos Lab (E2M4)/Armor 2",
@@ -85,19 +90,19 @@
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 735,
-            "y": 242,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 735,
+            "y": 242
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Armor 2"
         ]
       },
       {
         "name": "Partial Invisibility",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/Partial Invisibility"
+        ],
         "sections": [
           {
             "ref": "Deimos Lab (E2M4)/Partial Invisibility",
@@ -108,19 +113,19 @@
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 525,
-            "y": 455,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 525,
+            "y": 455
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Partial Invisibility"
         ]
       },
       {
         "name": "Armor",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/Armor"
+        ],
         "sections": [
           {
             "ref": "Deimos Lab (E2M4)/Armor",
@@ -131,19 +136,19 @@
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 502,
-            "y": 455,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 502,
+            "y": 455
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Armor"
         ]
       },
       {
         "name": "Berserk",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/Berserk"
+        ],
         "sections": [
           {
             "ref": "Deimos Lab (E2M4)/Berserk",
@@ -154,19 +159,19 @@
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 391,
-            "y": 730,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 391,
+            "y": 730
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Berserk"
         ]
       },
       {
         "name": "Backpack",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/Backpack"
+        ],
         "sections": [
           {
             "ref": "Deimos Lab (E2M4)/Backpack",
@@ -177,19 +182,19 @@
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 55,
-            "y": 428,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 55,
+            "y": 428
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Backpack"
         ]
       },
       {
         "name": "Supercharge 2",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/Supercharge 2"
+        ],
         "sections": [
           {
             "ref": "Deimos Lab (E2M4)/Supercharge 2",
@@ -200,19 +205,19 @@
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 624,
-            "y": 238,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 624,
+            "y": 238
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Supercharge 2"
         ]
       },
       {
         "name": "Partial Invisibility 2",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/Partial Invisibility 2"
+        ],
         "sections": [
           {
             "ref": "Deimos Lab (E2M4)/Partial Invisibility 2",
@@ -223,19 +228,19 @@
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 406,
-            "y": 402,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 406,
+            "y": 402
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Partial Invisibility 2"
         ]
       },
       {
         "name": "Chaingun",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/Chaingun"
+        ],
         "sections": [
           {
             "ref": "Deimos Lab (E2M4)/Chaingun",
@@ -246,19 +251,19 @@
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 415,
-            "y": 380,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 415,
+            "y": 380
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Chaingun"
         ]
       },
       {
         "name": "Armor 3",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/Armor 3"
+        ],
         "sections": [
           {
             "ref": "Deimos Lab (E2M4)/Armor 3",
@@ -269,19 +274,19 @@
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 198,
-            "y": 465,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 198,
+            "y": 465
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Armor 3"
         ]
       },
       {
         "name": "Blue Keycard",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/Blue Keycard"
+        ],
         "sections": [
           {
             "ref": "Deimos Lab (E2M4)/Blue Keycard",
@@ -292,114 +297,114 @@
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 110,
-            "y": 630,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 110,
+            "y": 630
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Blue Keycard"
         ]
       },
       {
         "name": "Yellow Keycard",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/Yellow Keycard"
+        ],
         "sections": [
           {
             "ref": "Deimos Lab (E2M4)/Yellow Keycard",
-            "name": "Requires Blue Keycard",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 104,
-            "y": 94,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 104,
+            "y": 94
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Yellow Keycard"
         ]
       },
       {
         "name": "Plasma Gun",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/Plasma Gun"
+        ],
         "sections": [
           {
             "ref": "Deimos Lab (E2M4)/Plasma Gun",
-            "name": "Requires Blue & Yellow Keycards",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 507,
-            "y": 234,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 507,
+            "y": 234
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Plasma Gun"
         ]
       },
       {
         "name": "Supercharge",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/Supercharge"
+        ],
         "sections": [
           {
             "ref": "Deimos Lab (E2M4)/Supercharge",
-            "name": "Requires Blue & Yellow Keycards",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 632,
-            "y": 722,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 632,
+            "y": 722
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Supercharge"
         ]
       },
       {
         "name": "Mega Armor",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/Mega Armor"
+        ],
         "sections": [
           {
             "ref": "Deimos Lab (E2M4)/Mega Armor",
-            "name": "Requires Blue & Yellow Keycards",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 485,
-            "y": 258,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 485,
+            "y": 258
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Mega Armor"
         ]
       },
       {
         "name": "E2M4 Exit",
+        "access_rules": [
+          "@Deimos Lab (E2M4)/E2M4 Exit"
+        ],
         "sections": [
           {
-            "ref": "Deimos Lab (E2M4)/Exit",
+            "ref": "Deimos Lab (E2M4)/E2M4 Exit",
             "name": "Level Completed",
             "hosted_item": "e2m4_complete"
           }
@@ -407,19 +412,15 @@
         "map_locations": [
           {
             "map": "e2m4",
-            "x": 790,
-            "y": 730,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "size": 20,
+            "x": 790,
+            "y": 730
           }
-        ],
-        "access_rules": [
-          "@Deimos Lab (E2M4)/Exit"
         ]
       }
-    ],
-    "parent": "Deimos Lab (E2M4)"
+    ]
   }
 ]

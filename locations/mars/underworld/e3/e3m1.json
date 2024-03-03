@@ -1,9 +1,10 @@
 [
   {
     "name": "E3M1",
+    "parent": "Hell Keep (E3M1)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E3M1 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "Hell Keep (E3M1)/E3M1 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e3m1",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Shotgun",
+        "access_rules": [
+          "@Hell Keep (E3M1)/Shotgun"
+        ],
         "sections": [
           {
             "ref": "Hell Keep (E3M1)/Shotgun",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e3m1",
-            "x": 115,
-            "y": 390,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 115,
+            "y": 390
           }
-        ],
-        "access_rules": [
-          "@Hell Keep (E3M1)/Shotgun"
         ]
       },
       {
         "name": "Rocket Launcher",
+        "access_rules": [
+          "@Hell Keep (E3M1)/Rocket Launcher"
+        ],
         "sections": [
           {
             "ref": "Hell Keep (E3M1)/Rocket Launcher",
@@ -62,22 +67,22 @@
         "map_locations": [
           {
             "map": "e3m1",
-            "x": 52,
-            "y": 95,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "x": 52,
+            "y": 95
           }
-        ],
-        "access_rules": [
-          "@Hell Keep (E3M1)/Rocket Launcher"
         ]
       },
       {
         "name": "E3M1 Exit",
+        "access_rules": [
+          "@Hell Keep (E3M1)/E3M1 Exit"
+        ],
         "sections": [
           {
-            "ref": "Hell Keep (E3M1)/Exit",
+            "ref": "Hell Keep (E3M1)/E3M1 Exit",
             "name": "Level Completed",
             "hosted_item": "e3m1_complete"
           }
@@ -85,19 +90,15 @@
         "map_locations": [
           {
             "map": "e3m1",
-            "x": 77,
-            "y": 40,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep3_on"
-            ]
+            ],
+            "size": 20,
+            "x": 77,
+            "y": 40
           }
-        ],
-        "access_rules": [
-          "@Hell Keep (E3M1)/Exit"
         ]
       }
-    ],
-    "parent": "Hell Keep (E3M1)"
+    ]
   }
 ]

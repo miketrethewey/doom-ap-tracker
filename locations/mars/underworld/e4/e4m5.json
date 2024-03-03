@@ -1,9 +1,10 @@
 [
   {
     "name": "E4M5",
+    "parent": "They Will Repent (E4M5)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E4M5 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "They Will Repent (E4M5)/E4M5 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Red Skull Key",
+        "access_rules": [
+          "@They Will Repent (E4M5)/Red Skull Key"
+        ],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Red Skull Key",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "x": 575,
-            "y": 345,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 575,
+            "y": 345
           }
-        ],
-        "access_rules": [
-          "@They Will Repent (E4M5)/Red Skull Key"
         ]
       },
       {
         "name": "Chaingun",
+        "access_rules": [
+          "@They Will Repent (E4M5)/Chaingun"
+        ],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Chaingun",
@@ -62,19 +67,19 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "x": 620,
-            "y": 610,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 620,
+            "y": 610
           }
-        ],
-        "access_rules": [
-          "@They Will Repent (E4M5)/Chaingun"
         ]
       },
       {
         "name": "Rocket Launcher",
+        "access_rules": [
+          "@They Will Repent (E4M5)/Rocket Launcher"
+        ],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Rocket Launcher",
@@ -85,19 +90,19 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "x": 713,
-            "y": 600,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 713,
+            "y": 600
           }
-        ],
-        "access_rules": [
-          "@They Will Repent (E4M5)/Rocket Launcher"
         ]
       },
       {
         "name": "Armor",
+        "access_rules": [
+          "@They Will Repent (E4M5)/Armor"
+        ],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Armor",
@@ -108,183 +113,183 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "x": 460,
-            "y": 775,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 460,
+            "y": 775
           }
-        ],
-        "access_rules": [
-          "@They Will Repent (E4M5)/Armor"
         ]
       },
       {
         "name": "Yellow Skull Key",
+        "access_rules": [
+          "@They Will Repent (E4M5)/Yellow Skull Key"
+        ],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Yellow Skull Key",
-            "name": "Requires Red Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e4m5",
-            "x": 415,
-            "y": 35,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 415,
+            "y": 35
           }
-        ],
-        "access_rules": [
-          "@They Will Repent (E4M5)/Yellow Skull Key"
         ]
       },
       {
         "name": "Blue Skull Key",
+        "access_rules": [
+          "@They Will Repent (E4M5)/Blue Skull Key"
+        ],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Blue Skull Key",
-            "name": "Requires Red Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e4m5",
-            "x": 59,
-            "y": 412,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 59,
+            "y": 412
           }
-        ],
-        "access_rules": [
-          "@They Will Repent (E4M5)/Blue Skull Key"
         ]
       },
       {
         "name": "BFG9000",
+        "access_rules": [
+          "@They Will Repent (E4M5)/BFG9000"
+        ],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/BFG9000",
-            "name": "Requires Red Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e4m5",
-            "x": 473,
-            "y": 38,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 473,
+            "y": 38
           }
-        ],
-        "access_rules": [
-          "@They Will Repent (E4M5)/BFG9000"
         ]
       },
       {
         "name": "Plasma Gun",
+        "access_rules": [
+          "@They Will Repent (E4M5)/Plasma Gun"
+        ],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Plasma Gun",
-            "name": "Requires Red Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e4m5",
-            "x": 257,
-            "y": 430,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 257,
+            "y": 430
           }
-        ],
-        "access_rules": [
-          "@They Will Repent (E4M5)/Plasma Gun"
         ]
       },
       {
         "name": "Supercharge",
+        "access_rules": [
+          "@They Will Repent (E4M5)/Supercharge"
+        ],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Supercharge",
-            "name": "Requires Red Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e4m5",
-            "x": 223,
-            "y": 330,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 223,
+            "y": 330
           }
-        ],
-        "access_rules": [
-          "@They Will Repent (E4M5)/Supercharge"
         ]
       },
       {
         "name": "Invulnerability",
+        "access_rules": [
+          "@They Will Repent (E4M5)/Invulnerability"
+        ],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Invulnerability",
-            "name": "Requires Red Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e4m5",
-            "x": 570,
-            "y": 140,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 570,
+            "y": 140
           }
-        ],
-        "access_rules": [
-          "@They Will Repent (E4M5)/Invulnerability"
         ]
       },
       {
         "name": "Berserk",
+        "access_rules": [
+          "@They Will Repent (E4M5)/Berserk"
+        ],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Berserk",
-            "name": "Requires Red Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e4m5",
-            "x": 430,
-            "y": 200,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "x": 430,
+            "y": 200
           }
-        ],
-        "access_rules": [
-          "@They Will Repent (E4M5)/Berserk"
         ]
       },
       {
         "name": "E4M5 Exit",
+        "access_rules": [
+          "@They Will Repent (E4M5)/E4M5 Exit"
+        ],
         "sections": [
           {
-            "ref": "They Will Repent (E4M5)/Exit",
+            "ref": "They Will Repent (E4M5)/E4M5 Exit",
             "name": "Level Completed",
             "hosted_item": "e4m5_complete"
           }
@@ -292,19 +297,15 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "x": 488,
-            "y": 95,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep4_on"
-            ]
+            ],
+            "size": 20,
+            "x": 488,
+            "y": 95
           }
-        ],
-        "access_rules": [
-          "@They Will Repent (E4M5)/Exit"
         ]
       }
-    ],
-    "parent": "They Will Repent (E4M5)"
+    ]
   }
 ]

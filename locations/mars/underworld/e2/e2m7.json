@@ -1,9 +1,10 @@
 [
   {
     "name": "E2M7",
+    "parent": "Spawning Vats (E2M7)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E2M7 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "Spawning Vats (E2M7)/E2M7 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e2m7",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Rocket Launcher",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/Rocket Launcher"
+        ],
         "sections": [
           {
             "ref": "Spawning Vats (E2M7)/Rocket Launcher",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 57,
-            "y": 550,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 57,
+            "y": 550
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Rocket Launcher"
         ]
       },
       {
         "name": "Partial Invisibility",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/Partial Invisibility"
+        ],
         "sections": [
           {
             "ref": "Spawning Vats (E2M7)/Partial Invisibility",
@@ -62,19 +67,19 @@
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 904,
-            "y": 316,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 904,
+            "y": 316
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Partial Invisibility"
         ]
       },
       {
         "name": "Mega Armor",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/Mega Armor"
+        ],
         "sections": [
           {
             "ref": "Spawning Vats (E2M7)/Mega Armor",
@@ -85,19 +90,19 @@
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 644,
-            "y": 201,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 644,
+            "y": 201
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Mega Armor"
         ]
       },
       {
         "name": "Armor",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/Armor"
+        ],
         "sections": [
           {
             "ref": "Spawning Vats (E2M7)/Armor",
@@ -108,19 +113,19 @@
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 120,
-            "y": 133,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 120,
+            "y": 133
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Armor"
         ]
       },
       {
         "name": "Blue Keycard",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/Blue Keycard"
+        ],
         "sections": [
           {
             "ref": "Spawning Vats (E2M7)/Blue Keycard",
@@ -131,19 +136,19 @@
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 898,
-            "y": 655,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 898,
+            "y": 655
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Blue Keycard"
         ]
       },
       {
         "name": "Invulnerability",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/Invulnerability"
+        ],
         "sections": [
           {
             "ref": "Spawning Vats (E2M7)/Invulnerability",
@@ -154,19 +159,19 @@
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 1009,
-            "y": 268,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 1009,
+            "y": 268
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Invulnerability"
         ]
       },
       {
         "name": "Berserk",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/Berserk"
+        ],
         "sections": [
           {
             "ref": "Spawning Vats (E2M7)/Berserk",
@@ -177,19 +182,19 @@
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 922,
-            "y": 275,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 922,
+            "y": 275
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Berserk"
         ]
       },
       {
         "name": "Chainsaw",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/Chainsaw"
+        ],
         "sections": [
           {
             "ref": "Spawning Vats (E2M7)/Chainsaw",
@@ -200,19 +205,19 @@
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 157,
-            "y": 70,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 157,
+            "y": 70
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Chainsaw"
         ]
       },
       {
         "name": "Invulnerability 2",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/Invulnerability 2"
+        ],
         "sections": [
           {
             "ref": "Spawning Vats (E2M7)/Invulnerability 2",
@@ -223,19 +228,19 @@
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 196,
-            "y": 290,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 196,
+            "y": 290
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Invulnerability 2"
         ]
       },
       {
         "name": "Computer Area Map",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/Computer Area Map"
+        ],
         "sections": [
           {
             "ref": "Spawning Vats (E2M7)/Computer Area Map",
@@ -246,19 +251,19 @@
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 930,
-            "y": 316,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 930,
+            "y": 316
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Computer Area Map"
         ]
       },
       {
         "name": "Plasma Gun",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/Plasma Gun"
+        ],
         "sections": [
           {
             "ref": "Spawning Vats (E2M7)/Plasma Gun",
@@ -269,137 +274,137 @@
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 44,
-            "y": 305,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 44,
+            "y": 305
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Plasma Gun"
         ]
       },
       {
         "name": "Yellow Keycard",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/Yellow Keycard"
+        ],
         "sections": [
           {
             "ref": "Spawning Vats (E2M7)/Yellow Keycard",
-            "name": "Requires Blue Keycard",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 502,
-            "y": 288,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 502,
+            "y": 288
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Yellow Keycard"
         ]
       },
       {
         "name": "Chaingun",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/Chaingun"
+        ],
         "sections": [
           {
             "ref": "Spawning Vats (E2M7)/Chaingun",
-            "name": "Requires Blue Keycard",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 225,
-            "y": 60,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 225,
+            "y": 60
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Chaingun"
         ]
       },
       {
         "name": "Backpack",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/Backpack"
+        ],
         "sections": [
           {
             "ref": "Spawning Vats (E2M7)/Backpack",
-            "name": "Requires Blue Keycard",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 280,
-            "y": 465,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 280,
+            "y": 465
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Backpack"
         ]
       },
       {
         "name": "Red Keycard",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/Red Keycard"
+        ],
         "sections": [
           {
             "ref": "Spawning Vats (E2M7)/Red Keycard",
-            "name": "Requires Yellow Keycard",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 501,
-            "y": 614,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 501,
+            "y": 614
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Red Keycard"
         ]
       },
       {
         "name": "Supercharge",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/Supercharge"
+        ],
         "sections": [
           {
             "ref": "Spawning Vats (E2M7)/Supercharge",
-            "name": "Requires Blue & Red Keycards",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 435,
-            "y": 47,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 435,
+            "y": 47
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Supercharge"
         ]
       },
       {
         "name": "E2M7 Exit",
+        "access_rules": [
+          "@Spawning Vats (E2M7)/E2M7 Exit"
+        ],
         "sections": [
           {
-            "ref": "Spawning Vats (E2M7)/Exit",
+            "ref": "Spawning Vats (E2M7)/E2M7 Exit",
             "name": "Level Completed",
             "hosted_item": "e2m7_complete"
           }
@@ -407,19 +412,15 @@
         "map_locations": [
           {
             "map": "e2m7",
-            "x": 321,
-            "y": 700,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "size": 20,
+            "x": 321,
+            "y": 700
           }
-        ],
-        "access_rules": [
-          "@Spawning Vats (E2M7)/Exit"
         ]
       }
-    ],
-    "parent": "Spawning Vats (E2M7)"
+    ]
   }
 ]

@@ -1,9 +1,10 @@
 [
   {
     "name": "E2M9",
+    "parent": "Fortress of Mystery (E2M9)",
     "children": [
       {
-        "name": "Entrance",
+        "name": "E2M9 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": [
@@ -11,6 +12,7 @@
         ],
         "sections": [
           {
+            "ref": "Fortress of Mystery (E2M9)/E2M9 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
@@ -18,7 +20,7 @@
         "map_locations": [
           {
             "map": "e2m9",
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
             ],
             "size": 20,
@@ -29,6 +31,9 @@
       },
       {
         "name": "Supercharge",
+        "access_rules": [
+          "@Fortress of Mystery (E2M9)/Supercharge"
+        ],
         "sections": [
           {
             "ref": "Fortress of Mystery (E2M9)/Supercharge",
@@ -39,19 +44,19 @@
         "map_locations": [
           {
             "map": "e2m9",
-            "x": 738,
-            "y": 284,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 738,
+            "y": 284
           }
-        ],
-        "access_rules": [
-          "@Fortress of Mystery (E2M9)/Supercharge"
         ]
       },
       {
         "name": "Blue Skull Key",
+        "access_rules": [
+          "@Fortress of Mystery (E2M9)/Blue Skull Key"
+        ],
         "sections": [
           {
             "ref": "Fortress of Mystery (E2M9)/Blue Skull Key",
@@ -62,19 +67,19 @@
         "map_locations": [
           {
             "map": "e2m9",
-            "x": 983,
-            "y": 255,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 983,
+            "y": 255
           }
-        ],
-        "access_rules": [
-          "@Fortress of Mystery (E2M9)/Blue Skull Key"
         ]
       },
       {
         "name": "Backpack",
+        "access_rules": [
+          "@Fortress of Mystery (E2M9)/Backpack"
+        ],
         "sections": [
           {
             "ref": "Fortress of Mystery (E2M9)/Backpack",
@@ -85,19 +90,19 @@
         "map_locations": [
           {
             "map": "e2m9",
-            "x": 30,
-            "y": 283,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 30,
+            "y": 283
           }
-        ],
-        "access_rules": [
-          "@Fortress of Mystery (E2M9)/Backpack"
         ]
       },
       {
         "name": "Chaingun",
+        "access_rules": [
+          "@Fortress of Mystery (E2M9)/Chaingun"
+        ],
         "sections": [
           {
             "ref": "Fortress of Mystery (E2M9)/Chaingun",
@@ -108,19 +113,19 @@
         "map_locations": [
           {
             "map": "e2m9",
-            "x": 136,
-            "y": 135,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 136,
+            "y": 135
           }
-        ],
-        "access_rules": [
-          "@Fortress of Mystery (E2M9)/Chaingun"
         ]
       },
       {
         "name": "Plasma Gun",
+        "access_rules": [
+          "@Fortress of Mystery (E2M9)/Plasma Gun"
+        ],
         "sections": [
           {
             "ref": "Fortress of Mystery (E2M9)/Plasma Gun",
@@ -131,19 +136,19 @@
         "map_locations": [
           {
             "map": "e2m9",
-            "x": 283,
-            "y": 30,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 283,
+            "y": 30
           }
-        ],
-        "access_rules": [
-          "@Fortress of Mystery (E2M9)/Plasma Gun"
         ]
       },
       {
         "name": "Rocket Launcher",
+        "access_rules": [
+          "@Fortress of Mystery (E2M9)/Rocket Launcher"
+        ],
         "sections": [
           {
             "ref": "Fortress of Mystery (E2M9)/Rocket Launcher",
@@ -154,19 +159,19 @@
         "map_locations": [
           {
             "map": "e2m9",
-            "x": 425,
-            "y": 135,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 425,
+            "y": 135
           }
-        ],
-        "access_rules": [
-          "@Fortress of Mystery (E2M9)/Rocket Launcher"
         ]
       },
       {
         "name": "Shotgun",
+        "access_rules": [
+          "@Fortress of Mystery (E2M9)/Shotgun"
+        ],
         "sections": [
           {
             "ref": "Fortress of Mystery (E2M9)/Shotgun",
@@ -177,19 +182,19 @@
         "map_locations": [
           {
             "map": "e2m9",
-            "x": 425,
-            "y": 430,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 425,
+            "y": 430
           }
-        ],
-        "access_rules": [
-          "@Fortress of Mystery (E2M9)/Shotgun"
         ]
       },
       {
         "name": "Chainsaw",
+        "access_rules": [
+          "@Fortress of Mystery (E2M9)/Chainsaw"
+        ],
         "sections": [
           {
             "ref": "Fortress of Mystery (E2M9)/Chainsaw",
@@ -200,19 +205,19 @@
         "map_locations": [
           {
             "map": "e2m9",
-            "x": 283,
-            "y": 540,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 283,
+            "y": 540
           }
-        ],
-        "access_rules": [
-          "@Fortress of Mystery (E2M9)/Chainsaw"
         ]
       },
       {
         "name": "Computer Area Map",
+        "access_rules": [
+          "@Fortress of Mystery (E2M9)/Computer Area Map"
+        ],
         "sections": [
           {
             "ref": "Fortress of Mystery (E2M9)/Computer Area Map",
@@ -223,19 +228,19 @@
         "map_locations": [
           {
             "map": "e2m9",
-            "x": 136,
-            "y": 430,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 136,
+            "y": 430
           }
-        ],
-        "access_rules": [
-          "@Fortress of Mystery (E2M9)/Computer Area Map"
         ]
       },
       {
         "name": "Mega Armor",
+        "access_rules": [
+          "@Fortress of Mystery (E2M9)/Mega Armor"
+        ],
         "sections": [
           {
             "ref": "Fortress of Mystery (E2M9)/Mega Armor",
@@ -246,68 +251,68 @@
         "map_locations": [
           {
             "map": "e2m9",
-            "x": 280,
-            "y": 290,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 280,
+            "y": 290
           }
-        ],
-        "access_rules": [
-          "@Fortress of Mystery (E2M9)/Mega Armor"
         ]
       },
       {
         "name": "Red Skull Key",
+        "access_rules": [
+          "@Fortress of Mystery (E2M9)/Red Skull Key"
+        ],
         "sections": [
           {
             "ref": "Fortress of Mystery (E2M9)/Red Skull Key",
-            "name": "Requires Blue Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m9",
-            "x": 971,
-            "y": 312,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 971,
+            "y": 312
           }
-        ],
-        "access_rules": [
-          "@Fortress of Mystery (E2M9)/Red Skull Key"
         ]
       },
       {
         "name": "Yellow Skull Key",
+        "access_rules": [
+          "@Fortress of Mystery (E2M9)/Yellow Skull Key"
+        ],
         "sections": [
           {
             "ref": "Fortress of Mystery (E2M9)/Yellow Skull Key",
-            "name": "Requires Red Skull Key",
+            "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "e2m9",
-            "x": 1027,
-            "y": 294,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "x": 1027,
+            "y": 294
           }
-        ],
-        "access_rules": [
-          "@Fortress of Mystery (E2M9)/Yellow Skull Key"
         ]
       },
       {
         "name": "E2M9 Exit",
+        "access_rules": [
+          "@Fortress of Mystery (E2M9)/E2M9 Exit"
+        ],
         "sections": [
           {
-            "ref": "Fortress of Mystery (E2M9)/Exit",
+            "ref": "Fortress of Mystery (E2M9)/E2M9 Exit",
             "name": "Level Completed",
             "hosted_item": "e2m9_complete"
           }
@@ -315,19 +320,15 @@
         "map_locations": [
           {
             "map": "e2m9",
-            "x": 1003,
-            "y": 236,
-            "size": 20,
-            "visibility_rules": [
+            "restrict_visibility:rules": [
               "ep2_on"
-            ]
+            ],
+            "size": 20,
+            "x": 1003,
+            "y": 236
           }
-        ],
-        "access_rules": [
-          "@Fortress of Mystery (E2M9)/Exit"
         ]
       }
-    ],
-    "parent": "Fortress of Mystery (E2M9)"
+    ]
   }
 ]
