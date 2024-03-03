@@ -20,7 +20,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "size": 20,
@@ -30,67 +30,21 @@
         ]
       },
       {
-        "name": "Red Keycard",
+        "name": "End of Eastern Corridor",
         "access_rules": [
-          "@Central Processing (E1M6)/Red Keycard"
+          "@Central Processing (E1M6)/End of Eastern Corridor"
         ],
         "sections": [
           {
-            "ref": "Central Processing (E1M6)/Red Keycard",
-            "name": "Item",
-            "item_count": 1
+            "ref": "Central Processing (E1M6)/End of Eastern Corridor",
+            "name": "Items",
+            "item_count": 2
           }
         ],
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility:rules": [
-              "ep1_on"
-            ],
-            "x": 649,
-            "y": 623
-          }
-        ]
-      },
-      {
-        "name": "Partial Invisibility",
-        "access_rules": [
-          "@Central Processing (E1M6)/Partial Invisibility"
-        ],
-        "sections": [
-          {
-            "ref": "Central Processing (E1M6)/Partial Invisibility",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "e1m6",
-            "restrict_visibility:rules": [
-              "ep1_on"
-            ],
-            "x": 522,
-            "y": 557
-          }
-        ]
-      },
-      {
-        "name": "Chaingun",
-        "access_rules": [
-          "@Central Processing (E1M6)/Chaingun"
-        ],
-        "sections": [
-          {
-            "ref": "Central Processing (E1M6)/Chaingun",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "e1m6",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 590,
@@ -113,7 +67,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 296,
@@ -122,47 +76,24 @@
         ]
       },
       {
-        "name": "Rocket Launcher",
+        "name": "Pre-Blue Key Door Equipment Closet",
         "access_rules": [
-          "@Central Processing (E1M6)/Rocket Launcher"
+          "@Central Processing (E1M6)/Pre-Blue Key Door Equipment Closet"
         ],
         "sections": [
           {
-            "ref": "Central Processing (E1M6)/Rocket Launcher",
-            "name": "Item",
-            "item_count": 1
+            "ref": "Central Processing (E1M6)/Pre-Blue Key Door Equipment Closet",
+            "name": "Items",
+            "item_count": 3
           }
         ],
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
-            "x": 539,
-            "y": 557
-          }
-        ]
-      },
-      {
-        "name": "Backpack",
-        "access_rules": [
-          "@Central Processing (E1M6)/Backpack"
-        ],
-        "sections": [
-          {
-            "ref": "Central Processing (E1M6)/Backpack",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "e1m6",
-            "restrict_visibility:rules": [
-              "ep1_on"
-            ],
-            "x": 505,
+            "x": 522,
             "y": 557
           }
         ]
@@ -182,7 +113,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 386,
@@ -205,7 +136,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 250,
@@ -228,7 +159,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 424,
@@ -237,21 +168,21 @@
         ]
       },
       {
-        "name": "Yellow Keycard",
+        "name": "Post-Blue Key Door Equipment Closet",
         "access_rules": [
-          "@Central Processing (E1M6)/Yellow Keycard"
+          "@Central Processing (E1M6)/Post-Blue Key Door Equipment Closet"
         ],
         "sections": [
           {
-            "ref": "Central Processing (E1M6)/Yellow Keycard",
-            "name": "Item",
-            "item_count": 1
+            "ref": "Central Processing (E1M6)/Post-Blue Key Door Equipment Closet",
+            "name": "Items",
+            "item_count": 3
           }
         ],
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 557,
@@ -274,34 +205,11 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 935,
             "y": 654
-          }
-        ]
-      },
-      {
-        "name": "Backpack 2",
-        "access_rules": [
-          "@Central Processing (E1M6)/Backpack 2"
-        ],
-        "sections": [
-          {
-            "ref": "Central Processing (E1M6)/Backpack 2",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "e1m6",
-            "restrict_visibility:rules": [
-              "ep1_on"
-            ],
-            "x": 572,
-            "y": 492
           }
         ]
       },
@@ -320,34 +228,11 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 478,
             "y": 180
-          }
-        ]
-      },
-      {
-        "name": "Armor 2",
-        "access_rules": [
-          "@Central Processing (E1M6)/Armor 2"
-        ],
-        "sections": [
-          {
-            "ref": "Central Processing (E1M6)/Armor 2",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "e1m6",
-            "restrict_visibility:rules": [
-              "ep1_on"
-            ],
-            "x": 542,
-            "y": 520
           }
         ]
       },
@@ -366,7 +251,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 230,
@@ -389,7 +274,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 46,
@@ -412,7 +297,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 131,
@@ -435,7 +320,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 337,
@@ -458,7 +343,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 195,
@@ -481,7 +366,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "size": 20,

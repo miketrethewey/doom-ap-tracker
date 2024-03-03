@@ -20,7 +20,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "size": 20,
@@ -44,7 +44,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 402,
@@ -67,7 +67,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 180,
@@ -90,7 +90,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 462,
@@ -113,7 +113,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 459,
@@ -136,7 +136,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 427,
@@ -159,7 +159,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 110,
@@ -182,7 +182,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 489,
@@ -205,7 +205,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 224,
@@ -228,7 +228,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 313,
@@ -251,7 +251,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 373,
@@ -274,7 +274,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 110,
@@ -297,7 +297,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 110,
@@ -320,7 +320,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 536,
@@ -343,7 +343,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 313,
@@ -366,7 +366,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 312,
@@ -389,7 +389,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 402,
@@ -412,7 +412,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 324,
@@ -435,7 +435,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 335,
@@ -458,7 +458,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 300,
@@ -481,7 +481,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 312,
@@ -504,7 +504,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 448,
@@ -527,7 +527,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 180,
@@ -550,7 +550,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "size": 20,

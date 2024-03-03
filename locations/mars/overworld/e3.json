@@ -20,7 +20,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E3M1 Exit",
             "access_rules": [],
             "hosted_item": "e3m1_complete"
           }
@@ -28,7 +28,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep3_on"],
+            "visibility_rules": [
+              "ep3_on"
+            ],
             "x": 311,
             "y": 725
           }
@@ -86,7 +88,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E3M2 Exit",
             "access_rules": [
               "$access|e3m2|blue"
             ],
@@ -96,7 +98,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep3_on"],
+            "visibility_rules": [
+              "ep3_on"
+            ],
             "x": 95,
             "y": 705
           }
@@ -179,7 +183,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E3M3 Exit",
             "access_rules": [
               "$access|e3m3|blue"
             ],
@@ -189,7 +193,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep3_on"],
+            "visibility_rules": [
+              "ep3_on"
+            ],
             "x": 352,
             "y": 600
           }
@@ -310,7 +316,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E3M4 Exit",
             "access_rules": [
               "$access|e3m4|blue|red"
             ],
@@ -320,7 +326,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep3_on"],
+            "visibility_rules": [
+              "ep3_on"
+            ],
             "x": 532,
             "y": 560
           }
@@ -409,7 +417,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E3M5 Exit",
             "access_rules": [
               "$access|e3m5|blue"
             ],
@@ -419,7 +427,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep3_on"],
+            "visibility_rules": [
+              "ep3_on"
+            ],
             "x": 265,
             "y": 500
           }
@@ -517,7 +527,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E3M6 Exit",
             "access_rules": [
               "$access|e3m6|blue"
             ],
@@ -527,7 +537,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep3_on"],
+            "visibility_rules": [
+              "ep3_on"
+            ],
             "x": 558,
             "y": 443
           }
@@ -605,7 +617,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E3M7 Exit",
             "access_rules": [
               "$access|e3m7|yellow|red"
             ],
@@ -615,7 +627,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep3_on"],
+            "visibility_rules": [
+              "ep3_on"
+            ],
             "x": 400,
             "y": 505
           }
@@ -643,7 +657,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E3M8 Exit",
             "access_rules": [],
             "hosted_item": "e3m8_complete"
           }
@@ -651,7 +665,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep3_on"],
+            "visibility_rules": [
+              "ep3_on"
+            ],
             "x": 280,
             "y": 450
           }
@@ -774,7 +790,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E3M9 Exit",
             "access_rules": [
               "$access|e3m9|blue|red"
             ],
@@ -784,7 +800,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep3_on"],
+            "visibility_rules": [
+              "ep3_on"
+            ],
             "x": 565,
             "y": 680
           }

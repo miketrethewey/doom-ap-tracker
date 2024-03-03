@@ -42,7 +42,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E4M1 Exit",
             "access_rules": [
               "$access|e4m1|blue"
             ],
@@ -137,7 +137,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E4M2 Exit",
             "access_rules": [
               "$access|e4m2|blue"
             ],
@@ -244,7 +244,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E4M3 Exit",
             "access_rules": [
               "$access|e4m3|blue|red"
             ],
@@ -309,7 +309,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E4M4 Exit",
             "access_rules": [
               "$access|e4m4|red"
             ],
@@ -403,7 +403,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E4M5 Exit",
             "access_rules": [
               "$access|e4m5|red"
             ],
@@ -524,7 +524,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E4M6 Exit",
             "access_rules": [
               "[$access|e4m6|yellow], $access|e4m6|blue, $access|e4m6|red",
               "$access|e4m6|yellow, $access|e4m6|blue"
@@ -678,7 +678,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E4M7 Exit",
             "access_rules": [
               "$access|e4m7|red"
             ],
@@ -798,7 +798,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E4M8 Exit",
             "access_rules": [
               "$access|e4m8|yellow|red"
             ],
@@ -870,7 +870,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E4M9 Exit",
             "access_rules": [
               "$access|e4m9|yellow"
             ],

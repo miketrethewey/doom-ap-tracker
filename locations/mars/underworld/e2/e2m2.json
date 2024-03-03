@@ -20,7 +20,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "size": 20,
@@ -32,7 +32,7 @@
       {
         "name": "Shotgun",
         "access_rules": [
-          "@Containment Area (E2M2)/Shotgun"
+          "@Containment Area (E2M2)/Front Boxes"
         ],
         "sections": [
           {
@@ -44,7 +44,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 138,
@@ -55,7 +55,7 @@
       {
         "name": "Shotgun 2",
         "access_rules": [
-          "@Containment Area (E2M2)/Shotgun 2"
+          "@Containment Area (E2M2)/Front Boxes"
         ],
         "sections": [
           {
@@ -67,7 +67,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 131,
@@ -78,7 +78,7 @@
       {
         "name": "Berserk",
         "access_rules": [
-          "@Containment Area (E2M2)/Berserk"
+          "@Containment Area (E2M2)/Front Boxes"
         ],
         "sections": [
           {
@@ -90,7 +90,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 299,
@@ -101,7 +101,7 @@
       {
         "name": "Armor",
         "access_rules": [
-          "@Containment Area (E2M2)/Armor"
+          "@Containment Area (E2M2)/Front Boxes"
         ],
         "sections": [
           {
@@ -113,7 +113,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 325,
@@ -124,7 +124,7 @@
       {
         "name": "Armor 2",
         "access_rules": [
-          "@Containment Area (E2M2)/Armor 2"
+          "@Containment Area (E2M2)/Front Boxes"
         ],
         "sections": [
           {
@@ -136,7 +136,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 115,
@@ -147,7 +147,7 @@
       {
         "name": "Armor 3",
         "access_rules": [
-          "@Containment Area (E2M2)/Armor 3"
+          "@Containment Area (E2M2)/Rear Stuff"
         ],
         "sections": [
           {
@@ -159,7 +159,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 140,
@@ -170,7 +170,7 @@
       {
         "name": "Armor 4",
         "access_rules": [
-          "@Containment Area (E2M2)/Armor 4"
+          "@Containment Area (E2M2)/Front Boxes"
         ],
         "sections": [
           {
@@ -182,7 +182,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 400,
@@ -193,7 +193,7 @@
       {
         "name": "Yellow Keycard",
         "access_rules": [
-          "@Containment Area (E2M2)/Yellow Keycard"
+          "@Containment Area (E2M2)/Rear Stuff"
         ],
         "sections": [
           {
@@ -205,7 +205,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 325,
@@ -216,7 +216,7 @@
       {
         "name": "Backpack",
         "access_rules": [
-          "@Containment Area (E2M2)/Backpack"
+          "@Containment Area (E2M2)/Rear Stuff"
         ],
         "sections": [
           {
@@ -228,7 +228,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 115,
@@ -239,7 +239,7 @@
       {
         "name": "Computer Area Map",
         "access_rules": [
-          "@Containment Area (E2M2)/Computer Area Map"
+          "@Containment Area (E2M2)/Rear Stuff"
         ],
         "sections": [
           {
@@ -251,7 +251,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 216,
@@ -262,7 +262,7 @@
       {
         "name": "Mega Armor",
         "access_rules": [
-          "@Containment Area (E2M2)/Mega Armor"
+          "@Containment Area (E2M2)/Rear Stuff"
         ],
         "sections": [
           {
@@ -274,7 +274,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 85,
@@ -285,7 +285,7 @@
       {
         "name": "Plasma Gun",
         "access_rules": [
-          "@Containment Area (E2M2)/Plasma Gun"
+          "@Containment Area (E2M2)/Rear Stuff"
         ],
         "sections": [
           {
@@ -297,7 +297,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 221,
@@ -308,7 +308,7 @@
       {
         "name": "Chainsaw",
         "access_rules": [
-          "@Containment Area (E2M2)/Chainsaw"
+          "@Containment Area (E2M2)/Rear Stuff"
         ],
         "sections": [
           {
@@ -320,7 +320,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 201,
@@ -331,7 +331,7 @@
       {
         "name": "Supercharge",
         "access_rules": [
-          "@Containment Area (E2M2)/Supercharge"
+          "@Containment Area (E2M2)/Rear Stuff"
         ],
         "sections": [
           {
@@ -343,7 +343,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 440,
@@ -354,7 +354,7 @@
       {
         "name": "Blue Keycard",
         "access_rules": [
-          "@Containment Area (E2M2)/Blue Keycard"
+          "@Containment Area (E2M2)/Rear Stuff"
         ],
         "sections": [
           {
@@ -366,7 +366,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 410,
@@ -389,7 +389,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 457,
@@ -412,7 +412,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 241,
@@ -435,7 +435,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 380,
@@ -458,7 +458,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 460,
@@ -481,7 +481,7 @@
         "map_locations": [
           {
             "map": "e2m2",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "size": 20,

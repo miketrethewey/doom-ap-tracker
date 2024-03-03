@@ -54,7 +54,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E2M1 Exit",
             "access_rules": [
               "$access|e2m1|blue"
             ],
@@ -64,7 +64,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep2_on"],
+            "visibility_rules": [
+              "ep2_on"
+            ],
             "x": 1149,
             "y": 42
           }
@@ -77,79 +79,16 @@
         ],
         "sections": [
           {
-            "name": "Shotgun",
+            "name": "Front Boxes",
             "access_rules": [],
-            "item_count": 1
+            "item_count": 6,
+            "clear_as_group": false
           },
           {
-            "name": "Shotgun 2",
+            "name": "Rear Stuff",
             "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Berserk",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Armor",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Armor 2",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Armor 3",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Armor 4",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Yellow Keycard",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Backpack",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Computer Area Map",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Mega Armor",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Plasma Gun",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Chainsaw",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Supercharge",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Blue Keycard",
-            "access_rules": [],
-            "item_count": 1
+            "item_count": 9,
+            "clear_as_group": false
           },
           {
             "name": "Red Keycard",
@@ -180,7 +119,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E2M2 Exit",
             "access_rules": [
               "[$access|e2m2|red]"
             ],
@@ -190,7 +129,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep2_on"],
+            "visibility_rules": [
+              "ep2_on"
+            ],
             "x": 833,
             "y": 100
           }
@@ -262,7 +203,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E2M3 Exit",
             "access_rules": [
               "$access|e2m3|blue"
             ],
@@ -272,7 +213,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep2_on"],
+            "visibility_rules": [
+              "ep2_on"
+            ],
             "x": 1022,
             "y": 135
           }
@@ -373,7 +316,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E2M4 Exit",
             "access_rules": [
               "$access|e2m4|blue|yellow"
             ],
@@ -383,7 +326,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep2_on"],
+            "visibility_rules": [
+              "ep2_on"
+            ],
             "x": 898,
             "y": 170
           }
@@ -446,7 +391,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E2M5 Exit",
             "access_rules": [],
             "hosted_item": "e2m5_complete"
           }
@@ -454,7 +399,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep2_on"],
+            "visibility_rules": [
+              "ep2_on"
+            ],
             "x": 1070,
             "y": 190
           }
@@ -560,7 +507,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E2M6 Exit",
             "access_rules": [
               "$access|e2m6|blue|yellow|red"
             ],
@@ -570,7 +517,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep2_on"],
+            "visibility_rules": [
+              "ep2_on"
+            ],
             "x": 907,
             "y": 260
           }
@@ -673,7 +622,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E2M7 Exit",
             "access_rules": [
               "[$access|e2m7|red]"
             ],
@@ -683,7 +632,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep2_on"],
+            "visibility_rules": [
+              "ep2_on"
+            ],
             "x": 1053,
             "y": 270
           }
@@ -716,7 +667,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E2M8 Exit",
             "access_rules": [],
             "hosted_item": "e2m8_complete"
           }
@@ -724,7 +675,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep2_on"],
+            "visibility_rules": [
+              "ep2_on"
+            ],
             "x": 940,
             "y": 320
           }
@@ -801,7 +754,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E2M9 Exit",
             "access_rules": [
               "$access|e2m9|yellow"
             ],
@@ -811,7 +764,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep2_on"],
+            "visibility_rules": [
+              "ep2_on"
+            ],
             "x": 1110,
             "y": 320
           }

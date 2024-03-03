@@ -58,7 +58,7 @@ for epID in range(1,4+1):
                         child["map_locations"] = [
                             {
                                 "map": f"e{epID}m{mapID}",
-                                "restrict_visibility:rules": [
+                                "restrict_visibility_rules": [
                                     f"ep{epID}_on"
                                 ]
                             }

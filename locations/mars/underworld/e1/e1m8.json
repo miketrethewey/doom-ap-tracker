@@ -20,7 +20,7 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "size": 20,
@@ -44,7 +44,7 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 385,
@@ -67,7 +67,7 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 313,
@@ -90,7 +90,7 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 434,
@@ -113,7 +113,7 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 370,
@@ -136,7 +136,7 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 425,
@@ -159,7 +159,7 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 278,
@@ -182,7 +182,7 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 424,
@@ -205,7 +205,7 @@
         "map_locations": [
           {
             "map": "e1m8",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "size": 20,

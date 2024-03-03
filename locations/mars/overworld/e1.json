@@ -25,7 +25,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E1M1 Exit",
             "access_rules": [],
             "hosted_item": "e1m1_complete"
           }
@@ -33,7 +33,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep1_on"],
+            "visibility_rules": [
+              "ep1_on"
+            ],
             "x": 365,
             "y": 350
           }
@@ -46,70 +48,19 @@
         ],
         "sections": [
           {
-            "name": "Shotgun",
+            "name": "No Keys Needed",
             "access_rules": [],
-            "item_count": 1
+            "item_count": 7,
+            "clear_as_group": false
           },
           {
-            "name": "Armor",
-            "access_rules": [],
-            "item_count": 1
+            "name": "Red Key Needed",
+            "access_rules": [ "$access|e1m2|red" ],
+            "item_count": 4,
+            "clear_as_group": false
           },
           {
-            "name": "Supercharge",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Chaingun",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Red Keycard",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Armor 2",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Backpack",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Chainsaw",
-            "access_rules": [
-              "$access|e1m2|red"
-            ],
-            "item_count": 1
-          },
-          {
-            "name": "Armor 3",
-            "access_rules": [
-              "$access|e1m2|red"
-            ],
-            "item_count": 1
-          },
-          {
-            "name": "Mega Armor",
-            "access_rules": [
-              "$access|e1m2|red"
-            ],
-            "item_count": 1
-          },
-          {
-            "name": "Backpack 2",
-            "access_rules": [
-              "$access|e1m2|red"
-            ],
-            "item_count": 1
-          },
-          {
-            "name": "Exit",
+            "name": "E1M2 Exit",
             "access_rules": [
               "$access|e1m2|red"
             ],
@@ -119,7 +70,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep1_on"],
+            "visibility_rules": [
+              "ep1_on"
+            ],
             "x": 295,
             "y": 290
           }
@@ -217,7 +170,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E1M3 Exit",
             "access_rules": [
               "$access|e1m3|blue"
             ],
@@ -227,7 +180,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep1_on"],
+            "visibility_rules": [
+              "ep1_on"
+            ],
             "x": 139,
             "y": 250
           }
@@ -289,7 +244,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E1M4 Exit",
             "access_rules": [
               "[$or_access|e1m4|blue|yellow]"
             ],
@@ -299,7 +254,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep1_on"],
+            "visibility_rules": [
+              "ep1_on"
+            ],
             "x": 460,
             "y": 215
           }
@@ -410,7 +367,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E1M5 Exit",
             "access_rules": [
               "$access|e1m5|blue|yellow"
             ],
@@ -420,7 +377,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep1_on"],
+            "visibility_rules": [
+              "ep1_on"
+            ],
             "x": 232,
             "y": 180
           }
@@ -433,19 +392,9 @@
         ],
         "sections": [
           {
-            "name": "Red Keycard",
+            "name": "End of Eastern Corridor",
             "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Partial Invisibility",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Chaingun",
-            "access_rules": [],
-            "item_count": 1
+            "item_count": 2
           },
           {
             "name": "Shotgun",
@@ -453,14 +402,9 @@
             "item_count": 1
           },
           {
-            "name": "Rocket Launcher",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Backpack",
-            "access_rules": [],
-            "item_count": 1
+            "name": "Pre-Blue Key Door Equipment Closet",
+            "access_rules": [ "" ],
+            "item_count": 3
           },
           {
             "name": "Armor",
@@ -480,11 +424,9 @@
             "item_count": 1
           },
           {
-            "name": "Yellow Keycard",
-            "access_rules": [
-              "$access|e1m6|blue"
-            ],
-            "item_count": 1
+            "name": "Post-Blue Key Door Equipment Closet",
+            "access_rules": [ "$access|e1m6|blue" ],
+            "item_count": 3
           },
           {
             "name": "Computer Area Map",
@@ -494,21 +436,7 @@
             "item_count": 1
           },
           {
-            "name": "Backpack 2",
-            "access_rules": [
-              "$access|e1m6|blue"
-            ],
-            "item_count": 1
-          },
-          {
             "name": "Backpack 3",
-            "access_rules": [
-              "$access|e1m6|blue"
-            ],
-            "item_count": 1
-          },
-          {
-            "name": "Armor 2",
             "access_rules": [
               "$access|e1m6|blue"
             ],
@@ -550,7 +478,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E1M6 Exit",
             "access_rules": [
               "$or_access|e1m6|blue|yellow"
             ],
@@ -560,7 +488,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep1_on"],
+            "visibility_rules": [
+              "ep1_on"
+            ],
             "x": 357,
             "y": 105
           }
@@ -672,7 +602,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E1M7 Exit",
             "access_rules": [
               "$access|e1m7|blue|yellow"
             ],
@@ -682,7 +612,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep1_on"],
+            "visibility_rules": [
+              "ep1_on"
+            ],
             "x": 150,
             "y": 120
           }
@@ -730,7 +662,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E1M8 Exit",
             "access_rules": [],
             "hosted_item": "e1m8_complete"
           }
@@ -738,7 +670,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep1_on"],
+            "visibility_rules": [
+              "ep1_on"
+            ],
             "x": 271,
             "y": 60
           }
@@ -806,7 +740,7 @@
             "item_count": 1
           },
           {
-            "name": "Exit",
+            "name": "E1M9 Exit",
             "access_rules": [
               "$access|e1m9|blue"
             ],
@@ -816,7 +750,9 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": ["ep1_on"],
+            "visibility_rules": [
+              "ep1_on"
+            ],
             "x": 150,
             "y": 50
           }

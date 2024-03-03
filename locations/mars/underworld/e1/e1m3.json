@@ -20,7 +20,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "size": 20,
@@ -44,7 +44,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 82,
@@ -67,7 +67,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 248,
@@ -90,7 +90,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 163,
@@ -113,7 +113,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 775,
@@ -136,7 +136,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 450,
@@ -159,7 +159,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 320,
@@ -182,7 +182,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 293,
@@ -205,7 +205,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 90,
@@ -228,7 +228,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 310,
@@ -251,7 +251,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 206,
@@ -274,7 +274,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 495,
@@ -297,7 +297,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 790,
@@ -320,7 +320,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 880,
@@ -343,7 +343,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 900,
@@ -366,7 +366,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 880,
@@ -389,7 +389,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "size": 20,
@@ -413,7 +413,7 @@
         "map_locations": [
           {
             "map": "e1m3",
-            "restrict_visibility:rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "size": 20,
