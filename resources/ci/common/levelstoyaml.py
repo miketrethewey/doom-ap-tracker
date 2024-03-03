@@ -9,7 +9,7 @@ for epID in range(1,6+1):
     for mapID in range(1,9+1):
         mapPath = os.path.join(
             "locations",
-            "mars",
+            "doom",
             "underworld",
             f"e{epID}",
             f"e{epID}m{mapID}.json"

@@ -1,6 +1,6 @@
 [
   {
-    "name": "Mars",
+    "name": "DOOM",
     "chest_unopened_img": "/images/chests/cacodemon.png",
     "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [

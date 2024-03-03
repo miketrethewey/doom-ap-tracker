@@ -52,5 +52,5 @@ if os.path.isfile(locationsPath):
                 mapData["children"].insert(0,entrance)
                 mapData = [mapData]
                 print(mapData)
-                with open(os.path.join("locations","mars","underworld",f"e{epID}",f"e{epID}m{mapID}.json"), "w") as mapFile:
+                with open(os.path.join("locations","doom","underworld",f"e{epID}",f"e{epID}m{mapID}.json"), "w") as mapFile:
                     json.dump(mapData,mapFile,indent=2)

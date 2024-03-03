@@ -9,19 +9,36 @@ function KeyItem:init(
     size = size or "normal"
     -- print(name,code,img,size)
 
+    -- Default to cards
     keyType = "cards"
-    if string.find(code,"e2m6") or
+    if baseGame == "doom" then
+        -- switch to skulls
+        if string.find(code,"e2m6") or
         string.find(code,"e2m9") or
         string.find(code,"e3") or
         string.find(code,"e4") or
         string.find(code,"e5") or
         string.find(code,"e6") then
+            keyType = "skulls"
+        end
+        -- except these cards
+        if string.find(code,"e6m5") or
+            (string.find(code,"e6m7") and color == "red") or
+            string.find(code,"e6m9") then
+            keyType = "cards"
+        end
+    elseif baseGame == "doomii" then
+    elseif baseGame == "tnt" then
+    elseif baseGame == "plutonia" then
+    elseif baseGame == "nrftl" then
+        -- Default to skulls
         keyType = "skulls"
-    end
-    if string.find(code,"e6m5") or
-        (string.find(code,"e6m7") and color == "red") or
-        string.find(code,"e6m9") then
-        keyType = "cards"
+        -- except these cards
+        if string.find(code,"e1m1") or
+        string.find(code,"e1m2") or
+        (string.find(code,"e1m3") and color == "blue") then
+            keyType = "cards"
+        end
     end
 
     if keyType == "cards" then
@@ -144,7 +161,14 @@ for epID,episode in pairs(keySets[baseGame]["episodes"]) do
         if episode["maps"] ~= nil then
             for mapID,map in pairs(episode["maps"]) do
                 mapName = map["name"]
-                msg = " " .. mapName .. " (E" .. epID .. "M" .. mapID .. ")"
+                mapHandle = "E" .. epID .. "M" .. mapID
+                if baseGame == "doomii" or
+                    baseGame == "tnt" or
+                    baseGmae == "plutonia" or
+                    baseGame == "nrftl" then
+                    mapHandle = "MAP" .. string.format("%02d", mapID)
+                end
+                msg = " " .. mapName .. " (" .. mapHandle .. ")"
                 itemName = msg
                 if map["keys"] ~= nil then
                     msg = msg .. " [" .. map["keys"] .. "]"
@@ -171,7 +195,7 @@ for epID,episode in pairs(keySets[baseGame]["episodes"]) do
                             c,
                             "slim"
                         )
-                        -- print(msg)
+                        print(msg)
                     end
                 end
             end

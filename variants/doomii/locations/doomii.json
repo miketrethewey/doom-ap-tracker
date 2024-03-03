@@ -1,0 +1,58 @@
+[
+  {
+    "name": "DOOM II",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "The Space Station",
+        "children": [
+          {
+            "name": "The Space Station (E1)",
+            "color": "#00ff00"
+          }
+        ]
+      },
+      {
+        "name": "The City",
+        "children": [
+          {
+            "name": "The City (E2)",
+            "color": ""
+          }
+        ]
+      },
+      {
+        "name": "Hell",
+        "children": [
+          {
+            "name": "Hell (E3)",
+            "color": ""
+          }
+        ]
+      },
+      {
+        "name": "No Rest for the Living",
+        "children": [
+          {
+            "name": "No Rest for the Living (E4)",
+            "color": ""
+          }
+        ]
+      },
+      {
+        "name": "Secret",
+        "children": [
+          {
+            "name": "Castle Wolfenstein (Ex)",
+            "color": ""
+          },
+          {
+            "name": "XBOX",
+            "color": ""
+          }
+        ]
+      }
+    ]
+  }
+]

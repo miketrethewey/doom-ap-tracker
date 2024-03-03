@@ -119,15 +119,25 @@ for epID,episode in pairs(keySets[baseGame]["episodes"]) do
         if episode["maps"] ~= nil then
             for mapID,map in pairs(episode["maps"]) do
                 mapName = map["name"]
-                msg = " " .. mapName .. " (E" .. epID .. "M" .. mapID .. ") - Access"
+                mapHandle = "E" .. epID .. "M" .. mapID
+                overlay = epID .. "-" .. mapID .. ".png"
+                if baseGame == "doomii" or
+                    baseGame == "tnt" or
+                    baseGmae == "plutonia" or
+                    baseGame == "nrftl" then
+                    mapHandle = "MAP" .. string.format("%02d", mapID)
+                    overlay = string.lower(mapHandle) .. ".png"
+                end
+
+                msg = " " .. mapName .. " (" .. mapHandle .. ") - Access"
                 itemName = msg
                 items[itemName] = AccessItem(
                     itemName,
                     "e" .. epID .. "m" .. mapID .. "_access",
                     "images/levels/" .. "e" .. epID .. ".png",
                     nil,
-                    "overlay|images/overlays/" .. epID .. "-" .. mapID .. ".png",
-                    "@disabled,overlay|images/overlays/" .. epID .. "-" .. mapID .. ".png"
+                    "overlay|images/overlays/" .. overlay,
+                    "@disabled,overlay|images/overlays/" .. overlay
                 )
                 -- print(msg)
             end

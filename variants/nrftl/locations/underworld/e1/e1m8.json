@@ -1,0 +1,311 @@
+[
+  {
+    "name": "MAP08",
+    "parent": "Tomb of Malevolence (MAP08)",
+    "children": [
+      {
+        "name": "MAP08 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "ref": "Tomb of Malevolence (MAP08)/MAP08 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": [
+          "@Tomb of Malevolence (MAP08)/Super Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Tomb of Malevolence (MAP08)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": [
+          "@Tomb of Malevolence (MAP08)/Chaingun"
+        ],
+        "sections": [
+          {
+            "ref": "Tomb of Malevolence (MAP08)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": [
+          "@Tomb of Malevolence (MAP08)/Rocket Launcher"
+        ],
+        "sections": [
+          {
+            "ref": "Tomb of Malevolence (MAP08)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": [
+          "@Tomb of Malevolence (MAP08)/Plasma Rifle"
+        ],
+        "sections": [
+          {
+            "ref": "Tomb of Malevolence (MAP08)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle 2",
+        "access_rules": [
+          "@Tomb of Malevolence (MAP08)/Plasma Rifle 2"
+        ],
+        "sections": [
+          {
+            "ref": "Tomb of Malevolence (MAP08)/Plasma Rifle 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": [
+          "@Tomb of Malevolence (MAP08)/Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Tomb of Malevolence (MAP08)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": [
+          "@Tomb of Malevolence (MAP08)/Mega Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Tomb of Malevolence (MAP08)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": [
+          "@Tomb of Malevolence (MAP08)/Backpack"
+        ],
+        "sections": [
+          {
+            "ref": "Tomb of Malevolence (MAP08)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": [
+          "@Tomb of Malevolence (MAP08)/Berserk"
+        ],
+        "sections": [
+          {
+            "ref": "Tomb of Malevolence (MAP08)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": [
+          "@Tomb of Malevolence (MAP08)/Computer Area Map"
+        ],
+        "sections": [
+          {
+            "ref": "Tomb of Malevolence (MAP08)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": [
+          "@Tomb of Malevolence (MAP08)/Invulnerability"
+        ],
+        "sections": [
+          {
+            "ref": "Tomb of Malevolence (MAP08)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP08 Exit",
+        "access_rules": [
+          "@Tomb of Malevolence (MAP08)/MAP08 Exit"
+        ],
+        "sections": [
+          {
+            "ref": "Tomb of Malevolence (MAP08)/MAP08 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m8_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "size": 20,
+            "x": 288,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

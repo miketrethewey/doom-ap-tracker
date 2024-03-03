@@ -236,37 +236,114 @@ keySets = {
     [ "episodes" ] = {
       -- DII "Episode" 1
       {
-        [ "name" ] = "The Space Station"
+        [ "name" ] = "The Space Station",
+        [ "maps" ] = {}
       },
 
       -- DII "Episode" 2
       {
-        [ "name" ] = "The City"
+        [ "name" ] = "The City",
+        [ "maps" ] = {}
       },
 
       -- DII "Episode" 3
       {
-        [ "name" ] = "Hell"
-      },
-      {
-        [ "name" ] = "Secret"
+        [ "name" ] = "Hell",
+        [ "maps" ] = {}
       },
 
-      -- Final DOOM; 19960617
-      -- Final Doom 1
       {
-        [ "name" ] = "TNT: Evilution"
-      },
+        [ "name" ] = "Secret",
+        [ "maps" ] = {}
+      }
+    }
+  },
 
-      -- Final Doom 2
+  -- DII "Episode" 4;
+  -- XBOX 2010, PS3 20121120, PC 20190726
+  [ "nrftl" ] = {
+    [ "episodes" ] = {
       {
-        [ "name" ] = "The Plutonia Experiment"
-      },
+        [ "name" ] = "No Rest for the Living",
+        [ "maps" ] = {
+          {
+            [ "name" ] = "The Earth Base",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "The Pain Labs",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Canyon of the Dead",
+            [ "keys" ] = "BY"
+          },
+          {
+            [ "name" ] = "Hell Mountain",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Vivisection",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Inferno of Blood",
+            [ "keys" ] = "BY"
+          },
+          {
+            [ "name" ] = "Baron's Banquet",
+            [ "keys" ] = "BY"
+          },
+          { [ "name" ] = "Tomb of Malevolence" },
+          { [ "name" ] = "March of the Demons" }
+        }
+      }
+    }
+  },
 
-      -- DII "Episode" 4;
-      -- XBOX 2010, PS3 20121120, PC 20190726
+  -- Final DOOM; 19960617
+  -- Final Doom 1
+  [ "tnt" ] = {
+    [ "episodes" ] = {
       {
-        [ "name" ] = "No Rest for the Living"
+        [ "name" ] = "Experimental Labs",
+        [ "maps" ] = {}
+      },
+      {
+        [ "name" ] = "Military Base",
+        [ "maps" ] = {}
+      },
+      {
+        [ "name" ] = "Nighttime",
+        [ "maps" ] = {}
+      },
+      {
+        [ "name" ] = "Hell",
+        [ "maps" ] = {}
+      },
+      {
+        [ "name" ] = "Secret",
+        [ "maps" ] = {}
+      }
+    }
+  },
+  [ "plutonia" ] ={
+    [ "episodes" ] = {
+      {
+        [ "name" ] = "Earth",
+        [ "maps" ] = {}
+      },
+      {
+        [ "name" ] = "Hell",
+        [ "maps" ] = {}
+      },
+      {
+        [ "name" ] = "Devil Hive",
+        [ "maps" ] = {}
+      },
+      {
+        [ "name" ] = "Secret",
+        [ "maps" ] = {}
       }
     }
   }

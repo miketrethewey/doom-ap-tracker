@@ -1,0 +1,311 @@
+[
+  {
+    "name": "MAP09",
+    "parent": "March of the Demons (MAP09)",
+    "children": [
+      {
+        "name": "MAP09 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "ref": "March of the Demons (MAP09)/MAP09 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": [
+          "@March of the Demons (MAP09)/Chainsaw"
+        ],
+        "sections": [
+          {
+            "ref": "March of the Demons (MAP09)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": [
+          "@March of the Demons (MAP09)/Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "March of the Demons (MAP09)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": [
+          "@March of the Demons (MAP09)/Super Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "March of the Demons (MAP09)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": [
+          "@March of the Demons (MAP09)/Chaingun"
+        ],
+        "sections": [
+          {
+            "ref": "March of the Demons (MAP09)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": [
+          "@March of the Demons (MAP09)/Rocket Launcher"
+        ],
+        "sections": [
+          {
+            "ref": "March of the Demons (MAP09)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": [
+          "@March of the Demons (MAP09)/Plasma Rifle"
+        ],
+        "sections": [
+          {
+            "ref": "March of the Demons (MAP09)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": [
+          "@March of the Demons (MAP09)/Armor"
+        ],
+        "sections": [
+          {
+            "ref": "March of the Demons (MAP09)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Megasphere",
+        "access_rules": [
+          "@March of the Demons (MAP09)/Megasphere"
+        ],
+        "sections": [
+          {
+            "ref": "March of the Demons (MAP09)/Megasphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": [
+          "@March of the Demons (MAP09)/Berserk"
+        ],
+        "sections": [
+          {
+            "ref": "March of the Demons (MAP09)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": [
+          "@March of the Demons (MAP09)/Computer Area Map"
+        ],
+        "sections": [
+          {
+            "ref": "March of the Demons (MAP09)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": [
+          "@March of the Demons (MAP09)/Invulnerability"
+        ],
+        "sections": [
+          {
+            "ref": "March of the Demons (MAP09)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP09 Exit",
+        "access_rules": [
+          "@March of the Demons (MAP09)/MAP09 Exit"
+        ],
+        "sections": [
+          {
+            "ref": "March of the Demons (MAP09)/MAP09 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m9_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "size": 20,
+            "x": 288,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

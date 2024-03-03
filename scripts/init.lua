@@ -1,6 +1,11 @@
 local variant = Tracker.ActiveVariantUID
 IS_UNLABELLED = variant:find("maps-u")
 
+baseGame = "doom"
+if variant ~= nil then
+    baseGame = variant
+end
+
 function skip_episode(epID)
     skip = false
     -- if epID == 1 or
@@ -34,32 +39,40 @@ print("")
 
 -- Maps
 print("Loading Maps")
-Tracker:AddMaps("maps/maps.json")
+Tracker:AddMaps("variants/" .. baseGame .. "/maps/maps.json")
 print("")
 
 -- Layout
 print("Loading Layouts")
+Tracker:AddLayouts("variants/" .. baseGame .. "/layouts/keys.json")
+Tracker:AddLayouts("variants/" .. baseGame .. "/layouts/tabs.json")
+
 Tracker:AddLayouts("layouts/levels.json")
-Tracker:AddLayouts("layouts/keys.json")
 Tracker:AddLayouts("layouts/weapons.json")
 Tracker:AddLayouts("layouts/settings.json")
-Tracker:AddLayouts("layouts/tabs.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 print("")
 
 -- Locations
 print("Loading Locations")
-Tracker:AddLocations("locations/mars/mars.json") -- Mars
+Tracker:AddLocations("variants/" .. baseGame .. "/locations/" .. baseGame .. ".json") -- DOOM
 for epID,episode in pairs(keySets[baseGame]["episodes"]) do
     if episode ~= nil and not skip_episode(epID) then
-        episodeFile = "locations/mars/overworld/" .. "e" .. epID .. ".json"
+        episodeFile = "variants/" .. baseGame .. "/locations/overworld/" .. "e" .. epID .. ".json"
         Tracker:AddLocations(episodeFile)
         if episode["maps"] ~= nil then
             for mapID,map in pairs(episode["maps"]) do
-                mapFile = "locations/mars/underworld/" .. "e" .. epID .. "/" .. "e" .. epID .. "m" .. mapID .. ".json"
+                mapFile = "variants/" .. baseGame .. "/locations/underworld/" .. "e" .. epID .. "/" .. "e" .. epID .. "m" .. mapID .. ".json"
                 Tracker:AddLocations(mapFile)
-                exitCode = "@E" .. epID .. "M" .. mapID .. " Exit/Level Completed"
+                mapName = "E" .. epID .. "M" .. mapID
+                if baseGame == "doomii" or
+                    baseGame == "tnt" or
+                    baseGmae == "plutonia" or
+                    baseGame == "nrftl" then
+                    mapName = "MAP" .. string.format("%02d", mapID)
+                end
+                exitCode = "@" .. mapName .. " Exit/Level Completed"
                 entranceCode = string.gsub(string.gsub(exitCode, "Exit", "Entrance"),"Completed","Start")
                 locationObject = Tracker:FindObjectForCode(entranceCode)
                 completedCode = "e" .. epID .. "m" .. mapID .. "_complete"

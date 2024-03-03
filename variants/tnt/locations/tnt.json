@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Final DOOM: TNT: Evilution",
+    "chest_unopened_img": "/images/chests/cacodemon.png",
+    "chest_opened_img": "/images/chests/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Experimental Labs (E1)",
+        "color": ""
+      },
+      {
+        "name": "Military Base (E2)",
+        "color": ""
+      },
+      {
+        "name": "Nighttime (E3)",
+        "color": ""
+      },
+      {
+        "name": "Hell (E4)",
+        "color": ""
+      },
+      {
+        "name": "Secret (E5)",
+        "color": ""
+      }
+    ]
+  }
+]

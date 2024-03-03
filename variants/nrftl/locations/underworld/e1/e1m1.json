@@ -1,0 +1,334 @@
+[
+  {
+    "name": "MAP01",
+    "parent": "The Earth Base (MAP01)",
+    "children": [
+      {
+        "name": "MAP01 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "ref": "The Earth Base (MAP01)/MAP01 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": [
+          "@The Earth Base (MAP01)/Chainsaw"
+        ],
+        "sections": [
+          {
+            "ref": "The Earth Base (MAP01)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": [
+          "@The Earth Base (MAP01)/Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "The Earth Base (MAP01)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 2",
+        "access_rules": [
+          "@The Earth Base (MAP01)/Shotgun 2"
+        ],
+        "sections": [
+          {
+            "ref": "The Earth Base (MAP01)/Shotgun 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": [
+          "@The Earth Base (MAP01)/Super Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "The Earth Base (MAP01)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": [
+          "@The Earth Base (MAP01)/Chaingun"
+        ],
+        "sections": [
+          {
+            "ref": "The Earth Base (MAP01)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": [
+          "@The Earth Base (MAP01)/Armor"
+        ],
+        "sections": [
+          {
+            "ref": "The Earth Base (MAP01)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": [
+          "@The Earth Base (MAP01)/Mega Armor"
+        ],
+        "sections": [
+          {
+            "ref": "The Earth Base (MAP01)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": [
+          "@The Earth Base (MAP01)/Berserk"
+        ],
+        "sections": [
+          {
+            "ref": "The Earth Base (MAP01)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": [
+          "@The Earth Base (MAP01)/Computer Area Map"
+        ],
+        "sections": [
+          {
+            "ref": "The Earth Base (MAP01)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": [
+          "@The Earth Base (MAP01)/Blue Keycard"
+        ],
+        "sections": [
+          {
+            "ref": "The Earth Base (MAP01)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "access_rules": [
+          "@The Earth Base (MAP01)/Red Keycard"
+        ],
+        "sections": [
+          {
+            "ref": "The Earth Base (MAP01)/Red Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "access_rules": [
+          "@The Earth Base (MAP01)/Yellow Keycard"
+        ],
+        "sections": [
+          {
+            "ref": "The Earth Base (MAP01)/Yellow Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP01 Exit",
+        "access_rules": [
+          "@The Earth Base (MAP01)/MAP01 Exit"
+        ],
+        "sections": [
+          {
+            "ref": "The Earth Base (MAP01)/MAP01 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": [
+              "ep1_on"
+            ],
+            "size": 20,
+            "x": 312,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]
