@@ -52,7 +52,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 840,
@@ -147,7 +147,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 1010,
@@ -254,7 +254,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 995,
@@ -319,7 +319,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 800,
@@ -413,7 +413,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 1140,
@@ -535,7 +535,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 705,
@@ -688,7 +688,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 1160,
@@ -808,7 +808,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 1020,
@@ -880,7 +880,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep4_on"
             ],
             "x": 820,

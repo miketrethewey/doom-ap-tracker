@@ -40,7 +40,7 @@
             "map": "overworld",
             "x": 189,
             "y": 1044,
-            "visibility_rules": [ "ep5_on" ]
+            "restrict_visibility_rules": [ "ep5_on" ]
           }
         ]
       },
@@ -105,7 +105,7 @@
             "map": "overworld",
             "x": 401,
             "y": 888,
-            "visibility_rules": [ "ep5_on" ]
+            "restrict_visibility_rules": [ "ep5_on" ]
           }
         ]
       },
@@ -166,7 +166,7 @@
             "map": "overworld",
             "x": 319,
             "y": 1145,
-            "visibility_rules": [ "ep5_on" ]
+            "restrict_visibility_rules": [ "ep5_on" ]
           }
         ]
       },
@@ -262,7 +262,7 @@
             "map": "overworld",
             "x": 236,
             "y": 886,
-            "visibility_rules": [ "ep5_on" ]
+            "restrict_visibility_rules": [ "ep5_on" ]
           }
         ]
       },
@@ -343,7 +343,7 @@
             "map": "overworld",
             "x": 447,
             "y": 1043,
-            "visibility_rules": [ "ep5_on" ]
+            "restrict_visibility_rules": [ "ep5_on" ]
           }
         ]
       },
@@ -443,7 +443,7 @@
             "map": "overworld",
             "x": 319,
             "y": 977,
-            "visibility_rules": [ "ep5_on" ]
+            "restrict_visibility_rules": [ "ep5_on" ]
           }
         ]
       },
@@ -520,7 +520,7 @@
             "map": "overworld",
             "x": 336,
             "y": 999,
-            "visibility_rules": [ "ep5_on" ]
+            "restrict_visibility_rules": [ "ep5_on" ]
           }
         ]
       },
@@ -587,7 +587,7 @@
             "map": "overworld",
             "x": 302,
             "y": 998,
-            "visibility_rules": [ "ep5_on" ]
+            "restrict_visibility_rules": [ "ep5_on" ]
           }
         ]
       },
@@ -646,7 +646,7 @@
             "map": "overworld",
             "x": 320,
             "y": 993,
-            "visibility_rules": [ "ep5_on" ]
+            "restrict_visibility_rules": [ "ep5_on" ]
           }
         ]
       }

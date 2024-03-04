@@ -32,5 +32,12 @@
                 ]
             }
         ]
+    },
+    "weapons_grid_horizontal": {
+        "type": "itemgrid",
+        "item_margin": "0,0",
+        "rows": [
+            [ "melee", "pistol", "shotguns", "chaingun", "rocketlauncher", "plasmagun", "bfg9000" ]
+        ]
     }
 }

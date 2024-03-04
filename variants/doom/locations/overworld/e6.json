@@ -20,7 +20,7 @@
             "map": "overworld",
             "x": 830,
             "y": 1044,
-            "visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": [ "ep6_on" ]
           }
         ]
       },
@@ -41,7 +41,7 @@
             "map": "overworld",
             "x": 1042,
             "y": 888,
-            "visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": [ "ep6_on" ]
           }
         ]
       },
@@ -62,7 +62,7 @@
             "map": "overworld",
             "x": 960,
             "y": 1145,
-            "visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": [ "ep6_on" ]
           }
         ]
       },
@@ -83,7 +83,7 @@
             "map": "overworld",
             "x": 877,
             "y": 886,
-            "visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": [ "ep6_on" ]
           }
         ]
       },
@@ -104,7 +104,7 @@
             "map": "overworld",
             "x": 1088,
             "y": 1043,
-            "visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": [ "ep6_on" ]
           }
         ]
       },
@@ -125,7 +125,7 @@
             "map": "overworld",
             "x": 960,
             "y": 977,
-            "visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": [ "ep6_on" ]
           }
         ]
       },
@@ -146,7 +146,7 @@
             "map": "overworld",
             "x": 977,
             "y": 999,
-            "visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": [ "ep6_on" ]
           }
         ]
       },
@@ -167,7 +167,7 @@
             "map": "overworld",
             "x": 943,
             "y": 998,
-            "visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": [ "ep6_on" ]
           }
         ]
       },
@@ -188,7 +188,7 @@
             "map": "overworld",
             "x": 961,
             "y": 993,
-            "visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": [ "ep6_on" ]
           }
         ]
       }

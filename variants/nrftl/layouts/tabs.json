@@ -3,6 +3,14 @@
     "type": "tabbed",
     "tabs": [
       {
+        "title": "Overworld",
+        "icon": "images/levels/overworld.png",
+        "content": {
+          "type": "map",
+          "maps": [ "overworld" ]
+        }
+      },
+      {
         "title": "No Rest for the Living (E1)",
         "icon": "images/levels/e1.png",
         "content": {

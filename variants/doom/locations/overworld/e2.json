@@ -64,7 +64,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 1149,
@@ -129,7 +129,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 833,
@@ -213,7 +213,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 1022,
@@ -326,7 +326,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 898,
@@ -399,7 +399,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 1070,
@@ -517,7 +517,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 907,
@@ -632,7 +632,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 1053,
@@ -675,7 +675,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 940,
@@ -764,7 +764,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep2_on"
             ],
             "x": 1110,

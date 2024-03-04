@@ -5,11 +5,10 @@ import luadata
 
 CONSTANTS = {}
 
-for filename in ["keysets.lua","mapnames.lua"]:
+for filename in ["keysets.lua"]:
     with open(os.path.join("scripts","constants",filename)) as constantsFile:
         constantsLua = constantsFile.read()
         CONSTANTS[filename[:filename.find('.')]] = luadata.unserialize(constantsLua)
-print(CONSTANTS)
 
 keysgrid = {
     "keys_grid": {

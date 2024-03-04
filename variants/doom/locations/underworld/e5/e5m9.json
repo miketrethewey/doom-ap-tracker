@@ -18,7 +18,7 @@
           "map_locations": [
             {
               "map": "e5m9",
-              "visibility_rules": [
+              "restrict_visibility_rules": [
                 "ep5_on",
                 ""
               ],
@@ -43,7 +43,7 @@
               "x": 240,
               "y": 100,
               "size": 20,
-              "visibility_rules": [
+              "restrict_visibility_rules": [
                 "ep5_on",
                 ""
               ]

@@ -42,14 +42,22 @@ print("Loading Maps")
 Tracker:AddMaps("variants/" .. baseGame .. "/maps/maps.json")
 print("")
 
--- Layout
-print("Loading Layouts")
+-- Grids
+print("Loading Grids")
+Tracker:AddLayouts("layouts/grids/keys.json")
+Tracker:AddLayouts("layouts/grids/settings.json")
+Tracker:AddLayouts("layouts/grids/weapons.json")
+print("")
+
+-- Variant
+print("Loading Variant")
+Tracker:AddLayouts("variants/" .. baseGame .. "/layouts/broadcast.json")
 Tracker:AddLayouts("variants/" .. baseGame .. "/layouts/keys.json")
 Tracker:AddLayouts("variants/" .. baseGame .. "/layouts/tabs.json")
+print("")
 
-Tracker:AddLayouts("layouts/levels.json")
-Tracker:AddLayouts("layouts/weapons.json")
-Tracker:AddLayouts("layouts/settings.json")
+-- Base Layouts
+print("Loading Base Layouts")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 print("")
@@ -68,11 +76,12 @@ for epID,episode in pairs(keySets[baseGame]["episodes"]) do
                 mapName = "E" .. epID .. "M" .. mapID
                 if baseGame == "doomii" or
                     baseGame == "tnt" or
-                    baseGmae == "plutonia" or
+                    baseGame == "plutonia" or
                     baseGame == "nrftl" then
                     mapName = "MAP" .. string.format("%02d", mapID)
                 end
                 exitCode = "@" .. mapName .. " Exit/Level Completed"
+
                 entranceCode = string.gsub(string.gsub(exitCode, "Exit", "Entrance"),"Completed","Start")
                 locationObject = Tracker:FindObjectForCode(entranceCode)
                 completedCode = "e" .. epID .. "m" .. mapID .. "_complete"

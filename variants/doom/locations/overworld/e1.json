@@ -33,7 +33,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 365,
@@ -70,7 +70,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 295,
@@ -180,7 +180,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 139,
@@ -254,7 +254,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 460,
@@ -377,7 +377,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 232,
@@ -488,7 +488,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 357,
@@ -612,7 +612,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 150,
@@ -670,7 +670,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 271,
@@ -750,7 +750,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "visibility_rules": [
+            "restrict_visibility_rules": [
               "ep1_on"
             ],
             "x": 150,

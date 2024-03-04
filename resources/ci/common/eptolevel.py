@@ -20,8 +20,8 @@ if os.path.isfile(locationsPath):
                         del child["sections"][0]["item_count"]
                         child["sections"][0]["hosted_item"] = f"e{epID}m{mapID}_complete"
                         child["map_locations"][0]["size"] = 20
-                    child["map_locations"][0]["visibility_rules"] = child["visibility_rules"]
-                    del child["visibility_rules"]
+                    child["map_locations"][0]["restrict_visibility_rules"] = child["restrict_visibility_rules"]
+                    del child["restrict_visibility_rules"]
                     ref = ""
                     for section in child["sections"]:
                         section["ref"] = section["ref"].replace("Mars/","")
@@ -42,7 +42,7 @@ if os.path.isfile(locationsPath):
                     "map_locations": [
                         {
                             "map": f"e{epID}m{mapID}",
-                            "visibility_rules": [ f"ep{epID}_on" ],
+                            "restrict_visibility_rules": [ f"ep{epID}_on" ],
                             "size": 20,
                             "x": 0,
                             "y": 0
