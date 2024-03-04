@@ -1,0 +1,430 @@
+[
+  {
+    "name": "MAP10",
+    "parent": "Refueling Base (MAP10)",
+    "children": [
+      {
+        "name": "MAP10 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/MAP10 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": ["@Refueling Base (MAP10)/Chainsaw"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Refueling Base (MAP10)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Refueling Base (MAP10)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Refueling Base (MAP10)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": ["@Refueling Base (MAP10)/Plasma Rifle"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": ["@Refueling Base (MAP10)/BFG9000"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/BFG9000",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Refueling Base (MAP10)/Armor"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "access_rules": ["@Refueling Base (MAP10)/Armor 2"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Armor 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Refueling Base (MAP10)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Refueling Base (MAP10)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "access_rules": ["@Refueling Base (MAP10)/Supercharge 2"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Supercharge 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Megasphere",
+        "access_rules": ["@Refueling Base (MAP10)/Megasphere"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Megasphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Refueling Base (MAP10)/Backpack"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Refueling Base (MAP10)/Berserk"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk 2",
+        "access_rules": ["@Refueling Base (MAP10)/Berserk 2"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Berserk 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": ["@Refueling Base (MAP10)/Invulnerability"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability 2",
+        "access_rules": ["@Refueling Base (MAP10)/Invulnerability 2"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Invulnerability 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility",
+        "access_rules": ["@Refueling Base (MAP10)/Invisibility"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 432,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": ["@Refueling Base (MAP10)/Blue Keycard"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 456,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "access_rules": ["@Refueling Base (MAP10)/Yellow Keycard"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/Yellow Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 480,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP10 Exit",
+        "access_rules": ["@Refueling Base (MAP10)/MAP10 Exit"],
+        "sections": [
+          {
+            "ref": "Refueling Base (MAP10)/MAP10 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m10_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 504,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

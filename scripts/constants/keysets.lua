@@ -237,13 +237,57 @@ keySets = {
       -- DII "Episode" 1
       {
         [ "name" ] = "The Space Station",
-        [ "maps" ] = {}
+        [ "maps" ] = {
+            { [ "name" ] = "Entryway" },
+            {
+                [ "name" ] = "Underhalls",
+                [ "keys" ] = "BR"
+            },
+            {
+                [ "name" ] = "The Gantlet",
+                [ "keys" ] = "BR"
+            },
+            {
+                [ "name" ] = "The Focus",
+                [ "keys" ] = "BYR"
+            },
+            {
+                [ "name" ] = "The Waste Tunnels",
+                [ "keys" ] = "BYR"
+            },
+            {
+                [ "name" ] = "The Crusher",
+                [ "keys" ] = "BYR"
+            },
+            { [ "name" ] = "Dead Simple" },
+            {
+                [ "name" ] = "Tricks and Traps",
+                [ "keys" ] = "YR"
+            },
+            {
+                [ "name" ] = "The Pit",
+                [ "keys" ] = "BY"
+            },
+            {
+                [ "name" ] = "Refueling Base",
+                [ "keys" ] = "BY"
+            },
+            {
+                [ "name" ] = "Circle of Death",
+                [ "keys" ] = "BY"
+            }
+        }
       },
 
       -- DII "Episode" 2
       {
         [ "name" ] = "The City",
-        [ "maps" ] = {}
+        [ "maps" ] = {
+            {
+                [ "name" ] = "The Factory",
+                [ "keys" ] = "BY"
+            }
+        }
       },
 
       -- DII "Episode" 3

@@ -1,0 +1,80 @@
+[
+  {
+    "name": "overworld",
+    "location_size": 20,
+    "location_border_thickness": 1,
+    "img": "variants/doomii/images/maps/overworld.png"
+  },
+  {
+    "name": "map01",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doomii/images/maps/e1/map01_map.png"
+  },
+  {
+    "name": "map02",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doomii/images/maps/e1/map02_map.png"
+  },
+  {
+    "name": "map03",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doomii/images/maps/e1/map03_map.png"
+  },
+  {
+    "name": "map04",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doomii/images/maps/e1/map04_map.png"
+  },
+  {
+    "name": "map05",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doomii/images/maps/e1/map05_map.png"
+  },
+  {
+    "name": "map06",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doomii/images/maps/e1/map06_map.png"
+  },
+  {
+    "name": "map07",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doomii/images/maps/e1/map07_map.png"
+  },
+  {
+    "name": "map08",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doomii/images/maps/e1/map08_map.png"
+  },
+  {
+    "name": "map09",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doomii/images/maps/e1/map09_map.png"
+  },
+  {
+    "name": "map10",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doomii/images/maps/e1/map10_map.png"
+  },
+  {
+    "name": "map11",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doomii/images/maps/e1/map11_map.png"
+  },
+  {
+    "name": "map12",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doomii/images/maps/e2/map12_map.png"
+  }
+]

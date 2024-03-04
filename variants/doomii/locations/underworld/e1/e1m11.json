@@ -1,0 +1,316 @@
+[
+  {
+    "name": "MAP11",
+    "parent": "Circle of Death (MAP11)",
+    "children": [
+      {
+        "name": "MAP11 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Circle of Death (MAP11)/MAP11 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Circle of Death (MAP11)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Circle of Death (MAP11)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Circle of Death (MAP11)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Circle of Death (MAP11)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Circle of Death (MAP11)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Circle of Death (MAP11)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": ["@Circle of Death (MAP11)/Plasma Rifle"],
+        "sections": [
+          {
+            "ref": "Circle of Death (MAP11)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": ["@Circle of Death (MAP11)/BFG9000"],
+        "sections": [
+          {
+            "ref": "Circle of Death (MAP11)/BFG9000",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Circle of Death (MAP11)/Armor"],
+        "sections": [
+          {
+            "ref": "Circle of Death (MAP11)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Circle of Death (MAP11)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Circle of Death (MAP11)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Circle of Death (MAP11)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Circle of Death (MAP11)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "access_rules": ["@Circle of Death (MAP11)/Supercharge 2"],
+        "sections": [
+          {
+            "ref": "Circle of Death (MAP11)/Supercharge 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Circle of Death (MAP11)/Backpack"],
+        "sections": [
+          {
+            "ref": "Circle of Death (MAP11)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": ["@Circle of Death (MAP11)/Invulnerability"],
+        "sections": [
+          {
+            "ref": "Circle of Death (MAP11)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility",
+        "access_rules": ["@Circle of Death (MAP11)/Invisibility"],
+        "sections": [
+          {
+            "ref": "Circle of Death (MAP11)/Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": ["@Circle of Death (MAP11)/Blue Keycard"],
+        "sections": [
+          {
+            "ref": "Circle of Death (MAP11)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "access_rules": ["@Circle of Death (MAP11)/Yellow Keycard"],
+        "sections": [
+          {
+            "ref": "Circle of Death (MAP11)/Yellow Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP11 Exit",
+        "access_rules": ["@Circle of Death (MAP11)/MAP11 Exit"],
+        "sections": [
+          {
+            "ref": "Circle of Death (MAP11)/MAP11 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m11_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 360,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

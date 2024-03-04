@@ -1,0 +1,487 @@
+[
+  {
+    "name": "MAP08",
+    "parent": "Tricks and Traps (MAP08)",
+    "children": [
+      {
+        "name": "MAP08 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/MAP08 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": ["@Tricks and Traps (MAP08)/Chainsaw"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Tricks and Traps (MAP08)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Tricks and Traps (MAP08)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Tricks and Traps (MAP08)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": ["@Tricks and Traps (MAP08)/Plasma Rifle"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": ["@Tricks and Traps (MAP08)/BFG9000"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/BFG9000",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Tricks and Traps (MAP08)/Armor"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "access_rules": ["@Tricks and Traps (MAP08)/Armor 2"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Armor 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Tricks and Traps (MAP08)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "access_rules": ["@Tricks and Traps (MAP08)/Supercharge 2"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Supercharge 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Tricks and Traps (MAP08)/Backpack"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack 2",
+        "access_rules": ["@Tricks and Traps (MAP08)/Backpack 2"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Backpack 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack 3",
+        "access_rules": ["@Tricks and Traps (MAP08)/Backpack 3"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Backpack 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack 4",
+        "access_rules": ["@Tricks and Traps (MAP08)/Backpack 4"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Backpack 4",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack 5",
+        "access_rules": ["@Tricks and Traps (MAP08)/Backpack 5"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Backpack 5",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": ["@Tricks and Traps (MAP08)/Invulnerability"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability 2",
+        "access_rules": ["@Tricks and Traps (MAP08)/Invulnerability 2"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Invulnerability 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability 3",
+        "access_rules": ["@Tricks and Traps (MAP08)/Invulnerability 3"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Invulnerability 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 432,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability 4",
+        "access_rules": ["@Tricks and Traps (MAP08)/Invulnerability 4"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Invulnerability 4",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 456,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability 5",
+        "access_rules": ["@Tricks and Traps (MAP08)/Invulnerability 5"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Invulnerability 5",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 480,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility",
+        "access_rules": ["@Tricks and Traps (MAP08)/Invisibility"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 504,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["@Tricks and Traps (MAP08)/Red Skull key"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 528,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull key",
+        "access_rules": ["@Tricks and Traps (MAP08)/Yellow Skull key"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/Yellow Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 552,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP08 Exit",
+        "access_rules": ["@Tricks and Traps (MAP08)/MAP08 Exit"],
+        "sections": [
+          {
+            "ref": "Tricks and Traps (MAP08)/MAP08 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m8_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 576,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

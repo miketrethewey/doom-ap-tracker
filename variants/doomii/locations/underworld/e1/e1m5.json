@@ -1,0 +1,240 @@
+[
+  {
+    "name": "MAP05",
+    "parent": "The Waste Tunnels (MAP05)",
+    "children": [
+      {
+        "name": "MAP05 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "The Waste Tunnels (MAP05)/MAP05 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@The Waste Tunnels (MAP05)/Shotgun"],
+        "sections": [
+          {
+            "ref": "The Waste Tunnels (MAP05)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@The Waste Tunnels (MAP05)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "The Waste Tunnels (MAP05)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": ["@The Waste Tunnels (MAP05)/Plasma Rifle"],
+        "sections": [
+          {
+            "ref": "The Waste Tunnels (MAP05)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@The Waste Tunnels (MAP05)/Armor"],
+        "sections": [
+          {
+            "ref": "The Waste Tunnels (MAP05)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@The Waste Tunnels (MAP05)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "The Waste Tunnels (MAP05)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@The Waste Tunnels (MAP05)/Supercharge"],
+        "sections": [
+          {
+            "ref": "The Waste Tunnels (MAP05)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@The Waste Tunnels (MAP05)/Berserk"],
+        "sections": [
+          {
+            "ref": "The Waste Tunnels (MAP05)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": ["@The Waste Tunnels (MAP05)/Blue Keycard"],
+        "sections": [
+          {
+            "ref": "The Waste Tunnels (MAP05)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "access_rules": ["@The Waste Tunnels (MAP05)/Yellow Keycard"],
+        "sections": [
+          {
+            "ref": "The Waste Tunnels (MAP05)/Yellow Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "access_rules": ["@The Waste Tunnels (MAP05)/Red Keycard"],
+        "sections": [
+          {
+            "ref": "The Waste Tunnels (MAP05)/Red Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP05 Exit",
+        "access_rules": ["@The Waste Tunnels (MAP05)/MAP05 Exit"],
+        "sections": [
+          {
+            "ref": "The Waste Tunnels (MAP05)/MAP05 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 264,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

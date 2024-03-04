@@ -88,7 +88,7 @@
             }
           },
           {
-            "title": "'O' of Destruction!",
+            "title": "Circle of Death ('O' of Destruction!)",
             "icon": "images/overlays/map11.png",
             "content": {
               "type": "map",
@@ -102,7 +102,17 @@
       "title": "The City (E2)",
       "icon": "images/levels/e2.png",
       "content": {
-        "type": "tabbed"
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "The Factory",
+            "icon": "images/overlays/map12.png",
+            "content": {
+              "type": "map",
+              "maps": ["map12"]
+            }
+          }
+        ]
       }
     },
     {

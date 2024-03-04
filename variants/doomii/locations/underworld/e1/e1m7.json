@@ -1,0 +1,449 @@
+[
+  {
+    "name": "MAP07",
+    "parent": "Dead Simple (MAP07)",
+    "children": [
+      {
+        "name": "MAP07 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/MAP07 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Dead Simple (MAP07)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Dead Simple (MAP07)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Dead Simple (MAP07)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": ["@Dead Simple (MAP07)/Plasma Rifle"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": ["@Dead Simple (MAP07)/BFG9000"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/BFG9000",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Megasphere",
+        "access_rules": ["@Dead Simple (MAP07)/Megasphere"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Megasphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Dead Simple (MAP07)/Backpack"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack 2",
+        "access_rules": ["@Dead Simple (MAP07)/Backpack 2"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Backpack 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack 3",
+        "access_rules": ["@Dead Simple (MAP07)/Backpack 3"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Backpack 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack 4",
+        "access_rules": ["@Dead Simple (MAP07)/Backpack 4"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Backpack 4",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack 5",
+        "access_rules": ["@Dead Simple (MAP07)/Backpack 5"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Backpack 5",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack 6",
+        "access_rules": ["@Dead Simple (MAP07)/Backpack 6"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Backpack 6",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack 7",
+        "access_rules": ["@Dead Simple (MAP07)/Backpack 7"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Backpack 7",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack 8",
+        "access_rules": ["@Dead Simple (MAP07)/Backpack 8"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Backpack 8",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack 9",
+        "access_rules": ["@Dead Simple (MAP07)/Backpack 9"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Backpack 9",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack 10",
+        "access_rules": ["@Dead Simple (MAP07)/Backpack 10"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Backpack 10",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Dead Simple (MAP07)/Berserk"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility",
+        "access_rules": ["@Dead Simple (MAP07)/Invisibility"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 432,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility 2",
+        "access_rules": ["@Dead Simple (MAP07)/Invisibility 2"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Invisibility 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 456,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility 3",
+        "access_rules": ["@Dead Simple (MAP07)/Invisibility 3"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Invisibility 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 480,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility 4",
+        "access_rules": ["@Dead Simple (MAP07)/Invisibility 4"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/Invisibility 4",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 504,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP07 Exit",
+        "access_rules": ["@Dead Simple (MAP07)/MAP07 Exit"],
+        "sections": [
+          {
+            "ref": "Dead Simple (MAP07)/MAP07 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m7_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 528,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "name": "MAP02",
+    "parent": "Underhalls (MAP02)",
+    "children": [
+      {
+        "name": "MAP02 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Underhalls (MAP02)/MAP02 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Underhalls (MAP02)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Underhalls (MAP02)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Underhalls (MAP02)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Underhalls (MAP02)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": ["@Underhalls (MAP02)/Blue Keycard"],
+        "sections": [
+          {
+            "ref": "Underhalls (MAP02)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "access_rules": ["@Underhalls (MAP02)/Red Keycard"],
+        "sections": [
+          {
+            "ref": "Underhalls (MAP02)/Red Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP02 Exit",
+        "access_rules": ["@Underhalls (MAP02)/MAP02 Exit"],
+        "sections": [
+          {
+            "ref": "Underhalls (MAP02)/MAP02 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 120,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -10,7 +10,7 @@ for filename in ["keysets.lua"]:
         constantsLua = constantsFile.read()
         CONSTANTS[filename[:filename.find('.')]] = luadata.unserialize(constantsLua)
 
-baseGame = "nrftl"
+baseGame = "doomii"
 basePath = os.path.join(
     "variants",
     baseGame,

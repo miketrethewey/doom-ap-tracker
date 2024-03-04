@@ -1,0 +1,240 @@
+[
+  {
+    "name": "MAP03",
+    "parent": "The Gantlet (MAP03)",
+    "children": [
+      {
+        "name": "MAP03 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "The Gantlet (MAP03)/MAP03 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map03",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@The Gantlet (MAP03)/Shotgun"],
+        "sections": [
+          {
+            "ref": "The Gantlet (MAP03)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map03",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@The Gantlet (MAP03)/Chaingun"],
+        "sections": [
+          {
+            "ref": "The Gantlet (MAP03)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map03",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@The Gantlet (MAP03)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "The Gantlet (MAP03)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map03",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@The Gantlet (MAP03)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "The Gantlet (MAP03)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map03",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor 2",
+        "access_rules": ["@The Gantlet (MAP03)/Mega Armor 2"],
+        "sections": [
+          {
+            "ref": "The Gantlet (MAP03)/Mega Armor 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map03",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@The Gantlet (MAP03)/Supercharge"],
+        "sections": [
+          {
+            "ref": "The Gantlet (MAP03)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map03",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@The Gantlet (MAP03)/Backpack"],
+        "sections": [
+          {
+            "ref": "The Gantlet (MAP03)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map03",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility",
+        "access_rules": ["@The Gantlet (MAP03)/Invisibility"],
+        "sections": [
+          {
+            "ref": "The Gantlet (MAP03)/Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map03",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": ["@The Gantlet (MAP03)/Blue Keycard"],
+        "sections": [
+          {
+            "ref": "The Gantlet (MAP03)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map03",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "access_rules": ["@The Gantlet (MAP03)/Red Keycard"],
+        "sections": [
+          {
+            "ref": "The Gantlet (MAP03)/Red Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map03",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP03 Exit",
+        "access_rules": ["@The Gantlet (MAP03)/MAP03 Exit"],
+        "sections": [
+          {
+            "ref": "The Gantlet (MAP03)/MAP03 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map03",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 264,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

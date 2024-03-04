@@ -1,0 +1,126 @@
+[
+  {
+    "name": "MAP04",
+    "parent": "The Focus (MAP04)",
+    "children": [
+      {
+        "name": "MAP04 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "The Focus (MAP04)/MAP04 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map04",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@The Focus (MAP04)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "The Focus (MAP04)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map04",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Key",
+        "access_rules": ["@The Focus (MAP04)/Blue Key"],
+        "sections": [
+          {
+            "ref": "The Focus (MAP04)/Blue Key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map04",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Key",
+        "access_rules": ["@The Focus (MAP04)/Red Key"],
+        "sections": [
+          {
+            "ref": "The Focus (MAP04)/Red Key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map04",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Key",
+        "access_rules": ["@The Focus (MAP04)/Yellow Key"],
+        "sections": [
+          {
+            "ref": "The Focus (MAP04)/Yellow Key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map04",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP04 Exit",
+        "access_rules": ["@The Focus (MAP04)/MAP04 Exit"],
+        "sections": [
+          {
+            "ref": "The Focus (MAP04)/MAP04 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map04",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 120,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

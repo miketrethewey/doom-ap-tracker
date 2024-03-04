@@ -15,7 +15,7 @@ for filename in ["keysets.lua"]:
         constantsLua = constantsFile.read()
         CONSTANTS[filename[:filename.find('.')]] = luadata.unserialize(constantsLua)
 
-baseGame = "nrftl"
+baseGame = "doomii"
 
 for epID in range(1,6+1):
 # for epID in range(1,4+1):
@@ -32,7 +32,10 @@ for epID in range(1,6+1):
             for _,maps in epYaml.items():
                 for mapID,mapData in maps.items():
                     mapID = int(mapID[1:])
-                    mapDB = CONSTANTS["keysets"][baseGame]["episodes"][epID-1]["maps"][mapID-1]
+                    mapIDX = mapID
+                    if baseGame in ["doomii"] and mapIDX % 11:
+                        mapIDX = mapIDX % 11
+                    mapDB = CONSTANTS["keysets"][baseGame]["episodes"][epID-1]["maps"][mapIDX - 1]
                     mapName = f"E{epID}M{mapID}"
                     if baseGame in [
                         "doomii",
@@ -52,13 +55,13 @@ for epID in range(1,6+1):
                         q = 1
                         if "q" in location:
                             q = location["q"]
+                        locName = location["name"]
                         for thisQ in range(1,q+1):
                             if thisQ > 1:
-                                location["name"] = location["name"] + " " + str(thisQ)
+                                locName = location["name"] + " " + str(thisQ)
                             isEntrance = "Entrance" in location["name"]
                             isExit = "Exit" in location["name"]
                             child = {}
-                            locName = location["name"]
                             for srch,repl in {
                                 "Map": "Computer Area Map",
                                 "Card": "Keycard",
@@ -106,5 +109,8 @@ for epID in range(1,6+1):
                                 child["sections"] = [ { "ref": ref, "name": "Level Completed", "hosted_item": f"e{epID}m{mapID}_complete" } ]
                             jsonData[0]["children"].append(child)
                             locID = locID + 1
-                    with open(os.path.join("variants",baseGame,"locations","underworld",f"e{epID}",f"e{epID}m{mapID}.json"), "w") as jsonFile:
+                    writePath = os.path.join("variants",baseGame,"locations","underworld",f"e{epID}")
+                    if not os.path.isdir(writePath):
+                        os.makedirs(writePath)
+                    with open(os.path.join(writePath,f"e{epID}m{mapIDX}.json"), "w") as jsonFile:
                         json.dump(jsonData, jsonFile, indent=2)

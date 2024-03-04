@@ -1,0 +1,18 @@
+E2:
+  M12:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: BFG
+      - name: Armor
+        q: 2
+      - name: Supercharge
+      - name: Backpack
+      - name: Berserk
+        q: 3
+      - name: Invisibility
+      - name: Blue Card
+      - name: Yellow Card
+      - name: Exit
