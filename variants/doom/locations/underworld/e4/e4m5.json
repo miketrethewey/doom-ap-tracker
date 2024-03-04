@@ -7,9 +7,7 @@
         "name": "E4M5 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/E4M5 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 720,
             "y": 230
@@ -31,9 +27,7 @@
       },
       {
         "name": "Red Skull Key",
-        "access_rules": [
-          "@They Will Repent (E4M5)/Red Skull Key"
-        ],
+        "access_rules": ["@They Will Repent (E4M5)/Red Skull Key"],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Red Skull Key",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 575,
             "y": 345
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@They Will Repent (E4M5)/Chaingun"
-        ],
+        "access_rules": ["@They Will Repent (E4M5)/Chaingun"],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Chaingun",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 620,
             "y": 610
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@They Will Repent (E4M5)/Rocket Launcher"
-        ],
+        "access_rules": ["@They Will Repent (E4M5)/Rocket Launcher"],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Rocket Launcher",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 713,
             "y": 600
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@They Will Repent (E4M5)/Armor"
-        ],
+        "access_rules": ["@They Will Repent (E4M5)/Armor"],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Armor",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 460,
             "y": 775
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Yellow Skull Key",
-        "access_rules": [
-          "@They Will Repent (E4M5)/Yellow Skull Key"
-        ],
+        "access_rules": ["@They Will Repent (E4M5)/Yellow Skull Key"],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Yellow Skull Key",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 415,
             "y": 35
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Blue Skull Key",
-        "access_rules": [
-          "@They Will Repent (E4M5)/Blue Skull Key"
-        ],
+        "access_rules": ["@They Will Repent (E4M5)/Blue Skull Key"],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Blue Skull Key",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 59,
             "y": 412
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "BFG9000",
-        "access_rules": [
-          "@They Will Repent (E4M5)/BFG9000"
-        ],
+        "access_rules": ["@They Will Repent (E4M5)/BFG9000"],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/BFG9000",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 473,
             "y": 38
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Plasma Gun",
-        "access_rules": [
-          "@They Will Repent (E4M5)/Plasma Gun"
-        ],
+        "access_rules": ["@They Will Repent (E4M5)/Plasma Gun"],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Plasma Gun",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 257,
             "y": 430
           }
@@ -215,9 +179,7 @@
       },
       {
         "name": "Supercharge",
-        "access_rules": [
-          "@They Will Repent (E4M5)/Supercharge"
-        ],
+        "access_rules": ["@They Will Repent (E4M5)/Supercharge"],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Supercharge",
@@ -228,9 +190,7 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 223,
             "y": 330
           }
@@ -238,9 +198,7 @@
       },
       {
         "name": "Invulnerability",
-        "access_rules": [
-          "@They Will Repent (E4M5)/Invulnerability"
-        ],
+        "access_rules": ["@They Will Repent (E4M5)/Invulnerability"],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Invulnerability",
@@ -251,9 +209,7 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 570,
             "y": 140
           }
@@ -261,9 +217,7 @@
       },
       {
         "name": "Berserk",
-        "access_rules": [
-          "@They Will Repent (E4M5)/Berserk"
-        ],
+        "access_rules": ["@They Will Repent (E4M5)/Berserk"],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/Berserk",
@@ -274,9 +228,7 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 430,
             "y": 200
           }
@@ -284,9 +236,7 @@
       },
       {
         "name": "E4M5 Exit",
-        "access_rules": [
-          "@They Will Repent (E4M5)/E4M5 Exit"
-        ],
+        "access_rules": ["@They Will Repent (E4M5)/E4M5 Exit"],
         "sections": [
           {
             "ref": "They Will Repent (E4M5)/E4M5 Exit",
@@ -297,9 +247,7 @@
         "map_locations": [
           {
             "map": "e4m5",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 488,
             "y": 95

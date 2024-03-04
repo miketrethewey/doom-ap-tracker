@@ -7,9 +7,7 @@
         "name": "E1M2 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Nuclear Plant (E1M2)/E1M2 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e1m2",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 543,
             "y": 608
@@ -31,9 +27,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Nuclear Plant (E1M2)/No Keys Needed"
-        ],
+        "access_rules": ["@Nuclear Plant (E1M2)/No Keys Needed"],
         "sections": [
           {
             "ref": "Nuclear Plant (E1M2)/Shotgun",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e1m2",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 505,
             "y": 451
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Nuclear Plant (E1M2)/No Keys Needed"
-        ],
+        "access_rules": ["@Nuclear Plant (E1M2)/No Keys Needed"],
         "sections": [
           {
             "ref": "Nuclear Plant (E1M2)/Armor",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e1m2",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 590,
             "y": 465
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Supercharge",
-        "access_rules": [
-          "@Nuclear Plant (E1M2)/No Keys Needed"
-        ],
+        "access_rules": ["@Nuclear Plant (E1M2)/No Keys Needed"],
         "sections": [
           {
             "ref": "Nuclear Plant (E1M2)/Supercharge",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e1m2",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 910,
             "y": 480
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Nuclear Plant (E1M2)/No Keys Needed"
-        ],
+        "access_rules": ["@Nuclear Plant (E1M2)/No Keys Needed"],
         "sections": [
           {
             "ref": "Nuclear Plant (E1M2)/Chaingun",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "e1m2",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 725,
             "y": 608
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Red Keycard",
-        "access_rules": [
-          "@Nuclear Plant (E1M2)/No Keys Needed"
-        ],
+        "access_rules": ["@Nuclear Plant (E1M2)/No Keys Needed"],
         "sections": [
           {
             "ref": "Nuclear Plant (E1M2)/Red Keycard",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "e1m2",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 765,
             "y": 480
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Armor 2",
-        "access_rules": [
-          "@Nuclear Plant (E1M2)/No Keys Needed"
-        ],
+        "access_rules": ["@Nuclear Plant (E1M2)/No Keys Needed"],
         "sections": [
           {
             "ref": "Nuclear Plant (E1M2)/Armor 2",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "e1m2",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 543,
             "y": 360
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Nuclear Plant (E1M2)/No Keys Needed"
-        ],
+        "access_rules": ["@Nuclear Plant (E1M2)/No Keys Needed"],
         "sections": [
           {
             "ref": "Nuclear Plant (E1M2)/Backpack",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "e1m2",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 570,
             "y": 451
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Chainsaw",
-        "access_rules": [
-          "@Nuclear Plant (E1M2)/Red Key Needed"
-        ],
+        "access_rules": ["@Nuclear Plant (E1M2)/Red Key Needed"],
         "sections": [
           {
             "ref": "Nuclear Plant (E1M2)/Chainsaw",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "e1m2",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 142,
             "y": 372
           }
@@ -215,9 +179,7 @@
       },
       {
         "name": "Armor 3",
-        "access_rules": [
-          "@Nuclear Plant (E1M2)/Red Key Needed"
-        ],
+        "access_rules": ["@Nuclear Plant (E1M2)/Red Key Needed"],
         "sections": [
           {
             "ref": "Nuclear Plant (E1M2)/Armor 3",
@@ -228,9 +190,7 @@
         "map_locations": [
           {
             "map": "e1m2",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 130,
             "y": 620
           }
@@ -238,9 +198,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Nuclear Plant (E1M2)/Red Key Needed"
-        ],
+        "access_rules": ["@Nuclear Plant (E1M2)/Red Key Needed"],
         "sections": [
           {
             "ref": "Nuclear Plant (E1M2)/Mega Armor",
@@ -251,9 +209,7 @@
         "map_locations": [
           {
             "map": "e1m2",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 265,
             "y": 200
           }
@@ -261,9 +217,7 @@
       },
       {
         "name": "Backpack 2",
-        "access_rules": [
-          "@Nuclear Plant (E1M2)/Red Key Needed"
-        ],
+        "access_rules": ["@Nuclear Plant (E1M2)/Red Key Needed"],
         "sections": [
           {
             "ref": "Nuclear Plant (E1M2)/Backpack 2",
@@ -274,9 +228,7 @@
         "map_locations": [
           {
             "map": "e1m2",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 678,
             "y": 720
           }
@@ -284,9 +236,7 @@
       },
       {
         "name": "E1M2 Exit",
-        "access_rules": [
-          "@Nuclear Plant (E1M2)/E1M2 Exit"
-        ],
+        "access_rules": ["@Nuclear Plant (E1M2)/E1M2 Exit"],
         "sections": [
           {
             "ref": "Nuclear Plant (E1M2)/E1M2 Exit",
@@ -297,9 +247,7 @@
         "map_locations": [
           {
             "map": "e1m2",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 495,
             "y": 97

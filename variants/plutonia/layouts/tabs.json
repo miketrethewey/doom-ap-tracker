@@ -1,35 +1,33 @@
-{
-  "tabbed_maps": {
-    "type": "tabbed",
-    "tabs": [
-      {
-        "title": "Earth (E1)",
-        "icon": "images/levels/e1.png",
-        "content": {
-          "type": "tabbed"
-        }
-      },
-      {
-        "title": "Hell (E2)",
-        "icon": "images/levels/e2.png",
-        "content": {
-          "type": "tabbed"
-        }
-      },
-      {
-        "title": "Devil Hive (E3)",
-        "icon": "images/levels/e3.png",
-        "content": {
-          "type": "tabbed"
-        }
-      },
-      {
-        "title": "Secret (E4)",
-        "icon": "images/levels/e4.png",
-        "content": {
-          "type": "tabbed"
-        }
+{"tabbed_maps": {
+  "type": "tabbed",
+  "tabs": [
+    {
+      "title": "Earth (E1)",
+      "icon": "images/levels/e1.png",
+      "content": {
+        "type": "tabbed"
       }
-    ]
-  }
-}
+    },
+    {
+      "title": "Hell (E2)",
+      "icon": "images/levels/e2.png",
+      "content": {
+        "type": "tabbed"
+      }
+    },
+    {
+      "title": "Devil Hive (E3)",
+      "icon": "images/levels/e3.png",
+      "content": {
+        "type": "tabbed"
+      }
+    },
+    {
+      "title": "Secret (E4)",
+      "icon": "images/levels/e4.png",
+      "content": {
+        "type": "tabbed"
+      }
+    }
+  ]
+}}

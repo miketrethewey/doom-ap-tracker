@@ -1,59 +1,44 @@
 [
-    {
-      "name": "E5M4",
-      "children": [
-        {
-          "name": "E5M4 Entrance",
-          "chest_unopened_img": "/images/items/levelstart.png",
-          "chest_opened_img": "/images/items/levelstart.png",
-          "access_rules": [
-            "$access|null"
-          ],
-          "sections": [
-            {
-              "name": "Level Start",
-              "item_count": 1
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "e5m4",
-              "restrict_visibility_rules": [
-                "ep5_on",
-                ""
-              ],
-              "size": 20,
-              "x": 334,
-              "y": 5
-            }
-          ]
-        },
-        {
-          "name": "E5M4 Exit",
-          "sections": [
-            {
-              "ref": "Paths of Wretchedness (E5M4)/Exit",
-              "name": "Level Completed",
-              "hosted_item": "e5m4_complete"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "e5m4",
-              "x": 594,
-              "y": 1260,
-              "size": 20,
-              "restrict_visibility_rules": [
-                "ep5_on",
-                ""
-              ]
-            }
-          ],
-          "access_rules": [
-            "@Paths of Wretchedness (E5M4)/Exit"
-          ]
-        }
-      ],
-      "parent": "Paths of Wretchedness (E5M4)"
-    }
-  ]
+  {
+    "name": "E5M4",
+    "children": [
+      {
+        "name": "E5M4 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [{"name": "Level Start", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m4",
+            "restrict_visibility_rules": ["ep5_on", ""],
+            "size": 20,
+            "x": 334,
+            "y": 5
+          }
+        ]
+      },
+      {
+        "name": "E5M4 Exit",
+        "sections": [
+          {
+            "ref": "Paths of Wretchedness (E5M4)/Exit",
+            "name": "Level Completed",
+            "hosted_item": "e5m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m4",
+            "x": 594,
+            "y": 1260,
+            "size": 20,
+            "restrict_visibility_rules": ["ep5_on", ""]
+          }
+        ],
+        "access_rules": ["@Paths of Wretchedness (E5M4)/Exit"]
+      }
+    ],
+    "parent": "Paths of Wretchedness (E5M4)"
+  }
+]

@@ -7,9 +7,7 @@
         "name": "E3M6 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/E3M6 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 500,
             "y": 595
@@ -31,9 +27,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Mega Armor"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Mega Armor"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Mega Armor",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 485,
             "y": 735
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Armor"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Armor"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Armor",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 350,
             "y": 450
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Backpack"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Backpack"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Backpack",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 646,
             "y": 435
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Invulnerability",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Invulnerability"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Invulnerability"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Invulnerability",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 416,
             "y": 430
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Chaingun"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Chaingun"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Chaingun",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 181,
             "y": 515
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Shotgun"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Shotgun"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Shotgun",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 199,
             "y": 523
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Rocket Launcher"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Rocket Launcher",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 199,
             "y": 505
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Plasma Gun",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Plasma Gun"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Plasma Gun"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Plasma Gun",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 538,
             "y": 347
           }
@@ -215,9 +179,7 @@
       },
       {
         "name": "Armor 2",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Armor 2"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Armor 2"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Armor 2",
@@ -228,9 +190,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 522,
             "y": 347
           }
@@ -238,9 +198,7 @@
       },
       {
         "name": "Berserk",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Berserk"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Berserk"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Berserk",
@@ -251,9 +209,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 393,
             "y": 314
           }
@@ -261,9 +217,7 @@
       },
       {
         "name": "Invulnerability 2",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Invulnerability 2"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Invulnerability 2"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Invulnerability 2",
@@ -274,9 +228,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 237,
             "y": 510
           }
@@ -284,9 +236,7 @@
       },
       {
         "name": "Supercharge",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Supercharge"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Supercharge"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Supercharge",
@@ -297,9 +247,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 181,
             "y": 408
           }
@@ -307,9 +255,7 @@
       },
       {
         "name": "Blue Skull Key",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Blue Skull Key"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Blue Skull Key"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Blue Skull Key",
@@ -320,9 +266,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 283,
             "y": 377
           }
@@ -330,9 +274,7 @@
       },
       {
         "name": "Blue Skull Key 2",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Blue Skull Key 2"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Blue Skull Key 2"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Blue Skull Key 2",
@@ -343,9 +285,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 425,
             "y": 347
           }
@@ -353,9 +293,7 @@
       },
       {
         "name": "Computer Area Map",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Computer Area Map"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Computer Area Map"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Computer Area Map",
@@ -366,9 +304,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 190,
             "y": 220
           }
@@ -376,9 +312,7 @@
       },
       {
         "name": "Chainsaw",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Chainsaw"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Chainsaw"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Chainsaw",
@@ -389,9 +323,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 348,
             "y": 100
           }
@@ -399,9 +331,7 @@
       },
       {
         "name": "Supercharge 2",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/Supercharge 2"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/Supercharge 2"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/Supercharge 2",
@@ -412,9 +342,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 246,
             "y": 108
           }
@@ -422,9 +350,7 @@
       },
       {
         "name": "E3M6 Exit",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/E3M6 Exit"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/E3M6 Exit"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/E3M6 Exit",
@@ -435,9 +361,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 163,
             "y": 356
@@ -446,9 +370,7 @@
       },
       {
         "name": "E3M6 Secret Exit",
-        "access_rules": [
-          "@Mt. Erebus (E3M6)/E3M6 Secret Exit"
-        ],
+        "access_rules": ["@Mt. Erebus (E3M6)/E3M6 Secret Exit"],
         "sections": [
           {
             "ref": "Mt. Erebus (E3M6)/E3M6 Secret Exit",
@@ -459,9 +381,7 @@
         "map_locations": [
           {
             "map": "e3m6",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 406,
             "y": 36

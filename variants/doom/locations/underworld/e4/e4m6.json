@@ -7,9 +7,7 @@
         "name": "E4M6 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Against Thee Wickedly (E4M6)/E4M6 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 780,
             "y": 340
@@ -31,9 +27,7 @@
       },
       {
         "name": "Plasma Gun",
-        "access_rules": [
-          "@Against Thee Wickedly (E4M6)/Plasma Gun"
-        ],
+        "access_rules": ["@Against Thee Wickedly (E4M6)/Plasma Gun"],
         "sections": [
           {
             "ref": "Against Thee Wickedly (E4M6)/Plasma Gun",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 365,
             "y": 270
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Blue Skull Key",
-        "access_rules": [
-          "@Against Thee Wickedly (E4M6)/Blue Skull Key"
-        ],
+        "access_rules": ["@Against Thee Wickedly (E4M6)/Blue Skull Key"],
         "sections": [
           {
             "ref": "Against Thee Wickedly (E4M6)/Blue Skull Key",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 292,
             "y": 398
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Supercharge",
-        "access_rules": [
-          "@Against Thee Wickedly (E4M6)/Supercharge"
-        ],
+        "access_rules": ["@Against Thee Wickedly (E4M6)/Supercharge"],
         "sections": [
           {
             "ref": "Against Thee Wickedly (E4M6)/Supercharge",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 402,
             "y": 468
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Against Thee Wickedly (E4M6)/Rocket Launcher"
-        ],
+        "access_rules": ["@Against Thee Wickedly (E4M6)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Against Thee Wickedly (E4M6)/Rocket Launcher",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 515,
             "y": 215
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Against Thee Wickedly (E4M6)/Chaingun"
-        ],
+        "access_rules": ["@Against Thee Wickedly (E4M6)/Chaingun"],
         "sections": [
           {
             "ref": "Against Thee Wickedly (E4M6)/Chaingun",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 548,
             "y": 398
           }
@@ -159,9 +135,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 427,
             "y": 502
           }
@@ -169,9 +143,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Against Thee Wickedly (E4M6)/Shotgun"
-        ],
+        "access_rules": ["@Against Thee Wickedly (E4M6)/Shotgun"],
         "sections": [
           {
             "ref": "Against Thee Wickedly (E4M6)/Shotgun",
@@ -182,9 +154,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 148,
             "y": 358
           }
@@ -192,9 +162,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Against Thee Wickedly (E4M6)/Armor"
-        ],
+        "access_rules": ["@Against Thee Wickedly (E4M6)/Armor"],
         "sections": [
           {
             "ref": "Against Thee Wickedly (E4M6)/Armor",
@@ -205,9 +173,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 420,
             "y": 398
           }
@@ -215,9 +181,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Against Thee Wickedly (E4M6)/Mega Armor"
-        ],
+        "access_rules": ["@Against Thee Wickedly (E4M6)/Mega Armor"],
         "sections": [
           {
             "ref": "Against Thee Wickedly (E4M6)/Mega Armor",
@@ -228,9 +192,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 310,
             "y": 245
           }
@@ -238,9 +200,7 @@
       },
       {
         "name": "Yellow Skull Key",
-        "access_rules": [
-          "@Against Thee Wickedly (E4M6)/Yellow Skull Key"
-        ],
+        "access_rules": ["@Against Thee Wickedly (E4M6)/Yellow Skull Key"],
         "sections": [
           {
             "ref": "Against Thee Wickedly (E4M6)/Yellow Skull Key",
@@ -251,9 +211,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 624,
             "y": 112
           }
@@ -261,9 +219,7 @@
       },
       {
         "name": "Red Skull Key",
-        "access_rules": [
-          "@Against Thee Wickedly (E4M6)/Red Skull Key"
-        ],
+        "access_rules": ["@Against Thee Wickedly (E4M6)/Red Skull Key"],
         "sections": [
           {
             "ref": "Against Thee Wickedly (E4M6)/Red Skull Key",
@@ -274,9 +230,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 818,
             "y": 410
           }
@@ -297,9 +251,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 628,
             "y": 587
           }
@@ -307,9 +259,7 @@
       },
       {
         "name": "Invulnerability",
-        "access_rules": [
-          "@Against Thee Wickedly (E4M6)/Invulnerability"
-        ],
+        "access_rules": ["@Against Thee Wickedly (E4M6)/Invulnerability"],
         "sections": [
           {
             "ref": "Against Thee Wickedly (E4M6)/Invulnerability",
@@ -320,9 +270,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 570,
             "y": 600
           }
@@ -330,9 +278,7 @@
       },
       {
         "name": "BFG9000",
-        "access_rules": [
-          "@Against Thee Wickedly (E4M6)/BFG9000"
-        ],
+        "access_rules": ["@Against Thee Wickedly (E4M6)/BFG9000"],
         "sections": [
           {
             "ref": "Against Thee Wickedly (E4M6)/BFG9000",
@@ -343,9 +289,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 848,
             "y": 467
           }
@@ -353,9 +297,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Against Thee Wickedly (E4M6)/Backpack"
-        ],
+        "access_rules": ["@Against Thee Wickedly (E4M6)/Backpack"],
         "sections": [
           {
             "ref": "Against Thee Wickedly (E4M6)/Backpack",
@@ -366,9 +308,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 556,
             "y": 614
           }
@@ -376,9 +316,7 @@
       },
       {
         "name": "Berserk",
-        "access_rules": [
-          "@Against Thee Wickedly (E4M6)/Berserk"
-        ],
+        "access_rules": ["@Against Thee Wickedly (E4M6)/Berserk"],
         "sections": [
           {
             "ref": "Against Thee Wickedly (E4M6)/Berserk",
@@ -389,9 +327,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 848,
             "y": 430
           }
@@ -399,9 +335,7 @@
       },
       {
         "name": "E4M6 Exit",
-        "access_rules": [
-          "@Against Thee Wickedly (E4M6)/E4M6 Exit"
-        ],
+        "access_rules": ["@Against Thee Wickedly (E4M6)/E4M6 Exit"],
         "sections": [
           {
             "ref": "Against Thee Wickedly (E4M6)/E4M6 Exit",
@@ -412,9 +346,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 668,
             "y": 683

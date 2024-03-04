@@ -7,9 +7,7 @@
         "name": "E1M7 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/E1M7 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 460,
             "y": 20
@@ -31,9 +27,7 @@
       },
       {
         "name": "Shotgun 2",
-        "access_rules": [
-          "@Computer Station (E1M7)/Shotgun 2"
-        ],
+        "access_rules": ["@Computer Station (E1M7)/Shotgun 2"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/Shotgun 2",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 440,
             "y": 63
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Yellow Keycard",
-        "access_rules": [
-          "@Computer Station (E1M7)/Yellow Keycard"
-        ],
+        "access_rules": ["@Computer Station (E1M7)/Yellow Keycard"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/Yellow Keycard",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 717,
             "y": 196
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Computer Station (E1M7)/Armor"
-        ],
+        "access_rules": ["@Computer Station (E1M7)/Armor"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/Armor",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 459,
             "y": 150
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Computer Station (E1M7)/Shotgun"
-        ],
+        "access_rules": ["@Computer Station (E1M7)/Shotgun"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/Shotgun",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 513,
             "y": 577
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Chainsaw",
-        "access_rules": [
-          "@Computer Station (E1M7)/Chainsaw"
-        ],
+        "access_rules": ["@Computer Station (E1M7)/Chainsaw"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/Chainsaw",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 122,
             "y": 748
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Computer Station (E1M7)/Chaingun"
-        ],
+        "access_rules": ["@Computer Station (E1M7)/Chaingun"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/Chaingun",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 370,
             "y": 657
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "Red Keycard",
-        "access_rules": [
-          "@Computer Station (E1M7)/Red Keycard"
-        ],
+        "access_rules": ["@Computer Station (E1M7)/Red Keycard"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/Red Keycard",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 100,
             "y": 68
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Computer Station (E1M7)/Rocket Launcher"
-        ],
+        "access_rules": ["@Computer Station (E1M7)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/Rocket Launcher",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 543,
             "y": 370
           }
@@ -215,9 +179,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Computer Station (E1M7)/Mega Armor"
-        ],
+        "access_rules": ["@Computer Station (E1M7)/Mega Armor"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/Mega Armor",
@@ -228,9 +190,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 340,
             "y": 454
           }
@@ -238,9 +198,7 @@
       },
       {
         "name": "Computer Area Map",
-        "access_rules": [
-          "@Computer Station (E1M7)/Computer Area Map"
-        ],
+        "access_rules": ["@Computer Station (E1M7)/Computer Area Map"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/Computer Area Map",
@@ -251,9 +209,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 407,
             "y": 547
           }
@@ -261,9 +217,7 @@
       },
       {
         "name": "Supercharge",
-        "access_rules": [
-          "@Computer Station (E1M7)/Supercharge"
-        ],
+        "access_rules": ["@Computer Station (E1M7)/Supercharge"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/Supercharge",
@@ -274,9 +228,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 280,
             "y": 174
           }
@@ -284,9 +236,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Computer Station (E1M7)/Backpack"
-        ],
+        "access_rules": ["@Computer Station (E1M7)/Backpack"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/Backpack",
@@ -297,9 +247,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 450,
             "y": 653
           }
@@ -307,9 +255,7 @@
       },
       {
         "name": "Armor 2",
-        "access_rules": [
-          "@Computer Station (E1M7)/Armor 2"
-        ],
+        "access_rules": ["@Computer Station (E1M7)/Armor 2"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/Armor 2",
@@ -320,9 +266,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 160,
             "y": 280
           }
@@ -330,9 +274,7 @@
       },
       {
         "name": "Blue Keycard",
-        "access_rules": [
-          "@Computer Station (E1M7)/Blue Keycard"
-        ],
+        "access_rules": ["@Computer Station (E1M7)/Blue Keycard"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/Blue Keycard",
@@ -343,9 +285,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 193,
             "y": 93
           }
@@ -353,9 +293,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "access_rules": [
-          "@Computer Station (E1M7)/Partial Invisibility"
-        ],
+        "access_rules": ["@Computer Station (E1M7)/Partial Invisibility"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/Partial Invisibility",
@@ -366,9 +304,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 696,
             "y": 403
           }
@@ -376,9 +312,7 @@
       },
       {
         "name": "E1M7 Exit",
-        "access_rules": [
-          "@Computer Station (E1M7)/E1M7 Exit"
-        ],
+        "access_rules": ["@Computer Station (E1M7)/E1M7 Exit"],
         "sections": [
           {
             "ref": "Computer Station (E1M7)/E1M7 Exit",
@@ -389,9 +323,7 @@
         "map_locations": [
           {
             "map": "e1m7",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 848,
             "y": 666

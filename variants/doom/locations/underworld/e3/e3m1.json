@@ -7,9 +7,7 @@
         "name": "E3M1 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Hell Keep (E3M1)/E3M1 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e3m1",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 260,
             "y": 710
@@ -31,9 +27,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Hell Keep (E3M1)/Shotgun"
-        ],
+        "access_rules": ["@Hell Keep (E3M1)/Shotgun"],
         "sections": [
           {
             "ref": "Hell Keep (E3M1)/Shotgun",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e3m1",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 115,
             "y": 390
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Hell Keep (E3M1)/Rocket Launcher"
-        ],
+        "access_rules": ["@Hell Keep (E3M1)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Hell Keep (E3M1)/Rocket Launcher",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e3m1",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 52,
             "y": 95
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "E3M1 Exit",
-        "access_rules": [
-          "@Hell Keep (E3M1)/E3M1 Exit"
-        ],
+        "access_rules": ["@Hell Keep (E3M1)/E3M1 Exit"],
         "sections": [
           {
             "ref": "Hell Keep (E3M1)/E3M1 Exit",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e3m1",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 77,
             "y": 40

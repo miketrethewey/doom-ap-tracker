@@ -7,9 +7,7 @@
         "name": "E4M3 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/E4M3 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 450,
             "y": 250
@@ -31,9 +27,7 @@
       },
       {
         "name": "Invulnerability",
-        "access_rules": [
-          "@Sever the Wicked (E4M3)/Invulnerability"
-        ],
+        "access_rules": ["@Sever the Wicked (E4M3)/Invulnerability"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/Invulnerability",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 667,
             "y": 281
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Berserk",
-        "access_rules": [
-          "@Sever the Wicked (E4M3)/Berserk"
-        ],
+        "access_rules": ["@Sever the Wicked (E4M3)/Berserk"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/Berserk",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 511,
             "y": 265
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "access_rules": [
-          "@Sever the Wicked (E4M3)/Partial Invisibility"
-        ],
+        "access_rules": ["@Sever the Wicked (E4M3)/Partial Invisibility"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/Partial Invisibility",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 511,
             "y": 245
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Sever the Wicked (E4M3)/Backpack"
-        ],
+        "access_rules": ["@Sever the Wicked (E4M3)/Backpack"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/Backpack",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 470,
             "y": 240
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Red Skull Key",
-        "access_rules": [
-          "@Sever the Wicked (E4M3)/Red Skull Key"
-        ],
+        "access_rules": ["@Sever the Wicked (E4M3)/Red Skull Key"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/Red Skull Key",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 257,
             "y": 585
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Blue Skull Key",
-        "access_rules": [
-          "@Sever the Wicked (E4M3)/Blue Skull Key"
-        ],
+        "access_rules": ["@Sever the Wicked (E4M3)/Blue Skull Key"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/Blue Skull Key",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 451,
             "y": 105
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "Backpack 2",
-        "access_rules": [
-          "@Sever the Wicked (E4M3)/Backpack 2"
-        ],
+        "access_rules": ["@Sever the Wicked (E4M3)/Backpack 2"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/Backpack 2",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 313,
             "y": 391
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Chainsaw",
-        "access_rules": [
-          "@Sever the Wicked (E4M3)/Chainsaw"
-        ],
+        "access_rules": ["@Sever the Wicked (E4M3)/Chainsaw"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/Chainsaw",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 289,
             "y": 415
           }
@@ -215,9 +179,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Sever the Wicked (E4M3)/Mega Armor"
-        ],
+        "access_rules": ["@Sever the Wicked (E4M3)/Mega Armor"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/Mega Armor",
@@ -228,9 +190,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 301,
             "y": 403
           }
@@ -238,9 +198,7 @@
       },
       {
         "name": "Supercharge",
-        "access_rules": [
-          "@Sever the Wicked (E4M3)/Supercharge"
-        ],
+        "access_rules": ["@Sever the Wicked (E4M3)/Supercharge"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/Supercharge",
@@ -251,9 +209,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 225,
             "y": 490
           }
@@ -261,9 +217,7 @@
       },
       {
         "name": "Plasma Gun 2",
-        "access_rules": [
-          "@Sever the Wicked (E4M3)/Plasma Gun 2"
-        ],
+        "access_rules": ["@Sever the Wicked (E4M3)/Plasma Gun 2"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/Plasma Gun 2",
@@ -274,9 +228,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 512,
             "y": 348
           }
@@ -284,9 +236,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Sever the Wicked (E4M3)/Chaingun"
-        ],
+        "access_rules": ["@Sever the Wicked (E4M3)/Chaingun"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/Chaingun",
@@ -297,9 +247,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 733,
             "y": 472
           }
@@ -307,9 +255,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Sever the Wicked (E4M3)/Shotgun"
-        ],
+        "access_rules": ["@Sever the Wicked (E4M3)/Shotgun"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/Shotgun",
@@ -320,9 +266,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 438,
             "y": 257
           }
@@ -330,9 +274,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Sever the Wicked (E4M3)/Rocket Launcher"
-        ],
+        "access_rules": ["@Sever the Wicked (E4M3)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/Rocket Launcher",
@@ -343,9 +285,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 145,
             "y": 675
           }
@@ -366,9 +306,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 180,
             "y": 230
           }
@@ -376,9 +314,7 @@
       },
       {
         "name": "Plasma Gun",
-        "access_rules": [
-          "@Sever the Wicked (E4M3)/Plasma Gun"
-        ],
+        "access_rules": ["@Sever the Wicked (E4M3)/Plasma Gun"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/Plasma Gun",
@@ -389,9 +325,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 650,
             "y": 413
           }
@@ -399,9 +333,7 @@
       },
       {
         "name": "E4M3 Exit",
-        "access_rules": [
-          "@Sever the Wicked (E4M3)/E4M3 Exit"
-        ],
+        "access_rules": ["@Sever the Wicked (E4M3)/E4M3 Exit"],
         "sections": [
           {
             "ref": "Sever the Wicked (E4M3)/E4M3 Exit",
@@ -412,9 +344,7 @@
         "map_locations": [
           {
             "map": "e4m3",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 624,
             "y": 413

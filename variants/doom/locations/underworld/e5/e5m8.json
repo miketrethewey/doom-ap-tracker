@@ -1,59 +1,44 @@
 [
-    {
-      "name": "E5M8",
-      "children": [
-        {
-          "name": "E5M8 Entrance",
-          "chest_unopened_img": "/images/items/levelstart.png",
-          "chest_opened_img": "/images/items/levelstart.png",
-          "access_rules": [
-            "$access|null"
-          ],
-          "sections": [
-            {
-              "name": "Level Start",
-              "item_count": 1
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "e5m8",
-              "restrict_visibility_rules": [
-                "ep5_on",
-                ""
-              ],
-              "size": 20,
-              "x": 107,
-              "y": 487
-            }
-          ]
-        },
-        {
-          "name": "E5M8 Exit",
-          "sections": [
-            {
-              "ref": "Halls of Perdition (E5M8)/Exit",
-              "name": "Level Completed",
-              "hosted_item": "e5m8_complete"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "e5m8",
-              "x": 377,
-              "y": 350,
-              "size": 20,
-              "restrict_visibility_rules": [
-                "ep5_on",
-                ""
-              ]
-            }
-          ],
-          "access_rules": [
-            "@Halls of Perdition (E5M8)/Exit"
-          ]
-        }
-      ],
-      "parent": "Halls of Perdition (E5M8)"
-    }
-  ]
+  {
+    "name": "E5M8",
+    "children": [
+      {
+        "name": "E5M8 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [{"name": "Level Start", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "restrict_visibility_rules": ["ep5_on", ""],
+            "size": 20,
+            "x": 107,
+            "y": 487
+          }
+        ]
+      },
+      {
+        "name": "E5M8 Exit",
+        "sections": [
+          {
+            "ref": "Halls of Perdition (E5M8)/Exit",
+            "name": "Level Completed",
+            "hosted_item": "e5m8_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "x": 377,
+            "y": 350,
+            "size": 20,
+            "restrict_visibility_rules": ["ep5_on", ""]
+          }
+        ],
+        "access_rules": ["@Halls of Perdition (E5M8)/Exit"]
+      }
+    ],
+    "parent": "Halls of Perdition (E5M8)"
+  }
+]

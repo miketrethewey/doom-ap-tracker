@@ -6,22 +6,12 @@
         "name": "E5M2 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
-        "sections": [
-          {
-            "name": "Level Start",
-            "item_count": 1
-          }
-        ],
+        "access_rules": ["$access|null"],
+        "sections": [{"name": "Level Start", "item_count": 1}],
         "map_locations": [
           {
             "map": "e5m2",
-            "restrict_visibility_rules": [
-              "ep5_on",
-              ""
-            ],
+            "restrict_visibility_rules": ["ep5_on", ""],
             "size": 20,
             "x": 476,
             "y": 700
@@ -43,15 +33,10 @@
             "x": 765,
             "y": 590,
             "size": 20,
-            "restrict_visibility_rules": [
-              "ep5_on",
-              ""
-            ]
+            "restrict_visibility_rules": ["ep5_on", ""]
           }
         ],
-        "access_rules": [
-          "@Sheol (E5M2)/Exit"
-        ]
+        "access_rules": ["@Sheol (E5M2)/Exit"]
       }
     ],
     "parent": "Sheol (E5M2)"

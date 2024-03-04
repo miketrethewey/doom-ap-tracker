@@ -7,9 +7,7 @@
         "name": "E1M6 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Central Processing (E1M6)/E1M6 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 370,
             "y": 640
@@ -44,9 +40,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 590,
             "y": 655
           }
@@ -54,9 +48,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Central Processing (E1M6)/Shotgun"
-        ],
+        "access_rules": ["@Central Processing (E1M6)/Shotgun"],
         "sections": [
           {
             "ref": "Central Processing (E1M6)/Shotgun",
@@ -67,9 +59,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 296,
             "y": 625
           }
@@ -90,9 +80,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 522,
             "y": 557
           }
@@ -100,9 +88,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Central Processing (E1M6)/Armor"
-        ],
+        "access_rules": ["@Central Processing (E1M6)/Armor"],
         "sections": [
           {
             "ref": "Central Processing (E1M6)/Armor",
@@ -113,9 +99,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 386,
             "y": 428
           }
@@ -123,9 +107,7 @@
       },
       {
         "name": "Armor 4",
-        "access_rules": [
-          "@Central Processing (E1M6)/Armor 4"
-        ],
+        "access_rules": ["@Central Processing (E1M6)/Armor 4"],
         "sections": [
           {
             "ref": "Central Processing (E1M6)/Armor 4",
@@ -136,9 +118,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 250,
             "y": 470
           }
@@ -146,9 +126,7 @@
       },
       {
         "name": "Supercharge 2",
-        "access_rules": [
-          "@Central Processing (E1M6)/Supercharge 2"
-        ],
+        "access_rules": ["@Central Processing (E1M6)/Supercharge 2"],
         "sections": [
           {
             "ref": "Central Processing (E1M6)/Supercharge 2",
@@ -159,9 +137,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 424,
             "y": 128
           }
@@ -182,9 +158,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 557,
             "y": 506
           }
@@ -192,9 +166,7 @@
       },
       {
         "name": "Computer Area Map",
-        "access_rules": [
-          "@Central Processing (E1M6)/Computer Area Map"
-        ],
+        "access_rules": ["@Central Processing (E1M6)/Computer Area Map"],
         "sections": [
           {
             "ref": "Central Processing (E1M6)/Computer Area Map",
@@ -205,9 +177,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 935,
             "y": 654
           }
@@ -215,9 +185,7 @@
       },
       {
         "name": "Backpack 3",
-        "access_rules": [
-          "@Central Processing (E1M6)/Backpack 3"
-        ],
+        "access_rules": ["@Central Processing (E1M6)/Backpack 3"],
         "sections": [
           {
             "ref": "Central Processing (E1M6)/Backpack 3",
@@ -228,9 +196,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 478,
             "y": 180
           }
@@ -238,9 +204,7 @@
       },
       {
         "name": "Armor 3",
-        "access_rules": [
-          "@Central Processing (E1M6)/Armor 3"
-        ],
+        "access_rules": ["@Central Processing (E1M6)/Armor 3"],
         "sections": [
           {
             "ref": "Central Processing (E1M6)/Armor 3",
@@ -251,9 +215,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 230,
             "y": 200
           }
@@ -261,9 +223,7 @@
       },
       {
         "name": "Supercharge",
-        "access_rules": [
-          "@Central Processing (E1M6)/Supercharge"
-        ],
+        "access_rules": ["@Central Processing (E1M6)/Supercharge"],
         "sections": [
           {
             "ref": "Central Processing (E1M6)/Supercharge",
@@ -274,9 +234,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 46,
             "y": 788
           }
@@ -284,9 +242,7 @@
       },
       {
         "name": "Blue Keycard",
-        "access_rules": [
-          "@Central Processing (E1M6)/Blue Keycard"
-        ],
+        "access_rules": ["@Central Processing (E1M6)/Blue Keycard"],
         "sections": [
           {
             "ref": "Central Processing (E1M6)/Blue Keycard",
@@ -297,9 +253,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 131,
             "y": 686
           }
@@ -320,9 +274,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 337,
             "y": 654
           }
@@ -330,9 +282,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Central Processing (E1M6)/Mega Armor"
-        ],
+        "access_rules": ["@Central Processing (E1M6)/Mega Armor"],
         "sections": [
           {
             "ref": "Central Processing (E1M6)/Mega Armor",
@@ -343,9 +293,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 195,
             "y": 685
           }
@@ -353,9 +301,7 @@
       },
       {
         "name": "E1M6 Exit",
-        "access_rules": [
-          "@Central Processing (E1M6)/E1M6 Exit"
-        ],
+        "access_rules": ["@Central Processing (E1M6)/E1M6 Exit"],
         "sections": [
           {
             "ref": "Central Processing (E1M6)/E1M6 Exit",
@@ -366,9 +312,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 75,
             "y": 83

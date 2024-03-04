@@ -4,22 +4,10 @@
     "chest_unopened_img": "/images/chests/cacodemon.png",
     "chest_opened_img": "/images/chests/cacodemon_dead.png",
     "children": [
-      {
-        "name": "Earth (E1)",
-        "color": ""
-      },
-      {
-        "name": "Hell (E2)",
-        "color": ""
-      },
-      {
-        "name": "Devil Hive (E3)",
-        "color": ""
-      },
-      {
-        "name": "Secret (E4)",
-        "color": ""
-      }
+      {"name": "Earth (E1)", "color": ""},
+      {"name": "Hell (E2)", "color": ""},
+      {"name": "Devil Hive (E3)", "color": ""},
+      {"name": "Secret (E4)", "color": ""}
     ]
   }
 ]

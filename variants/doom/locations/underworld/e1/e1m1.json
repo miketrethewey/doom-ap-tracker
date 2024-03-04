@@ -7,9 +7,7 @@
         "name": "E1M1 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Hangar (E1M1)/E1M1 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e1m1",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 418,
             "y": 380
@@ -31,9 +27,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Hangar (E1M1)/Mega Armor"
-        ],
+        "access_rules": ["@Hangar (E1M1)/Mega Armor"],
         "sections": [
           {
             "ref": "Hangar (E1M1)/Mega Armor",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e1m1",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 585,
             "y": 290
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Hangar (E1M1)/Armor"
-        ],
+        "access_rules": ["@Hangar (E1M1)/Armor"],
         "sections": [
           {
             "ref": "Hangar (E1M1)/Armor",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e1m1",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 131,
             "y": 281
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Hangar (E1M1)/Shotgun"
-        ],
+        "access_rules": ["@Hangar (E1M1)/Shotgun"],
         "sections": [
           {
             "ref": "Hangar (E1M1)/Shotgun",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e1m1",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 910,
             "y": 435
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "E1M1 Exit",
-        "access_rules": [
-          "@Hangar (E1M1)/E1M1 Exit"
-        ],
+        "access_rules": ["@Hangar (E1M1)/E1M1 Exit"],
         "sections": [
           {
             "ref": "Hangar (E1M1)/E1M1 Exit",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "e1m1",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 833,
             "y": 625

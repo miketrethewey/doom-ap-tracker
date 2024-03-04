@@ -7,9 +7,7 @@
         "name": "E3M9 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/E3M9 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 285,
             "y": 730
@@ -31,9 +27,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Warrens (E3M9)/Shotgun"
-        ],
+        "access_rules": ["@Warrens (E3M9)/Shotgun"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Shotgun",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 180,
             "y": 493
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Warrens (E3M9)/Rocket Launcher"
-        ],
+        "access_rules": ["@Warrens (E3M9)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Rocket Launcher",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 127,
             "y": 270
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Rocket Launcher 2",
-        "access_rules": [
-          "@Warrens (E3M9)/Rocket Launcher 2"
-        ],
+        "access_rules": ["@Warrens (E3M9)/Rocket Launcher 2"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Rocket Launcher 2",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 150,
             "y": 60
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Supercharge",
-        "access_rules": [
-          "@Warrens (E3M9)/Supercharge"
-        ],
+        "access_rules": ["@Warrens (E3M9)/Supercharge"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Supercharge",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 120,
             "y": 150
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Blue Skull Key",
-        "access_rules": [
-          "@Warrens (E3M9)/Blue Skull Key"
-        ],
+        "access_rules": ["@Warrens (E3M9)/Blue Skull Key"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Blue Skull Key",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 150,
             "y": 45
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Berserk",
-        "access_rules": [
-          "@Warrens (E3M9)/Berserk"
-        ],
+        "access_rules": ["@Warrens (E3M9)/Berserk"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Berserk",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 195,
             "y": 260
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "Invulnerability",
-        "access_rules": [
-          "@Warrens (E3M9)/Invulnerability"
-        ],
+        "access_rules": ["@Warrens (E3M9)/Invulnerability"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Invulnerability",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 150,
             "y": 30
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "access_rules": [
-          "@Warrens (E3M9)/Partial Invisibility"
-        ],
+        "access_rules": ["@Warrens (E3M9)/Partial Invisibility"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Partial Invisibility",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 20,
             "y": 150
           }
@@ -215,9 +179,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Warrens (E3M9)/Chaingun"
-        ],
+        "access_rules": ["@Warrens (E3M9)/Chaingun"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Chaingun",
@@ -228,9 +190,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 195,
             "y": 245
           }
@@ -238,9 +198,7 @@
       },
       {
         "name": "Plasma Gun",
-        "access_rules": [
-          "@Warrens (E3M9)/Plasma Gun"
-        ],
+        "access_rules": ["@Warrens (E3M9)/Plasma Gun"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Plasma Gun",
@@ -251,9 +209,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 357,
             "y": 505
           }
@@ -261,9 +217,7 @@
       },
       {
         "name": "Invulnerability 2",
-        "access_rules": [
-          "@Warrens (E3M9)/Invulnerability 2"
-        ],
+        "access_rules": ["@Warrens (E3M9)/Invulnerability 2"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Invulnerability 2",
@@ -274,9 +228,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 299,
             "y": 284
           }
@@ -284,9 +236,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Warrens (E3M9)/Armor"
-        ],
+        "access_rules": ["@Warrens (E3M9)/Armor"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Armor",
@@ -297,9 +247,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 299,
             "y": 270
           }
@@ -307,9 +255,7 @@
       },
       {
         "name": "Chainsaw",
-        "access_rules": [
-          "@Warrens (E3M9)/Chainsaw"
-        ],
+        "access_rules": ["@Warrens (E3M9)/Chainsaw"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Chainsaw",
@@ -320,9 +266,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 299,
             "y": 256
           }
@@ -330,9 +274,7 @@
       },
       {
         "name": "BFG9000",
-        "access_rules": [
-          "@Warrens (E3M9)/BFG9000"
-        ],
+        "access_rules": ["@Warrens (E3M9)/BFG9000"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/BFG9000",
@@ -343,9 +285,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 108,
             "y": 545
           }
@@ -353,9 +293,7 @@
       },
       {
         "name": "Red Skull Key",
-        "access_rules": [
-          "@Warrens (E3M9)/Red Skull Key"
-        ],
+        "access_rules": ["@Warrens (E3M9)/Red Skull Key"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Red Skull Key",
@@ -366,9 +304,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 675,
             "y": 485
           }
@@ -376,9 +312,7 @@
       },
       {
         "name": "Supercharge 2",
-        "access_rules": [
-          "@Warrens (E3M9)/Supercharge 2"
-        ],
+        "access_rules": ["@Warrens (E3M9)/Supercharge 2"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/Supercharge 2",
@@ -389,9 +323,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 730,
             "y": 485
           }
@@ -399,9 +331,7 @@
       },
       {
         "name": "E3M9 Exit",
-        "access_rules": [
-          "@Warrens (E3M9)/E3M9 Exit"
-        ],
+        "access_rules": ["@Warrens (E3M9)/E3M9 Exit"],
         "sections": [
           {
             "ref": "Warrens (E3M9)/E3M9 Exit",
@@ -412,9 +342,7 @@
         "map_locations": [
           {
             "map": "e3m9",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 299,
             "y": 554

@@ -7,9 +7,7 @@
         "name": "E4M7 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/E4M7 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 314,
             "y": 508
@@ -31,9 +27,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Chaingun"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Chaingun"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Chaingun",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 402,
             "y": 558
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Rocket Launcher"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Rocket Launcher"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Rocket Launcher",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 180,
             "y": 517
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Backpack"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Backpack"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Backpack",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 462,
             "y": 372
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Supercharge",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Supercharge"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Supercharge"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Supercharge",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 459,
             "y": 464
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Blue Skull Key",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Blue Skull Key"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Blue Skull Key"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Blue Skull Key",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 427,
             "y": 464
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Partial Invisibility"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Partial Invisibility"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Partial Invisibility",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 110,
             "y": 517
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Mega Armor"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Mega Armor"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Mega Armor",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 489,
             "y": 394
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Armor"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Armor"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Armor",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 224,
             "y": 558
           }
@@ -215,9 +179,7 @@
       },
       {
         "name": "Computer Area Map",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Computer Area Map"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Computer Area Map"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Computer Area Map",
@@ -228,9 +190,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 313,
             "y": 558
           }
@@ -238,9 +198,7 @@
       },
       {
         "name": "Berserk",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Berserk"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Berserk"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Berserk",
@@ -251,9 +209,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 373,
             "y": 527
           }
@@ -261,9 +217,7 @@
       },
       {
         "name": "Red Skull Key",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Red Skull Key"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Red Skull Key"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Red Skull Key",
@@ -274,9 +228,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 110,
             "y": 600
           }
@@ -284,9 +236,7 @@
       },
       {
         "name": "Chainsaw",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Chainsaw"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Chainsaw"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Chainsaw",
@@ -297,9 +247,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 110,
             "y": 317
           }
@@ -307,9 +255,7 @@
       },
       {
         "name": "Yellow Skull Key",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Yellow Skull Key"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Yellow Skull Key"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Yellow Skull Key",
@@ -320,9 +266,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 536,
             "y": 543
           }
@@ -330,9 +274,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Shotgun"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Shotgun"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Shotgun",
@@ -343,9 +285,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 313,
             "y": 475
           }
@@ -353,9 +293,7 @@
       },
       {
         "name": "BFG9000",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/BFG9000"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/BFG9000"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/BFG9000",
@@ -366,9 +304,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 312,
             "y": 735
           }
@@ -376,9 +312,7 @@
       },
       {
         "name": "Mega Armor 2",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Mega Armor 2"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Mega Armor 2"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Mega Armor 2",
@@ -389,9 +323,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 402,
             "y": 675
           }
@@ -399,9 +331,7 @@
       },
       {
         "name": "Invulnerability",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Invulnerability"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Invulnerability"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Invulnerability",
@@ -412,9 +342,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 324,
             "y": 759
           }
@@ -422,9 +350,7 @@
       },
       {
         "name": "Invulnerability 2",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Invulnerability 2"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Invulnerability 2"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Invulnerability 2",
@@ -435,9 +361,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 335,
             "y": 749
           }
@@ -445,9 +369,7 @@
       },
       {
         "name": "Supercharge 2",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Supercharge 2"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Supercharge 2"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Supercharge 2",
@@ -458,9 +380,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 300,
             "y": 759
           }
@@ -468,9 +388,7 @@
       },
       {
         "name": "Rocket Launcher 2",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Rocket Launcher 2"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Rocket Launcher 2"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Rocket Launcher 2",
@@ -481,9 +399,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 312,
             "y": 759
           }
@@ -491,9 +407,7 @@
       },
       {
         "name": "Plasma Gun",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Plasma Gun"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Plasma Gun"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Plasma Gun",
@@ -504,9 +418,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 448,
             "y": 215
           }
@@ -514,9 +426,7 @@
       },
       {
         "name": "Rocket Launcher 3",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/Rocket Launcher 3"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/Rocket Launcher 3"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/Rocket Launcher 3",
@@ -527,9 +437,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 180,
             "y": 215
           }
@@ -537,9 +445,7 @@
       },
       {
         "name": "E4M7 Exit",
-        "access_rules": [
-          "@And Hell Followed (E4M7)/E4M7 Exit"
-        ],
+        "access_rules": ["@And Hell Followed (E4M7)/E4M7 Exit"],
         "sections": [
           {
             "ref": "And Hell Followed (E4M7)/E4M7 Exit",
@@ -550,9 +456,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 304,
             "y": 139

@@ -1,114 +1,94 @@
-{
-  "tabbed_maps": {
-    "type": "tabbed",
-    "tabs": [
-      {
-        "title": "Overworld",
-        "icon": "images/levels/overworld.png",
-        "content": {
-          "type": "map",
-          "maps": [ "overworld" ]
-        }
-      },
-      {
-        "title": "No Rest for the Living (E1)",
-        "icon": "images/levels/e1.png",
-        "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "The Earth Base",
-              "icon": "images/overlays/map01.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map01"
-                ]
-              }
-            },
-            {
-              "title": "The Pain Labs",
-              "icon": "images/overlays/map02.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map02"
-                ]
-              }
-            },
-            {
-              "title": "Canyon of the Dead",
-              "icon": "images/overlays/map03.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map03"
-                ]
-              }
-            },
-            {
-              "title": "Hell Mountain*",
-              "icon": "images/overlays/map04.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map04"
-                ]
-              }
-            },
-            {
-              "title": "Vivisection",
-              "icon": "images/overlays/map05.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map05"
-                ]
-              }
-            },
-            {
-              "title": "Inferno of Blood",
-              "icon": "images/overlays/map06.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map06"
-                ]
-              }
-            },
-            {
-              "title": "Baron's Banquet",
-              "icon": "images/overlays/map07.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map07"
-                ]
-              }
-            },
-            {
-              "title": "Tomb of Malevolence",
-              "icon": "images/overlays/map08.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map08"
-                ]
-              }
-            },
-            {
-              "title": "March of the Demons",
-              "icon": "images/overlays/map09.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map09"
-                ]
-              }
-            }
-          ]
-        }
+{"tabbed_maps": {
+  "type": "tabbed",
+  "tabs": [
+    {
+      "title": "Overworld",
+      "icon": "images/levels/overworld.png",
+      "content": {
+        "type": "map",
+        "maps": ["overworld"]
       }
-    ]
-  }
-}
+    },
+    {
+      "title": "No Rest for the Living (E1)",
+      "icon": "images/levels/e1.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "The Earth Base",
+            "icon": "images/overlays/map01.png",
+            "content": {
+              "type": "map",
+              "maps": ["map01"]
+            }
+          },
+          {
+            "title": "The Pain Labs",
+            "icon": "images/overlays/map02.png",
+            "content": {
+              "type": "map",
+              "maps": ["map02"]
+            }
+          },
+          {
+            "title": "Canyon of the Dead",
+            "icon": "images/overlays/map03.png",
+            "content": {
+              "type": "map",
+              "maps": ["map03"]
+            }
+          },
+          {
+            "title": "Hell Mountain*",
+            "icon": "images/overlays/map04.png",
+            "content": {
+              "type": "map",
+              "maps": ["map04"]
+            }
+          },
+          {
+            "title": "Vivisection",
+            "icon": "images/overlays/map05.png",
+            "content": {
+              "type": "map",
+              "maps": ["map05"]
+            }
+          },
+          {
+            "title": "Inferno of Blood",
+            "icon": "images/overlays/map06.png",
+            "content": {
+              "type": "map",
+              "maps": ["map06"]
+            }
+          },
+          {
+            "title": "Baron's Banquet",
+            "icon": "images/overlays/map07.png",
+            "content": {
+              "type": "map",
+              "maps": ["map07"]
+            }
+          },
+          {
+            "title": "Tomb of Malevolence",
+            "icon": "images/overlays/map08.png",
+            "content": {
+              "type": "map",
+              "maps": ["map08"]
+            }
+          },
+          {
+            "title": "March of the Demons",
+            "icon": "images/overlays/map09.png",
+            "content": {
+              "type": "map",
+              "maps": ["map09"]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}}

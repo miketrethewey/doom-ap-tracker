@@ -7,9 +7,7 @@
         "name": "E3M8 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Dis (E3M8)/E3M8 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e3m8",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 380,
             "y": 764
@@ -31,9 +27,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Dis (E3M8)/Rocket Launcher"
-        ],
+        "access_rules": ["@Dis (E3M8)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Dis (E3M8)/Rocket Launcher",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e3m8",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 381,
             "y": 570
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Plasma Gun",
-        "access_rules": [
-          "@Dis (E3M8)/Plasma Gun"
-        ],
+        "access_rules": ["@Dis (E3M8)/Plasma Gun"],
         "sections": [
           {
             "ref": "Dis (E3M8)/Plasma Gun",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e3m8",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 395,
             "y": 377
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Dis (E3M8)/Mega Armor"
-        ],
+        "access_rules": ["@Dis (E3M8)/Mega Armor"],
         "sections": [
           {
             "ref": "Dis (E3M8)/Mega Armor",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e3m8",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 367,
             "y": 349
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "E3M8 Exit",
-        "access_rules": [
-          "@Dis (E3M8)/E3M8 Exit"
-        ],
+        "access_rules": ["@Dis (E3M8)/E3M8 Exit"],
         "sections": [
           {
             "ref": "Dis (E3M8)/E3M8 Exit",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "e3m8",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 670,
             "y": 640

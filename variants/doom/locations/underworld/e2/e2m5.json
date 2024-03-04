@@ -7,9 +7,7 @@
         "name": "E2M5 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Command Center (E2M5)/E2M5 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e2m5",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "size": 20,
             "x": 480,
             "y": 36
@@ -31,9 +27,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Command Center (E2M5)/Backpack"
-        ],
+        "access_rules": ["@Command Center (E2M5)/Backpack"],
         "sections": [
           {
             "ref": "Command Center (E2M5)/Backpack",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e2m5",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 500,
             "y": 287
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Command Center (E2M5)/Mega Armor"
-        ],
+        "access_rules": ["@Command Center (E2M5)/Mega Armor"],
         "sections": [
           {
             "ref": "Command Center (E2M5)/Mega Armor",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e2m5",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 800,
             "y": 315
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Berserk",
-        "access_rules": [
-          "@Command Center (E2M5)/Berserk"
-        ],
+        "access_rules": ["@Command Center (E2M5)/Berserk"],
         "sections": [
           {
             "ref": "Command Center (E2M5)/Berserk",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e2m5",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 460,
             "y": 287
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Command Center (E2M5)/Chaingun"
-        ],
+        "access_rules": ["@Command Center (E2M5)/Chaingun"],
         "sections": [
           {
             "ref": "Command Center (E2M5)/Chaingun",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "e2m5",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 453,
             "y": 434
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Chainsaw",
-        "access_rules": [
-          "@Command Center (E2M5)/Chainsaw"
-        ],
+        "access_rules": ["@Command Center (E2M5)/Chainsaw"],
         "sections": [
           {
             "ref": "Command Center (E2M5)/Chainsaw",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "e2m5",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 585,
             "y": 506
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Plasma Gun",
-        "access_rules": [
-          "@Command Center (E2M5)/Plasma Gun"
-        ],
+        "access_rules": ["@Command Center (E2M5)/Plasma Gun"],
         "sections": [
           {
             "ref": "Command Center (E2M5)/Plasma Gun",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "e2m5",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 235,
             "y": 109
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "Computer Area Map",
-        "access_rules": [
-          "@Command Center (E2M5)/Computer Area Map"
-        ],
+        "access_rules": ["@Command Center (E2M5)/Computer Area Map"],
         "sections": [
           {
             "ref": "Command Center (E2M5)/Computer Area Map",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "e2m5",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 506,
             "y": 434
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Command Center (E2M5)/Armor"
-        ],
+        "access_rules": ["@Command Center (E2M5)/Armor"],
         "sections": [
           {
             "ref": "Command Center (E2M5)/Armor",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "e2m5",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 650,
             "y": 280
           }
@@ -215,9 +179,7 @@
       },
       {
         "name": "Armor 2",
-        "access_rules": [
-          "@Command Center (E2M5)/Armor 2"
-        ],
+        "access_rules": ["@Command Center (E2M5)/Armor 2"],
         "sections": [
           {
             "ref": "Command Center (E2M5)/Armor 2",
@@ -228,9 +190,7 @@
         "map_locations": [
           {
             "map": "e2m5",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 300,
             "y": 633
           }
@@ -238,9 +198,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "access_rules": [
-          "@Command Center (E2M5)/Partial Invisibility"
-        ],
+        "access_rules": ["@Command Center (E2M5)/Partial Invisibility"],
         "sections": [
           {
             "ref": "Command Center (E2M5)/Partial Invisibility",
@@ -251,9 +209,7 @@
         "map_locations": [
           {
             "map": "e2m5",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 389,
             "y": 704
           }
@@ -261,9 +217,7 @@
       },
       {
         "name": "E2M5 Exit",
-        "access_rules": [
-          "@Command Center (E2M5)/E2M5 Exit"
-        ],
+        "access_rules": ["@Command Center (E2M5)/E2M5 Exit"],
         "sections": [
           {
             "ref": "Command Center (E2M5)/E2M5 Exit",
@@ -274,9 +228,7 @@
         "map_locations": [
           {
             "map": "e2m5",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "size": 20,
             "x": 770,
             "y": 175
@@ -285,9 +237,7 @@
       },
       {
         "name": "E2M5 Secret Exit",
-        "access_rules": [
-          "@Command Center (E2M5)/E2M5 Secret Exit"
-        ],
+        "access_rules": ["@Command Center (E2M5)/E2M5 Secret Exit"],
         "sections": [
           {
             "ref": "Command Center (E2M5)/E2M5 Secret Exit",
@@ -298,9 +248,7 @@
         "map_locations": [
           {
             "map": "e2m5",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "size": 20,
             "x": 731,
             "y": 49

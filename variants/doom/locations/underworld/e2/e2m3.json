@@ -7,9 +7,7 @@
         "name": "E2M3 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Refinery (E2M3)/E2M3 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "size": 20,
             "x": 534,
             "y": 12
@@ -31,9 +27,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Refinery (E2M3)/Chaingun"
-        ],
+        "access_rules": ["@Refinery (E2M3)/Chaingun"],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Chaingun",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 146,
             "y": 286
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Refinery (E2M3)/Shotgun"
-        ],
+        "access_rules": ["@Refinery (E2M3)/Shotgun"],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Shotgun",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 404,
             "y": 655
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Berserk",
-        "access_rules": [
-          "@Refinery (E2M3)/Berserk"
-        ],
+        "access_rules": ["@Refinery (E2M3)/Berserk"],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Berserk",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 404,
             "y": 102
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Partial Invisibility 2",
-        "access_rules": [
-          "@Refinery (E2M3)/Partial Invisibility 2"
-        ],
+        "access_rules": ["@Refinery (E2M3)/Partial Invisibility 2"],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Partial Invisibility 2",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 535,
             "y": 360
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Refinery (E2M3)/Mega Armor"
-        ],
+        "access_rules": ["@Refinery (E2M3)/Mega Armor"],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Mega Armor",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 457,
             "y": 693
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Refinery (E2M3)/Backpack"
-        ],
+        "access_rules": ["@Refinery (E2M3)/Backpack"],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Backpack",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 644,
             "y": 655
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "Plasma Gun",
-        "access_rules": [
-          "@Refinery (E2M3)/Plasma Gun"
-        ],
+        "access_rules": ["@Refinery (E2M3)/Plasma Gun"],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Plasma Gun",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 77,
             "y": 520
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Blue Keycard",
-        "access_rules": [
-          "@Refinery (E2M3)/Blue Keycard"
-        ],
+        "access_rules": ["@Refinery (E2M3)/Blue Keycard"],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Blue Keycard",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 109,
             "y": 396
           }
@@ -215,9 +179,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Refinery (E2M3)/Armor"
-        ],
+        "access_rules": ["@Refinery (E2M3)/Armor"],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Armor",
@@ -228,9 +190,7 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 422,
             "y": 194
           }
@@ -238,9 +198,7 @@
       },
       {
         "name": "Supercharge",
-        "access_rules": [
-          "@Refinery (E2M3)/Supercharge"
-        ],
+        "access_rules": ["@Refinery (E2M3)/Supercharge"],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Supercharge",
@@ -251,9 +209,7 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 1010,
             "y": 302
           }
@@ -261,9 +217,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "access_rules": [
-          "@Refinery (E2M3)/Partial Invisibility"
-        ],
+        "access_rules": ["@Refinery (E2M3)/Partial Invisibility"],
         "sections": [
           {
             "ref": "Refinery (E2M3)/Partial Invisibility",
@@ -274,9 +228,7 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "x": 1033,
             "y": 713
           }
@@ -284,9 +236,7 @@
       },
       {
         "name": "E2M3 Exit",
-        "access_rules": [
-          "@Refinery (E2M3)/E2M3 Exit"
-        ],
+        "access_rules": ["@Refinery (E2M3)/E2M3 Exit"],
         "sections": [
           {
             "ref": "Refinery (E2M3)/E2M3 Exit",
@@ -297,9 +247,7 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "restrict_visibility_rules": [
-              "ep2_on"
-            ],
+            "restrict_visibility_rules": ["ep2_on"],
             "size": 20,
             "x": 772,
             "y": 121

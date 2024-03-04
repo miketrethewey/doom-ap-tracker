@@ -7,9 +7,7 @@
         "name": "E3M3 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Pandemonium (E3M3)/E3M3 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e3m3",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 396,
             "y": 775
@@ -31,9 +27,7 @@
       },
       {
         "name": "Berserk",
-        "access_rules": [
-          "@Pandemonium (E3M3)/Berserk"
-        ],
+        "access_rules": ["@Pandemonium (E3M3)/Berserk"],
         "sections": [
           {
             "ref": "Pandemonium (E3M3)/Berserk",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e3m3",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 812,
             "y": 260
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Pandemonium (E3M3)/Chaingun"
-        ],
+        "access_rules": ["@Pandemonium (E3M3)/Chaingun"],
         "sections": [
           {
             "ref": "Pandemonium (E3M3)/Chaingun",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e3m3",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 552,
             "y": 335
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "BFG9000",
-        "access_rules": [
-          "@Pandemonium (E3M3)/BFG9000"
-        ],
+        "access_rules": ["@Pandemonium (E3M3)/BFG9000"],
         "sections": [
           {
             "ref": "Pandemonium (E3M3)/BFG9000",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e3m3",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 378,
             "y": 398
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Supercharge",
-        "access_rules": [
-          "@Pandemonium (E3M3)/Supercharge"
-        ],
+        "access_rules": ["@Pandemonium (E3M3)/Supercharge"],
         "sections": [
           {
             "ref": "Pandemonium (E3M3)/Supercharge",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "e3m3",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 318,
             "y": 308
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Invulnerability",
-        "access_rules": [
-          "@Pandemonium (E3M3)/Invulnerability"
-        ],
+        "access_rules": ["@Pandemonium (E3M3)/Invulnerability"],
         "sections": [
           {
             "ref": "Pandemonium (E3M3)/Invulnerability",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "e3m3",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 206,
             "y": 390
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Blue Skull Key",
-        "access_rules": [
-          "@Pandemonium (E3M3)/Blue Skull Key"
-        ],
+        "access_rules": ["@Pandemonium (E3M3)/Blue Skull Key"],
         "sections": [
           {
             "ref": "Pandemonium (E3M3)/Blue Skull Key",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "e3m3",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 420,
             "y": 645
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Pandemonium (E3M3)/Mega Armor"
-        ],
+        "access_rules": ["@Pandemonium (E3M3)/Mega Armor"],
         "sections": [
           {
             "ref": "Pandemonium (E3M3)/Mega Armor",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "e3m3",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 447,
             "y": 522
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Pandemonium (E3M3)/Shotgun"
-        ],
+        "access_rules": ["@Pandemonium (E3M3)/Shotgun"],
         "sections": [
           {
             "ref": "Pandemonium (E3M3)/Shotgun",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "e3m3",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 346,
             "y": 522
           }
@@ -215,9 +179,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Pandemonium (E3M3)/Armor"
-        ],
+        "access_rules": ["@Pandemonium (E3M3)/Armor"],
         "sections": [
           {
             "ref": "Pandemonium (E3M3)/Armor",
@@ -228,9 +190,7 @@
         "map_locations": [
           {
             "map": "e3m3",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 705,
             "y": 110
           }
@@ -238,9 +198,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Pandemonium (E3M3)/Backpack"
-        ],
+        "access_rules": ["@Pandemonium (E3M3)/Backpack"],
         "sections": [
           {
             "ref": "Pandemonium (E3M3)/Backpack",
@@ -251,9 +209,7 @@
         "map_locations": [
           {
             "map": "e3m3",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 705,
             "y": 140
           }
@@ -261,9 +217,7 @@
       },
       {
         "name": "Computer Area Map",
-        "access_rules": [
-          "@Pandemonium (E3M3)/Computer Area Map"
-        ],
+        "access_rules": ["@Pandemonium (E3M3)/Computer Area Map"],
         "sections": [
           {
             "ref": "Pandemonium (E3M3)/Computer Area Map",
@@ -274,9 +228,7 @@
         "map_locations": [
           {
             "map": "e3m3",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 355,
             "y": 212
           }
@@ -284,9 +236,7 @@
       },
       {
         "name": "Mega Armor 2",
-        "access_rules": [
-          "@Pandemonium (E3M3)/Mega Armor 2"
-        ],
+        "access_rules": ["@Pandemonium (E3M3)/Mega Armor 2"],
         "sections": [
           {
             "ref": "Pandemonium (E3M3)/Mega Armor 2",
@@ -297,9 +247,7 @@
         "map_locations": [
           {
             "map": "e3m3",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 270,
             "y": 220
           }
@@ -307,9 +255,7 @@
       },
       {
         "name": "Shotgun 2",
-        "access_rules": [
-          "@Pandemonium (E3M3)/Shotgun 2"
-        ],
+        "access_rules": ["@Pandemonium (E3M3)/Shotgun 2"],
         "sections": [
           {
             "ref": "Pandemonium (E3M3)/Shotgun 2",
@@ -320,9 +266,7 @@
         "map_locations": [
           {
             "map": "e3m3",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 362,
             "y": 765
           }
@@ -330,9 +274,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Pandemonium (E3M3)/Rocket Launcher"
-        ],
+        "access_rules": ["@Pandemonium (E3M3)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Pandemonium (E3M3)/Rocket Launcher",
@@ -343,9 +285,7 @@
         "map_locations": [
           {
             "map": "e3m3",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 734,
             "y": 140
           }
@@ -353,9 +293,7 @@
       },
       {
         "name": "E3M3 Exit",
-        "access_rules": [
-          "@Pandemonium (E3M3)/E3M3 Exit"
-        ],
+        "access_rules": ["@Pandemonium (E3M3)/E3M3 Exit"],
         "sections": [
           {
             "ref": "Pandemonium (E3M3)/E3M3 Exit",
@@ -366,9 +304,7 @@
         "map_locations": [
           {
             "map": "e3m3",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 525,
             "y": 15

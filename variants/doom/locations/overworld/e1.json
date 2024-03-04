@@ -5,9 +5,7 @@
     "children": [
       {
         "name": "Hangar (E1M1)",
-        "access_rules": [
-          "$access|e1m1"
-        ],
+        "access_rules": ["$access|e1m1"],
         "sections": [
           {
             "name": "Mega Armor",
@@ -33,9 +31,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 365,
             "y": 350
           }
@@ -43,9 +39,7 @@
       },
       {
         "name": "Nuclear Plant (E1M2)",
-        "access_rules": [
-          "$access|e1m2"
-        ],
+        "access_rules": ["$access|e1m2"],
         "sections": [
           {
             "name": "No Keys Needed",
@@ -55,24 +49,20 @@
           },
           {
             "name": "Red Key Needed",
-            "access_rules": [ "$access|e1m2|red" ],
+            "access_rules": ["$access|e1m2|red"],
             "item_count": 4,
             "clear_as_group": false
           },
           {
             "name": "E1M2 Exit",
-            "access_rules": [
-              "$access|e1m2|red"
-            ],
+            "access_rules": ["$access|e1m2|red"],
             "hosted_item": "e1m2_complete"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 295,
             "y": 290
           }
@@ -80,9 +70,7 @@
       },
       {
         "name": "Toxin Refinery (E1M3)",
-        "access_rules": [
-          "$access|e1m3"
-        ],
+        "access_rules": ["$access|e1m3"],
         "sections": [
           {
             "name": "Armor",
@@ -136,53 +124,39 @@
           },
           {
             "name": "Armor 3",
-            "access_rules": [
-              "$access|e1m3|blue"
-            ],
+            "access_rules": ["$access|e1m3|blue"],
             "item_count": 1
           },
           {
             "name": "Chainsaw",
-            "access_rules": [
-              "$access|e1m3|blue"
-            ],
+            "access_rules": ["$access|e1m3|blue"],
             "item_count": 1
           },
           {
             "name": "Mega Armor",
-            "access_rules": [
-              "$access|e1m3|blue|yellow"
-            ],
+            "access_rules": ["$access|e1m3|blue|yellow"],
             "item_count": 1
           },
           {
             "name": "Supercharge 2",
-            "access_rules": [
-              "$access|e1m3|blue|yellow"
-            ],
+            "access_rules": ["$access|e1m3|blue|yellow"],
             "item_count": 1
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": [
-              "$access|e1m3|blue|yellow"
-            ],
+            "access_rules": ["$access|e1m3|blue|yellow"],
             "item_count": 1
           },
           {
             "name": "E1M3 Exit",
-            "access_rules": [
-              "$access|e1m3|blue"
-            ],
+            "access_rules": ["$access|e1m3|blue"],
             "hosted_item": "e1m3_complete"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 139,
             "y": 250
           }
@@ -190,9 +164,7 @@
       },
       {
         "name": "Command Control (E1M4)",
-        "access_rules": [
-          "$access|e1m4"
-        ],
+        "access_rules": ["$access|e1m4"],
         "sections": [
           {
             "name": "Chaingun",
@@ -231,32 +203,24 @@
           },
           {
             "name": "Armor",
-            "access_rules": [
-              "[$or_access|e1m4|blue|yellow]"
-            ],
+            "access_rules": ["[$or_access|e1m4|blue|yellow]"],
             "item_count": 1
           },
           {
             "name": "Yellow Keycard",
-            "access_rules": [
-              "[$or_access|e1m4|blue|yellow]"
-            ],
+            "access_rules": ["[$or_access|e1m4|blue|yellow]"],
             "item_count": 1
           },
           {
             "name": "E1M4 Exit",
-            "access_rules": [
-              "[$or_access|e1m4|blue|yellow]"
-            ],
+            "access_rules": ["[$or_access|e1m4|blue|yellow]"],
             "hosted_item": "e1m4_complete"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 460,
             "y": 215
           }
@@ -264,9 +228,7 @@
       },
       {
         "name": "Phobos Lab (E1M5)",
-        "access_rules": [
-          "$access|e1m5"
-        ],
+        "access_rules": ["$access|e1m5"],
         "sections": [
           {
             "name": "Yellow Keycard",
@@ -305,81 +267,59 @@
           },
           {
             "name": "Blue Keycard",
-            "access_rules": [
-              "$access|e1m5|yellow"
-            ],
+            "access_rules": ["$access|e1m5|yellow"],
             "item_count": 1
           },
           {
             "name": "Mega Armor 2",
-            "access_rules": [
-              "$access|e1m5|yellow"
-            ],
+            "access_rules": ["$access|e1m5|yellow"],
             "item_count": 1
           },
           {
             "name": "Chainsaw",
-            "access_rules": [
-              "$access|e1m5|yellow"
-            ],
+            "access_rules": ["$access|e1m5|yellow"],
             "item_count": 1
           },
           {
             "name": "Supercharge",
-            "access_rules": [
-              "$access|e1m5|yellow"
-            ],
+            "access_rules": ["$access|e1m5|yellow"],
             "item_count": 1
           },
           {
             "name": "Chaingun",
-            "access_rules": [
-              "$access|e1m5|yellow"
-            ],
+            "access_rules": ["$access|e1m5|yellow"],
             "item_count": 1
           },
           {
             "name": "Computer Area Map",
-            "access_rules": [
-              "$access|e1m5|yellow"
-            ],
+            "access_rules": ["$access|e1m5|yellow"],
             "item_count": 1
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": [
-              "$access|e1m5|yellow"
-            ],
+            "access_rules": ["$access|e1m5|yellow"],
             "item_count": 1
           },
           {
             "name": "Armor 2",
-            "access_rules": [
-              "$access|e1m5|yellow"
-            ],
+            "access_rules": ["$access|e1m5|yellow"],
             "item_count": 1
           },
           {
             "name": "Backpack",
-            "access_rules": [
-              "$access|e1m5|yellow"
-            ],
+            "access_rules": ["$access|e1m5|yellow"],
             "item_count": 1
           },
           {
             "name": "E1M5 Exit",
-            "access_rules": [
-              "$access|e1m5|blue|yellow"
-            ],
+            "access_rules": ["$access|e1m5|blue|yellow"],
             "hosted_item": "e1m5_complete"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 232,
             "y": 180
           }
@@ -387,9 +327,7 @@
       },
       {
         "name": "Central Processing (E1M6)",
-        "access_rules": [
-          "$access|e1m6"
-        ],
+        "access_rules": ["$access|e1m6"],
         "sections": [
           {
             "name": "End of Eastern Corridor",
@@ -403,7 +341,7 @@
           },
           {
             "name": "Pre-Blue Key Door Equipment Closet",
-            "access_rules": [ "" ],
+            "access_rules": [""],
             "item_count": 3
           },
           {
@@ -418,79 +356,59 @@
           },
           {
             "name": "Supercharge 2",
-            "access_rules": [
-              "$access|e1m6|blue"
-            ],
+            "access_rules": ["$access|e1m6|blue"],
             "item_count": 1
           },
           {
             "name": "Post-Blue Key Door Equipment Closet",
-            "access_rules": [ "$access|e1m6|blue" ],
+            "access_rules": ["$access|e1m6|blue"],
             "item_count": 3
           },
           {
             "name": "Computer Area Map",
-            "access_rules": [
-              "$access|e1m6|blue"
-            ],
+            "access_rules": ["$access|e1m6|blue"],
             "item_count": 1
           },
           {
             "name": "Backpack 3",
-            "access_rules": [
-              "$access|e1m6|blue"
-            ],
+            "access_rules": ["$access|e1m6|blue"],
             "item_count": 1
           },
           {
             "name": "Armor 3",
-            "access_rules": [
-              "$or_access|e1m6|blue|yellow"
-            ],
+            "access_rules": ["$or_access|e1m6|blue|yellow"],
             "item_count": 1
           },
           {
             "name": "Supercharge",
-            "access_rules": [
-              "$access|e1m6|red"
-            ],
+            "access_rules": ["$access|e1m6|red"],
             "item_count": 1
           },
           {
             "name": "Blue Keycard",
-            "access_rules": [
-              "$access|e1m6|red"
-            ],
+            "access_rules": ["$access|e1m6|red"],
             "item_count": 1
           },
           {
             "name": "Partial Invisibility 2",
-            "access_rules": [
-              "$access|e1m6|red"
-            ],
+            "access_rules": ["$access|e1m6|red"],
             "item_count": 1
           },
           {
             "name": "Mega Armor",
-            "access_rules": [
-              "$access|e1m6|red"
-            ],
+            "access_rules": ["$access|e1m6|red"],
             "item_count": 1
           },
           {
             "name": "E1M6 Exit",
-            "access_rules": [
-              "$or_access|e1m6|blue|yellow"
-            ],
+            "access_rules": ["$or_access|e1m6|blue|yellow"],
             "hosted_item": "e1m6_complete"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 357,
             "y": 105
           }
@@ -498,9 +416,7 @@
       },
       {
         "name": "Computer Station (E1M7)",
-        "access_rules": [
-          "$access|e1m7"
-        ],
+        "access_rules": ["$access|e1m7"],
         "sections": [
           {
             "name": "Shotgun 2",
@@ -519,102 +435,74 @@
           },
           {
             "name": "Shotgun",
-            "access_rules": [
-              "$access|e1m7|blue|yellow"
-            ],
+            "access_rules": ["$access|e1m7|blue|yellow"],
             "item_count": 1
           },
           {
             "name": "Chainsaw",
-            "access_rules": [
-              "$access|e1m7|yellow"
-            ],
+            "access_rules": ["$access|e1m7|yellow"],
             "item_count": 1
           },
           {
             "name": "Chaingun",
-            "access_rules": [
-              "$access|e1m7|yellow"
-            ],
+            "access_rules": ["$access|e1m7|yellow"],
             "item_count": 1
           },
           {
             "name": "Red Keycard",
-            "access_rules": [
-              "$access|e1m7|yellow"
-            ],
+            "access_rules": ["$access|e1m7|yellow"],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": [
-              "$access|e1m7|yellow"
-            ],
+            "access_rules": ["$access|e1m7|yellow"],
             "item_count": 1
           },
           {
             "name": "Mega Armor",
-            "access_rules": [
-              "$access|e1m7|yellow"
-            ],
+            "access_rules": ["$access|e1m7|yellow"],
             "item_count": 1
           },
           {
             "name": "Computer Area Map",
-            "access_rules": [
-              "$access|e1m7|yellow"
-            ],
+            "access_rules": ["$access|e1m7|yellow"],
             "item_count": 1
           },
           {
             "name": "Supercharge",
-            "access_rules": [
-              "$access|e1m7|yellow"
-            ],
+            "access_rules": ["$access|e1m7|yellow"],
             "item_count": 1
           },
           {
             "name": "Backpack",
-            "access_rules": [
-              "$access|e1m7|yellow"
-            ],
+            "access_rules": ["$access|e1m7|yellow"],
             "item_count": 1
           },
           {
             "name": "Armor 2",
-            "access_rules": [
-              "$access|e1m7|yellow"
-            ],
+            "access_rules": ["$access|e1m7|yellow"],
             "item_count": 1
           },
           {
             "name": "Blue Keycard",
-            "access_rules": [
-              "$access|e1m7|red"
-            ],
+            "access_rules": ["$access|e1m7|red"],
             "item_count": 1
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": [
-              "$access|e1m7|yellow|red"
-            ],
+            "access_rules": ["$access|e1m7|yellow|red"],
             "item_count": 1
           },
           {
             "name": "E1M7 Exit",
-            "access_rules": [
-              "$access|e1m7|blue|yellow"
-            ],
+            "access_rules": ["$access|e1m7|blue|yellow"],
             "hosted_item": "e1m7_complete"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 150,
             "y": 120
           }
@@ -622,9 +510,7 @@
       },
       {
         "name": "Phobos Anomaly (E1M8)",
-        "access_rules": [
-          "$access|e1m8"
-        ],
+        "access_rules": ["$access|e1m8"],
         "sections": [
           {
             "name": "Supercharge",
@@ -670,9 +556,7 @@
         "map_locations": [
           {
             "map": "overworld",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 271,
             "y": 60
           }
@@ -680,9 +564,7 @@
       },
       {
         "name": "Military Base (E1M9)",
-        "access_rules": [
-          "$access|e1m9"
-        ],
+        "access_rules": ["$access|e1m9"],
         "sections": [
           {
             "name": "Yellow Keycard",
@@ -706,53 +588,39 @@
           },
           {
             "name": "Backpack",
-            "access_rules": [
-              "$access|e1m9|blue"
-            ],
+            "access_rules": ["$access|e1m9|blue"],
             "item_count": 1
           },
           {
             "name": "Shotgun",
-            "access_rules": [
-              "$access|e1m9|blue"
-            ],
+            "access_rules": ["$access|e1m9|blue"],
             "item_count": 1
           },
           {
             "name": "Chainsaw",
-            "access_rules": [
-              "$access|e1m9|blue"
-            ],
+            "access_rules": ["$access|e1m9|blue"],
             "item_count": 1
           },
           {
             "name": "Red Keycard",
-            "access_rules": [
-              "$access|e1m9|yellow"
-            ],
+            "access_rules": ["$access|e1m9|yellow"],
             "item_count": 1
           },
           {
             "name": "Blue Keycard",
-            "access_rules": [
-              "$access|e1m9|red"
-            ],
+            "access_rules": ["$access|e1m9|red"],
             "item_count": 1
           },
           {
             "name": "E1M9 Exit",
-            "access_rules": [
-              "$access|e1m9|blue"
-            ],
+            "access_rules": ["$access|e1m9|blue"],
             "hosted_item": "e1m9_complete"
           }
         ],
         "map_locations": [
           {
             "map": "overworld",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 150,
             "y": 50
           }

@@ -1,57 +1,44 @@
 [
-    {
-      "name": "E5M5",
-      "children": [
-        {
-          "name": "E5M5 Entrance",
-          "chest_unopened_img": "/images/items/levelstart.png",
-          "chest_opened_img": "/images/items/levelstart.png",
-          "access_rules": [
-            "$access|null"
-          ],
-          "sections": [
-            {
-              "name": "Level Start",
-              "item_count": 1
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "e5m5",
-              "restrict_visibility_rules": [
-                "ep5_on"
-              ],
-              "size": 20,
-              "x": 1150,
-              "y": 990
-            }
-          ]
-        },
-        {
-          "name": "E5M5 Exit",
-          "sections": [
-            {
-              "ref": "Abaddon's Void (E5M5)/Exit",
-              "name": "Level Completed",
-              "hosted_item": "e5m5_complete"
-            }
-          ],
-          "map_locations": [
-            {
-              "map": "e5m5",
-              "x": 1100,
-              "y": 630,
-              "size": 20,
-              "restrict_visibility_rules": [
-                "ep5_on"
-              ]
-            }
-          ],
-          "access_rules": [
-            "@Abaddon's Void (E5M5)/Exit"
-          ]
-        }
-      ],
-      "parent": "Abaddon's Void (E5M5)"
-    }
-  ]
+  {
+    "name": "E5M5",
+    "children": [
+      {
+        "name": "E5M5 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [{"name": "Level Start", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m5",
+            "restrict_visibility_rules": ["ep5_on"],
+            "size": 20,
+            "x": 1150,
+            "y": 990
+          }
+        ]
+      },
+      {
+        "name": "E5M5 Exit",
+        "sections": [
+          {
+            "ref": "Abaddon's Void (E5M5)/Exit",
+            "name": "Level Completed",
+            "hosted_item": "e5m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m5",
+            "x": 1100,
+            "y": 630,
+            "size": 20,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ],
+        "access_rules": ["@Abaddon's Void (E5M5)/Exit"]
+      }
+    ],
+    "parent": "Abaddon's Void (E5M5)"
+  }
+]

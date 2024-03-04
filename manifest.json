@@ -1,25 +1,25 @@
 {
-    "name": "DOOM 1993",
-    "game_name": "DOOM 1993",
-    "package_version": "0.0.3.0",
-    "package_uid": "ap_doom",
-    "author": "Ozone / Minnie A. Trethewey",
-    "variants": {
-        "doom": {
-            "display_name": "DOOM: The Ultimate DOOM"
-        },
-        "doomii": {
-            "display_name": "DOOM II: Hell on Earth"
-        },
-        "tnt": {
-            "display_name": "DOOM II: TNT: Evilution"
-        },
-        "plutonia": {
-            "display_name": "DOOM II: The Plutonia Experiment"
-        },
-        "nrftl": {
-            "display_name": "DOOM II: No Rest for the Living"
-        }
+  "name": "DOOM 1993",
+  "game_name": "DOOM 1993",
+  "package_version": "0.0.3.0",
+  "package_uid": "ap_doom",
+  "author": "Ozone / Minnie A. Trethewey",
+  "variants": {
+    "doom": {
+      "display_name": "DOOM: The Ultimate DOOM"
     },
-    "versions_url": ""
+    "doomii": {
+      "display_name": "DOOM II: Hell on Earth"
+    },
+    "tnt": {
+      "display_name": "DOOM II: TNT: Evilution"
+    },
+    "plutonia": {
+      "display_name": "DOOM II: The Plutonia Experiment"
+    },
+    "nrftl": {
+      "display_name": "DOOM II: No Rest for the Living"
+    }
+  },
+  "versions_url": ""
 }

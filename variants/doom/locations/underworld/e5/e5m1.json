@@ -6,22 +6,12 @@
         "name": "E5M1 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
-        "sections": [
-          {
-            "name": "Level Start",
-            "item_count": 1
-          }
-        ],
+        "access_rules": ["$access|null"],
+        "sections": [{"name": "Level Start", "item_count": 1}],
         "map_locations": [
           {
             "map": "e5m1",
-            "restrict_visibility_rules": [
-              "ep5_on",
-              ""
-            ],
+            "restrict_visibility_rules": ["ep5_on", ""],
             "size": 20,
             "x": 375,
             "y": 820
@@ -43,15 +33,10 @@
             "x": 940,
             "y": 895,
             "size": 20,
-            "restrict_visibility_rules": [
-              "ep5_on",
-              ""
-            ]
+            "restrict_visibility_rules": ["ep5_on", ""]
           }
         ],
-        "access_rules": [
-          "@Baphomet's Demesne (E5M1)/Exit"
-        ]
+        "access_rules": ["@Baphomet's Demesne (E5M1)/Exit"]
       }
     ],
     "parent": "Baphomet's Demesne (E5M1)"

@@ -7,9 +7,7 @@
         "name": "E3M7 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Limbo (E3M7)/E3M7 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e3m7",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 444,
             "y": 716
@@ -31,9 +27,7 @@
       },
       {
         "name": "Blue Skull Key",
-        "access_rules": [
-          "@Limbo (E3M7)/Blue Skull Key"
-        ],
+        "access_rules": ["@Limbo (E3M7)/Blue Skull Key"],
         "sections": [
           {
             "ref": "Limbo (E3M7)/Blue Skull Key",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e3m7",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 389,
             "y": 757
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Supercharge",
-        "access_rules": [
-          "@Limbo (E3M7)/Supercharge"
-        ],
+        "access_rules": ["@Limbo (E3M7)/Supercharge"],
         "sections": [
           {
             "ref": "Limbo (E3M7)/Supercharge",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e3m7",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 124,
             "y": 516
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Limbo (E3M7)/Rocket Launcher"
-        ],
+        "access_rules": ["@Limbo (E3M7)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Limbo (E3M7)/Rocket Launcher",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e3m7",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 136,
             "y": 498
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Limbo (E3M7)/Backpack"
-        ],
+        "access_rules": ["@Limbo (E3M7)/Backpack"],
         "sections": [
           {
             "ref": "Limbo (E3M7)/Backpack",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "e3m7",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 443,
             "y": 759
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Armor 2",
-        "access_rules": [
-          "@Limbo (E3M7)/Armor 2"
-        ],
+        "access_rules": ["@Limbo (E3M7)/Armor 2"],
         "sections": [
           {
             "ref": "Limbo (E3M7)/Armor 2",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "e3m7",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 250,
             "y": 695
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Limbo (E3M7)/Mega Armor"
-        ],
+        "access_rules": ["@Limbo (E3M7)/Mega Armor"],
         "sections": [
           {
             "ref": "Limbo (E3M7)/Mega Armor",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "e3m7",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 216,
             "y": 611
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "BFG9000",
-        "access_rules": [
-          "@Limbo (E3M7)/BFG9000"
-        ],
+        "access_rules": ["@Limbo (E3M7)/BFG9000"],
         "sections": [
           {
             "ref": "Limbo (E3M7)/BFG9000",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "e3m7",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 740,
             "y": 158
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Red Skull Key",
-        "access_rules": [
-          "@Limbo (E3M7)/Red Skull Key"
-        ],
+        "access_rules": ["@Limbo (E3M7)/Red Skull Key"],
         "sections": [
           {
             "ref": "Limbo (E3M7)/Red Skull Key",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "e3m7",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 270,
             "y": 77
           }
@@ -215,9 +179,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Limbo (E3M7)/Armor"
-        ],
+        "access_rules": ["@Limbo (E3M7)/Armor"],
         "sections": [
           {
             "ref": "Limbo (E3M7)/Armor",
@@ -228,9 +190,7 @@
         "map_locations": [
           {
             "map": "e3m7",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 249,
             "y": 57
           }
@@ -238,9 +198,7 @@
       },
       {
         "name": "Yellow Skull Key",
-        "access_rules": [
-          "@Limbo (E3M7)/Yellow Skull Key"
-        ],
+        "access_rules": ["@Limbo (E3M7)/Yellow Skull Key"],
         "sections": [
           {
             "ref": "Limbo (E3M7)/Yellow Skull Key",
@@ -251,9 +209,7 @@
         "map_locations": [
           {
             "map": "e3m7",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 247,
             "y": 127
           }
@@ -261,9 +217,7 @@
       },
       {
         "name": "Plasma Gun",
-        "access_rules": [
-          "@Limbo (E3M7)/Plasma Gun"
-        ],
+        "access_rules": ["@Limbo (E3M7)/Plasma Gun"],
         "sections": [
           {
             "ref": "Limbo (E3M7)/Plasma Gun",
@@ -274,9 +228,7 @@
         "map_locations": [
           {
             "map": "e3m7",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 235,
             "y": 44
           }
@@ -284,9 +236,7 @@
       },
       {
         "name": "E3M7 Exit",
-        "access_rules": [
-          "@Limbo (E3M7)/E3M7 Exit"
-        ],
+        "access_rules": ["@Limbo (E3M7)/E3M7 Exit"],
         "sections": [
           {
             "ref": "Limbo (E3M7)/E3M7 Exit",
@@ -297,9 +247,7 @@
         "map_locations": [
           {
             "map": "e3m7",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 136,
             "y": 92

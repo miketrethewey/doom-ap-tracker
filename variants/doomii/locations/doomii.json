@@ -15,21 +15,11 @@
       },
       {
         "name": "The City",
-        "children": [
-          {
-            "name": "The City (E2)",
-            "color": ""
-          }
-        ]
+        "children": [{"name": "The City (E2)", "color": ""}]
       },
       {
         "name": "Hell",
-        "children": [
-          {
-            "name": "Hell (E3)",
-            "color": ""
-          }
-        ]
+        "children": [{"name": "Hell (E3)", "color": ""}]
       },
       {
         "name": "No Rest for the Living",
@@ -43,14 +33,8 @@
       {
         "name": "Secret",
         "children": [
-          {
-            "name": "Castle Wolfenstein (Ex)",
-            "color": ""
-          },
-          {
-            "name": "XBOX",
-            "color": ""
-          }
+          {"name": "Castle Wolfenstein (Ex)", "color": ""},
+          {"name": "XBOX", "color": ""}
         ]
       }
     ]

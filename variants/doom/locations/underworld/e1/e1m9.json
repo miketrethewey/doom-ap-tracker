@@ -7,9 +7,7 @@
         "name": "E1M9 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Military Base (E1M9)/E1M9 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e1m9",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 177,
             "y": 492
@@ -31,9 +27,7 @@
       },
       {
         "name": "Yellow Keycard",
-        "access_rules": [
-          "@Military Base (E1M9)/Yellow Keycard"
-        ],
+        "access_rules": ["@Military Base (E1M9)/Yellow Keycard"],
         "sections": [
           {
             "ref": "Military Base (E1M9)/Yellow Keycard",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e1m9",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 45,
             "y": 410
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Military Base (E1M9)/Chaingun"
-        ],
+        "access_rules": ["@Military Base (E1M9)/Chaingun"],
         "sections": [
           {
             "ref": "Military Base (E1M9)/Chaingun",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e1m9",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 492,
             "y": 549
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Military Base (E1M9)/Armor"
-        ],
+        "access_rules": ["@Military Base (E1M9)/Armor"],
         "sections": [
           {
             "ref": "Military Base (E1M9)/Armor",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e1m9",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 777,
             "y": 280
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Military Base (E1M9)/Rocket Launcher"
-        ],
+        "access_rules": ["@Military Base (E1M9)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Military Base (E1M9)/Rocket Launcher",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "e1m9",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 100,
             "y": 172
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Military Base (E1M9)/Backpack"
-        ],
+        "access_rules": ["@Military Base (E1M9)/Backpack"],
         "sections": [
           {
             "ref": "Military Base (E1M9)/Backpack",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "e1m9",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 577,
             "y": 188
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Military Base (E1M9)/Shotgun"
-        ],
+        "access_rules": ["@Military Base (E1M9)/Shotgun"],
         "sections": [
           {
             "ref": "Military Base (E1M9)/Shotgun",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "e1m9",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 569,
             "y": 150
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "Chainsaw",
-        "access_rules": [
-          "@Military Base (E1M9)/Chainsaw"
-        ],
+        "access_rules": ["@Military Base (E1M9)/Chainsaw"],
         "sections": [
           {
             "ref": "Military Base (E1M9)/Chainsaw",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "e1m9",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 614,
             "y": 197
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Red Keycard",
-        "access_rules": [
-          "@Military Base (E1M9)/Red Keycard"
-        ],
+        "access_rules": ["@Military Base (E1M9)/Red Keycard"],
         "sections": [
           {
             "ref": "Military Base (E1M9)/Red Keycard",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "e1m9",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 631,
             "y": 688
           }
@@ -215,9 +179,7 @@
       },
       {
         "name": "Blue Keycard",
-        "access_rules": [
-          "@Military Base (E1M9)/Blue Keycard"
-        ],
+        "access_rules": ["@Military Base (E1M9)/Blue Keycard"],
         "sections": [
           {
             "ref": "Military Base (E1M9)/Blue Keycard",
@@ -228,9 +190,7 @@
         "map_locations": [
           {
             "map": "e1m9",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 355,
             "y": 672
           }
@@ -238,9 +198,7 @@
       },
       {
         "name": "E1M9 Exit",
-        "access_rules": [
-          "@Military Base (E1M9)/E1M9 Exit"
-        ],
+        "access_rules": ["@Military Base (E1M9)/E1M9 Exit"],
         "sections": [
           {
             "ref": "Military Base (E1M9)/E1M9 Exit",
@@ -251,9 +209,7 @@
         "map_locations": [
           {
             "map": "e1m9",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 290,
             "y": 100

@@ -5,9 +5,7 @@
     "children": [
       {
         "name": "Cursed Darkness (E6M1)",
-        "access_rules": [
-          "$access|e6m1"
-        ],
+        "access_rules": ["$access|e6m1"],
         "sections": [
           {
             "name": "Exit",
@@ -20,15 +18,13 @@
             "map": "overworld",
             "x": 830,
             "y": 1044,
-            "restrict_visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Violent Hatred (E6M2)",
-        "access_rules": [
-          "$access|e6m2"
-        ],
+        "access_rules": ["$access|e6m2"],
         "sections": [
           {
             "name": "Exit",
@@ -41,15 +37,13 @@
             "map": "overworld",
             "x": 1042,
             "y": 888,
-            "restrict_visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Twilight Desolation (E6M3)",
-        "access_rules": [
-          "$access|e6m3"
-        ],
+        "access_rules": ["$access|e6m3"],
         "sections": [
           {
             "name": "Exit",
@@ -62,15 +56,13 @@
             "map": "overworld",
             "x": 960,
             "y": 1145,
-            "restrict_visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Fragments of Sanity (E6M4)",
-        "access_rules": [
-          "$access|e6m4"
-        ],
+        "access_rules": ["$access|e6m4"],
         "sections": [
           {
             "name": "Exit",
@@ -83,15 +75,13 @@
             "map": "overworld",
             "x": 877,
             "y": 886,
-            "restrict_visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Wrathful Reckoning (E6M5)",
-        "access_rules": [
-          "$access|e6m5"
-        ],
+        "access_rules": ["$access|e6m5"],
         "sections": [
           {
             "name": "Exit",
@@ -104,15 +94,13 @@
             "map": "overworld",
             "x": 1088,
             "y": 1043,
-            "restrict_visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Vengeance Unleashed (E6M6)",
-        "access_rules": [
-          "$access|e6m6"
-        ],
+        "access_rules": ["$access|e6m6"],
         "sections": [
           {
             "name": "Exit",
@@ -125,15 +113,13 @@
             "map": "overworld",
             "x": 960,
             "y": 977,
-            "restrict_visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Descent Into Terror (E6M7)",
-        "access_rules": [
-          "$access|e6m7"
-        ],
+        "access_rules": ["$access|e6m7"],
         "sections": [
           {
             "name": "Exit",
@@ -146,15 +132,13 @@
             "map": "overworld",
             "x": 977,
             "y": 999,
-            "restrict_visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Abyss of Despair (E6M8)",
-        "access_rules": [
-          "$access|e6m8"
-        ],
+        "access_rules": ["$access|e6m8"],
         "sections": [
           {
             "name": "Exit",
@@ -167,15 +151,13 @@
             "map": "overworld",
             "x": 943,
             "y": 998,
-            "restrict_visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Shattered Homecoming (E6M9)",
-        "access_rules": [
-          "$access|e6m9"
-        ],
+        "access_rules": ["$access|e6m9"],
         "sections": [
           {
             "name": "Exit",
@@ -188,7 +170,7 @@
             "map": "overworld",
             "x": 961,
             "y": 993,
-            "restrict_visibility_rules": [ "ep6_on" ]
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       }

@@ -24,12 +24,7 @@
       },
       {
         "name": "Hell",
-        "children": [
-          {
-            "name": "Inferno (E3)",
-            "color": "#ff0000"
-          }
-        ]
+        "children": [{"name": "Inferno (E3)", "color": "#ff0000"}]
       },
       {
         "name": "Earth",
@@ -47,10 +42,7 @@
             "name": "SI6IL of Baphomet (E5)",
             "color": "#00ffff"
           },
-          {
-            "name": "SI6IL II (E6)",
-            "color": "#fe7ffe"
-          }
+          {"name": "SI6IL II (E6)", "color": "#fe7ffe"}
         ]
       }
     ]

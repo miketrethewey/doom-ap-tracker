@@ -1,147 +1,123 @@
-{
-  "tabbed_maps": {
-    "type": "tabbed",
-    "tabs": [
-      {
-        "title": "The Space Station (E1)",
-        "icon": "images/levels/e1.png",
-        "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Entryway",
-              "icon": "images/overlays/map01.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map01"
-                ]
-              }
-            },
-            {
-              "title": "Underhalls",
-              "icon": "images/overlays/map02.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map02"
-                ]
-              }
-            },
-            {
-              "title": "The Gantlet",
-              "icon": "images/overlays/map03.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map03"
-                ]
-              }
-            },
-            {
-              "title": "The Focus",
-              "icon": "images/overlays/map04.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map04"
-                ]
-              }
-            },
-            {
-              "title": "The Waste Tunnels",
-              "icon": "images/overlays/map05.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map05"
-                ]
-              }
-            },
-            {
-              "title": "The Crusher",
-              "icon": "images/overlays/map06.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map06"
-                ]
-              }
-            },
-            {
-              "title": "Dead Simple",
-              "icon": "images/overlays/map07.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map07"
-                ]
-              }
-            },
-            {
-              "title": "Tricks and Traps",
-              "icon": "images/overlays/map08.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map08"
-                ]
-              }
-            },
-            {
-              "title": "The Pit",
-              "icon": "images/overlays/map09.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map09"
-                ]
-              }
-            },
-            {
-              "title": "Refueling Base",
-              "icon": "images/overlays/map10.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map10"
-                ]
-              }
-            },
-            {
-              "title": "'O' of Destruction!",
-              "icon": "images/overlays/map11.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map11"
-                ]
-              }
+{"tabbed_maps": {
+  "type": "tabbed",
+  "tabs": [
+    {
+      "title": "The Space Station (E1)",
+      "icon": "images/levels/e1.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Entryway",
+            "icon": "images/overlays/map01.png",
+            "content": {
+              "type": "map",
+              "maps": ["map01"]
             }
-          ]
-        }
-      },
-      {
-        "title": "The City (E2)",
-        "icon": "images/levels/e2.png",
-        "content": {
-          "type": "tabbed"
-        }
-      },
-      {
-        "title": "Hell (E3)",
-        "icon": "images/levels/e3.png",
-        "content": {
-          "type": "tabbed"
-        }
-      },
-      {
-        "title": "Secret (E4)",
-        "icon": "images/levels/e4.png",
-        "content": {
-          "type": "tabbed"
-        }
+          },
+          {
+            "title": "Underhalls",
+            "icon": "images/overlays/map02.png",
+            "content": {
+              "type": "map",
+              "maps": ["map02"]
+            }
+          },
+          {
+            "title": "The Gantlet",
+            "icon": "images/overlays/map03.png",
+            "content": {
+              "type": "map",
+              "maps": ["map03"]
+            }
+          },
+          {
+            "title": "The Focus",
+            "icon": "images/overlays/map04.png",
+            "content": {
+              "type": "map",
+              "maps": ["map04"]
+            }
+          },
+          {
+            "title": "The Waste Tunnels",
+            "icon": "images/overlays/map05.png",
+            "content": {
+              "type": "map",
+              "maps": ["map05"]
+            }
+          },
+          {
+            "title": "The Crusher",
+            "icon": "images/overlays/map06.png",
+            "content": {
+              "type": "map",
+              "maps": ["map06"]
+            }
+          },
+          {
+            "title": "Dead Simple",
+            "icon": "images/overlays/map07.png",
+            "content": {
+              "type": "map",
+              "maps": ["map07"]
+            }
+          },
+          {
+            "title": "Tricks and Traps",
+            "icon": "images/overlays/map08.png",
+            "content": {
+              "type": "map",
+              "maps": ["map08"]
+            }
+          },
+          {
+            "title": "The Pit",
+            "icon": "images/overlays/map09.png",
+            "content": {
+              "type": "map",
+              "maps": ["map09"]
+            }
+          },
+          {
+            "title": "Refueling Base",
+            "icon": "images/overlays/map10.png",
+            "content": {
+              "type": "map",
+              "maps": ["map10"]
+            }
+          },
+          {
+            "title": "'O' of Destruction!",
+            "icon": "images/overlays/map11.png",
+            "content": {
+              "type": "map",
+              "maps": ["map11"]
+            }
+          }
+        ]
       }
-    ]
-  }
-}
+    },
+    {
+      "title": "The City (E2)",
+      "icon": "images/levels/e2.png",
+      "content": {
+        "type": "tabbed"
+      }
+    },
+    {
+      "title": "Hell (E3)",
+      "icon": "images/levels/e3.png",
+      "content": {
+        "type": "tabbed"
+      }
+    },
+    {
+      "title": "Secret (E4)",
+      "icon": "images/levels/e4.png",
+      "content": {
+        "type": "tabbed"
+      }
+    }
+  ]
+}}

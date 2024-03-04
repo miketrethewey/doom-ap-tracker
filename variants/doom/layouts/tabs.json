@@ -1,611 +1,499 @@
-{
-  "tabbed_maps": {
-    "type": "tabbed",
-    "tabs": [
-      {
-        "title": "Overworld",
-        "icon": "images/levels/overworld.png",
-        "content": {
-          "type": "map",
-          "maps": [
-            "overworld"
-          ]
-        }
-      },
-      {
-        "title": "Knee-Deep in the Dead (E1)",
-        "icon": "images/levels/e1.png",
-        "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Hangar",
-              "icon": "images/overlays/1-1.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e1m1"
-                ]
-              }
-            },
-            {
-              "title": "Nuclear Plant",
-              "icon": "images/overlays/1-2.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e1m2"
-                ]
-              }
-            },
-            {
-              "title": "Toxin Refinery*",
-              "icon": "images/overlays/1-3.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e1m3"
-                ]
-              }
-            },
-            {
-              "title": "Command Control",
-              "icon": "images/overlays/1-4.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e1m4"
-                ]
-              }
-            },
-            {
-              "title": "Phobos Lab",
-              "icon": "images/overlays/1-5.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e1m5"
-                ]
-              }
-            },
-            {
-              "title": "Central Processing",
-              "icon": "images/overlays/1-6.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e1m6"
-                ]
-              }
-            },
-            {
-              "title": "Computer Station",
-              "icon": "images/overlays/1-7.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e1m7"
-                ]
-              }
-            },
-            {
-              "title": "Phobos Anomaly",
-              "icon": "images/overlays/1-8.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e1m8"
-                ]
-              }
-            },
-            {
-              "title": "Military Base",
-              "icon": "images/overlays/1-9.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e1m9"
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "title": "The Shores of Hell (E2)",
-        "icon": "images/levels/e2.png",
-        "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Deimos Anomaly",
-              "icon": "images/overlays/2-1.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e2m1"
-                ]
-              }
-            },
-            {
-              "title": "Containment Area",
-              "icon": "images/overlays/2-2.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e2m2"
-                ]
-              }
-            },
-            {
-              "title": "Refinery",
-              "icon": "images/overlays/2-3.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e2m3"
-                ]
-              }
-            },
-            {
-              "title": "Deimos Lab",
-              "icon": "images/overlays/2-4.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e2m4"
-                ]
-              }
-            },
-            {
-              "title": "Command Center*",
-              "icon": "images/overlays/2-5.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e2m5"
-                ]
-              }
-            },
-            {
-              "title": "Halls of the Damned",
-              "icon": "images/overlays/2-6.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e2m6"
-                ]
-              }
-            },
-            {
-              "title": "Spawning Vats",
-              "icon": "images/overlays/2-7.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e2m7"
-                ]
-              }
-            },
-            {
-              "title": "Tower of Babel",
-              "icon": "images/overlays/2-8.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e2m8"
-                ]
-              }
-            },
-            {
-              "title": "Fortress of Mystery",
-              "icon": "images/overlays/2-9.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e2m9"
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "title": "Inferno (E3)",
-        "icon": "images/levels/e3.png",
-        "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Hell Keep",
-              "icon": "images/overlays/3-1.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e3m1"
-                ]
-              }
-            },
-            {
-              "title": "Slough of Despair",
-              "icon": "images/overlays/3-2.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e3m2"
-                ]
-              }
-            },
-            {
-              "title": "Pandemonium",
-              "icon": "images/overlays/3-3.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e3m3"
-                ]
-              }
-            },
-            {
-              "title": "House of Pain",
-              "icon": "images/overlays/3-4.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e3m4"
-                ]
-              }
-            },
-            {
-              "title": "Unholy Cathedral",
-              "icon": "images/overlays/3-5.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e3m5"
-                ]
-              }
-            },
-            {
-              "title": "Mt. Erebus*",
-              "icon": "images/overlays/3-6.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e3m6"
-                ]
-              }
-            },
-            {
-              "title": "Limbo",
-              "icon": "images/overlays/3-7.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e3m7"
-                ]
-              }
-            },
-            {
-              "title": "Dis",
-              "icon": "images/overlays/3-8.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e3m8"
-                ]
-              }
-            },
-            {
-              "title": "Warrens",
-              "icon": "images/overlays/3-9.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e3m9"
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "title": "Thy Flesh Consumed (E4)",
-        "icon": "images/levels/e4.png",
-        "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Hell Beneath",
-              "icon": "images/overlays/4-1.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e4m1"
-                ]
-              }
-            },
-            {
-              "title": "Perfect Hatred*",
-              "icon": "images/overlays/4-2.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e4m2"
-                ]
-              }
-            },
-            {
-              "title": "Sever the Wicked",
-              "icon": "images/overlays/4-3.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e4m3"
-                ]
-              }
-            },
-            {
-              "title": "Unruly Evil",
-              "icon": "images/overlays/4-4.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e4m4"
-                ]
-              }
-            },
-            {
-              "title": "They Will Repent",
-              "icon": "images/overlays/4-5.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e4m5"
-                ]
-              }
-            },
-            {
-              "title": "Against Thee Wickedly",
-              "icon": "images/overlays/4-6.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e4m6"
-                ]
-              }
-            },
-            {
-              "title": "And Hell Followed",
-              "icon": "images/overlays/4-7.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e4m7"
-                ]
-              }
-            },
-            {
-              "title": "Unto the Cruel",
-              "icon": "images/overlays/4-8.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e4m8"
-                ]
-              }
-            },
-            {
-              "title": "Fear",
-              "icon": "images/overlays/4-9.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e4m9"
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "title": "SI6IL (E5)",
-        "icon": "images/levels/e5.png",
-        "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Baphomet's Demesne",
-              "icon": "images/overlays/5-1.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e5m1"
-                ]
-              }
-            },
-            {
-              "title": "Sheol",
-              "icon": "images/overlays/5-2.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e5m2"
-                ]
-              }
-            },
-            {
-              "title": "Cages of the Damned",
-              "icon": "images/overlays/5-3.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e5m3"
-                ]
-              }
-            },
-            {
-              "title": "Paths of Wretchedness",
-              "icon": "images/overlays/5-4.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e5m4"
-                ]
-              }
-            },
-            {
-              "title": "Abaddon's Void",
-              "icon": "images/overlays/5-5.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e5m5"
-                ]
-              }
-            },
-            {
-              "title": "Unspeakable Persecution*",
-              "icon": "images/overlays/5-6.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e5m6"
-                ]
-              }
-            },
-            {
-              "title": "Nightmare Underworld",
-              "icon": "images/overlays/5-7.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e5m7"
-                ]
-              }
-            },
-            {
-              "title": "Halls of Perdition",
-              "icon": "images/overlays/5-8.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e5m8"
-                ]
-              }
-            },
-            {
-              "title": "Realm of Iblis",
-              "icon": "images/overlays/5-9.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e5m9"
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "title": "SI6IL II (E6)",
-        "icon": "images/levels/e6.png",
-        "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Cursed Darkness",
-              "icon": "images/overlays/6-1.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e6m1"
-                ]
-              }
-            },
-            {
-              "title": "Violent Hatred",
-              "icon": "images/overlays/6-2.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e6m2"
-                ]
-              }
-            },
-            {
-              "title": "Twilight Desolation*",
-              "icon": "images/overlays/6-3.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e6m3"
-                ]
-              }
-            },
-            {
-              "title": "Fragments of Sanity",
-              "icon": "images/overlays/6-4.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e6m4"
-                ]
-              }
-            },
-            {
-              "title": "Wrathful Reckoning",
-              "icon": "images/overlays/6-5.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e6m5"
-                ]
-              }
-            },
-            {
-              "title": "Vengeance Unleashed",
-              "icon": "images/overlays/6-6.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e6m6"
-                ]
-              }
-            },
-            {
-              "title": "Descent Into Terror",
-              "icon": "images/overlays/6-7.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e6m7"
-                ]
-              }
-            },
-            {
-              "title": "Abyss of Despair",
-              "icon": "images/overlays/6-8.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e6m8"
-                ]
-              }
-            },
-            {
-              "title": "Shattered Homecoming",
-              "icon": "images/overlays/6-9.png",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "e6m9"
-                ]
-              }
-            }
-          ]
-        }
+{"tabbed_maps": {
+  "type": "tabbed",
+  "tabs": [
+    {
+      "title": "Overworld",
+      "icon": "images/levels/overworld.png",
+      "content": {
+        "type": "map",
+        "maps": ["overworld"]
       }
-    ]
-  }
-}
+    },
+    {
+      "title": "Knee-Deep in the Dead (E1)",
+      "icon": "images/levels/e1.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Hangar",
+            "icon": "images/overlays/1-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e1m1"]
+            }
+          },
+          {
+            "title": "Nuclear Plant",
+            "icon": "images/overlays/1-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e1m2"]
+            }
+          },
+          {
+            "title": "Toxin Refinery*",
+            "icon": "images/overlays/1-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e1m3"]
+            }
+          },
+          {
+            "title": "Command Control",
+            "icon": "images/overlays/1-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e1m4"]
+            }
+          },
+          {
+            "title": "Phobos Lab",
+            "icon": "images/overlays/1-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e1m5"]
+            }
+          },
+          {
+            "title": "Central Processing",
+            "icon": "images/overlays/1-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e1m6"]
+            }
+          },
+          {
+            "title": "Computer Station",
+            "icon": "images/overlays/1-7.png",
+            "content": {
+              "type": "map",
+              "maps": ["e1m7"]
+            }
+          },
+          {
+            "title": "Phobos Anomaly",
+            "icon": "images/overlays/1-8.png",
+            "content": {
+              "type": "map",
+              "maps": ["e1m8"]
+            }
+          },
+          {
+            "title": "Military Base",
+            "icon": "images/overlays/1-9.png",
+            "content": {
+              "type": "map",
+              "maps": ["e1m9"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "The Shores of Hell (E2)",
+      "icon": "images/levels/e2.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Deimos Anomaly",
+            "icon": "images/overlays/2-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e2m1"]
+            }
+          },
+          {
+            "title": "Containment Area",
+            "icon": "images/overlays/2-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e2m2"]
+            }
+          },
+          {
+            "title": "Refinery",
+            "icon": "images/overlays/2-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e2m3"]
+            }
+          },
+          {
+            "title": "Deimos Lab",
+            "icon": "images/overlays/2-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e2m4"]
+            }
+          },
+          {
+            "title": "Command Center*",
+            "icon": "images/overlays/2-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e2m5"]
+            }
+          },
+          {
+            "title": "Halls of the Damned",
+            "icon": "images/overlays/2-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e2m6"]
+            }
+          },
+          {
+            "title": "Spawning Vats",
+            "icon": "images/overlays/2-7.png",
+            "content": {
+              "type": "map",
+              "maps": ["e2m7"]
+            }
+          },
+          {
+            "title": "Tower of Babel",
+            "icon": "images/overlays/2-8.png",
+            "content": {
+              "type": "map",
+              "maps": ["e2m8"]
+            }
+          },
+          {
+            "title": "Fortress of Mystery",
+            "icon": "images/overlays/2-9.png",
+            "content": {
+              "type": "map",
+              "maps": ["e2m9"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "Inferno (E3)",
+      "icon": "images/levels/e3.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Hell Keep",
+            "icon": "images/overlays/3-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e3m1"]
+            }
+          },
+          {
+            "title": "Slough of Despair",
+            "icon": "images/overlays/3-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e3m2"]
+            }
+          },
+          {
+            "title": "Pandemonium",
+            "icon": "images/overlays/3-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e3m3"]
+            }
+          },
+          {
+            "title": "House of Pain",
+            "icon": "images/overlays/3-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e3m4"]
+            }
+          },
+          {
+            "title": "Unholy Cathedral",
+            "icon": "images/overlays/3-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e3m5"]
+            }
+          },
+          {
+            "title": "Mt. Erebus*",
+            "icon": "images/overlays/3-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e3m6"]
+            }
+          },
+          {
+            "title": "Limbo",
+            "icon": "images/overlays/3-7.png",
+            "content": {
+              "type": "map",
+              "maps": ["e3m7"]
+            }
+          },
+          {
+            "title": "Dis",
+            "icon": "images/overlays/3-8.png",
+            "content": {
+              "type": "map",
+              "maps": ["e3m8"]
+            }
+          },
+          {
+            "title": "Warrens",
+            "icon": "images/overlays/3-9.png",
+            "content": {
+              "type": "map",
+              "maps": ["e3m9"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "Thy Flesh Consumed (E4)",
+      "icon": "images/levels/e4.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Hell Beneath",
+            "icon": "images/overlays/4-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m1"]
+            }
+          },
+          {
+            "title": "Perfect Hatred*",
+            "icon": "images/overlays/4-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m2"]
+            }
+          },
+          {
+            "title": "Sever the Wicked",
+            "icon": "images/overlays/4-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m3"]
+            }
+          },
+          {
+            "title": "Unruly Evil",
+            "icon": "images/overlays/4-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m4"]
+            }
+          },
+          {
+            "title": "They Will Repent",
+            "icon": "images/overlays/4-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m5"]
+            }
+          },
+          {
+            "title": "Against Thee Wickedly",
+            "icon": "images/overlays/4-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m6"]
+            }
+          },
+          {
+            "title": "And Hell Followed",
+            "icon": "images/overlays/4-7.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m7"]
+            }
+          },
+          {
+            "title": "Unto the Cruel",
+            "icon": "images/overlays/4-8.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m8"]
+            }
+          },
+          {
+            "title": "Fear",
+            "icon": "images/overlays/4-9.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m9"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "SI6IL (E5)",
+      "icon": "images/levels/e5.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Baphomet's Demesne",
+            "icon": "images/overlays/5-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m1"]
+            }
+          },
+          {
+            "title": "Sheol",
+            "icon": "images/overlays/5-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m2"]
+            }
+          },
+          {
+            "title": "Cages of the Damned",
+            "icon": "images/overlays/5-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m3"]
+            }
+          },
+          {
+            "title": "Paths of Wretchedness",
+            "icon": "images/overlays/5-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m4"]
+            }
+          },
+          {
+            "title": "Abaddon's Void",
+            "icon": "images/overlays/5-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m5"]
+            }
+          },
+          {
+            "title": "Unspeakable Persecution*",
+            "icon": "images/overlays/5-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m6"]
+            }
+          },
+          {
+            "title": "Nightmare Underworld",
+            "icon": "images/overlays/5-7.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m7"]
+            }
+          },
+          {
+            "title": "Halls of Perdition",
+            "icon": "images/overlays/5-8.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m8"]
+            }
+          },
+          {
+            "title": "Realm of Iblis",
+            "icon": "images/overlays/5-9.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m9"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "SI6IL II (E6)",
+      "icon": "images/levels/e6.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Cursed Darkness",
+            "icon": "images/overlays/6-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e6m1"]
+            }
+          },
+          {
+            "title": "Violent Hatred",
+            "icon": "images/overlays/6-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e6m2"]
+            }
+          },
+          {
+            "title": "Twilight Desolation*",
+            "icon": "images/overlays/6-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e6m3"]
+            }
+          },
+          {
+            "title": "Fragments of Sanity",
+            "icon": "images/overlays/6-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e6m4"]
+            }
+          },
+          {
+            "title": "Wrathful Reckoning",
+            "icon": "images/overlays/6-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e6m5"]
+            }
+          },
+          {
+            "title": "Vengeance Unleashed",
+            "icon": "images/overlays/6-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e6m6"]
+            }
+          },
+          {
+            "title": "Descent Into Terror",
+            "icon": "images/overlays/6-7.png",
+            "content": {
+              "type": "map",
+              "maps": ["e6m7"]
+            }
+          },
+          {
+            "title": "Abyss of Despair",
+            "icon": "images/overlays/6-8.png",
+            "content": {
+              "type": "map",
+              "maps": ["e6m8"]
+            }
+          },
+          {
+            "title": "Shattered Homecoming",
+            "icon": "images/overlays/6-9.png",
+            "content": {
+              "type": "map",
+              "maps": ["e6m9"]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}}

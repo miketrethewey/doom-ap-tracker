@@ -1,5 +1,4 @@
 [
-  // WEAPONS
   {
     "name": "Fist",
     "type": "toggle",
@@ -116,8 +115,6 @@
     "img": "/images/items/inventory/bfg9000.png",
     "codes": "bfg9000"
   },
-
-  // SETTINGS
   {
     "name": "Death Logic",
     "type": "progressive",

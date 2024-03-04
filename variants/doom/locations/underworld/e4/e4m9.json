@@ -7,9 +7,7 @@
         "name": "E4M9 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Fear (E4M9)/E4M9 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "e4m9",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 200,
             "y": 345
@@ -31,9 +27,7 @@
       },
       {
         "name": "Yellow Skull Key",
-        "access_rules": [
-          "@Fear (E4M9)/Yellow Skull Key"
-        ],
+        "access_rules": ["@Fear (E4M9)/Yellow Skull Key"],
         "sections": [
           {
             "ref": "Fear (E4M9)/Yellow Skull Key",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "e4m9",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 312,
             "y": 419
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Fear (E4M9)/Shotgun"
-        ],
+        "access_rules": ["@Fear (E4M9)/Shotgun"],
         "sections": [
           {
             "ref": "Fear (E4M9)/Shotgun",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "e4m9",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 202,
             "y": 430
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Fear (E4M9)/Mega Armor"
-        ],
+        "access_rules": ["@Fear (E4M9)/Mega Armor"],
         "sections": [
           {
             "ref": "Fear (E4M9)/Mega Armor",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "e4m9",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 122,
             "y": 446
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Fear (E4M9)/Rocket Launcher"
-        ],
+        "access_rules": ["@Fear (E4M9)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Fear (E4M9)/Rocket Launcher",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "e4m9",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 163,
             "y": 685
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Rocket Launcher 2",
-        "access_rules": [
-          "@Fear (E4M9)/Rocket Launcher 2"
-        ],
+        "access_rules": ["@Fear (E4M9)/Rocket Launcher 2"],
         "sections": [
           {
             "ref": "Fear (E4M9)/Rocket Launcher 2",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "e4m9",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 196,
             "y": 611
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Plasma Gun",
-        "access_rules": [
-          "@Fear (E4M9)/Plasma Gun"
-        ],
+        "access_rules": ["@Fear (E4M9)/Plasma Gun"],
         "sections": [
           {
             "ref": "Fear (E4M9)/Plasma Gun",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "e4m9",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 81,
             "y": 422
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Fear (E4M9)/Chaingun"
-        ],
+        "access_rules": ["@Fear (E4M9)/Chaingun"],
         "sections": [
           {
             "ref": "Fear (E4M9)/Chaingun",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "e4m9",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 202,
             "y": 247
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Berserk",
-        "access_rules": [
-          "@Fear (E4M9)/Berserk"
-        ],
+        "access_rules": ["@Fear (E4M9)/Berserk"],
         "sections": [
           {
             "ref": "Fear (E4M9)/Berserk",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "e4m9",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 84,
             "y": 617
           }
@@ -215,9 +179,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Fear (E4M9)/Backpack"
-        ],
+        "access_rules": ["@Fear (E4M9)/Backpack"],
         "sections": [
           {
             "ref": "Fear (E4M9)/Backpack",
@@ -228,9 +190,7 @@
         "map_locations": [
           {
             "map": "e4m9",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 202,
             "y": 34
           }
@@ -238,9 +198,7 @@
       },
       {
         "name": "E4M9 Exit",
-        "access_rules": [
-          "@Fear (E4M9)/E4M9 Exit"
-        ],
+        "access_rules": ["@Fear (E4M9)/E4M9 Exit"],
         "sections": [
           {
             "ref": "Fear (E4M9)/E4M9 Exit",
@@ -251,9 +209,7 @@
         "map_locations": [
           {
             "map": "e4m9",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 202,
             "y": 5

@@ -7,9 +7,7 @@
         "name": "MAP06 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/MAP06 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 0,
             "y": 0
@@ -31,9 +27,7 @@
       },
       {
         "name": "Chainsaw",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Chainsaw"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Chainsaw"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Chainsaw",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 24,
             "y": 0
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Shotgun"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Shotgun"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Shotgun",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 48,
             "y": 0
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Shotgun 2",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Shotgun 2"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Shotgun 2"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Shotgun 2",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 72,
             "y": 0
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Super Shotgun",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Super Shotgun"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Super Shotgun"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Super Shotgun",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 96,
             "y": 0
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Super Shotgun 2",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Super Shotgun 2"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Super Shotgun 2"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Super Shotgun 2",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 120,
             "y": 0
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Chaingun"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Chaingun"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Chaingun",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 144,
             "y": 0
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "Chaingun 2",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Chaingun 2"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Chaingun 2"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Chaingun 2",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 168,
             "y": 0
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Rocket Launcher"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Rocket Launcher",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 192,
             "y": 0
           }
@@ -215,9 +179,7 @@
       },
       {
         "name": "Plasma Rifle",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Plasma Rifle"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Plasma Rifle"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Plasma Rifle",
@@ -228,9 +190,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 216,
             "y": 0
           }
@@ -238,9 +198,7 @@
       },
       {
         "name": "BFG9000",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/BFG9000"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/BFG9000"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/BFG9000",
@@ -251,9 +209,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 240,
             "y": 0
           }
@@ -261,9 +217,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Armor"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Armor"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Armor",
@@ -274,9 +228,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 264,
             "y": 0
           }
@@ -284,9 +236,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Mega Armor"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Mega Armor"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Mega Armor",
@@ -297,9 +247,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 288,
             "y": 0
           }
@@ -307,9 +255,7 @@
       },
       {
         "name": "Supercharge",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Supercharge"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Supercharge"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Supercharge",
@@ -320,9 +266,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 312,
             "y": 0
           }
@@ -330,9 +274,7 @@
       },
       {
         "name": "Berserk",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Berserk"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Berserk"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Berserk",
@@ -343,9 +285,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 336,
             "y": 0
           }
@@ -353,9 +293,7 @@
       },
       {
         "name": "Computer Area Map",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Computer Area Map"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Computer Area Map"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Computer Area Map",
@@ -366,9 +304,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 360,
             "y": 0
           }
@@ -376,9 +312,7 @@
       },
       {
         "name": "Invisibility",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Invisibility"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Invisibility"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Invisibility",
@@ -389,9 +323,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 384,
             "y": 0
           }
@@ -399,9 +331,7 @@
       },
       {
         "name": "Blue Skull key",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Blue Skull key"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Blue Skull key"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Blue Skull key",
@@ -412,9 +342,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 408,
             "y": 0
           }
@@ -422,9 +350,7 @@
       },
       {
         "name": "Yellow Skull key",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/Yellow Skull key"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/Yellow Skull key"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/Yellow Skull key",
@@ -435,9 +361,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 432,
             "y": 0
           }
@@ -445,9 +369,7 @@
       },
       {
         "name": "MAP06 Exit",
-        "access_rules": [
-          "@Inferno of Blood (MAP06)/MAP06 Exit"
-        ],
+        "access_rules": ["@Inferno of Blood (MAP06)/MAP06 Exit"],
         "sections": [
           {
             "ref": "Inferno of Blood (MAP06)/MAP06 Exit",
@@ -458,9 +380,7 @@
         "map_locations": [
           {
             "map": "map06",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 456,
             "y": 0

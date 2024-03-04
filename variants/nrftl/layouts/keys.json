@@ -1,18 +1,11 @@
-{
-    "keys_grid": {
+{"keys_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "content": [
+    {
       "type": "array",
-      "orientation": "vertical",
-      "content": [
-        {
-          "type": "array",
-          "orientation": "horizontal",
-          "content": [
-              {
-                  "type": "layout",
-                  "key": "keys_e1"
-              }
-          ]
-        }
-      ]
+      "orientation": "horizontal",
+      "content": [{"type": "layout", "key": "keys_e1"}]
     }
-  }
+  ]
+}}

@@ -2,16 +2,17 @@
 #
 # To use, run "python -m tests.asserts.autoformat" from a working directory of "sm-json-data".
 
-import json
+import pyjson5 as json
 import tempfile
 from pathlib import Path
 
-import scripts.format_json as format_json
+import resources.ci.common.format_json as format_json
 
 def autoformat(test=False):
     made_changes = False
     for path in sorted(Path("./").glob("**/*.json")):
         with path.open("r") as room_file:
+            # print("🟢Reading", path)
             room_json = json.load(room_file)
             # if room_json.get("$schema") != "../../../schema/m3-room.schema.json":
             #     continue
