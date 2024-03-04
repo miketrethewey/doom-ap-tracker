@@ -44,6 +44,7 @@ print("")
 
 -- Grids
 print("Loading Grids")
+Tracker:AddLayouts("layouts/grids/capture.json")
 Tracker:AddLayouts("layouts/grids/keys.json")
 Tracker:AddLayouts("layouts/grids/settings.json")
 Tracker:AddLayouts("layouts/grids/weapons.json")

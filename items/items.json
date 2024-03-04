@@ -1,5 +1,17 @@
 [
   {
+    "name": "Major Item",
+    "type": "consumable",
+    "img": "/images/items/capture/major.png",
+    "codes": "major"
+  },
+  {
+    "name": "Minor Item",
+    "type": "consumable",
+    "img": "/images/items/capture/minor.png",
+    "codes": "minor"
+  },
+  {
     "name": "Fist",
     "type": "toggle",
     "img": "/images/items/inventory/fist.png",
