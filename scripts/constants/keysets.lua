@@ -286,19 +286,86 @@ keySets = {
             {
                 [ "name" ] = "The Factory",
                 [ "keys" ] = "BY"
-            }
+            },
+            {
+                [ "name" ] = "Downtown",
+                [ "keys" ] = "BYR"
+            },
+            {
+                [ "name" ] = "The Inmost Dens",
+                [ "keys" ] = "BR"
+            },
+            {
+                [ "name" ] = "Industrial Zone",
+                [ "keys" ] = "BYR"
+            },
+            {
+                [ "name" ] = "Suburbs",
+                [ "keys" ] = "BR"
+            },
+            {
+                [ "name" ] = "Tenements",
+                [ "keys" ] = "BYR"
+            },
+            {
+                [ "name" ] = "The Courtyard",
+                [ "keys" ] = "BY"
+            },
+            {
+                [ "name" ] = "The Citadel",
+                [ "keys" ] = "BYR"
+            },
+            { [ "name" ] = "Gotcha!" }
         }
       },
 
       -- DII "Episode" 3
       {
         [ "name" ] = "Hell",
-        [ "maps" ] = {}
+        [ "maps" ] = {
+            {
+                [ "name" ] = "Nirvana",
+                [ "keys" ] = "BYR"
+            },
+            {
+                [ "name" ] = "The Catacombs",
+                [ "keys" ] = "BR"
+            },
+            {
+                [ "name" ] = "Barrels o' Fun",
+                [ "keys" ] = "Y"
+            },
+            {
+                [ "name" ] = "The Chasm",
+                [ "keys" ] = "BR"
+            },
+            {
+                [ "name" ] = "Bloodfalls",
+                [ "keys" ] = "B"
+            },
+            {
+                [ "name" ] = "The Abandoned Mines",
+                [ "keys" ] = "BYR"
+            },
+            {
+                [ "name" ] = "Monster Condo",
+                [ "keys" ] = "BYR"
+            },
+            {
+                [ "name" ] = "The Spirit World",
+                [ "keys" ] = "YR"
+            },
+            { [ "name" ] = "The Living End" },
+            { [ "name" ] = "Icon of Sin" }
+        }
       },
 
       {
-        [ "name" ] = "Secret",
-        [ "maps" ] = {}
+          [ "name" ] = "Secret",
+          [ "maps" ] = {
+              { [ "name" ] = "Wolfenstein" },
+              { [ "name" ] = "Grosse" }
+          }
       }
     }
   },

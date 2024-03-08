@@ -115,13 +115,7 @@ for epID,episode in pairs(keySets[baseGame]["episodes"]) do
         if episode["maps"] ~= nil then
             for mapID,map in pairs(episode["maps"]) do
                 mapName = map["name"]
-                mapHandle = "E" .. epID .. "M" .. mapID
-                if baseGame == "doomii" or
-                    baseGame == "tnt" or
-                    baseGame == "plutonia" or
-                    baseGame == "nrftl" then
-                    mapHandle = "map" .. string.format("%02d", mapID)
-                end
+                mapHandle = string.upper(get_map_metadata(baseGame, epID, mapID))
                 msg = " " .. mapName .. " (" .. mapHandle .. ") - Complete"
                 itemName = msg
                 items[itemName] = CompleteItem(

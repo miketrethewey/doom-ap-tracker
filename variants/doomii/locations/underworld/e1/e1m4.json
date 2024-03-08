@@ -45,11 +45,11 @@
         ]
       },
       {
-        "name": "Blue Key",
-        "access_rules": ["@The Focus (MAP04)/Blue Key"],
+        "name": "Blue Keycard",
+        "access_rules": ["@The Focus (MAP04)/Blue Keycard"],
         "sections": [
           {
-            "ref": "The Focus (MAP04)/Blue Key",
+            "ref": "The Focus (MAP04)/Blue Keycard",
             "name": "Item",
             "item_count": 1
           }
@@ -64,11 +64,11 @@
         ]
       },
       {
-        "name": "Red Key",
-        "access_rules": ["@The Focus (MAP04)/Red Key"],
+        "name": "Red Keycard",
+        "access_rules": ["@The Focus (MAP04)/Red Keycard"],
         "sections": [
           {
-            "ref": "The Focus (MAP04)/Red Key",
+            "ref": "The Focus (MAP04)/Red Keycard",
             "name": "Item",
             "item_count": 1
           }
@@ -83,11 +83,11 @@
         ]
       },
       {
-        "name": "Yellow Key",
-        "access_rules": ["@The Focus (MAP04)/Yellow Key"],
+        "name": "Yellow Keycard",
+        "access_rules": ["@The Focus (MAP04)/Yellow Keycard"],
         "sections": [
           {
-            "ref": "The Focus (MAP04)/Yellow Key",
+            "ref": "The Focus (MAP04)/Yellow Keycard",
             "name": "Item",
             "item_count": 1
           }

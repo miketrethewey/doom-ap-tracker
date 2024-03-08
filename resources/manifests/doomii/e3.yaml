@@ -1,165 +1,162 @@
-E1:
-  M1:
-    locations:
-      - name: Entrance
-      - name: Chainsaw
-      - name: Shotgun
-      - name: Rocket
-      - name: Armor
-      - name: Exit
-  M2:
-    locations:
-      - name: Entrance
-      - name: Super Shotgun
-      - name: Mega Armor
-      - name: Blue Card
-      - name: Red Card
-      - name: Exit
-  M3:
-    locations:
-      - name: Entrance
-      - name: Shotgun
-      - name: Chaingun
-      - name: Rocket
-      - name: Mega Armor
-        q: 2
-      - name: Supercharge
-      - name: Backpack
-      - name: Invisibility
-      - name: Blue Card
-      - name: Red Card
-      - name: Exit
-  M4:
-    locations:
-      - name: Entrance
-      - name: Super Shotgun
-      - name: Blue Card
-      - name: Red Card
-      - name: Yellow Card
-      - name: Exit
-  M5:
-    locations:
-      - name: Entrance
-      - name: Shotgun
-      - name: Rocket
-      - name: Plasma
-      - name: Armor
-      - name: Mega Armor
-      - name: Supercharge
-      - name: Berserk
-      - name: Blue Card
-      - name: Yellow Card
-      - name: Red Card
-      - name: Exit
-  M6:
+E3:
+  M21:
     locations:
       - name: Entrance
       - name: Super Shotgun
       - name: Rocket
-      - name: Plasma
-      - name: Armor
-      - name: Mega Armor
-      - name: Supercharge
-      - name: Megasphere
-        q: 2
-      - name: Backpack
-      - name: Blue Card
-      - name: Red Card
-      - name: Yellow Card
-      - name: Exit
-  M7:
-    locations:
-      - name: Entrance
-      - name: Super Shotgun
-      - name: Chaingun
-      - name: Rocket
-      - name: Plasma
-      - name: BFG
       - name: Megasphere
       - name: Backpack
-        q: 10
-      - name: Berserk
-      - name: Invisibility
-        q: 4
-      - name: Exit
-  M8:
-    locations:
-      - name: Entrance
-      - name: Chainsaw
-      - name: Shotgun
-      - name: Chaingun
-      - name: Rocket
-      - name: Plasma
-      - name: BFG
-      - name: Armor
-        q: 2
-      - name: Supercharge
-        q: 2
-      - name: Backpack
-        q: 5
       - name: Invulnerability
-        q: 5
-      - name: Invisibility
+      - name: Blue Skull
       - name: Red Skull
       - name: Yellow Skull
       - name: Exit
-  M9:
+  M22:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Rocket
+      - name: Plasma
+      - name: Armor
+      - name: Berserk
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Exit
+  M23:
     locations:
       - name: Entrance
       - name: Shotgun
       - name: Rocket
       - name: BFG
       - name: Armor
-      - name: Mega Armor
-        q: 2
       - name: Supercharge
+      - name: Megasphere
+      - name: Backpack
+        q: 2
+      - name: Berserk
+      - name: Map
+      - name: Yellow Skull
+      - name: Exit
+  M24:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Armor
+      - name: Megasphere
         q: 2
       - name: Backpack
       - name: Berserk
-        q: 3
-      - name: Map
+        q: 2
+      - name: Invulnerability
       - name: Blue Card
+      - name: Red Card
+      - name: Exit
+  M25:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Plasma
+      - name: Megasphere
+      - name: Invisibility
+      - name: Blue Skull
+      - name: Exit
+  M26:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Invisibility
+      - name: Blue Card
+      - name: Red Card
       - name: Yellow Card
       - name: Exit
-  M10:
+  M27:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Armor
+        q: 2
+      - name: Supercharge
+        q: 5
+      - name: Backpack
+        q: 4
+      - name: Berserk
+        q: 2
+      - name: Map
+        q: 2
+      - name: Invulnerability
+        q: 3
+      - name: Invisibility
+        q: 3
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M28:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Armor
+      - name: Supercharge
+      - name: Megasphere
+        q: 2
+      - name: Backpack
+        q: 4
+      - name: Berserk
+      - name: Invulnerability
+        q: 5
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M29:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Plasma
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+        q: 2
+      - name: Berserk
+        q: 2
+      - name: Exit
+  M30:
     locations:
       - name: Entrance
       - name: Chainsaw
       - name: Shotgun
+      - name: Super Shotgun
       - name: Chaingun
       - name: Rocket
       - name: Plasma
       - name: BFG
-      - name: Armor
-        q: 2
-      - name: Mega Armor
       - name: Supercharge
-        q: 2
+        q: 3
       - name: Megasphere
+        q: 2
       - name: Backpack
       - name: Berserk
-        q: 2
-      - name: Invulnerability
-        q: 2
-      - name: Invisibility
-      - name: Blue Card
-      - name: Yellow Card
-      - name: Exit
-  M11:
-    locations:
-      - name: Entrance
-      - name: Shotgun
-      - name: Chaingun
-      - name: Rocket
-      - name: Plasma
-      - name: BFG
-      - name: Armor
-      - name: Mega Armor
-      - name: Supercharge
-        q: 2
-      - name: Backpack
-      - name: Invulnerability
-      - name: Invisibility
-      - name: Blue Card
-      - name: Yellow Card
       - name: Exit

@@ -1,0 +1,259 @@
+[
+  {
+    "name": "MAP23",
+    "parent": "Barrels o' Fun (MAP23)",
+    "children": [
+      {
+        "name": "MAP23 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Barrels o' Fun (MAP23)/MAP23 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map23",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Barrels o' Fun (MAP23)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Barrels o' Fun (MAP23)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map23",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Barrels o' Fun (MAP23)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Barrels o' Fun (MAP23)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map23",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": ["@Barrels o' Fun (MAP23)/BFG9000"],
+        "sections": [
+          {
+            "ref": "Barrels o' Fun (MAP23)/BFG9000",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map23",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Barrels o' Fun (MAP23)/Armor"],
+        "sections": [
+          {
+            "ref": "Barrels o' Fun (MAP23)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map23",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Barrels o' Fun (MAP23)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Barrels o' Fun (MAP23)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map23",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Megasphere",
+        "access_rules": ["@Barrels o' Fun (MAP23)/Megasphere"],
+        "sections": [
+          {
+            "ref": "Barrels o' Fun (MAP23)/Megasphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map23",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Barrels o' Fun (MAP23)/Backpack"],
+        "sections": [
+          {
+            "ref": "Barrels o' Fun (MAP23)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map23",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack 2",
+        "access_rules": ["@Barrels o' Fun (MAP23)/Backpack 2"],
+        "sections": [
+          {
+            "ref": "Barrels o' Fun (MAP23)/Backpack 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map23",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Barrels o' Fun (MAP23)/Berserk"],
+        "sections": [
+          {
+            "ref": "Barrels o' Fun (MAP23)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map23",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": ["@Barrels o' Fun (MAP23)/Computer Area Map"],
+        "sections": [
+          {
+            "ref": "Barrels o' Fun (MAP23)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map23",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull key",
+        "access_rules": ["@Barrels o' Fun (MAP23)/Yellow Skull key"],
+        "sections": [
+          {
+            "ref": "Barrels o' Fun (MAP23)/Yellow Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map23",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP23 Exit",
+        "access_rules": ["@Barrels o' Fun (MAP23)/MAP23 Exit"],
+        "sections": [
+          {
+            "ref": "Barrels o' Fun (MAP23)/MAP23 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e3m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map23",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 288,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

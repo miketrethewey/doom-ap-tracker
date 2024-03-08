@@ -1,0 +1,240 @@
+[
+  {
+    "name": "MAP32",
+    "parent": "Grosse (MAP32)",
+    "children": [
+      {
+        "name": "MAP32 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Grosse (MAP32)/MAP32 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Grosse (MAP32)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Grosse (MAP32)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Grosse (MAP32)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Grosse (MAP32)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun 2",
+        "access_rules": ["@Grosse (MAP32)/Chaingun 2"],
+        "sections": [
+          {
+            "ref": "Grosse (MAP32)/Chaingun 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun 3",
+        "access_rules": ["@Grosse (MAP32)/Chaingun 3"],
+        "sections": [
+          {
+            "ref": "Grosse (MAP32)/Chaingun 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Grosse (MAP32)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Grosse (MAP32)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": ["@Grosse (MAP32)/Plasma Rifle"],
+        "sections": [
+          {
+            "ref": "Grosse (MAP32)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": ["@Grosse (MAP32)/BFG9000"],
+        "sections": [
+          {
+            "ref": "Grosse (MAP32)/BFG9000",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Megasphere",
+        "access_rules": ["@Grosse (MAP32)/Megasphere"],
+        "sections": [
+          {
+            "ref": "Grosse (MAP32)/Megasphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Grosse (MAP32)/Berserk"],
+        "sections": [
+          {
+            "ref": "Grosse (MAP32)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": ["@Grosse (MAP32)/Invulnerability"],
+        "sections": [
+          {
+            "ref": "Grosse (MAP32)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP32 Exit",
+        "access_rules": ["@Grosse (MAP32)/MAP32 Exit"],
+        "sections": [
+          {
+            "ref": "Grosse (MAP32)/MAP32 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e4m32_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "size": 20,
+            "x": 264,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

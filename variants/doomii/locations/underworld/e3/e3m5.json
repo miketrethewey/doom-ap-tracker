@@ -1,0 +1,164 @@
+[
+  {
+    "name": "MAP25",
+    "parent": "Bloodfalls (MAP25)",
+    "children": [
+      {
+        "name": "MAP25 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Bloodfalls (MAP25)/MAP25 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map25",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Bloodfalls (MAP25)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Bloodfalls (MAP25)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map25",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Bloodfalls (MAP25)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Bloodfalls (MAP25)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map25",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": ["@Bloodfalls (MAP25)/Plasma Rifle"],
+        "sections": [
+          {
+            "ref": "Bloodfalls (MAP25)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map25",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Megasphere",
+        "access_rules": ["@Bloodfalls (MAP25)/Megasphere"],
+        "sections": [
+          {
+            "ref": "Bloodfalls (MAP25)/Megasphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map25",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility",
+        "access_rules": ["@Bloodfalls (MAP25)/Invisibility"],
+        "sections": [
+          {
+            "ref": "Bloodfalls (MAP25)/Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map25",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["@Bloodfalls (MAP25)/Blue Skull key"],
+        "sections": [
+          {
+            "ref": "Bloodfalls (MAP25)/Blue Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map25",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP25 Exit",
+        "access_rules": ["@Bloodfalls (MAP25)/MAP25 Exit"],
+        "sections": [
+          {
+            "ref": "Bloodfalls (MAP25)/MAP25 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e3m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map25",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 168,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

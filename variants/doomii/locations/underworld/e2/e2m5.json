@@ -1,23 +1,23 @@
 [
   {
-    "name": "MAP12",
-    "parent": "The Factory (MAP12)",
+    "name": "MAP16",
+    "parent": "Suburbs (MAP16)",
     "children": [
       {
-        "name": "MAP12 Entrance",
+        "name": "MAP16 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": ["$access|null"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/MAP12 Entrance",
+            "ref": "Suburbs (MAP16)/MAP16 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map16",
             "restrict_visibility_rules": ["ep2_on"],
             "size": 20,
             "x": 0,
@@ -27,17 +27,17 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": ["@The Factory (MAP12)/Shotgun"],
+        "access_rules": ["@Suburbs (MAP16)/Shotgun"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Shotgun",
+            "ref": "Suburbs (MAP16)/Shotgun",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map16",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 24,
             "y": 0
@@ -46,17 +46,17 @@
       },
       {
         "name": "Super Shotgun",
-        "access_rules": ["@The Factory (MAP12)/Super Shotgun"],
+        "access_rules": ["@Suburbs (MAP16)/Super Shotgun"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Super Shotgun",
+            "ref": "Suburbs (MAP16)/Super Shotgun",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map16",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 48,
             "y": 0
@@ -65,17 +65,17 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": ["@The Factory (MAP12)/Chaingun"],
+        "access_rules": ["@Suburbs (MAP16)/Chaingun"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Chaingun",
+            "ref": "Suburbs (MAP16)/Chaingun",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map16",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 72,
             "y": 0
@@ -83,18 +83,18 @@
         ]
       },
       {
-        "name": "BFG9000",
-        "access_rules": ["@The Factory (MAP12)/BFG9000"],
+        "name": "Rocket Launcher",
+        "access_rules": ["@Suburbs (MAP16)/Rocket Launcher"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/BFG9000",
+            "ref": "Suburbs (MAP16)/Rocket Launcher",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map16",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 96,
             "y": 0
@@ -102,18 +102,18 @@
         ]
       },
       {
-        "name": "Armor",
-        "access_rules": ["@The Factory (MAP12)/Armor"],
+        "name": "Plasma Rifle",
+        "access_rules": ["@Suburbs (MAP16)/Plasma Rifle"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Armor",
+            "ref": "Suburbs (MAP16)/Plasma Rifle",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map16",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 120,
             "y": 0
@@ -121,18 +121,18 @@
         ]
       },
       {
-        "name": "Armor 2",
-        "access_rules": ["@The Factory (MAP12)/Armor 2"],
+        "name": "Plasma Rifle 2",
+        "access_rules": ["@Suburbs (MAP16)/Plasma Rifle 2"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Armor 2",
+            "ref": "Suburbs (MAP16)/Plasma Rifle 2",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map16",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 144,
             "y": 0
@@ -140,18 +140,18 @@
         ]
       },
       {
-        "name": "Supercharge",
-        "access_rules": ["@The Factory (MAP12)/Supercharge"],
+        "name": "Plasma Rifle 3",
+        "access_rules": ["@Suburbs (MAP16)/Plasma Rifle 3"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Supercharge",
+            "ref": "Suburbs (MAP16)/Plasma Rifle 3",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map16",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 168,
             "y": 0
@@ -159,18 +159,18 @@
         ]
       },
       {
-        "name": "Backpack",
-        "access_rules": ["@The Factory (MAP12)/Backpack"],
+        "name": "Plasma Rifle 4",
+        "access_rules": ["@Suburbs (MAP16)/Plasma Rifle 4"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Backpack",
+            "ref": "Suburbs (MAP16)/Plasma Rifle 4",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map16",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 192,
             "y": 0
@@ -178,18 +178,18 @@
         ]
       },
       {
-        "name": "Berserk",
-        "access_rules": ["@The Factory (MAP12)/Berserk"],
+        "name": "BFG9000",
+        "access_rules": ["@Suburbs (MAP16)/BFG9000"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Berserk",
+            "ref": "Suburbs (MAP16)/BFG9000",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map16",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 216,
             "y": 0
@@ -197,18 +197,18 @@
         ]
       },
       {
-        "name": "Berserk 2",
-        "access_rules": ["@The Factory (MAP12)/Berserk 2"],
+        "name": "Supercharge",
+        "access_rules": ["@Suburbs (MAP16)/Supercharge"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Berserk 2",
+            "ref": "Suburbs (MAP16)/Supercharge",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map16",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 240,
             "y": 0
@@ -216,18 +216,18 @@
         ]
       },
       {
-        "name": "Berserk 3",
-        "access_rules": ["@The Factory (MAP12)/Berserk 3"],
+        "name": "Megasphere",
+        "access_rules": ["@Suburbs (MAP16)/Megasphere"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Berserk 3",
+            "ref": "Suburbs (MAP16)/Megasphere",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map16",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 264,
             "y": 0
@@ -235,18 +235,18 @@
         ]
       },
       {
-        "name": "Invisibility",
-        "access_rules": ["@The Factory (MAP12)/Invisibility"],
+        "name": "Backpack",
+        "access_rules": ["@Suburbs (MAP16)/Backpack"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Invisibility",
+            "ref": "Suburbs (MAP16)/Backpack",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map16",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 288,
             "y": 0
@@ -254,18 +254,18 @@
         ]
       },
       {
-        "name": "Blue Keycard",
-        "access_rules": ["@The Factory (MAP12)/Blue Keycard"],
+        "name": "Berserk",
+        "access_rules": ["@Suburbs (MAP16)/Berserk"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Blue Keycard",
+            "ref": "Suburbs (MAP16)/Berserk",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map16",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 312,
             "y": 0
@@ -273,18 +273,18 @@
         ]
       },
       {
-        "name": "Yellow Keycard",
-        "access_rules": ["@The Factory (MAP12)/Yellow Keycard"],
+        "name": "Invulnerability",
+        "access_rules": ["@Suburbs (MAP16)/Invulnerability"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Yellow Keycard",
+            "ref": "Suburbs (MAP16)/Invulnerability",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map16",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 336,
             "y": 0
@@ -292,21 +292,78 @@
         ]
       },
       {
-        "name": "MAP12 Exit",
-        "access_rules": ["@The Factory (MAP12)/MAP12 Exit"],
+        "name": "Invisibility",
+        "access_rules": ["@Suburbs (MAP16)/Invisibility"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/MAP12 Exit",
-            "name": "Level Completed",
-            "hosted_item": "e2m1_complete"
+            "ref": "Suburbs (MAP16)/Invisibility",
+            "name": "Item",
+            "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["@Suburbs (MAP16)/Blue Skull key"],
+        "sections": [
+          {
+            "ref": "Suburbs (MAP16)/Blue Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["@Suburbs (MAP16)/Red Skull key"],
+        "sections": [
+          {
+            "ref": "Suburbs (MAP16)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP16 Exit",
+        "access_rules": ["@Suburbs (MAP16)/MAP16 Exit"],
+        "sections": [
+          {
+            "ref": "Suburbs (MAP16)/MAP16 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e2m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
             "restrict_visibility_rules": ["ep2_on"],
             "size": 20,
-            "x": 360,
+            "x": 432,
             "y": 0
           }
         ]

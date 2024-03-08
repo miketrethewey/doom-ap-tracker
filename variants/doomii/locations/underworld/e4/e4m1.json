@@ -1,24 +1,24 @@
 [
   {
-    "name": "MAP12",
-    "parent": "The Factory (MAP12)",
+    "name": "MAP31",
+    "parent": "Wolfenstein (MAP31)",
     "children": [
       {
-        "name": "MAP12 Entrance",
+        "name": "MAP31 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": ["$access|null"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/MAP12 Entrance",
+            "ref": "Wolfenstein (MAP31)/MAP31 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
-            "restrict_visibility_rules": ["ep2_on"],
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 0,
             "y": 0
@@ -27,18 +27,18 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": ["@The Factory (MAP12)/Shotgun"],
+        "access_rules": ["@Wolfenstein (MAP31)/Shotgun"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Shotgun",
+            "ref": "Wolfenstein (MAP31)/Shotgun",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
-            "restrict_visibility_rules": ["ep2_on"],
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 24,
             "y": 0
           }
@@ -46,18 +46,18 @@
       },
       {
         "name": "Super Shotgun",
-        "access_rules": ["@The Factory (MAP12)/Super Shotgun"],
+        "access_rules": ["@Wolfenstein (MAP31)/Super Shotgun"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Super Shotgun",
+            "ref": "Wolfenstein (MAP31)/Super Shotgun",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
-            "restrict_visibility_rules": ["ep2_on"],
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 48,
             "y": 0
           }
@@ -65,75 +65,75 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": ["@The Factory (MAP12)/Chaingun"],
+        "access_rules": ["@Wolfenstein (MAP31)/Chaingun"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Chaingun",
+            "ref": "Wolfenstein (MAP31)/Chaingun",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
-            "restrict_visibility_rules": ["ep2_on"],
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 72,
             "y": 0
           }
         ]
       },
       {
-        "name": "BFG9000",
-        "access_rules": ["@The Factory (MAP12)/BFG9000"],
+        "name": "Rocket Launcher",
+        "access_rules": ["@Wolfenstein (MAP31)/Rocket Launcher"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/BFG9000",
+            "ref": "Wolfenstein (MAP31)/Rocket Launcher",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
-            "restrict_visibility_rules": ["ep2_on"],
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 96,
             "y": 0
           }
         ]
       },
       {
-        "name": "Armor",
-        "access_rules": ["@The Factory (MAP12)/Armor"],
+        "name": "Plasma Rifle",
+        "access_rules": ["@Wolfenstein (MAP31)/Plasma Rifle"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Armor",
+            "ref": "Wolfenstein (MAP31)/Plasma Rifle",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
-            "restrict_visibility_rules": ["ep2_on"],
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 120,
             "y": 0
           }
         ]
       },
       {
-        "name": "Armor 2",
-        "access_rules": ["@The Factory (MAP12)/Armor 2"],
+        "name": "BFG9000",
+        "access_rules": ["@Wolfenstein (MAP31)/BFG9000"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Armor 2",
+            "ref": "Wolfenstein (MAP31)/BFG9000",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
-            "restrict_visibility_rules": ["ep2_on"],
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 144,
             "y": 0
           }
@@ -141,170 +141,170 @@
       },
       {
         "name": "Supercharge",
-        "access_rules": ["@The Factory (MAP12)/Supercharge"],
+        "access_rules": ["@Wolfenstein (MAP31)/Supercharge"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Supercharge",
+            "ref": "Wolfenstein (MAP31)/Supercharge",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
-            "restrict_visibility_rules": ["ep2_on"],
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 168,
             "y": 0
           }
         ]
       },
       {
-        "name": "Backpack",
-        "access_rules": ["@The Factory (MAP12)/Backpack"],
+        "name": "Megasphere",
+        "access_rules": ["@Wolfenstein (MAP31)/Megasphere"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Backpack",
+            "ref": "Wolfenstein (MAP31)/Megasphere",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
-            "restrict_visibility_rules": ["ep2_on"],
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 192,
             "y": 0
           }
         ]
       },
       {
-        "name": "Berserk",
-        "access_rules": ["@The Factory (MAP12)/Berserk"],
+        "name": "Backpack",
+        "access_rules": ["@Wolfenstein (MAP31)/Backpack"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Berserk",
+            "ref": "Wolfenstein (MAP31)/Backpack",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
-            "restrict_visibility_rules": ["ep2_on"],
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 216,
             "y": 0
           }
         ]
       },
       {
-        "name": "Berserk 2",
-        "access_rules": ["@The Factory (MAP12)/Berserk 2"],
+        "name": "Backpack 2",
+        "access_rules": ["@Wolfenstein (MAP31)/Backpack 2"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Berserk 2",
+            "ref": "Wolfenstein (MAP31)/Backpack 2",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
-            "restrict_visibility_rules": ["ep2_on"],
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 240,
             "y": 0
           }
         ]
       },
       {
-        "name": "Berserk 3",
-        "access_rules": ["@The Factory (MAP12)/Berserk 3"],
+        "name": "Backpack 3",
+        "access_rules": ["@Wolfenstein (MAP31)/Backpack 3"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Berserk 3",
+            "ref": "Wolfenstein (MAP31)/Backpack 3",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
-            "restrict_visibility_rules": ["ep2_on"],
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 264,
             "y": 0
           }
         ]
       },
       {
-        "name": "Invisibility",
-        "access_rules": ["@The Factory (MAP12)/Invisibility"],
+        "name": "Backpack 4",
+        "access_rules": ["@Wolfenstein (MAP31)/Backpack 4"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Invisibility",
+            "ref": "Wolfenstein (MAP31)/Backpack 4",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
-            "restrict_visibility_rules": ["ep2_on"],
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 288,
             "y": 0
           }
         ]
       },
       {
-        "name": "Blue Keycard",
-        "access_rules": ["@The Factory (MAP12)/Blue Keycard"],
+        "name": "Berserk",
+        "access_rules": ["@Wolfenstein (MAP31)/Berserk"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Blue Keycard",
+            "ref": "Wolfenstein (MAP31)/Berserk",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
-            "restrict_visibility_rules": ["ep2_on"],
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 312,
             "y": 0
           }
         ]
       },
       {
-        "name": "Yellow Keycard",
-        "access_rules": ["@The Factory (MAP12)/Yellow Keycard"],
+        "name": "Invisibility",
+        "access_rules": ["@Wolfenstein (MAP31)/Invisibility"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Yellow Keycard",
+            "ref": "Wolfenstein (MAP31)/Invisibility",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
-            "restrict_visibility_rules": ["ep2_on"],
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 336,
             "y": 0
           }
         ]
       },
       {
-        "name": "MAP12 Exit",
-        "access_rules": ["@The Factory (MAP12)/MAP12 Exit"],
+        "name": "MAP31 Exit",
+        "access_rules": ["@Wolfenstein (MAP31)/MAP31 Exit"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/MAP12 Exit",
+            "ref": "Wolfenstein (MAP31)/MAP31 Exit",
             "name": "Level Completed",
-            "hosted_item": "e2m1_complete"
+            "hosted_item": "e4m31_complete"
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
-            "restrict_visibility_rules": ["ep2_on"],
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 360,
             "y": 0

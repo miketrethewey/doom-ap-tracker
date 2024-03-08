@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Auto-Format",
+      "type": "shell",
+      "command": "py -m resources.ci.common.autoformat"
+    },
+    {
+      "label": "YAML to Levels",
+      "type": "shell",
+      "command": "py ./resources/ci/common/yamltolevels.py"
+    },
+    {
+      "label": "Levels to Episode",
+      "type": "shell",
+      "command": "py ./resources/ci/common/levelstoep.py"
+    }
+  ]
+}

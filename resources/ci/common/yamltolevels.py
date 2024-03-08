@@ -17,14 +17,17 @@ for filename in ["keysets.lua"]:
 
 baseGame = "doomii"
 
-for epID in range(1,6+1):
-# for epID in range(1,4+1):
+numMapsHistory = []
+for epID in range(1,len(CONSTANTS["keysets"][baseGame]["episodes"])):
+    numMaps = len(CONSTANTS["keysets"][baseGame]["episodes"][epID-1]["maps"])
+    numMapsHistory.append(numMaps)
     ymlPath = os.path.join(
         "resources",
         "manifests",
         baseGame,
         f"e{epID}.yaml"
     )
+    print(numMapsHistory)
     if os.path.isfile(ymlPath):
         print(f"Processing: '{baseGame}' [E{epID}]")
         with open(ymlPath, "r") as ymlFile:
@@ -32,11 +35,13 @@ for epID in range(1,6+1):
             for _,maps in epYaml.items():
                 for mapID,mapData in maps.items():
                     mapID = int(mapID[1:])
-                    mapIDX = mapID
-                    if baseGame in ["doomii"] and mapIDX % 11:
-                        mapIDX = mapIDX % 11
-                    mapDB = CONSTANTS["keysets"][baseGame]["episodes"][epID-1]["maps"][mapIDX - 1]
                     mapName = f"E{epID}M{mapID}"
+                    mapIDX = mapID
+                    if baseGame in ["doomii"]:
+                        for numMaps in numMapsHistory:
+                            if mapIDX > numMaps:
+                                mapIDX = mapIDX - numMaps
+                    mapDB = CONSTANTS["keysets"][baseGame]["episodes"][epID-1]["maps"][mapIDX-1]
                     if baseGame in [
                         "doomii",
                         "nrftl"
@@ -106,7 +111,7 @@ for epID in range(1,6+1):
                                 child["access_rules"] = [ "$access|null" ]
                                 child["sections"] = [ { "ref": ref, "name": "Level Start", "item_count": 1 } ]
                             if isExit:
-                                child["sections"] = [ { "ref": ref, "name": "Level Completed", "hosted_item": f"e{epID}m{mapID}_complete" } ]
+                                child["sections"] = [ { "ref": ref, "name": "Level Completed", "hosted_item": f"e{epID}m{mapIDX}_complete" } ]
                             jsonData[0]["children"].append(child)
                             locID = locID + 1
                     writePath = os.path.join("variants",baseGame,"locations","underworld",f"e{epID}")

@@ -1,0 +1,202 @@
+[
+  {
+    "name": "MAP14",
+    "parent": "The Inmost Dens (MAP14)",
+    "children": [
+      {
+        "name": "MAP14 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "The Inmost Dens (MAP14)/MAP14 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@The Inmost Dens (MAP14)/Shotgun"],
+        "sections": [
+          {
+            "ref": "The Inmost Dens (MAP14)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@The Inmost Dens (MAP14)/Chaingun"],
+        "sections": [
+          {
+            "ref": "The Inmost Dens (MAP14)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@The Inmost Dens (MAP14)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "The Inmost Dens (MAP14)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@The Inmost Dens (MAP14)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "The Inmost Dens (MAP14)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@The Inmost Dens (MAP14)/Supercharge"],
+        "sections": [
+          {
+            "ref": "The Inmost Dens (MAP14)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility",
+        "access_rules": ["@The Inmost Dens (MAP14)/Invisibility"],
+        "sections": [
+          {
+            "ref": "The Inmost Dens (MAP14)/Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["@The Inmost Dens (MAP14)/Blue Skull key"],
+        "sections": [
+          {
+            "ref": "The Inmost Dens (MAP14)/Blue Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["@The Inmost Dens (MAP14)/Red Skull key"],
+        "sections": [
+          {
+            "ref": "The Inmost Dens (MAP14)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP14 Exit",
+        "access_rules": ["@The Inmost Dens (MAP14)/MAP14 Exit"],
+        "sections": [
+          {
+            "ref": "The Inmost Dens (MAP14)/MAP14 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e2m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "size": 20,
+            "x": 216,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

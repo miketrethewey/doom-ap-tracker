@@ -1,0 +1,30 @@
+E4:
+  M31:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Supercharge
+      - name: Megasphere
+      - name: Backpack
+        q: 4
+      - name: Berserk
+      - name: Invisibility
+      - name: Exit
+  M32:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+      - name: Chaingun
+        q: 3
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Megasphere
+      - name: Berserk
+      - name: Invulnerability
+      - name: Exit

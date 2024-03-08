@@ -1,23 +1,23 @@
 [
   {
-    "name": "MAP12",
-    "parent": "The Factory (MAP12)",
+    "name": "MAP17",
+    "parent": "Tenements (MAP17)",
     "children": [
       {
-        "name": "MAP12 Entrance",
+        "name": "MAP17 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": ["$access|null"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/MAP12 Entrance",
+            "ref": "Tenements (MAP17)/MAP17 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map17",
             "restrict_visibility_rules": ["ep2_on"],
             "size": 20,
             "x": 0,
@@ -27,17 +27,17 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": ["@The Factory (MAP12)/Shotgun"],
+        "access_rules": ["@Tenements (MAP17)/Shotgun"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Shotgun",
+            "ref": "Tenements (MAP17)/Shotgun",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map17",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 24,
             "y": 0
@@ -45,18 +45,18 @@
         ]
       },
       {
-        "name": "Super Shotgun",
-        "access_rules": ["@The Factory (MAP12)/Super Shotgun"],
+        "name": "Chaingun",
+        "access_rules": ["@Tenements (MAP17)/Chaingun"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Super Shotgun",
+            "ref": "Tenements (MAP17)/Chaingun",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map17",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 48,
             "y": 0
@@ -64,18 +64,18 @@
         ]
       },
       {
-        "name": "Chaingun",
-        "access_rules": ["@The Factory (MAP12)/Chaingun"],
+        "name": "Rocket Launcher",
+        "access_rules": ["@Tenements (MAP17)/Rocket Launcher"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Chaingun",
+            "ref": "Tenements (MAP17)/Rocket Launcher",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map17",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 72,
             "y": 0
@@ -83,18 +83,18 @@
         ]
       },
       {
-        "name": "BFG9000",
-        "access_rules": ["@The Factory (MAP12)/BFG9000"],
+        "name": "Plasma Rifle",
+        "access_rules": ["@Tenements (MAP17)/Plasma Rifle"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/BFG9000",
+            "ref": "Tenements (MAP17)/Plasma Rifle",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map17",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 96,
             "y": 0
@@ -102,18 +102,18 @@
         ]
       },
       {
-        "name": "Armor",
-        "access_rules": ["@The Factory (MAP12)/Armor"],
+        "name": "BFG9000",
+        "access_rules": ["@Tenements (MAP17)/BFG9000"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Armor",
+            "ref": "Tenements (MAP17)/BFG9000",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map17",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 120,
             "y": 0
@@ -121,18 +121,18 @@
         ]
       },
       {
-        "name": "Armor 2",
-        "access_rules": ["@The Factory (MAP12)/Armor 2"],
+        "name": "Armor",
+        "access_rules": ["@Tenements (MAP17)/Armor"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Armor 2",
+            "ref": "Tenements (MAP17)/Armor",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map17",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 144,
             "y": 0
@@ -140,18 +140,18 @@
         ]
       },
       {
-        "name": "Supercharge",
-        "access_rules": ["@The Factory (MAP12)/Supercharge"],
+        "name": "Armor 2",
+        "access_rules": ["@Tenements (MAP17)/Armor 2"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Supercharge",
+            "ref": "Tenements (MAP17)/Armor 2",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map17",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 168,
             "y": 0
@@ -159,18 +159,18 @@
         ]
       },
       {
-        "name": "Backpack",
-        "access_rules": ["@The Factory (MAP12)/Backpack"],
+        "name": "Mega Armor",
+        "access_rules": ["@Tenements (MAP17)/Mega Armor"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Backpack",
+            "ref": "Tenements (MAP17)/Mega Armor",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map17",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 192,
             "y": 0
@@ -178,18 +178,18 @@
         ]
       },
       {
-        "name": "Berserk",
-        "access_rules": ["@The Factory (MAP12)/Berserk"],
+        "name": "Supercharge",
+        "access_rules": ["@Tenements (MAP17)/Supercharge"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Berserk",
+            "ref": "Tenements (MAP17)/Supercharge",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map17",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 216,
             "y": 0
@@ -197,18 +197,18 @@
         ]
       },
       {
-        "name": "Berserk 2",
-        "access_rules": ["@The Factory (MAP12)/Berserk 2"],
+        "name": "Supercharge 2",
+        "access_rules": ["@Tenements (MAP17)/Supercharge 2"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Berserk 2",
+            "ref": "Tenements (MAP17)/Supercharge 2",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map17",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 240,
             "y": 0
@@ -216,18 +216,18 @@
         ]
       },
       {
-        "name": "Berserk 3",
-        "access_rules": ["@The Factory (MAP12)/Berserk 3"],
+        "name": "Megasphere",
+        "access_rules": ["@Tenements (MAP17)/Megasphere"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Berserk 3",
+            "ref": "Tenements (MAP17)/Megasphere",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map17",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 264,
             "y": 0
@@ -235,18 +235,18 @@
         ]
       },
       {
-        "name": "Invisibility",
-        "access_rules": ["@The Factory (MAP12)/Invisibility"],
+        "name": "Backpack",
+        "access_rules": ["@Tenements (MAP17)/Backpack"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Invisibility",
+            "ref": "Tenements (MAP17)/Backpack",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map17",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 288,
             "y": 0
@@ -254,18 +254,18 @@
         ]
       },
       {
-        "name": "Blue Keycard",
-        "access_rules": ["@The Factory (MAP12)/Blue Keycard"],
+        "name": "Berserk",
+        "access_rules": ["@Tenements (MAP17)/Berserk"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Blue Keycard",
+            "ref": "Tenements (MAP17)/Berserk",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map17",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 312,
             "y": 0
@@ -273,18 +273,18 @@
         ]
       },
       {
-        "name": "Yellow Keycard",
-        "access_rules": ["@The Factory (MAP12)/Yellow Keycard"],
+        "name": "Invisibility",
+        "access_rules": ["@Tenements (MAP17)/Invisibility"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/Yellow Keycard",
+            "ref": "Tenements (MAP17)/Invisibility",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map17",
             "restrict_visibility_rules": ["ep2_on"],
             "x": 336,
             "y": 0
@@ -292,21 +292,78 @@
         ]
       },
       {
-        "name": "MAP12 Exit",
-        "access_rules": ["@The Factory (MAP12)/MAP12 Exit"],
+        "name": "Blue Keycard",
+        "access_rules": ["@Tenements (MAP17)/Blue Keycard"],
         "sections": [
           {
-            "ref": "The Factory (MAP12)/MAP12 Exit",
-            "name": "Level Completed",
-            "hosted_item": "e2m1_complete"
+            "ref": "Tenements (MAP17)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map12",
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "access_rules": ["@Tenements (MAP17)/Red Keycard"],
+        "sections": [
+          {
+            "ref": "Tenements (MAP17)/Red Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull key",
+        "access_rules": ["@Tenements (MAP17)/Yellow Skull key"],
+        "sections": [
+          {
+            "ref": "Tenements (MAP17)/Yellow Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP17 Exit",
+        "access_rules": ["@Tenements (MAP17)/MAP17 Exit"],
+        "sections": [
+          {
+            "ref": "Tenements (MAP17)/MAP17 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e2m6_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
             "restrict_visibility_rules": ["ep2_on"],
             "size": 20,
-            "x": 360,
+            "x": 432,
             "y": 0
           }
         ]

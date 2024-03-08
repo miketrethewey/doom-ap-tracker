@@ -1,0 +1,166 @@
+[
+  {
+    "name": "Secret",
+    "parent": "Secret (E4)",
+    "children": [
+      {
+        "name": "Wolfenstein (MAP31)",
+        "access_rules": ["$access|map01"],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Super Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Rifle",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Megasphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack 4",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invisibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP31 Exit",
+            "access_rules": [],
+            "hosted_item": "e4m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Grosse (MAP32)",
+        "access_rules": ["$access|map02"],
+        "sections": [
+          {
+            "name": "Super Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Rifle",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Megasphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invulnerability",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP32 Exit",
+            "access_rules": [],
+            "hosted_item": "e4m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

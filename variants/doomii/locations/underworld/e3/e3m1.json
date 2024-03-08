@@ -1,0 +1,202 @@
+[
+  {
+    "name": "MAP21",
+    "parent": "Nirvana (MAP21)",
+    "children": [
+      {
+        "name": "MAP21 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Nirvana (MAP21)/MAP21 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Nirvana (MAP21)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Nirvana (MAP21)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Nirvana (MAP21)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Nirvana (MAP21)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Megasphere",
+        "access_rules": ["@Nirvana (MAP21)/Megasphere"],
+        "sections": [
+          {
+            "ref": "Nirvana (MAP21)/Megasphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Nirvana (MAP21)/Backpack"],
+        "sections": [
+          {
+            "ref": "Nirvana (MAP21)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": ["@Nirvana (MAP21)/Invulnerability"],
+        "sections": [
+          {
+            "ref": "Nirvana (MAP21)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["@Nirvana (MAP21)/Blue Skull key"],
+        "sections": [
+          {
+            "ref": "Nirvana (MAP21)/Blue Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["@Nirvana (MAP21)/Red Skull key"],
+        "sections": [
+          {
+            "ref": "Nirvana (MAP21)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull key",
+        "access_rules": ["@Nirvana (MAP21)/Yellow Skull key"],
+        "sections": [
+          {
+            "ref": "Nirvana (MAP21)/Yellow Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP21 Exit",
+        "access_rules": ["@Nirvana (MAP21)/MAP21 Exit"],
+        "sections": [
+          {
+            "ref": "Nirvana (MAP21)/MAP21 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e3m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 216,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

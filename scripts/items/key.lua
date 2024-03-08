@@ -28,6 +28,31 @@ function KeyItem:init(
             keyType = "cards"
         end
     elseif baseGame == "doomii" then
+        e_notation = string.sub(code,0,string.find(code,"_"))
+        epID = tonumber(string.sub(e_notation,2,2))
+        mapID = tonumber(string.sub(e_notation,4,string.find(e_notation,"_")-1))
+        mapHandle = get_map_metadata(baseGame,epID,mapID)
+        if has_value(
+            {
+                "map08",
+                "map14",
+                "map16",
+                "map18",
+                "map19",
+                "map21",
+                "map22",
+                "map23",
+                "map25",
+                "map27",
+                "map28"
+            },
+            mapHandle
+        ) then
+            keyType = "skulls"
+        end
+        if mapHandle == "map17" and color == "yellow" then
+            keyType = "skulls"
+        end
     elseif baseGame == "tnt" then
     elseif baseGame == "plutonia" then
     elseif baseGame == "nrftl" then
@@ -161,13 +186,7 @@ for epID,episode in pairs(keySets[baseGame]["episodes"]) do
         if episode["maps"] ~= nil then
             for mapID,map in pairs(episode["maps"]) do
                 mapName = map["name"]
-                mapHandle = "E" .. epID .. "M" .. mapID
-                if baseGame == "doomii" or
-                    baseGame == "tnt" or
-                    baseGmae == "plutonia" or
-                    baseGame == "nrftl" then
-                    mapHandle = "MAP" .. string.format("%02d", mapID)
-                end
+                mapHandle = string.upper(get_map_metadata(baseGame, epID, mapID))
                 msg = " " .. mapName .. " (" .. mapHandle .. ")"
                 itemName = msg
                 if map["keys"] ~= nil then

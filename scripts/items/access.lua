@@ -11,7 +11,17 @@ function AccessItem:init(
     self:createItem(name)
     self.code = {}
     self.code[code] = true
-    if string.find(code,"m1") then
+    m1_access = code:endswith"m1_access"
+    map_notation = string.find(
+        get_map_metadata(
+            baseGame,
+            string.sub(code,2,2),
+            string.sub(code,4,4)
+        ),
+        "map"
+    )
+    if (m1_access and not map_notation) or
+        (string.find(code,"e1m1_") and map_notation) then
         self:setProperty("active", true)
         self.ItemInstance.IgnoreUserInput = true
     end
@@ -119,14 +129,11 @@ for epID,episode in pairs(keySets[baseGame]["episodes"]) do
         if episode["maps"] ~= nil then
             for mapID,map in pairs(episode["maps"]) do
                 mapName = map["name"]
-                mapHandle = "E" .. epID .. "M" .. mapID
-                overlay = epID .. "-" .. mapID .. ".png"
-                if baseGame == "doomii" or
-                    baseGame == "tnt" or
-                    baseGmae == "plutonia" or
-                    baseGame == "nrftl" then
-                    mapHandle = "MAP" .. string.format("%02d", mapID)
+                mapHandle = string.upper(get_map_metadata(baseGame, epID, mapID))
+                if string.find(mapHandle,"MAP") then
                     overlay = string.lower(mapHandle) .. ".png"
+                else
+                    overlay = epID .. "-" .. mapID .. ".png"
                 end
 
                 msg = " " .. mapName .. " (" .. mapHandle .. ") - Access"

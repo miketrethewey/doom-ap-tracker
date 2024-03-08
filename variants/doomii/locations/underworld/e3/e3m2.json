@@ -1,0 +1,183 @@
+[
+  {
+    "name": "MAP22",
+    "parent": "The Catacombs (MAP22)",
+    "children": [
+      {
+        "name": "MAP22 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "The Catacombs (MAP22)/MAP22 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map22",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@The Catacombs (MAP22)/Shotgun"],
+        "sections": [
+          {
+            "ref": "The Catacombs (MAP22)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map22",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@The Catacombs (MAP22)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "The Catacombs (MAP22)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map22",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": ["@The Catacombs (MAP22)/Plasma Rifle"],
+        "sections": [
+          {
+            "ref": "The Catacombs (MAP22)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map22",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@The Catacombs (MAP22)/Armor"],
+        "sections": [
+          {
+            "ref": "The Catacombs (MAP22)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map22",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@The Catacombs (MAP22)/Berserk"],
+        "sections": [
+          {
+            "ref": "The Catacombs (MAP22)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map22",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["@The Catacombs (MAP22)/Blue Skull key"],
+        "sections": [
+          {
+            "ref": "The Catacombs (MAP22)/Blue Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map22",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["@The Catacombs (MAP22)/Red Skull key"],
+        "sections": [
+          {
+            "ref": "The Catacombs (MAP22)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map22",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP22 Exit",
+        "access_rules": ["@The Catacombs (MAP22)/MAP22 Exit"],
+        "sections": [
+          {
+            "ref": "The Catacombs (MAP22)/MAP22 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e3m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map22",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 192,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

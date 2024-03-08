@@ -22,6 +22,11 @@ print("Load Constants")
 ScriptHost:LoadScript("./scripts/constants/constants.lua")
 print("")
 
+-- Logic
+print("Loading Logic")
+ScriptHost:LoadScript("scripts/logic/logic.lua")
+print("")
+
 -- Items
 print("Loading Items")
 Tracker:AddItems("items/items.json")
@@ -30,11 +35,6 @@ ScriptHost:LoadScript("scripts/items/custom_item.lua")
 ScriptHost:LoadScript("scripts/items/access.lua")
 ScriptHost:LoadScript("scripts/items/complete.lua")
 ScriptHost:LoadScript("scripts/items/key.lua")
-print("")
-
--- Logic
-print("Loading Logic")
-ScriptHost:LoadScript("scripts/logic/logic.lua")
 print("")
 
 -- Maps
@@ -74,13 +74,7 @@ for epID,episode in pairs(keySets[baseGame]["episodes"]) do
             for mapID,map in pairs(episode["maps"]) do
                 mapFile = "variants/" .. baseGame .. "/locations/underworld/" .. "e" .. epID .. "/" .. "e" .. epID .. "m" .. mapID .. ".json"
                 Tracker:AddLocations(mapFile)
-                mapName = "E" .. epID .. "M" .. mapID
-                if baseGame == "doomii" or
-                    baseGame == "tnt" or
-                    baseGame == "plutonia" or
-                    baseGame == "nrftl" then
-                    mapName = "MAP" .. string.format("%02d", mapID)
-                end
+                mapName = string.upper(get_map_metadata(baseGame, epID, mapID))
                 exitCode = "@" .. mapName .. " Exit/Level Completed"
 
                 entranceCode = string.gsub(string.gsub(exitCode, "Exit", "Entrance"),"Completed","Start")

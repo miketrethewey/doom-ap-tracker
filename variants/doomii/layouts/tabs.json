@@ -111,6 +111,70 @@
               "type": "map",
               "maps": ["map12"]
             }
+          },
+          {
+            "title": "Downtown",
+            "icon": "images/overlays/map13.png",
+            "content": {
+              "type": "map",
+              "maps": ["map13"]
+            }
+          },
+          {
+            "title": "The Inmost Dens",
+            "icon": "images/overlays/map14.png",
+            "content": {
+              "type": "map",
+              "maps": ["map14"]
+            }
+          },
+          {
+            "title": "Industrial Zone",
+            "icon": "images/overlays/map15.png",
+            "content": {
+              "type": "map",
+              "maps": ["map15"]
+            }
+          },
+          {
+            "title": "Suburbs",
+            "icon": "images/overlays/map16.png",
+            "content": {
+              "type": "map",
+              "maps": ["map16"]
+            }
+          },
+          {
+            "title": "Tenements",
+            "icon": "images/overlays/map17.png",
+            "content": {
+              "type": "map",
+              "maps": ["map17"]
+            }
+          },
+          {
+            "title": "The Courtyard",
+            "icon": "images/overlays/map18.png",
+            "content": {
+              "type": "map",
+              "maps": ["map18"]
+            }
+          },
+          {
+            "title": "The Citadel",
+            "icon": "images/overlays/map19.png",
+            "content": {
+              "type": "map",
+              "maps": ["map19"]
+            }
+          },
+          {
+            "title": "Gotcha!",
+            "icon": "images/overlays/map20.png",
+            "content": {
+              "type": "map",
+              "maps": ["map20"]
+            }
           }
         ]
       }
@@ -119,14 +183,114 @@
       "title": "Hell (E3)",
       "icon": "images/levels/e3.png",
       "content": {
-        "type": "tabbed"
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Nirvana",
+            "icon": "images/overlays/map21.png",
+            "content": {
+              "type": "map",
+              "maps": ["map21"]
+            }
+          },
+          {
+            "title": "The Catacombs",
+            "icon": "images/overlays/map22.png",
+            "content": {
+              "type": "map",
+              "maps": ["map22"]
+            }
+          },
+          {
+            "title": "Barrels o' Fun",
+            "icon": "images/overlays/map23.png",
+            "content": {
+              "type": "map",
+              "maps": ["map23"]
+            }
+          },
+          {
+            "title": "The Chasm",
+            "icon": "images/overlays/map24.png",
+            "content": {
+              "type": "map",
+              "maps": ["map24"]
+            }
+          },
+          {
+            "title": "Bloodfalls",
+            "icon": "images/overlays/map25.png",
+            "content": {
+              "type": "map",
+              "maps": ["map25"]
+            }
+          },
+          {
+            "title": "The Abandoned Mines",
+            "icon": "images/overlays/map26.png",
+            "content": {
+              "type": "map",
+              "maps": ["map26"]
+            }
+          },
+          {
+            "title": "Monster Condo",
+            "icon": "images/overlays/map27.png",
+            "content": {
+              "type": "map",
+              "maps": ["map27"]
+            }
+          },
+          {
+            "title": "The Spirit World",
+            "icon": "images/overlays/map28.png",
+            "content": {
+              "type": "map",
+              "maps": ["map28"]
+            }
+          },
+          {
+            "title": "The Living End",
+            "icon": "images/overlays/map29.png",
+            "content": {
+              "type": "map",
+              "maps": ["map29"]
+            }
+          },
+          {
+            "title": "Icon of Sin",
+            "icon": "images/overlays/map30.png",
+            "content": {
+              "type": "map",
+              "maps": ["map30"]
+            }
+          }
+        ]
       }
     },
     {
       "title": "Secret (E4)",
       "icon": "images/levels/e4.png",
       "content": {
-        "type": "tabbed"
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Wolfenstein",
+            "icon": "images/overlays/map31.png",
+            "content": {
+              "type": "map",
+              "maps": ["map31"]
+            }
+          },
+          {
+            "title": "Grosse",
+            "icon": "images/overlays/map32.png",
+            "content": {
+              "type": "map",
+              "maps": ["map32"]
+            }
+          }
+        ]
       }
     }
   ]
