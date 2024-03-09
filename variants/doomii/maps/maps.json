@@ -196,5 +196,11 @@
     "location_size": 12,
     "location_border_thickness": 1,
     "img": "variants/doomii/images/maps/e4/map32_map.png"
+  },
+  {
+    "name": "map33",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doomii/images/maps/e4/map33_map.png"
   }
 ]

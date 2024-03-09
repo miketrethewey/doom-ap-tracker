@@ -18,7 +18,7 @@ for filename in ["keysets.lua"]:
 baseGame = "doomii"
 
 numMapsHistory = []
-for epID in range(1,len(CONSTANTS["keysets"][baseGame]["episodes"])):
+for epID in range(1,len(CONSTANTS["keysets"][baseGame]["episodes"]) + 1):
     numMaps = len(CONSTANTS["keysets"][baseGame]["episodes"][epID-1]["maps"])
     numMapsHistory.append(numMaps)
     ymlPath = os.path.join(
@@ -27,7 +27,7 @@ for epID in range(1,len(CONSTANTS["keysets"][baseGame]["episodes"])):
         baseGame,
         f"e{epID}.yaml"
     )
-    print(numMapsHistory)
+    print(ymlPath)
     if os.path.isfile(ymlPath):
         print(f"Processing: '{baseGame}' [E{epID}]")
         with open(ymlPath, "r") as ymlFile:
@@ -38,6 +38,7 @@ for epID in range(1,len(CONSTANTS["keysets"][baseGame]["episodes"])):
                     mapName = f"E{epID}M{mapID}"
                     mapIDX = mapID
                     if baseGame in ["doomii"]:
+                        # if later "episode" subtract previous lengths
                         for numMaps in numMapsHistory:
                             if mapIDX > numMaps:
                                 mapIDX = mapIDX - numMaps

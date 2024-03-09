@@ -35,6 +35,10 @@ keySets = {
           {
             [ "name" ] = "Military Base",
             [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Sewers",
+            [ "keys" ] = "BY"
           }
         }
       },
@@ -360,11 +364,16 @@ keySets = {
         }
       },
 
+      -- DII "Episode" 4
       {
           [ "name" ] = "Secret",
           [ "maps" ] = {
               { [ "name" ] = "Wolfenstein" },
-              { [ "name" ] = "Grosse" }
+              { [ "name" ] = "Grosse" },
+              {
+                  [ "name" ] = "Betray",
+                  [ "keys" ] = "BYR"
+              }
           }
       }
     }

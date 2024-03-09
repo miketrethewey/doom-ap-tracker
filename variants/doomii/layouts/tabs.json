@@ -16,7 +16,7 @@
             }
           },
           {
-            "title": "Underhalls",
+            "title": "Underhalls*",
             "icon": "images/overlays/map02.png",
             "content": {
               "type": "map",
@@ -129,7 +129,7 @@
             }
           },
           {
-            "title": "Industrial Zone",
+            "title": "Industrial Zone*",
             "icon": "images/overlays/map15.png",
             "content": {
               "type": "map",
@@ -275,7 +275,7 @@
         "type": "tabbed",
         "tabs": [
           {
-            "title": "Wolfenstein",
+            "title": "Wolfenstein*",
             "icon": "images/overlays/map31.png",
             "content": {
               "type": "map",
@@ -288,6 +288,14 @@
             "content": {
               "type": "map",
               "maps": ["map32"]
+            }
+          },
+          {
+            "title": "Betray",
+            "icon": "images/overlays/xbox.png",
+            "content": {
+              "type": "map",
+              "maps": ["map33"]
             }
           }
         ]

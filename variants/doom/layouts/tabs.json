@@ -16,7 +16,7 @@
         "type": "tabbed",
         "tabs": [
           {
-            "title": "Hangar",
+            "title": "Hangar*",
             "icon": "images/overlays/1-1.png",
             "content": {
               "type": "map",
@@ -85,6 +85,14 @@
             "content": {
               "type": "map",
               "maps": ["e1m9"]
+            }
+          },
+          {
+            "title": "Sewers",
+            "icon": "images/overlays/xbox.png",
+            "content": {
+              "type": "map",
+              "maps": ["e1m10"]
             }
           }
         ]

@@ -18,10 +18,13 @@ basePath = os.path.join(
     "underworld"
 )
 
+numMapsHistory = []
 if os.path.isdir(basePath):
     for episode in os.listdir(basePath):
         if os.path.isdir(os.path.join(basePath,episode)):
             epID = episode[1:]
+            numMaps = len(CONSTANTS["keysets"][baseGame]["episodes"][int(epID) - 1]["maps"])
+            numMapsHistory.append(numMaps)
             epName = CONSTANTS["keysets"][baseGame]["episodes"][int(epID) - 1]["name"]
             epRoot = [
                 {
@@ -40,8 +43,19 @@ if os.path.isdir(basePath):
                     ), "r") as mapFile:
                         mapID = os.path.splitext(mapPath)[0][3:]
                         mapHandle = f"e{epID}m{mapID}"
-                        if baseGame in [ "doomii","tnt","plutonia","nrftl" ]:
-                            mapHandle = "map" + str(mapID).rjust(2,"0")
+                        if baseGame in [
+                            "doomii",
+                            "tnt",
+                            "plutonia",
+                            "nrftl"
+                        ]:
+                            mapIDX = mapID
+                            # if later "episode" add previous lengths
+                            for numEp,numMaps in enumerate(numMapsHistory):
+                                if (numEp + 1) < int(epID):
+                                    mapIDX = int(mapIDX) + numMaps
+                            mapHandle = "map" + str(mapIDX).rjust(2,"0")
+                        print(f"E{epID}: {mapHandle}")
                         mapJSON = json.load(mapFile)
                         # get first element
                         mapJSON = mapJSON[0]

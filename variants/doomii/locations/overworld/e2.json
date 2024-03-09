@@ -5,7 +5,7 @@
     "children": [
       {
         "name": "The Factory (MAP12)",
-        "access_rules": ["$access|map01"],
+        "access_rules": ["$access|map12"],
         "sections": [
           {
             "name": "Shotgun",
@@ -94,7 +94,7 @@
       },
       {
         "name": "Downtown (MAP13)",
-        "access_rules": ["$access|map02"],
+        "access_rules": ["$access|map13"],
         "sections": [
           {
             "name": "Chainsaw",
@@ -218,7 +218,7 @@
       },
       {
         "name": "The Inmost Dens (MAP14)",
-        "access_rules": ["$access|map03"],
+        "access_rules": ["$access|map14"],
         "sections": [
           {
             "name": "Shotgun",
@@ -277,7 +277,7 @@
       },
       {
         "name": "Industrial Zone (MAP15)",
-        "access_rules": ["$access|map04"],
+        "access_rules": ["$access|map15"],
         "sections": [
           {
             "name": "Chainsaw",
@@ -406,7 +406,7 @@
       },
       {
         "name": "Suburbs (MAP16)",
-        "access_rules": ["$access|map05"],
+        "access_rules": ["$access|map16"],
         "sections": [
           {
             "name": "Shotgun",
@@ -510,7 +510,7 @@
       },
       {
         "name": "Tenements (MAP17)",
-        "access_rules": ["$access|map06"],
+        "access_rules": ["$access|map17"],
         "sections": [
           {
             "name": "Shotgun",
@@ -614,7 +614,7 @@
       },
       {
         "name": "The Courtyard (MAP18)",
-        "access_rules": ["$access|map07"],
+        "access_rules": ["$access|map18"],
         "sections": [
           {
             "name": "Shotgun",
@@ -718,7 +718,7 @@
       },
       {
         "name": "The Citadel (MAP19)",
-        "access_rules": ["$access|map08"],
+        "access_rules": ["$access|map19"],
         "sections": [
           {
             "name": "Super Shotgun",
@@ -807,7 +807,7 @@
       },
       {
         "name": "Gotcha! (MAP20)",
-        "access_rules": ["$access|map09"],
+        "access_rules": ["$access|map20"],
         "sections": [
           {
             "name": "Super Shotgun",

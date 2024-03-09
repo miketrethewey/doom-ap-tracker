@@ -5,7 +5,7 @@
     "children": [
       {
         "name": "Nirvana (MAP21)",
-        "access_rules": ["$access|map01"],
+        "access_rules": ["$access|map21"],
         "sections": [
           {
             "name": "Super Shotgun",
@@ -64,7 +64,7 @@
       },
       {
         "name": "Icon of Sin (MAP30)",
-        "access_rules": ["$access|map10"],
+        "access_rules": ["$access|map30"],
         "sections": [
           {
             "name": "Chainsaw",
@@ -153,7 +153,7 @@
       },
       {
         "name": "The Catacombs (MAP22)",
-        "access_rules": ["$access|map02"],
+        "access_rules": ["$access|map22"],
         "sections": [
           {
             "name": "Shotgun",
@@ -207,7 +207,7 @@
       },
       {
         "name": "Barrels o' Fun (MAP23)",
-        "access_rules": ["$access|map03"],
+        "access_rules": ["$access|map23"],
         "sections": [
           {
             "name": "Shotgun",
@@ -281,7 +281,7 @@
       },
       {
         "name": "The Chasm (MAP24)",
-        "access_rules": ["$access|map04"],
+        "access_rules": ["$access|map24"],
         "sections": [
           {
             "name": "Shotgun",
@@ -370,7 +370,7 @@
       },
       {
         "name": "Bloodfalls (MAP25)",
-        "access_rules": ["$access|map05"],
+        "access_rules": ["$access|map25"],
         "sections": [
           {
             "name": "Super Shotgun",
@@ -419,7 +419,7 @@
       },
       {
         "name": "The Abandoned Mines (MAP26)",
-        "access_rules": ["$access|map06"],
+        "access_rules": ["$access|map26"],
         "sections": [
           {
             "name": "Super Shotgun",
@@ -498,7 +498,7 @@
       },
       {
         "name": "Monster Condo (MAP27)",
-        "access_rules": ["$access|map07"],
+        "access_rules": ["$access|map27"],
         "sections": [
           {
             "name": "Chainsaw",
@@ -667,7 +667,7 @@
       },
       {
         "name": "The Spirit World (MAP28)",
-        "access_rules": ["$access|map08"],
+        "access_rules": ["$access|map28"],
         "sections": [
           {
             "name": "Chainsaw",
@@ -796,7 +796,7 @@
       },
       {
         "name": "The Living End (MAP29)",
-        "access_rules": ["$access|map09"],
+        "access_rules": ["$access|map29"],
         "sections": [
           {
             "name": "Super Shotgun",

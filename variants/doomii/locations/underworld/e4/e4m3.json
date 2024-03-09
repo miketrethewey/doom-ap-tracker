@@ -1,23 +1,23 @@
 [
   {
-    "name": "MAP31",
-    "parent": "Wolfenstein (MAP31)",
+    "name": "MAP33",
+    "parent": "Betray (MAP33)",
     "children": [
       {
-        "name": "MAP31 Entrance",
+        "name": "MAP33 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": ["$access|null"],
         "sections": [
           {
-            "ref": "Wolfenstein (MAP31)/MAP31 Entrance",
+            "ref": "Betray (MAP33)/MAP33 Entrance",
             "name": "Level Start",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map31",
+            "map": "map33",
             "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 0,
@@ -26,18 +26,18 @@
         ]
       },
       {
-        "name": "Shotgun",
-        "access_rules": ["@Wolfenstein (MAP31)/Shotgun"],
+        "name": "Chainsaw",
+        "access_rules": ["@Betray (MAP33)/Chainsaw"],
         "sections": [
           {
-            "ref": "Wolfenstein (MAP31)/Shotgun",
+            "ref": "Betray (MAP33)/Chainsaw",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map31",
+            "map": "map33",
             "restrict_visibility_rules": ["ep4_on"],
             "x": 24,
             "y": 0
@@ -45,18 +45,18 @@
         ]
       },
       {
-        "name": "Super Shotgun",
-        "access_rules": ["@Wolfenstein (MAP31)/Super Shotgun"],
+        "name": "Chainsaw 2",
+        "access_rules": ["@Betray (MAP33)/Chainsaw 2"],
         "sections": [
           {
-            "ref": "Wolfenstein (MAP31)/Super Shotgun",
+            "ref": "Betray (MAP33)/Chainsaw 2",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map31",
+            "map": "map33",
             "restrict_visibility_rules": ["ep4_on"],
             "x": 48,
             "y": 0
@@ -64,18 +64,18 @@
         ]
       },
       {
-        "name": "Chaingun",
-        "access_rules": ["@Wolfenstein (MAP31)/Chaingun"],
+        "name": "Super Shotgun",
+        "access_rules": ["@Betray (MAP33)/Super Shotgun"],
         "sections": [
           {
-            "ref": "Wolfenstein (MAP31)/Chaingun",
+            "ref": "Betray (MAP33)/Super Shotgun",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map31",
+            "map": "map33",
             "restrict_visibility_rules": ["ep4_on"],
             "x": 72,
             "y": 0
@@ -83,18 +83,18 @@
         ]
       },
       {
-        "name": "Rocket Launcher",
-        "access_rules": ["@Wolfenstein (MAP31)/Rocket Launcher"],
+        "name": "Super Shotgun 2",
+        "access_rules": ["@Betray (MAP33)/Super Shotgun 2"],
         "sections": [
           {
-            "ref": "Wolfenstein (MAP31)/Rocket Launcher",
+            "ref": "Betray (MAP33)/Super Shotgun 2",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map31",
+            "map": "map33",
             "restrict_visibility_rules": ["ep4_on"],
             "x": 96,
             "y": 0
@@ -102,18 +102,18 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@Wolfenstein (MAP31)/Plasma Rifle"],
+        "name": "Super Shotgun 3",
+        "access_rules": ["@Betray (MAP33)/Super Shotgun 3"],
         "sections": [
           {
-            "ref": "Wolfenstein (MAP31)/Plasma Rifle",
+            "ref": "Betray (MAP33)/Super Shotgun 3",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map31",
+            "map": "map33",
             "restrict_visibility_rules": ["ep4_on"],
             "x": 120,
             "y": 0
@@ -121,18 +121,18 @@
         ]
       },
       {
-        "name": "BFG9000",
-        "access_rules": ["@Wolfenstein (MAP31)/BFG9000"],
+        "name": "Rocket Launcher",
+        "access_rules": ["@Betray (MAP33)/Rocket Launcher"],
         "sections": [
           {
-            "ref": "Wolfenstein (MAP31)/BFG9000",
+            "ref": "Betray (MAP33)/Rocket Launcher",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map31",
+            "map": "map33",
             "restrict_visibility_rules": ["ep4_on"],
             "x": 144,
             "y": 0
@@ -140,18 +140,18 @@
         ]
       },
       {
-        "name": "Supercharge",
-        "access_rules": ["@Wolfenstein (MAP31)/Supercharge"],
+        "name": "Rocket Launcher 2",
+        "access_rules": ["@Betray (MAP33)/Rocket Launcher 2"],
         "sections": [
           {
-            "ref": "Wolfenstein (MAP31)/Supercharge",
+            "ref": "Betray (MAP33)/Rocket Launcher 2",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map31",
+            "map": "map33",
             "restrict_visibility_rules": ["ep4_on"],
             "x": 168,
             "y": 0
@@ -159,18 +159,18 @@
         ]
       },
       {
-        "name": "Megasphere",
-        "access_rules": ["@Wolfenstein (MAP31)/Megasphere"],
+        "name": "Rocket Launcher 3",
+        "access_rules": ["@Betray (MAP33)/Rocket Launcher 3"],
         "sections": [
           {
-            "ref": "Wolfenstein (MAP31)/Megasphere",
+            "ref": "Betray (MAP33)/Rocket Launcher 3",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map31",
+            "map": "map33",
             "restrict_visibility_rules": ["ep4_on"],
             "x": 192,
             "y": 0
@@ -178,18 +178,18 @@
         ]
       },
       {
-        "name": "Backpack",
-        "access_rules": ["@Wolfenstein (MAP31)/Backpack"],
+        "name": "Plasma Rifle",
+        "access_rules": ["@Betray (MAP33)/Plasma Rifle"],
         "sections": [
           {
-            "ref": "Wolfenstein (MAP31)/Backpack",
+            "ref": "Betray (MAP33)/Plasma Rifle",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map31",
+            "map": "map33",
             "restrict_visibility_rules": ["ep4_on"],
             "x": 216,
             "y": 0
@@ -197,18 +197,18 @@
         ]
       },
       {
-        "name": "Backpack 2",
-        "access_rules": ["@Wolfenstein (MAP31)/Backpack 2"],
+        "name": "BFG9000",
+        "access_rules": ["@Betray (MAP33)/BFG9000"],
         "sections": [
           {
-            "ref": "Wolfenstein (MAP31)/Backpack 2",
+            "ref": "Betray (MAP33)/BFG9000",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map31",
+            "map": "map33",
             "restrict_visibility_rules": ["ep4_on"],
             "x": 240,
             "y": 0
@@ -216,18 +216,18 @@
         ]
       },
       {
-        "name": "Backpack 3",
-        "access_rules": ["@Wolfenstein (MAP31)/Backpack 3"],
+        "name": "Armor",
+        "access_rules": ["@Betray (MAP33)/Armor"],
         "sections": [
           {
-            "ref": "Wolfenstein (MAP31)/Backpack 3",
+            "ref": "Betray (MAP33)/Armor",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map31",
+            "map": "map33",
             "restrict_visibility_rules": ["ep4_on"],
             "x": 264,
             "y": 0
@@ -235,18 +235,18 @@
         ]
       },
       {
-        "name": "Backpack 4",
-        "access_rules": ["@Wolfenstein (MAP31)/Backpack 4"],
+        "name": "Mega Armor",
+        "access_rules": ["@Betray (MAP33)/Mega Armor"],
         "sections": [
           {
-            "ref": "Wolfenstein (MAP31)/Backpack 4",
+            "ref": "Betray (MAP33)/Mega Armor",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map31",
+            "map": "map33",
             "restrict_visibility_rules": ["ep4_on"],
             "x": 288,
             "y": 0
@@ -254,18 +254,18 @@
         ]
       },
       {
-        "name": "Berserk",
-        "access_rules": ["@Wolfenstein (MAP31)/Berserk"],
+        "name": "Megasphere",
+        "access_rules": ["@Betray (MAP33)/Megasphere"],
         "sections": [
           {
-            "ref": "Wolfenstein (MAP31)/Berserk",
+            "ref": "Betray (MAP33)/Megasphere",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map31",
+            "map": "map33",
             "restrict_visibility_rules": ["ep4_on"],
             "x": 312,
             "y": 0
@@ -273,18 +273,18 @@
         ]
       },
       {
-        "name": "Invisibility",
-        "access_rules": ["@Wolfenstein (MAP31)/Invisibility"],
+        "name": "Backpack",
+        "access_rules": ["@Betray (MAP33)/Backpack"],
         "sections": [
           {
-            "ref": "Wolfenstein (MAP31)/Invisibility",
+            "ref": "Betray (MAP33)/Backpack",
             "name": "Item",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map31",
+            "map": "map33",
             "restrict_visibility_rules": ["ep4_on"],
             "x": 336,
             "y": 0
@@ -292,21 +292,97 @@
         ]
       },
       {
-        "name": "MAP31 Exit",
-        "access_rules": ["@Wolfenstein (MAP31)/MAP31 Exit"],
+        "name": "Invisibility",
+        "access_rules": ["@Betray (MAP33)/Invisibility"],
         "sections": [
           {
-            "ref": "Wolfenstein (MAP31)/MAP31 Exit",
-            "name": "Level Completed",
-            "hosted_item": "e4m1_complete"
+            "ref": "Betray (MAP33)/Invisibility",
+            "name": "Item",
+            "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map31",
+            "map": "map33",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": ["@Betray (MAP33)/Blue Keycard"],
+        "sections": [
+          {
+            "ref": "Betray (MAP33)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map33",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "access_rules": ["@Betray (MAP33)/Red Keycard"],
+        "sections": [
+          {
+            "ref": "Betray (MAP33)/Red Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map33",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "access_rules": ["@Betray (MAP33)/Yellow Keycard"],
+        "sections": [
+          {
+            "ref": "Betray (MAP33)/Yellow Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map33",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 432,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP33 Exit",
+        "access_rules": ["@Betray (MAP33)/MAP33 Exit"],
+        "sections": [
+          {
+            "ref": "Betray (MAP33)/MAP33 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e4m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map33",
             "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
-            "x": 360,
+            "x": 456,
             "y": 0
           }
         ]

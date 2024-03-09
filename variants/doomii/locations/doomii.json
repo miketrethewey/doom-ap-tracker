@@ -33,7 +33,7 @@
       {
         "name": "Secret",
         "children": [
-          {"name": "Castle Wolfenstein (Ex)", "color": ""},
+          {"name": "Castle Wolfenstein", "color": ""},
           {"name": "XBOX", "color": ""}
         ]
       }

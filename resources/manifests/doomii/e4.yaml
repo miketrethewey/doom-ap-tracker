@@ -28,3 +28,23 @@ E4:
       - name: Berserk
       - name: Invulnerability
       - name: Exit
+  M33:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+        q: 2
+      - name: Super Shotgun
+        q: 3
+      - name: Rocket
+        q: 3
+      - name: Plasma
+      - name: BFG
+      - name: Armor
+      - name: Mega Armor
+      - name: Megasphere
+      - name: Backpack
+      - name: Invisibility
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit

@@ -5,7 +5,7 @@
     "children": [
       {
         "name": "Wolfenstein (MAP31)",
-        "access_rules": ["$access|map01"],
+        "access_rules": ["$access|map31"],
         "sections": [
           {
             "name": "Shotgun",
@@ -94,7 +94,7 @@
       },
       {
         "name": "Grosse (MAP32)",
-        "access_rules": ["$access|map02"],
+        "access_rules": ["$access|map32"],
         "sections": [
           {
             "name": "Super Shotgun",

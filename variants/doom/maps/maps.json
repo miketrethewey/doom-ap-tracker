@@ -60,6 +60,12 @@
     "img": "variants/doom/images/maps/e1/e1m9_map.png"
   },
   {
+    "name": "e1m10",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom/images/maps/e1/e1m10_map.png"
+  },
+  {
     "name": "e2m1",
     "location_size": 12,
     "location_border_thickness": 1,
