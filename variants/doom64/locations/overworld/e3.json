@@ -1,0 +1,590 @@
+[
+  {
+    "name": "Episode 3",
+    "parent": "Episode 3 (E3)",
+    "children": [
+      {
+        "name": "Pitfalls (MAP21)",
+        "access_rules": ["$access|map21"],
+        "sections": [
+          {
+            "name": "Super Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Rifle",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Computer Area Map",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invulnerability",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP21 Exit",
+            "access_rules": [],
+            "hosted_item": "e3m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Burnt Offerings (MAP22)",
+        "access_rules": ["$access|map22"],
+        "sections": [
+          {
+            "name": "Chainsaw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Super Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Rifle",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Megasphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP22 Exit",
+            "access_rules": [],
+            "hosted_item": "e3m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Unholy Temple (MAP23)",
+        "access_rules": ["$access|map23"],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Super Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Unmaker",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP23 Exit",
+            "access_rules": [],
+            "hosted_item": "e3m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "No Escape (MAP24)",
+        "access_rules": ["$access|map24"],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Super Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Rifle",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP24 Exit",
+            "access_rules": [],
+            "hosted_item": "e3m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Cat And Mouse (MAP25)",
+        "access_rules": ["$access|map25"],
+        "sections": [
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP25 Exit",
+            "access_rules": [],
+            "hosted_item": "e3m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Hardcore (MAP26)",
+        "access_rules": ["$access|map26"],
+        "sections": [
+          {
+            "name": "Super Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Rifle",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Megasphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP26 Exit",
+            "access_rules": [],
+            "hosted_item": "e3m6_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Playground (MAP27)",
+        "access_rules": ["$access|map27"],
+        "sections": [
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Megasphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invisibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invisibility 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invisibility 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invisibility 4",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invisibility 5",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invisibility 6",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invisibility 7",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invisibility 8",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invisibility 9",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP27 Exit",
+            "access_rules": [],
+            "hosted_item": "e3m7_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "The Absolution (MAP28)",
+        "access_rules": ["$access|map28"],
+        "sections": [
+          {
+            "name": "Super Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Rifle",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Unmaker",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Megasphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invulnerability",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP28 Exit",
+            "access_rules": [],
+            "hosted_item": "e3m8_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

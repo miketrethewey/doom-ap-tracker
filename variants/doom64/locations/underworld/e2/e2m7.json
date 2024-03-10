@@ -1,0 +1,297 @@
+[
+  {
+    "name": "MAP17",
+    "parent": "Watch Your Step (MAP17)",
+    "children": [
+      {
+        "name": "MAP17 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Watch Your Step (MAP17)/MAP17 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Watch Your Step (MAP17)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Watch Your Step (MAP17)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Watch Your Step (MAP17)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Watch Your Step (MAP17)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Watch Your Step (MAP17)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Watch Your Step (MAP17)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Watch Your Step (MAP17)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Watch Your Step (MAP17)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": ["@Watch Your Step (MAP17)/Plasma Rifle"],
+        "sections": [
+          {
+            "ref": "Watch Your Step (MAP17)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": ["@Watch Your Step (MAP17)/BFG9000"],
+        "sections": [
+          {
+            "ref": "Watch Your Step (MAP17)/BFG9000",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Watch Your Step (MAP17)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Watch Your Step (MAP17)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Megasphere",
+        "access_rules": ["@Watch Your Step (MAP17)/Megasphere"],
+        "sections": [
+          {
+            "ref": "Watch Your Step (MAP17)/Megasphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Watch Your Step (MAP17)/Backpack"],
+        "sections": [
+          {
+            "ref": "Watch Your Step (MAP17)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Watch Your Step (MAP17)/Berserk"],
+        "sections": [
+          {
+            "ref": "Watch Your Step (MAP17)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk 2",
+        "access_rules": ["@Watch Your Step (MAP17)/Berserk 2"],
+        "sections": [
+          {
+            "ref": "Watch Your Step (MAP17)/Berserk 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": ["@Watch Your Step (MAP17)/Invulnerability"],
+        "sections": [
+          {
+            "ref": "Watch Your Step (MAP17)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["@Watch Your Step (MAP17)/Blue Skull key"],
+        "sections": [
+          {
+            "ref": "Watch Your Step (MAP17)/Blue Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP17 Exit",
+        "access_rules": ["@Watch Your Step (MAP17)/MAP17 Exit"],
+        "sections": [
+          {
+            "ref": "Watch Your Step (MAP17)/MAP17 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e2m7_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map17",
+            "restrict_visibility_rules": ["ep2_on"],
+            "size": 20,
+            "x": 336,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

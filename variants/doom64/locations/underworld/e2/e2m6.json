@@ -1,0 +1,297 @@
+[
+  {
+    "name": "MAP16",
+    "parent": "Blood Keep (MAP16)",
+    "children": [
+      {
+        "name": "MAP16 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Blood Keep (MAP16)/MAP16 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Blood Keep (MAP16)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Blood Keep (MAP16)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Blood Keep (MAP16)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Blood Keep (MAP16)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Blood Keep (MAP16)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Blood Keep (MAP16)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Blood Keep (MAP16)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Blood Keep (MAP16)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": ["@Blood Keep (MAP16)/Plasma Rifle"],
+        "sections": [
+          {
+            "ref": "Blood Keep (MAP16)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Blood Keep (MAP16)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Blood Keep (MAP16)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Blood Keep (MAP16)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Blood Keep (MAP16)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "access_rules": ["@Blood Keep (MAP16)/Supercharge 2"],
+        "sections": [
+          {
+            "ref": "Blood Keep (MAP16)/Supercharge 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Blood Keep (MAP16)/Backpack"],
+        "sections": [
+          {
+            "ref": "Blood Keep (MAP16)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Blood Keep (MAP16)/Berserk"],
+        "sections": [
+          {
+            "ref": "Blood Keep (MAP16)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["@Blood Keep (MAP16)/Blue Skull key"],
+        "sections": [
+          {
+            "ref": "Blood Keep (MAP16)/Blue Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["@Blood Keep (MAP16)/Red Skull key"],
+        "sections": [
+          {
+            "ref": "Blood Keep (MAP16)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull key",
+        "access_rules": ["@Blood Keep (MAP16)/Yellow Skull key"],
+        "sections": [
+          {
+            "ref": "Blood Keep (MAP16)/Yellow Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP16 Exit",
+        "access_rules": ["@Blood Keep (MAP16)/MAP16 Exit"],
+        "sections": [
+          {
+            "ref": "Blood Keep (MAP16)/MAP16 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e2m6_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map16",
+            "restrict_visibility_rules": ["ep2_on"],
+            "size": 20,
+            "x": 336,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

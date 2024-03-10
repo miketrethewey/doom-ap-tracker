@@ -1,0 +1,576 @@
+[
+  {
+    "name": "Episode 5",
+    "parent": "The Lost Levels (E5)",
+    "children": [
+      {
+        "name": "Plant Ops (MAP34)",
+        "access_rules": ["$access|map34"],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Super Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Keycard",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Keycard",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Keycard",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP34 Exit",
+            "access_rules": [],
+            "hosted_item": "e5m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Evil Sacrifice (MAP35)",
+        "access_rules": ["$access|map35"],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Super Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Rifle",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invisibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP35 Exit",
+            "access_rules": [],
+            "hosted_item": "e5m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Cold Grounds (MAP36)",
+        "access_rules": ["$access|map36"],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Super Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invulnerability",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP36 Exit",
+            "access_rules": [],
+            "hosted_item": "e5m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Wretched Vats (MAP37)",
+        "access_rules": ["$access|map37"],
+        "sections": [
+          {
+            "name": "Chainsaw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Super Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Rifle",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP37 Exit",
+            "access_rules": [],
+            "hosted_item": "e5m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Thy Glory (MAP38)",
+        "access_rules": ["$access|map38"],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Super Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Rifle",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Computer Area Map",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP38 Exit",
+            "access_rules": [],
+            "hosted_item": "e5m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Final Judgement (MAP39)",
+        "access_rules": ["$access|map39"],
+        "sections": [
+          {
+            "name": "Chainsaw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Super Shotgun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Rifle",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Unmaker",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invisibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Orange demon key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Cyan demon key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Purple demon key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP39 Exit",
+            "access_rules": [],
+            "hosted_item": "e5m6_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Panic (MAP40)",
+        "access_rules": ["$access|map40"],
+        "sections": [
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Megasphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Megasphere 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "MAP40 Exit",
+            "access_rules": [],
+            "hosted_item": "e5m7_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

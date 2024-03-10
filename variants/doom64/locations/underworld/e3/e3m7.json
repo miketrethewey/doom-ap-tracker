@@ -1,0 +1,316 @@
+[
+  {
+    "name": "MAP27",
+    "parent": "Playground (MAP27)",
+    "children": [
+      {
+        "name": "MAP27 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Playground (MAP27)/MAP27 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Playground (MAP27)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Playground (MAP27)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Megasphere",
+        "access_rules": ["@Playground (MAP27)/Megasphere"],
+        "sections": [
+          {
+            "ref": "Playground (MAP27)/Megasphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Playground (MAP27)/Backpack"],
+        "sections": [
+          {
+            "ref": "Playground (MAP27)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack 2",
+        "access_rules": ["@Playground (MAP27)/Backpack 2"],
+        "sections": [
+          {
+            "ref": "Playground (MAP27)/Backpack 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack 3",
+        "access_rules": ["@Playground (MAP27)/Backpack 3"],
+        "sections": [
+          {
+            "ref": "Playground (MAP27)/Backpack 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility",
+        "access_rules": ["@Playground (MAP27)/Invisibility"],
+        "sections": [
+          {
+            "ref": "Playground (MAP27)/Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility 2",
+        "access_rules": ["@Playground (MAP27)/Invisibility 2"],
+        "sections": [
+          {
+            "ref": "Playground (MAP27)/Invisibility 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility 3",
+        "access_rules": ["@Playground (MAP27)/Invisibility 3"],
+        "sections": [
+          {
+            "ref": "Playground (MAP27)/Invisibility 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility 4",
+        "access_rules": ["@Playground (MAP27)/Invisibility 4"],
+        "sections": [
+          {
+            "ref": "Playground (MAP27)/Invisibility 4",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility 5",
+        "access_rules": ["@Playground (MAP27)/Invisibility 5"],
+        "sections": [
+          {
+            "ref": "Playground (MAP27)/Invisibility 5",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility 6",
+        "access_rules": ["@Playground (MAP27)/Invisibility 6"],
+        "sections": [
+          {
+            "ref": "Playground (MAP27)/Invisibility 6",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility 7",
+        "access_rules": ["@Playground (MAP27)/Invisibility 7"],
+        "sections": [
+          {
+            "ref": "Playground (MAP27)/Invisibility 7",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility 8",
+        "access_rules": ["@Playground (MAP27)/Invisibility 8"],
+        "sections": [
+          {
+            "ref": "Playground (MAP27)/Invisibility 8",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility 9",
+        "access_rules": ["@Playground (MAP27)/Invisibility 9"],
+        "sections": [
+          {
+            "ref": "Playground (MAP27)/Invisibility 9",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP27 Exit",
+        "access_rules": ["@Playground (MAP27)/MAP27 Exit"],
+        "sections": [
+          {
+            "ref": "Playground (MAP27)/MAP27 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e3m7_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 360,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

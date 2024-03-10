@@ -1,0 +1,116 @@
+E5:
+  M34:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Armor
+      - name: Supercharge
+      - name: Berserk
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit
+  M35:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Berserk
+      - name: Invisibility
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M36:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+        q: 2
+      - name: Rocket
+      - name: Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Berserk
+      - name: Invulnerability
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M37:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+        q: 2
+      - name: Backpack
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M38:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Berserk
+      - name: Map
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M39:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Unmaker
+      - name: Mega Armor
+      - name: Supercharge
+        q: 2
+      - name: Backpack
+      - name: Berserk
+      - name: Invisibility
+      - name: Orange demon key
+      - name: Cyan demon key
+      - name: Purple demon key
+      - name: Exit
+  M40:
+    locations:
+      - name: Entrance
+      - name: Rocket
+      - name: BFG
+      - name: Megasphere
+        q: 2
+      - name: Berserk
+      - name: Exit

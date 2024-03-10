@@ -1,0 +1,221 @@
+[
+  {
+    "name": "MAP09",
+    "parent": "Even Simpler (MAP09)",
+    "children": [
+      {
+        "name": "MAP09 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Even Simpler (MAP09)/MAP09 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Even Simpler (MAP09)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Even Simpler (MAP09)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Even Simpler (MAP09)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Even Simpler (MAP09)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Even Simpler (MAP09)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Even Simpler (MAP09)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Even Simpler (MAP09)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Even Simpler (MAP09)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Even Simpler (MAP09)/Armor"],
+        "sections": [
+          {
+            "ref": "Even Simpler (MAP09)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Even Simpler (MAP09)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Even Simpler (MAP09)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Even Simpler (MAP09)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Even Simpler (MAP09)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Even Simpler (MAP09)/Backpack"],
+        "sections": [
+          {
+            "ref": "Even Simpler (MAP09)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": ["@Even Simpler (MAP09)/Invulnerability"],
+        "sections": [
+          {
+            "ref": "Even Simpler (MAP09)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP09 Exit",
+        "access_rules": ["@Even Simpler (MAP09)/MAP09 Exit"],
+        "sections": [
+          {
+            "ref": "Even Simpler (MAP09)/MAP09 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m9_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map09",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 240,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

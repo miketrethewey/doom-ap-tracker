@@ -1,0 +1,259 @@
+[
+  {
+    "name": "MAP06",
+    "parent": "Alpha Quadrant (MAP06)",
+    "children": [
+      {
+        "name": "MAP06 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Alpha Quadrant (MAP06)/MAP06 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map06",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Alpha Quadrant (MAP06)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Alpha Quadrant (MAP06)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map06",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Alpha Quadrant (MAP06)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Alpha Quadrant (MAP06)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map06",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Alpha Quadrant (MAP06)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Alpha Quadrant (MAP06)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map06",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Alpha Quadrant (MAP06)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Alpha Quadrant (MAP06)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map06",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Alpha Quadrant (MAP06)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Alpha Quadrant (MAP06)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map06",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Alpha Quadrant (MAP06)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Alpha Quadrant (MAP06)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map06",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Megasphere",
+        "access_rules": ["@Alpha Quadrant (MAP06)/Megasphere"],
+        "sections": [
+          {
+            "ref": "Alpha Quadrant (MAP06)/Megasphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map06",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Alpha Quadrant (MAP06)/Backpack"],
+        "sections": [
+          {
+            "ref": "Alpha Quadrant (MAP06)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map06",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Alpha Quadrant (MAP06)/Berserk"],
+        "sections": [
+          {
+            "ref": "Alpha Quadrant (MAP06)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map06",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": ["@Alpha Quadrant (MAP06)/Blue Keycard"],
+        "sections": [
+          {
+            "ref": "Alpha Quadrant (MAP06)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map06",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "access_rules": ["@Alpha Quadrant (MAP06)/Yellow Keycard"],
+        "sections": [
+          {
+            "ref": "Alpha Quadrant (MAP06)/Yellow Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map06",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP06 Exit",
+        "access_rules": ["@Alpha Quadrant (MAP06)/MAP06 Exit"],
+        "sections": [
+          {
+            "ref": "Alpha Quadrant (MAP06)/MAP06 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m6_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map06",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 288,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

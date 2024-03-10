@@ -47,7 +47,11 @@ print("Loading Grids")
 Tracker:AddLayouts("layouts/grids/capture.json")
 Tracker:AddLayouts("layouts/grids/keys.json")
 Tracker:AddLayouts("layouts/grids/settings.json")
-Tracker:AddLayouts("layouts/grids/weapons.json")
+if baseGame == "doom64" then
+    Tracker:AddLayouts("variants/" .. baseGame .. "/layouts/grids/weapons.json")
+else
+    Tracker:AddLayouts("layouts/grids/weapons.json")
+end
 print("")
 
 -- Variant

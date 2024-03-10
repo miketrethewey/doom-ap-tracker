@@ -1,0 +1,145 @@
+[
+  {
+    "name": "MAP40",
+    "parent": "Panic (MAP40)",
+    "children": [
+      {
+        "name": "MAP40 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Panic (MAP40)/MAP40 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map40",
+            "restrict_visibility_rules": ["ep5_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Panic (MAP40)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Panic (MAP40)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map40",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": ["@Panic (MAP40)/BFG9000"],
+        "sections": [
+          {
+            "ref": "Panic (MAP40)/BFG9000",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map40",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Megasphere",
+        "access_rules": ["@Panic (MAP40)/Megasphere"],
+        "sections": [
+          {
+            "ref": "Panic (MAP40)/Megasphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map40",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Megasphere 2",
+        "access_rules": ["@Panic (MAP40)/Megasphere 2"],
+        "sections": [
+          {
+            "ref": "Panic (MAP40)/Megasphere 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map40",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Panic (MAP40)/Berserk"],
+        "sections": [
+          {
+            "ref": "Panic (MAP40)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map40",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP40 Exit",
+        "access_rules": ["@Panic (MAP40)/MAP40 Exit"],
+        "sections": [
+          {
+            "ref": "Panic (MAP40)/MAP40 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e5m7_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map40",
+            "restrict_visibility_rules": ["ep5_on"],
+            "size": 20,
+            "x": 144,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

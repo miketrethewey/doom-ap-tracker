@@ -1,0 +1,240 @@
+[
+  {
+    "name": "MAP24",
+    "parent": "No Escape (MAP24)",
+    "children": [
+      {
+        "name": "MAP24 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "No Escape (MAP24)/MAP24 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@No Escape (MAP24)/Shotgun"],
+        "sections": [
+          {
+            "ref": "No Escape (MAP24)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@No Escape (MAP24)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "No Escape (MAP24)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@No Escape (MAP24)/Chaingun"],
+        "sections": [
+          {
+            "ref": "No Escape (MAP24)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@No Escape (MAP24)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "No Escape (MAP24)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": ["@No Escape (MAP24)/Plasma Rifle"],
+        "sections": [
+          {
+            "ref": "No Escape (MAP24)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": ["@No Escape (MAP24)/BFG9000"],
+        "sections": [
+          {
+            "ref": "No Escape (MAP24)/BFG9000",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@No Escape (MAP24)/Armor"],
+        "sections": [
+          {
+            "ref": "No Escape (MAP24)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@No Escape (MAP24)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "No Escape (MAP24)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@No Escape (MAP24)/Supercharge"],
+        "sections": [
+          {
+            "ref": "No Escape (MAP24)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@No Escape (MAP24)/Backpack"],
+        "sections": [
+          {
+            "ref": "No Escape (MAP24)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP24 Exit",
+        "access_rules": ["@No Escape (MAP24)/MAP24 Exit"],
+        "sections": [
+          {
+            "ref": "No Escape (MAP24)/MAP24 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e3m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 264,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

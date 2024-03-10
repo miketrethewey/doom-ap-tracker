@@ -1,0 +1,50 @@
+[
+  {
+    "name": "MAP33",
+    "parent": "Title (MAP33)",
+    "children": [
+      {
+        "name": "MAP33 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Title (MAP33)/MAP33 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map33",
+            "restrict_visibility_rules": ["ep4_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP33 Exit",
+        "access_rules": ["@Title (MAP33)/MAP33 Exit"],
+        "sections": [
+          {
+            "ref": "Title (MAP33)/MAP33 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e4m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map33",
+            "restrict_visibility_rules": ["ep4_on"],
+            "size": 20,
+            "x": 24,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

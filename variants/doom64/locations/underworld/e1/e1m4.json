@@ -1,0 +1,183 @@
+[
+  {
+    "name": "MAP04",
+    "parent": "Holding Area (MAP04)",
+    "children": [
+      {
+        "name": "MAP04 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Holding Area (MAP04)/MAP04 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map04",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Holding Area (MAP04)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Holding Area (MAP04)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map04",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Holding Area (MAP04)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Holding Area (MAP04)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map04",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Holding Area (MAP04)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Holding Area (MAP04)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map04",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Holding Area (MAP04)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Holding Area (MAP04)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map04",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "access_rules": ["@Holding Area (MAP04)/Supercharge 2"],
+        "sections": [
+          {
+            "ref": "Holding Area (MAP04)/Supercharge 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map04",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Holding Area (MAP04)/Berserk"],
+        "sections": [
+          {
+            "ref": "Holding Area (MAP04)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map04",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": ["@Holding Area (MAP04)/Blue Keycard"],
+        "sections": [
+          {
+            "ref": "Holding Area (MAP04)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map04",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP04 Exit",
+        "access_rules": ["@Holding Area (MAP04)/MAP04 Exit"],
+        "sections": [
+          {
+            "ref": "Holding Area (MAP04)/MAP04 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map04",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 192,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

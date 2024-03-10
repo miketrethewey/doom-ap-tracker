@@ -1,0 +1,144 @@
+E1:
+  M1:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Shotgun
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Blue Card
+      - name: Exit
+  M2:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Chaingun
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Berserk
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit
+  M3:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Berserk
+      - name: Invulnerability
+      - name: Invisibility
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit
+  M4:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Supercharge
+        q: 2
+      - name: Berserk
+      - name: Blue Card
+      - name: Exit
+  M5:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Berserk
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit
+  M6:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Megasphere
+      - name: Backpack
+      - name: Berserk
+      - name: Blue Card
+      - name: Yellow Card
+      - name: Exit
+  M7:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Berserk
+      - name: Map
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit
+  M8:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Berserk
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit
+  M9:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Invulnerability
+      - name: Exit
+  M10:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Berserk
+      - name: Yellow Skull
+      - name: Exit

@@ -1,0 +1,183 @@
+[
+  {
+    "name": "MAP14",
+    "parent": "Eye Of The Storm (MAP14)",
+    "children": [
+      {
+        "name": "MAP14 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Eye Of The Storm (MAP14)/MAP14 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Eye Of The Storm (MAP14)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Eye Of The Storm (MAP14)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Eye Of The Storm (MAP14)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Eye Of The Storm (MAP14)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Eye Of The Storm (MAP14)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Eye Of The Storm (MAP14)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": ["@Eye Of The Storm (MAP14)/BFG9000"],
+        "sections": [
+          {
+            "ref": "Eye Of The Storm (MAP14)/BFG9000",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Eye Of The Storm (MAP14)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Eye Of The Storm (MAP14)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Eye Of The Storm (MAP14)/Backpack"],
+        "sections": [
+          {
+            "ref": "Eye Of The Storm (MAP14)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["@Eye Of The Storm (MAP14)/Blue Skull key"],
+        "sections": [
+          {
+            "ref": "Eye Of The Storm (MAP14)/Blue Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP14 Exit",
+        "access_rules": ["@Eye Of The Storm (MAP14)/MAP14 Exit"],
+        "sections": [
+          {
+            "ref": "Eye Of The Storm (MAP14)/MAP14 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e2m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map14",
+            "restrict_visibility_rules": ["ep2_on"],
+            "size": 20,
+            "x": 192,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

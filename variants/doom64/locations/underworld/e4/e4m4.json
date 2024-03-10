@@ -1,0 +1,221 @@
+[
+  {
+    "name": "MAP32",
+    "parent": "Hectic (MAP32)",
+    "children": [
+      {
+        "name": "MAP32 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Hectic (MAP32)/MAP32 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Hectic (MAP32)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Hectic (MAP32)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher 2",
+        "access_rules": ["@Hectic (MAP32)/Rocket Launcher 2"],
+        "sections": [
+          {
+            "ref": "Hectic (MAP32)/Rocket Launcher 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Hectic (MAP32)/Armor"],
+        "sections": [
+          {
+            "ref": "Hectic (MAP32)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Hectic (MAP32)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Hectic (MAP32)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Hectic (MAP32)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Hectic (MAP32)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Hectic (MAP32)/Berserk"],
+        "sections": [
+          {
+            "ref": "Hectic (MAP32)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["@Hectic (MAP32)/Blue Skull key"],
+        "sections": [
+          {
+            "ref": "Hectic (MAP32)/Blue Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["@Hectic (MAP32)/Red Skull key"],
+        "sections": [
+          {
+            "ref": "Hectic (MAP32)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull key",
+        "access_rules": ["@Hectic (MAP32)/Yellow Skull key"],
+        "sections": [
+          {
+            "ref": "Hectic (MAP32)/Yellow Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP32 Exit",
+        "access_rules": ["@Hectic (MAP32)/MAP32 Exit"],
+        "sections": [
+          {
+            "ref": "Hectic (MAP32)/MAP32 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e4m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map32",
+            "restrict_visibility_rules": ["ep4_on"],
+            "size": 20,
+            "x": 240,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

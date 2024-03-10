@@ -1,0 +1,297 @@
+[
+  {
+    "name": "MAP21",
+    "parent": "Pitfalls (MAP21)",
+    "children": [
+      {
+        "name": "MAP21 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Pitfalls (MAP21)/MAP21 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Pitfalls (MAP21)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Pitfalls (MAP21)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Pitfalls (MAP21)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Pitfalls (MAP21)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Pitfalls (MAP21)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Pitfalls (MAP21)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": ["@Pitfalls (MAP21)/Plasma Rifle"],
+        "sections": [
+          {
+            "ref": "Pitfalls (MAP21)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Pitfalls (MAP21)/Armor"],
+        "sections": [
+          {
+            "ref": "Pitfalls (MAP21)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Pitfalls (MAP21)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Pitfalls (MAP21)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Pitfalls (MAP21)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Pitfalls (MAP21)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Pitfalls (MAP21)/Backpack"],
+        "sections": [
+          {
+            "ref": "Pitfalls (MAP21)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": ["@Pitfalls (MAP21)/Computer Area Map"],
+        "sections": [
+          {
+            "ref": "Pitfalls (MAP21)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": ["@Pitfalls (MAP21)/Invulnerability"],
+        "sections": [
+          {
+            "ref": "Pitfalls (MAP21)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["@Pitfalls (MAP21)/Blue Skull key"],
+        "sections": [
+          {
+            "ref": "Pitfalls (MAP21)/Blue Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["@Pitfalls (MAP21)/Red Skull key"],
+        "sections": [
+          {
+            "ref": "Pitfalls (MAP21)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull key",
+        "access_rules": ["@Pitfalls (MAP21)/Yellow Skull key"],
+        "sections": [
+          {
+            "ref": "Pitfalls (MAP21)/Yellow Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP21 Exit",
+        "access_rules": ["@Pitfalls (MAP21)/MAP21 Exit"],
+        "sections": [
+          {
+            "ref": "Pitfalls (MAP21)/MAP21 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e3m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map21",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 336,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -25,15 +25,7 @@ end
 
 function get_map_metadata(baseGame, epID, mapID)
     mapHandle = "e" .. epID .. "m" .. mapID
-    if has_value(
-        {
-            "doomii",
-            "tnt",
-            "plutonia",
-            "nrftl"
-        },
-        baseGame
-    ) then
+    if mapDesignations[baseGame] == "mapxx" then
         -- print(baseGame,epID,mapID)
         if keySets[baseGame] and
             keySets[baseGame]["episodes"] and

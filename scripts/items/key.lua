@@ -66,10 +66,18 @@ function KeyItem:init(
         end
     end
 
+    if string.find(code,"cyan") or
+        string.find(code,"orange") or
+        string.find(code,"purple") then
+            keyType = "demon"
+    end
+
     if keyType == "cards" then
         name = name .. " keycard"
     elseif keyType == "skulls" then
         name = name .. " skull key"
+    elseif keyType == "demon" then
+        name = name .. " demon key"
     end
 
     self:createItem(name)
@@ -84,7 +92,7 @@ function KeyItem:init(
         img = img .. "_slim"
         self.code[code] = true
     else
-        imgMods = "overlay|images/overlays/" .. string.sub(code,2,2) .. '-' .. string.sub(code,4,4) .. ".png"
+        imgMods = "overlay|images/overlays/" .. mapHandle .. ".png"
     end
 
     img = img .. ".png"
@@ -200,6 +208,12 @@ for epID,episode in pairs(keySets[baseGame]["episodes"]) do
                             c = "yellow"
                         elseif c == "r" then
                             c = "red"
+                        elseif c == "c" then
+                            c = "cyan"
+                        elseif c == "o" then
+                            c = "orange"
+                        elseif c == "p" then
+                            c = "purple"
                         end
                         keyName = itemName .. " - " .. string.upper(string.sub(c,0,1)) .. string.sub(c,2)
                         msg = keyName

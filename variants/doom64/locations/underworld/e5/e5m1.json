@@ -1,0 +1,240 @@
+[
+  {
+    "name": "MAP34",
+    "parent": "Plant Ops (MAP34)",
+    "children": [
+      {
+        "name": "MAP34 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Plant Ops (MAP34)/MAP34 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map34",
+            "restrict_visibility_rules": ["ep5_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Plant Ops (MAP34)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Plant Ops (MAP34)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map34",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Plant Ops (MAP34)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Plant Ops (MAP34)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map34",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Plant Ops (MAP34)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Plant Ops (MAP34)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map34",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Plant Ops (MAP34)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Plant Ops (MAP34)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map34",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Plant Ops (MAP34)/Armor"],
+        "sections": [
+          {
+            "ref": "Plant Ops (MAP34)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map34",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Plant Ops (MAP34)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Plant Ops (MAP34)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map34",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Plant Ops (MAP34)/Berserk"],
+        "sections": [
+          {
+            "ref": "Plant Ops (MAP34)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map34",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": ["@Plant Ops (MAP34)/Blue Keycard"],
+        "sections": [
+          {
+            "ref": "Plant Ops (MAP34)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map34",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "access_rules": ["@Plant Ops (MAP34)/Red Keycard"],
+        "sections": [
+          {
+            "ref": "Plant Ops (MAP34)/Red Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map34",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "access_rules": ["@Plant Ops (MAP34)/Yellow Keycard"],
+        "sections": [
+          {
+            "ref": "Plant Ops (MAP34)/Yellow Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map34",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP34 Exit",
+        "access_rules": ["@Plant Ops (MAP34)/MAP34 Exit"],
+        "sections": [
+          {
+            "ref": "Plant Ops (MAP34)/MAP34 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e5m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map34",
+            "restrict_visibility_rules": ["ep5_on"],
+            "size": 20,
+            "x": 264,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

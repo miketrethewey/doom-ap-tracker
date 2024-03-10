@@ -10,12 +10,12 @@ try:
 except:
     from yaml import Loader, Dumper
 
-for filename in ["keysets.lua"]:
+for filename in ["mapdesignations.lua","keysets.lua"]:
     with open(os.path.join("scripts","constants",filename)) as constantsFile:
         constantsLua = constantsFile.read()
         CONSTANTS[filename[:filename.find('.')]] = luadata.unserialize(constantsLua)
 
-baseGame = "doomii"
+baseGame = "doom64"
 
 numMapsHistory = []
 for epID in range(1,len(CONSTANTS["keysets"][baseGame]["episodes"]) + 1):
@@ -37,17 +37,13 @@ for epID in range(1,len(CONSTANTS["keysets"][baseGame]["episodes"]) + 1):
                     mapID = int(mapID[1:])
                     mapName = f"E{epID}M{mapID}"
                     mapIDX = mapID
-                    if baseGame in ["doomii"]:
+                    if CONSTANTS["mapdesignations"][baseGame] == "mapxx":
                         # if later "episode" subtract previous lengths
                         for numMaps in numMapsHistory:
                             if mapIDX > numMaps:
                                 mapIDX = mapIDX - numMaps
-                    mapDB = CONSTANTS["keysets"][baseGame]["episodes"][epID-1]["maps"][mapIDX-1]
-                    if baseGame in [
-                        "doomii",
-                        "nrftl"
-                    ]:
                         mapName = f"MAP{str(mapID).rjust(2,"0")}"
+                    mapDB = CONSTANTS["keysets"][baseGame]["episodes"][epID-1]["maps"][mapIDX-1]
                     print(f" Processing: {mapName}")
                     jsonData = [
                         {

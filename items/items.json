@@ -122,6 +122,12 @@
     "codes": "plasmagun"
   },
   {
+    "name": "Unmaker",
+    "type": "toggle",
+    "img": "/images/items/inventory/unmaker.png",
+    "codes": "unmaker"
+  },
+  {
     "name": "BFG9000",
     "type": "toggle",
     "img": "/images/items/inventory/bfg9000.png",

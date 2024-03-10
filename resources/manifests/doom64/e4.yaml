@@ -1,0 +1,67 @@
+E4:
+  M29:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Unmaker
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Berserk
+      - name: Orange demon key
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+        q: 3
+      - name: Exit
+  M30:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: Mega Armor
+      - name: Supercharge
+        q: 2
+      - name: Berserk
+      - name: Purple demon key
+      - name: Blue Skull
+      - name: Yellow Skull
+      - name: Exit
+  M31:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Armor
+      - name: Supercharge
+      - name: Cyan demon key
+        q: 2
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M32:
+    locations:
+      - name: Entrance
+      - name: Rocket
+        q: 2
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Berserk
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M33:
+    locations:
+      - name: Entrance
+      - name: Exit

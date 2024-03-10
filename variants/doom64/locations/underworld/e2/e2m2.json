@@ -1,0 +1,259 @@
+[
+  {
+    "name": "MAP12",
+    "parent": "Altar Of Pain (MAP12)",
+    "children": [
+      {
+        "name": "MAP12 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Altar Of Pain (MAP12)/MAP12 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map12",
+            "restrict_visibility_rules": ["ep2_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Altar Of Pain (MAP12)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Altar Of Pain (MAP12)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map12",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Altar Of Pain (MAP12)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Altar Of Pain (MAP12)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map12",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": ["@Altar Of Pain (MAP12)/Plasma Rifle"],
+        "sections": [
+          {
+            "ref": "Altar Of Pain (MAP12)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map12",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Unmaker",
+        "access_rules": ["@Altar Of Pain (MAP12)/Unmaker"],
+        "sections": [
+          {
+            "ref": "Altar Of Pain (MAP12)/Unmaker",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map12",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Altar Of Pain (MAP12)/Armor"],
+        "sections": [
+          {
+            "ref": "Altar Of Pain (MAP12)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map12",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Altar Of Pain (MAP12)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Altar Of Pain (MAP12)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map12",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "access_rules": ["@Altar Of Pain (MAP12)/Supercharge 2"],
+        "sections": [
+          {
+            "ref": "Altar Of Pain (MAP12)/Supercharge 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map12",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility",
+        "access_rules": ["@Altar Of Pain (MAP12)/Invisibility"],
+        "sections": [
+          {
+            "ref": "Altar Of Pain (MAP12)/Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map12",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["@Altar Of Pain (MAP12)/Blue Skull key"],
+        "sections": [
+          {
+            "ref": "Altar Of Pain (MAP12)/Blue Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map12",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["@Altar Of Pain (MAP12)/Red Skull key"],
+        "sections": [
+          {
+            "ref": "Altar Of Pain (MAP12)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map12",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull key",
+        "access_rules": ["@Altar Of Pain (MAP12)/Yellow Skull key"],
+        "sections": [
+          {
+            "ref": "Altar Of Pain (MAP12)/Yellow Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map12",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP12 Exit",
+        "access_rules": ["@Altar Of Pain (MAP12)/MAP12 Exit"],
+        "sections": [
+          {
+            "ref": "Altar Of Pain (MAP12)/MAP12 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e2m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map12",
+            "restrict_visibility_rules": ["ep2_on"],
+            "size": 20,
+            "x": 288,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

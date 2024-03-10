@@ -1,0 +1,221 @@
+[
+  {
+    "name": "MAP02",
+    "parent": "The Terraformer (MAP02)",
+    "children": [
+      {
+        "name": "MAP02 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "The Terraformer (MAP02)/MAP02 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@The Terraformer (MAP02)/Shotgun"],
+        "sections": [
+          {
+            "ref": "The Terraformer (MAP02)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@The Terraformer (MAP02)/Chaingun"],
+        "sections": [
+          {
+            "ref": "The Terraformer (MAP02)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@The Terraformer (MAP02)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "The Terraformer (MAP02)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@The Terraformer (MAP02)/Supercharge"],
+        "sections": [
+          {
+            "ref": "The Terraformer (MAP02)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@The Terraformer (MAP02)/Backpack"],
+        "sections": [
+          {
+            "ref": "The Terraformer (MAP02)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@The Terraformer (MAP02)/Berserk"],
+        "sections": [
+          {
+            "ref": "The Terraformer (MAP02)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": ["@The Terraformer (MAP02)/Blue Keycard"],
+        "sections": [
+          {
+            "ref": "The Terraformer (MAP02)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "access_rules": ["@The Terraformer (MAP02)/Red Keycard"],
+        "sections": [
+          {
+            "ref": "The Terraformer (MAP02)/Red Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "access_rules": ["@The Terraformer (MAP02)/Yellow Keycard"],
+        "sections": [
+          {
+            "ref": "The Terraformer (MAP02)/Yellow Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP02 Exit",
+        "access_rules": ["@The Terraformer (MAP02)/MAP02 Exit"],
+        "sections": [
+          {
+            "ref": "The Terraformer (MAP02)/MAP02 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map02",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 240,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "name": "MAP19",
+    "parent": "The Spiral (MAP19)",
+    "children": [
+      {
+        "name": "MAP19 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "The Spiral (MAP19)/MAP19 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map19",
+            "restrict_visibility_rules": ["ep2_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@The Spiral (MAP19)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "The Spiral (MAP19)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map19",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@The Spiral (MAP19)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "The Spiral (MAP19)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map19",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@The Spiral (MAP19)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "The Spiral (MAP19)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map19",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@The Spiral (MAP19)/Supercharge"],
+        "sections": [
+          {
+            "ref": "The Spiral (MAP19)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map19",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@The Spiral (MAP19)/Backpack"],
+        "sections": [
+          {
+            "ref": "The Spiral (MAP19)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map19",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["@The Spiral (MAP19)/Red Skull key"],
+        "sections": [
+          {
+            "ref": "The Spiral (MAP19)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map19",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP19 Exit",
+        "access_rules": ["@The Spiral (MAP19)/MAP19 Exit"],
+        "sections": [
+          {
+            "ref": "The Spiral (MAP19)/MAP19 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e2m9_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map19",
+            "restrict_visibility_rules": ["ep2_on"],
+            "size": 20,
+            "x": 168,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

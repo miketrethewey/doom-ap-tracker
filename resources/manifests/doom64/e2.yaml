@@ -1,0 +1,153 @@
+E2:
+  M11:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Berserk
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M12:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Plasma
+      - name: Unmaker
+      - name: Armor
+      - name: Supercharge
+        q: 2
+      - name: Invisibility
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M13:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: BFG
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Megasphere
+      - name: Backpack
+      - name: Invulnerability
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M14:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: BFG
+      - name: Supercharge
+      - name: Backpack
+      - name: Blue Skull
+      - name: Exit
+  M15:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Berserk
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Exit
+  M16:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: Mega Armor
+      - name: Supercharge
+        q: 2
+      - name: Backpack
+      - name: Berserk
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M17:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Mega Armor
+      - name: Megasphere
+      - name: Backpack
+      - name: Berserk
+        q: 2
+      - name: Invulnerability
+      - name: Blue Skull
+      - name: Exit
+  M18:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+        q: 2
+      - name: Megasphere
+      - name: Backpack
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M19:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+      - name: Rocket
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Red Skull
+      - name: Exit
+  M20:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Megasphere
+      - name: Backpack
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit

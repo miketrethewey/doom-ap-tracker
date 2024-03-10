@@ -1,0 +1,278 @@
+[
+  {
+    "name": "MAP05",
+    "parent": "Tech Center (MAP05)",
+    "children": [
+      {
+        "name": "MAP05 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Tech Center (MAP05)/MAP05 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": ["@Tech Center (MAP05)/Chainsaw"],
+        "sections": [
+          {
+            "ref": "Tech Center (MAP05)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Tech Center (MAP05)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Tech Center (MAP05)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Tech Center (MAP05)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Tech Center (MAP05)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Tech Center (MAP05)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Tech Center (MAP05)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Tech Center (MAP05)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Tech Center (MAP05)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Tech Center (MAP05)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Tech Center (MAP05)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Tech Center (MAP05)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Tech Center (MAP05)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Tech Center (MAP05)/Backpack"],
+        "sections": [
+          {
+            "ref": "Tech Center (MAP05)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Tech Center (MAP05)/Berserk"],
+        "sections": [
+          {
+            "ref": "Tech Center (MAP05)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": ["@Tech Center (MAP05)/Blue Keycard"],
+        "sections": [
+          {
+            "ref": "Tech Center (MAP05)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "access_rules": ["@Tech Center (MAP05)/Red Keycard"],
+        "sections": [
+          {
+            "ref": "Tech Center (MAP05)/Red Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "access_rules": ["@Tech Center (MAP05)/Yellow Keycard"],
+        "sections": [
+          {
+            "ref": "Tech Center (MAP05)/Yellow Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP05 Exit",
+        "access_rules": ["@Tech Center (MAP05)/MAP05 Exit"],
+        "sections": [
+          {
+            "ref": "Tech Center (MAP05)/MAP05 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map05",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 312,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

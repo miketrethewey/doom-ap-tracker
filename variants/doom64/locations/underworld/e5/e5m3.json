@@ -1,0 +1,297 @@
+[
+  {
+    "name": "MAP36",
+    "parent": "Cold Grounds (MAP36)",
+    "children": [
+      {
+        "name": "MAP36 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Cold Grounds (MAP36)/MAP36 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map36",
+            "restrict_visibility_rules": ["ep5_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Cold Grounds (MAP36)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Cold Grounds (MAP36)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map36",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Cold Grounds (MAP36)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Cold Grounds (MAP36)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map36",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Cold Grounds (MAP36)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Cold Grounds (MAP36)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map36",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun 2",
+        "access_rules": ["@Cold Grounds (MAP36)/Chaingun 2"],
+        "sections": [
+          {
+            "ref": "Cold Grounds (MAP36)/Chaingun 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map36",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Cold Grounds (MAP36)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Cold Grounds (MAP36)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map36",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Cold Grounds (MAP36)/Armor"],
+        "sections": [
+          {
+            "ref": "Cold Grounds (MAP36)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map36",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Cold Grounds (MAP36)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Cold Grounds (MAP36)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map36",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Cold Grounds (MAP36)/Backpack"],
+        "sections": [
+          {
+            "ref": "Cold Grounds (MAP36)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map36",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Cold Grounds (MAP36)/Berserk"],
+        "sections": [
+          {
+            "ref": "Cold Grounds (MAP36)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map36",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": ["@Cold Grounds (MAP36)/Invulnerability"],
+        "sections": [
+          {
+            "ref": "Cold Grounds (MAP36)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map36",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["@Cold Grounds (MAP36)/Blue Skull key"],
+        "sections": [
+          {
+            "ref": "Cold Grounds (MAP36)/Blue Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map36",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["@Cold Grounds (MAP36)/Red Skull key"],
+        "sections": [
+          {
+            "ref": "Cold Grounds (MAP36)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map36",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull key",
+        "access_rules": ["@Cold Grounds (MAP36)/Yellow Skull key"],
+        "sections": [
+          {
+            "ref": "Cold Grounds (MAP36)/Yellow Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map36",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP36 Exit",
+        "access_rules": ["@Cold Grounds (MAP36)/MAP36 Exit"],
+        "sections": [
+          {
+            "ref": "Cold Grounds (MAP36)/MAP36 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e5m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map36",
+            "restrict_visibility_rules": ["ep5_on"],
+            "size": 20,
+            "x": 336,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

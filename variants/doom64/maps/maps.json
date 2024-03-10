@@ -1,0 +1,242 @@
+[
+  {
+    "name": "map01",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e1/map01_map.png"
+  },
+  {
+    "name": "map02",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e1/map02_map.png"
+  },
+  {
+    "name": "map03",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e1/map03_map.png"
+  },
+  {
+    "name": "map04",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e1/map04_map.png"
+  },
+  {
+    "name": "map05",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e1/map05_map.png"
+  },
+  {
+    "name": "map06",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e1/map06_map.png"
+  },
+  {
+    "name": "map07",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e1/map07_map.png"
+  },
+  {
+    "name": "map08",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e1/map08_map.png"
+  },
+  {
+    "name": "map09",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e1/map09_map.png"
+  },
+  {
+    "name": "map10",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e1/map10_map.png"
+  },
+  {
+    "name": "map11",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e2/map11_map.png"
+  },
+  {
+    "name": "map12",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e2/map12_map.png"
+  },
+  {
+    "name": "map13",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e2/map13_map.png"
+  },
+  {
+    "name": "map14",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e2/map14_map.png"
+  },
+  {
+    "name": "map15",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e2/map15_map.png"
+  },
+  {
+    "name": "map16",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e2/map16_map.png"
+  },
+  {
+    "name": "map17",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e2/map17_map.png"
+  },
+  {
+    "name": "map18",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e2/map18_map.png"
+  },
+  {
+    "name": "map19",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e2/map19_map.png"
+  },
+  {
+    "name": "map20",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e2/map20_map.png"
+  },
+  {
+    "name": "map21",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e3/map21_map.png"
+  },
+  {
+    "name": "map22",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e3/map22_map.png"
+  },
+  {
+    "name": "map23",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e3/map23_map.png"
+  },
+  {
+    "name": "map24",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e3/map24_map.png"
+  },
+  {
+    "name": "map25",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e3/map25_map.png"
+  },
+  {
+    "name": "map26",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e3/map26_map.png"
+  },
+  {
+    "name": "map27",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e3/map27_map.png"
+  },
+  {
+    "name": "map28",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e3/map28_map.png"
+  },
+  {
+    "name": "map29",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e4/map29_map.png"
+  },
+  {
+    "name": "map30",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e4/map30_map.png"
+  },
+  {
+    "name": "map31",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e4/map31_map.png"
+  },
+  {
+    "name": "map32",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e4/map32_map.png"
+  },
+  {
+    "name": "map33",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e4/map33_map.png"
+  },
+  {
+    "name": "map34",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e5/map34_map.png"
+  },
+  {
+    "name": "map35",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e5/map35_map.png"
+  },
+  {
+    "name": "map36",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e5/map36_map.png"
+  },
+  {
+    "name": "map37",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e5/map37_map.png"
+  },
+  {
+    "name": "map38",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e5/map38_map.png"
+  },
+  {
+    "name": "map39",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e4/map39_map.png"
+  },
+  {
+    "name": "map40",
+    "location_size": 12,
+    "location_border_thickness": 1,
+    "img": "variants/doom64/images/maps/e4/map40_map.png"
+  }
+]

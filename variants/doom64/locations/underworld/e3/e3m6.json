@@ -1,0 +1,164 @@
+[
+  {
+    "name": "MAP26",
+    "parent": "Hardcore (MAP26)",
+    "children": [
+      {
+        "name": "MAP26 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Hardcore (MAP26)/MAP26 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map26",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Hardcore (MAP26)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Hardcore (MAP26)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map26",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Hardcore (MAP26)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Hardcore (MAP26)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map26",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": ["@Hardcore (MAP26)/Plasma Rifle"],
+        "sections": [
+          {
+            "ref": "Hardcore (MAP26)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map26",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Hardcore (MAP26)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Hardcore (MAP26)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map26",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Megasphere",
+        "access_rules": ["@Hardcore (MAP26)/Megasphere"],
+        "sections": [
+          {
+            "ref": "Hardcore (MAP26)/Megasphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map26",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Hardcore (MAP26)/Backpack"],
+        "sections": [
+          {
+            "ref": "Hardcore (MAP26)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map26",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP26 Exit",
+        "access_rules": ["@Hardcore (MAP26)/MAP26 Exit"],
+        "sections": [
+          {
+            "ref": "Hardcore (MAP26)/MAP26 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e3m6_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map26",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 168,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

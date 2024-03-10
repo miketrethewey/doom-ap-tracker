@@ -1,0 +1,316 @@
+[
+  {
+    "name": "MAP38",
+    "parent": "Thy Glory (MAP38)",
+    "children": [
+      {
+        "name": "MAP38 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Thy Glory (MAP38)/MAP38 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map38",
+            "restrict_visibility_rules": ["ep5_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Thy Glory (MAP38)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Thy Glory (MAP38)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map38",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Thy Glory (MAP38)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Thy Glory (MAP38)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map38",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Thy Glory (MAP38)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Thy Glory (MAP38)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map38",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Thy Glory (MAP38)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Thy Glory (MAP38)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map38",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": ["@Thy Glory (MAP38)/Plasma Rifle"],
+        "sections": [
+          {
+            "ref": "Thy Glory (MAP38)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map38",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Thy Glory (MAP38)/Armor"],
+        "sections": [
+          {
+            "ref": "Thy Glory (MAP38)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map38",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Thy Glory (MAP38)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Thy Glory (MAP38)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map38",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Thy Glory (MAP38)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Thy Glory (MAP38)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map38",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Thy Glory (MAP38)/Backpack"],
+        "sections": [
+          {
+            "ref": "Thy Glory (MAP38)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map38",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Thy Glory (MAP38)/Berserk"],
+        "sections": [
+          {
+            "ref": "Thy Glory (MAP38)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map38",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": ["@Thy Glory (MAP38)/Computer Area Map"],
+        "sections": [
+          {
+            "ref": "Thy Glory (MAP38)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map38",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["@Thy Glory (MAP38)/Blue Skull key"],
+        "sections": [
+          {
+            "ref": "Thy Glory (MAP38)/Blue Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map38",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["@Thy Glory (MAP38)/Red Skull key"],
+        "sections": [
+          {
+            "ref": "Thy Glory (MAP38)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map38",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull key",
+        "access_rules": ["@Thy Glory (MAP38)/Yellow Skull key"],
+        "sections": [
+          {
+            "ref": "Thy Glory (MAP38)/Yellow Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map38",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP38 Exit",
+        "access_rules": ["@Thy Glory (MAP38)/MAP38 Exit"],
+        "sections": [
+          {
+            "ref": "Thy Glory (MAP38)/MAP38 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e5m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map38",
+            "restrict_visibility_rules": ["ep5_on"],
+            "size": 20,
+            "x": 360,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

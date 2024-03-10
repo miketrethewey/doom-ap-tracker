@@ -1,0 +1,111 @@
+E3:
+  M21:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Map
+      - name: Invulnerability
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M22:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+        q: 2
+      - name: Megasphere
+      - name: Backpack
+      - name: Berserk
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M23:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Unmaker
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+        q: 2
+      - name: Berserk
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M24:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Exit
+  M25:
+    locations:
+      - name: Entrance
+      - name: Rocket
+      - name: Berserk
+      - name: Exit
+  M26:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+      - name: Rocket
+      - name: Plasma
+      - name: Mega Armor
+      - name: Megasphere
+      - name: Backpack
+      - name: Exit
+  M27:
+    locations:
+      - name: Entrance
+      - name: Rocket
+      - name: Megasphere
+      - name: Backpack
+        q: 3
+      - name: Invisibility
+        q: 9
+      - name: Exit
+  M28:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Unmaker
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Megasphere
+      - name: Backpack
+      - name: Invulnerability
+      - name: Exit

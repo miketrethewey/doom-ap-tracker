@@ -1,0 +1,240 @@
+[
+  {
+    "name": "MAP31",
+    "parent": "In The Void (MAP31)",
+    "children": [
+      {
+        "name": "MAP31 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "In The Void (MAP31)/MAP31 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@In The Void (MAP31)/Shotgun"],
+        "sections": [
+          {
+            "ref": "In The Void (MAP31)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@In The Void (MAP31)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "In The Void (MAP31)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@In The Void (MAP31)/Chaingun"],
+        "sections": [
+          {
+            "ref": "In The Void (MAP31)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@In The Void (MAP31)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "In The Void (MAP31)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@In The Void (MAP31)/Armor"],
+        "sections": [
+          {
+            "ref": "In The Void (MAP31)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@In The Void (MAP31)/Supercharge"],
+        "sections": [
+          {
+            "ref": "In The Void (MAP31)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Cyan demon key",
+        "access_rules": ["@In The Void (MAP31)/Cyan demon key"],
+        "sections": [
+          {
+            "ref": "In The Void (MAP31)/Cyan demon key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["@In The Void (MAP31)/Blue Skull key"],
+        "sections": [
+          {
+            "ref": "In The Void (MAP31)/Blue Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["@In The Void (MAP31)/Red Skull key"],
+        "sections": [
+          {
+            "ref": "In The Void (MAP31)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull key",
+        "access_rules": ["@In The Void (MAP31)/Yellow Skull key"],
+        "sections": [
+          {
+            "ref": "In The Void (MAP31)/Yellow Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP31 Exit",
+        "access_rules": ["@In The Void (MAP31)/MAP31 Exit"],
+        "sections": [
+          {
+            "ref": "In The Void (MAP31)/MAP31 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e4m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map31",
+            "restrict_visibility_rules": ["ep4_on"],
+            "size": 20,
+            "x": 288,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

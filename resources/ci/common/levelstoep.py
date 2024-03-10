@@ -5,12 +5,12 @@ import luadata
 
 CONSTANTS = {}
 
-for filename in ["keysets.lua"]:
+for filename in ["mapdesignations.lua","keysets.lua"]:
     with open(os.path.join("scripts","constants",filename)) as constantsFile:
         constantsLua = constantsFile.read()
         CONSTANTS[filename[:filename.find('.')]] = luadata.unserialize(constantsLua)
 
-baseGame = "doomii"
+baseGame = "doom64"
 basePath = os.path.join(
     "variants",
     baseGame,
@@ -43,12 +43,7 @@ if os.path.isdir(basePath):
                     ), "r") as mapFile:
                         mapID = os.path.splitext(mapPath)[0][3:]
                         mapHandle = f"e{epID}m{mapID}"
-                        if baseGame in [
-                            "doomii",
-                            "tnt",
-                            "plutonia",
-                            "nrftl"
-                        ]:
+                        if CONSTANTS["mapdesignations"][baseGame] == "mapxx":
                             mapIDX = mapID
                             # if later "episode" add previous lengths
                             for numEp,numMaps in enumerate(numMapsHistory):

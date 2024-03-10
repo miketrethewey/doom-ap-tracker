@@ -1,0 +1,164 @@
+[
+  {
+    "name": "MAP01",
+    "parent": "Staging Area (MAP01)",
+    "children": [
+      {
+        "name": "MAP01 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Staging Area (MAP01)/MAP01 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": ["@Staging Area (MAP01)/Chainsaw"],
+        "sections": [
+          {
+            "ref": "Staging Area (MAP01)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Staging Area (MAP01)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Staging Area (MAP01)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Staging Area (MAP01)/Armor"],
+        "sections": [
+          {
+            "ref": "Staging Area (MAP01)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Staging Area (MAP01)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Staging Area (MAP01)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Staging Area (MAP01)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Staging Area (MAP01)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": ["@Staging Area (MAP01)/Blue Keycard"],
+        "sections": [
+          {
+            "ref": "Staging Area (MAP01)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP01 Exit",
+        "access_rules": ["@Staging Area (MAP01)/MAP01 Exit"],
+        "sections": [
+          {
+            "ref": "Staging Area (MAP01)/MAP01 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map01",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 168,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

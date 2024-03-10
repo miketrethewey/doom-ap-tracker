@@ -1,0 +1,316 @@
+[
+  {
+    "name": "MAP37",
+    "parent": "Wretched Vats (MAP37)",
+    "children": [
+      {
+        "name": "MAP37 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Wretched Vats (MAP37)/MAP37 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map37",
+            "restrict_visibility_rules": ["ep5_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": ["@Wretched Vats (MAP37)/Chainsaw"],
+        "sections": [
+          {
+            "ref": "Wretched Vats (MAP37)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map37",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Wretched Vats (MAP37)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Wretched Vats (MAP37)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map37",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": ["@Wretched Vats (MAP37)/Super Shotgun"],
+        "sections": [
+          {
+            "ref": "Wretched Vats (MAP37)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map37",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Wretched Vats (MAP37)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Wretched Vats (MAP37)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map37",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Wretched Vats (MAP37)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Wretched Vats (MAP37)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map37",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "access_rules": ["@Wretched Vats (MAP37)/Plasma Rifle"],
+        "sections": [
+          {
+            "ref": "Wretched Vats (MAP37)/Plasma Rifle",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map37",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Wretched Vats (MAP37)/Armor"],
+        "sections": [
+          {
+            "ref": "Wretched Vats (MAP37)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map37",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Wretched Vats (MAP37)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Wretched Vats (MAP37)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map37",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Wretched Vats (MAP37)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Wretched Vats (MAP37)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map37",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "access_rules": ["@Wretched Vats (MAP37)/Supercharge 2"],
+        "sections": [
+          {
+            "ref": "Wretched Vats (MAP37)/Supercharge 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map37",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Wretched Vats (MAP37)/Backpack"],
+        "sections": [
+          {
+            "ref": "Wretched Vats (MAP37)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map37",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["@Wretched Vats (MAP37)/Blue Skull key"],
+        "sections": [
+          {
+            "ref": "Wretched Vats (MAP37)/Blue Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map37",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["@Wretched Vats (MAP37)/Red Skull key"],
+        "sections": [
+          {
+            "ref": "Wretched Vats (MAP37)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map37",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull key",
+        "access_rules": ["@Wretched Vats (MAP37)/Yellow Skull key"],
+        "sections": [
+          {
+            "ref": "Wretched Vats (MAP37)/Yellow Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map37",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP37 Exit",
+        "access_rules": ["@Wretched Vats (MAP37)/MAP37 Exit"],
+        "sections": [
+          {
+            "ref": "Wretched Vats (MAP37)/MAP37 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e5m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map37",
+            "restrict_visibility_rules": ["ep5_on"],
+            "size": 20,
+            "x": 360,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

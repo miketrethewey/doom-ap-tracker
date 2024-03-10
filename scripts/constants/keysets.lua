@@ -379,6 +379,179 @@ keySets = {
     }
   },
 
+  -- DOOM64
+  [ "doom64" ] = {
+    -- DOOM64; 19970331
+    [ "episodes" ] = {
+      -- D64 "Episode" 1
+      {
+        [ "name" ] = "Episode 1",
+        [ "maps" ] = {
+          {
+            [ "name" ] = "Staging Area",
+            [ "keys" ] = "B"
+          },
+          {
+            [ "name" ] = "The Terraformer",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Main Engineering",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Holding Area",
+            [ "keys" ] = "B"
+          },
+          {
+            [ "name" ] = "Tech Center",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Alpha Quadrant",
+            [ "keys" ] = "BY"
+          },
+          {
+            [ "name" ] = "Research Lab",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Final Outpost",
+            [ "keys" ] = "BYR"
+          },
+          { [ "name" ] = "Even Simpler" },
+          {
+            [ "name" ] = "The Bleeding",
+            [ "keys" ] = "Y"
+          }
+        }
+      },
+      -- D64 "Episode" 2
+      {
+        [ "name" ] = "Episode 2",
+        [ "maps" ] = {
+          {
+            [ "name" ] = "Terror Core",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Altar Of Pain",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Dark Citadel",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Eye Of The Storm",
+            [ "keys" ] = "B"
+          },
+          {
+            [ "name" ] = "Dark Entries",
+            [ "keys" ] = "BR"
+          },
+          {
+            [ "name" ] = "Blood Keep",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Watch Your Step",
+            [ "keys" ] = "B"
+          },
+          {
+            [ "name" ] = "Spawned Fear",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "The Spiral",
+            [ "keys" ] = "R"
+          },
+          {
+            [ "name" ] = "Breakdown",
+            [ "keys" ] = "BYR"
+          }
+        }
+      },
+      -- D64 "Epsiode" 3
+      {
+        [ "name" ] = "Episode 3",
+        [ "maps" ] = {
+          {
+            [ "name" ] = "Pitfalls",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Burnt Offerings",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Unholy Temple",
+            [ "keys" ] = "BYR"
+          },
+          { [ "name" ] = "No Escape" },
+          { [ "name" ] = "Cat And Mouse" },
+          { [ "name" ] = "Hardcore" },
+          { [ "name" ] = "Playground" },
+          { [ "name" ] = "The Absolution" }
+        }
+      },
+      -- D64 "Episode" 4
+      {
+        [ "name" ]  = "Secret",
+        [ "maps" ] = {
+          {
+            [ "name" ] = "Outpost Omega",
+            [ "keys" ] = "BYRO"
+          },
+          {
+            [ "name" ] = "The Lair",
+            [ "keys" ] = "BYP"
+          },
+          {
+            [ "name" ] = "In The Void",
+            [ "keys" ] = "BYRC"
+          },
+          {
+            [ "name" ] = "Hectic",
+            [ "keys" ] = "BYR"
+          },
+          { [ "name" ] = "Title" }
+        }
+      },
+      -- D64 "Episode" 5
+      {
+        [ "name" ] = "The Lost Levels",
+        [ "maps" ] = {
+          {
+            [ "name" ] = "Plant Ops",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Evil Sacrifice",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Cold Grounds",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Wretched Vats",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Thy Glory",
+            [ "keys" ] = "BYR"
+          },
+          {
+            [ "name" ] = "Final Judgement",
+            [ "keys" ] = "PCO"
+          },
+          { [ "name" ] = "Panic" }
+        }
+      }
+    }
+  },
+
   -- DII "Episode" 4;
   -- XBOX 2010, PS3 20121120, PC 20190726
   [ "nrftl" ] = {
