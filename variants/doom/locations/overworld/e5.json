@@ -9,27 +9,28 @@
         "sections": [
           {
             "name": "Shotgun",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Supercharge",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Chaingun",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Computer Area Map",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Exit",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "hosted_item": "e5m1_complete"
           }
         ],
@@ -48,38 +49,42 @@
         "sections": [
           {
             "name": "Shotgun",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Berserk",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Supercharge",
             "note": "Behind Berserk",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Mega Armor",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Supercharge",
-            "note": "With Chaingun",
+            "note": "With Chaingun, no reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Chaingun",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Red Skull Key",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
@@ -91,7 +96,7 @@
           },
           {
             "name": "Exit",
-            "access_rules": [],
+            "access_rules": ["$access|e5m2|red"],
             "hosted_item": "e5m2_complete"
           }
         ],
@@ -110,47 +115,48 @@
         "sections": [
           {
             "name": "Chaingun",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Berserk",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Computer Area Map",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Red Skull Key",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Armor",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["$access|e5m3|red"],
+            "access_rules": ["$canShootSigil,$access|e5m3|red"],
             "item_count": 1
           },
           {
             "name": "Supercharge",
-            "access_rules": ["$access|e5m3|red"],
+            "access_rules": ["$canShootSigil,$access|e5m3|red"],
             "item_count": 1
           },
           {
             "name": "Backpack",
-            "access_rules": ["$access|e5m3|red"],
+            "access_rules": ["$canShootSigil,$access|e5m3|red"],
             "item_count": 1
           },
           {
             "name": "Exit",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil,$access|e5m3|red"],
             "hosted_item": "e5m3_complete"
           }
         ],
@@ -169,24 +175,26 @@
         "sections": [
           {
             "name": "Chainsaw",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Shotgun",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Supercharge",
             "note": "Left section",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Red Skull Key",
             "note": "Left section",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
@@ -197,52 +205,52 @@
           },
           {
             "name": "Yellow Skull Key",
-            "note": "Middle section",
+            "note": "Middle section, no reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Invulnerability",
-            "note": "Right section",
+            "note": "Right section, no reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Supercharge",
             "note": "Right section, behind false wall",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Mega Armor",
             "note": "Right section, in crusher area",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Blue Skull Key",
             "note": "Right section, in crusher area",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Chaingun",
-            "access_rules": ["$access|e5m4|blue|yellow|red"],
+            "access_rules": ["$canShootSigil,$access|e5m4|blue|yellow|red"],
             "item_count": 1
           },
           {
             "name": "Backpack",
-            "access_rules": ["$access|e5m4|blue|yellow|red"],
+            "access_rules": ["$canShootSigil,$access|e5m4|blue|yellow|red"],
             "item_count": 1
           },
           {
             "name": "Armor",
-            "access_rules": ["$access|e5m4|blue|yellow|red"],
+            "access_rules": ["$canShootSigil,$access|e5m4|blue|yellow|red"],
             "item_count": 1
           },
           {
             "name": "Exit",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil,$access|e5m4|blue|yellow|red"],
             "hosted_item": "e5m4_complete"
           }
         ],
@@ -261,23 +269,25 @@
         "sections": [
           {
             "name": "Shotgun",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Armor",
-            "note": "Eastern building",
+            "note": "Eastern building, no reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Mega Armor",
-            "note": "Outside eastern building",
+            "note": "Outside eastern building, no reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Chaingun",
+            "note": "Center platform, no reqs",
             "access_rules": [],
             "item_count": 1
           },
@@ -289,23 +299,24 @@
           },
           {
             "name": "Rocket Launcher",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Chainsaw",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Blue Skull Key",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Supercharge 2",
             "note": "On catwalk after teleporter after vanilla Blue Skull Key",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
@@ -321,7 +332,7 @@
           },
           {
             "name": "Exit",
-            "access_rules": [],
+            "access_rules": ["$access|e5m5|yellow"],
             "hosted_item": "e5m5_complete"
           }
         ],
@@ -340,42 +351,48 @@
         "sections": [
           {
             "name": "Shotgun",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Chaingun",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Plasma Rifle",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Lignt-Amplification Goggles",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Armor",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Red Skull Key",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "BFG9000",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Invulnerability",
-            "access_rules": [],
+            "access_rules": ["$access|e5m6|red"],
             "item_count": 1
           },
           {
@@ -391,34 +408,34 @@
           {
             "name": "Berserk",
             "note": "On path to east",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Berserk 2",
             "note": "In east",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Armor 2",
             "note": "In east, above Berserk 2",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Supercharge",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Exit",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "hosted_item": "e5m6_complete"
           },
           {
             "name": "Secret Exit",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "hosted_item": "e5m6_complete"
           }
         ],
@@ -437,60 +454,71 @@
         "sections": [
           {
             "name": "Shotgun",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Armor",
             "note": "Next to vanilla Chainsaw",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Chainsaw",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Chaingun",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "BFG9000",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Red Skull Key",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Armor",
             "note": "Across acid from vanilla Red Skull Key",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Mega Armor",
-            "note": "Near Rocket Launcher",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Armor 2",
+            "access_rules": ["$canShootSigil,$access|e5m7|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma gun",
+            "access_rules": ["$canShootSigil,$access|e5m7|red"],
             "item_count": 1
           },
           {
             "name": "Yellow Skull Key",
-            "access_rules": ["$access|e5m7|red"],
+            "access_rules": ["$canShootSigil,$access|e5m7|red"],
             "item_count": 1
           },
           {
             "name": "Exit",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil,$access|e5m7|yellow|red"],
             "hosted_item": "e5m7_complete"
           }
         ],
@@ -509,52 +537,53 @@
         "sections": [
           {
             "name": "Shotgun",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Chaingun",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Red Skull Key",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Backpack",
-            "access_rules": ["$access|e5m8|red"],
+            "access_rules": ["$canShootSigil,$access|e5m8|red"],
             "item_count": 1
           },
           {
             "name": "Plasma Rifle",
-            "access_rules": ["$access|e5m8|red"],
+            "access_rules": ["$canShootSigil,$access|e5m8|red"],
             "item_count": 1
           },
           {
             "name": "Armor",
-            "access_rules": ["$access|e5m8|red"],
+            "access_rules": ["$canShootSigil,$access|e5m8|red"],
             "item_count": 1
           },
           {
             "name": "BFG9000",
-            "access_rules": ["$access|e5m8|red"],
+            "access_rules": ["$canShootSigil,$access|e5m8|red"],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["$access|e5m8|red"],
+            "access_rules": ["$canShootSigil,$access|e5m8|red"],
             "item_count": 1
           },
           {
             "name": "Supercharge",
-            "access_rules": ["$access|e5m8|red"],
+            "access_rules": ["$canShootSigil,$access|e5m8|red"],
             "item_count": 1
           },
           {
             "name": "Exit",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil,$access|e5m8|red"],
             "hosted_item": "e5m8_complete"
           }
         ],
@@ -572,43 +601,70 @@
         "access_rules": ["$access|e5m9"],
         "sections": [
           {
+            "name": "Shotgun",
+            "note": "No reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
             "name": "Chaingun",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Red Skull Key",
+            "note": "No reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Armor",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Berserk",
+            "note": "No reqs",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Blue Skull Key",
+            "note": "No reqs",
             "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": ["$access|e5m9|red"],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["$access|e5m9|blue"],
+            "access_rules": ["$canShootSigil,$access|e5m9|blue|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": ["$canShootSigil,$access|e5m9|blue|red"],
             "item_count": 1
           },
           {
             "name": "Yellow Skull Key",
-            "access_rules": ["$access|e5m9|blue"],
+            "access_rules": ["$canShootSigil,$access|e5m9|blue|red"],
             "item_count": 1
           },
           {
             "name": "Exit",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil,$access|e5m9|blue|yellow|red"],
             "hosted_item": "e5m9_complete"
           }
         ],

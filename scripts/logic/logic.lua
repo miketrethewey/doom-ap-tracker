@@ -83,6 +83,10 @@ function or_access(level, one, two, three)
     return ret
 end
 
+function canShootSigil()
+    return has("pistol") or has("shotgun") or has("chaingun")
+end
+
 -- defined but not used?
 -- red
 function e3m9_redaccess()
