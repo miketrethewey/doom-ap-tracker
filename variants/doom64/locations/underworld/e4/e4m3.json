@@ -140,11 +140,11 @@
         ]
       },
       {
-        "name": "Cyan demon key",
-        "access_rules": ["@In The Void (MAP31)/Cyan demon key"],
+        "name": "Cyan Demon key",
+        "access_rules": ["@In The Void (MAP31)/Cyan Demon key"],
         "sections": [
           {
-            "ref": "In The Void (MAP31)/Cyan demon key",
+            "ref": "In The Void (MAP31)/Cyan Demon key",
             "name": "Item",
             "item_count": 1
           }

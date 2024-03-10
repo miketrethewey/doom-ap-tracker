@@ -231,12 +231,12 @@
     "name": "map39",
     "location_size": 12,
     "location_border_thickness": 1,
-    "img": "variants/doom64/images/maps/e4/map39_map.png"
+    "img": "variants/doom64/images/maps/e5/map39_map.png"
   },
   {
     "name": "map40",
     "location_size": 12,
     "location_border_thickness": 1,
-    "img": "variants/doom64/images/maps/e4/map40_map.png"
+    "img": "variants/doom64/images/maps/e5/map40_map.png"
   }
 ]

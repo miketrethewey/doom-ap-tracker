@@ -292,11 +292,11 @@
         ]
       },
       {
-        "name": "Orange demon key",
-        "access_rules": ["@Final Judgement (MAP39)/Orange demon key"],
+        "name": "Orange Demon key",
+        "access_rules": ["@Final Judgement (MAP39)/Orange Demon key"],
         "sections": [
           {
-            "ref": "Final Judgement (MAP39)/Orange demon key",
+            "ref": "Final Judgement (MAP39)/Orange Demon key",
             "name": "Item",
             "item_count": 1
           }
@@ -311,11 +311,11 @@
         ]
       },
       {
-        "name": "Cyan demon key",
-        "access_rules": ["@Final Judgement (MAP39)/Cyan demon key"],
+        "name": "Cyan Demon key",
+        "access_rules": ["@Final Judgement (MAP39)/Cyan Demon key"],
         "sections": [
           {
-            "ref": "Final Judgement (MAP39)/Cyan demon key",
+            "ref": "Final Judgement (MAP39)/Cyan Demon key",
             "name": "Item",
             "item_count": 1
           }
@@ -330,11 +330,11 @@
         ]
       },
       {
-        "name": "Purple demon key",
-        "access_rules": ["@Final Judgement (MAP39)/Purple demon key"],
+        "name": "Purple Demon key",
+        "access_rules": ["@Final Judgement (MAP39)/Purple Demon key"],
         "sections": [
           {
-            "ref": "Final Judgement (MAP39)/Purple demon key",
+            "ref": "Final Judgement (MAP39)/Purple Demon key",
             "name": "Item",
             "item_count": 1
           }

@@ -197,11 +197,11 @@
         ]
       },
       {
-        "name": "Purple demon key",
-        "access_rules": ["@The Lair (MAP30)/Purple demon key"],
+        "name": "Purple Demon key",
+        "access_rules": ["@The Lair (MAP30)/Purple Demon key"],
         "sections": [
           {
-            "ref": "The Lair (MAP30)/Purple demon key",
+            "ref": "The Lair (MAP30)/Purple Demon key",
             "name": "Item",
             "item_count": 1
           }
