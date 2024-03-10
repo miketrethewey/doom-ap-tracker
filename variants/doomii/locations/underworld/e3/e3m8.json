@@ -102,11 +102,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@The Spirit World (MAP28)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@The Spirit World (MAP28)/Plasma Gun"],
         "sections": [
           {
-            "ref": "The Spirit World (MAP28)/Plasma Rifle",
+            "ref": "The Spirit World (MAP28)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }

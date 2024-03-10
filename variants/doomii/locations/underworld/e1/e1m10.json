@@ -102,11 +102,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@Refueling Base (MAP10)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@Refueling Base (MAP10)/Plasma Gun"],
         "sections": [
           {
-            "ref": "Refueling Base (MAP10)/Plasma Rifle",
+            "ref": "Refueling Base (MAP10)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }

@@ -102,11 +102,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@Industrial Zone (MAP15)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@Industrial Zone (MAP15)/Plasma Gun"],
         "sections": [
           {
-            "ref": "Industrial Zone (MAP15)/Plasma Rifle",
+            "ref": "Industrial Zone (MAP15)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }

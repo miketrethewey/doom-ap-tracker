@@ -178,11 +178,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@Baron's Banquet (MAP07)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@Baron's Banquet (MAP07)/Plasma Gun"],
         "sections": [
           {
-            "ref": "Baron's Banquet (MAP07)/Plasma Rifle",
+            "ref": "Baron's Banquet (MAP07)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }

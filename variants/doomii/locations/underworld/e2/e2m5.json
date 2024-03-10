@@ -102,11 +102,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@Suburbs (MAP16)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@Suburbs (MAP16)/Plasma Gun"],
         "sections": [
           {
-            "ref": "Suburbs (MAP16)/Plasma Rifle",
+            "ref": "Suburbs (MAP16)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }
@@ -121,11 +121,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle 2",
-        "access_rules": ["@Suburbs (MAP16)/Plasma Rifle 2"],
+        "name": "Plasma Gun 2",
+        "access_rules": ["@Suburbs (MAP16)/Plasma Gun 2"],
         "sections": [
           {
-            "ref": "Suburbs (MAP16)/Plasma Rifle 2",
+            "ref": "Suburbs (MAP16)/Plasma Gun 2",
             "name": "Item",
             "item_count": 1
           }
@@ -140,11 +140,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle 3",
-        "access_rules": ["@Suburbs (MAP16)/Plasma Rifle 3"],
+        "name": "Plasma Gun 3",
+        "access_rules": ["@Suburbs (MAP16)/Plasma Gun 3"],
         "sections": [
           {
-            "ref": "Suburbs (MAP16)/Plasma Rifle 3",
+            "ref": "Suburbs (MAP16)/Plasma Gun 3",
             "name": "Item",
             "item_count": 1
           }
@@ -159,11 +159,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle 4",
-        "access_rules": ["@Suburbs (MAP16)/Plasma Rifle 4"],
+        "name": "Plasma Gun 4",
+        "access_rules": ["@Suburbs (MAP16)/Plasma Gun 4"],
         "sections": [
           {
-            "ref": "Suburbs (MAP16)/Plasma Rifle 4",
+            "ref": "Suburbs (MAP16)/Plasma Gun 4",
             "name": "Item",
             "item_count": 1
           }

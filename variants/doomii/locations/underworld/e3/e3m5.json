@@ -64,11 +64,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@Bloodfalls (MAP25)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@Bloodfalls (MAP25)/Plasma Gun"],
         "sections": [
           {
-            "ref": "Bloodfalls (MAP25)/Plasma Rifle",
+            "ref": "Bloodfalls (MAP25)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }

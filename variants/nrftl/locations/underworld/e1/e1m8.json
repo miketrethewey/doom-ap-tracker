@@ -83,11 +83,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@Tomb of Malevolence (MAP08)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@Tomb of Malevolence (MAP08)/Plasma Gun"],
         "sections": [
           {
-            "ref": "Tomb of Malevolence (MAP08)/Plasma Rifle",
+            "ref": "Tomb of Malevolence (MAP08)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }
@@ -102,11 +102,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle 2",
-        "access_rules": ["@Tomb of Malevolence (MAP08)/Plasma Rifle 2"],
+        "name": "Plasma Gun 2",
+        "access_rules": ["@Tomb of Malevolence (MAP08)/Plasma Gun 2"],
         "sections": [
           {
-            "ref": "Tomb of Malevolence (MAP08)/Plasma Rifle 2",
+            "ref": "Tomb of Malevolence (MAP08)/Plasma Gun 2",
             "name": "Item",
             "item_count": 1
           }

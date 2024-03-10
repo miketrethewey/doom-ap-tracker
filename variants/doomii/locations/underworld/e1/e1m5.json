@@ -64,11 +64,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@The Waste Tunnels (MAP05)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@The Waste Tunnels (MAP05)/Plasma Gun"],
         "sections": [
           {
-            "ref": "The Waste Tunnels (MAP05)/Plasma Rifle",
+            "ref": "The Waste Tunnels (MAP05)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }

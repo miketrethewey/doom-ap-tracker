@@ -83,11 +83,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@Circle of Death (MAP11)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@Circle of Death (MAP11)/Plasma Gun"],
         "sections": [
           {
-            "ref": "Circle of Death (MAP11)/Plasma Rifle",
+            "ref": "Circle of Death (MAP11)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }

@@ -362,7 +362,7 @@
             "item_count": 1
           },
           {
-            "name": "Plasma Rifle",
+            "name": "Plasma Gun",
             "note": "No reqs",
             "access_rules": [],
             "item_count": 1
@@ -557,7 +557,7 @@
             "item_count": 1
           },
           {
-            "name": "Plasma Rifle",
+            "name": "Plasma Gun",
             "access_rules": ["$canShootSigil,$access|e5m8|red"],
             "item_count": 1
           },

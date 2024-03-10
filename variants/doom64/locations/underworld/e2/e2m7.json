@@ -102,11 +102,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@Watch Your Step (MAP17)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@Watch Your Step (MAP17)/Plasma Gun"],
         "sections": [
           {
-            "ref": "Watch Your Step (MAP17)/Plasma Rifle",
+            "ref": "Watch Your Step (MAP17)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }

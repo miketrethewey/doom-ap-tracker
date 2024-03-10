@@ -102,11 +102,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@Blood Keep (MAP16)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@Blood Keep (MAP16)/Plasma Gun"],
         "sections": [
           {
-            "ref": "Blood Keep (MAP16)/Plasma Rifle",
+            "ref": "Blood Keep (MAP16)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }

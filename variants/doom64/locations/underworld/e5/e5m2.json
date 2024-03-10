@@ -102,11 +102,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@Evil Sacrifice (MAP35)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@Evil Sacrifice (MAP35)/Plasma Gun"],
         "sections": [
           {
-            "ref": "Evil Sacrifice (MAP35)/Plasma Rifle",
+            "ref": "Evil Sacrifice (MAP35)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }

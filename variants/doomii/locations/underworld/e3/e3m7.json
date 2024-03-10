@@ -102,11 +102,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@Monster Condo (MAP27)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@Monster Condo (MAP27)/Plasma Gun"],
         "sections": [
           {
-            "ref": "Monster Condo (MAP27)/Plasma Rifle",
+            "ref": "Monster Condo (MAP27)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }

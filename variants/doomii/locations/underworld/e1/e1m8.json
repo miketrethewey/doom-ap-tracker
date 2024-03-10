@@ -102,11 +102,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@Tricks and Traps (MAP08)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@Tricks and Traps (MAP08)/Plasma Gun"],
         "sections": [
           {
-            "ref": "Tricks and Traps (MAP08)/Plasma Rifle",
+            "ref": "Tricks and Traps (MAP08)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }

@@ -15,10 +15,11 @@ for filename in ["mapdesignations.lua","keysets.lua"]:
         constantsLua = constantsFile.read()
         CONSTANTS[filename[:filename.find('.')]] = luadata.unserialize(constantsLua)
 
-baseGame = "doom64"
+baseGame = "doom"
 
 numMapsHistory = []
-for epID in range(1,len(CONSTANTS["keysets"][baseGame]["episodes"]) + 1):
+# for epID in range(1,len(CONSTANTS["keysets"][baseGame]["episodes"]) + 1):
+for epID in range(6,6):
     numMaps = len(CONSTANTS["keysets"][baseGame]["episodes"][epID-1]["maps"])
     numMapsHistory.append(numMaps)
     ymlPath = os.path.join(
@@ -69,7 +70,7 @@ for epID in range(1,len(CONSTANTS["keysets"][baseGame]["episodes"]) + 1):
                                 "Card": "Keycard",
                                 "Skull": "Skull key",
                                 "Rocket": "Rocket Launcher",
-                                "Plasma": "Plasma Rifle",
+                                "Plasma": "Plasma Gun",
                                 "BFG": "BFG9000"
                             }.items():
                                 if srch in locName:

@@ -121,11 +121,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@Wretched Vats (MAP37)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@Wretched Vats (MAP37)/Plasma Gun"],
         "sections": [
           {
-            "ref": "Wretched Vats (MAP37)/Plasma Rifle",
+            "ref": "Wretched Vats (MAP37)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }

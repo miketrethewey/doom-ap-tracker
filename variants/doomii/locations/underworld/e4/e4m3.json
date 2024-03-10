@@ -178,11 +178,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@Betray (MAP33)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@Betray (MAP33)/Plasma Gun"],
         "sections": [
           {
-            "ref": "Betray (MAP33)/Plasma Rifle",
+            "ref": "Betray (MAP33)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }

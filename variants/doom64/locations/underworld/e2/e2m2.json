@@ -64,11 +64,11 @@
         ]
       },
       {
-        "name": "Plasma Rifle",
-        "access_rules": ["@Altar Of Pain (MAP12)/Plasma Rifle"],
+        "name": "Plasma Gun",
+        "access_rules": ["@Altar Of Pain (MAP12)/Plasma Gun"],
         "sections": [
           {
-            "ref": "Altar Of Pain (MAP12)/Plasma Rifle",
+            "ref": "Altar Of Pain (MAP12)/Plasma Gun",
             "name": "Item",
             "item_count": 1
           }
