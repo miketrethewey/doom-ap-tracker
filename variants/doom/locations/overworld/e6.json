@@ -8,8 +8,61 @@
         "access_rules": ["$access|e6m1"],
         "sections": [
           {
-            "name": "Exit",
-            "access_rules": [],
+            "name": "Shotgun",
+            "access_rules": ["$canShootSigil"],
+            "visibility_rules": [
+              "difficulty_baby",
+              "difficulty_easy",
+              "difficulty_med"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Armor 2",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": ["$canDo30SecTrial"],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "note": "Baby/Easy/Med",
+            "access_rules": ["$canShootSigil"],
+            "visibility_rules": [
+              "difficulty_baby",
+              "difficulty_easy",
+              "difficulty_med"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Invulnerability",
+            "note": "UV/N",
+            "access_rules": ["$canShootSigil"],
+            "visibility_rules": ["difficulty_uv", "difficulty_nm"],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": ["$canDo30SecTrial"],
+            "item_count": 1
+          },
+          {
+            "name": "E6M1 Exit",
+            "access_rules": ["$canShootSigil"],
             "hosted_item": "e6m1_complete"
           }
         ],
@@ -27,7 +80,44 @@
         "access_rules": ["$access|e6m2"],
         "sections": [
           {
-            "name": "Exit",
+            "name": "Chainsaw",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Shotgun",
+            "note": "No reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "note": "No reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "E6M2 Exit",
             "access_rules": [],
             "hosted_item": "e6m2_complete"
           }
@@ -46,8 +136,88 @@
         "access_rules": ["$access|e6m3"],
         "sections": [
           {
-            "name": "Exit",
+            "name": "Chainsaw",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Shotgun",
+            "note": "No reqs",
             "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "note": "No reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Gun",
+            "access_rules": ["$canDo30SecTrial,$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "BFG9000",
+            "note": "No reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "note": "Next to vanilla Chainsaw & Berserk",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Armor 2",
+            "note": "Outside near castle draw area",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "note": "In building near vanilla BFG, may not be present on UV/NM",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor 2",
+            "note": "Inside castle, may not be present on UV/NM",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Backpack",
+            "note": "No reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": ["$canShootSigil"],
+            "visibility_rules": ["difficulty_baby", "difficulty_easy"],
+            "item_count": 1
+          },
+          {
+            "name": "Computer Area Map",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "E6M3 Exit",
+            "access_rules": ["$canShootSigil"],
             "hosted_item": "e6m3_complete"
           }
         ],
@@ -65,8 +235,79 @@
         "access_rules": ["$access|e6m4"],
         "sections": [
           {
-            "name": "Exit",
+            "name": "Shotgun",
+            "note": "No reqs",
             "access_rules": [],
+            "visibility_rules": ["difficulty_baby","difficulty_easy","difficulty_med"],
+            "item_count": 1
+          },
+          {
+            "name": "Shotgun 2",
+            "access_rules": [],
+            "visibility_rules": ["difficulty_baby","difficulty_easy","difficulty_med"],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "note": "No reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "note": "No reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Gun",
+            "note": "Near 30 Second Trial",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": ["$canShootSigil,$access|e6m4|yellow"],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "note": "Near 30 Second Trial",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "note": "No reqs",
+            "visibility_rules": ["difficulty_baby","difficulty_easy","difficulty_med"],
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "note": "No reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": ["$canDo30SecTrial,$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull key",
+            "access_rules": ["$access|e6m4|yellow"],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Skull key",
+            "note": "Near 30 Second Trial",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "E6M4 Exit",
+            "access_rules": ["$canShootSigil,$access|e6m4|yellow"],
             "hosted_item": "e6m4_complete"
           }
         ],
@@ -84,8 +325,113 @@
         "access_rules": ["$access|e6m5"],
         "sections": [
           {
-            "name": "Exit",
-            "access_rules": [],
+            "name": "Chaingun",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Gun",
+            "access_rules": ["$canShootSigil,$access|e6m5|red"],
+            "item_count": 1
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": ["$canShootSigil,$access|e6m5|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "note": "Southwest building",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "note": "Near spawn",
+            "access_rules": ["{$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor 2",
+            "note": "Near spawn, in side secret, next to Supercharge 6",
+            "access_rules": ["$canShootSigil,$access|e6m5|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "note": "Behind spawn, may not be present on UV/NM",
+            "access_rules": ["$canDo30SecTrial"],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 2",
+            "note": "Near vanilla Red Keycard, may not be present on UV/NM",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 3",
+            "note": "May not be present on UV/NM",
+            "access_rules": ["$canShootSigil,$access|e6m5|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 4",
+            "note": "May not be present on UV/NM",
+            "access_rules": ["$canShootSigil,$access|e6m5|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 5",
+            "note": "Behind false wall, next to Berserk 2, may not be present on UV/NM",
+            "access_rules": ["$canShootSigil,$access|e6m5|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 6",
+            "note": "Near spawn, in side secret, next to Mega Armor 2, may not be present on UV/NM",
+            "access_rules": ["$canShootSigil,$access|e6m5|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": ["$canShootSigil,$access|e6m5|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": ["$canShootSigil,$access|e6m5|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk 2",
+            "note": "Behind false wall, next to Supercharge 5",
+            "access_rules": ["$canShootSigil,$access|e6m5|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk 3",
+            "access_rules": ["$canShootSigil,$access|e6m5|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Keycard",
+            "access_rules": ["$canShootSigil,$access|e6m5|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Red Keycard",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "E6M5 Exit",
+            "access_rules": ["$canShootSigil,$access|e6m5|blue"],
             "hosted_item": "e6m5_complete"
           }
         ],
@@ -103,8 +449,127 @@
         "access_rules": ["$access|e6m6"],
         "sections": [
           {
-            "name": "Exit",
+            "name": "Chainsaw",
+            "note": "Near vanilla Red Skull key",
+            "access_rules": ["{$canShootSigil}", "$canShootSigil"],
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Shotgun",
+            "note": "No reqs",
             "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "note": "No reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Gun",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Gun 2",
+            "access_rules": ["$canShootSigil,$access|e6m6|blue|yellow|red"],
+            "item_count": 1
+          },
+          {
+            "name": "BFG9000",
+            "note": "#FIXME: Didn't find!",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "note": "#FIXME: Didn't find!",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "note": "#FIXME: Didn't find!",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "note": "Near vanilla Red Skull key, may not be present on Med/UV/NM",
+            "access_rules": ["{$canShootSigil}", "$canShootSigil"],
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 2",
+            "note": "On ground, behind bars, near vanilla Red Skull key, may not be present on Med/UV/NM",
+            "access_rules": ["{}"],
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 3",
+            "note": "May not be present on Med/UV/NM",
+            "access_rules": ["$canShootSigil,$access|e6m6|blue|yellow|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 4",
+            "note": "May not be present on Med/UV/NM",
+            "access_rules": ["$canShootSigil,$access|e6m6|blue|yellow|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "note": "#FIXME: Didn't find!",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "note": "Near vanilla Red Skull key",
+            "access_rules": ["{}"],
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Berserk 2",
+            "note": "Near exit, #FIXME: Apparently there's two more only on Med.",
+            "access_rules": ["$canShootSigil,$access|e6m6|blue|yellow|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Invulnerability",
+            "access_rules": ["{}", "$canShootSigil"],
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Blue Skull key",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull key",
+            "access_rules": ["{}"],
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Skull key",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "E6M6 Exit",
+            "access_rules": ["$canShootSigil,$access|e6m6|blue|yellow|red"],
             "hosted_item": "e6m6_complete"
           }
         ],
@@ -122,8 +587,149 @@
         "access_rules": ["$access|e6m7"],
         "sections": [
           {
-            "name": "Exit",
+            "name": "Chaingun",
+            "note": "Near spawn",
             "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "note": "#FIXME: Didn't find!",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Gun",
+            "access_rules": ["$canShootSigil,$access|e6m7|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": ["$canShootSigil,$access|e6m7|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Armor 2",
+            "access_rules": ["$canShootSigil,$access|e6m7|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "Armor 3",
+            "note": "Near Berserk 3, #FIXME: Apparently there's one more on Med/UV/NM",
+            "access_rules": ["$canShootSigil,$access|e6m7|yellow"],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "note": "May not be present on Med/UV/NM, #FIXME: Didn't find!",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor 2",
+            "note": "May not be present on Med/UV/NM, #FIXME: Didn't find!",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "note": "Outside, visibile from Berserk 2",
+            "access_rules": ["$canShootSigil,$access|e6m7|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 2",
+            "access_rules": ["$canShootSigil,$access|e6m7|yellow"],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 3",
+            "note": "#FIXME: Didn't find!",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "note": "#FIXME: Didn't find!",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack 2",
+            "note": "#FIXME: Didn't find!",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": ["$canShootSigil,$access|e6m7|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk 2",
+            "note": "Outside",
+            "access_rules": ["$canShootSigil,$access|e6m7|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk 3",
+            "note": "Near Armor 3",
+            "access_rules": ["$canShootSigil,$access|e6m7|yellow"],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk 4",
+            "note": "#FIXME: Didn't find!",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk 5",
+            "note": "#FIXME: Didn't find!",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk 6",
+            "note": "#FIXME: Didn't find!",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Computer Area Map",
+            "note": "#FIXME: Didn't find!",
+            "access_rules": [],
+            "visibility_rules": ["difficulty_med","difficulty_nm","difficulty_uv"],
+            "item_count": 1
+          },
+          {
+            "name": "Invulnerability",
+            "access_rules": ["$canShootSigil,$access|e6m7|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Skull key",
+            "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Red Keycard",
+            "access_rules": ["$canShootSigil,$access|e6m7|yellow"],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Skull key",
+            "access_rules": ["$canShootSigil,$access|e6m7|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "E6M7 Exit",
+            "access_rules": ["$canShootSigil,$access|e6m7|red"],
             "hosted_item": "e6m7_complete"
           }
         ],
@@ -141,7 +747,84 @@
         "access_rules": ["$access|e6m8"],
         "sections": [
           {
-            "name": "Exit",
+            "name": "Shotgun",
+            "note": "No reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "note": "No reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Gun",
+            "note": "No reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "note": "On the way to vanilla Red Key, no reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor 2",
+            "note": "Near Blue Door, no reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": ["$access|e6m8|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
+            "access_rules": ["$canDo30SecTrial"],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invisibility",
+            "access_rules": ["$canDo30SecTrial"],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Skull key",
+            "note": "No reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Skull key",
+            "note": "No reqs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "E6M8 Exit",
             "access_rules": [],
             "hosted_item": "e6m8_complete"
           }
@@ -160,7 +843,83 @@
         "access_rules": ["$access|e6m9"],
         "sections": [
           {
-            "name": "Exit",
+            "name": "Chainsaw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Gun",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack 2",
+            "note": "May not be present on NM",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invisibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Red Keycard",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Keycard",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "E6M9 Exit",
             "access_rules": [],
             "hosted_item": "e6m9_complete"
           }

@@ -10,7 +10,7 @@ for filename in ["mapdesignations.lua","keysets.lua"]:
         constantsLua = constantsFile.read()
         CONSTANTS[filename[:filename.find('.')]] = luadata.unserialize(constantsLua)
 
-baseGame = "doom64"
+baseGame = "doom"
 basePath = os.path.join(
     "variants",
     baseGame,
@@ -20,9 +20,13 @@ basePath = os.path.join(
 
 numMapsHistory = []
 if os.path.isdir(basePath):
+    print(f"Game: {baseGame}")
     for episode in os.listdir(basePath):
         if os.path.isdir(os.path.join(basePath,episode)):
             epID = episode[1:]
+            print(f"  E{epID}")
+            if int(epID) != 6:
+                continue
             numMaps = len(CONSTANTS["keysets"][baseGame]["episodes"][int(epID) - 1]["maps"])
             numMapsHistory.append(numMaps)
             epName = CONSTANTS["keysets"][baseGame]["episodes"][int(epID) - 1]["name"]
@@ -50,7 +54,7 @@ if os.path.isdir(basePath):
                                 if (numEp + 1) < int(epID):
                                     mapIDX = int(mapIDX) + numMaps
                             mapHandle = "map" + str(mapIDX).rjust(2,"0")
-                        print(f"E{epID}: {mapHandle}")
+                        print(f"    E{epID}: {mapHandle}")
                         mapJSON = json.load(mapFile)
                         # get first element
                         mapJSON = mapJSON[0]
@@ -75,11 +79,11 @@ if os.path.isdir(basePath):
                         mapObj["map_locations"] = [
                             {
                                 "map": "overworld",
+                                "x": 24 * int(mapID),
+                                "y": 0,
                                 "restrict_visibility_rules": [
                                     f"ep{epID}_on"
-                                ],
-                                "x": 24 * int(mapID),
-                                "y": 0
+                                ]
                             }
                         ]
                         epMaps.append(mapObj)

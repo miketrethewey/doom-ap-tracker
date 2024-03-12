@@ -16,7 +16,8 @@
           "rows": [
             ["ep1", "ep2", "ep3"],
             ["ep4", "ep5", "ep6"],
-            ["deathlogic", "promoves", "difficulty"]
+            ["deathlogic", "promoves", "difficulty"],
+            ["30sec"]
           ]
         }
       ]

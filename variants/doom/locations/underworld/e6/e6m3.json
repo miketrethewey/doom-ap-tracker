@@ -1,0 +1,321 @@
+[
+  {
+    "name": "E6M3",
+    "parent": "Twilight Desolation (E6M3)",
+    "children": [
+      {
+        "name": "E6M3 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Twilight Desolation (E6M3)/E6M3 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": ["@Twilight Desolation (E6M3)/Chainsaw"],
+        "sections": [
+          {
+            "ref": "Twilight Desolation (E6M3)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Twilight Desolation (E6M3)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Twilight Desolation (E6M3)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Twilight Desolation (E6M3)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Twilight Desolation (E6M3)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Twilight Desolation (E6M3)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Twilight Desolation (E6M3)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "access_rules": ["@Twilight Desolation (E6M3)/Plasma Gun"],
+        "sections": [
+          {
+            "ref": "Twilight Desolation (E6M3)/Plasma Gun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": ["@Twilight Desolation (E6M3)/BFG9000"],
+        "sections": [
+          {
+            "ref": "Twilight Desolation (E6M3)/BFG9000",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Twilight Desolation (E6M3)/Armor"],
+        "sections": [
+          {
+            "ref": "Twilight Desolation (E6M3)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "access_rules": ["@Twilight Desolation (E6M3)/Armor 2"],
+        "sections": [
+          {
+            "ref": "Twilight Desolation (E6M3)/Armor 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "note": "May not be present on UV/NM",
+        "access_rules": ["@Twilight Desolation (E6M3)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Twilight Desolation (E6M3)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor 2",
+        "note": "May not be present on UV/NM",
+        "access_rules": ["@Twilight Desolation (E6M3)/Mega Armor 2"],
+        "sections": [
+          {
+            "ref": "Twilight Desolation (E6M3)/Mega Armor 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Twilight Desolation (E6M3)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Twilight Desolation (E6M3)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Twilight Desolation (E6M3)/Backpack"],
+        "sections": [
+          {
+            "ref": "Twilight Desolation (E6M3)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Twilight Desolation (E6M3)/Berserk"],
+        "sections": [
+          {
+            "ref": "Twilight Desolation (E6M3)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": [
+              "ep6_on,difficulty_baby",
+              "ep6_on,difficulty_easy"
+            ],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": ["@Twilight Desolation (E6M3)/Computer Area Map"],
+        "sections": [
+          {
+            "ref": "Twilight Desolation (E6M3)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "E6M3 Exit",
+        "access_rules": ["@Twilight Desolation (E6M3)/E6M3 Exit"],
+        "sections": [
+          {
+            "ref": "Twilight Desolation (E6M3)/E6M3 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e6m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "size": 20,
+            "x": 360,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -87,6 +87,10 @@ function canShootSigil()
     return has("pistol") or has("shotgun") or has("chaingun")
 end
 
+function canDo30SecTrial()
+    return has("30sec")
+end
+
 -- defined but not used?
 -- red
 function e3m9_redaccess()

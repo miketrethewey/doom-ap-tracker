@@ -1,0 +1,278 @@
+[
+  {
+    "name": "E6M4",
+    "parent": "Fragments of Sanity (E6M4)",
+    "children": [
+      {
+        "name": "E6M4 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Fragments of Sanity (E6M4)/E6M4 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m4",
+            "restrict_visibility_rules": ["ep6_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Fragments of Sanity (E6M4)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Fragments of Sanity (E6M4)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m4",
+            "restrict_visibility_rules": ["ep6_on,difficulty_baby","ep6_on,difficulty_easy","ep6_on,difficulty_med"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 2",
+        "access_rules": ["@Fragments of Sanity (E6M4)/Shotgun 2"],
+        "sections": [
+          {
+            "ref": "Fragments of Sanity (E6M4)/Shotgun 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m4",
+            "restrict_visibility_rules": ["ep6_on,difficulty_baby","ep6_on,difficulty_easy","ep6_on,difficulty_med"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Fragments of Sanity (E6M4)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Fragments of Sanity (E6M4)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m4",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Fragments of Sanity (E6M4)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Fragments of Sanity (E6M4)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m4",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "access_rules": ["@Fragments of Sanity (E6M4)/Plasma Gun"],
+        "sections": [
+          {
+            "ref": "Fragments of Sanity (E6M4)/Plasma Gun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m4",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": ["@Fragments of Sanity (E6M4)/BFG9000"],
+        "sections": [
+          {
+            "ref": "Fragments of Sanity (E6M4)/BFG9000",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m4",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Fragments of Sanity (E6M4)/Armor"],
+        "sections": [
+          {
+            "ref": "Fragments of Sanity (E6M4)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m4",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Fragments of Sanity (E6M4)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Fragments of Sanity (E6M4)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m4",
+            "restrict_visibility_rules": ["ep6_on,difficulty_baby","ep6_on,difficulty_easy","ep6_on,difficulty_med"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Fragments of Sanity (E6M4)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Fragments of Sanity (E6M4)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m4",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Fragments of Sanity (E6M4)/Berserk"],
+        "sections": [
+          {
+            "ref": "Fragments of Sanity (E6M4)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m4",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["@Fragments of Sanity (E6M4)/Red Skull key"],
+        "sections": [
+          {
+            "ref": "Fragments of Sanity (E6M4)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m4",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull key",
+        "access_rules": ["@Fragments of Sanity (E6M4)/Yellow Skull key"],
+        "sections": [
+          {
+            "ref": "Fragments of Sanity (E6M4)/Yellow Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m4",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "E6M4 Exit",
+        "access_rules": ["@Fragments of Sanity (E6M4)/E6M4 Exit"],
+        "sections": [
+          {
+            "ref": "Fragments of Sanity (E6M4)/E6M4 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e6m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m4",
+            "restrict_visibility_rules": ["ep6_on"],
+            "size": 20,
+            "x": 312,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

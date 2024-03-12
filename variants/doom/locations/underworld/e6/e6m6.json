@@ -1,0 +1,435 @@
+[
+  {
+    "name": "E6M6",
+    "parent": "Vengeance Unleashed (E6M6)",
+    "children": [
+      {
+        "name": "E6M6 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/E6M6 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Chainsaw"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Rocket Launcher"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Plasma Gun"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Plasma Gun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun 2",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Plasma Gun 2"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Plasma Gun 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/BFG9000"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/BFG9000",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Armor"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "note": "May not be present on Med/UV/NM",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "note": "May not be present on Med/UV/NM",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Supercharge 2"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Supercharge 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 3",
+        "note": "May not be present on Med/UV/NM",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Supercharge 3"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Supercharge 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 4",
+        "note": "May not be present on Med/UV/NM",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Supercharge 4"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Supercharge 4",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Backpack"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Berserk"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk 2",
+        "note": "#FIXME: Apparently there's two more only on Med.",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Berserk 2"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Berserk 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Invulnerability"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull key",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Blue Skull key"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Blue Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 432,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Red Skull key"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 456,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull key",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/Yellow Skull key"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/Yellow Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 480,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "E6M6 Exit",
+        "access_rules": ["@Vengeance Unleashed (E6M6)/E6M6 Exit"],
+        "sections": [
+          {
+            "ref": "Vengeance Unleashed (E6M6)/E6M6 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e6m6_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m6",
+            "restrict_visibility_rules": ["ep6_on"],
+            "size": 20,
+            "x": 504,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

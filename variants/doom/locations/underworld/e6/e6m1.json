@@ -1,0 +1,212 @@
+[
+  {
+    "name": "E6M1",
+    "parent": "Cursed Darkness (E6M1)",
+    "children": [
+      {
+        "name": "E6M1 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Cursed Darkness (E6M1)/E6M1 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m1",
+            "restrict_visibility_rules": ["ep6_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Cursed Darkness (E6M1)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Cursed Darkness (E6M1)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m1",
+            "restrict_visibility_rules": [
+              "ep6_on,difficulty_baby",
+              "ep6_on,difficulty_easy",
+              "ep6_on,difficulty_med"
+            ],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Cursed Darkness (E6M1)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Cursed Darkness (E6M1)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m1",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Cursed Darkness (E6M1)/Armor"],
+        "sections": [
+          {
+            "ref": "Cursed Darkness (E6M1)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m1",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "access_rules": ["@Cursed Darkness (E6M1)/Armor 2"],
+        "sections": [
+          {
+            "ref": "Cursed Darkness (E6M1)/Armor 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m1",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Cursed Darkness (E6M1)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Cursed Darkness (E6M1)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m1",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "note": "Baby/Easy/Med",
+        "access_rules": ["@Cursed Darkness (E6M1)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Cursed Darkness (E6M1)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m1",
+            "restrict_visibility_rules": [
+              "ep6_on,difficulty_baby",
+              "ep6_on,difficulty_easy",
+              "ep6_on,difficulty_med"
+            ],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "note": "UV/N",
+        "access_rules": ["@Cursed Darkness (E6M1)/Invulnerability"],
+        "sections": [
+          {
+            "ref": "Cursed Darkness (E6M1)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m1",
+            "restrict_visibility_rules": ["ep6_on,difficulty_uv", "ep6_on,difficulty_nm"],
+            "x": 144,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Cursed Darkness (E6M1)/Berserk"],
+        "sections": [
+          {
+            "ref": "Cursed Darkness (E6M1)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m1",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "E6M1 Exit",
+        "access_rules": ["@Cursed Darkness (E6M1)/E6M1 Exit"],
+        "sections": [
+          {
+            "ref": "Cursed Darkness (E6M1)/E6M1 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e6m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m1",
+            "restrict_visibility_rules": ["ep6_on"],
+            "size": 20,
+            "x": 216,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

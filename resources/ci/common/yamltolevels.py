@@ -19,7 +19,7 @@ baseGame = "doom"
 
 numMapsHistory = []
 # for epID in range(1,len(CONSTANTS["keysets"][baseGame]["episodes"]) + 1):
-for epID in range(6,6):
+for epID in range(6,7):
     numMaps = len(CONSTANTS["keysets"][baseGame]["episodes"][epID-1]["maps"])
     numMapsHistory.append(numMaps)
     ymlPath = os.path.join(

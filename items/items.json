@@ -12,15 +12,23 @@
     "codes": "minor"
   },
   {
+    "name": "30 Second Trial",
+    "type": "toggle",
+    "loop": true,
+    "img": "/images/items/30sec.png",
+    "codes": "30sec"
+  },
+  {
     "name": "Fist",
     "type": "toggle",
+    "loop": true,
     "img": "/images/items/inventory/fist.png",
-    "allow_disabled": false,
     "codes": "fist"
   },
   {
     "name": "Chainsaw",
     "type": "toggle",
+    "loop": true,
     "img": "/images/items/inventory/chainsaw.png",
     "codes": "chainsaw"
   },
@@ -64,12 +72,14 @@
   {
     "name": "Shotgun",
     "type": "toggle",
+    "loop": true,
     "img": "/images/items/inventory/shotgun.png",
     "codes": "shotgun"
   },
   {
     "name": "Super Shotgun",
     "type": "toggle",
+    "loop": true,
     "img": "/images/items/inventory/supershotgun.png",
     "codes": "shotgun,supershotgun"
   },
@@ -106,30 +116,35 @@
   {
     "name": "Chaingun",
     "type": "toggle",
+    "loop": true,
     "img": "/images/items/inventory/chaingun.png",
     "codes": "chaingun"
   },
   {
     "name": "Rocket Launcher",
     "type": "toggle",
+    "loop": true,
     "img": "/images/items/inventory/rocketlauncher.png",
     "codes": "rocketlauncher"
   },
   {
     "name": "Plasma Gun",
     "type": "toggle",
+    "loop": true,
     "img": "/images/items/inventory/plasmagun.png",
     "codes": "plasmagun"
   },
   {
     "name": "Unmaker",
     "type": "toggle",
+    "loop": true,
     "img": "/images/items/inventory/unmaker.png",
     "codes": "unmaker"
   },
   {
     "name": "BFG9000",
     "type": "toggle",
+    "loop": true,
     "img": "/images/items/inventory/bfg9000.png",
     "codes": "bfg9000"
   },
@@ -308,27 +323,32 @@
       {
         "img": "images/settings/difficulty_baby.png",
         "name": "Difficulty - Baby",
-        "codes": "difficulty,difficulty_b"
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_b,difficulty_baby,difficulty_itytd"
       },
       {
         "img": "images/settings/difficulty_easy.png",
         "name": "Difficulty - Easy",
-        "codes": "difficulty,difficulty_e"
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_e,difficulty_easy,difficulty_hntr"
       },
       {
         "img": "images/settings/difficulty_medium.png",
         "name": "Difficulty - Medium",
-        "codes": "difficulty,difficulty_m"
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_m,difficulty_med,difficulty_medium,difficulty_hmp"
       },
       {
         "img": "images/settings/difficulty_hard.png",
         "name": "Difficulty - Hard",
-        "codes": "difficulty,difficulty_h"
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_h,difficulty_hard,difficulty_uv"
       },
       {
         "img": "images/settings/difficulty_nightmare.png",
         "name": "Difficulty - Nightmare",
-        "codes": "difficulty,difficulty_n"
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_n,difficulty_nightmare,difficulty_nm"
       }
     ]
   }

@@ -1,0 +1,183 @@
+[
+  {
+    "name": "E6M2",
+    "parent": "Violent Hatred (E6M2)",
+    "children": [
+      {
+        "name": "E6M2 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Violent Hatred (E6M2)/E6M2 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m2",
+            "restrict_visibility_rules": ["ep6_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": ["@Violent Hatred (E6M2)/Chainsaw"],
+        "sections": [
+          {
+            "ref": "Violent Hatred (E6M2)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m2",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": ["@Violent Hatred (E6M2)/Shotgun"],
+        "sections": [
+          {
+            "ref": "Violent Hatred (E6M2)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m2",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Violent Hatred (E6M2)/Chaingun"],
+        "sections": [
+          {
+            "ref": "Violent Hatred (E6M2)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m2",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Violent Hatred (E6M2)/Mega Armor"],
+        "sections": [
+          {
+            "ref": "Violent Hatred (E6M2)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m2",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Violent Hatred (E6M2)/Supercharge"],
+        "sections": [
+          {
+            "ref": "Violent Hatred (E6M2)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m2",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Violent Hatred (E6M2)/Backpack"],
+        "sections": [
+          {
+            "ref": "Violent Hatred (E6M2)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m2",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Violent Hatred (E6M2)/Berserk"],
+        "sections": [
+          {
+            "ref": "Violent Hatred (E6M2)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m2",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "E6M2 Exit",
+        "access_rules": ["@Violent Hatred (E6M2)/E6M2 Exit"],
+        "sections": [
+          {
+            "ref": "Violent Hatred (E6M2)/E6M2 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e6m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m2",
+            "restrict_visibility_rules": ["ep6_on"],
+            "size": 20,
+            "x": 192,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]
