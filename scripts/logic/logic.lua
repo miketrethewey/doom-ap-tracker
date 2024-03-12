@@ -83,6 +83,37 @@ function or_access(level, one, two, three)
     return ret
 end
 
+function difficulty(episode, one, two, three, four, five)
+    episode = episode or 1
+    one = one or nil
+    two = two or nil
+    three = three or nil
+    four = four or nil
+    five = five or nil
+
+    hasEpisode = has("ep" .. episode .. "_on")
+    ret = hasEpisode
+    if ret then
+        if one ~= nil then
+            ret = has("difficulty_" .. one)
+        end
+        if two ~= nil and not ret then
+            ret = has("difficulty_" .. two)
+        end
+        if three ~= nil and not ret then
+            ret = has("difficulty_" .. three)
+        end
+        if four ~= nil and not ret then
+            ret = has("difficulty_" .. four)
+        end
+        if five0 ~= nil and not ret then
+            ret = has("difficulty_" .. five)
+        end
+    end
+
+    return ret
+end
+
 function canShootSigil()
     return has("pistol") or has("shotgun") or has("chaingun")
 end

@@ -27,6 +27,7 @@
       },
       {
         "name": "Shotgun 2",
+        "note": "May not be present on UV/NM",
         "access_rules": ["@Computer Station (E1M7)/Shotgun 2"],
         "sections": [
           {
@@ -84,6 +85,7 @@
       },
       {
         "name": "Shotgun",
+        "note": "May not be present on UV/NM",
         "access_rules": ["@Computer Station (E1M7)/Shotgun"],
         "sections": [
           {

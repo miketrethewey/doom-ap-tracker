@@ -421,7 +421,7 @@
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on,difficulty_med","ep6_on,difficulty_uv","ep6_on,difficulty_nm"],
+            "restrict_visibility_rules": ["$difficulty|6|med|uv|nm"],
             "x": 504,
             "y": 0
           }

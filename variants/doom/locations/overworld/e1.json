@@ -194,6 +194,7 @@
           {
             "name": "Shotgun",
             "access_rules": [],
+            "visibility_rules": ["$difficulty|1|baby|easy"],
             "item_count": 1
           },
           {
@@ -247,16 +248,19 @@
           },
           {
             "name": "Shotgun",
+            "note": "May not be present on Med/UV/NM",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Shotgun 2",
+            "note": "May not be present on Med/UV/NM",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Shotgun 3",
+            "note": "May not be present on Med/UV/NM",
             "access_rules": [],
             "item_count": 1
           },
@@ -420,6 +424,7 @@
         "sections": [
           {
             "name": "Shotgun 2",
+            "note": "May not be present on UV/NM",
             "access_rules": [],
             "item_count": 1
           },
@@ -435,6 +440,7 @@
           },
           {
             "name": "Shotgun",
+            "note": "May not be present on UV/NM",
             "access_rules": ["$access|e1m7|blue|yellow"],
             "item_count": 1
           },

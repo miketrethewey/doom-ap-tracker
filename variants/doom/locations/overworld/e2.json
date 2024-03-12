@@ -130,6 +130,7 @@
           {
             "name": "Berserk",
             "access_rules": [],
+            "visibility_rules": ["$difficulty|6|med|uv|nm"],
             "item_count": 1
           },
           {
@@ -362,6 +363,7 @@
           {
             "name": "Shotgun",
             "access_rules": [],
+            "visibility_rules": ["$difficulty|2|baby|easy"],
             "item_count": 1
           },
           {

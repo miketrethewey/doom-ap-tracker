@@ -10,11 +10,7 @@
           {
             "name": "Shotgun",
             "access_rules": ["$canShootSigil"],
-            "visibility_rules": [
-              "difficulty_baby",
-              "difficulty_easy",
-              "difficulty_med"
-            ],
+            "visibility_rules": ["$difficulty|6|baby|easy|med"],
             "item_count": 1
           },
           {
@@ -41,18 +37,14 @@
             "name": "Supercharge",
             "note": "Baby/Easy/Med",
             "access_rules": ["$canShootSigil"],
-            "visibility_rules": [
-              "difficulty_baby",
-              "difficulty_easy",
-              "difficulty_med"
-            ],
+            "visibility_rules": ["$difficulty|6|baby|easy|med"],
             "item_count": 1
           },
           {
             "name": "Invulnerability",
             "note": "UV/N",
             "access_rules": ["$canShootSigil"],
-            "visibility_rules": ["difficulty_uv", "difficulty_nm"],
+            "visibility_rules": ["$difficulty|6|uv|nm"],
             "item_count": 1
           },
           {
@@ -207,7 +199,7 @@
           {
             "name": "Berserk",
             "access_rules": ["$canShootSigil"],
-            "visibility_rules": ["difficulty_baby", "difficulty_easy"],
+            "visibility_rules": ["$difficulty|6|baby|easy"],
             "item_count": 1
           },
           {
@@ -238,13 +230,13 @@
             "name": "Shotgun",
             "note": "No reqs",
             "access_rules": [],
-            "visibility_rules": ["difficulty_baby","difficulty_easy","difficulty_med"],
+            "visibility_rules": ["$difficulty|6|baby|easy|med"],
             "item_count": 1
           },
           {
             "name": "Shotgun 2",
             "access_rules": [],
-            "visibility_rules": ["difficulty_baby","difficulty_easy","difficulty_med"],
+            "visibility_rules": ["$difficulty|6|baby|easy|med"],
             "item_count": 1
           },
           {
@@ -279,7 +271,7 @@
           {
             "name": "Mega Armor",
             "note": "No reqs",
-            "visibility_rules": ["difficulty_baby","difficulty_easy","difficulty_med"],
+            "visibility_rules": ["$difficulty|6|baby|easy|med"],
             "access_rules": [],
             "item_count": 1
           },
@@ -704,7 +696,7 @@
             "name": "Computer Area Map",
             "note": "#FIXME: Didn't find!",
             "access_rules": [],
-            "visibility_rules": ["difficulty_med","difficulty_nm","difficulty_uv"],
+            "visibility_rules": ["$difficulty|6|med|nm|uv"],
             "item_count": 1
           },
           {

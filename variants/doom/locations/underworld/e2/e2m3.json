@@ -76,7 +76,7 @@
         "map_locations": [
           {
             "map": "e2m3",
-            "restrict_visibility_rules": ["ep2_on"],
+            "restrict_visibility_rules": ["$difficulty|2|med|nm|uv"],
             "x": 404,
             "y": 102
           }
