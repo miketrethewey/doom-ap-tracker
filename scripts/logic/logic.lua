@@ -114,6 +114,17 @@ function difficulty(episode, one, two, three, four, five)
     return ret
 end
 
+function difficulty_range(episode, diff)
+    diff = diff or "lo"
+    if diff:match("^lo(.*)") then
+        return difficulty(episode, "baby", "easy")
+    elseif diff:match("^mid(.*)") then
+        return difficulty(episode, "medium")
+    elseif diff:match("^hi(.*)") then
+        return difficulty(episode, "uv", "nm")
+    end
+end
+
 function canShootSigil()
     return has("pistol") or has("shotgun") or has("chaingun")
 end

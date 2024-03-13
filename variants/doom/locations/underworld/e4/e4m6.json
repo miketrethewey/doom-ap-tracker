@@ -154,7 +154,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": ["ep4_on"],
+            "restrict_visibility_rules": ["$difficulty_range|4|low"],
             "x": 148,
             "y": 358
           }
@@ -173,7 +173,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": ["ep4_on"],
+            "restrict_visibility_rules": ["$difficulty|4|baby|easy|med"],
             "x": 420,
             "y": 398
           }
@@ -192,7 +192,7 @@
         "map_locations": [
           {
             "map": "e4m6",
-            "restrict_visibility_rules": ["ep4_on"],
+            "restrict_visibility_rules": ["$difficulty|4|baby|easy|med"],
             "x": 310,
             "y": 245
           }
@@ -238,6 +238,7 @@
       },
       {
         "name": "Invulnerability 2",
+        "note": "May not be present on Med/UV/NM",
         "access_rules": [
           "@Against Thee Wickedly (E4M6)/Invulnerability 2"
         ],
@@ -259,6 +260,7 @@
       },
       {
         "name": "Invulnerability",
+        "note": "May not be present on Med/UV/NM",
         "access_rules": ["@Against Thee Wickedly (E4M6)/Invulnerability"],
         "sections": [
           {

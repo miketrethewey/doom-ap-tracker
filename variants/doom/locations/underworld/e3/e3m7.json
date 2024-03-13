@@ -114,7 +114,7 @@
         "map_locations": [
           {
             "map": "e3m7",
-            "restrict_visibility_rules": ["ep3_on"],
+            "restrict_visibility_rules": ["$difficulty|3|baby|easy|med"],
             "x": 250,
             "y": 695
           }
@@ -190,7 +190,7 @@
         "map_locations": [
           {
             "map": "e3m7",
-            "restrict_visibility_rules": ["ep3_on"],
+            "restrict_visibility_rules": ["$difficulty|3|baby|easy|med"],
             "x": 249,
             "y": 57
           }

@@ -160,6 +160,7 @@
       },
       {
         "name": "Shotgun",
+        "note": "May not be present on Med/UV/NM",
         "access_rules": ["@Pandemonium (E3M3)/Shotgun"],
         "sections": [
           {
@@ -255,6 +256,7 @@
       },
       {
         "name": "Shotgun 2",
+        "note": "May not be present on Med/UV/NM",
         "access_rules": ["@Pandemonium (E3M3)/Shotgun 2"],
         "sections": [
           {
@@ -269,6 +271,26 @@
             "restrict_visibility_rules": ["ep3_on"],
             "x": 362,
             "y": 765
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 3",
+        "note": "May not be present on Med/UV/NM",
+        "access_rules": ["@Pandemonium (E3M3)/Shotgun 3"],
+        "sections": [
+          {
+            "ref": "Pandemonium (E3M3)/Shotgun 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 0,
+            "y": 0
           }
         ]
       },

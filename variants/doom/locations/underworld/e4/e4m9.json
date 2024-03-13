@@ -84,6 +84,7 @@
       },
       {
         "name": "Rocket Launcher",
+        "note": "May not be present on UV/NM",
         "access_rules": ["@Fear (E4M9)/Rocket Launcher"],
         "sections": [
           {
@@ -103,6 +104,7 @@
       },
       {
         "name": "Rocket Launcher 2",
+        "note": "May not be present on UV/NM",
         "access_rules": ["@Fear (E4M9)/Rocket Launcher 2"],
         "sections": [
           {

@@ -224,6 +224,7 @@
           {
             "ref": "Twilight Desolation (E6M3)/Supercharge",
             "name": "Item",
+            "capture_item": true,
             "item_count": 1
           }
         ],
@@ -268,7 +269,7 @@
         "map_locations": [
           {
             "map": "e6m3",
-            "restrict_visibility_rules": ["$difficulty|6|baby|easy"],
+            "restrict_visibility_rules": ["$difficulty_range|6|low"],
             "x": 312,
             "y": 0
           }

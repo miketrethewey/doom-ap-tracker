@@ -32,6 +32,7 @@
           {
             "ref": "Vengeance Unleashed (E6M6)/Chainsaw",
             "name": "Item",
+            "capture_item": true,
             "item_count": 1
           }
         ],
@@ -204,6 +205,7 @@
           {
             "ref": "Vengeance Unleashed (E6M6)/Supercharge",
             "name": "Item",
+            "capture_item": true,
             "item_count": 1
           }
         ],
@@ -224,6 +226,7 @@
           {
             "ref": "Vengeance Unleashed (E6M6)/Supercharge 2",
             "name": "Item",
+            "capture_item": true,
             "item_count": 1
           }
         ],
@@ -302,6 +305,7 @@
           {
             "ref": "Vengeance Unleashed (E6M6)/Berserk",
             "name": "Item",
+            "capture_item": true,
             "item_count": 1
           }
         ],
@@ -341,6 +345,7 @@
           {
             "ref": "Vengeance Unleashed (E6M6)/Invulnerability",
             "name": "Item",
+            "capture_item": true,
             "item_count": 1
           }
         ],
@@ -379,6 +384,7 @@
           {
             "ref": "Vengeance Unleashed (E6M6)/Red Skull key",
             "name": "Item",
+            "capture_item": true,
             "item_count": 1
           }
         ],

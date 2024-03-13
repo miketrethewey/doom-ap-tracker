@@ -38,7 +38,7 @@
         "map_locations": [
           {
             "map": "e2m6",
-            "restrict_visibility_rules": ["$difficulty|2|baby|easy"],
+            "restrict_visibility_rules": ["$difficulty_range|2|low"],
             "x": 335,
             "y": 420
           }

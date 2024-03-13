@@ -1,4 +1,10 @@
-{"capture_grid": {
-  "type": "itemgrid",
-  "rows": [["major", "minor"]]
-}}
+{
+  "capture_grid": {
+    "type": "itemgrid",
+    "rows": [["major", "minor"]]
+  },
+  "tracker_capture_item": {
+    "type": "layout",
+    "key": "capture_grid"
+  }
+}

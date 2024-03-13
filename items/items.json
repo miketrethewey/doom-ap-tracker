@@ -3,12 +3,14 @@
     "name": "Major Item",
     "type": "consumable",
     "img": "/images/items/capture/major.png",
+    "min_quantity": 1,
     "codes": "major"
   },
   {
     "name": "Minor Item",
     "type": "consumable",
     "img": "/images/items/capture/minor.png",
+    "min_quantity": 1,
     "codes": "minor"
   },
   {
@@ -321,31 +323,31 @@
     "allow_disabled": false,
     "stages": [
       {
-        "img": "images/settings/difficulty_baby.png",
+        "img": "images/settings/wolf3d/difficulty_baby.png",
         "name": "Difficulty - Baby",
         "inherit_codes": false,
         "codes": "difficulty,difficulty_b,difficulty_baby,difficulty_itytd"
       },
       {
-        "img": "images/settings/difficulty_easy.png",
+        "img": "images/settings/wolf3d/difficulty_easy.png",
         "name": "Difficulty - Easy",
         "inherit_codes": false,
         "codes": "difficulty,difficulty_e,difficulty_easy,difficulty_hntr"
       },
       {
-        "img": "images/settings/difficulty_medium.png",
+        "img": "images/settings/wolf3d/difficulty_medium.png",
         "name": "Difficulty - Medium",
         "inherit_codes": false,
         "codes": "difficulty,difficulty_m,difficulty_med,difficulty_medium,difficulty_hmp"
       },
       {
-        "img": "images/settings/difficulty_hard.png",
+        "img": "images/settings/wolf3d/difficulty_hard.png",
         "name": "Difficulty - Hard",
         "inherit_codes": false,
         "codes": "difficulty,difficulty_h,difficulty_hard,difficulty_uv"
       },
       {
-        "img": "images/settings/difficulty_nightmare.png",
+        "img": "images/settings/wolf3d/difficulty_nightmare.png",
         "name": "Difficulty - Nightmare",
         "inherit_codes": false,
         "codes": "difficulty,difficulty_n,difficulty_nightmare,difficulty_nm"
