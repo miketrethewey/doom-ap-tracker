@@ -225,6 +225,14 @@
             "name": "Mega Armor",
             "note": "Right section, in crusher area",
             "access_rules": ["$canShootSigil"],
+            "visibility_rules": ["$difficulty_range|5|low", "$difficulty|5|med"],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "note": "Right section, in crusher area",
+            "access_rules": ["$canShootSigil"],
+            "visibility_rules": ["$difficulty_range|5|high"],
             "item_count": 1
           },
           {
@@ -304,8 +312,15 @@
             "item_count": 1
           },
           {
+            "name": "Berserk",
+            "access_rules": ["$canShootSigil"],
+            "visibility_rules": ["$difficulty_range|5|high"],
+            "item_count": 1
+          },
+          {
             "name": "Chainsaw",
             "access_rules": ["$canShootSigil"],
+            "visibility_rules": ["$difficulty_range|5|low", "$difficulty|5|med"],
             "item_count": 1
           },
           {
@@ -498,7 +513,15 @@
           },
           {
             "name": "Mega Armor",
+            "note": "In room with Imps behind false walls",
             "access_rules": ["$canShootSigil"],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor 2",
+            "note": "In room with vanilla Computer Area Map",
+            "access_rules": [],
+            "visibility_rules": ["$difficulty_range|5|low", "$difficulty|5|med"],
             "item_count": 1
           },
           {
@@ -515,6 +538,31 @@
             "name": "Yellow Skull Key",
             "access_rules": ["$canShootSigil,$access|e5m7|red"],
             "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "note": "Next to vanilla Computer Area Map",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 2",
+            "note": "Next to start",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge 3",
+            "note": "Near Red Door, replaced by Backpack on UV/NM",
+            "access_rules": [],
+            "visibility_rules": ["$difficulty_range|5|low", "$difficulty|5|med"],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "note": "Near Red Door, replaces Supercharge 3 on UV/NM",
+            "access_rules": [],
+            "visibility_rules": ["$difficulty_range|5|high"]
           },
           {
             "name": "Exit",
@@ -558,6 +606,11 @@
           },
           {
             "name": "Plasma Gun",
+            "access_rules": ["$canShootSigil,$access|e5m8|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk",
             "access_rules": ["$canShootSigil,$access|e5m8|red"],
             "item_count": 1
           },

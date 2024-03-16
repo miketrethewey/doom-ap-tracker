@@ -163,14 +163,8 @@
           },
           {
             "name": "Shotgun 2",
-            "note": "May not be present on Med/UV/NM",
             "access_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Shotgun 3",
-            "note": "May not be present on Med/UV/NM",
-            "access_rules": [],
+            "visibility_rules": ["$difficulty_range|3|low"],
             "item_count": 1
           },
           {
@@ -229,14 +223,13 @@
           },
           {
             "name": "Armor",
-            "note": "May not be present on Med/UV/NM",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Armor 2",
-            "note": "May not be present on Med/UV/NM",
             "access_rules": [],
+            "visibility_rules": ["$difficulty_range|3|low"],
             "item_count": 1
           },
           {
@@ -271,7 +264,6 @@
           },
           {
             "name": "Armor 3",
-            "note": "May not be present on Med/UV/NM",
             "access_rules": ["$access|e3m4|blue"],
             "item_count": 1
           },
@@ -619,13 +611,12 @@
           },
           {
             "name": "Rocket Launcher",
-            "note": "May not be present on UV/NM",
             "access_rules": ["$access|e3m9"],
+            "visibility_rules": ["$difficulty_range|3|low", "$difficulty|3|med"],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher 2",
-            "note": "May not be present on UV/NM",
             "access_rules": ["$access|e3m9|blue"],
             "item_count": 1
           },

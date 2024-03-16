@@ -141,7 +141,6 @@
       },
       {
         "name": "Armor",
-        "note": "May not be present on Med/UV/NM",
         "access_rules": ["@House of Pain (E3M4)/Armor"],
         "sections": [
           {
@@ -161,7 +160,6 @@
       },
       {
         "name": "Armor 2",
-        "note": "May not be present on Med/UV/NM",
         "access_rules": ["@House of Pain (E3M4)/Armor 2"],
         "sections": [
           {
@@ -173,7 +171,7 @@
         "map_locations": [
           {
             "map": "e3m4",
-            "restrict_visibility_rules": ["ep3_on"],
+            "restrict_visibility_rules": ["$difficulty_range|3|low"],
             "x": 422,
             "y": 57
           }
@@ -295,7 +293,6 @@
       },
       {
         "name": "Armor 3",
-        "note": "May not be present on Med/UV/NM",
         "access_rules": ["@House of Pain (E3M4)/Armor 3"],
         "sections": [
           {

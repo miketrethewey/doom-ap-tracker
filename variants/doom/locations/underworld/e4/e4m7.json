@@ -46,7 +46,6 @@
       },
       {
         "name": "Rocket Launcher",
-        "note": "May not be present on Baby/Easy/Med",
         "access_rules": ["@And Hell Followed (E4M7)/Rocket Launcher"],
         "sections": [
           {
@@ -85,7 +84,6 @@
       },
       {
         "name": "Supercharge",
-        "note": "May not be on Baby/Easy/Med",
         "access_rules": ["@And Hell Followed (E4M7)/Supercharge"],
         "sections": [
           {
@@ -333,7 +331,6 @@
       },
       {
         "name": "Invulnerability",
-        "note": "May not be on Baby/Easy/Med",
         "access_rules": ["@And Hell Followed (E4M7)/Invulnerability"],
         "sections": [
           {
@@ -345,7 +342,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": ["ep4_on"],
+            "restrict_visibility_rules": ["$difficulty_range|4|high"],
             "x": 324,
             "y": 759
           }
@@ -353,7 +350,6 @@
       },
       {
         "name": "Invulnerability 2",
-        "note": "May not be on Baby/Easy/Med",
         "access_rules": ["@And Hell Followed (E4M7)/Invulnerability 2"],
         "sections": [
           {
@@ -373,7 +369,6 @@
       },
       {
         "name": "Supercharge 2",
-        "note": "May not be on Baby/Easy/Med",
         "access_rules": ["@And Hell Followed (E4M7)/Supercharge 2"],
         "sections": [
           {
@@ -385,7 +380,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": ["ep4_on"],
+            "restrict_visibility_rules": ["$difficulty_range|4|high"],
             "x": 300,
             "y": 759
           }
@@ -393,7 +388,6 @@
       },
       {
         "name": "Rocket Launcher 2",
-        "note": "May not be present on Baby/Easy/Med",
         "access_rules": ["@And Hell Followed (E4M7)/Rocket Launcher 2"],
         "sections": [
           {
@@ -405,7 +399,7 @@
         "map_locations": [
           {
             "map": "e4m7",
-            "restrict_visibility_rules": ["ep4_on"],
+            "restrict_visibility_rules": ["$difficulty_range|4|high"],
             "x": 312,
             "y": 759
           }
@@ -432,7 +426,6 @@
       },
       {
         "name": "Rocket Launcher 3",
-        "note": "May not be present on Baby/Easy/Med",
         "access_rules": ["@And Hell Followed (E4M7)/Rocket Launcher 3"],
         "sections": [
           {

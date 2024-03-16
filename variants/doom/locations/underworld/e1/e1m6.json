@@ -215,7 +215,7 @@
         "map_locations": [
           {
             "map": "e1m6",
-            "restrict_visibility_rules": ["ep1_on"],
+            "restrict_visibility_rules": ["$difficulty_range|1|high"],
             "x": 230,
             "y": 200
           }

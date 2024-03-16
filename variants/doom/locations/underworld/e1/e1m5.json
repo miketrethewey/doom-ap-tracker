@@ -84,7 +84,6 @@
       },
       {
         "name": "Shotgun",
-        "note": "May not be present on Med/UV/NM",
         "access_rules": ["@Phobos Lab (E1M5)/Shotgun"],
         "sections": [
           {
@@ -104,7 +103,6 @@
       },
       {
         "name": "Shotgun 2",
-        "note": "May not be present on Med/UV/NM",
         "access_rules": ["@Phobos Lab (E1M5)/Shotgun 2"],
         "sections": [
           {
@@ -116,7 +114,7 @@
         "map_locations": [
           {
             "map": "e1m5",
-            "restrict_visibility_rules": ["ep1_on"],
+            "restrict_visibility_rules": ["$difficulty|1|med", "$difficulty_range|1|high"],
             "x": 757,
             "y": 537
           }
@@ -124,7 +122,6 @@
       },
       {
         "name": "Shotgun 3",
-        "note": "May not be present on Med/UV/NM",
         "access_rules": ["@Phobos Lab (E1M5)/Shotgun 3"],
         "sections": [
           {
@@ -136,7 +133,7 @@
         "map_locations": [
           {
             "map": "e1m5",
-            "restrict_visibility_rules": ["ep1_on"],
+            "restrict_visibility_rules": ["$difficulty|1|med", "$difficulty_range|1|high"],
             "x": 482,
             "y": 600
           }

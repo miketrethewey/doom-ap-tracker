@@ -10,7 +10,7 @@
           {
             "name": "Shotgun",
             "access_rules": ["$canShootSigil"],
-            "visibility_rules": ["$difficulty|6|baby|easy|med"],
+            "visibility_rules": ["$difficulty_range|6|low"],
             "item_count": 1
           },
           {
@@ -35,14 +35,12 @@
           },
           {
             "name": "Supercharge",
-            "note": "Baby/Easy/Med",
             "access_rules": ["$canShootSigil"],
-            "visibility_rules": ["$difficulty|6|baby|easy|med"],
+            "visibility_rules": ["$difficulty_range|6|low,$difficulty|6|med"],
             "item_count": 1
           },
           {
             "name": "Invulnerability",
-            "note": "UV/N",
             "access_rules": ["$canShootSigil"],
             "visibility_rules": ["$difficulty_range|6|high"],
             "item_count": 1

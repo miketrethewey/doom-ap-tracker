@@ -423,24 +423,23 @@
           {
             "name": "Red Skull Key",
             "access_rules": [
-              "[$access|e4m6|yellow], $access|e4m6|blue, $access|e4m6|red, ",
-              "$access|e4m6|yellow, $access|e4m6|blue, "
+              "[$access|e4m6|yellow],$access|e4m6|blue|red",
+              "$access|e4m6|yellow|blue"
             ],
             "item_count": 1
           },
           {
             "name": "Invulnerability 2",
-            "note": "May not be present on Med/UV/NM",
             "access_rules": [
-              "[$access|e4m6|yellow], $access|e4m6|blue, $access|e4m6|red, ",
-              "$access|e4m6|yellow, $access|e4m6|blue, "
+              "[$access|e4m6|yellow],$access|e4m6|blue|red",
+              "$access|e4m6|yellow|blue"
             ],
+            "visibility_rules": ["$difficulty_range|4|low"],
             "item_count": 1
           },
           {
             "name": "Invulnerability",
-            "note": "May not be present on Med/UV/NM",
-            "access_rules": ["[$access|e4m6|blue|red], "],
+            "access_rules": ["[$access|e4m6|blue|red]"],
             "item_count": 1
           },
           {
@@ -450,7 +449,7 @@
           },
           {
             "name": "Backpack",
-            "access_rules": ["[$access|e4m6|blue|red], "],
+            "access_rules": ["[$access|e4m6|blue|red]"],
             "item_count": 1
           },
           {
@@ -461,8 +460,8 @@
           {
             "name": "E4M6 Exit",
             "access_rules": [
-              "[$access|e4m6|yellow], $access|e4m6|blue, $access|e4m6|red",
-              "$access|e4m6|yellow, $access|e4m6|blue"
+              "[$access|e4m6|yellow],$access|e4m6|blue|red",
+              "$access|e4m6|yellow|blue"
             ],
             "hosted_item": "e4m6_complete"
           }
@@ -492,7 +491,6 @@
           },
           {
             "name": "Rocket Launcher",
-            "note": "May not be present on Baby/Easy/Med",
             "access_rules": [],
             "item_count": 1
           },
@@ -503,7 +501,6 @@
           },
           {
             "name": "Supercharge",
-            "note": "May not be on Baby/Easy/Med",
             "access_rules": [],
             "item_count": 1
           },
@@ -566,26 +563,25 @@
           },
           {
             "name": "Invulnerability",
-            "note": "May not be on Baby/Easy/Med",
             "access_rules": ["$access|e4m7|yellow"],
+            "visibility_rules": ["$difficulty_range|4|high"],
             "item_count": 1
           },
           {
             "name": "Invulnerability 2",
-            "note": "May not be on Baby/Easy/Med",
             "access_rules": ["$access|e4m7|yellow"],
             "item_count": 1
           },
           {
             "name": "Supercharge 2",
-            "note": "May not be on Baby/Easy/Med",
             "access_rules": ["$access|e4m7|yellow"],
+            "visibility_rules": ["$difficulty_range|4|high"],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher 2",
-            "note": "May not be present on Baby/Easy/Med",
             "access_rules": ["$access|e4m7|yellow"],
+            "visibility_rules": ["$difficulty_range|4|high"],
             "item_count": 1
           },
           {
@@ -595,7 +591,6 @@
           },
           {
             "name": "Rocket Launcher 3",
-            "note": "May not be present on Baby/Easy/Med",
             "access_rules": ["$access|e4m7|red"],
             "item_count": 1
           },
@@ -739,13 +734,12 @@
           },
           {
             "name": "Rocket Launcher",
-            "note": "May not be present on UV/NM",
             "access_rules": [],
+            "visibility_rules": ["$difficulty_range|4|high"],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher 2",
-            "note": "May not be present on UV/NM",
             "access_rules": [],
             "item_count": 1
           },
