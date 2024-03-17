@@ -120,34 +120,54 @@ function AccessItem:propertyChanged(key, value)
     self:updateIcon()
 end
 
-items = {}
-for epID,episode in pairs(keySets[baseTheme][baseGame]["episodes"]) do
-    if episode ~= nil and not skip_episode(epID) then
-        epName = episode["name"]
-        msg = baseGame .. ": " .. epName .. " (E" .. epID .. ")"
-        -- print(msg)
-        if episode["maps"] ~= nil then
-            for mapID,map in pairs(episode["maps"]) do
-                mapName = map["name"]
-                mapHandle = string.upper(get_map_metadata(baseGame, epID, mapID))
-                if string.find(mapHandle,"MAP") then
-                    overlay = string.lower(mapHandle) .. ".png"
-                else
-                    overlay = epID .. "-" .. mapID .. ".png"
-                end
+function load_access()
+    if keySets == nil then
+        print("No KeySets!")
+        return
+    end
+    if keySets[baseTheme] == nil then
+        print("No KeySets for " .. baseTheme .. "!")
+        return
+    end
+    if keySets[baseTheme][baseGame] == nil then
+        print("No KeySets for " .. baseTheme .. "/" .. baseGame .. "!")
+        return
+    end
+    if keySets[baseTheme][baseGame]["episodes"] == nil then
+        print("No Episodes for " .. baseTheme .. "/" .. baseGame .. "!")
+        return
+    end
+    items = {}
+    for epID,episode in pairs(keySets[baseTheme][baseGame]["episodes"]) do
+        if episode ~= nil and not skip_episode(epID) then
+            epName = episode["name"]
+            msg = baseGame .. ": " .. epName .. " (E" .. epID .. ")"
+            -- print(msg)
+            if episode["maps"] ~= nil then
+                for mapID,map in pairs(episode["maps"]) do
+                    mapName = map["name"]
+                    mapHandle = string.upper(get_map_metadata(baseGame, epID, mapID))
+                    if string.find(mapHandle,"MAP") then
+                        overlay = string.lower(mapHandle) .. ".png"
+                    else
+                        overlay = epID .. "-" .. mapID .. ".png"
+                    end
 
-                msg = " " .. mapName .. " (" .. mapHandle .. ") - Access"
-                itemName = msg
-                items[itemName] = AccessItem(
-                    itemName,
-                    "e" .. epID .. "m" .. mapID .. "_access",
-                    "variants/" .. baseTheme .. "/images/levels/" .. "e" .. epID .. ".png",
-                    nil,
-                    "overlay|variants/" .. baseTheme .. "/images/overlays/" .. overlay,
-                    "@disabled,overlay|variants/" .. baseTheme .. "/images/overlays/" .. overlay
-                )
-                -- print(msg)
+                    msg = " " .. mapName .. " (" .. mapHandle .. ") - Access"
+                    itemName = msg
+                    items[itemName] = AccessItem(
+                        itemName,
+                        "e" .. epID .. "m" .. mapID .. "_access",
+                        "variants/" .. "doom" .. "/images/levels/" .. "e" .. epID .. ".png",
+                        nil,
+                        "overlay|variants/" .. "doom" .. "/images/overlays/" .. overlay,
+                        "@disabled,overlay|variants/" .. "doom" .. "/images/overlays/" .. overlay
+                    )
+                    print(msg)
+                end
             end
         end
     end
 end
+
+load_access()

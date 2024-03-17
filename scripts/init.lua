@@ -19,6 +19,56 @@ function skip_episode(epID)
     return skip
 end
 
+function load_meat()
+    if keySets == nil then
+        print("No KeySets!")
+        return
+    end
+    if keySets[baseTheme] == nil then
+        print("No KeySets for " .. baseTheme .. "!")
+        return
+    end
+    for epID,episode in pairs(keySets[baseTheme][baseGame]["episodes"]) do
+        if episode ~= nil and not skip_episode(epID) then
+            episodeFile = "variants/" .. baseTheme .. '/' .. baseGame .. "/locations/overworld/" .. "e" .. epID .. ".json"
+            Tracker:AddLocations(episodeFile)
+            if episode["maps"] ~= nil then
+                for mapID,map in pairs(episode["maps"]) do
+                    mapFile = "variants/" .. baseTheme .. '/' .. baseGame .. "/locations/underworld/" .. "e" .. epID .. "/" .. "e" .. epID .. "m" .. mapID .. ".json"
+                    Tracker:AddLocations(mapFile)
+                    mapName = string.upper(get_map_metadata(baseGame, epID, mapID))
+                    exitCode = "@" .. mapName .. " Exit/Level Completed"
+
+                    entranceCode = string.gsub(string.gsub(exitCode, "Exit", "Entrance"),"Completed","Start")
+                    locationObject = Tracker:FindObjectForCode(entranceCode)
+                    completedCode = "e" .. epID .. "m" .. mapID .. "_complete"
+                    if locationObject ~= nil then
+                        startCode = string.gsub(completedCode, "_complete", "_access")
+                        itemObject = Tracker:FindObjectForCode(startCode)
+                        if itemObject ~= nil then
+                            locationObject.CapturedItem = itemObject
+                        end
+                    end
+
+                    itemObject = Tracker:FindObjectForCode(completedCode)
+
+                    for _,locationCode in pairs({exitCode, string.gsub(exitCode, "Exit", "Secret Exit")}) do
+                        if type(locationCode) == "string" then
+                            locationObject = Tracker:FindObjectForCode(locationCode)
+                            if locationObject ~= nil then
+                                if itemObject ~= nil then
+                                    locationObject.CapturedItem = itemObject
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+    print("")
+end
+
 -- Load Constants
 print("Load Constants")
 ScriptHost:LoadScript("./scripts/constants/constants.lua")
@@ -71,46 +121,9 @@ print("")
 
 -- Locations
 print("Loading Locations")
-Tracker:AddLocations("variants/" .. baseTheme .. '/' .. baseGame .. "/locations/" .. baseGame .. ".json") -- DOOM
-for epID,episode in pairs(keySets[baseTheme][baseGame]["episodes"]) do
-    if episode ~= nil and not skip_episode(epID) then
-        episodeFile = "variants/" .. baseTheme .. '/' .. baseGame .. "/locations/overworld/" .. "e" .. epID .. ".json"
-        Tracker:AddLocations(episodeFile)
-        if episode["maps"] ~= nil then
-            for mapID,map in pairs(episode["maps"]) do
-                mapFile = "variants/" .. baseTheme .. '/' .. baseGame .. "/locations/underworld/" .. "e" .. epID .. "/" .. "e" .. epID .. "m" .. mapID .. ".json"
-                Tracker:AddLocations(mapFile)
-                mapName = string.upper(get_map_metadata(baseGame, epID, mapID))
-                exitCode = "@" .. mapName .. " Exit/Level Completed"
+Tracker:AddLocations("variants/" .. baseTheme .. '/' .. baseGame .. "/locations/" .. baseGame .. ".json")
 
-                entranceCode = string.gsub(string.gsub(exitCode, "Exit", "Entrance"),"Completed","Start")
-                locationObject = Tracker:FindObjectForCode(entranceCode)
-                completedCode = "e" .. epID .. "m" .. mapID .. "_complete"
-                if locationObject ~= nil then
-                    startCode = string.gsub(completedCode, "_complete", "_access")
-                    itemObject = Tracker:FindObjectForCode(startCode)
-                    if itemObject ~= nil then
-                        locationObject.CapturedItem = itemObject
-                    end
-                end
-
-                itemObject = Tracker:FindObjectForCode(completedCode)
-
-                for _,locationCode in pairs({exitCode, string.gsub(exitCode, "Exit", "Secret Exit")}) do
-                    if type(locationCode) == "string" then
-                        locationObject = Tracker:FindObjectForCode(locationCode)
-                        if locationObject ~= nil then
-                            if itemObject ~= nil then
-                                locationObject.CapturedItem = itemObject
-                            end
-                        end
-                    end
-                end
-            end
-        end
-    end
-end
-print("")
+load_meat()
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then

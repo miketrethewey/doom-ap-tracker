@@ -1,0 +1,41 @@
+{
+  "weapons_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "h_alignment": "left",
+            "rows": [
+              ["melee"],
+              ["wand", "crossbow", "dragonclaw"],
+              ["hellstaff", "phoenixrod", "firemace"]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weapons_grid_horizontal": {
+    "type": "itemgrid",
+    "item_margin": "0,0",
+    "rows": [
+      [
+        "melee",
+        "wand",
+        "crossbow",
+        "dragonclaw",
+        "hellstaff",
+        "phoenixrod",
+        "firemace"
+      ]
+    ]
+  }
+}

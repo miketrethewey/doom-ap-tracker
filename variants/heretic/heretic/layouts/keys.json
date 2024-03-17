@@ -1,0 +1,36 @@
+{"keys_grid": {
+  "type": "array",
+  "orientation": "vertical",
+  "content": [
+    {
+      "type": "array",
+      "orientation": "horizontal",
+      "content": [
+        {"type": "layout", "key": "keys_e1"},
+        {
+          "type": "itemgrid",
+          "item_size": 16,
+          "item_margin": "0",
+          "rows": [
+            ["e1m10_access"],
+            ["e1m10_blue_slim"],
+            ["e1m10_yellow_slim"],
+            ["e1m10_red_slim"],
+            ["e1m10_complete"]
+          ]
+        },
+        {"type": "layout", "key": "keys_e2"},
+        {"type": "layout", "key": "keys_e3"}
+      ]
+    },
+    {
+      "type": "array",
+      "orientation": "horizontal",
+      "content": [
+        {"type": "layout", "key": "keys_e4"},
+        {"type": "layout", "key": "keys_e5"},
+        {"type": "layout", "key": "keys_e6"}
+      ]
+    }
+  ]
+}}

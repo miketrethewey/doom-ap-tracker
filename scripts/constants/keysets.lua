@@ -757,5 +757,64 @@ keySets = {
         }
       }
     }
+  },
+  ["heretic"] = {
+    ["heretic"] = {
+      ["episodes"] = {
+        {
+          ["name"] = "City of the Damned",
+          ["maps"] = {
+            {
+              ["name"] = "The Docks",
+              ["keys"] = "Y"
+            },
+            {
+              ["name"] = "The Dungeons",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "The Gatehouse",
+              ["keys"] = "YB"
+            },
+            {
+              ["name"] = "The Guard Tower",
+              ["keys"] = "YG"
+            },
+            {
+              ["name"] = "The Citadel",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "The Cathedral",
+              ["keys"] = "YG"
+            },
+            {
+              ["name"] = "The Crypts",
+              ["keys"] = "YGB"
+            },
+            { ["name"] = "Hell's Maw" },
+            {
+              ["name"] = "The Graveyard",
+              ["keys"] = "YGB"
+            }
+          }
+        },
+        {
+          ["name"] = "Hell's Maw"
+        },
+        {
+          ["name"] = "The Dome of D'Sparil"
+        },
+        {
+          ["name"] = "The Ossuary"
+        },
+        {
+          ["name"] = "The Stagnant Demesne"
+        },
+        {
+          ["name"] = "Fate's Path"
+        }
+      }
+    }
   }
 }

@@ -25,6 +25,14 @@ end
 
 function get_map_metadata(baseGame, epID, mapID)
     mapHandle = "e" .. epID .. "m" .. mapID
+    if mapDesignations[baseTheme] == nil then
+        print("No Map Designations for " .. baseTheme .. "!")
+        return
+    end
+    if mapDesignations[baseTheme][baseGame] == nil then
+        print("No Map Designations for " .. baseTheme .. "/" .. baseGame .. "!")
+        return
+    end
     if mapDesignations[baseTheme][baseGame] == "mapxx" then
         -- print(baseTheme,baseGame,epID,mapID)
         if keySets[baseTheme][baseGame] and

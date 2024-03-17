@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Staff",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/heretic/images/items/inventory/staff.png",
+    "codes": "staff"
+  },
+  {
+    "name": "Gauntlets of the Necromancer",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/heretic/images/items/inventory/gauntlets.png",
+    "codes": "gauntlets"
+  },
+  {
+    "name": "Melee",
+    "type": "composite_toggle",
+    "item_left": "staff",
+    "item_right": "gauntlets",
+    "allow_disabled": false,
+    "codes": "melee,staff,gauntlets",
+    "images": [
+      {
+        "img": "/variants/heretic/images/items/inventory/staff.png",
+        "left": true,
+        "right": false
+      },
+      {
+        "img": "/variants/heretic/images/items/inventory/gauntlets.png",
+        "left": false,
+        "right": true
+      },
+      {
+        "img": "/variants/heretic/images/items/inventory/melee.png",
+        "left": true,
+        "right": true
+      },
+      {
+        "img": "/variants/heretic/images/items/inventory/gauntlets.png",
+        "img_mods": "@disabled",
+        "left": false,
+        "right": false
+      }
+    ]
+  },
+  {
+    "name": "Elven Wand",
+    "type": "toggle",
+    "loop": true,
+    "img": "/variants/heretic/images/items/inventory/wand.png",
+    "codes": "wand"
+  },
+  {
+    "name": "Ethereal Crossbow",
+    "type": "toggle",
+    "loop": true,
+    "img": "/variants/heretic/images/items/inventory/crossbow.png",
+    "codes": "crossbow"
+  },
+  {
+    "name": "Dragon Claw",
+    "type": "toggle",
+    "loop": true,
+    "img": "/variants/heretic/images/items/inventory/dragonclaw.png",
+    "codes": "dragonclaw"
+  },
+  {
+    "name": "Hellstaff",
+    "type": "toggle",
+    "loop": true,
+    "img": "/variants/heretic/images/items/inventory/hellstaff.png",
+    "codes": "hellstaff"
+  },
+  {
+    "name": "Phoenix Rod",
+    "type": "toggle",
+    "loop": true,
+    "img": "/variants/heretic/images/items/inventory/phoenixrod.png",
+    "codes": "phoenixrod"
+  },
+  {
+    "name": "Firemace",
+    "type": "toggle",
+    "loop": true,
+    "img": "/variants/heretic/images/items/inventory/firemace.png",
+    "codes": "firemace"
+  }
+]

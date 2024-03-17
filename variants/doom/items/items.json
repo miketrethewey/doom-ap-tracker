@@ -43,7 +43,7 @@
     "codes": "melee,chainsaw,fist",
     "images": [
       {
-        "img": "variants/doom/images/items/inventory/fist.png",
+        "img": "/variants/doom/images/items/inventory/fist.png",
         "left": true,
         "right": false
       },

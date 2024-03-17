@@ -22,6 +22,9 @@
     },
     "doom/nrftl": {
       "display_name": "DOOM II: No Rest for the Living"
+    },
+    "heretic/heretic": {
+      "display_name": "Heretic"
     }
   },
   "versions_url": ""

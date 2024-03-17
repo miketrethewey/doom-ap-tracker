@@ -64,6 +64,8 @@ function KeyItem:init(
         (string.find(code,"e1m3") and color == "blue") then
             keyType = "cards"
         end
+    elseif baseGame == "heretic" then
+        keyType = "runes"
     end
 
     if string.find(code,"cyan") or
@@ -88,9 +90,8 @@ function KeyItem:init(
     img = "variants/" .. baseTheme .. "/images/items/keys/" .. keyType .. "/" .. color
     imgMods = ""
     if size == "slim" then
-        code = code .. "_slim"
         img = img .. "_slim"
-        self.code[code] = true
+        self.code[code .. "_slim"] = true
     else
         imgMods = "overlay|variants/" .. baseTheme .. "/images/overlays/" .. mapHandle .. ".png"
     end
@@ -185,53 +186,71 @@ function KeyItem:propertyChanged(key, value)
     self:updateIcon()
 end
 
-items = {}
-for epID,episode in pairs(keySets[baseTheme][baseGame]["episodes"]) do
-    if episode ~= nil and not skip_episode(epID) then
-        epName = episode["name"]
-        msg = baseGame .. ": " .. epName .. " (E" .. epID .. ")"
-        -- print(msg)
-        if episode["maps"] ~= nil then
-            for mapID,map in pairs(episode["maps"]) do
-                mapName = map["name"]
-                mapHandle = string.upper(get_map_metadata(baseGame, epID, mapID))
-                msg = " " .. mapName .. " (" .. mapHandle .. ")"
-                itemName = msg
-                if map["keys"] ~= nil then
-                    msg = msg .. " [" .. map["keys"] .. "]"
-                    colorSet = map["keys"]
-                    for c in colorSet:gmatch"." do
-                        c = string.lower(c)
-                        if c == "b" then
-                            c = "blue"
-                        elseif c == "y" then
-                            c = "yellow"
-                        elseif c == "r" then
-                            c = "red"
-                        elseif c == "c" then
-                            c = "cyan"
-                        elseif c == "o" then
-                            c = "orange"
-                        elseif c == "p" then
-                            c = "purple"
+function load_keys()
+    if keySets == nil then
+        print("No KeySets!")
+        return
+    end
+    if keySets[baseTheme] == nil then
+        print("No KeySets for " .. baseTheme .. "!")
+        return
+    end
+    items = {}
+
+    for epID,episode in pairs(keySets[baseTheme][baseGame]["episodes"]) do
+        if episode ~= nil and not skip_episode(epID) then
+            epName = episode["name"]
+            msg = baseGame .. ": " .. epName .. " (E" .. epID .. ")"
+            -- print(msg)
+            if episode["maps"] ~= nil then
+                for mapID,map in pairs(episode["maps"]) do
+                    mapName = map["name"]
+                    mapHandle = string.upper(get_map_metadata(baseGame, epID, mapID))
+                    msg = " " .. mapName .. " (" .. mapHandle .. ")"
+                    itemName = msg
+                    if map["keys"] ~= nil then
+                        msg = msg .. " [" .. map["keys"] .. "]"
+                        colorSet = map["keys"]
+                        for c in colorSet:gmatch"." do
+                            c = string.lower(c)
+                            -- Cards, Skulls
+                            if c == "b" then
+                                c = "blue"
+                            elseif c == "y" then
+                                c = "yellow"
+                            elseif c == "r" then
+                                c = "red"
+                            -- Demon Keys
+                            elseif c == "c" then
+                                c = "cyan"
+                            elseif c == "o" then
+                                c = "orange"
+                            elseif c == "p" then
+                                c = "purple"
+                            -- Heretic
+                            elseif c == "g" then
+                                c = "green"
+                            end
+                            keyName = itemName .. " - " .. string.upper(string.sub(c,0,1)) .. string.sub(c,2)
+                            msg = keyName
+                            KeyItem(
+                                keyName,
+                                "e" .. epID .. "m" .. mapID .. "_" .. c,
+                                c
+                            )
+                            KeyItem(
+                                keyName,
+                                "e" .. epID .. "m" .. mapID .. "_" .. c,
+                                c,
+                                "slim"
+                            )
+                            -- print(msg)
                         end
-                        keyName = itemName .. " - " .. string.upper(string.sub(c,0,1)) .. string.sub(c,2)
-                        msg = keyName
-                        KeyItem(
-                            keyName,
-                            "e" .. epID .. "m" .. mapID .. "_" .. c,
-                            c
-                        )
-                        KeyItem(
-                            keyName,
-                            "e" .. epID .. "m" .. mapID .. "_" .. c,
-                            c,
-                            "slim"
-                        )
-                        -- print(msg)
                     end
                 end
             end
         end
     end
 end
+
+load_keys()
