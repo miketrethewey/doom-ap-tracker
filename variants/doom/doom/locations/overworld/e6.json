@@ -175,7 +175,7 @@
             "name": "Mega Armor",
             "note": "In building with vanilla Computer Area Map, becomes Green Armor on UV/NM",
             "access_rules": ["$canShootSigil"],
-            "visibility_rules": ["$difficulty_range|6|low","$difficulty|6|med"],
+            "visibility_rules": ["$difficulty_range|6|low", "$difficulty|6|med"],
             "item_count": 1
           },
           {
@@ -380,14 +380,14 @@
             "name": "Supercharge 5",
             "note": "Behind false wall, next to Berserk 2",
             "access_rules": ["$canShootSigil,$access|e6m5|blue"],
-            "visibility_rules": ["$difficulty_range|6|low","$difficulty|6|med`"],
+            "visibility_rules": ["$difficulty_range|6|low", "$difficulty|6|med`"],
             "item_count": 1
           },
           {
             "name": "Supercharge 6",
             "note": "Near spawn, in side secret, next to Mega Armor 2",
             "access_rules": ["$canShootSigil,$access|e6m5|blue"],
-            "visibility_rules": ["$difficulty_range|6|low","$difficulty|6|med"],
+            "visibility_rules": ["$difficulty_range|6|low", "$difficulty|6|med"],
             "item_count": 1
           },
           {
@@ -918,7 +918,7 @@
             "name": "Backpack 2",
             "note": "May not be present on NM",
             "access_rules": ["$canShootSigil"],
-            "visibility_rules": ["$difficulty_range|6|low","$difficulty|6|med"],
+            "visibility_rules": ["$difficulty_range|6|low", "$difficulty|6|med"],
             "item_count": 1
           },
           {

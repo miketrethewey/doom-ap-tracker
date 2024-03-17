@@ -1,0 +1,231 @@
+E4:
+  M21:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Super Shotgun
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Armor
+      - name: Mega Armor
+        q: 2
+      - name: Supercharge
+        q12: 3
+        q_3: 1
+        q45: 1
+      - name: Megasphere
+      - name: Backpack
+      - name: Berserk
+        q: 2
+      - name: Map
+      - name: Invulnerability
+        q12: 2
+        q_3: 2
+        q45: 1
+      - name: Invisibility
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M22:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Rocket
+        q: 2
+      - name: Plasma
+      - name: BFG
+      - name: Armor
+        q: 2
+      - name: Mega Armor
+        q12: 0
+        q_3: 1
+        q45: 1
+      - name: Supercharge
+      - name: Megasphere
+        q12: 1
+        q_3: 0
+        q45: 0
+      - name: Berserk
+      - name: Invulnerability
+      - name: Blue Card
+      - name: Red Skull
+      - name: Yellow Card
+      - name: Exit
+  M23:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+        q: 7
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Armor
+        q: 5
+      - name: Supercharge
+      - name: Berserk
+      - name: Invulnerability
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit
+  M24:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Shotgun
+        q12: 2
+        q_3: 3
+        q45: 3
+      - name: Super Shotgun
+      - name: Rocket
+        q: 2
+      - name: Plasma
+      - name: Armor
+        q: 2
+      - name: Invulnerability
+      - name: Invisibility
+      - name: Blue Card
+      - name: Exit
+  M25:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Super Shotgun
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Armor
+        q: 2
+      - name: Mega Armor
+        q: 2
+      - name: Supercharge
+      - name: Megasphere
+      - name: Backpack
+      - name: Berserk
+      - name: Invisibility
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M26:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+        q12: 1
+        q_3: 1
+        q45: 0
+      - name: Rocket
+      - name: Armor
+      - name: Supercharge
+        q12: 1
+        q_3: 2
+        q45: 2
+      - name: Megasphere
+        q12: 1
+        q_3: 0
+        q45: 0
+      - name: Backpack
+      - name: Berserk
+        q: 2
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M27:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: Armor
+        q: 2
+      - name: Mega Armor
+      - name: Supercharge
+        q12: 1
+        q_3: 0
+        q45: 0
+      - name: Backpack
+      - name: Berserk
+      - name: Map
+      - name: Invulnerability
+      - name: Invisibility
+        q12: 1
+        q_3: 1
+        q45: 2
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit
+  M28:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Rocket
+      - name: Plasma
+      - name: Armor
+      - name: Mega Armor
+      - name: Megasphere
+        q: 2
+      - name: Backpack
+        q: 3
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M29:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+        q12: 1
+        q_3: 0
+        q45: 0
+      - name: Shotgun
+        q: 2
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+        q12: 1
+        q_3: 0
+        q45: 0
+      - name: Armor
+      - name: Supercharge
+        q: 2
+      - name: Megasphere
+      - name: Invisibility
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M30:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Shotgun
+        q: 3
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+        q: 2
+      - name: Plasma
+      - name: BFG
+      - name: Mega Armor
+        q: 2
+      - name: Supercharge
+        q: 2
+      - name: Backpack
+      - name: Invulnerability
+        q12: 1
+        q_3: 0
+        q45: 0
+      - name: Red Skull
+      - name: Exit

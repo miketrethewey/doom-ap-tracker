@@ -1,0 +1,45 @@
+E5:
+  M30:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: Armor
+      - name: Mega Armor
+        q: 3
+      - name: Supercharge
+      - name: Megasphere
+      - name: Backpack
+      - name: Blue Card
+      - name: Red Card
+      - name: Exit
+  M31:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Rocket
+        q: 2
+      - name: Plasma
+      - name: BFG
+      - name: Armor
+        q12: 0
+        q_3: 1
+        q45: 1
+      - name: Mega Armor
+        q12: 2
+        q_3: 3
+        q45: 3
+      - name: Supercharge
+        q: 2
+      - name: Megasphere
+      - name: Backpack
+        q: 2
+      - name: Invisibility
+        q: 2
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit

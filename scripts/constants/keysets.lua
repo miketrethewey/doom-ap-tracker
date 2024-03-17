@@ -1,632 +1,759 @@
 keySets = {
-  [ "doom" ] = {
+  ["doom"] = {
     -- DOOM ("DOOM93"); 19931210
-    [ "doom" ] = {
-      [ "episodes" ] = {
+    ["doom"] = {
+      ["episodes"] = {
         -- DOOM Episode 1
         {
-          [ "name" ] = "Knee-Deep in the Dead",
-          [ "maps" ] = {
-            { [ "name" ] = "Hangar" },
+          ["name"] = "Knee-Deep in the Dead",
+          ["maps"] = {
+            { [ "name"] = "Hangar" },
             {
-              [ "name" ] = "Nuclear Plant",
-              [ "keys" ] = "R"
+              ["name"] = "Nuclear Plant",
+              ["keys"] = "R"
             },
             {
-              [ "name" ] = "Toxin Refinery",
-              [ "keys" ] = "BY"
+              ["name"] = "Toxin Refinery",
+              ["keys"] = "BY"
             },
             {
-              [ "name" ] = "Command Control",
-              [ "keys" ] = "BY"
+              ["name"] = "Command Control",
+              ["keys"] = "BY"
             },
             {
-              [ "name" ] = "Phobos Lab",
-              [ "keys" ] = "BY"
+              ["name"] = "Phobos Lab",
+              ["keys"] = "BY"
             },
             {
-              [ "name" ] = "Central Processing",
-              [ "keys" ] = "BYR"
+              ["name"] = "Central Processing",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Computer Station",
-              [ "keys" ] = "BYR"
+              ["name"] = "Computer Station",
+              ["keys"] = "BYR"
             },
-            { [ "name" ] = "Phobos Anomaly" },
+            { [ "name"] = "Phobos Anomaly" },
             {
-              [ "name" ] = "Military Base",
-              [ "keys" ] = "BYR"
+              ["name"] = "Military Base",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Sewers",
-              [ "keys" ] = "BY"
+              ["name"] = "Sewers",
+              ["keys"] = "BY"
             }
           }
         },
         -- DOOM Episode 2
         {
-          [ "name" ] = "The Shores of Hell",
-          [ "maps" ] = {
+          ["name"] = "The Shores of Hell",
+          ["maps"] = {
             {
-              [ "name" ] = "Deimos Anomaly",
-              [ "keys" ] = "BR"
+              ["name"] = "Deimos Anomaly",
+              ["keys"] = "BR"
             },
             {
-              [ "name" ] = "Containment Area",
-              [ "keys" ] = "BYR"
+              ["name"] = "Containment Area",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Refinery",
-              [ "keys" ] = "B"
+              ["name"] = "Refinery",
+              ["keys"] = "B"
             },
             {
-              [ "name" ] = "Deimos Lab",
-              [ "keys" ] = "BY"
+              ["name"] = "Deimos Lab",
+              ["keys"] = "BY"
             },
-            { [ "name" ] = "Command Center" },
+            { [ "name"] = "Command Center" },
             {
-              [ "name" ] = "Halls of the Damned",
-              [ "keys" ] = "BYR" -- SKULLS
+              ["name"] = "Halls of the Damned",
+              ["keys"] = "BYR" -- SKULLS
             },
             {
-              [ "name" ] = "Spawning Vats",
-              [ "keys" ] = "BYR"
+              ["name"] = "Spawning Vats",
+              ["keys"] = "BYR"
             },
-            { [ "name" ] = "Tower of Babel" },
+            { [ "name"] = "Tower of Babel" },
             {
-              [ "name" ] = "Fortress of Mystery",
-              [ "keys" ] = "BYR" -- SKULLS
+              ["name"] = "Fortress of Mystery",
+              ["keys"] = "BYR" -- SKULLS
             }
           }
         },
         -- DOOM Episode 3
         {
-          [ "name" ] = "Inferno",
-          [ "maps" ] = {
-            { [ "name" ] = "Hell Keep" },
+          ["name"] = "Inferno",
+          ["maps"] = {
+            { [ "name"] = "Hell Keep" },
             {
-              [ "name" ] = "Slough of Despair",
-              [ "keys" ] = "B"
+              ["name"] = "Slough of Despair",
+              ["keys"] = "B"
             },
             {
-              [ "name" ] = "Pandemonium",
-              [ "keys" ] = "B"
+              ["name"] = "Pandemonium",
+              ["keys"] = "B"
             },
             {
-              [ "name" ] = "House of Pain",
-              [ "keys" ] = "BYR"
+              ["name"] = "House of Pain",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Unholy Cathedral",
-              [ "keys" ] = "BY"
+              ["name"] = "Unholy Cathedral",
+              ["keys"] = "BY"
             },
             {
-              [ "name" ] = "Mt. Erebus",
-              [ "keys" ] = "B"
+              ["name"] = "Mt. Erebus",
+              ["keys"] = "B"
             },
             {
-              [ "name" ] = "Limbo",
-              [ "keys" ] = "BYR"
+              ["name"] = "Limbo",
+              ["keys"] = "BYR"
             },
-            { [ "name" ] = "Dis" },
+            { [ "name"] = "Dis" },
             {
-              [ "name" ] = "Warrens",
-              [ "keys" ] = "BR"
+              ["name"] = "Warrens",
+              ["keys"] = "BR"
             }
           }
         },
         -- Ultimate DOOM ("DOOM95") Episode 4; 19950430
         {
-          [ "name" ] = "Thy Flesh Consumed",
-          [ "maps" ] = {
+          ["name"] = "Thy Flesh Consumed",
+          ["maps"] = {
             {
-              [ "name" ] = "Hell Beneath",
-              [ "keys" ] = "BR"
+              ["name"] = "Hell Beneath",
+              ["keys"] = "BR"
             },
             {
-              [ "name" ] = "Perfect Hatred",
-              [ "keys" ] = "BY"
+              ["name"] = "Perfect Hatred",
+              ["keys"] = "BY"
             },
             {
-              [ "name" ] = "Sever the Wicked",
-              [ "keys" ] = "BR"
+              ["name"] = "Sever the Wicked",
+              ["keys"] = "BR"
             },
             {
-              [ "name" ] = "Unruly Evil",
-              [ "keys" ] = "R"
+              ["name"] = "Unruly Evil",
+              ["keys"] = "R"
             },
             {
-              [ "name" ] = "They Will Repent",
-              [ "keys" ] = "BYR"
+              ["name"] = "They Will Repent",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Against Thee Wickedly",
-              [ "keys" ] = "BYR"
+              ["name"] = "Against Thee Wickedly",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "And Hell Followed",
-              [ "keys" ] = "BYR"
+              ["name"] = "And Hell Followed",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Unto the Cruel",
-              [ "keys" ] = "BY"
+              ["name"] = "Unto the Cruel",
+              ["keys"] = "BY"
             },
             {
-              [ "name" ] = "Fear",
-              [ "keys" ] = "Y"
+              ["name"] = "Fear",
+              ["keys"] = "Y"
             }
           }
         },
         -- DOOM Episode 5; 20190522
         {
-          [ "name" ] = "SI6IL",
-          [ "maps" ] = {
-            { [ "name" ] = "Baphomet's Demense" },
+          ["name"] = "SI6IL",
+          ["maps"] = {
+            { [ "name"] = "Baphomet's Demense" },
             {
-              [ "name" ] = "Sheol",
-              [ "keys" ] = "R"
+              ["name"] = "Sheol",
+              ["keys"] = "R"
             },
             {
-              [ "name" ] = "Cages of the Damned",
-              [ "keys" ] = "R"
+              ["name"] = "Cages of the Damned",
+              ["keys"] = "R"
             },
             {
-              [ "name" ] = "Paths of Wretchedness",
-              [ "keys" ] = "BYR"
+              ["name"] = "Paths of Wretchedness",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Abaddon's Void",
-              [ "keys" ] = "BY"
+              ["name"] = "Abaddon's Void",
+              ["keys"] = "BY"
             },
             {
-              [ "name" ] = "Unspeakable Persecution",
-              [ "keys" ] = "R"
+              ["name"] = "Unspeakable Persecution",
+              ["keys"] = "R"
             },
             {
-              [ "name" ] = "Nightmare Underworld",
-              [ "keys" ] = "YR"
+              ["name"] = "Nightmare Underworld",
+              ["keys"] = "YR"
             },
             {
-              [ "name" ] = "Halls of Perdition",
-              [ "keys" ] = "R"
+              ["name"] = "Halls of Perdition",
+              ["keys"] = "R"
             },
             {
-              [ "name" ] = "Realm of Iblis",
-              [ "keys" ] = "BYR"
+              ["name"] = "Realm of Iblis",
+              ["keys"] = "BYR"
             }
           }
         },
         -- DOOM Episode 6; 20231210
         {
-          [ "name" ] = "SI6IL II",
-          [ "maps" ] = {
-            { [ "name" ] = "Cursed Darkness" },
-            { [ "name" ] = "Violent Hatred" },
-            { [ "name" ] = "Twilight Desolation" },
+          ["name"] = "SI6IL II",
+          ["maps"] = {
+            { [ "name"] = "Cursed Darkness" },
+            { [ "name"] = "Violent Hatred" },
+            { [ "name"] = "Twilight Desolation" },
             {
-              [ "name" ] = "Fragments of Sanity",
-              [ "keys" ] = "YR"
+              ["name"] = "Fragments of Sanity",
+              ["keys"] = "YR"
             },
             {
-              [ "name" ] = "Wrathful Reckoning",
-              [ "keys" ] = "BR" -- CARDS
+              ["name"] = "Wrathful Reckoning",
+              ["keys"] = "BR" -- CARDS
             },
             {
-              [ "name" ] = "Vengeance Unleashed",
-              [ "keys" ] = "BYR"
+              ["name"] = "Vengeance Unleashed",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Descent Into Terror",
-              [ "keys" ] = "BYR" -- RED CARD
+              ["name"] = "Descent Into Terror",
+              ["keys"] = "BYR" -- RED CARD
             },
             {
-              [ "name" ] = "Abyss of Despair",
-              [ "keys" ] = "BR"
+              ["name"] = "Abyss of Despair",
+              ["keys"] = "BR"
             },
             {
-              [ "name" ] = "Shattered Homecoming",
-              [ "keys" ] = "YR" -- CARDS
+              ["name"] = "Shattered Homecoming",
+              ["keys"] = "YR" -- CARDS
             }
           }
         }
       }
     },
-    [ "doomii" ] = {
+    ["doomii"] = {
       -- DOOM II; 19940930
-      [ "episodes" ] = {
+      ["episodes"] = {
         -- DII "Episode" 1
         {
-          [ "name" ] = "The Space Station",
-          [ "maps" ] = {
-            { [ "name" ] = "Entryway" },
+          ["name"] = "The Space Station",
+          ["maps"] = {
+            { [ "name"] = "Entryway" },
             {
-              [ "name" ] = "Underhalls",
-              [ "keys" ] = "BR"
+              ["name"] = "Underhalls",
+              ["keys"] = "BR"
             },
             {
-              [ "name" ] = "The Gantlet",
-              [ "keys" ] = "BR"
+              ["name"] = "The Gantlet",
+              ["keys"] = "BR"
             },
             {
-              [ "name" ] = "The Focus",
-              [ "keys" ] = "BYR"
+              ["name"] = "The Focus",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "The Waste Tunnels",
-              [ "keys" ] = "BYR"
+              ["name"] = "The Waste Tunnels",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "The Crusher",
-              [ "keys" ] = "BYR"
+              ["name"] = "The Crusher",
+              ["keys"] = "BYR"
             },
-            { [ "name" ] = "Dead Simple" },
+            { [ "name"] = "Dead Simple" },
             {
-              [ "name" ] = "Tricks and Traps",
-              [ "keys" ] = "YR"
-            },
-            {
-              [ "name" ] = "The Pit",
-              [ "keys" ] = "BY"
+              ["name"] = "Tricks and Traps",
+              ["keys"] = "YR"
             },
             {
-              [ "name" ] = "Refueling Base",
-              [ "keys" ] = "BY"
+              ["name"] = "The Pit",
+              ["keys"] = "BY"
             },
             {
-              [ "name" ] = "Circle of Death",
-              [ "keys" ] = "BY"
+              ["name"] = "Refueling Base",
+              ["keys"] = "BY"
+            },
+            {
+              ["name"] = "Circle of Death",
+              ["keys"] = "BY"
             }
           }
         },
         -- DII "Episode" 2
         {
-          [ "name" ] = "The City",
-          [ "maps" ] = {
+          ["name"] = "The City",
+          ["maps"] = {
             {
-              [ "name" ] = "The Factory",
-              [ "keys" ] = "BY"
+              ["name"] = "The Factory",
+              ["keys"] = "BY"
             },
             {
-              [ "name" ] = "Downtown",
-              [ "keys" ] = "BYR"
+              ["name"] = "Downtown",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "The Inmost Dens",
-              [ "keys" ] = "BR"
+              ["name"] = "The Inmost Dens",
+              ["keys"] = "BR"
             },
             {
-              [ "name" ] = "Industrial Zone",
-              [ "keys" ] = "BYR"
+              ["name"] = "Industrial Zone",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Suburbs",
-              [ "keys" ] = "BR"
+              ["name"] = "Suburbs",
+              ["keys"] = "BR"
             },
             {
-              [ "name" ] = "Tenements",
-              [ "keys" ] = "BYR"
+              ["name"] = "Tenements",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "The Courtyard",
-              [ "keys" ] = "BY"
+              ["name"] = "The Courtyard",
+              ["keys"] = "BY"
             },
             {
-              [ "name" ] = "The Citadel",
-              [ "keys" ] = "BYR"
+              ["name"] = "The Citadel",
+              ["keys"] = "BYR"
             },
-            { [ "name" ] = "Gotcha!" }
+            { [ "name"] = "Gotcha!"}
           }
         },
         -- DII "Episode" 3
         {
-          [ "name" ] = "Hell",
-          [ "maps" ] = {
+          ["name"] = "Hell",
+          ["maps"] = {
             {
-              [ "name" ] = "Nirvana",
-              [ "keys" ] = "BYR"
+              ["name"] = "Nirvana",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "The Catacombs",
-              [ "keys" ] = "BR"
+              ["name"] = "The Catacombs",
+              ["keys"] = "BR"
             },
             {
-              [ "name" ] = "Barrels o' Fun",
-              [ "keys" ] = "Y"
+              ["name"] = "Barrels o' Fun",
+              ["keys"] = "Y"
             },
             {
-              [ "name" ] = "The Chasm",
-              [ "keys" ] = "BR"
+              ["name"] = "The Chasm",
+              ["keys"] = "BR"
             },
             {
-              [ "name" ] = "Bloodfalls",
-              [ "keys" ] = "B"
+              ["name"] = "Bloodfalls",
+              ["keys"] = "B"
             },
             {
-              [ "name" ] = "The Abandoned Mines",
-              [ "keys" ] = "BYR"
+              ["name"] = "The Abandoned Mines",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Monster Condo",
-              [ "keys" ] = "BYR"
+              ["name"] = "Monster Condo",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "The Spirit World",
-              [ "keys" ] = "YR"
+              ["name"] = "The Spirit World",
+              ["keys"] = "YR"
             },
-            { [ "name" ] = "The Living End" },
-            { [ "name" ] = "Icon of Sin" }
+            { [ "name"] = "The Living End" },
+            { [ "name"] = "Icon of Sin"}
           }
         },
         -- DII "Episode" 4
         {
-          [ "name" ] = "Secret",
-          [ "maps" ] = {
-            { [ "name" ] = "Wolfenstein" },
-            { [ "name" ] = "Grosse" },
+          ["name"] = "Secret",
+          ["maps"] = {
+            { [ "name"] = "Wolfenstein" },
+            { [ "name"] = "Grosse" },
             {
-              [ "name" ] = "Betray",
-              [ "keys" ] = "BYR"
+              ["name"] = "Betray",
+              ["keys"] = "BYR"
             }
           }
         }
       }
     },
     -- DOOM64
-    [ "doom64" ] = {
+    ["doom64"] = {
       -- DOOM64; 19970331
-      [ "episodes" ] = {
+      ["episodes"] = {
         -- D64 "Episode" 1
         {
-          [ "name" ] = "Episode 1",
-          [ "maps" ] = {
+          ["name"] = "Episode 1",
+          ["maps"] = {
             {
-              [ "name" ] = "Staging Area",
-              [ "keys" ] = "B"
+              ["name"] = "Staging Area",
+              ["keys"] = "B"
             },
             {
-              [ "name" ] = "The Terraformer",
-              [ "keys" ] = "BYR"
+              ["name"] = "The Terraformer",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Main Engineering",
-              [ "keys" ] = "BYR"
+              ["name"] = "Main Engineering",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Holding Area",
-              [ "keys" ] = "B"
+              ["name"] = "Holding Area",
+              ["keys"] = "B"
             },
             {
-              [ "name" ] = "Tech Center",
-              [ "keys" ] = "BYR"
+              ["name"] = "Tech Center",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Alpha Quadrant",
-              [ "keys" ] = "BY"
+              ["name"] = "Alpha Quadrant",
+              ["keys"] = "BY"
             },
             {
-              [ "name" ] = "Research Lab",
-              [ "keys" ] = "BYR"
+              ["name"] = "Research Lab",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Final Outpost",
-              [ "keys" ] = "BYR"
+              ["name"] = "Final Outpost",
+              ["keys"] = "BYR"
             },
-            { [ "name" ] = "Even Simpler" },
+            { [ "name"] = "Even Simpler" },
             {
-              [ "name" ] = "The Bleeding",
-              [ "keys" ] = "Y"
+              ["name"] = "The Bleeding",
+              ["keys"] = "Y"
             }
           }
         },
         -- D64 "Episode" 2
         {
-          [ "name" ] = "Episode 2",
-          [ "maps" ] = {
+          ["name"] = "Episode 2",
+          ["maps"] = {
             {
-              [ "name" ] = "Terror Core",
-              [ "keys" ] = "BYR"
+              ["name"] = "Terror Core",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Altar Of Pain",
-              [ "keys" ] = "BYR"
+              ["name"] = "Altar Of Pain",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Dark Citadel",
-              [ "keys" ] = "BYR"
+              ["name"] = "Dark Citadel",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Eye Of The Storm",
-              [ "keys" ] = "B"
+              ["name"] = "Eye Of The Storm",
+              ["keys"] = "B"
             },
             {
-              [ "name" ] = "Dark Entries",
-              [ "keys" ] = "BR"
+              ["name"] = "Dark Entries",
+              ["keys"] = "BR"
             },
             {
-              [ "name" ] = "Blood Keep",
-              [ "keys" ] = "BYR"
+              ["name"] = "Blood Keep",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Watch Your Step",
-              [ "keys" ] = "B"
+              ["name"] = "Watch Your Step",
+              ["keys"] = "B"
             },
             {
-              [ "name" ] = "Spawned Fear",
-              [ "keys" ] = "BYR"
+              ["name"] = "Spawned Fear",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "The Spiral",
-              [ "keys" ] = "R"
+              ["name"] = "The Spiral",
+              ["keys"] = "R"
             },
             {
-              [ "name" ] = "Breakdown",
-              [ "keys" ] = "BYR"
+              ["name"] = "Breakdown",
+              ["keys"] = "BYR"
             }
           }
         },
         -- D64 "Epsiode" 3
         {
-          [ "name" ] = "Episode 3",
-          [ "maps" ] = {
+          ["name"] = "Episode 3",
+          ["maps"] = {
             {
-              [ "name" ] = "Pitfalls",
-              [ "keys" ] = "BYR"
+              ["name"] = "Pitfalls",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Burnt Offerings",
-              [ "keys" ] = "BYR"
+              ["name"] = "Burnt Offerings",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Unholy Temple",
-              [ "keys" ] = "BYR"
+              ["name"] = "Unholy Temple",
+              ["keys"] = "BYR"
             },
-            { [ "name" ] = "No Escape" },
-            { [ "name" ] = "Cat And Mouse" },
-            { [ "name" ] = "Hardcore" },
-            { [ "name" ] = "Playground" },
-            { [ "name" ] = "The Absolution" }
+            { [ "name"] = "No Escape" },
+            { [ "name"] = "Cat And Mouse" },
+            { [ "name"] = "Hardcore" },
+            { [ "name"] = "Playground" },
+            { [ "name"] = "The Absolution"}
           }
         },
         -- D64 "Episode" 4
         {
-          [ "name" ] = "Secret",
-          [ "maps" ] = {
+          ["name"] = "Secret",
+          ["maps"] = {
             {
-              [ "name" ] = "Outpost Omega",
-              [ "keys" ] = "BYRO"
+              ["name"] = "Outpost Omega",
+              ["keys"] = "BYRO"
             },
             {
-              [ "name" ] = "The Lair",
-              [ "keys" ] = "BYP"
+              ["name"] = "The Lair",
+              ["keys"] = "BYP"
             },
             {
-              [ "name" ] = "In The Void",
-              [ "keys" ] = "BYRC"
+              ["name"] = "In The Void",
+              ["keys"] = "BYRC"
             },
             {
-              [ "name" ] = "Hectic",
-              [ "keys" ] = "BYR"
+              ["name"] = "Hectic",
+              ["keys"] = "BYR"
             },
-            { [ "name" ] = "Title" }
+            { [ "name"] = "Title"}
           }
         },
         -- D64 "Episode" 5
         {
-          [ "name" ] = "The Lost Levels",
-          [ "maps" ] = {
+          ["name"] = "The Lost Levels",
+          ["maps"] = {
             {
-              [ "name" ] = "Plant Ops",
-              [ "keys" ] = "BYR"
+              ["name"] = "Plant Ops",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Evil Sacrifice",
-              [ "keys" ] = "BYR"
+              ["name"] = "Evil Sacrifice",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Cold Grounds",
-              [ "keys" ] = "BYR"
+              ["name"] = "Cold Grounds",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Wretched Vats",
-              [ "keys" ] = "BYR"
+              ["name"] = "Wretched Vats",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Thy Glory",
-              [ "keys" ] = "BYR"
+              ["name"] = "Thy Glory",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Final Judgement",
-              [ "keys" ] = "PCO"
+              ["name"] = "Final Judgement",
+              ["keys"] = "PCO"
             },
-            { [ "name" ] = "Panic" }
+            { [ "name"] = "Panic"}
           }
         }
       }
     },
     -- DII "Episode" 4;
     -- XBOX 2010, PS3 20121120, PC 20190726
-    [ "nrftl" ] = {
-      [ "episodes" ] = {
+    ["nrftl"] = {
+      ["episodes"] = {
         {
-          [ "name" ] = "No Rest for the Living",
-          [ "maps" ] = {
+          ["name"] = "No Rest for the Living",
+          ["maps"] = {
             {
-              [ "name" ] = "The Earth Base",
-              [ "keys" ] = "BYR"
+              ["name"] = "The Earth Base",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "The Pain Labs",
-              [ "keys" ] = "BYR"
+              ["name"] = "The Pain Labs",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Canyon of the Dead",
-              [ "keys" ] = "BY"
+              ["name"] = "Canyon of the Dead",
+              ["keys"] = "BY"
             },
             {
-              [ "name" ] = "Hell Mountain",
-              [ "keys" ] = "BYR"
+              ["name"] = "Hell Mountain",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Vivisection",
-              [ "keys" ] = "BYR"
+              ["name"] = "Vivisection",
+              ["keys"] = "BYR"
             },
             {
-              [ "name" ] = "Inferno of Blood",
-              [ "keys" ] = "BY"
+              ["name"] = "Inferno of Blood",
+              ["keys"] = "BY"
             },
             {
-              [ "name" ] = "Baron's Banquet",
-              [ "keys" ] = "BY"
+              ["name"] = "Baron's Banquet",
+              ["keys"] = "BY"
             },
-            { [ "name" ] = "Tomb of Malevolence" },
-            { [ "name" ] = "March of the Demons" }
+            { [ "name"] = "Tomb of Malevolence" },
+            { [ "name"] = "March of the Demons"}
           }
         }
       }
     },
     -- Final DOOM; 19960617
     -- Final Doom 1
-    [ "tnt" ] = {
-      [ "episodes" ] = {
+    ["tnt"] = {
+      ["episodes"] = {
         {
-          [ "name" ] = "Experimental Labs",
-          [ "maps" ] = {}
+          ["name"] = "Experimental Labs",
+          ["maps"] = {
+            {
+              ["name"] = "System Control",
+              ["keys"] = "B"
+            },
+            {
+              ["name"] = "Human BBQ",
+              ["keys"] = "BYR"
+            },
+            {
+              ["name"] = "Power Control",
+              ["keys"] = "BYR"
+            },
+            { [ "name"] = "Wormhole" },
+            {
+              ["name"] = "Hanger",
+              ["keys"] = "BYR"
+            },
+            {
+              ["name"] = "Open Season",
+              ["keys"] = "BYR"
+            }
+          }
         },
         {
-          [ "name" ] = "Military Base",
-          [ "maps" ] = {}
+          ["name"] = "Military Base",
+          ["maps"] = {
+            {
+              ["name"] = "Prison",
+              ["keys"] = "R"
+            },
+            {
+              ["name"] = "Metal",
+              ["keys"] = "R"
+            },
+            {
+              ["name"] = "Stronghold",
+              ["keys"] = "BR"
+            },
+            {
+              ["name"] = "Redemption",
+              ["keys"] = "YR"
+            },
+            {
+              ["name"] = "Storage Facility",
+              ["keys"] = "BR"
+            }
+          }
         },
         {
-          [ "name" ] = "Nighttime",
-          [ "maps" ] = {}
+          ["name"] = "Nighttime",
+          ["maps"] = {
+            {
+              ["name"] = "Crater",
+              ["keys"] = "BR"
+            },
+            {
+              ["name"] = "Nukage Processing",
+              ["keys"] = "BYR"
+            },
+            {
+              ["name"] = "Steel Works",
+              ["keys"] = "BYR"
+            },
+            { [ "name"] = "Dead Zone" },
+            {
+              ["name"] = "Deepest Reaches",
+              ["keys"] = "BYR"
+            },
+            {
+              ["name"] = "Processing Area",
+              ["keys"] = "BYR"
+            },
+            {
+              ["name"] = "Mill",
+              ["keys"] = "BYR"
+            },
+            {
+              ["name"] = "Shipping/Respawning",
+              ["keys"] = "BYR"
+            },
+            {
+              ["name"] = "Central Processing",
+              ["keys"] = "BYR"
+            }
+          }
         },
         {
-          [ "name" ] = "Hell",
-          [ "maps" ] = {}
+          ["name"] = "Hell",
+          ["maps"] = {
+            {
+              ["name"] = "Administration Center",
+              ["keys"] = "BYR"
+            },
+            {
+              ["name"] = "Habitat",
+              ["keys"] = "BYR"
+            },
+            {
+              ["name"] = "Lunar Mining Project",
+              ["keys"] = "BYR"
+            },
+            {
+              ["name"] = "Quarry",
+              ["keys"] = "B"
+            },
+            {
+              ["name"] = "Baron's Den",
+              ["keys"] = "BYR"
+            },
+            {
+              ["name"] = "Ballistyx",
+              ["keys"] = "BYR"
+            },
+            {
+              ["name"] = "Mount Pain",
+              ["keys"] = "BYR"
+            },
+            {
+              ["name"] = "Heck",
+              ["keys"] = "BYR"
+            },
+            {
+              ["name"] = "River Styx",
+              ["keys"] = "BYR"
+            },
+            {
+              ["name"] = "Last Call",
+              ["keys"] = "BYR"
+            }
+          }
         },
         {
-          [ "name" ] = "Secret",
-          [ "maps" ] = {}
+          ["name"] = "Secret",
+          ["maps"] = {
+            {
+              ["name"] = "Pharaoh",
+              ["keys"] = "BR"
+            },
+            {
+              ["name"] = "Caribbean",
+              ["keys"] = "BYR"
+            }
+          }
         }
       }
     },
-    [ "plutonia" ] = {
-      [ "episodes" ] = {
+    ["plutonia"] = {
+      ["episodes"] = {
         {
-          [ "name" ] = "Earth",
-          [ "maps" ] = {}
+          ["name"] = "Earth",
+          ["maps"] = {}
         },
         {
-          [ "name" ] = "Hell",
-          [ "maps" ] = {}
+          ["name"] = "Hell",
+          ["maps"] = {}
         },
         {
-          [ "name" ] = "Devil Hive",
-          [ "maps" ] = {}
+          ["name"] = "Devil Hive",
+          ["maps"] = {}
         },
         {
-          [ "name" ] = "Secret",
-          [ "maps" ] = {}
+          ["name"] = "Secret",
+          ["maps"] = {}
         }
       }
     }

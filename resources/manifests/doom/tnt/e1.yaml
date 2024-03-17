@@ -1,0 +1,121 @@
+E1:
+  M1:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Armor
+      - name: Mega Armor
+        q12: 0
+        q_3: 1
+        q45: 1
+      - name: Berserk
+      - name: Blue Card
+      - name: Exit
+  M2:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Super Shotgun
+        q12: 0
+        q_3: 1
+        q45: 1
+      - name: Chaingun
+      - name: Armor
+        q12: 0
+        q_3: 1
+        q45: 1
+      - name: Mega Armor
+        q12: 0
+        q_3: 0
+        q45: 1
+      - name: Supercharge
+        q12: 1
+        q_3: 2
+        q45: 2
+      - name: Backpack
+      - name: Map
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit
+  M3:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Super Shotgun
+      - name: Chaingun
+        q12: 0
+        q_3: 1
+        q45: 1
+      - name: Rocket
+      - name: Plasma
+      - name: Armor
+        q: 3
+      - name: Megasphere
+        q12: 1
+        q_3: 0
+        q45: 0
+      - name: Backpack
+      - name: Berserk
+        q12: 0
+        q_3: 1
+        q45: 1
+      - name: Invisibility
+        q: 2
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit
+  M4:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Shotgun
+        q: 2
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Armor
+        q: 2
+      - name: Supercharge
+        q12: 1
+        q_3: 0
+        q45: 1
+      - name: Megasphere
+        q12: 1
+        q_3: 1
+        q45: 0
+      - name: Map
+        q12: 0
+        q_3: 0
+        q45: 1
+      - name: Exit
+  M5:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Backpack
+      - name: Map
+      - name: Invisibility
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit
+  M6:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Rocket
+      - name: Mega Armor
+      - name: Supercharge
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit

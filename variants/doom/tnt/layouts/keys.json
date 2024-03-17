@@ -6,8 +6,138 @@
       "type": "array",
       "orientation": "horizontal",
       "content": [
-        {"type": "layout", "key": "keys_e1"},
-        {"type": "layout", "key": "keys_e2"},
+        {
+          "type": "itemgrid",
+          "margin": "0",
+          "item_size": 16,
+          "rows": [
+            ["e1m1_access"],
+            ["e1m1_blue_slim"],
+            ["e1m1_yellow_slim"],
+            ["e1m1_red_slim"],
+            ["e1m1_complete"]
+          ]
+        },
+        {
+          "type": "itemgrid",
+          "margin": "0",
+          "item_size": 16,
+          "rows": [
+            ["e1m2_access"],
+            ["e1m2_blue_slim"],
+            ["e1m2_yellow_slim"],
+            ["e1m2_red_slim"],
+            ["e1m2_complete"]
+          ]
+        },
+        {
+          "type": "itemgrid",
+          "margin": "0",
+          "item_size": 16,
+          "rows": [
+            ["e1m3_access"],
+            ["e1m3_blue_slim"],
+            ["e1m3_yellow_slim"],
+            ["e1m3_red_slim"],
+            ["e1m3_complete"]
+          ]
+        },
+        {
+          "type": "itemgrid",
+          "margin": "0",
+          "item_size": 16,
+          "rows": [
+            ["e1m4_access"],
+            ["e1m4_blue_slim"],
+            ["e1m4_yellow_slim"],
+            ["e1m4_red_slim"],
+            ["e1m4_complete"]
+          ]
+        },
+        {
+          "type": "itemgrid",
+          "margin": "0",
+          "item_size": 16,
+          "rows": [
+            ["e1m5_access"],
+            ["e1m5_blue_slim"],
+            ["e1m5_yellow_slim"],
+            ["e1m5_red_slim"],
+            ["e1m5_complete"]
+          ]
+        },
+        {
+          "type": "itemgrid",
+          "margin": "0",
+          "item_size": 16,
+          "rows": [
+            ["e1m6_access"],
+            ["e1m6_blue_slim"],
+            ["e1m6_yellow_slim"],
+            ["e1m6_red_slim"],
+            ["e1m6_complete"]
+          ]
+        },
+        {
+          "type": "itemgrid",
+          "margin": "0",
+          "item_size": 16,
+          "rows": [
+            ["e2m1_access"],
+            ["e2m1_blue_slim"],
+            ["e2m1_yellow_slim"],
+            ["e2m1_red_slim"],
+            ["e2m1_complete"]
+          ]
+        },
+        {
+          "type": "itemgrid",
+          "margin": "0",
+          "item_size": 16,
+          "rows": [
+            ["e2m2_access"],
+            ["e2m2_blue_slim"],
+            ["e2m2_yellow_slim"],
+            ["e2m2_red_slim"],
+            ["e2m2_complete"]
+          ]
+        },
+        {
+          "type": "itemgrid",
+          "margin": "0",
+          "item_size": 16,
+          "rows": [
+            ["e2m3_access"],
+            ["e2m3_blue_slim"],
+            ["e2m3_yellow_slim"],
+            ["e2m3_red_slim"],
+            ["e2m3_complete"]
+          ]
+        },
+        {
+          "type": "itemgrid",
+          "margin": "0",
+          "item_size": 16,
+          "rows": [
+            ["e2m4_access"],
+            ["e2m4_blue_slim"],
+            ["e2m4_yellow_slim"],
+            ["e2m4_red_slim"],
+            ["e2m4_complete"]
+          ]
+        },
+        {
+          "type": "itemgrid",
+          "margin": "0",
+          "item_size": 16,
+          "rows": [
+            ["e2m5_access"],
+            ["e2m5_blue_slim"],
+            ["e2m5_yellow_slim"],
+            ["e2m5_red_slim"],
+            ["e2m5_complete"]
+          ]
+        },
         {"type": "layout", "key": "keys_e3"}
       ]
     },
@@ -16,6 +146,18 @@
       "orientation": "horizontal",
       "content": [
         {"type": "layout", "key": "keys_e4"},
+        {
+          "type": "itemgrid",
+          "margin": "0",
+          "item_size": 16,
+          "rows": [
+            ["e4m10_access"],
+            ["e4m10_blue_slim"],
+            ["e4m10_yellow_slim"],
+            ["e4m10_red_slim"],
+            ["e4m10_complete"]
+          ]
+        },
         {"type": "layout", "key": "keys_e5"}
       ]
     }

@@ -25,16 +25,16 @@ end
 
 function get_map_metadata(baseGame, epID, mapID)
     mapHandle = "e" .. epID .. "m" .. mapID
-    if mapDesignations[baseGame] == "mapxx" then
-        -- print(baseGame,epID,mapID)
-        if keySets[baseGame] and
-            keySets[baseGame]["episodes"] and
-            keySets[baseGame]["episodes"][epID] and
-            keySets[baseGame]["episodes"][epID]["maps"] then
+    if mapDesignations[baseTheme][baseGame] == "mapxx" then
+        -- print(baseTheme,baseGame,epID,mapID)
+        if keySets[baseTheme][baseGame] and
+            keySets[baseTheme][baseGame]["episodes"] and
+            keySets[baseTheme][baseGame]["episodes"][epID] and
+            keySets[baseTheme][baseGame]["episodes"][epID]["maps"] then
             newMapID = mapID
             if epID - 1 > 0 then
                 for i = 1,(epID - 1),1 do
-                    epLen = #keySets[baseGame]["episodes"][i]["maps"]
+                    epLen = #keySets[baseTheme][baseGame]["episodes"][i]["maps"]
                     newMapID = newMapID + epLen
                 end
             end

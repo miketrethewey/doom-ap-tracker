@@ -1,0 +1,216 @@
+E3:
+  M12:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Rocket
+      - name: Armor
+        q: 2
+      - name: Supercharge
+      - name: Backpack
+      - name: Berserk
+        q: 2
+      - name: Blue Card
+      - name: Red Card
+      - name: Exit
+  M13:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Shotgun
+        q12: 1
+        q_3: 0
+        q45: 0
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Armor
+        q: 3
+      - name: Mega Armor
+      - name: Supercharge
+        q12: 1
+        q_3: 0
+        q45: 0
+      - name: Backpack
+      - name: Berserk
+      - name: Map
+      - name: Invulnerability
+        q12: 0
+        q_3: 1
+        q45: 1
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit
+  M14:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Shotgun
+        q: 4
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+        q12: 1
+        q_3: 0
+        q45: 0
+      - name: Armor
+        q: 3
+      - name: Supercharge
+      - name: Backpack
+        q12: 1
+        q_3: 2
+        q45: 2
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit
+  M15:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+        q: 2
+      - name: Chaingun
+        q: 2
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Armor
+      - name: Megasphere
+        q12: 1
+        q_3: 0
+        q45: 0
+      - name: Backpack
+      - name: Berserk
+      - name: Invulnerability
+      - name: Invisibility
+        q12: 1
+        q_3: 2
+        q45: 2
+      - name: Exit
+  M16:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Super Shotgun
+      - name: Chaingun
+        q12: 1
+        q_3: 1
+        q45: 0
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Armor
+      - name: Mega Armor
+      - name: Megasphere
+      - name: Backpack
+      - name: Invisibility
+        q12: 2
+        q_3: 1
+        q45: 1
+      - name: Blue Skull
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
+  M17:
+    locations:
+      - name: Entrance
+      - name: Super Shotgun
+      - name: Rocket
+        q12: 0
+        q_3: 1
+        q45: 1
+      - name: Plasma
+      - name: BFG
+      - name: Mega Armor
+      - name: Supercharge
+        q12: 0
+        q_3: 1
+        q45: 1
+      - name: Megasphere
+        q12: 1
+        q_3: 0
+        q45: 0
+      - name: Backpack
+        q: 5
+      - name: Invulnerability
+      - name: Invisibility
+        q: 3
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit
+  M18:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Chaingun
+      - name: Rocket
+      - name: Plasma
+      - name: Armor
+        q12: 1
+        q_3: 1
+        q45: 2
+      - name: Mega Armor
+        q12: 2
+        q_3: 2
+        q45: 1
+      - name: Supercharge
+        q12: 3
+        q_3: 2
+        q45: 2
+      - name: Megasphere
+      - name: Backpack
+        q: 2
+      - name: Map
+      - name: Invulnerability
+      - name: Invisibility
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit
+  M19:
+    locations:
+      - name: Entrance
+      - name: Shotgun
+      - name: Super Shotgun
+      - name: Rocket
+      - name: Armor
+      - name: Supercharge
+      - name: Megasphere
+      - name: Backpack
+      - name: Blue Card
+      - name: Red Card
+      - name: Yellow Card
+      - name: Exit
+  M20:
+    locations:
+      - name: Entrance
+      - name: Chainsaw
+      - name: Super Shotgun
+      - name: Rocket
+      - name: Plasma
+      - name: BFG
+      - name: Armor
+      - name: Mega Armor
+      - name: Supercharge
+        q12: 4
+        q_3: 1
+        q45: 1
+      - name: Backpack
+      - name: Berserk
+      - name: Map
+      - name: Invulnerability
+        q: 2
+      - name: Invisibility
+        q12: 2
+        q_3: 2
+        q45: 1
+      - name: Blue Card
+      - name: Red Skull
+      - name: Yellow Skull
+      - name: Exit
