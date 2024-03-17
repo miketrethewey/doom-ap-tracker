@@ -162,6 +162,7 @@
             "name": "Armor",
             "note": "Next to vanilla Chainsaw & Berserk",
             "access_rules": ["$canShootSigil"],
+            "visibility_rules": ["$difficulty_range|6|low"],
             "item_count": 1
           },
           {
@@ -172,13 +173,14 @@
           },
           {
             "name": "Mega Armor",
-            "note": "In building near vanilla BFG, may not be present on UV/NM",
+            "note": "In building with vanilla Computer Area Map, becomes Green Armor on UV/NM",
             "access_rules": ["$canShootSigil"],
+            "visibility_rules": ["$difficulty_range|6|low","$difficulty|6|med"],
             "item_count": 1
           },
           {
             "name": "Mega Armor 2",
-            "note": "Inside castle, may not be present on UV/NM",
+            "note": "Inside castle",
             "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
@@ -354,38 +356,38 @@
           },
           {
             "name": "Supercharge",
-            "note": "Behind spawn, may not be present on UV/NM",
+            "note": "Behind spawn",
             "access_rules": ["$canDo30SecTrial"],
             "item_count": 1
           },
           {
             "name": "Supercharge 2",
-            "note": "Near vanilla Red Keycard, may not be present on UV/NM",
+            "note": "Near vanilla Red Keycard",
             "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Supercharge 3",
-            "note": "May not be present on UV/NM",
             "access_rules": ["$canShootSigil,$access|e6m5|red"],
             "item_count": 1
           },
           {
             "name": "Supercharge 4",
-            "note": "May not be present on UV/NM",
             "access_rules": ["$canShootSigil,$access|e6m5|blue"],
             "item_count": 1
           },
           {
             "name": "Supercharge 5",
-            "note": "Behind false wall, next to Berserk 2, may not be present on UV/NM",
+            "note": "Behind false wall, next to Berserk 2",
             "access_rules": ["$canShootSigil,$access|e6m5|blue"],
+            "visibility_rules": ["$difficulty_range|6|low","$difficulty|6|med`"],
             "item_count": 1
           },
           {
             "name": "Supercharge 6",
-            "note": "Near spawn, in side secret, next to Mega Armor 2, may not be present on UV/NM",
+            "note": "Near spawn, in side secret, next to Mega Armor 2",
             "access_rules": ["$canShootSigil,$access|e6m5|blue"],
+            "visibility_rules": ["$difficulty_range|6|low","$difficulty|6|med"],
             "item_count": 1
           },
           {
@@ -492,28 +494,30 @@
           },
           {
             "name": "Supercharge",
-            "note": "Near vanilla Red Skull key, may not be present on Med/UV/NM",
+            "note": "SE of vanilla Red Skull key, next to Invulnerability, may not be present on Med/UV/NM",
             "access_rules": ["{$canShootSigil}", "$canShootSigil"],
             "capture_item": true,
             "item_count": 1
           },
           {
             "name": "Supercharge 2",
-            "note": "On ground, behind bars, near vanilla Red Skull key, may not be present on Med/UV/NM",
+            "note": "On ground, behind bars, NE of vanilla Red Skull key, may not be present on Med/UV/NM",
             "access_rules": ["{}"],
             "capture_item": true,
             "item_count": 1
           },
           {
             "name": "Supercharge 3",
-            "note": "May not be present on Med/UV/NM",
+            "note": "Becomes Berserk on Med, becomes Medkit on UV/NM",
             "access_rules": ["$canShootSigil,$access|e6m6|blue|yellow|red"],
+            "visibility_rules": ["$difficulty_range|6|low"],
             "item_count": 1
           },
           {
             "name": "Supercharge 4",
-            "note": "May not be present on Med/UV/NM",
+            "note": "Becomes Berserk on Med, becomes Medkit on UV/NM",
             "access_rules": ["$canShootSigil,$access|e6m6|blue|yellow|red"],
+            "visibility_rules": ["$difficulty_range|6|low"],
             "item_count": 1
           },
           {
@@ -524,15 +528,29 @@
           },
           {
             "name": "Berserk",
-            "note": "Near vanilla Red Skull key",
+            "note": "Near vanilla Red Skull key, on catwalk",
             "access_rules": ["{}"],
             "capture_item": true,
             "item_count": 1
           },
           {
             "name": "Berserk 2",
-            "note": "Near exit, #FIXME: Apparently there's two more only on Med.",
+            "note": "Near exit",
             "access_rules": ["$canShootSigil,$access|e6m6|blue|yellow|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk 3",
+            "note": "Near exit, replaces Supercharge 3 on Med, becomes Medkit on UV/NM",
+            "access_rules": ["$canShootSigil,$access|e6m6|blue|yellow|red"],
+            "visibility_rules": ["$difficulty|6|med"],
+            "item_count": 1
+          },
+          {
+            "name": "Berserk 4",
+            "note": "Near exit, replaces Supercharge 4 on Med, becomes Medkit on UV/NM",
+            "access_rules": ["$canShootSigil,$access|e6m6|blue|yellow|red"],
+            "visibility_rules": ["$difficulty|6|med"],
             "item_count": 1
           },
           {
@@ -595,28 +613,31 @@
           },
           {
             "name": "BFG9000",
+            "note": "Basement of bramble maze",
             "access_rules": ["$canShootSigil,$access|e6m7|blue"],
             "item_count": 1
           },
           {
             "name": "Armor",
+            "note": "SW building, near Backpack '1'",
             "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Armor 2",
+            "note": "Outside destination from teleporter behind Blue Door, outside from Berserk '1'",
             "access_rules": ["$canShootSigil,$access|e6m7|blue"],
             "item_count": 1
           },
           {
             "name": "Armor 3",
-            "note": "Near Berserk 3, #FIXME: Apparently there's one more on Med/UV/NM",
+            "note": "In raising platform maze, near Berserk 5, #FIXME: Apparently there's one more on Med/UV/NM",
             "access_rules": ["$canShootSigil,$access|e6m7|yellow"],
             "item_count": 1
           },
           {
             "name": "Mega Armor",
-            "note": "May not be present on Med/UV/NM, #FIXME: Didn't find!",
+            "note": "In Tech Center, may not be present on Med/UV/NM",
             "access_rules": [],
             "item_count": 1
           },
@@ -645,8 +666,8 @@
           },
           {
             "name": "Backpack",
-            "note": "#FIXME: Didn't find!",
-            "access_rules": [],
+            "note": "SW building, near Armor '1'",
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
@@ -657,6 +678,7 @@
           },
           {
             "name": "Berserk",
+            "note": "Inside destination from teleporter behind Blue Door, inside from Armor 2",
             "access_rules": ["$canShootSigil,$access|e6m7|blue"],
             "item_count": 1
           },
@@ -668,19 +690,19 @@
           },
           {
             "name": "Berserk 3",
-            "note": "Near Armor 3",
+            "note": "In bramble maze",
             "access_rules": ["$canShootSigil,$access|e6m7|yellow"],
             "item_count": 1
           },
           {
             "name": "Berserk 4",
-            "note": "#FIXME: Didn't find!",
+            "note": "In Tech Center, next to Mega Armor '1'",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Berserk 5",
-            "note": "#FIXME: Didn't find!",
+            "note": "In raising platform maze, near Armor 3",
             "access_rules": [],
             "item_count": 1
           },
@@ -834,47 +856,51 @@
         "sections": [
           {
             "name": "Chainsaw",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Chaingun",
+            "note": "Near spawn",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": [],
+            "access_rules": ["$access|e6m9|red"],
             "item_count": 1
           },
           {
             "name": "Plasma Gun",
+            "note": "Near spawn",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Armor",
+            "note": "Through window near spawn, near Supercharge '1'",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Armor 2",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
             "item_count": 1
           },
           {
             "name": "Mega Armor",
-            "access_rules": [],
+            "access_rules": ["$access|e6m9|red"],
             "item_count": 1
           },
           {
             "name": "Supercharge",
+            "note": "Through window near spawn, near Armor '1'",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Supercharge 2",
-            "access_rules": [],
+            "access_rules": ["$access|e6m9|red,$canShootSigil"],
             "item_count": 1
           },
           {
@@ -884,17 +910,20 @@
           },
           {
             "name": "Backpack",
+            "note": "Near vanilla Plasma gun",
             "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Backpack 2",
             "note": "May not be present on NM",
-            "access_rules": [],
+            "access_rules": ["$canShootSigil"],
+            "visibility_rules": ["$difficulty_range|6|low","$difficulty|6|med"],
             "item_count": 1
           },
           {
             "name": "Invisibility",
+            "note": "Through window near spawn, near Armor '1' and Supercharge '1', FIREBLU target",
             "access_rules": [],
             "item_count": 1
           },
@@ -905,7 +934,7 @@
           },
           {
             "name": "Yellow Keycard",
-            "access_rules": [],
+            "access_rules": ["$access|e6m9|red,$canShootSigil"],
             "item_count": 1
           },
           {
