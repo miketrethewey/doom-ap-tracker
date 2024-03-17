@@ -121,7 +121,7 @@ function AccessItem:propertyChanged(key, value)
 end
 
 items = {}
-for epID,episode in pairs(keySets[baseGame]["episodes"]) do
+for epID,episode in pairs(keySets[baseTheme][baseGame]["episodes"]) do
     if episode ~= nil and not skip_episode(epID) then
         epName = episode["name"]
         msg = baseGame .. ": " .. epName .. " (E" .. epID .. ")"
@@ -141,10 +141,10 @@ for epID,episode in pairs(keySets[baseGame]["episodes"]) do
                 items[itemName] = AccessItem(
                     itemName,
                     "e" .. epID .. "m" .. mapID .. "_access",
-                    "images/levels/" .. "e" .. epID .. ".png",
+                    "variants/" .. baseTheme .. "/images/levels/" .. "e" .. epID .. ".png",
                     nil,
-                    "overlay|images/overlays/" .. overlay,
-                    "@disabled,overlay|images/overlays/" .. overlay
+                    "overlay|variants/" .. baseTheme .. "/images/overlays/" .. overlay,
+                    "@disabled,overlay|variants/" .. baseTheme .. "/images/overlays/" .. overlay
                 )
                 -- print(msg)
             end

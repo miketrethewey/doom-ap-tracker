@@ -85,14 +85,14 @@ function KeyItem:init(
     self:setProperty("active", false)
     self.code[code] = true
 
-    img = "images/items/keys/" .. keyType .. "/" .. color
+    img = "variants/" .. baseTheme .. "/images/items/keys/" .. keyType .. "/" .. color
     imgMods = ""
     if size == "slim" then
         code = code .. "_slim"
         img = img .. "_slim"
         self.code[code] = true
     else
-        imgMods = "overlay|images/overlays/" .. mapHandle .. ".png"
+        imgMods = "overlay|variants/" .. baseTheme .. "/images/overlays/" .. mapHandle .. ".png"
     end
 
     img = img .. ".png"
@@ -186,7 +186,7 @@ function KeyItem:propertyChanged(key, value)
 end
 
 items = {}
-for epID,episode in pairs(keySets[baseGame]["episodes"]) do
+for epID,episode in pairs(keySets[baseTheme][baseGame]["episodes"]) do
     if episode ~= nil and not skip_episode(epID) then
         epName = episode["name"]
         msg = baseGame .. ": " .. epName .. " (E" .. epID .. ")"

@@ -107,7 +107,7 @@ function CompleteItem:propertyChanged(key, value)
 end
 
 items = {}
-for epID,episode in pairs(keySets[baseGame]["episodes"]) do
+for epID,episode in pairs(keySets[baseTheme][baseGame]["episodes"]) do
     if episode ~= nil and not skip_episode(epID) then
         epName = episode["name"]
         msg = baseGame .. ": " .. epName .. " (E" .. epID .. ")"
@@ -121,7 +121,7 @@ for epID,episode in pairs(keySets[baseGame]["episodes"]) do
                 items[itemName] = CompleteItem(
                     itemName,
                     "e" .. epID .. "m" .. mapID .. "_complete",
-                    "images/items/levelcomplete.png"
+                    "variants/" .. baseTheme .. "/images/items/levelcomplete.png"
                 )
                 -- print(msg)
             end

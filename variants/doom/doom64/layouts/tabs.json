@@ -1,0 +1,370 @@
+{"tabbed_maps": {
+  "type": "tabbed",
+  "tabs": [
+    {
+      "title": "Episode 1 (E1)",
+      "icon": "variants/doom/images/overlays/n64.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Staging Area*",
+            "icon": "variants/doom/images/overlays/map01.png",
+            "content": {
+              "type": "map",
+              "maps": ["map01"]
+            }
+          },
+          {
+            "title": "The Terraformer",
+            "icon": "variants/doom/images/overlays/map02.png",
+            "content": {
+              "type": "map",
+              "maps": ["map02"]
+            }
+          },
+          {
+            "title": "Main Engineering",
+            "icon": "variants/doom/images/overlays/map03.png",
+            "content": {
+              "type": "map",
+              "maps": ["map03"]
+            }
+          },
+          {
+            "title": "Holding Area*",
+            "icon": "variants/doom/images/overlays/map04.png",
+            "content": {
+              "type": "map",
+              "maps": ["map04"]
+            }
+          },
+          {
+            "title": "Tech Center",
+            "icon": "variants/doom/images/overlays/map05.png",
+            "content": {
+              "type": "map",
+              "maps": ["map05"]
+            }
+          },
+          {
+            "title": "Alpha Quadrant",
+            "icon": "variants/doom/images/overlays/map06.png",
+            "content": {
+              "type": "map",
+              "maps": ["map06"]
+            }
+          },
+          {
+            "title": "Research Lab",
+            "icon": "variants/doom/images/overlays/map07.png",
+            "content": {
+              "type": "map",
+              "maps": ["map07"]
+            }
+          },
+          {
+            "title": "Final Outpost",
+            "icon": "variants/doom/images/overlays/map08.png",
+            "content": {
+              "type": "map",
+              "maps": ["map08"]
+            }
+          },
+          {
+            "title": "Even Simpler",
+            "icon": "variants/doom/images/overlays/map09.png",
+            "content": {
+              "type": "map",
+              "maps": ["map09"]
+            }
+          },
+          {
+            "title": "The Bleeding",
+            "icon": "variants/doom/images/overlays/map10.png",
+            "content": {
+              "type": "map",
+              "maps": ["map10"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "Episode 2 (E2)",
+      "icon": "variants/doom/images/levels/e2.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Terror Core",
+            "icon": "variants/doom/images/overlays/map11.png",
+            "content": {
+              "type": "map",
+              "maps": ["map11"]
+            }
+          },
+          {
+            "title": "Altar Of Pain*",
+            "icon": "variants/doom/images/overlays/map12.png",
+            "content": {
+              "type": "map",
+              "maps": ["map12"]
+            }
+          },
+          {
+            "title": "Dark Citadel",
+            "icon": "variants/doom/images/overlays/map13.png",
+            "content": {
+              "type": "map",
+              "maps": ["map13"]
+            }
+          },
+          {
+            "title": "Eye Of The Storm",
+            "icon": "variants/doom/images/overlays/map14.png",
+            "content": {
+              "type": "map",
+              "maps": ["map14"]
+            }
+          },
+          {
+            "title": "Dark Entries",
+            "icon": "variants/doom/images/overlays/map15.png",
+            "content": {
+              "type": "map",
+              "maps": ["map15"]
+            }
+          },
+          {
+            "title": "Blood Keep",
+            "icon": "variants/doom/images/overlays/map16.png",
+            "content": {
+              "type": "map",
+              "maps": ["map16"]
+            }
+          },
+          {
+            "title": "Watch Your Step",
+            "icon": "variants/doom/images/overlays/map17.png",
+            "content": {
+              "type": "map",
+              "maps": ["map17"]
+            }
+          },
+          {
+            "title": "Spawned Fear*",
+            "icon": "variants/doom/images/overlays/map18.png",
+            "content": {
+              "type": "map",
+              "maps": ["map18"]
+            }
+          },
+          {
+            "title": "The Spiral",
+            "icon": "variants/doom/images/overlays/map19.png",
+            "content": {
+              "type": "map",
+              "maps": ["map19"]
+            }
+          },
+          {
+            "title": "Breakdown",
+            "icon": "variants/doom/images/overlays/map20.png",
+            "content": {
+              "type": "map",
+              "maps": ["map20"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "Episode 3 (E3)",
+      "icon": "variants/doom/images/levels/e3.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Pitfalls",
+            "icon": "variants/doom/images/overlays/map21.png",
+            "content": {
+              "type": "map",
+              "maps": ["map21"]
+            }
+          },
+          {
+            "title": "Burnt Offerings",
+            "icon": "variants/doom/images/overlays/map22.png",
+            "content": {
+              "type": "map",
+              "maps": ["map22"]
+            }
+          },
+          {
+            "title": "Unholy Temple",
+            "icon": "variants/doom/images/overlays/map23.png",
+            "content": {
+              "type": "map",
+              "maps": ["map23"]
+            }
+          },
+          {
+            "title": "No Escape",
+            "icon": "variants/doom/images/overlays/map24.png",
+            "content": {
+              "type": "map",
+              "maps": ["map24"]
+            }
+          },
+          {
+            "title": "Cat And Mouse",
+            "icon": "variants/doom/images/overlays/map25.png",
+            "content": {
+              "type": "map",
+              "maps": ["map25"]
+            }
+          },
+          {
+            "title": "Hardcore",
+            "icon": "variants/doom/images/overlays/map26.png",
+            "content": {
+              "type": "map",
+              "maps": ["map26"]
+            }
+          },
+          {
+            "title": "Playground",
+            "icon": "variants/doom/images/overlays/map27.png",
+            "content": {
+              "type": "map",
+              "maps": ["map27"]
+            }
+          },
+          {
+            "title": "The Absolution",
+            "icon": "variants/doom/images/overlays/map28.png",
+            "content": {
+              "type": "map",
+              "maps": ["map28"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "Secret (E4)",
+      "icon": "variants/doom/images/levels/e4.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Outpost Omega",
+            "icon": "variants/doom/images/overlays/map29.png",
+            "content": {
+              "type": "map",
+              "maps": ["map29"]
+            }
+          },
+          {
+            "title": "The Lair",
+            "icon": "variants/doom/images/overlays/map30.png",
+            "content": {
+              "type": "map",
+              "maps": ["map30"]
+            }
+          },
+          {
+            "title": "In The Void",
+            "icon": "variants/doom/images/overlays/map31.png",
+            "content": {
+              "type": "map",
+              "maps": ["map31"]
+            }
+          },
+          {
+            "title": "Hectic",
+            "icon": "variants/doom/images/overlays/map32.png",
+            "content": {
+              "type": "map",
+              "maps": ["map32"]
+            }
+          },
+          {
+            "title": "Title",
+            "icon": "variants/doom/images/overlays/map33.png",
+            "content": {
+              "type": "map",
+              "maps": ["map33"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "The Lost Levels (E5)",
+      "icon": "variants/doom/images/levels/e5.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Plant Ops",
+            "icon": "variants/doom/images/overlays/map34.png",
+            "content": {
+              "type": "map",
+              "maps": ["map34"]
+            }
+          },
+          {
+            "title": "Evil Sacrifice",
+            "icon": "variants/doom/images/overlays/map35.png",
+            "content": {
+              "type": "map",
+              "maps": ["map35"]
+            }
+          },
+          {
+            "title": "Cold Grounds",
+            "icon": "variants/doom/images/overlays/map36.png",
+            "content": {
+              "type": "map",
+              "maps": ["map36"]
+            }
+          },
+          {
+            "title": "Wretched Vats",
+            "icon": "variants/doom/images/overlays/map37.png",
+            "content": {
+              "type": "map",
+              "maps": ["map37"]
+            }
+          },
+          {
+            "title": "Thy Glory",
+            "icon": "variants/doom/images/overlays/map38.png",
+            "content": {
+              "type": "map",
+              "maps": ["map38"]
+            }
+          },
+          {
+            "title": "Final Judgement",
+            "icon": "variants/doom/images/overlays/map39.png",
+            "content": {
+              "type": "map",
+              "maps": ["map39"]
+            }
+          },
+          {
+            "title": "Panic",
+            "icon": "variants/doom/images/overlays/map40.png",
+            "content": {
+              "type": "map",
+              "maps": ["map40"]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}}

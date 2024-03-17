@@ -1,9 +1,11 @@
 local variant = Tracker.ActiveVariantUID
 IS_UNLABELLED = variant:find("maps-u")
 
+baseTheme = "doom"
 baseGame = "doom"
 if variant ~= nil then
-    baseGame = variant
+    baseTheme = string.sub(variant,1,string.find(variant, "/")-1)
+    baseGame = string.sub(variant,string.find(variant, "/")+1,-1)
 end
 
 function skip_episode(epID)
@@ -29,7 +31,7 @@ print("")
 
 -- Items
 print("Loading Items")
-Tracker:AddItems("items/items.json")
+Tracker:AddItems("variants/" .. baseTheme .. "/items/items.json")
 ScriptHost:LoadScript("scripts/class.lua")
 ScriptHost:LoadScript("scripts/items/custom_item.lua")
 ScriptHost:LoadScript("scripts/items/access.lua")
@@ -39,44 +41,44 @@ print("")
 
 -- Maps
 print("Loading Maps")
-Tracker:AddMaps("variants/" .. baseGame .. "/maps/maps.json")
+Tracker:AddMaps("variants/" .. baseTheme .. '/' .. baseGame .. "/maps/maps.json")
 print("")
 
 -- Grids
 print("Loading Grids")
-Tracker:AddLayouts("layouts/grids/capture.json")
-Tracker:AddLayouts("layouts/grids/keys.json")
-Tracker:AddLayouts("layouts/grids/settings.json")
+Tracker:AddLayouts("variants/" .. baseTheme .. "/layouts/grids/capture.json")
+Tracker:AddLayouts("variants/" .. baseTheme .. "/layouts/grids/keys.json")
+Tracker:AddLayouts("variants/" .. baseTheme .. "/layouts/grids/settings.json")
 if baseGame == "doom64" then
-    Tracker:AddLayouts("variants/" .. baseGame .. "/layouts/grids/weapons.json")
+    Tracker:AddLayouts("variants/" .. baseTheme .. '/' .. baseGame .. "/layouts/grids/weapons.json")
 else
-    Tracker:AddLayouts("layouts/grids/weapons.json")
+    Tracker:AddLayouts("variants/" .. baseTheme .. "/layouts/grids/weapons.json")
 end
 print("")
 
 -- Variant
 print("Loading Variant")
-Tracker:AddLayouts("variants/" .. baseGame .. "/layouts/broadcast.json")
-Tracker:AddLayouts("variants/" .. baseGame .. "/layouts/keys.json")
-Tracker:AddLayouts("variants/" .. baseGame .. "/layouts/tabs.json")
+Tracker:AddLayouts("variants/" .. baseTheme .. '/' .. baseGame .. "/layouts/broadcast.json")
+Tracker:AddLayouts("variants/" .. baseTheme .. '/' .. baseGame .. "/layouts/keys.json")
+Tracker:AddLayouts("variants/" .. baseTheme .. '/' .. baseGame .. "/layouts/tabs.json")
 print("")
 
 -- Base Layouts
 print("Loading Base Layouts")
-Tracker:AddLayouts("layouts/tracker.json")
-Tracker:AddLayouts("layouts/broadcast.json")
+Tracker:AddLayouts("variants/" .. baseTheme .. "/layouts/tracker.json")
+Tracker:AddLayouts("variants/" .. baseTheme .. "/layouts/broadcast.json")
 print("")
 
 -- Locations
 print("Loading Locations")
-Tracker:AddLocations("variants/" .. baseGame .. "/locations/" .. baseGame .. ".json") -- DOOM
-for epID,episode in pairs(keySets[baseGame]["episodes"]) do
+Tracker:AddLocations("variants/" .. baseTheme .. '/' .. baseGame .. "/locations/" .. baseGame .. ".json") -- DOOM
+for epID,episode in pairs(keySets[baseTheme][baseGame]["episodes"]) do
     if episode ~= nil and not skip_episode(epID) then
-        episodeFile = "variants/" .. baseGame .. "/locations/overworld/" .. "e" .. epID .. ".json"
+        episodeFile = "variants/" .. baseTheme .. '/' .. baseGame .. "/locations/overworld/" .. "e" .. epID .. ".json"
         Tracker:AddLocations(episodeFile)
         if episode["maps"] ~= nil then
             for mapID,map in pairs(episode["maps"]) do
-                mapFile = "variants/" .. baseGame .. "/locations/underworld/" .. "e" .. epID .. "/" .. "e" .. epID .. "m" .. mapID .. ".json"
+                mapFile = "variants/" .. baseTheme .. '/' .. baseGame .. "/locations/underworld/" .. "e" .. epID .. "/" .. "e" .. epID .. "m" .. mapID .. ".json"
                 Tracker:AddLocations(mapFile)
                 mapName = string.upper(get_map_metadata(baseGame, epID, mapID))
                 exitCode = "@" .. mapName .. " Exit/Level Completed"

@@ -1,0 +1,357 @@
+[
+  {
+    "name": "Major Item",
+    "type": "consumable",
+    "img": "variants/doom/images/items/capture/major.png",
+    "min_quantity": 1,
+    "codes": "major"
+  },
+  {
+    "name": "Minor Item",
+    "type": "consumable",
+    "img": "variants/doom/images/items/capture/minor.png",
+    "min_quantity": 1,
+    "codes": "minor"
+  },
+  {
+    "name": "30 Second Trial",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/doom/images/items/30sec.png",
+    "codes": "30sec"
+  },
+  {
+    "name": "Fist",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/doom/images/items/inventory/fist.png",
+    "codes": "fist"
+  },
+  {
+    "name": "Chainsaw",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/doom/images/items/inventory/chainsaw.png",
+    "codes": "chainsaw"
+  },
+  {
+    "name": "Melee",
+    "type": "composite_toggle",
+    "item_left": "fist",
+    "item_right": "chainsaw",
+    "allow_disabled": false,
+    "codes": "melee,chainsaw,fist",
+    "images": [
+      {
+        "img": "variants/doom/images/items/inventory/fist.png",
+        "left": true,
+        "right": false
+      },
+      {
+        "img": "/variants/doom/images/items/inventory/chainsaw.png",
+        "left": false,
+        "right": true
+      },
+      {
+        "img": "/variants/doom/images/items/inventory/melee.png",
+        "left": true,
+        "right": true
+      },
+      {
+        "img": "/variants/doom/images/items/inventory/chainsaw.png",
+        "img_mods": "@disabled",
+        "left": false,
+        "right": false
+      }
+    ]
+  },
+  {
+    "name": "Pistol",
+    "type": "static",
+    "img": "/variants/doom/images/items/inventory/pistol.png",
+    "codes": "pistol"
+  },
+  {
+    "name": "Shotgun",
+    "type": "toggle",
+    "loop": true,
+    "img": "/variants/doom/images/items/inventory/shotgun.png",
+    "codes": "shotgun"
+  },
+  {
+    "name": "Super Shotgun",
+    "type": "toggle",
+    "loop": true,
+    "img": "/variants/doom/images/items/inventory/supershotgun.png",
+    "codes": "shotgun,supershotgun"
+  },
+  {
+    "name": "Shotguns",
+    "type": "composite_toggle",
+    "item_left": "shotgun",
+    "item_right": "supershotgun",
+    "codes": "shotguns",
+    "images": [
+      {
+        "img": "/variants/doom/images/items/inventory/shotgun.png",
+        "left": true,
+        "right": false
+      },
+      {
+        "img": "/variants/doom/images/items/inventory/supershotgun.png",
+        "left": false,
+        "right": true
+      },
+      {
+        "img": "/variants/doom/images/items/inventory/shotguns.png",
+        "left": true,
+        "right": true
+      },
+      {
+        "img": "/variants/doom/images/items/inventory/shotgun.png",
+        "img_mods": "@disabled",
+        "left": false,
+        "right": false
+      }
+    ]
+  },
+  {
+    "name": "Chaingun",
+    "type": "toggle",
+    "loop": true,
+    "img": "/variants/doom/images/items/inventory/chaingun.png",
+    "codes": "chaingun"
+  },
+  {
+    "name": "Rocket Launcher",
+    "type": "toggle",
+    "loop": true,
+    "img": "/variants/doom/images/items/inventory/rocketlauncher.png",
+    "codes": "rocketlauncher"
+  },
+  {
+    "name": "Plasma Gun",
+    "type": "toggle",
+    "loop": true,
+    "img": "/variants/doom/images/items/inventory/plasmagun.png",
+    "codes": "plasmagun"
+  },
+  {
+    "name": "Unmaker",
+    "type": "toggle",
+    "loop": true,
+    "img": "/variants/doom/images/items/inventory/unmaker.png",
+    "codes": "unmaker"
+  },
+  {
+    "name": "BFG9000",
+    "type": "toggle",
+    "loop": true,
+    "img": "/variants/doom/images/items/inventory/bfg9000.png",
+    "codes": "bfg9000"
+  },
+  {
+    "name": "Death Logic",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/deathlogic.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Death Logic - Off",
+        "codes": "deathlogic",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/deathlogic.png",
+        "name": "Death Logic - On",
+        "codes": "deathlogic"
+      }
+    ]
+  },
+  {
+    "name": "Pro",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/pro.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Pro - Off",
+        "codes": "promoves",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/pro.png",
+        "name": "Pro - On",
+        "codes": "promoves"
+      }
+    ]
+  },
+  {
+    "name": "Knee-Deep in the Dead (E1)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/e1.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Episode 1 - Off",
+        "codes": "ep1,ep1_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/e1.png",
+        "name": "Episode 1 - On",
+        "codes": "ep1,ep1_on"
+      }
+    ]
+  },
+  {
+    "name": "The Shores of Hell (E2)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/e2.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Episode 2 - Off",
+        "codes": "ep2,ep2_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/e2.png",
+        "name": "Episode 2 - On",
+        "codes": "ep2,ep2_on"
+      }
+    ]
+  },
+  {
+    "name": "Inferno (E3)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/e3.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Episode 3 - Off",
+        "codes": "ep3,ep3_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/e3.png",
+        "name": "Episode 3 - On",
+        "codes": "ep3,ep3_on"
+      }
+    ]
+  },
+  {
+    "name": "Thy Flesh Consumed (E4)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/e4.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Episode 4 - Off",
+        "codes": "ep4,ep4_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/e4.png",
+        "name": "Episode 4 - On",
+        "codes": "ep4,ep4_on"
+      }
+    ]
+  },
+  {
+    "name": "SIGIL (E5)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/e5.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Episode 5 - Off",
+        "codes": "ep5,ep5_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/e5.png",
+        "name": "Episode 5 - On",
+        "codes": "ep5,ep5_on"
+      }
+    ]
+  },
+  {
+    "name": "SIGIL II (E6)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/e6.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Episode 6 - Off",
+        "codes": "ep6,ep6_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/e6.png",
+        "name": "Episode 6 - On",
+        "codes": "ep6,ep6_on"
+      }
+    ]
+  },
+  {
+    "name": "Difficulty",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/wolf3d/difficulty_baby.png",
+        "name": "Difficulty - Baby",
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_b,difficulty_baby,difficulty_itytd"
+      },
+      {
+        "img": "variants/doom/images/settings/wolf3d/difficulty_easy.png",
+        "name": "Difficulty - Easy",
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_e,difficulty_easy,difficulty_hntr"
+      },
+      {
+        "img": "variants/doom/images/settings/wolf3d/difficulty_medium.png",
+        "name": "Difficulty - Medium",
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_m,difficulty_med,difficulty_medium,difficulty_hmp"
+      },
+      {
+        "img": "variants/doom/images/settings/wolf3d/difficulty_hard.png",
+        "name": "Difficulty - Hard",
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_h,difficulty_hard,difficulty_uv"
+      },
+      {
+        "img": "variants/doom/images/settings/wolf3d/difficulty_nightmare.png",
+        "name": "Difficulty - Nightmare",
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_n,difficulty_nightmare,difficulty_nm"
+      }
+    ]
+  }
+]

@@ -5,22 +5,22 @@
   "package_uid": "ap_doom",
   "author": "Ozone / Minnie A. Trethewey",
   "variants": {
-    "doom": {
+    "doom/doom": {
       "display_name": "DOOM: The Ultimate DOOM"
     },
-    "doom64": {
+    "doom/doom64": {
       "display_name": "DOOM 64"
     },
-    "doomii": {
+    "doom/doomii": {
       "display_name": "DOOM II: Hell on Earth"
     },
-    "tnt": {
+    "doom/tnt": {
       "display_name": "DOOM II: TNT: Evilution"
     },
-    "plutonia": {
+    "doom/plutonia": {
       "display_name": "DOOM II: The Plutonia Experiment"
     },
-    "nrftl": {
+    "doom/nrftl": {
       "display_name": "DOOM II: No Rest for the Living"
     }
   },

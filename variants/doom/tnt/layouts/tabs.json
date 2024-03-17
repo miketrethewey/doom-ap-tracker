@@ -1,0 +1,40 @@
+{"tabbed_maps": {
+  "type": "tabbed",
+  "tabs": [
+    {
+      "title": "Experimental Labs (E1)",
+      "icon": "variants/doom/images/levels/e1.png",
+      "content": {
+        "type": "tabbed"
+      }
+    },
+    {
+      "title": "Military Base (E2)",
+      "icon": "variants/doom/images/levels/e2.png",
+      "content": {
+        "type": "tabbed"
+      }
+    },
+    {
+      "title": "Nighttime (E3)",
+      "icon": "variants/doom/images/levels/e3.png",
+      "content": {
+        "type": "tabbed"
+      }
+    },
+    {
+      "title": "Hell (E4)",
+      "icon": "variants/doom/images/levels/e4.png",
+      "content": {
+        "type": "tabbed"
+      }
+    },
+    {
+      "title": "Secret (E5)",
+      "icon": "variants/doom/images/levels/e5.png",
+      "content": {
+        "type": "tabbed"
+      }
+    }
+  ]
+}}

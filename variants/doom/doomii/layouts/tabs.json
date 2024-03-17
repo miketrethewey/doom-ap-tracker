@@ -1,0 +1,305 @@
+{"tabbed_maps": {
+  "type": "tabbed",
+  "tabs": [
+    {
+      "title": "The Space Station (E1)",
+      "icon": "variants/doom/images/levels/e1.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Entryway",
+            "icon": "variants/doom/images/overlays/map01.png",
+            "content": {
+              "type": "map",
+              "maps": ["map01"]
+            }
+          },
+          {
+            "title": "Underhalls*",
+            "icon": "variants/doom/images/overlays/map02.png",
+            "content": {
+              "type": "map",
+              "maps": ["map02"]
+            }
+          },
+          {
+            "title": "The Gantlet",
+            "icon": "variants/doom/images/overlays/map03.png",
+            "content": {
+              "type": "map",
+              "maps": ["map03"]
+            }
+          },
+          {
+            "title": "The Focus",
+            "icon": "variants/doom/images/overlays/map04.png",
+            "content": {
+              "type": "map",
+              "maps": ["map04"]
+            }
+          },
+          {
+            "title": "The Waste Tunnels",
+            "icon": "variants/doom/images/overlays/map05.png",
+            "content": {
+              "type": "map",
+              "maps": ["map05"]
+            }
+          },
+          {
+            "title": "The Crusher",
+            "icon": "variants/doom/images/overlays/map06.png",
+            "content": {
+              "type": "map",
+              "maps": ["map06"]
+            }
+          },
+          {
+            "title": "Dead Simple",
+            "icon": "variants/doom/images/overlays/map07.png",
+            "content": {
+              "type": "map",
+              "maps": ["map07"]
+            }
+          },
+          {
+            "title": "Tricks and Traps",
+            "icon": "variants/doom/images/overlays/map08.png",
+            "content": {
+              "type": "map",
+              "maps": ["map08"]
+            }
+          },
+          {
+            "title": "The Pit",
+            "icon": "variants/doom/images/overlays/map09.png",
+            "content": {
+              "type": "map",
+              "maps": ["map09"]
+            }
+          },
+          {
+            "title": "Refueling Base",
+            "icon": "variants/doom/images/overlays/map10.png",
+            "content": {
+              "type": "map",
+              "maps": ["map10"]
+            }
+          },
+          {
+            "title": "Circle of Death ('O' of Destruction!)",
+            "icon": "variants/doom/images/overlays/map11.png",
+            "content": {
+              "type": "map",
+              "maps": ["map11"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "The City (E2)",
+      "icon": "variants/doom/images/levels/e2.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "The Factory",
+            "icon": "variants/doom/images/overlays/map12.png",
+            "content": {
+              "type": "map",
+              "maps": ["map12"]
+            }
+          },
+          {
+            "title": "Downtown",
+            "icon": "variants/doom/images/overlays/map13.png",
+            "content": {
+              "type": "map",
+              "maps": ["map13"]
+            }
+          },
+          {
+            "title": "The Inmost Dens",
+            "icon": "variants/doom/images/overlays/map14.png",
+            "content": {
+              "type": "map",
+              "maps": ["map14"]
+            }
+          },
+          {
+            "title": "Industrial Zone*",
+            "icon": "variants/doom/images/overlays/map15.png",
+            "content": {
+              "type": "map",
+              "maps": ["map15"]
+            }
+          },
+          {
+            "title": "Suburbs",
+            "icon": "variants/doom/images/overlays/map16.png",
+            "content": {
+              "type": "map",
+              "maps": ["map16"]
+            }
+          },
+          {
+            "title": "Tenements",
+            "icon": "variants/doom/images/overlays/map17.png",
+            "content": {
+              "type": "map",
+              "maps": ["map17"]
+            }
+          },
+          {
+            "title": "The Courtyard",
+            "icon": "variants/doom/images/overlays/map18.png",
+            "content": {
+              "type": "map",
+              "maps": ["map18"]
+            }
+          },
+          {
+            "title": "The Citadel",
+            "icon": "variants/doom/images/overlays/map19.png",
+            "content": {
+              "type": "map",
+              "maps": ["map19"]
+            }
+          },
+          {
+            "title": "Gotcha!",
+            "icon": "variants/doom/images/overlays/map20.png",
+            "content": {
+              "type": "map",
+              "maps": ["map20"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "Hell (E3)",
+      "icon": "variants/doom/images/levels/e3.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Nirvana",
+            "icon": "variants/doom/images/overlays/map21.png",
+            "content": {
+              "type": "map",
+              "maps": ["map21"]
+            }
+          },
+          {
+            "title": "The Catacombs",
+            "icon": "variants/doom/images/overlays/map22.png",
+            "content": {
+              "type": "map",
+              "maps": ["map22"]
+            }
+          },
+          {
+            "title": "Barrels o' Fun",
+            "icon": "variants/doom/images/overlays/map23.png",
+            "content": {
+              "type": "map",
+              "maps": ["map23"]
+            }
+          },
+          {
+            "title": "The Chasm",
+            "icon": "variants/doom/images/overlays/map24.png",
+            "content": {
+              "type": "map",
+              "maps": ["map24"]
+            }
+          },
+          {
+            "title": "Bloodfalls",
+            "icon": "variants/doom/images/overlays/map25.png",
+            "content": {
+              "type": "map",
+              "maps": ["map25"]
+            }
+          },
+          {
+            "title": "The Abandoned Mines",
+            "icon": "variants/doom/images/overlays/map26.png",
+            "content": {
+              "type": "map",
+              "maps": ["map26"]
+            }
+          },
+          {
+            "title": "Monster Condo",
+            "icon": "variants/doom/images/overlays/map27.png",
+            "content": {
+              "type": "map",
+              "maps": ["map27"]
+            }
+          },
+          {
+            "title": "The Spirit World",
+            "icon": "variants/doom/images/overlays/map28.png",
+            "content": {
+              "type": "map",
+              "maps": ["map28"]
+            }
+          },
+          {
+            "title": "The Living End",
+            "icon": "variants/doom/images/overlays/map29.png",
+            "content": {
+              "type": "map",
+              "maps": ["map29"]
+            }
+          },
+          {
+            "title": "Icon of Sin",
+            "icon": "variants/doom/images/overlays/map30.png",
+            "content": {
+              "type": "map",
+              "maps": ["map30"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "Secret (E4)",
+      "icon": "variants/doom/images/levels/e4.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Wolfenstein*",
+            "icon": "variants/doom/images/overlays/map31.png",
+            "content": {
+              "type": "map",
+              "maps": ["map31"]
+            }
+          },
+          {
+            "title": "Grosse",
+            "icon": "variants/doom/images/overlays/map32.png",
+            "content": {
+              "type": "map",
+              "maps": ["map32"]
+            }
+          },
+          {
+            "title": "Betray",
+            "icon": "variants/doom/images/overlays/xbox.png",
+            "content": {
+              "type": "map",
+              "maps": ["map33"]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}}
