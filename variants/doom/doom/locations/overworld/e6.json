@@ -211,6 +211,11 @@
             "name": "E6M3 Exit",
             "access_rules": ["$canShootSigil"],
             "hosted_item": "e6m3_complete"
+          },
+          {
+            "name": "E6M3 Secret Exit",
+            "access_rules": ["$canShootSigil"],
+            "hosted_item": "e6m3_complete"
           }
         ],
         "map_locations": [

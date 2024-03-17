@@ -1,6 +1,7 @@
 [
   {
     "name": "E5M9",
+    "access_rules": ["$access|e5m9"],
     "children": [
       {
         "name": "E5M9 Entrance",
@@ -11,7 +12,7 @@
         "map_locations": [
           {
             "map": "e5m9",
-            "restrict_visibility_rules": ["ep5_on", ""],
+            "restrict_visibility_rules": ["ep5_on"],
             "size": 20,
             "x": 472,
             "y": 579
@@ -19,10 +20,160 @@
         ]
       },
       {
+        "name": "Shotgun",
+        "note": "No reqs",
+        "access_rules": ["@Realm of Iblis (E5M9)/Shotgun"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m9",
+            "x": 24,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "note": "No reqs",
+        "access_rules": ["@Realm of Iblis (E5M9)/Chaingun"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m9",
+            "x": 48,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "note": "No reqs",
+        "access_rules": ["@Realm of Iblis (E5M9)/Red Skull Key"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m9",
+            "x": 72,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "note": "No reqs",
+        "access_rules": ["@Realm of Iblis (E5M9)/Supercharge"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m9",
+            "x": 96,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "note": "No reqs",
+        "access_rules": ["@Realm of Iblis (E5M9)/Armor"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m9",
+            "x": 120,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "note": "No reqs",
+        "access_rules": ["@Realm of Iblis (E5M9)/Berserk"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m9",
+            "x": 144,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "note": "No reqs",
+        "access_rules": ["@Realm of Iblis (E5M9)/Blue Skull Key"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m9",
+            "x": 168,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Realm of Iblis (E5M9)/Armor"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m9",
+            "x": 192,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Realm of Iblis (E5M9)/Rocket Launcher"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m9",
+            "x": 216,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Realm of Iblis (E5M9)/Supercharge"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m9",
+            "x": 240,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "access_rules": ["@Realm of Iblis (E5M9)/Yellow Skull Key"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m9",
+            "x": 264,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
         "name": "E5M9 Exit",
         "sections": [
           {
-            "ref": "Realm of Iblis (E5M8)/Exit",
+            "ref": "Realm of Iblis (E5M9)/Exit",
             "name": "Level Completed",
             "hosted_item": "e5m9_complete"
           }
@@ -33,7 +184,7 @@
             "x": 240,
             "y": 100,
             "size": 20,
-            "restrict_visibility_rules": ["ep5_on", ""]
+            "restrict_visibility_rules": ["ep5_on"]
           }
         ],
         "access_rules": ["@Realm of Iblis (E5M9)/Exit"]

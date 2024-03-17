@@ -308,13 +308,62 @@
       "content": {
         "type": "tabbed",
         "tabs": [
-            {"title":"Ruined Village*","icon":"variants/doom/images/overlays/6-1.png","content":{"type":"map","maps":["e6m1"]}},
-            {"title":"Blight","icon":"variants/doom/images/overlays/6-2.png","content":{"type":"map","maps":["e6m2"]}},
-            {"title":"Badlands","icon":"variants/doom/images/overlays/6-3.png","content":{"type":"map","maps":["e6m3"]}},
-            {"title":"Brackenwood","icon":"variants/doom/images/overlays/6-4.png","content":{"type":"map","maps":["e6m4"]}},
-            {"title":"Catacomb","icon":"variants/doom/images/overlays/6-5.png","content":{"type":"map","maps":["e6m5"]}},
-            {"title":"Sump","icon":"variants/doom/images/overlays/6-6.png","content":{"type":"map","maps":["e6m6"]}},
-            {"title":"Pyre","icon":"variants/doom/images/overlays/6-7.png","content":{"type":"map","maps":["e6m7"]}}
+          {
+            "title": "Ruined Village*",
+            "icon": "variants/doom/images/overlays/6-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e6m1"]
+            }
+          },
+          {
+            "title": "Blight",
+            "icon": "variants/doom/images/overlays/6-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e6m2"]
+            }
+          },
+          {
+            "title": "Badlands",
+            "icon": "variants/doom/images/overlays/6-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e6m3"]
+            }
+          },
+          {
+            "title": "Brackenwood",
+            "icon": "variants/doom/images/overlays/6-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e6m4"]
+            }
+          },
+          {
+            "title": "Catacomb",
+            "icon": "variants/doom/images/overlays/6-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e6m5"]
+            }
+          },
+          {
+            "title": "Sump",
+            "icon": "variants/doom/images/overlays/6-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e6m6"]
+            }
+          },
+          {
+            "title": "Pyre",
+            "icon": "variants/doom/images/overlays/6-7.png",
+            "content": {
+              "type": "map",
+              "maps": ["e6m7"]
+            }
+          }
         ]
       }
     },
@@ -324,12 +373,54 @@
       "content": {
         "type": "tabbed",
         "tabs": [
-            {"title":"Constable's Gate","icon":"variants/doom/images/overlays/7-1.png","content":{"type":"map","maps":["e7m1"]}},
-            {"title":"Market Place","icon":"variants/doom/images/overlays/7-2.png","content":{"type":"map","maps":["e7m2"]}},
-            {"title":"Ordeal","icon":"variants/doom/images/overlays/7-3.png","content":{"type":"map","maps":["e7m3"]}},
-            {"title":"Locus Requiescat","icon":"variants/doom/images/overlays/7-4.png","content":{"type":"map","maps":["e7m4"]}},
-            {"title":"Treasury*","icon":"variants/doom/images/overlays/7-5.png","content":{"type":"map","maps":["e7m5"]}},
-            {"title":"Armory","icon":"variants/doom/images/overlays/7-6.png","content":{"type":"map","maps":["e7m6"]}}
+          {
+            "title": "Constable's Gate",
+            "icon": "variants/doom/images/overlays/7-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e7m1"]
+            }
+          },
+          {
+            "title": "Market Place",
+            "icon": "variants/doom/images/overlays/7-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e7m2"]
+            }
+          },
+          {
+            "title": "Ordeal",
+            "icon": "variants/doom/images/overlays/7-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e7m3"]
+            }
+          },
+          {
+            "title": "Locus Requiescat",
+            "icon": "variants/doom/images/overlays/7-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e7m4"]
+            }
+          },
+          {
+            "title": "Treasury*",
+            "icon": "variants/doom/images/overlays/7-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e7m5"]
+            }
+          },
+          {
+            "title": "Armory",
+            "icon": "variants/doom/images/overlays/7-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e7m6"]
+            }
+          }
         ]
       }
     },
@@ -339,13 +430,62 @@
       "content": {
         "type": "tabbed",
         "tabs": [
-            {"title":"Nave*","icon":"variants/doom/images/overlays/8-1.png","content":{"type":"map","maps":["e8m1"]}},
-            {"title":"Chantry","icon":"variants/doom/images/overlays/8-2.png","content":{"type":"map","maps":["e8m2"]}},
-            {"title":"Dark Watch","icon":"variants/doom/images/overlays/8-3.png","content":{"type":"map","maps":["e8m3"]}},
-            {"title":"Cloaca","icon":"variants/doom/images/overlays/8-4.png","content":{"type":"map","maps":["e8m4"]}},
-            {"title":"Abattoir","icon":"variants/doom/images/overlays/8-5.png","content":{"type":"map","maps":["e8m5"]}},
-            {"title":"Ice Hold","icon":"variants/doom/images/overlays/8-6.png","content":{"type":"map","maps":["e8m6"]}},
-            {"title":"Dark Citadel","icon":"variants/doom/images/overlays/8-7.png","content":{"type":"map","maps":["e8m7"]}}
+          {
+            "title": "Nave*",
+            "icon": "variants/doom/images/overlays/8-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e8m1"]
+            }
+          },
+          {
+            "title": "Chantry",
+            "icon": "variants/doom/images/overlays/8-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e8m2"]
+            }
+          },
+          {
+            "title": "Dark Watch",
+            "icon": "variants/doom/images/overlays/8-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e8m3"]
+            }
+          },
+          {
+            "title": "Cloaca",
+            "icon": "variants/doom/images/overlays/8-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e8m4"]
+            }
+          },
+          {
+            "title": "Abattoir",
+            "icon": "variants/doom/images/overlays/8-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e8m5"]
+            }
+          },
+          {
+            "title": "Ice Hold",
+            "icon": "variants/doom/images/overlays/8-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e8m6"]
+            }
+          },
+          {
+            "title": "Dark Citadel",
+            "icon": "variants/doom/images/overlays/8-7.png",
+            "content": {
+              "type": "map",
+              "maps": ["e8m7"]
+            }
+          }
         ]
       }
     },
@@ -355,12 +495,54 @@
       "content": {
         "type": "tabbed",
         "tabs": [
-            {"title":"Transit","icon":"variants/doom/images/overlays/9-1.png","content":{"type":"map","maps":["e9m1"]}},
-            {"title":"Over N Under","icon":"variants/doom/images/overlays/9-2.png","content":{"type":"map","maps":["e9m2"]}},
-            {"title":"Deathfog","icon":"variants/doom/images/overlays/9-3.png","content":{"type":"map","maps":["e9m3"]}},
-            {"title":"Castle of Pain","icon":"variants/doom/images/overlays/9-4.png","content":{"type":"map","maps":["e9m4"]}},
-            {"title":"Sewer Pit","icon":"variants/doom/images/overlays/9-5.png","content":{"type":"map","maps":["e9m5"]}},
-            {"title":"The Rose","icon":"variants/doom/images/overlays/9-6.png","content":{"type":"map","maps":["e9m6"]}}
+          {
+            "title": "Transit",
+            "icon": "variants/doom/images/overlays/9-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e9m1"]
+            }
+          },
+          {
+            "title": "Over N Under",
+            "icon": "variants/doom/images/overlays/9-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e9m2"]
+            }
+          },
+          {
+            "title": "Deathfog",
+            "icon": "variants/doom/images/overlays/9-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e9m3"]
+            }
+          },
+          {
+            "title": "Castle of Pain",
+            "icon": "variants/doom/images/overlays/9-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e9m4"]
+            }
+          },
+          {
+            "title": "Sewer Pit",
+            "icon": "variants/doom/images/overlays/9-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e9m5"]
+            }
+          },
+          {
+            "title": "The Rose",
+            "icon": "variants/doom/images/overlays/9-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e9m6"]
+            }
+          }
         ]
       }
     }

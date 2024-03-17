@@ -1,6 +1,7 @@
 [
   {
     "name": "E5M4",
+    "access_rules": ["$access|e5m4"],
     "children": [
       {
         "name": "E5M4 Entrance",
@@ -11,10 +12,203 @@
         "map_locations": [
           {
             "map": "e5m4",
-            "restrict_visibility_rules": ["ep5_on", ""],
+            "restrict_visibility_rules": ["ep5_on"],
             "size": 20,
             "x": 334,
             "y": 5
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "note": "No reqs",
+        "access_rules": ["@Paths of Wretchedness (E5M4)/Chainsaw"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m4",
+            "x": 24,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "note": "No reqs",
+        "access_rules": ["@Paths of Wretchedness (E5M4)/Shotgun"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m4",
+            "x": 48,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "note": "Left section",
+        "access_rules": ["@Paths of Wretchedness (E5M4)/Supercharge"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m4",
+            "x": 72,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "note": "Left section",
+        "access_rules": ["@Paths of Wretchedness (E5M4)/Red Skull Key"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m4",
+            "x": 96,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "note": "In switch courtyard",
+        "access_rules": ["@Paths of Wretchedness (E5M4)/Mega Armor"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m4",
+            "x": 120,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "note": "Middle section, no reqs",
+        "access_rules": ["@Paths of Wretchedness (E5M4)/Yellow Skull Key"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m4",
+            "x": 144,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "note": "Right section, no reqs",
+        "access_rules": ["@Paths of Wretchedness (E5M4)/Invulnerability"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m4",
+            "x": 168,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "note": "Right section, behind false wall",
+        "access_rules": ["@Paths of Wretchedness (E5M4)/Supercharge"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m4",
+            "x": 192,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "note": "Right section, in crusher area",
+        "access_rules": ["@Paths of Wretchedness (E5M4)/Mega Armor"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m4",
+            "x": 216,
+            "y": 0,
+            "restrict_visibility_rules": ["$difficulty_range|5|low", "$difficulty|5|med"]
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "note": "Right section, in crusher area",
+        "access_rules": ["@Paths of Wretchedness (E5M4)/Armor"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m4",
+            "x": 240,
+            "y": 0,
+            "restrict_visibility_rules": ["$difficulty_range|5|high"]
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "note": "Right section, in crusher area",
+        "access_rules": ["@Paths of Wretchedness (E5M4)/Blue Skull Key"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m4",
+            "x": 264,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Paths of Wretchedness (E5M4)/Chaingun"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m4",
+            "x": 288,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Paths of Wretchedness (E5M4)/Backpack"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m4",
+            "x": 312,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Paths of Wretchedness (E5M4)/Armor"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m4",
+            "x": 336,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
           }
         ]
       },
@@ -33,7 +227,7 @@
             "x": 594,
             "y": 1260,
             "size": 20,
-            "restrict_visibility_rules": ["ep5_on", ""]
+            "restrict_visibility_rules": ["ep5_on"]
           }
         ],
         "access_rules": ["@Paths of Wretchedness (E5M4)/Exit"]

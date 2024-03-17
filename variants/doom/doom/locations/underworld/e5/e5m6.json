@@ -1,6 +1,7 @@
 [
   {
     "name": "E5M6",
+    "access_rules": ["$access|e5m6"],
     "children": [
       {
         "name": "E5M6 Entrance",
@@ -11,10 +12,205 @@
         "map_locations": [
           {
             "map": "e5m6",
-            "restrict_visibility_rules": ["ep5_on", ""],
+            "restrict_visibility_rules": ["ep5_on"],
             "size": 20,
             "x": 560,
             "y": 160
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "note": "No reqs",
+        "access_rules": ["@Unspeakable Persecution (E5M6)/Shotgun"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m6",
+            "x": 24,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "note": "No reqs",
+        "access_rules": ["@Unspeakable Persecution (E5M6)/Chaingun"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m6",
+            "x": 48,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "note": "No reqs",
+        "access_rules": ["@Unspeakable Persecution (E5M6)/Plasma Gun"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m6",
+            "x": 72,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Lignt-Amplification Goggles",
+        "note": "No reqs",
+        "access_rules": [
+          "@Unspeakable Persecution (E5M6)/Lignt-Amplification Goggles"
+        ],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m6",
+            "x": 96,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "note": "No reqs",
+        "access_rules": ["@Unspeakable Persecution (E5M6)/Armor"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m6",
+            "x": 120,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "access_rules": ["@Unspeakable Persecution (E5M6)/Red Skull Key"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m6",
+            "x": 144,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "note": "No reqs",
+        "access_rules": ["@Unspeakable Persecution (E5M6)/BFG9000"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m6",
+            "x": 168,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": [
+          "@Unspeakable Persecution (E5M6)/Invulnerability"
+        ],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m6",
+            "x": 192,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": ["@Unspeakable Persecution (E5M6)/Chainsaw"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m6",
+            "x": 216,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": ["@Unspeakable Persecution (E5M6)/Mega Armor"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m6",
+            "x": 240,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "note": "On path to east",
+        "access_rules": ["@Unspeakable Persecution (E5M6)/Berserk"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m6",
+            "x": 264,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Berserk 2",
+        "note": "In east",
+        "access_rules": ["@Unspeakable Persecution (E5M6)/Berserk 2"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m6",
+            "x": 288,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "note": "In east, above Berserk 2",
+        "access_rules": ["@Unspeakable Persecution (E5M6)/Armor 2"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m6",
+            "x": 312,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Unspeakable Persecution (E5M6)/Supercharge"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m6",
+            "x": 336,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
           }
         ]
       },
@@ -33,7 +229,7 @@
             "x": 560,
             "y": 390,
             "size": 20,
-            "restrict_visibility_rules": ["ep5_on", ""]
+            "restrict_visibility_rules": ["ep5_on"]
           }
         ],
         "access_rules": ["@Unspeakable Persecution (E5M6)/Exit"]
@@ -53,10 +249,10 @@
             "x": 1216,
             "y": 300,
             "size": 20,
-            "restrict_visibility_rules": ["ep5_on", ""]
+            "restrict_visibility_rules": ["ep5_on"]
           }
         ],
-        "access_rules": ["@Unspeakable Persecution (E5M6)/Exit"]
+        "access_rules": ["@Unspeakable Persecution (E5M6)/Secret Exit"]
       }
     ],
     "parent": "Unspeakable Persecution (E5M6)"

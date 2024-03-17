@@ -54,8 +54,13 @@ E5:
     - name: Rocket
       q: 2
     - name: Armor
+      q12: 1
+      q_3: 1
+      q45: 2
     - name: Mega Armor
-      q: 2
+      q12: 2
+      q_3: 2
+      q45: 1
     - name: Supercharge
       q: 2
     - name: Backpack

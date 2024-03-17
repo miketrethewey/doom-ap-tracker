@@ -1,20 +1,14 @@
 [
   {
     "name": "E6M7",
-    "parent": "Descent Into Terror (E6M7)",
+    "access_rules": ["$access|e6m7"],
     "children": [
       {
         "name": "E6M7 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": ["$access|null"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/E6M7 Entrance",
-            "name": "Level Start",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Level Start", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
@@ -27,485 +21,350 @@
       },
       {
         "name": "Chaingun",
+        "note": "Near spawn",
         "access_rules": ["@Descent Into Terror (E6M7)/Chaingun"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Chaingun",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 24,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Rocket Launcher",
+        "note": "#FIXME: Didn't find!",
         "access_rules": ["@Descent Into Terror (E6M7)/Rocket Launcher"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Rocket Launcher",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 48,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Plasma Gun",
         "access_rules": ["@Descent Into Terror (E6M7)/Plasma Gun"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Plasma Gun",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 72,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "BFG9000",
+        "note": "Basement of bramble maze",
         "access_rules": ["@Descent Into Terror (E6M7)/BFG9000"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/BFG9000",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 96,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Armor",
+        "note": "SW building, near Backpack '1'",
         "access_rules": ["@Descent Into Terror (E6M7)/Armor"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Armor",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 120,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Armor 2",
+        "note": "Outside destination from teleporter behind Blue Door, outside from Berserk '1'",
         "access_rules": ["@Descent Into Terror (E6M7)/Armor 2"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Armor 2",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 144,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Armor 3",
-        "note": "#FIXME: Apparently there's one more on Med/UV/NM",
+        "note": "In raising platform maze, near Berserk 5, #FIXME: Apparently there's one more on Med/UV/NM",
         "access_rules": ["@Descent Into Terror (E6M7)/Armor 3"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Armor 3",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 168,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Mega Armor",
-        "note": "May not be present on Med/UV/NM",
+        "note": "In Tech Center, may not be present on Med/UV/NM",
         "access_rules": ["@Descent Into Terror (E6M7)/Mega Armor"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Mega Armor",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 192,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Mega Armor 2",
-        "note": "May not be present on Med/UV/NM",
+        "note": "May not be present on Med/UV/NM, #FIXME: Didn't find!",
         "access_rules": ["@Descent Into Terror (E6M7)/Mega Armor 2"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Mega Armor 2",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 216,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Supercharge",
+        "note": "Outside, visibile from Berserk 2",
         "access_rules": ["@Descent Into Terror (E6M7)/Supercharge"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Supercharge",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 240,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Supercharge 2",
         "access_rules": ["@Descent Into Terror (E6M7)/Supercharge 2"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Supercharge 2",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 264,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Supercharge 3",
+        "note": "#FIXME: Didn't find!",
         "access_rules": ["@Descent Into Terror (E6M7)/Supercharge 3"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Supercharge 3",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 288,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Backpack",
+        "note": "SW building, near Armor '1'",
         "access_rules": ["@Descent Into Terror (E6M7)/Backpack"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Backpack",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 312,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Backpack 2",
+        "note": "#FIXME: Didn't find!",
         "access_rules": ["@Descent Into Terror (E6M7)/Backpack 2"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Backpack 2",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 336,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Berserk",
+        "note": "Inside destination from teleporter behind Blue Door, inside from Armor 2",
         "access_rules": ["@Descent Into Terror (E6M7)/Berserk"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Berserk",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 360,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Berserk 2",
+        "note": "Outside",
         "access_rules": ["@Descent Into Terror (E6M7)/Berserk 2"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Berserk 2",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 384,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Berserk 3",
+        "note": "In bramble maze",
         "access_rules": ["@Descent Into Terror (E6M7)/Berserk 3"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Berserk 3",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 408,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Berserk 4",
+        "note": "In Tech Center, next to Mega Armor '1'",
         "access_rules": ["@Descent Into Terror (E6M7)/Berserk 4"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Berserk 4",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 432,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Berserk 5",
+        "note": "In raising platform maze, near Armor 3",
         "access_rules": ["@Descent Into Terror (E6M7)/Berserk 5"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Berserk 5",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 456,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Berserk 6",
+        "note": "#FIXME: Didn't find!",
         "access_rules": ["@Descent Into Terror (E6M7)/Berserk 6"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Berserk 6",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 480,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Computer Area Map",
+        "note": "#FIXME: Didn't find!",
         "access_rules": ["@Descent Into Terror (E6M7)/Computer Area Map"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Computer Area Map",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["$difficulty|6|med|uv|nm"],
             "x": 504,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["$difficulty|6|med|nm|uv"]
           }
         ]
       },
       {
         "name": "Invulnerability",
         "access_rules": ["@Descent Into Terror (E6M7)/Invulnerability"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Invulnerability",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 528,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Blue Skull key",
         "access_rules": ["@Descent Into Terror (E6M7)/Blue Skull key"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Blue Skull key",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 552,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Red Keycard",
         "access_rules": ["@Descent Into Terror (E6M7)/Red Keycard"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Red Keycard",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 576,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Yellow Skull key",
         "access_rules": ["@Descent Into Terror (E6M7)/Yellow Skull key"],
-        "sections": [
-          {
-            "ref": "Descent Into Terror (E6M7)/Yellow Skull key",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 600,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "E6M7 Exit",
-        "access_rules": ["@Descent Into Terror (E6M7)/E6M7 Exit"],
         "sections": [
           {
             "ref": "Descent Into Terror (E6M7)/E6M7 Exit",
@@ -516,13 +375,15 @@
         "map_locations": [
           {
             "map": "e6m7",
-            "restrict_visibility_rules": ["ep6_on"],
-            "size": 20,
             "x": 624,
-            "y": 0
+            "y": 0,
+            "size": 20,
+            "restrict_visibility_rules": ["ep6_on"]
           }
-        ]
+        ],
+        "access_rules": ["@Descent Into Terror (E6M7)/E6M7 Exit"]
       }
-    ]
+    ],
+    "parent": "Descent Into Terror (E6M7)"
   }
 ]

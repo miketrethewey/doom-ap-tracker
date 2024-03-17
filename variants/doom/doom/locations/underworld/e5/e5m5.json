@@ -1,6 +1,7 @@
 [
   {
     "name": "E5M5",
+    "access_rules": ["$access|e5m5"],
     "children": [
       {
         "name": "E5M5 Entrance",
@@ -15,6 +16,170 @@
             "size": 20,
             "x": 1150,
             "y": 990
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "note": "No reqs",
+        "access_rules": ["@Abaddon's Void (E5M5)/Shotgun"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m5",
+            "x": 24,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "note": "Eastern building, no reqs",
+        "access_rules": ["@Abaddon's Void (E5M5)/Armor"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m5",
+            "x": 48,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "note": "Outside eastern building, no reqs",
+        "access_rules": ["@Abaddon's Void (E5M5)/Mega Armor"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m5",
+            "x": 72,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "note": "Center platform, no reqs",
+        "access_rules": ["@Abaddon's Void (E5M5)/Chaingun"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m5",
+            "x": 96,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "note": "Western building, in acid",
+        "access_rules": ["@Abaddon's Void (E5M5)/Supercharge"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m5",
+            "x": 120,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "note": "No reqs",
+        "access_rules": ["@Abaddon's Void (E5M5)/Rocket Launcher"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m5",
+            "x": 144,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Abaddon's Void (E5M5)/Berserk"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m5",
+            "x": 168,
+            "y": 0,
+            "restrict_visibility_rules": ["$difficulty_range|5|high"]
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": ["@Abaddon's Void (E5M5)/Chainsaw"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m5",
+            "x": 192,
+            "y": 0,
+            "restrict_visibility_rules": ["$difficulty_range|5|low", "$difficulty|5|med"]
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "access_rules": ["@Abaddon's Void (E5M5)/Blue Skull Key"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m5",
+            "x": 216,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "note": "On catwalk after teleporter after vanilla Blue Skull Key",
+        "access_rules": ["@Abaddon's Void (E5M5)/Supercharge 2"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m5",
+            "x": 240,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "access_rules": ["@Abaddon's Void (E5M5)/Yellow Skull Key"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m5",
+            "x": 264,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "note": "Near exit",
+        "access_rules": ["@Abaddon's Void (E5M5)/Armor"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m5",
+            "x": 288,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
           }
         ]
       },

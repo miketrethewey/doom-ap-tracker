@@ -1,6 +1,7 @@
 [
   {
     "name": "E5M8",
+    "access_rules": ["$access|e5m8"],
     "children": [
       {
         "name": "E5M8 Entrance",
@@ -11,10 +12,141 @@
         "map_locations": [
           {
             "map": "e5m8",
-            "restrict_visibility_rules": ["ep5_on", ""],
+            "restrict_visibility_rules": ["ep5_on"],
             "size": 20,
             "x": 107,
             "y": 487
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "note": "No reqs",
+        "access_rules": ["@Halls of Perdition (E5M8)/Shotgun"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "x": 24,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Halls of Perdition (E5M8)/Chaingun"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "x": 48,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "access_rules": ["@Halls of Perdition (E5M8)/Red Skull Key"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "x": 72,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Halls of Perdition (E5M8)/Backpack"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "x": 96,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "access_rules": ["@Halls of Perdition (E5M8)/Plasma Gun"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "x": 120,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Halls of Perdition (E5M8)/Berserk"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "x": 144,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Halls of Perdition (E5M8)/Armor"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "x": 168,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": ["@Halls of Perdition (E5M8)/BFG9000"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "x": 192,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Halls of Perdition (E5M8)/Rocket Launcher"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "x": 216,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Halls of Perdition (E5M8)/Supercharge"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "x": 240,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
           }
         ]
       },
@@ -33,7 +165,7 @@
             "x": 377,
             "y": 350,
             "size": 20,
-            "restrict_visibility_rules": ["ep5_on", ""]
+            "restrict_visibility_rules": ["ep5_on"]
           }
         ],
         "access_rules": ["@Halls of Perdition (E5M8)/Exit"]

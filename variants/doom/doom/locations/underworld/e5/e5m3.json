@@ -1,6 +1,7 @@
 [
   {
     "name": "E5M3",
+    "access_rules": ["$access|e5m3"],
     "children": [
       {
         "name": "E5M3 Entrance",
@@ -11,10 +12,115 @@
         "map_locations": [
           {
             "map": "e5m3",
-            "restrict_visibility_rules": ["ep5_on", ""],
+            "restrict_visibility_rules": ["ep5_on"],
             "size": 20,
             "x": 250,
             "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "note": "No reqs",
+        "access_rules": ["@Cages of the Damned (E5M3)/Chaingun"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m3",
+            "x": 24,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": ["@Cages of the Damned (E5M3)/Berserk"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m3",
+            "x": 48,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": ["@Cages of the Damned (E5M3)/Computer Area Map"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m3",
+            "x": 72,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "access_rules": ["@Cages of the Damned (E5M3)/Red Skull Key"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m3",
+            "x": 96,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": ["@Cages of the Damned (E5M3)/Armor"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m3",
+            "x": 120,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": ["@Cages of the Damned (E5M3)/Rocket Launcher"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m3",
+            "x": 144,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": ["@Cages of the Damned (E5M3)/Supercharge"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m3",
+            "x": 168,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": ["@Cages of the Damned (E5M3)/Backpack"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m3",
+            "x": 192,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
           }
         ]
       },
@@ -33,7 +139,7 @@
             "x": 105,
             "y": 750,
             "size": 20,
-            "restrict_visibility_rules": ["ep5_on", ""]
+            "restrict_visibility_rules": ["ep5_on"]
           }
         ],
         "access_rules": ["@Cages of the Damned (E5M3)/Exit"]

@@ -1,6 +1,7 @@
 [
   {
     "name": "E5M7",
+    "access_rules": ["$access|e5m7"],
     "children": [
       {
         "name": "E5M7 Entrance",
@@ -11,10 +12,241 @@
         "map_locations": [
           {
             "map": "e5m7",
-            "restrict_visibility_rules": ["ep5_on", ""],
+            "restrict_visibility_rules": ["ep5_on"],
             "size": 20,
             "x": 107,
             "y": 487
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "note": "No reqs",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Shotgun"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 24,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "note": "No reqs",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Rocket Launcher"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 48,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "note": "Next to vanilla Chainsaw",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Armor"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 72,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Chainsaw"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 96,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Chaingun"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 120,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": ["@Nightmare Underworld (E5M7)/BFG9000"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 144,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Red Skull Key"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 168,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "note": "Across acid from vanilla Red Skull Key",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Armor"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 192,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "note": "In room with Imps behind false walls",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Mega Armor"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 216,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor 2",
+        "note": "In room with vanilla Computer Area Map",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Mega Armor 2"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 240,
+            "y": 0,
+            "restrict_visibility_rules": ["$difficulty_range|5|low", "$difficulty|5|med"]
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Armor 2"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 264,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Plasma gun",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Plasma gun"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 288,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Yellow Skull Key"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 312,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "note": "Next to vanilla Computer Area Map",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Supercharge"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 336,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "note": "Next to start",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Supercharge 2"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 360,
+            "y": 0,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 3",
+        "note": "Near Red Door, replaced by Backpack on UV/NM",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Supercharge 3"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 384,
+            "y": 0,
+            "restrict_visibility_rules": ["$difficulty_range|5|low", "$difficulty|5|med"]
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "note": "Near Red Door, replaces Supercharge 3 on UV/NM",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Backpack"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 408,
+            "y": 0,
+            "restrict_visibility_rules": ["$difficulty_range|5|high"]
           }
         ]
       },
@@ -33,7 +265,7 @@
             "x": 286,
             "y": 730,
             "size": 20,
-            "restrict_visibility_rules": ["ep5_on", ""]
+            "restrict_visibility_rules": ["ep5_on"]
           }
         ],
         "access_rules": ["@Nightmare Underworld (E5M7)/Exit"]

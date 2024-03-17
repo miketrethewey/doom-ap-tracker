@@ -1,20 +1,14 @@
 [
   {
     "name": "E6M8",
-    "parent": "Abyss of Despair (E6M8)",
+    "access_rules": ["$access|e6m8"],
     "children": [
       {
         "name": "E6M8 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
         "access_rules": ["$access|null"],
-        "sections": [
-          {
-            "ref": "Abyss of Despair (E6M8)/E6M8 Entrance",
-            "name": "Level Start",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Level Start", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m8",
@@ -27,273 +21,195 @@
       },
       {
         "name": "Shotgun",
+        "note": "No reqs",
         "access_rules": ["@Abyss of Despair (E6M8)/Shotgun"],
-        "sections": [
-          {
-            "ref": "Abyss of Despair (E6M8)/Shotgun",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m8",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 24,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Chaingun",
+        "note": "No reqs",
         "access_rules": ["@Abyss of Despair (E6M8)/Chaingun"],
-        "sections": [
-          {
-            "ref": "Abyss of Despair (E6M8)/Chaingun",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m8",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 48,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Rocket Launcher",
         "access_rules": ["@Abyss of Despair (E6M8)/Rocket Launcher"],
-        "sections": [
-          {
-            "ref": "Abyss of Despair (E6M8)/Rocket Launcher",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m8",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 72,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Plasma Gun",
+        "note": "No reqs",
         "access_rules": ["@Abyss of Despair (E6M8)/Plasma Gun"],
-        "sections": [
-          {
-            "ref": "Abyss of Despair (E6M8)/Plasma Gun",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m8",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 96,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Armor",
+        "note": "On the way to vanilla Red Key, no reqs",
         "access_rules": ["@Abyss of Despair (E6M8)/Armor"],
-        "sections": [
-          {
-            "ref": "Abyss of Despair (E6M8)/Armor",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m8",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 120,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Armor 2",
+        "note": "Near Blue Door, no reqs",
         "access_rules": ["@Abyss of Despair (E6M8)/Armor 2"],
-        "sections": [
-          {
-            "ref": "Abyss of Despair (E6M8)/Armor 2",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m8",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 144,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Mega Armor",
         "access_rules": ["@Abyss of Despair (E6M8)/Mega Armor"],
-        "sections": [
-          {
-            "ref": "Abyss of Despair (E6M8)/Mega Armor",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m8",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 168,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Supercharge",
         "access_rules": ["@Abyss of Despair (E6M8)/Supercharge"],
-        "sections": [
-          {
-            "ref": "Abyss of Despair (E6M8)/Supercharge",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m8",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 192,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Supercharge 2",
         "access_rules": ["@Abyss of Despair (E6M8)/Supercharge 2"],
-        "sections": [
-          {
-            "ref": "Abyss of Despair (E6M8)/Supercharge 2",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m8",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 216,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Berserk",
         "access_rules": ["@Abyss of Despair (E6M8)/Berserk"],
-        "sections": [
-          {
-            "ref": "Abyss of Despair (E6M8)/Berserk",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m8",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 240,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Berserk 2",
         "access_rules": ["@Abyss of Despair (E6M8)/Berserk 2"],
-        "sections": [
-          {
-            "ref": "Abyss of Despair (E6M8)/Berserk 2",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m8",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 264,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Invisibility",
         "access_rules": ["@Abyss of Despair (E6M8)/Invisibility"],
-        "sections": [
-          {
-            "ref": "Abyss of Despair (E6M8)/Invisibility",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m8",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 288,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Blue Skull key",
+        "note": "No reqs",
         "access_rules": ["@Abyss of Despair (E6M8)/Blue Skull key"],
-        "sections": [
-          {
-            "ref": "Abyss of Despair (E6M8)/Blue Skull key",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m8",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 312,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "Red Skull key",
+        "note": "No reqs",
         "access_rules": ["@Abyss of Despair (E6M8)/Red Skull key"],
-        "sections": [
-          {
-            "ref": "Abyss of Despair (E6M8)/Red Skull key",
-            "name": "Item",
-            "item_count": 1
-          }
-        ],
+        "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e6m8",
-            "restrict_visibility_rules": ["ep6_on"],
             "x": 336,
-            "y": 0
+            "y": 0,
+            "restrict_visibility_rules": ["ep6_on"]
           }
         ]
       },
       {
         "name": "E6M8 Exit",
-        "access_rules": ["@Abyss of Despair (E6M8)/E6M8 Exit"],
         "sections": [
           {
             "ref": "Abyss of Despair (E6M8)/E6M8 Exit",
@@ -304,13 +220,15 @@
         "map_locations": [
           {
             "map": "e6m8",
-            "restrict_visibility_rules": ["ep6_on"],
-            "size": 20,
             "x": 360,
-            "y": 0
+            "y": 0,
+            "size": 20,
+            "restrict_visibility_rules": ["ep6_on"]
           }
-        ]
+        ],
+        "access_rules": ["@Abyss of Despair (E6M8)/E6M8 Exit"]
       }
-    ]
+    ],
+    "parent": "Abyss of Despair (E6M8)"
   }
 ]
