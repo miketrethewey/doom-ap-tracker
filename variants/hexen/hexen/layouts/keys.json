@@ -1,0 +1,18 @@
+{"keys_grid": {
+  "type": "itemgrid",
+  "rows": [
+    [
+      "key_axe",
+      "key_castle",
+      "key_cave",
+      "key_dungeon"
+    ],
+    [
+      "key_emerald",
+      "key_fire",
+      "key_horn",
+      "key_rusted"
+    ],
+    ["key_silver", "key_steel", "key_swamp", ""]
+  ]
+}}

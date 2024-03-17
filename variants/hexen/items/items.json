@@ -1,0 +1,321 @@
+[
+  {
+    "name": "Melee",
+    "type": "static",
+    "img": "variants/hexen/images/items/inventory/melee.png",
+    "codes": "melee"
+  },
+  {
+    "name": "Blue Weapon",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/weapon_blue.png",
+    "codes": "weapon_blue"
+  },
+  {
+    "name": "Green Weapon",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/weapon_green.png",
+    "codes": "weapon_green"
+  },
+  {
+    "name": "Ultimate Weapon",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/weapon_ultimate.png",
+    "codes": "weapon_ultimate"
+  },
+  {
+    "name": "Emerald Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/keys/emerald.png",
+    "codes": "key_emerald"
+  },
+  {
+    "name": "Silver Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/keys/silver.png",
+    "codes": "key_silver"
+  },
+  {
+    "name": "Steel Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/keys/steel.png",
+    "codes": "key_steel"
+  },
+  {
+    "name": "Fire Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/keys/fire.png",
+    "codes": "key_fire"
+  },
+  {
+    "name": "Horn Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/keys/horn.png",
+    "codes": "key_horn"
+  },
+  {
+    "name": "Cave Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/keys/cave.png",
+    "codes": "key_cave"
+  },
+  {
+    "name": "Swamp Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/keys/swamp.png",
+    "codes": "key_swamp"
+  },
+  {
+    "name": "Castle Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/keys/castle.png",
+    "codes": "key_castle"
+  },
+  {
+    "name": "Rusted Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/keys/rusted.png",
+    "codes": "key_rusted"
+  },
+  {
+    "name": "Dungeon Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/keys/dungeon.png",
+    "codes": "key_dungeon"
+  },
+  {
+    "name": "Axe Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/keys/axe.png",
+    "codes": "key_axe"
+  },
+  {
+    "name": "Seven Portals (H1)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/e1.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Episode 1 - Off",
+        "codes": "ep1,ep1_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/e1.png",
+        "name": "Episode 1 - On",
+        "codes": "ep1,ep1_on"
+      }
+    ]
+  },
+  {
+    "name": "Shadow Wood (H2)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/e2.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Episode 2 - Off",
+        "codes": "ep2,ep2_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/e2.png",
+        "name": "Episode 2 - On",
+        "codes": "ep2,ep2_on"
+      }
+    ]
+  },
+  {
+    "name": "Heresiarch's Seminary (H3)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/e3.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Episode 3 - Off",
+        "codes": "ep3,ep3_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/e3.png",
+        "name": "Episode 3 - On",
+        "codes": "ep3,ep3_on"
+      }
+    ]
+  },
+  {
+    "name": "Castle of Grief (H4)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/e4.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Episode 4 - Off",
+        "codes": "ep4,ep4_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/e4.png",
+        "name": "Episode 4 - On",
+        "codes": "ep4,ep4_on"
+      }
+    ]
+  },
+  {
+    "name": "Necropolis (H5)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/e5.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Episode 5 - Off",
+        "codes": "ep5,ep5_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/e5.png",
+        "name": "Episode 5 - On",
+        "codes": "ep5,ep5_on"
+      }
+    ]
+  },
+  {
+    "name": "Blight (H6)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/e6.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Episode 6 - Off",
+        "codes": "ep6,ep6_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/e6.png",
+        "name": "Episode 6 - On",
+        "codes": "ep6,ep6_on"
+      }
+    ]
+  },
+  {
+    "name": "Constable's Gate (H7)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/e7.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Episode 7 - Off",
+        "codes": "ep7,ep7_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/e7.png",
+        "name": "Episode 7 - On",
+        "codes": "ep7,ep7_on"
+      }
+    ]
+  },
+  {
+    "name": "Nave (H8)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/e8.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Episode 8 - Off",
+        "codes": "ep8,ep8_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/e8.png",
+        "name": "Episode 8 - On",
+        "codes": "ep8,ep8_on"
+      }
+    ]
+  },
+  {
+    "name": "Transit (H9)",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/e9.png",
+        "img_mods": "overlay|variants/doom/images/settings/off.png",
+        "name": "Episode 9 - Off",
+        "codes": "ep9,ep9_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "variants/doom/images/settings/e9.png",
+        "name": "Episode 9 - On",
+        "codes": "ep9,ep9_on"
+      }
+    ]
+  },
+  {
+    "name": "Class",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "variants/hexen/images/settings/hexen/class_fighter.png",
+        "name": "Class - Fighter",
+        "inherit_codes": false,
+        "codes": "class,class_fighter"
+      },
+      {
+        "img": "variants/hexen/images/settings/hexen/class_cleric.png",
+        "name": "Class - Cleric",
+        "inherit_codes": false,
+        "codes": "class,class_cleric"
+      },
+      {
+        "img": "variants/hexen/images/settings/hexen/class_mage.png",
+        "name": "Class - Mage",
+        "inherit_codes": false,
+        "codes": "class,class_mage"
+      }
+    ]
+  }
+]

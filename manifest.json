@@ -25,6 +25,9 @@
     },
     "heretic/heretic": {
       "display_name": "Heretic"
+    },
+    "hexen/hexen": {
+      "display_name": "Hexen: Beyond Heretic"
     }
   },
   "versions_url": ""

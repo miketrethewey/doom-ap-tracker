@@ -1,0 +1,368 @@
+{"tabbed_maps": {
+  "type": "tabbed",
+  "tabs": [
+    {
+      "title": "Overworld",
+      "icon": "variants/doom/images/levels/overworld.png",
+      "content": {
+        "type": "map",
+        "maps": ["overworld"]
+      }
+    },
+    {
+      "title": "Seven Portals (H1)",
+      "icon": "variants/doom/images/levels/e1.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Winnowing Hall",
+            "icon": "variants/doom/images/overlays/1-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e1m1"]
+            }
+          },
+          {
+            "title": "Seven Portals*",
+            "icon": "variants/doom/images/overlays/1-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e1m2"]
+            }
+          },
+          {
+            "title": "Guardian of Ice",
+            "icon": "variants/doom/images/overlays/1-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e1m3"]
+            }
+          },
+          {
+            "title": "Guardian of Fire",
+            "icon": "variants/doom/images/overlays/1-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e1m4"]
+            }
+          },
+          {
+            "title": "Guardian of Steel",
+            "icon": "variants/doom/images/overlays/1-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e1m5"]
+            }
+          },
+          {
+            "title": "Bright Crucible",
+            "icon": "variants/doom/images/overlays/1-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e1m6"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "Shadow Wood (H2)",
+      "icon": "variants/doom/images/levels/e2.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Shadow Wood*",
+            "icon": "variants/doom/images/overlays/2-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e2m1"]
+            }
+          },
+          {
+            "title": "Darkmere",
+            "icon": "variants/doom/images/overlays/2-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e2m2"]
+            }
+          },
+          {
+            "title": "Caves of Circe",
+            "icon": "variants/doom/images/overlays/2-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e2m3"]
+            }
+          },
+          {
+            "title": "Wastelands",
+            "icon": "variants/doom/images/overlays/2-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e2m4"]
+            }
+          },
+          {
+            "title": "Hypostyle",
+            "icon": "variants/doom/images/overlays/2-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e2m5"]
+            }
+          },
+          {
+            "title": "Sacred Grove",
+            "icon": "variants/doom/images/overlays/2-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e2m6"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "Heresiarch's Seminary (H3)",
+      "icon": "variants/doom/images/levels/e3.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Heresiarch's Seminary*",
+            "icon": "variants/doom/images/overlays/3-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e3m1"]
+            }
+          },
+          {
+            "title": "Orchard of Lamentations",
+            "icon": "variants/doom/images/overlays/3-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e3m2"]
+            }
+          },
+          {
+            "title": "Silent Refectory",
+            "icon": "variants/doom/images/overlays/3-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e3m3"]
+            }
+          },
+          {
+            "title": "Wolf Chapel",
+            "icon": "variants/doom/images/overlays/3-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e3m4"]
+            }
+          },
+          {
+            "title": "Dragon Chapel",
+            "icon": "variants/doom/images/overlays/3-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e3m5"]
+            }
+          },
+          {
+            "title": "Griffin Chapel",
+            "icon": "variants/doom/images/overlays/3-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e3m6"]
+            }
+          },
+          {
+            "title": "Deathwind Chapel",
+            "icon": "variants/doom/images/overlays/3-7.png",
+            "content": {
+              "type": "map",
+              "maps": ["e3m7"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "Castle of Grief (H4)",
+      "icon": "variants/doom/images/levels/e4.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Castle of Grief",
+            "icon": "variants/doom/images/overlays/4-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m1"]
+            }
+          },
+          {
+            "title": "Forsaken Outpost",
+            "icon": "variants/doom/images/overlays/4-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m2"]
+            }
+          },
+          {
+            "title": "Gibbet",
+            "icon": "variants/doom/images/overlays/4-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m3"]
+            }
+          },
+          {
+            "title": "Effluvium",
+            "icon": "variants/doom/images/overlays/4-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m4"]
+            }
+          },
+          {
+            "title": "Dungeons",
+            "icon": "variants/doom/images/overlays/4-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m5"]
+            }
+          },
+          {
+            "title": "Desolate Garden",
+            "icon": "variants/doom/images/overlays/4-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m6"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "Necropolis (H5)",
+      "icon": "variants/doom/images/levels/e5.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Necropolis*",
+            "icon": "variants/doom/images/overlays/5-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m1"]
+            }
+          },
+          {
+            "title": "Zedek's Tomb",
+            "icon": "variants/doom/images/overlays/5-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m2"]
+            }
+          },
+          {
+            "title": "Menelkir's Tomb",
+            "icon": "variants/doom/images/overlays/5-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m3"]
+            }
+          },
+          {
+            "title": "Traductus' Tomb",
+            "icon": "variants/doom/images/overlays/5-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m4"]
+            }
+          },
+          {
+            "title": "Vivarium",
+            "icon": "variants/doom/images/overlays/5-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m5"]
+            }
+          },
+          {
+            "title": "Dark Crucible",
+            "icon": "variants/doom/images/overlays/5-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m6"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "Blight (H6)",
+      "icon": "variants/doom/images/levels/e6.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+            {"title":"Ruined Village*","icon":"variants/doom/images/overlays/6-1.png","content":{"type":"map","maps":["e6m1"]}},
+            {"title":"Blight","icon":"variants/doom/images/overlays/6-2.png","content":{"type":"map","maps":["e6m2"]}},
+            {"title":"Badlands","icon":"variants/doom/images/overlays/6-3.png","content":{"type":"map","maps":["e6m3"]}},
+            {"title":"Brackenwood","icon":"variants/doom/images/overlays/6-4.png","content":{"type":"map","maps":["e6m4"]}},
+            {"title":"Catacomb","icon":"variants/doom/images/overlays/6-5.png","content":{"type":"map","maps":["e6m5"]}},
+            {"title":"Sump","icon":"variants/doom/images/overlays/6-6.png","content":{"type":"map","maps":["e6m6"]}},
+            {"title":"Pyre","icon":"variants/doom/images/overlays/6-7.png","content":{"type":"map","maps":["e6m7"]}}
+        ]
+      }
+    },
+    {
+      "title": "Constable's Gate (H7)",
+      "icon": "variants/doom/images/levels/e7.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+            {"title":"Constable's Gate","icon":"variants/doom/images/overlays/7-1.png","content":{"type":"map","maps":["e7m1"]}},
+            {"title":"Market Place","icon":"variants/doom/images/overlays/7-2.png","content":{"type":"map","maps":["e7m2"]}},
+            {"title":"Ordeal","icon":"variants/doom/images/overlays/7-3.png","content":{"type":"map","maps":["e7m3"]}},
+            {"title":"Locus Requiescat","icon":"variants/doom/images/overlays/7-4.png","content":{"type":"map","maps":["e7m4"]}},
+            {"title":"Treasury*","icon":"variants/doom/images/overlays/7-5.png","content":{"type":"map","maps":["e7m5"]}},
+            {"title":"Armory","icon":"variants/doom/images/overlays/7-6.png","content":{"type":"map","maps":["e7m6"]}}
+        ]
+      }
+    },
+    {
+      "title": "Nave (H8)",
+      "icon": "variants/doom/images/levels/e8.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+            {"title":"Nave*","icon":"variants/doom/images/overlays/8-1.png","content":{"type":"map","maps":["e8m1"]}},
+            {"title":"Chantry","icon":"variants/doom/images/overlays/8-2.png","content":{"type":"map","maps":["e8m2"]}},
+            {"title":"Dark Watch","icon":"variants/doom/images/overlays/8-3.png","content":{"type":"map","maps":["e8m3"]}},
+            {"title":"Cloaca","icon":"variants/doom/images/overlays/8-4.png","content":{"type":"map","maps":["e8m4"]}},
+            {"title":"Abattoir","icon":"variants/doom/images/overlays/8-5.png","content":{"type":"map","maps":["e8m5"]}},
+            {"title":"Ice Hold","icon":"variants/doom/images/overlays/8-6.png","content":{"type":"map","maps":["e8m6"]}},
+            {"title":"Dark Citadel","icon":"variants/doom/images/overlays/8-7.png","content":{"type":"map","maps":["e8m7"]}}
+        ]
+      }
+    },
+    {
+      "title": "Transit (H9)",
+      "icon": "variants/doom/images/levels/e9.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+            {"title":"Transit","icon":"variants/doom/images/overlays/9-1.png","content":{"type":"map","maps":["e9m1"]}},
+            {"title":"Over N Under","icon":"variants/doom/images/overlays/9-2.png","content":{"type":"map","maps":["e9m2"]}},
+            {"title":"Deathfog","icon":"variants/doom/images/overlays/9-3.png","content":{"type":"map","maps":["e9m3"]}},
+            {"title":"Castle of Pain","icon":"variants/doom/images/overlays/9-4.png","content":{"type":"map","maps":["e9m4"]}},
+            {"title":"Sewer Pit","icon":"variants/doom/images/overlays/9-5.png","content":{"type":"map","maps":["e9m5"]}},
+            {"title":"The Rose","icon":"variants/doom/images/overlays/9-6.png","content":{"type":"map","maps":["e9m6"]}}
+        ]
+      }
+    }
+  ]
+}}
