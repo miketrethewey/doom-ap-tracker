@@ -251,6 +251,201 @@
           }
         ]
       }
+    },
+    {
+      "title": "The Ossuary (E4)",
+      "icon": "variants/doom/images/levels/e4.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Catafalque",
+            "icon": "variants/doom/images/overlays/4-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m1"]
+            }
+          },
+          {
+            "title": "Blockhouse",
+            "icon": "variants/doom/images/overlays/4-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m2"]
+            }
+          },
+          {
+            "title": "Ambulatory",
+            "icon": "variants/doom/images/overlays/4-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m3"]
+            }
+          },
+          {
+            "title": "Sepulcher*",
+            "icon": "variants/doom/images/overlays/4-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m4"]
+            }
+          },
+          {
+            "title": "The Great Stair",
+            "icon": "variants/doom/images/overlays/4-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m5"]
+            }
+          },
+          {
+            "title": "Halls of the Apostate",
+            "icon": "variants/doom/images/overlays/4-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m6"]
+            }
+          },
+          {
+            "title": "Ramparts of Perdition",
+            "icon": "variants/doom/images/overlays/4-7.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m7"]
+            }
+          },
+          {
+            "title": "Shattered Bridge",
+            "icon": "variants/doom/images/overlays/4-8.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m8"]
+            }
+          },
+          {
+            "title": "Mausoleum",
+            "icon": "variants/doom/images/overlays/4-9.png",
+            "content": {
+              "type": "map",
+              "maps": ["e4m9"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "The Stagnant Demense (E5)",
+      "icon": "variants/doom/images/levels/e5.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Ochre Cliffs",
+            "icon": "variants/doom/images/overlays/5-1.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m1"]
+            }
+          },
+          {
+            "title": "Rapids",
+            "icon": "variants/doom/images/overlays/5-2.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m2"]
+            }
+          },
+          {
+            "title": "Quay*",
+            "icon": "variants/doom/images/overlays/5-3.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m3"]
+            }
+          },
+          {
+            "title": "Courtyard",
+            "icon": "variants/doom/images/overlays/5-4.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m4"]
+            }
+          },
+          {
+            "title": "Hydratyr",
+            "icon": "variants/doom/images/overlays/5-5.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m5"]
+            }
+          },
+          {
+            "title": "Colonnade",
+            "icon": "variants/doom/images/overlays/5-6.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m6"]
+            }
+          },
+          {
+            "title": "Foetid Manse",
+            "icon": "variants/doom/images/overlays/5-7.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m7"]
+            }
+          },
+          {
+            "title": "Field of Judgement",
+            "icon": "variants/doom/images/overlays/5-8.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m8"]
+            }
+          },
+          {
+            "title": "Skein of D'Sparil",
+            "icon": "variants/doom/images/overlays/5-9.png",
+            "content": {
+              "type": "map",
+              "maps": ["e5m9"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": "Fate's Path (E6)",
+      "icon": "variants/doom/images/levels/e6.png",
+      "content": {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Raven's Lair",
+            "icon": "variants/doom/images/overlays/6-1.png",
+            "content": {
+              "type": "map",
+              "map": ["e6m1"]
+            }
+          },
+          {
+            "title": "The Water Shrine",
+            "icon": "variants/doom/images/overlays/6-2.png",
+            "content": {
+              "type": "map",
+              "map": ["e6m2"]
+            }
+          },
+          {
+            "title": "American Legacy",
+            "icon": "variants/doom/images/overlays/6-3.png",
+            "content": {
+              "type": "map",
+              "map": ["e6m3"]
+            }
+          }
+        ]
+      }
     }
   ]
 }}

@@ -800,19 +800,164 @@ keySets = {
           }
         },
         {
-          ["name"] = "Hell's Maw"
+          ["name"] = "Hell's Maw",
+          ["maps"] = {
+            {
+              ["name"] = "The Crater",
+              ["keys"] = "YG"
+            },
+            {
+              ["name"] = "The Lava Pits",
+              ["keys"] = "YG"
+            },
+            {
+              ["name"] = "The River of Fire",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "The Ice Grotto",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "The Catacombs",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "The Labyrinth",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "The Great Hall",
+              ["keys"] = "YGB"
+            },
+            { ["name"] = "The Portals of Chaos" },
+            {
+              ["name"] = "The Glacier",
+              ["keys"] = "YGB"
+            }
+          }
         },
         {
-          ["name"] = "The Dome of D'Sparil"
+          ["name"] = "The Dome of D'Sparil",
+          ["maps"] = {
+            {
+              ["name"] = "The Storehouse",
+              ["keys"] = "GB"
+            },
+            {
+              ["name"] = "The Cesspool",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "The Confluence",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "The Azure Fortress",
+              ["keys"] = "YG"
+            },
+            {
+              ["name"] = "The Ophidian Lair",
+              ["keys"] = "YG"
+            },
+            {
+              ["name"] = "The Halls of Fear",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "The Chasm",
+              ["keys"] = "YGB"
+            },
+            { ["name"] = "D'Sparil's Keep" },
+            {
+              ["name"] = "The Aquifer",
+              ["keys"] = "YGB"
+            }
+          }
         },
         {
-          ["name"] = "The Ossuary"
+          ["name"] = "The Ossuary",
+          ["maps"] = {
+            {
+              ["name"] = "Catafalque",
+              ["keys"] = "YG"
+            },
+            {
+              ["name"] = "Blockhouse",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "Ambulatory",
+              ["keys"] = "YGB"
+            },
+            { ["name"] = "Sepulcher" },
+            {
+              ["name"] = "The Great Stair",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "Halls of the Apostate",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "Ramparts of Perdition",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "Shattered Bridge",
+              ["keys"] = "Y"
+            },
+            {
+              ["name"] = "Mausoleum",
+              ["keys"] = "Y"
+            }
+          }
         },
         {
-          ["name"] = "The Stagnant Demesne"
+          ["name"] = "The Stagnant Demesne",
+          ["maps"] = {
+            {
+              ["name"] = "Ochre Cliffs",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "Rapids",
+              ["keys"] = "YG"
+            },
+            {
+              ["name"] = "Quay",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "Courtyard",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "Hydratyr",
+              ["keys"] = "YGB"
+            },
+            {
+              ["name"] = "Colonnade",
+              ["keys"] = "YGB0"
+            },
+            {
+              ["name"] = "Foetid Manse",
+              ["keys"] = "YGB"
+            },
+            { ["name"] = "Field of Judgement" },
+            {
+              ["name"] = "Skein of D'Sparil",
+              ["keys"] = "YGB"
+            }
+          }
         },
         {
-          ["name"] = "Fate's Path"
+          ["name"] = "Fate's Path",
+          ["maps"] = {
+            { ["name"] = "Raven's Lair" },
+            { ["name"] = "The Water Shrine" },
+            { ["name"] = "American Legacy" }
+          }
         }
       }
     }
