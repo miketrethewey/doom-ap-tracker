@@ -1,0 +1,478 @@
+[
+  {
+    "name": "MAP27",
+    "parent": "Mount Pain (MAP27)",
+    "children": [
+      {
+        "name": "MAP27 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/MAP27 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Chainsaw"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Super Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Chaingun"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Rocket Launcher"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Plasma Gun"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Plasma Gun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Armor 2"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Armor 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Mega Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Supercharge"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "$difficulty_range|4|low"
+            ],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Backpack"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Berserk"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Computer Area Map"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Invulnerability"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Invisibility"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "$difficulty_range|4|low",
+              "$difficulty|4|med",
+              "$difficulty_range|4|high"
+            ],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility 2",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Invisibility 2"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Invisibility 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "$difficulty_range|4|low",
+              "$difficulty|4|med",
+              "$difficulty_range|4|high"
+            ],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Blue Keycard"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Red Keycard"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Red Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "access_rules": [
+          "@Mount Pain (MAP27)/Yellow Keycard"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/Yellow Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 432,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP27 Exit",
+        "access_rules": [
+          "@Mount Pain (MAP27)/MAP27 Exit"
+        ],
+        "sections": [
+          {
+            "ref": "Mount Pain (MAP27)/MAP27 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e4m7_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map27",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "size": 20,
+            "x": 456,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,366 @@
+[
+  {
+    "name": "MAP24",
+    "parent": "Quarry (MAP24)",
+    "children": [
+      {
+        "name": "MAP24 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "ref": "Quarry (MAP24)/MAP24 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": [
+          "@Quarry (MAP24)/Chainsaw"
+        ],
+        "sections": [
+          {
+            "ref": "Quarry (MAP24)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": [
+          "@Quarry (MAP24)/Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Quarry (MAP24)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": [
+              "$difficulty_range|4|low",
+              "$difficulty|4|med",
+              "$difficulty_range|4|high"
+            ],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 2",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": [
+          "@Quarry (MAP24)/Shotgun 2"
+        ],
+        "sections": [
+          {
+            "ref": "Quarry (MAP24)/Shotgun 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": [
+              "$difficulty_range|4|low",
+              "$difficulty|4|med",
+              "$difficulty_range|4|high"
+            ],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 3",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": [
+          "@Quarry (MAP24)/Shotgun 3"
+        ],
+        "sections": [
+          {
+            "ref": "Quarry (MAP24)/Shotgun 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": [
+              "$difficulty_range|4|low",
+              "$difficulty|4|med",
+              "$difficulty_range|4|high"
+            ],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": [
+          "@Quarry (MAP24)/Super Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Quarry (MAP24)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": [
+          "@Quarry (MAP24)/Rocket Launcher"
+        ],
+        "sections": [
+          {
+            "ref": "Quarry (MAP24)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher 2",
+        "access_rules": [
+          "@Quarry (MAP24)/Rocket Launcher 2"
+        ],
+        "sections": [
+          {
+            "ref": "Quarry (MAP24)/Rocket Launcher 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "access_rules": [
+          "@Quarry (MAP24)/Plasma Gun"
+        ],
+        "sections": [
+          {
+            "ref": "Quarry (MAP24)/Plasma Gun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": [
+          "@Quarry (MAP24)/Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Quarry (MAP24)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "access_rules": [
+          "@Quarry (MAP24)/Armor 2"
+        ],
+        "sections": [
+          {
+            "ref": "Quarry (MAP24)/Armor 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": [
+          "@Quarry (MAP24)/Invulnerability"
+        ],
+        "sections": [
+          {
+            "ref": "Quarry (MAP24)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility",
+        "access_rules": [
+          "@Quarry (MAP24)/Invisibility"
+        ],
+        "sections": [
+          {
+            "ref": "Quarry (MAP24)/Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": [
+          "@Quarry (MAP24)/Blue Keycard"
+        ],
+        "sections": [
+          {
+            "ref": "Quarry (MAP24)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP24 Exit",
+        "access_rules": [
+          "@Quarry (MAP24)/MAP24 Exit"
+        ],
+        "sections": [
+          {
+            "ref": "Quarry (MAP24)/MAP24 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e4m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map24",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "size": 20,
+            "x": 336,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

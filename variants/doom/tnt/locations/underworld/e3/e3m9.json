@@ -1,0 +1,455 @@
+[
+  {
+    "name": "MAP20",
+    "parent": "Central Processing (MAP20)",
+    "children": [
+      {
+        "name": "MAP20 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/MAP20 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": [
+          "@Central Processing (MAP20)/Chainsaw"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": [
+          "@Central Processing (MAP20)/Super Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": [
+          "@Central Processing (MAP20)/Rocket Launcher"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "access_rules": [
+          "@Central Processing (MAP20)/Plasma Gun"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/Plasma Gun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": [
+          "@Central Processing (MAP20)/BFG9000"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/BFG9000",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": [
+          "@Central Processing (MAP20)/Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": [
+          "@Central Processing (MAP20)/Mega Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": [
+          "@Central Processing (MAP20)/Supercharge"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "$difficulty_range|3|low",
+              "$difficulty|3|med",
+              "$difficulty_range|3|high"
+            ],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": [
+          "@Central Processing (MAP20)/Backpack"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": [
+          "@Central Processing (MAP20)/Berserk"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": [
+          "@Central Processing (MAP20)/Computer Area Map"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": [
+          "@Central Processing (MAP20)/Invulnerability"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability 2",
+        "access_rules": [
+          "@Central Processing (MAP20)/Invulnerability 2"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/Invulnerability 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": [
+          "@Central Processing (MAP20)/Invisibility"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "$difficulty_range|3|low",
+              "$difficulty|3|med",
+              "$difficulty_range|3|high"
+            ],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": [
+          "@Central Processing (MAP20)/Blue Keycard"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": [
+          "@Central Processing (MAP20)/Red Skull key"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull key",
+        "access_rules": [
+          "@Central Processing (MAP20)/Yellow Skull key"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/Yellow Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP20 Exit",
+        "access_rules": [
+          "@Central Processing (MAP20)/MAP20 Exit"
+        ],
+        "sections": [
+          {
+            "ref": "Central Processing (MAP20)/MAP20 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e3m9_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map20",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "size": 20,
+            "x": 432,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

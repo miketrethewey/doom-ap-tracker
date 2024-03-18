@@ -1,0 +1,449 @@
+[
+  {
+    "name": "MAP30",
+    "parent": "Last Call (MAP30)",
+    "children": [
+      {
+        "name": "MAP30 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/MAP30 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": [
+          "@Last Call (MAP30)/Chainsaw"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": [
+          "@Last Call (MAP30)/Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 2",
+        "access_rules": [
+          "@Last Call (MAP30)/Shotgun 2"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/Shotgun 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 3",
+        "access_rules": [
+          "@Last Call (MAP30)/Shotgun 3"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/Shotgun 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": [
+          "@Last Call (MAP30)/Super Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": [
+          "@Last Call (MAP30)/Chaingun"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": [
+          "@Last Call (MAP30)/Rocket Launcher"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher 2",
+        "access_rules": [
+          "@Last Call (MAP30)/Rocket Launcher 2"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/Rocket Launcher 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "access_rules": [
+          "@Last Call (MAP30)/Plasma Gun"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/Plasma Gun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": [
+          "@Last Call (MAP30)/BFG9000"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/BFG9000",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": [
+          "@Last Call (MAP30)/Mega Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor 2",
+        "access_rules": [
+          "@Last Call (MAP30)/Mega Armor 2"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/Mega Armor 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": [
+          "@Last Call (MAP30)/Supercharge"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "access_rules": [
+          "@Last Call (MAP30)/Supercharge 2"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/Supercharge 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": [
+          "@Last Call (MAP30)/Backpack"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": [
+          "@Last Call (MAP30)/Invulnerability"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "$difficulty_range|4|low"
+            ],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Skull key",
+        "access_rules": [
+          "@Last Call (MAP30)/Red Skull key"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/Red Skull key",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP30 Exit",
+        "access_rules": [
+          "@Last Call (MAP30)/MAP30 Exit"
+        ],
+        "sections": [
+          {
+            "ref": "Last Call (MAP30)/MAP30 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e4m10_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map30",
+            "restrict_visibility_rules": [
+              "ep4_on"
+            ],
+            "size": 20,
+            "x": 432,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

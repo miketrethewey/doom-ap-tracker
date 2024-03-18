@@ -1,0 +1,383 @@
+[
+  {
+    "name": "MAP07",
+    "parent": "Prison (MAP07)",
+    "children": [
+      {
+        "name": "MAP07 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "ref": "Prison (MAP07)/MAP07 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": [
+          "@Prison (MAP07)/Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Prison (MAP07)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 2",
+        "access_rules": [
+          "@Prison (MAP07)/Shotgun 2"
+        ],
+        "sections": [
+          {
+            "ref": "Prison (MAP07)/Shotgun 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 3",
+        "access_rules": [
+          "@Prison (MAP07)/Shotgun 3"
+        ],
+        "sections": [
+          {
+            "ref": "Prison (MAP07)/Shotgun 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 4",
+        "access_rules": [
+          "@Prison (MAP07)/Shotgun 4"
+        ],
+        "sections": [
+          {
+            "ref": "Prison (MAP07)/Shotgun 4",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": [
+          "@Prison (MAP07)/Super Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Prison (MAP07)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "access_rules": [
+          "@Prison (MAP07)/Plasma Gun"
+        ],
+        "sections": [
+          {
+            "ref": "Prison (MAP07)/Plasma Gun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": [
+          "@Prison (MAP07)/Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Prison (MAP07)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": [
+          "@Prison (MAP07)/Mega Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Prison (MAP07)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": [
+          "@Prison (MAP07)/Supercharge"
+        ],
+        "sections": [
+          {
+            "ref": "Prison (MAP07)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "access_rules": [
+          "@Prison (MAP07)/Supercharge 2"
+        ],
+        "sections": [
+          {
+            "ref": "Prison (MAP07)/Supercharge 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": [
+          "@Prison (MAP07)/Backpack"
+        ],
+        "sections": [
+          {
+            "ref": "Prison (MAP07)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": [
+          "@Prison (MAP07)/Berserk"
+        ],
+        "sections": [
+          {
+            "ref": "Prison (MAP07)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": [
+          "@Prison (MAP07)/Invulnerability"
+        ],
+        "sections": [
+          {
+            "ref": "Prison (MAP07)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": [
+              "$difficulty_range|2|low",
+              "$difficulty|2|med",
+              "$difficulty_range|2|high"
+            ],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "access_rules": [
+          "@Prison (MAP07)/Red Keycard"
+        ],
+        "sections": [
+          {
+            "ref": "Prison (MAP07)/Red Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP07 Exit",
+        "access_rules": [
+          "@Prison (MAP07)/MAP07 Exit"
+        ],
+        "sections": [
+          {
+            "ref": "Prison (MAP07)/MAP07 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e2m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map07",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "size": 20,
+            "x": 360,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

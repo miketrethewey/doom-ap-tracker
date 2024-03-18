@@ -1,0 +1,265 @@
+[
+  {
+    "name": "MAP08",
+    "parent": "Metal (MAP08)",
+    "children": [
+      {
+        "name": "MAP08 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "ref": "Metal (MAP08)/MAP08 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": [
+          "@Metal (MAP08)/Chainsaw"
+        ],
+        "sections": [
+          {
+            "ref": "Metal (MAP08)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": [
+          "@Metal (MAP08)/Super Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Metal (MAP08)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": [
+          "@Metal (MAP08)/Rocket Launcher"
+        ],
+        "sections": [
+          {
+            "ref": "Metal (MAP08)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": [
+          "@Metal (MAP08)/Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Metal (MAP08)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "access_rules": [
+          "@Metal (MAP08)/Armor 2"
+        ],
+        "sections": [
+          {
+            "ref": "Metal (MAP08)/Armor 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": [
+          "@Metal (MAP08)/Supercharge"
+        ],
+        "sections": [
+          {
+            "ref": "Metal (MAP08)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility",
+        "access_rules": [
+          "@Metal (MAP08)/Invisibility"
+        ],
+        "sections": [
+          {
+            "ref": "Metal (MAP08)/Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility 2",
+        "access_rules": [
+          "@Metal (MAP08)/Invisibility 2"
+        ],
+        "sections": [
+          {
+            "ref": "Metal (MAP08)/Invisibility 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "access_rules": [
+          "@Metal (MAP08)/Red Keycard"
+        ],
+        "sections": [
+          {
+            "ref": "Metal (MAP08)/Red Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP08 Exit",
+        "access_rules": [
+          "@Metal (MAP08)/MAP08 Exit"
+        ],
+        "sections": [
+          {
+            "ref": "Metal (MAP08)/MAP08 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e2m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map08",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "size": 20,
+            "x": 240,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

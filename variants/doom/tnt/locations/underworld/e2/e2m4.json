@@ -1,0 +1,265 @@
+[
+  {
+    "name": "MAP10",
+    "parent": "Redemption (MAP10)",
+    "children": [
+      {
+        "name": "MAP10 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "ref": "Redemption (MAP10)/MAP10 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": [
+          "@Redemption (MAP10)/Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Redemption (MAP10)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": [
+          "@Redemption (MAP10)/Super Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Redemption (MAP10)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun 2",
+        "access_rules": [
+          "@Redemption (MAP10)/Super Shotgun 2"
+        ],
+        "sections": [
+          {
+            "ref": "Redemption (MAP10)/Super Shotgun 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun 3",
+        "access_rules": [
+          "@Redemption (MAP10)/Super Shotgun 3"
+        ],
+        "sections": [
+          {
+            "ref": "Redemption (MAP10)/Super Shotgun 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "access_rules": [
+          "@Redemption (MAP10)/Plasma Gun"
+        ],
+        "sections": [
+          {
+            "ref": "Redemption (MAP10)/Plasma Gun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "access_rules": [
+          "@Redemption (MAP10)/Mega Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Redemption (MAP10)/Mega Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": [
+          "@Redemption (MAP10)/Backpack"
+        ],
+        "sections": [
+          {
+            "ref": "Redemption (MAP10)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "access_rules": [
+          "@Redemption (MAP10)/Red Keycard"
+        ],
+        "sections": [
+          {
+            "ref": "Redemption (MAP10)/Red Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "access_rules": [
+          "@Redemption (MAP10)/Yellow Keycard"
+        ],
+        "sections": [
+          {
+            "ref": "Redemption (MAP10)/Yellow Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP10 Exit",
+        "access_rules": [
+          "@Redemption (MAP10)/MAP10 Exit"
+        ],
+        "sections": [
+          {
+            "ref": "Redemption (MAP10)/MAP10 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e2m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map10",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "size": 20,
+            "x": 240,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

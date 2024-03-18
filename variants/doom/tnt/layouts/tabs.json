@@ -5,35 +5,301 @@
       "title": "Experimental Labs (E1)",
       "icon": "variants/doom/images/levels/e1.png",
       "content": {
-        "type": "tabbed"
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "System Control",
+            "icon": "variants/doom/images/overlays/map01.png",
+            "content": {
+              "type": "map",
+              "maps": ["map01"]
+            }
+          },
+          {
+            "title": "Human BBQ",
+            "icon": "variants/doom/images/overlays/map02.png",
+            "content": {
+              "type": "map",
+              "maps": ["map02"]
+            }
+          },
+          {
+            "title": "Power Control",
+            "icon": "variants/doom/images/overlays/map03.png",
+            "content": {
+              "type": "map",
+              "maps": ["map03"]
+            }
+          },
+          {
+            "title": "Wormhole",
+            "icon": "variants/doom/images/overlays/map04.png",
+            "content": {
+              "type": "map",
+              "maps": ["map04"]
+            }
+          },
+          {
+            "title": "Hanger",
+            "icon": "variants/doom/images/overlays/map05.png",
+            "content": {
+              "type": "map",
+              "maps": ["map05"]
+            }
+          },
+          {
+            "title": "Open Season",
+            "icon": "variants/doom/images/overlays/map06.png",
+            "content": {
+              "type": "map",
+              "maps": ["map06"]
+            }
+          }
+        ]
       }
     },
     {
       "title": "Military Base (E2)",
       "icon": "variants/doom/images/levels/e2.png",
       "content": {
-        "type": "tabbed"
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Prison",
+            "icon": "variants/doom/images/overlays/map07.png",
+            "content": {
+              "type": "map",
+              "maps": ["map07"]
+            }
+          },
+          {
+            "title": "Metal",
+            "icon": "variants/doom/images/overlays/map08.png",
+            "content": {
+              "type": "map",
+              "maps": ["map08"]
+            }
+          },
+          {
+            "title": "Stronghold",
+            "icon": "variants/doom/images/overlays/map09.png",
+            "content": {
+              "type": "map",
+              "maps": ["map09"]
+            }
+          },
+          {
+            "title": "Redemption",
+            "icon": "variants/doom/images/overlays/map10.png",
+            "content": {
+              "type": "map",
+              "maps": ["map10"]
+            }
+          },
+          {
+            "title": "Storage Facility",
+            "icon": "variants/doom/images/overlays/map11.png",
+            "content": {
+              "type": "map",
+              "maps": ["map11"]
+            }
+          }
+        ]
       }
     },
     {
       "title": "Nighttime (E3)",
       "icon": "variants/doom/images/levels/e3.png",
       "content": {
-        "type": "tabbed"
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Crater",
+            "icon": "variants/doom/images/overlays/map12.png",
+            "content": {
+              "type": "map",
+              "maps": ["map12"]
+            }
+          },
+          {
+            "title": "Nukage Processing",
+            "icon": "variants/doom/images/overlays/map13.png",
+            "content": {
+              "type": "map",
+              "maps": ["map13"]
+            }
+          },
+          {
+            "title": "Steel Works",
+            "icon": "variants/doom/images/overlays/map14.png",
+            "content": {
+              "type": "map",
+              "maps": ["map14"]
+            }
+          },
+          {
+            "title": "Dead Zone*",
+            "icon": "variants/doom/images/overlays/map15.png",
+            "content": {
+              "type": "map",
+              "maps": ["map15"]
+            }
+          },
+          {
+            "title": "Deepest Reaches",
+            "icon": "variants/doom/images/overlays/map16.png",
+            "content": {
+              "type": "map",
+              "maps": ["map16"]
+            }
+          },
+          {
+            "title": "Processing Area",
+            "icon": "variants/doom/images/overlays/map17.png",
+            "content": {
+              "type": "map",
+              "maps": ["map17"]
+            }
+          },
+          {
+            "title": "Mill",
+            "icon": "variants/doom/images/overlays/map18.png",
+            "content": {
+              "type": "map",
+              "maps": ["map18"]
+            }
+          },
+          {
+            "title": "Shipping/Respawning",
+            "icon": "variants/doom/images/overlays/map19.png",
+            "content": {
+              "type": "map",
+              "maps": ["map19"]
+            }
+          },
+          {
+            "title": "Central Processing",
+            "icon": "variants/doom/images/overlays/map20.png",
+            "content": {
+              "type": "map",
+              "maps": ["map20"]
+            }
+          }
+        ]
       }
     },
     {
       "title": "Hell (E4)",
       "icon": "variants/doom/images/levels/e4.png",
       "content": {
-        "type": "tabbed"
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Administration Center",
+            "icon": "variants/doom/images/overlays/map21.png",
+            "content": {
+              "type": "map",
+              "maps": ["map21"]
+            }
+          },
+          {
+            "title": "Habitat",
+            "icon": "variants/doom/images/overlays/map22.png",
+            "content": {
+              "type": "map",
+              "maps": ["map22"]
+            }
+          },
+          {
+            "title": "Lunar Mining Project",
+            "icon": "variants/doom/images/overlays/map23.png",
+            "content": {
+              "type": "map",
+              "maps": ["map23"]
+            }
+          },
+          {
+            "title": "Quarry",
+            "icon": "variants/doom/images/overlays/map24.png",
+            "content": {
+              "type": "map",
+              "maps": ["map24"]
+            }
+          },
+          {
+            "title": "Baron's Den",
+            "icon": "variants/doom/images/overlays/map25.png",
+            "content": {
+              "type": "map",
+              "maps": ["map25"]
+            }
+          },
+          {
+            "title": "Ballistyx",
+            "icon": "variants/doom/images/overlays/map26.png",
+            "content": {
+              "type": "map",
+              "maps": ["map26"]
+            }
+          },
+          {
+            "title": "Mount Pain",
+            "icon": "variants/doom/images/overlays/map27.png",
+            "content": {
+              "type": "map",
+              "maps": ["map27"]
+            }
+          },
+          {
+            "title": "Heck",
+            "icon": "variants/doom/images/overlays/map28.png",
+            "content": {
+              "type": "map",
+              "maps": ["map28"]
+            }
+          },
+          {
+            "title": "River Styx",
+            "icon": "variants/doom/images/overlays/map29.png",
+            "content": {
+              "type": "map",
+              "maps": ["map29"]
+            }
+          },
+          {
+            "title": "Last Call",
+            "icon": "variants/doom/images/overlays/map30.png",
+            "content": {
+              "type": "map",
+              "maps": ["map30"]
+            }
+          }
+        ]
       }
     },
     {
       "title": "Secret (E5)",
       "icon": "variants/doom/images/levels/e5.png",
       "content": {
-        "type": "tabbed"
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Pharaoh*",
+            "icon": "variants/doom/images/overlays/map31.png",
+            "content": {
+              "type": "map",
+              "maps": ["map31"]
+            }
+          },
+          {
+            "title": "Caribbean",
+            "icon": "variants/doom/images/overlays/map32.png",
+            "content": {
+              "type": "map",
+              "maps": ["map32"]
+            }
+          }
+        ]
       }
     }
   ]

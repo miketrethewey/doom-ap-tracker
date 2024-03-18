@@ -1,0 +1,386 @@
+[
+  {
+    "name": "MAP15",
+    "parent": "Dead Zone (MAP15)",
+    "children": [
+      {
+        "name": "MAP15 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "ref": "Dead Zone (MAP15)/MAP15 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map15",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": [
+          "@Dead Zone (MAP15)/Super Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Dead Zone (MAP15)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map15",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun 2",
+        "access_rules": [
+          "@Dead Zone (MAP15)/Super Shotgun 2"
+        ],
+        "sections": [
+          {
+            "ref": "Dead Zone (MAP15)/Super Shotgun 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map15",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": [
+          "@Dead Zone (MAP15)/Chaingun"
+        ],
+        "sections": [
+          {
+            "ref": "Dead Zone (MAP15)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map15",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun 2",
+        "access_rules": [
+          "@Dead Zone (MAP15)/Chaingun 2"
+        ],
+        "sections": [
+          {
+            "ref": "Dead Zone (MAP15)/Chaingun 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map15",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": [
+          "@Dead Zone (MAP15)/Rocket Launcher"
+        ],
+        "sections": [
+          {
+            "ref": "Dead Zone (MAP15)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map15",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "access_rules": [
+          "@Dead Zone (MAP15)/Plasma Gun"
+        ],
+        "sections": [
+          {
+            "ref": "Dead Zone (MAP15)/Plasma Gun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map15",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "access_rules": [
+          "@Dead Zone (MAP15)/BFG9000"
+        ],
+        "sections": [
+          {
+            "ref": "Dead Zone (MAP15)/BFG9000",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map15",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": [
+          "@Dead Zone (MAP15)/Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Dead Zone (MAP15)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map15",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Megasphere",
+        "access_rules": [
+          "@Dead Zone (MAP15)/Megasphere"
+        ],
+        "sections": [
+          {
+            "ref": "Dead Zone (MAP15)/Megasphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map15",
+            "restrict_visibility_rules": [
+              "$difficulty_range|3|low"
+            ],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "access_rules": [
+          "@Dead Zone (MAP15)/Backpack"
+        ],
+        "sections": [
+          {
+            "ref": "Dead Zone (MAP15)/Backpack",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map15",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": [
+          "@Dead Zone (MAP15)/Berserk"
+        ],
+        "sections": [
+          {
+            "ref": "Dead Zone (MAP15)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map15",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "access_rules": [
+          "@Dead Zone (MAP15)/Invulnerability"
+        ],
+        "sections": [
+          {
+            "ref": "Dead Zone (MAP15)/Invulnerability",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map15",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": [
+          "@Dead Zone (MAP15)/Invisibility"
+        ],
+        "sections": [
+          {
+            "ref": "Dead Zone (MAP15)/Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map15",
+            "restrict_visibility_rules": [
+              "$difficulty_range|3|low",
+              "$difficulty|3|med",
+              "$difficulty_range|3|high"
+            ],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility 2",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": [
+          "@Dead Zone (MAP15)/Invisibility 2"
+        ],
+        "sections": [
+          {
+            "ref": "Dead Zone (MAP15)/Invisibility 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map15",
+            "restrict_visibility_rules": [
+              "$difficulty_range|3|low",
+              "$difficulty|3|med",
+              "$difficulty_range|3|high"
+            ],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP15 Exit",
+        "access_rules": [
+          "@Dead Zone (MAP15)/MAP15 Exit"
+        ],
+        "sections": [
+          {
+            "ref": "Dead Zone (MAP15)/MAP15 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e3m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map15",
+            "restrict_visibility_rules": [
+              "ep3_on"
+            ],
+            "size": 20,
+            "x": 360,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,548 @@
+[
+  {
+    "name": "MAP11",
+    "parent": "Storage Facility (MAP11)",
+    "children": [
+      {
+        "name": "MAP11 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": [
+          "$access|null"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/MAP11 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Chainsaw"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Chainsaw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw 2",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Chainsaw 2"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Chainsaw 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 2",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Shotgun 2"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Shotgun 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 3",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Shotgun 3"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Shotgun 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 4",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Shotgun 4"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Shotgun 4",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 5",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Shotgun 5"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Shotgun 5",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Super Shotgun",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Super Shotgun"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Super Shotgun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Chaingun"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Chaingun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Rocket Launcher"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Rocket Launcher",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Plasma Gun"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Plasma Gun",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Armor"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Armor",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Armor 2"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Armor 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Supercharge"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Supercharge",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Megasphere",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Megasphere"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Megasphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "$difficulty_range|2|low",
+              "$difficulty|2|med",
+              "$difficulty_range|2|high"
+            ],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Megasphere 2",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Megasphere 2"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Megasphere 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "$difficulty_range|2|low",
+              "$difficulty|2|med",
+              "$difficulty_range|2|high"
+            ],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Berserk"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Berserk",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "$difficulty|2|med",
+              "$difficulty_range|2|high"
+            ],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Computer Area Map"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 432,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Invisibility",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Invisibility"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Invisibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "$difficulty_range|2|low"
+            ],
+            "x": 456,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Blue Keycard"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Blue Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 480,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "access_rules": [
+          "@Storage Facility (MAP11)/Red Keycard"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/Red Keycard",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "x": 504,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "MAP11 Exit",
+        "access_rules": [
+          "@Storage Facility (MAP11)/MAP11 Exit"
+        ],
+        "sections": [
+          {
+            "ref": "Storage Facility (MAP11)/MAP11 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e2m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map11",
+            "restrict_visibility_rules": [
+              "ep2_on"
+            ],
+            "size": 20,
+            "x": 528,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]
