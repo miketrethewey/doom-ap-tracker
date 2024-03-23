@@ -82,6 +82,11 @@ print("")
 -- Items
 print("Loading Items")
 Tracker:AddItems("variants/" .. baseTheme .. "/items/items.json")
+if baseGame == "hexen" then
+    Tracker:AddItems("variants/" .. baseTheme .. "/items/fighter.json")
+    Tracker:AddItems("variants/" .. baseTheme .. "/items/cleric.json")
+    Tracker:AddItems("variants/" .. baseTheme .. "/items/mage.json")
+end
 ScriptHost:LoadScript("scripts/class.lua")
 ScriptHost:LoadScript("scripts/items/custom_item.lua")
 ScriptHost:LoadScript("scripts/items/access.lua")
@@ -102,6 +107,9 @@ Tracker:AddLayouts("variants/" .. baseTheme .. "/layouts/grids/settings.json")
 if baseGame == "doom64" then
     Tracker:AddLayouts("variants/" .. baseTheme .. '/' .. baseGame .. "/layouts/grids/weapons.json")
 else
+    if baseGame == "hexen" then
+        Tracker:AddLayouts("variants/" .. baseTheme .. "/layouts/grids/classes.json")
+    end
     Tracker:AddLayouts("variants/" .. baseTheme .. "/layouts/grids/weapons.json")
 end
 print("")

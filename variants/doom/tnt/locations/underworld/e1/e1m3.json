@@ -7,9 +7,7 @@
         "name": "MAP03 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/MAP03 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 0,
             "y": 0
@@ -31,9 +27,7 @@
       },
       {
         "name": "Chainsaw",
-        "access_rules": [
-          "@Power Control (MAP03)/Chainsaw"
-        ],
+        "access_rules": ["@Power Control (MAP03)/Chainsaw"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/Chainsaw",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 24,
             "y": 0
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Super Shotgun",
-        "access_rules": [
-          "@Power Control (MAP03)/Super Shotgun"
-        ],
+        "access_rules": ["@Power Control (MAP03)/Super Shotgun"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/Super Shotgun",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 48,
             "y": 0
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Power Control (MAP03)/Chaingun"
-        ],
+        "access_rules": ["@Power Control (MAP03)/Chaingun"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/Chaingun",
@@ -90,10 +76,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "$difficulty|1|med",
-              "$difficulty_range|1|high"
-            ],
+            "restrict_visibility_rules": ["$difficulty|1|med", "$difficulty_range|1|high"],
             "x": 72,
             "y": 0
           }
@@ -101,9 +84,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Power Control (MAP03)/Rocket Launcher"
-        ],
+        "access_rules": ["@Power Control (MAP03)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/Rocket Launcher",
@@ -114,9 +95,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 96,
             "y": 0
           }
@@ -124,9 +103,7 @@
       },
       {
         "name": "Plasma Gun",
-        "access_rules": [
-          "@Power Control (MAP03)/Plasma Gun"
-        ],
+        "access_rules": ["@Power Control (MAP03)/Plasma Gun"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/Plasma Gun",
@@ -137,9 +114,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 120,
             "y": 0
           }
@@ -147,9 +122,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Power Control (MAP03)/Armor"
-        ],
+        "access_rules": ["@Power Control (MAP03)/Armor"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/Armor",
@@ -160,9 +133,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 144,
             "y": 0
           }
@@ -170,9 +141,7 @@
       },
       {
         "name": "Armor 2",
-        "access_rules": [
-          "@Power Control (MAP03)/Armor 2"
-        ],
+        "access_rules": ["@Power Control (MAP03)/Armor 2"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/Armor 2",
@@ -183,9 +152,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 168,
             "y": 0
           }
@@ -193,9 +160,7 @@
       },
       {
         "name": "Armor 3",
-        "access_rules": [
-          "@Power Control (MAP03)/Armor 3"
-        ],
+        "access_rules": ["@Power Control (MAP03)/Armor 3"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/Armor 3",
@@ -206,9 +171,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 192,
             "y": 0
           }
@@ -216,9 +179,7 @@
       },
       {
         "name": "Megasphere",
-        "access_rules": [
-          "@Power Control (MAP03)/Megasphere"
-        ],
+        "access_rules": ["@Power Control (MAP03)/Megasphere"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/Megasphere",
@@ -229,9 +190,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "$difficulty_range|1|low"
-            ],
+            "restrict_visibility_rules": ["$difficulty_range|1|low"],
             "x": 216,
             "y": 0
           }
@@ -239,9 +198,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Power Control (MAP03)/Backpack"
-        ],
+        "access_rules": ["@Power Control (MAP03)/Backpack"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/Backpack",
@@ -252,9 +209,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 240,
             "y": 0
           }
@@ -262,9 +217,7 @@
       },
       {
         "name": "Berserk",
-        "access_rules": [
-          "@Power Control (MAP03)/Berserk"
-        ],
+        "access_rules": ["@Power Control (MAP03)/Berserk"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/Berserk",
@@ -275,10 +228,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "$difficulty|1|med",
-              "$difficulty_range|1|high"
-            ],
+            "restrict_visibility_rules": ["$difficulty|1|med", "$difficulty_range|1|high"],
             "x": 264,
             "y": 0
           }
@@ -286,9 +236,7 @@
       },
       {
         "name": "Invisibility",
-        "access_rules": [
-          "@Power Control (MAP03)/Invisibility"
-        ],
+        "access_rules": ["@Power Control (MAP03)/Invisibility"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/Invisibility",
@@ -299,9 +247,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 288,
             "y": 0
           }
@@ -309,9 +255,7 @@
       },
       {
         "name": "Invisibility 2",
-        "access_rules": [
-          "@Power Control (MAP03)/Invisibility 2"
-        ],
+        "access_rules": ["@Power Control (MAP03)/Invisibility 2"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/Invisibility 2",
@@ -322,9 +266,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 312,
             "y": 0
           }
@@ -332,9 +274,7 @@
       },
       {
         "name": "Blue Keycard",
-        "access_rules": [
-          "@Power Control (MAP03)/Blue Keycard"
-        ],
+        "access_rules": ["@Power Control (MAP03)/Blue Keycard"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/Blue Keycard",
@@ -345,9 +285,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 336,
             "y": 0
           }
@@ -355,9 +293,7 @@
       },
       {
         "name": "Red Keycard",
-        "access_rules": [
-          "@Power Control (MAP03)/Red Keycard"
-        ],
+        "access_rules": ["@Power Control (MAP03)/Red Keycard"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/Red Keycard",
@@ -368,9 +304,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 360,
             "y": 0
           }
@@ -378,9 +312,7 @@
       },
       {
         "name": "Yellow Keycard",
-        "access_rules": [
-          "@Power Control (MAP03)/Yellow Keycard"
-        ],
+        "access_rules": ["@Power Control (MAP03)/Yellow Keycard"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/Yellow Keycard",
@@ -391,9 +323,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 384,
             "y": 0
           }
@@ -401,9 +331,7 @@
       },
       {
         "name": "MAP03 Exit",
-        "access_rules": [
-          "@Power Control (MAP03)/MAP03 Exit"
-        ],
+        "access_rules": ["@Power Control (MAP03)/MAP03 Exit"],
         "sections": [
           {
             "ref": "Power Control (MAP03)/MAP03 Exit",
@@ -414,9 +342,7 @@
         "map_locations": [
           {
             "map": "map03",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 408,
             "y": 0

@@ -7,9 +7,7 @@
         "name": "MAP04 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Wormhole (MAP04)/MAP04 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "map04",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 0,
             "y": 0
@@ -31,9 +27,7 @@
       },
       {
         "name": "Chainsaw",
-        "access_rules": [
-          "@Wormhole (MAP04)/Chainsaw"
-        ],
+        "access_rules": ["@Wormhole (MAP04)/Chainsaw"],
         "sections": [
           {
             "ref": "Wormhole (MAP04)/Chainsaw",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "map04",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 24,
             "y": 0
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Wormhole (MAP04)/Shotgun"
-        ],
+        "access_rules": ["@Wormhole (MAP04)/Shotgun"],
         "sections": [
           {
             "ref": "Wormhole (MAP04)/Shotgun",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "map04",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 48,
             "y": 0
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Shotgun 2",
-        "access_rules": [
-          "@Wormhole (MAP04)/Shotgun 2"
-        ],
+        "access_rules": ["@Wormhole (MAP04)/Shotgun 2"],
         "sections": [
           {
             "ref": "Wormhole (MAP04)/Shotgun 2",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "map04",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 72,
             "y": 0
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Super Shotgun",
-        "access_rules": [
-          "@Wormhole (MAP04)/Super Shotgun"
-        ],
+        "access_rules": ["@Wormhole (MAP04)/Super Shotgun"],
         "sections": [
           {
             "ref": "Wormhole (MAP04)/Super Shotgun",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "map04",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 96,
             "y": 0
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Wormhole (MAP04)/Chaingun"
-        ],
+        "access_rules": ["@Wormhole (MAP04)/Chaingun"],
         "sections": [
           {
             "ref": "Wormhole (MAP04)/Chaingun",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "map04",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 120,
             "y": 0
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Wormhole (MAP04)/Rocket Launcher"
-        ],
+        "access_rules": ["@Wormhole (MAP04)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Wormhole (MAP04)/Rocket Launcher",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "map04",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 144,
             "y": 0
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Wormhole (MAP04)/Armor"
-        ],
+        "access_rules": ["@Wormhole (MAP04)/Armor"],
         "sections": [
           {
             "ref": "Wormhole (MAP04)/Armor",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "map04",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 168,
             "y": 0
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Armor 2",
-        "access_rules": [
-          "@Wormhole (MAP04)/Armor 2"
-        ],
+        "access_rules": ["@Wormhole (MAP04)/Armor 2"],
         "sections": [
           {
             "ref": "Wormhole (MAP04)/Armor 2",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "map04",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 192,
             "y": 0
           }
@@ -215,9 +179,7 @@
       },
       {
         "name": "Supercharge",
-        "access_rules": [
-          "@Wormhole (MAP04)/Supercharge"
-        ],
+        "access_rules": ["@Wormhole (MAP04)/Supercharge"],
         "sections": [
           {
             "ref": "Wormhole (MAP04)/Supercharge",
@@ -239,9 +201,7 @@
       },
       {
         "name": "Megasphere",
-        "access_rules": [
-          "@Wormhole (MAP04)/Megasphere"
-        ],
+        "access_rules": ["@Wormhole (MAP04)/Megasphere"],
         "sections": [
           {
             "ref": "Wormhole (MAP04)/Megasphere",
@@ -252,10 +212,7 @@
         "map_locations": [
           {
             "map": "map04",
-            "restrict_visibility_rules": [
-              "$difficulty_range|1|low",
-              "$difficulty|1|med"
-            ],
+            "restrict_visibility_rules": ["$difficulty_range|1|low", "$difficulty|1|med"],
             "x": 240,
             "y": 0
           }
@@ -263,9 +220,7 @@
       },
       {
         "name": "Computer Area Map",
-        "access_rules": [
-          "@Wormhole (MAP04)/Computer Area Map"
-        ],
+        "access_rules": ["@Wormhole (MAP04)/Computer Area Map"],
         "sections": [
           {
             "ref": "Wormhole (MAP04)/Computer Area Map",
@@ -276,9 +231,7 @@
         "map_locations": [
           {
             "map": "map04",
-            "restrict_visibility_rules": [
-              "$difficulty_range|1|high"
-            ],
+            "restrict_visibility_rules": ["$difficulty_range|1|high"],
             "x": 264,
             "y": 0
           }
@@ -286,9 +239,7 @@
       },
       {
         "name": "MAP04 Exit",
-        "access_rules": [
-          "@Wormhole (MAP04)/MAP04 Exit"
-        ],
+        "access_rules": ["@Wormhole (MAP04)/MAP04 Exit"],
         "sections": [
           {
             "ref": "Wormhole (MAP04)/MAP04 Exit",
@@ -299,9 +250,7 @@
         "map_locations": [
           {
             "map": "map04",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 288,
             "y": 0

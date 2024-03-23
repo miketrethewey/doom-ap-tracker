@@ -1,32 +1,5 @@
 [
   {
-    "name": "Melee",
-    "type": "static",
-    "img": "variants/hexen/images/items/inventory/melee.png",
-    "codes": "melee"
-  },
-  {
-    "name": "Blue Weapon",
-    "type": "toggle",
-    "loop": true,
-    "img": "variants/hexen/images/items/inventory/weapon_blue.png",
-    "codes": "weapon_blue"
-  },
-  {
-    "name": "Green Weapon",
-    "type": "toggle",
-    "loop": true,
-    "img": "variants/hexen/images/items/inventory/weapon_green.png",
-    "codes": "weapon_green"
-  },
-  {
-    "name": "Ultimate Weapon",
-    "type": "toggle",
-    "loop": true,
-    "img": "variants/hexen/images/items/inventory/weapon_ultimate.png",
-    "codes": "weapon_ultimate"
-  },
-  {
     "name": "Emerald Key",
     "type": "toggle",
     "loop": true,
@@ -315,6 +288,44 @@
         "name": "Class - Mage",
         "inherit_codes": false,
         "codes": "class,class_mage"
+      }
+    ]
+  },
+  {
+    "name": "Difficulty",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "variants/doom/images/settings/wolf3d/difficulty_baby.png",
+        "name": "Difficulty - Baby",
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_b,difficulty_baby,difficulty_itytd"
+      },
+      {
+        "img": "variants/doom/images/settings/wolf3d/difficulty_easy.png",
+        "name": "Difficulty - Easy",
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_e,difficulty_easy,difficulty_hntr"
+      },
+      {
+        "img": "variants/doom/images/settings/wolf3d/difficulty_medium.png",
+        "name": "Difficulty - Medium",
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_m,difficulty_med,difficulty_medium,difficulty_hmp"
+      },
+      {
+        "img": "variants/doom/images/settings/wolf3d/difficulty_hard.png",
+        "name": "Difficulty - Hard",
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_h,difficulty_hard,difficulty_uv"
+      },
+      {
+        "img": "variants/doom/images/settings/wolf3d/difficulty_nightmare.png",
+        "name": "Difficulty - Nightmare",
+        "inherit_codes": false,
+        "codes": "difficulty,difficulty_n,difficulty_nightmare,difficulty_nm"
       }
     ]
   }

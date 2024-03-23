@@ -7,9 +7,7 @@
         "name": "MAP26 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Ballistyx (MAP26)/MAP26 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "map26",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 0,
             "y": 0
@@ -31,9 +27,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Ballistyx (MAP26)/Shotgun"
-        ],
+        "access_rules": ["@Ballistyx (MAP26)/Shotgun"],
         "sections": [
           {
             "ref": "Ballistyx (MAP26)/Shotgun",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "map26",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 24,
             "y": 0
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Super Shotgun",
-        "access_rules": [
-          "@Ballistyx (MAP26)/Super Shotgun"
-        ],
+        "access_rules": ["@Ballistyx (MAP26)/Super Shotgun"],
         "sections": [
           {
             "ref": "Ballistyx (MAP26)/Super Shotgun",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "map26",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 48,
             "y": 0
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Ballistyx (MAP26)/Chaingun"
-        ],
+        "access_rules": ["@Ballistyx (MAP26)/Chaingun"],
         "sections": [
           {
             "ref": "Ballistyx (MAP26)/Chaingun",
@@ -90,10 +76,7 @@
         "map_locations": [
           {
             "map": "map26",
-            "restrict_visibility_rules": [
-              "$difficulty_range|4|low",
-              "$difficulty|4|med"
-            ],
+            "restrict_visibility_rules": ["$difficulty_range|4|low", "$difficulty|4|med"],
             "x": 72,
             "y": 0
           }
@@ -101,9 +84,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Ballistyx (MAP26)/Rocket Launcher"
-        ],
+        "access_rules": ["@Ballistyx (MAP26)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Ballistyx (MAP26)/Rocket Launcher",
@@ -114,9 +95,7 @@
         "map_locations": [
           {
             "map": "map26",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 96,
             "y": 0
           }
@@ -124,9 +103,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Ballistyx (MAP26)/Armor"
-        ],
+        "access_rules": ["@Ballistyx (MAP26)/Armor"],
         "sections": [
           {
             "ref": "Ballistyx (MAP26)/Armor",
@@ -137,9 +114,7 @@
         "map_locations": [
           {
             "map": "map26",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 120,
             "y": 0
           }
@@ -148,9 +123,7 @@
       {
         "name": "Supercharge",
         "note": "#FIXME: Check spawns on difficulties",
-        "access_rules": [
-          "@Ballistyx (MAP26)/Supercharge"
-        ],
+        "access_rules": ["@Ballistyx (MAP26)/Supercharge"],
         "sections": [
           {
             "ref": "Ballistyx (MAP26)/Supercharge",
@@ -174,9 +147,7 @@
       {
         "name": "Supercharge 2",
         "note": "#FIXME: Check spawns on difficulties",
-        "access_rules": [
-          "@Ballistyx (MAP26)/Supercharge 2"
-        ],
+        "access_rules": ["@Ballistyx (MAP26)/Supercharge 2"],
         "sections": [
           {
             "ref": "Ballistyx (MAP26)/Supercharge 2",
@@ -199,9 +170,7 @@
       },
       {
         "name": "Megasphere",
-        "access_rules": [
-          "@Ballistyx (MAP26)/Megasphere"
-        ],
+        "access_rules": ["@Ballistyx (MAP26)/Megasphere"],
         "sections": [
           {
             "ref": "Ballistyx (MAP26)/Megasphere",
@@ -212,9 +181,7 @@
         "map_locations": [
           {
             "map": "map26",
-            "restrict_visibility_rules": [
-              "$difficulty_range|4|low"
-            ],
+            "restrict_visibility_rules": ["$difficulty_range|4|low"],
             "x": 192,
             "y": 0
           }
@@ -222,9 +189,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Ballistyx (MAP26)/Backpack"
-        ],
+        "access_rules": ["@Ballistyx (MAP26)/Backpack"],
         "sections": [
           {
             "ref": "Ballistyx (MAP26)/Backpack",
@@ -235,9 +200,7 @@
         "map_locations": [
           {
             "map": "map26",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 216,
             "y": 0
           }
@@ -245,9 +208,7 @@
       },
       {
         "name": "Berserk",
-        "access_rules": [
-          "@Ballistyx (MAP26)/Berserk"
-        ],
+        "access_rules": ["@Ballistyx (MAP26)/Berserk"],
         "sections": [
           {
             "ref": "Ballistyx (MAP26)/Berserk",
@@ -258,9 +219,7 @@
         "map_locations": [
           {
             "map": "map26",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 240,
             "y": 0
           }
@@ -268,9 +227,7 @@
       },
       {
         "name": "Berserk 2",
-        "access_rules": [
-          "@Ballistyx (MAP26)/Berserk 2"
-        ],
+        "access_rules": ["@Ballistyx (MAP26)/Berserk 2"],
         "sections": [
           {
             "ref": "Ballistyx (MAP26)/Berserk 2",
@@ -281,9 +238,7 @@
         "map_locations": [
           {
             "map": "map26",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 264,
             "y": 0
           }
@@ -291,9 +246,7 @@
       },
       {
         "name": "Blue Skull key",
-        "access_rules": [
-          "@Ballistyx (MAP26)/Blue Skull key"
-        ],
+        "access_rules": ["@Ballistyx (MAP26)/Blue Skull key"],
         "sections": [
           {
             "ref": "Ballistyx (MAP26)/Blue Skull key",
@@ -304,9 +257,7 @@
         "map_locations": [
           {
             "map": "map26",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 288,
             "y": 0
           }
@@ -314,9 +265,7 @@
       },
       {
         "name": "Red Skull key",
-        "access_rules": [
-          "@Ballistyx (MAP26)/Red Skull key"
-        ],
+        "access_rules": ["@Ballistyx (MAP26)/Red Skull key"],
         "sections": [
           {
             "ref": "Ballistyx (MAP26)/Red Skull key",
@@ -327,9 +276,7 @@
         "map_locations": [
           {
             "map": "map26",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 312,
             "y": 0
           }
@@ -337,9 +284,7 @@
       },
       {
         "name": "Yellow Skull key",
-        "access_rules": [
-          "@Ballistyx (MAP26)/Yellow Skull key"
-        ],
+        "access_rules": ["@Ballistyx (MAP26)/Yellow Skull key"],
         "sections": [
           {
             "ref": "Ballistyx (MAP26)/Yellow Skull key",
@@ -350,9 +295,7 @@
         "map_locations": [
           {
             "map": "map26",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 336,
             "y": 0
           }
@@ -360,9 +303,7 @@
       },
       {
         "name": "MAP26 Exit",
-        "access_rules": [
-          "@Ballistyx (MAP26)/MAP26 Exit"
-        ],
+        "access_rules": ["@Ballistyx (MAP26)/MAP26 Exit"],
         "sections": [
           {
             "ref": "Ballistyx (MAP26)/MAP26 Exit",
@@ -373,9 +314,7 @@
         "map_locations": [
           {
             "map": "map26",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 360,
             "y": 0

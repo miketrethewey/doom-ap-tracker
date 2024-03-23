@@ -7,9 +7,7 @@
         "name": "MAP01 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "System Control (MAP01)/MAP01 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "map01",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 0,
             "y": 0
@@ -31,9 +27,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@System Control (MAP01)/Shotgun"
-        ],
+        "access_rules": ["@System Control (MAP01)/Shotgun"],
         "sections": [
           {
             "ref": "System Control (MAP01)/Shotgun",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "map01",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 24,
             "y": 0
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@System Control (MAP01)/Armor"
-        ],
+        "access_rules": ["@System Control (MAP01)/Armor"],
         "sections": [
           {
             "ref": "System Control (MAP01)/Armor",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "map01",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 48,
             "y": 0
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@System Control (MAP01)/Mega Armor"
-        ],
+        "access_rules": ["@System Control (MAP01)/Mega Armor"],
         "sections": [
           {
             "ref": "System Control (MAP01)/Mega Armor",
@@ -90,10 +76,7 @@
         "map_locations": [
           {
             "map": "map01",
-            "restrict_visibility_rules": [
-              "$difficulty|1|med",
-              "$difficulty_range|1|high"
-            ],
+            "restrict_visibility_rules": ["$difficulty|1|med", "$difficulty_range|1|high"],
             "x": 72,
             "y": 0
           }
@@ -101,9 +84,7 @@
       },
       {
         "name": "Berserk",
-        "access_rules": [
-          "@System Control (MAP01)/Berserk"
-        ],
+        "access_rules": ["@System Control (MAP01)/Berserk"],
         "sections": [
           {
             "ref": "System Control (MAP01)/Berserk",
@@ -114,9 +95,7 @@
         "map_locations": [
           {
             "map": "map01",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 96,
             "y": 0
           }
@@ -124,9 +103,7 @@
       },
       {
         "name": "Blue Keycard",
-        "access_rules": [
-          "@System Control (MAP01)/Blue Keycard"
-        ],
+        "access_rules": ["@System Control (MAP01)/Blue Keycard"],
         "sections": [
           {
             "ref": "System Control (MAP01)/Blue Keycard",
@@ -137,9 +114,7 @@
         "map_locations": [
           {
             "map": "map01",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 120,
             "y": 0
           }
@@ -147,9 +122,7 @@
       },
       {
         "name": "MAP01 Exit",
-        "access_rules": [
-          "@System Control (MAP01)/MAP01 Exit"
-        ],
+        "access_rules": ["@System Control (MAP01)/MAP01 Exit"],
         "sections": [
           {
             "ref": "System Control (MAP01)/MAP01 Exit",
@@ -160,9 +133,7 @@
         "map_locations": [
           {
             "map": "map01",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 144,
             "y": 0

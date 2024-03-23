@@ -7,9 +7,7 @@
         "name": "MAP13 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/MAP13 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 0,
             "y": 0
@@ -31,9 +27,7 @@
       },
       {
         "name": "Chainsaw",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Chainsaw"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Chainsaw"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Chainsaw",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 24,
             "y": 0
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Shotgun",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Shotgun"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Shotgun"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Shotgun",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "$difficulty_range|3|low"
-            ],
+            "restrict_visibility_rules": ["$difficulty_range|3|low"],
             "x": 48,
             "y": 0
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Super Shotgun",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Super Shotgun"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Super Shotgun"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Super Shotgun",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 72,
             "y": 0
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Chaingun"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Chaingun"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Chaingun",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 96,
             "y": 0
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Rocket Launcher"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Rocket Launcher",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 120,
             "y": 0
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Armor"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Armor"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Armor",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 144,
             "y": 0
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "Armor 2",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Armor 2"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Armor 2"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Armor 2",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 168,
             "y": 0
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Armor 3",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Armor 3"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Armor 3"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Armor 3",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 192,
             "y": 0
           }
@@ -215,9 +179,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Mega Armor"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Mega Armor"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Mega Armor",
@@ -228,9 +190,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 216,
             "y": 0
           }
@@ -238,9 +198,7 @@
       },
       {
         "name": "Supercharge",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Supercharge"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Supercharge"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Supercharge",
@@ -251,9 +209,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "$difficulty_range|3|low"
-            ],
+            "restrict_visibility_rules": ["$difficulty_range|3|low"],
             "x": 240,
             "y": 0
           }
@@ -261,9 +217,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Backpack"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Backpack"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Backpack",
@@ -274,9 +228,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 264,
             "y": 0
           }
@@ -284,9 +236,7 @@
       },
       {
         "name": "Berserk",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Berserk"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Berserk"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Berserk",
@@ -297,9 +247,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 288,
             "y": 0
           }
@@ -307,9 +255,7 @@
       },
       {
         "name": "Computer Area Map",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Computer Area Map"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Computer Area Map"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Computer Area Map",
@@ -320,9 +266,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 312,
             "y": 0
           }
@@ -330,9 +274,7 @@
       },
       {
         "name": "Invulnerability",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Invulnerability"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Invulnerability"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Invulnerability",
@@ -343,10 +285,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "$difficulty|3|med",
-              "$difficulty_range|3|high"
-            ],
+            "restrict_visibility_rules": ["$difficulty|3|med", "$difficulty_range|3|high"],
             "x": 336,
             "y": 0
           }
@@ -354,9 +293,7 @@
       },
       {
         "name": "Blue Keycard",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Blue Keycard"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Blue Keycard"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Blue Keycard",
@@ -367,9 +304,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 360,
             "y": 0
           }
@@ -377,9 +312,7 @@
       },
       {
         "name": "Red Keycard",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Red Keycard"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Red Keycard"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Red Keycard",
@@ -390,9 +323,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 384,
             "y": 0
           }
@@ -400,9 +331,7 @@
       },
       {
         "name": "Yellow Keycard",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/Yellow Keycard"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/Yellow Keycard"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/Yellow Keycard",
@@ -413,9 +342,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 408,
             "y": 0
           }
@@ -423,9 +350,7 @@
       },
       {
         "name": "MAP13 Exit",
-        "access_rules": [
-          "@Nukage Processing (MAP13)/MAP13 Exit"
-        ],
+        "access_rules": ["@Nukage Processing (MAP13)/MAP13 Exit"],
         "sections": [
           {
             "ref": "Nukage Processing (MAP13)/MAP13 Exit",
@@ -436,9 +361,7 @@
         "map_locations": [
           {
             "map": "map13",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 432,
             "y": 0

@@ -1,0 +1,56 @@
+{
+  "fighter_grid": {
+    "type": "itemgrid",
+    "rows": [
+      ["fighter_melee"],
+      [
+        "fighter_blue",
+        "fighter_green",
+        "fighter_ultimate"
+      ]
+    ]
+  },
+  "cleric_grid": {
+    "type": "itemgrid",
+    "rows": [
+      ["cleric_melee"],
+      ["cleric_blue", "cleric_green", "cleric_ultimate"]
+    ]
+  },
+  "mage_grid": {
+    "type": "itemgrid",
+    "rows": [
+      ["mage_melee"],
+      ["mage_blue", "mage_green", "mage_ultimate"]
+    ]
+  },
+  "classes_grid": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Fighter",
+        "icon": "variants/hexen/images/settings/hexen/class_fighter.png",
+        "content": {
+          "type": "layout",
+          "key": "fighter_grid"
+        }
+      },
+      {
+        "title": "Cleric",
+        "icon": "variants/hexen/images/settings/hexen/class_cleric.png",
+        "content": {
+          "type": "layout",
+          "key": "cleric_grid"
+        }
+      },
+      {
+        "title": "Mage",
+        "icon": "variants/hexen/images/settings/hexen/class_mage.png",
+        "content": {
+          "type": "layout",
+          "key": "mage_grid"
+        }
+      }
+    ]
+  }
+}

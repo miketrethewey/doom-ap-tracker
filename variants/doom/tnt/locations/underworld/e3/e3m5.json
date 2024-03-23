@@ -7,9 +7,7 @@
         "name": "MAP16 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Deepest Reaches (MAP16)/MAP16 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "map16",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 0,
             "y": 0
@@ -31,9 +27,7 @@
       },
       {
         "name": "Chainsaw",
-        "access_rules": [
-          "@Deepest Reaches (MAP16)/Chainsaw"
-        ],
+        "access_rules": ["@Deepest Reaches (MAP16)/Chainsaw"],
         "sections": [
           {
             "ref": "Deepest Reaches (MAP16)/Chainsaw",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "map16",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 24,
             "y": 0
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Super Shotgun",
-        "access_rules": [
-          "@Deepest Reaches (MAP16)/Super Shotgun"
-        ],
+        "access_rules": ["@Deepest Reaches (MAP16)/Super Shotgun"],
         "sections": [
           {
             "ref": "Deepest Reaches (MAP16)/Super Shotgun",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "map16",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 48,
             "y": 0
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Deepest Reaches (MAP16)/Chaingun"
-        ],
+        "access_rules": ["@Deepest Reaches (MAP16)/Chaingun"],
         "sections": [
           {
             "ref": "Deepest Reaches (MAP16)/Chaingun",
@@ -90,10 +76,7 @@
         "map_locations": [
           {
             "map": "map16",
-            "restrict_visibility_rules": [
-              "$difficulty_range|3|low",
-              "$difficulty|3|med"
-            ],
+            "restrict_visibility_rules": ["$difficulty_range|3|low", "$difficulty|3|med"],
             "x": 72,
             "y": 0
           }
@@ -101,9 +84,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Deepest Reaches (MAP16)/Rocket Launcher"
-        ],
+        "access_rules": ["@Deepest Reaches (MAP16)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Deepest Reaches (MAP16)/Rocket Launcher",
@@ -114,9 +95,7 @@
         "map_locations": [
           {
             "map": "map16",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 96,
             "y": 0
           }
@@ -124,9 +103,7 @@
       },
       {
         "name": "Plasma Gun",
-        "access_rules": [
-          "@Deepest Reaches (MAP16)/Plasma Gun"
-        ],
+        "access_rules": ["@Deepest Reaches (MAP16)/Plasma Gun"],
         "sections": [
           {
             "ref": "Deepest Reaches (MAP16)/Plasma Gun",
@@ -137,9 +114,7 @@
         "map_locations": [
           {
             "map": "map16",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 120,
             "y": 0
           }
@@ -147,9 +122,7 @@
       },
       {
         "name": "BFG9000",
-        "access_rules": [
-          "@Deepest Reaches (MAP16)/BFG9000"
-        ],
+        "access_rules": ["@Deepest Reaches (MAP16)/BFG9000"],
         "sections": [
           {
             "ref": "Deepest Reaches (MAP16)/BFG9000",
@@ -160,9 +133,7 @@
         "map_locations": [
           {
             "map": "map16",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 144,
             "y": 0
           }
@@ -170,9 +141,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Deepest Reaches (MAP16)/Armor"
-        ],
+        "access_rules": ["@Deepest Reaches (MAP16)/Armor"],
         "sections": [
           {
             "ref": "Deepest Reaches (MAP16)/Armor",
@@ -183,9 +152,7 @@
         "map_locations": [
           {
             "map": "map16",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 168,
             "y": 0
           }
@@ -193,9 +160,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Deepest Reaches (MAP16)/Mega Armor"
-        ],
+        "access_rules": ["@Deepest Reaches (MAP16)/Mega Armor"],
         "sections": [
           {
             "ref": "Deepest Reaches (MAP16)/Mega Armor",
@@ -206,9 +171,7 @@
         "map_locations": [
           {
             "map": "map16",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 192,
             "y": 0
           }
@@ -216,9 +179,7 @@
       },
       {
         "name": "Megasphere",
-        "access_rules": [
-          "@Deepest Reaches (MAP16)/Megasphere"
-        ],
+        "access_rules": ["@Deepest Reaches (MAP16)/Megasphere"],
         "sections": [
           {
             "ref": "Deepest Reaches (MAP16)/Megasphere",
@@ -229,9 +190,7 @@
         "map_locations": [
           {
             "map": "map16",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 216,
             "y": 0
           }
@@ -239,9 +198,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Deepest Reaches (MAP16)/Backpack"
-        ],
+        "access_rules": ["@Deepest Reaches (MAP16)/Backpack"],
         "sections": [
           {
             "ref": "Deepest Reaches (MAP16)/Backpack",
@@ -252,9 +209,7 @@
         "map_locations": [
           {
             "map": "map16",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 240,
             "y": 0
           }
@@ -263,9 +218,7 @@
       {
         "name": "Invisibility",
         "note": "#FIXME: Check spawns on difficulties",
-        "access_rules": [
-          "@Deepest Reaches (MAP16)/Invisibility"
-        ],
+        "access_rules": ["@Deepest Reaches (MAP16)/Invisibility"],
         "sections": [
           {
             "ref": "Deepest Reaches (MAP16)/Invisibility",
@@ -288,9 +241,7 @@
       },
       {
         "name": "Blue Skull key",
-        "access_rules": [
-          "@Deepest Reaches (MAP16)/Blue Skull key"
-        ],
+        "access_rules": ["@Deepest Reaches (MAP16)/Blue Skull key"],
         "sections": [
           {
             "ref": "Deepest Reaches (MAP16)/Blue Skull key",
@@ -301,9 +252,7 @@
         "map_locations": [
           {
             "map": "map16",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 288,
             "y": 0
           }
@@ -311,9 +260,7 @@
       },
       {
         "name": "Red Skull key",
-        "access_rules": [
-          "@Deepest Reaches (MAP16)/Red Skull key"
-        ],
+        "access_rules": ["@Deepest Reaches (MAP16)/Red Skull key"],
         "sections": [
           {
             "ref": "Deepest Reaches (MAP16)/Red Skull key",
@@ -324,9 +271,7 @@
         "map_locations": [
           {
             "map": "map16",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 312,
             "y": 0
           }
@@ -334,9 +279,7 @@
       },
       {
         "name": "Yellow Skull key",
-        "access_rules": [
-          "@Deepest Reaches (MAP16)/Yellow Skull key"
-        ],
+        "access_rules": ["@Deepest Reaches (MAP16)/Yellow Skull key"],
         "sections": [
           {
             "ref": "Deepest Reaches (MAP16)/Yellow Skull key",
@@ -347,9 +290,7 @@
         "map_locations": [
           {
             "map": "map16",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "x": 336,
             "y": 0
           }
@@ -357,9 +298,7 @@
       },
       {
         "name": "MAP16 Exit",
-        "access_rules": [
-          "@Deepest Reaches (MAP16)/MAP16 Exit"
-        ],
+        "access_rules": ["@Deepest Reaches (MAP16)/MAP16 Exit"],
         "sections": [
           {
             "ref": "Deepest Reaches (MAP16)/MAP16 Exit",
@@ -370,9 +309,7 @@
         "map_locations": [
           {
             "map": "map16",
-            "restrict_visibility_rules": [
-              "ep3_on"
-            ],
+            "restrict_visibility_rules": ["ep3_on"],
             "size": 20,
             "x": 360,
             "y": 0

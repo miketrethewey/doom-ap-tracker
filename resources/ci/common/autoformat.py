@@ -36,7 +36,7 @@ def autoformat(test=False):
                     made_changes = True
                     print("🟡Processing", path)
                     # Write the auto-formatted output:
-                    path.write_text(new_room_json)
+                    path.write_text(new_room_json, newline="\r\n")
     if test and made_changes:
         print("🔴ERROR: Had to make edits, bailing!")
         exit(1)

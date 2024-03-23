@@ -7,9 +7,7 @@
         "name": "MAP21 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/MAP21 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 0,
             "y": 0
@@ -31,9 +27,7 @@
       },
       {
         "name": "Chainsaw",
-        "access_rules": [
-          "@Administration Center (MAP21)/Chainsaw"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/Chainsaw"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/Chainsaw",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 24,
             "y": 0
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Super Shotgun",
-        "access_rules": [
-          "@Administration Center (MAP21)/Super Shotgun"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/Super Shotgun"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/Super Shotgun",
@@ -67,9 +57,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 48,
             "y": 0
           }
@@ -77,9 +65,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Administration Center (MAP21)/Rocket Launcher"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/Rocket Launcher",
@@ -90,9 +76,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 72,
             "y": 0
           }
@@ -100,9 +84,7 @@
       },
       {
         "name": "Plasma Gun",
-        "access_rules": [
-          "@Administration Center (MAP21)/Plasma Gun"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/Plasma Gun"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/Plasma Gun",
@@ -113,9 +95,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 96,
             "y": 0
           }
@@ -123,9 +103,7 @@
       },
       {
         "name": "BFG9000",
-        "access_rules": [
-          "@Administration Center (MAP21)/BFG9000"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/BFG9000"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/BFG9000",
@@ -136,9 +114,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 120,
             "y": 0
           }
@@ -146,9 +122,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Administration Center (MAP21)/Armor"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/Armor"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/Armor",
@@ -159,9 +133,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 144,
             "y": 0
           }
@@ -169,9 +141,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Administration Center (MAP21)/Mega Armor"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/Mega Armor"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/Mega Armor",
@@ -182,9 +152,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 168,
             "y": 0
           }
@@ -192,9 +160,7 @@
       },
       {
         "name": "Mega Armor 2",
-        "access_rules": [
-          "@Administration Center (MAP21)/Mega Armor 2"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/Mega Armor 2"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/Mega Armor 2",
@@ -205,9 +171,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 192,
             "y": 0
           }
@@ -216,9 +180,7 @@
       {
         "name": "Supercharge",
         "note": "#FIXME: Check spawns on difficulties",
-        "access_rules": [
-          "@Administration Center (MAP21)/Supercharge"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/Supercharge"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/Supercharge",
@@ -241,9 +203,7 @@
       },
       {
         "name": "Megasphere",
-        "access_rules": [
-          "@Administration Center (MAP21)/Megasphere"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/Megasphere"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/Megasphere",
@@ -254,9 +214,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 240,
             "y": 0
           }
@@ -264,9 +222,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Administration Center (MAP21)/Backpack"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/Backpack"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/Backpack",
@@ -277,9 +233,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 264,
             "y": 0
           }
@@ -287,9 +241,7 @@
       },
       {
         "name": "Berserk",
-        "access_rules": [
-          "@Administration Center (MAP21)/Berserk"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/Berserk"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/Berserk",
@@ -300,9 +252,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 288,
             "y": 0
           }
@@ -310,9 +260,7 @@
       },
       {
         "name": "Berserk 2",
-        "access_rules": [
-          "@Administration Center (MAP21)/Berserk 2"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/Berserk 2"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/Berserk 2",
@@ -323,9 +271,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 312,
             "y": 0
           }
@@ -346,9 +292,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 336,
             "y": 0
           }
@@ -357,9 +301,7 @@
       {
         "name": "Invulnerability",
         "note": "#FIXME: Check spawns on difficulties",
-        "access_rules": [
-          "@Administration Center (MAP21)/Invulnerability"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/Invulnerability"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/Invulnerability",
@@ -382,9 +324,7 @@
       },
       {
         "name": "Invisibility",
-        "access_rules": [
-          "@Administration Center (MAP21)/Invisibility"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/Invisibility"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/Invisibility",
@@ -395,9 +335,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 384,
             "y": 0
           }
@@ -405,9 +343,7 @@
       },
       {
         "name": "Blue Skull key",
-        "access_rules": [
-          "@Administration Center (MAP21)/Blue Skull key"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/Blue Skull key"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/Blue Skull key",
@@ -418,9 +354,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 408,
             "y": 0
           }
@@ -428,9 +362,7 @@
       },
       {
         "name": "Red Skull key",
-        "access_rules": [
-          "@Administration Center (MAP21)/Red Skull key"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/Red Skull key"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/Red Skull key",
@@ -441,9 +373,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 432,
             "y": 0
           }
@@ -464,9 +394,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 456,
             "y": 0
           }
@@ -474,9 +402,7 @@
       },
       {
         "name": "MAP21 Exit",
-        "access_rules": [
-          "@Administration Center (MAP21)/MAP21 Exit"
-        ],
+        "access_rules": ["@Administration Center (MAP21)/MAP21 Exit"],
         "sections": [
           {
             "ref": "Administration Center (MAP21)/MAP21 Exit",
@@ -487,9 +413,7 @@
         "map_locations": [
           {
             "map": "map21",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 480,
             "y": 0

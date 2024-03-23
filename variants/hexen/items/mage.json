@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Melee",
+    "type": "static",
+    "img": "variants/hexen/images/items/inventory/classes/mage/melee.png",
+    "codes": "mage_melee,melee"
+  },
+  {
+    "name": "Blue Weapon",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/classes/mage/weapon_blue.png",
+    "codes": "mage_blue,weapon_blue"
+  },
+  {
+    "name": "Green Weapon",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/classes/mage/weapon_green.png",
+    "codes": "mage_green,weapon_green"
+  },
+  {
+    "name": "Ultimate Weapon",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/classes/mage/weapon_ultimate.png",
+    "codes": "mage_ultimate,weapon_ultimate"
+  }
+]

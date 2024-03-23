@@ -7,9 +7,7 @@
         "name": "MAP24 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Quarry (MAP24)/MAP24 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "map24",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 0,
             "y": 0
@@ -31,9 +27,7 @@
       },
       {
         "name": "Chainsaw",
-        "access_rules": [
-          "@Quarry (MAP24)/Chainsaw"
-        ],
+        "access_rules": ["@Quarry (MAP24)/Chainsaw"],
         "sections": [
           {
             "ref": "Quarry (MAP24)/Chainsaw",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "map24",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 24,
             "y": 0
           }
@@ -55,9 +47,7 @@
       {
         "name": "Shotgun",
         "note": "#FIXME: Check spawns on difficulties",
-        "access_rules": [
-          "@Quarry (MAP24)/Shotgun"
-        ],
+        "access_rules": ["@Quarry (MAP24)/Shotgun"],
         "sections": [
           {
             "ref": "Quarry (MAP24)/Shotgun",
@@ -81,9 +71,7 @@
       {
         "name": "Shotgun 2",
         "note": "#FIXME: Check spawns on difficulties",
-        "access_rules": [
-          "@Quarry (MAP24)/Shotgun 2"
-        ],
+        "access_rules": ["@Quarry (MAP24)/Shotgun 2"],
         "sections": [
           {
             "ref": "Quarry (MAP24)/Shotgun 2",
@@ -107,9 +95,7 @@
       {
         "name": "Shotgun 3",
         "note": "#FIXME: Check spawns on difficulties",
-        "access_rules": [
-          "@Quarry (MAP24)/Shotgun 3"
-        ],
+        "access_rules": ["@Quarry (MAP24)/Shotgun 3"],
         "sections": [
           {
             "ref": "Quarry (MAP24)/Shotgun 3",
@@ -132,9 +118,7 @@
       },
       {
         "name": "Super Shotgun",
-        "access_rules": [
-          "@Quarry (MAP24)/Super Shotgun"
-        ],
+        "access_rules": ["@Quarry (MAP24)/Super Shotgun"],
         "sections": [
           {
             "ref": "Quarry (MAP24)/Super Shotgun",
@@ -145,9 +129,7 @@
         "map_locations": [
           {
             "map": "map24",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 120,
             "y": 0
           }
@@ -155,9 +137,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "access_rules": [
-          "@Quarry (MAP24)/Rocket Launcher"
-        ],
+        "access_rules": ["@Quarry (MAP24)/Rocket Launcher"],
         "sections": [
           {
             "ref": "Quarry (MAP24)/Rocket Launcher",
@@ -168,9 +148,7 @@
         "map_locations": [
           {
             "map": "map24",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 144,
             "y": 0
           }
@@ -178,9 +156,7 @@
       },
       {
         "name": "Rocket Launcher 2",
-        "access_rules": [
-          "@Quarry (MAP24)/Rocket Launcher 2"
-        ],
+        "access_rules": ["@Quarry (MAP24)/Rocket Launcher 2"],
         "sections": [
           {
             "ref": "Quarry (MAP24)/Rocket Launcher 2",
@@ -191,9 +167,7 @@
         "map_locations": [
           {
             "map": "map24",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 168,
             "y": 0
           }
@@ -201,9 +175,7 @@
       },
       {
         "name": "Plasma Gun",
-        "access_rules": [
-          "@Quarry (MAP24)/Plasma Gun"
-        ],
+        "access_rules": ["@Quarry (MAP24)/Plasma Gun"],
         "sections": [
           {
             "ref": "Quarry (MAP24)/Plasma Gun",
@@ -214,9 +186,7 @@
         "map_locations": [
           {
             "map": "map24",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 192,
             "y": 0
           }
@@ -224,9 +194,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Quarry (MAP24)/Armor"
-        ],
+        "access_rules": ["@Quarry (MAP24)/Armor"],
         "sections": [
           {
             "ref": "Quarry (MAP24)/Armor",
@@ -237,9 +205,7 @@
         "map_locations": [
           {
             "map": "map24",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 216,
             "y": 0
           }
@@ -247,9 +213,7 @@
       },
       {
         "name": "Armor 2",
-        "access_rules": [
-          "@Quarry (MAP24)/Armor 2"
-        ],
+        "access_rules": ["@Quarry (MAP24)/Armor 2"],
         "sections": [
           {
             "ref": "Quarry (MAP24)/Armor 2",
@@ -260,9 +224,7 @@
         "map_locations": [
           {
             "map": "map24",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 240,
             "y": 0
           }
@@ -270,9 +232,7 @@
       },
       {
         "name": "Invulnerability",
-        "access_rules": [
-          "@Quarry (MAP24)/Invulnerability"
-        ],
+        "access_rules": ["@Quarry (MAP24)/Invulnerability"],
         "sections": [
           {
             "ref": "Quarry (MAP24)/Invulnerability",
@@ -283,9 +243,7 @@
         "map_locations": [
           {
             "map": "map24",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 264,
             "y": 0
           }
@@ -293,9 +251,7 @@
       },
       {
         "name": "Invisibility",
-        "access_rules": [
-          "@Quarry (MAP24)/Invisibility"
-        ],
+        "access_rules": ["@Quarry (MAP24)/Invisibility"],
         "sections": [
           {
             "ref": "Quarry (MAP24)/Invisibility",
@@ -306,9 +262,7 @@
         "map_locations": [
           {
             "map": "map24",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 288,
             "y": 0
           }
@@ -316,9 +270,7 @@
       },
       {
         "name": "Blue Keycard",
-        "access_rules": [
-          "@Quarry (MAP24)/Blue Keycard"
-        ],
+        "access_rules": ["@Quarry (MAP24)/Blue Keycard"],
         "sections": [
           {
             "ref": "Quarry (MAP24)/Blue Keycard",
@@ -329,9 +281,7 @@
         "map_locations": [
           {
             "map": "map24",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "x": 312,
             "y": 0
           }
@@ -339,9 +289,7 @@
       },
       {
         "name": "MAP24 Exit",
-        "access_rules": [
-          "@Quarry (MAP24)/MAP24 Exit"
-        ],
+        "access_rules": ["@Quarry (MAP24)/MAP24 Exit"],
         "sections": [
           {
             "ref": "Quarry (MAP24)/MAP24 Exit",
@@ -352,9 +300,7 @@
         "map_locations": [
           {
             "map": "map24",
-            "restrict_visibility_rules": [
-              "ep4_on"
-            ],
+            "restrict_visibility_rules": ["ep4_on"],
             "size": 20,
             "x": 336,
             "y": 0

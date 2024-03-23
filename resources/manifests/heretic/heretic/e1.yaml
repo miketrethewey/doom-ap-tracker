@@ -1,0 +1,220 @@
+E1:
+  M1:
+    locations:
+      - name: Entrance
+      - name: Gauntlets
+      - name: Crossbow
+      - name: Silver Shield
+      - name: Bag of Holding
+      - name: Tome of Power
+      - name: Yellow Rune
+      - name: Exit
+  M2:
+    locations:
+      - name: Entrance
+      - name: Gauntlets
+      - name: Crossbow
+      - name: Dragon Claw
+      - name: Silver Shield
+        q12: 2
+        q_3: 2
+        q45: 1
+      - name: Magic Bag
+      - name: Map
+      - name: Ring of Invincibility
+        q12: 1
+        q_3: 1
+        q45: 0
+      - name: Shadowsphere
+      - name: Time Bomb of the Ancients
+        q12: 9
+        q_3: 7
+        q45: 5
+      - name: Power Tome
+        q: 2
+      - name: Torch
+      - name: Bat Wings
+      - name: Blue Rune
+      - name: Green Rune
+      - name: Yellow Rune
+      - name: Exit
+  M3:
+    locations:
+      - name: Entrance
+      - name: Gauntlets
+      - name: Crossbow
+      - name: Dragon Claw
+      - name: Silver Shield
+      - name: Magic Bag
+      - name: Chicken Orb
+      - name: Ring of Invincibility
+        q12: 1
+        q_3: 1
+        q45: 0
+      - name: Shadowsphere
+      - name: Power Tome
+        q12: 3
+        q_3: 2
+        q45: 2
+      - name: Torch
+      - name: Green Rune
+      - name: Yellow Rune
+      - name: Exit
+  M4:
+    locations:
+      - name: Entrance
+      - name: Gauntlets
+      - name: Crossbow
+      - name: Dragon Claw
+      - name: Silver Shield
+      - name: Magic Bag
+        q12: 1
+        q_3: 1
+        q45: 0
+      - name: Map
+      - name: Chicken Orb
+      - name: Shadowsphere
+      - name: Time Bomb of the Ancients
+        q12: 2
+        q_3: 0
+        q45: 0
+      - name: Power Tome
+        q12: 3
+        q_3: 3
+        q45: 2
+      - name: Torch
+      - name: Green Rune
+      - name: Yellow Rune
+      - name: Exit
+  M5:
+    locations:
+      - name: Entrance
+      - name: Gauntlets
+      - name: Crossbow
+      - name: Dragon Claw
+      - name: Silver Shield
+        q: 2
+      - name: Magic Bag
+      - name: Map
+      - name: Chicken Orb
+      - name: Ring of Invincibility
+      - name: Shadowsphere
+      - name: Time Bomb of the Ancients
+        q12: 12
+        q_3: 7
+        q45: 4
+      - name: Power Tome
+        q12: 5
+        q_3: 5
+        q45: 3
+      - name: Torch
+        q: 2
+      - name: Bat Wings
+        q: 2
+      - name: Blue Rune
+      - name: Green Rune
+      - name: Yellow Rune
+      - name: Exit
+  M6:
+    locations:
+      - name: Entrance
+      - name: Gauntlets
+      - name: Crossbow
+      - name: Dragon Claw
+      - name: Silver Shield
+        q: 3
+      - name: Magic Bag
+        q12: 3
+        q_3: 3
+        q45: 2
+      - name: Map
+      - name: Chicken Orb
+      - name: Ring of Invincibility
+        q12: 2
+        q_3: 1
+        q45: 1
+      - name: Shadowsphere
+      - name: Time Bomb of the Ancients
+        q12: 15
+        q_3: 10
+        q45: 7
+      - name: Power Tome
+        q12: 4
+        q_3: 4
+        q45: 3
+      - name: Torch
+      - name: Bat Wings
+      - name: Green Rune
+      - name: Yellow Rune
+      - name: Exit
+  M7:
+    locations:
+      - name: Entrance
+      - name: Gauntlets
+      - name: Crossbow
+      - name: Dragon Claw
+      - name: Silver Shield
+        q: 2
+      - name: Magic Bag
+      - name: Map
+      - name: Chicken Orb
+      - name: Ring of Invincibility
+        q12: 1
+        q_3: 1
+        q45: 0
+      - name: Shadowsphere
+      - name: Time Bomb of the Ancients
+        q12: 8
+        q_3: 6
+        q45: 4
+      - name: Power Tome
+        q: 2
+      - name: Torch
+        q: 2
+      - name: Bat Wings
+      - name: Blue Rune
+      - name: Green Rune
+      - name: Yellow Rune
+      - name: Exit
+  M8:
+    locations:
+      - name: Entrance
+      - name: Gauntlets
+      - name: Crossbow
+      - name: Dragon Claw
+      - name: Silver Shield
+      - name: Magic Bag
+        q: 2
+      - name: Chicken Orb
+      - name: Ring of Invincibility
+        q: 3
+      - name: Shadowsphere
+      - name: Power Tome
+        q: 2
+      - name: Bat Wings
+        q: 2
+      - name: Exit
+  M9:
+    locations:
+      - name: Entrance
+      - name: Gauntlets
+      - name: Crossbow
+      - name: Dragon Claw
+      - name: Silver Shield
+      - name: Magic Bag
+      - name: Map
+      - name: Chicken Orb
+      - name: Ring of Invincibility
+      - name: Shadowsphere
+      - name: Time Bomb of the Ancients
+        q12: 16
+        q_3: 8
+        q45: 4
+      - name: Power Tome
+        q: 2
+      - name: Torch
+      - name: Bat Wings
+      - name: Blue Rune
+      - name: Green Rune
+      - name: Yellow Rune
+      - name: Exit

@@ -7,9 +7,7 @@
         "name": "MAP02 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": [
-          "$access|null"
-        ],
+        "access_rules": ["$access|null"],
         "sections": [
           {
             "ref": "Human BBQ (MAP02)/MAP02 Entrance",
@@ -20,9 +18,7 @@
         "map_locations": [
           {
             "map": "map02",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 0,
             "y": 0
@@ -31,9 +27,7 @@
       },
       {
         "name": "Chainsaw",
-        "access_rules": [
-          "@Human BBQ (MAP02)/Chainsaw"
-        ],
+        "access_rules": ["@Human BBQ (MAP02)/Chainsaw"],
         "sections": [
           {
             "ref": "Human BBQ (MAP02)/Chainsaw",
@@ -44,9 +38,7 @@
         "map_locations": [
           {
             "map": "map02",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 24,
             "y": 0
           }
@@ -54,9 +46,7 @@
       },
       {
         "name": "Super Shotgun",
-        "access_rules": [
-          "@Human BBQ (MAP02)/Super Shotgun"
-        ],
+        "access_rules": ["@Human BBQ (MAP02)/Super Shotgun"],
         "sections": [
           {
             "ref": "Human BBQ (MAP02)/Super Shotgun",
@@ -67,10 +57,7 @@
         "map_locations": [
           {
             "map": "map02",
-            "restrict_visibility_rules": [
-              "$difficulty|1|med",
-              "$difficulty_range|1|high"
-            ],
+            "restrict_visibility_rules": ["$difficulty|1|med", "$difficulty_range|1|high"],
             "x": 48,
             "y": 0
           }
@@ -78,9 +65,7 @@
       },
       {
         "name": "Chaingun",
-        "access_rules": [
-          "@Human BBQ (MAP02)/Chaingun"
-        ],
+        "access_rules": ["@Human BBQ (MAP02)/Chaingun"],
         "sections": [
           {
             "ref": "Human BBQ (MAP02)/Chaingun",
@@ -91,9 +76,7 @@
         "map_locations": [
           {
             "map": "map02",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 72,
             "y": 0
           }
@@ -101,9 +84,7 @@
       },
       {
         "name": "Armor",
-        "access_rules": [
-          "@Human BBQ (MAP02)/Armor"
-        ],
+        "access_rules": ["@Human BBQ (MAP02)/Armor"],
         "sections": [
           {
             "ref": "Human BBQ (MAP02)/Armor",
@@ -114,10 +95,7 @@
         "map_locations": [
           {
             "map": "map02",
-            "restrict_visibility_rules": [
-              "$difficulty|1|med",
-              "$difficulty_range|1|high"
-            ],
+            "restrict_visibility_rules": ["$difficulty|1|med", "$difficulty_range|1|high"],
             "x": 96,
             "y": 0
           }
@@ -125,9 +103,7 @@
       },
       {
         "name": "Mega Armor",
-        "access_rules": [
-          "@Human BBQ (MAP02)/Mega Armor"
-        ],
+        "access_rules": ["@Human BBQ (MAP02)/Mega Armor"],
         "sections": [
           {
             "ref": "Human BBQ (MAP02)/Mega Armor",
@@ -138,9 +114,7 @@
         "map_locations": [
           {
             "map": "map02",
-            "restrict_visibility_rules": [
-              "$difficulty_range|1|high"
-            ],
+            "restrict_visibility_rules": ["$difficulty_range|1|high"],
             "x": 120,
             "y": 0
           }
@@ -149,9 +123,7 @@
       {
         "name": "Supercharge",
         "note": "#FIXME: Check spawns on difficulties",
-        "access_rules": [
-          "@Human BBQ (MAP02)/Supercharge"
-        ],
+        "access_rules": ["@Human BBQ (MAP02)/Supercharge"],
         "sections": [
           {
             "ref": "Human BBQ (MAP02)/Supercharge",
@@ -175,9 +147,7 @@
       {
         "name": "Supercharge 2",
         "note": "#FIXME: Check spawns on difficulties",
-        "access_rules": [
-          "@Human BBQ (MAP02)/Supercharge 2"
-        ],
+        "access_rules": ["@Human BBQ (MAP02)/Supercharge 2"],
         "sections": [
           {
             "ref": "Human BBQ (MAP02)/Supercharge 2",
@@ -200,9 +170,7 @@
       },
       {
         "name": "Backpack",
-        "access_rules": [
-          "@Human BBQ (MAP02)/Backpack"
-        ],
+        "access_rules": ["@Human BBQ (MAP02)/Backpack"],
         "sections": [
           {
             "ref": "Human BBQ (MAP02)/Backpack",
@@ -213,9 +181,7 @@
         "map_locations": [
           {
             "map": "map02",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 192,
             "y": 0
           }
@@ -223,9 +189,7 @@
       },
       {
         "name": "Computer Area Map",
-        "access_rules": [
-          "@Human BBQ (MAP02)/Computer Area Map"
-        ],
+        "access_rules": ["@Human BBQ (MAP02)/Computer Area Map"],
         "sections": [
           {
             "ref": "Human BBQ (MAP02)/Computer Area Map",
@@ -236,9 +200,7 @@
         "map_locations": [
           {
             "map": "map02",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 216,
             "y": 0
           }
@@ -246,9 +208,7 @@
       },
       {
         "name": "Blue Keycard",
-        "access_rules": [
-          "@Human BBQ (MAP02)/Blue Keycard"
-        ],
+        "access_rules": ["@Human BBQ (MAP02)/Blue Keycard"],
         "sections": [
           {
             "ref": "Human BBQ (MAP02)/Blue Keycard",
@@ -259,9 +219,7 @@
         "map_locations": [
           {
             "map": "map02",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 240,
             "y": 0
           }
@@ -269,9 +227,7 @@
       },
       {
         "name": "Red Keycard",
-        "access_rules": [
-          "@Human BBQ (MAP02)/Red Keycard"
-        ],
+        "access_rules": ["@Human BBQ (MAP02)/Red Keycard"],
         "sections": [
           {
             "ref": "Human BBQ (MAP02)/Red Keycard",
@@ -282,9 +238,7 @@
         "map_locations": [
           {
             "map": "map02",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 264,
             "y": 0
           }
@@ -292,9 +246,7 @@
       },
       {
         "name": "Yellow Keycard",
-        "access_rules": [
-          "@Human BBQ (MAP02)/Yellow Keycard"
-        ],
+        "access_rules": ["@Human BBQ (MAP02)/Yellow Keycard"],
         "sections": [
           {
             "ref": "Human BBQ (MAP02)/Yellow Keycard",
@@ -305,9 +257,7 @@
         "map_locations": [
           {
             "map": "map02",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "x": 288,
             "y": 0
           }
@@ -315,9 +265,7 @@
       },
       {
         "name": "MAP02 Exit",
-        "access_rules": [
-          "@Human BBQ (MAP02)/MAP02 Exit"
-        ],
+        "access_rules": ["@Human BBQ (MAP02)/MAP02 Exit"],
         "sections": [
           {
             "ref": "Human BBQ (MAP02)/MAP02 Exit",
@@ -328,9 +276,7 @@
         "map_locations": [
           {
             "map": "map02",
-            "restrict_visibility_rules": [
-              "ep1_on"
-            ],
+            "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
             "x": 312,
             "y": 0
