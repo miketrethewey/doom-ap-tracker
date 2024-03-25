@@ -77,6 +77,110 @@
     "codes": "key_axe"
   },
   {
+    "name": "Heart of D'Sparil",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/heart.png",
+    "codes": "key_heart"
+  },
+  {
+    "name": "Flame Mask",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/mask.png",
+    "codes": "key_mask"
+  },
+  {
+    "name": "Yorick's Skull",
+    "type": "consumable",
+    "img": "variants/hexen/images/items/inventory/yskull.png",
+    "codes": "yskull"
+  },
+  {
+    "name": "Glaive Seal",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/glaive_seal.png",
+    "codes": "glaive_seal"
+  },
+  {
+    "name": "Holy Relic",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/holy_relic.png",
+    "codes": "holy_relic"
+  },
+  {
+    "name": "Sigil of the Magus",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/magus_sigil.png",
+    "codes": "magus_sigil"
+  },
+  {
+    "name": "Emerald Planet",
+    "type": "consumable",
+    "img": "variants/hexen/images/items/inventory/p_emerald.png",
+    "max_quantity": 2,
+    "codes": "planet_emerald"
+  },
+  {
+    "name": "Ruby Planet",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/p_ruby.png",
+    "codes": "planet_ruby"
+  },
+  {
+    "name": "Sapphire Planet",
+    "type": "consumable",
+    "img": "variants/hexen/images/items/inventory/p_sapphire.png",
+    "max_quantity": 2,
+    "codes": "planet_sapphire"
+  },
+  {
+    "name": "Daemon Codex (Book of O)",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/book_o.png",
+    "codes": "key_book_o,book_o"
+  },
+  {
+    "name": "Liber Oscura (Book of A)",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/book_a.png",
+    "codes": "key_book_a,book_a"
+  },
+  {
+    "name": "Clock Gear (Bronze)",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/gear_bronze.png",
+    "codes": "key_gearb"
+  },
+  {
+    "name": "Clock Gear (Steel)",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/gear_steel.png",
+    "codes": "key_gears"
+  },
+  {
+    "name": "Clock Gear (Bronze in Steel)",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/gear_bs.png",
+    "codes": "key_gearbs"
+  },
+  {
+    "name": "Clock Gear (Steel in Bronze)",
+    "type": "toggle",
+    "loop": true,
+    "img": "variants/hexen/images/items/inventory/gear_sb.png",
+    "codes": "key_gearsb"
+  },
+  {
     "name": "Seven Portals (H1)",
     "type": "progressive",
     "loop": true,

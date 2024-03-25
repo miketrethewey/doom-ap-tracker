@@ -15,8 +15,8 @@ for filename in ["mapdesignations.lua","keysets.lua"]:
         constantsLua = constantsFile.read()
         CONSTANTS[filename[:filename.find('.')]] = luadata.unserialize(constantsLua)
 
-baseTheme = "doom"
-baseGame = "tnt"
+baseTheme = "heretic"
+baseGame = "heretic"
 
 numMapsHistory = []
 for epID in range(1,len(CONSTANTS["keysets"][baseTheme][baseGame]["episodes"]) + 1):
@@ -135,8 +135,21 @@ for epID in range(1,len(CONSTANTS["keysets"][baseTheme][baseGame]["episodes"]) +
                             if isEntrance or isExit:
                                 child["map_locations"][0]["size"] = 20
 
-                            child["map_locations"][0]["x"] = location["x"] if "x" in location else (24 * locID)
-                            child["map_locations"][0]["y"] = location["y"] if "y" in location else 0
+                            locPos = {
+                                "x": 24 * locID,
+                                "y": 0
+                            }
+                            if locID > 20:
+                                locPos = {
+                                    "x": 24 * (locID % 20),
+                                    "y": int(locID / 20)
+                                }
+                            if "x" in location:
+                                locPos["x"] = location["x"]
+                            if "y" in location:
+                                locPos["y"] = location["y"]
+
+                            child["map_locations"][0] = locPos
 
                             if isEntrance:
                                 child["access_rules"] = [ "$access|null" ]

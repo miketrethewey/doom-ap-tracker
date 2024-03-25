@@ -5,14 +5,33 @@
       "key_axe",
       "key_castle",
       "key_cave",
-      "key_dungeon"
-    ],
-    [
+      "key_dungeon",
       "key_emerald",
       "key_fire",
       "key_horn",
-      "key_rusted"
+      "key_rusted",
+      "key_silver",
+      "key_steel",
+      "key_swamp"
     ],
-    ["key_silver", "key_steel", "key_swamp", ""]
+    [
+      "yskull",
+      "key_heart",
+      "book_o",
+      "book_a",
+      "key_mask",
+      "glaive_seal",
+      "holy_relic",
+      "magus_sigil",
+      "planet_emerald",
+      "planet_ruby",
+      "planet_sapphire"
+    ],
+    [
+      "key_gearb",
+      "key_gears",
+      "key_gearbs",
+      "key_gearsb"
+    ]
   ]
 }}

@@ -1,0 +1,81 @@
+E6:
+  M1:
+    locations:
+      - name: Entrance
+      - name: Gauntlets
+      - name: Crossbow
+        q: 2
+      - name: Dragon Claw
+        q: 2
+      - name: Hellstaff
+        q: 2
+      - name: Phoenix rod
+      - name: Firemace
+        q: 4
+      - name: Enchanted Shield
+      - name: Silver Shield
+        q: 2
+      - name: Magic Bag
+        q: 3
+      - name: Chaos Device
+      - name: Map
+      - name: Chicken Orb
+      - name: Urn
+        q: 2
+      - name: Ring of Invincibility
+      - name: Shadowsphere
+      - name: Power Tome
+        q: 3
+      - name: Exit
+  M2:
+    locations:
+      - name: Entrance
+      - name: Gauntlets
+      - name: Crossbow
+        q: 2
+      - name: Dragon Claw
+        q: 2
+      - name: Hellstaff
+        q: 2
+      - name: Phoenix rod
+        q: 2
+      - name: Firemace
+        q: 5
+      - name: Enchanted Shield
+        q: 2
+      - name: Silver Shield
+        q: 2
+      - name: Magic Bag
+        q: 4
+      - name: Chaos Device
+      - name: Chicken Orb
+      - name: Urn
+      - name: Ring of Invincibility
+      - name: Shadowsphere
+        q: 2
+      - name: Power Tome
+        q: 3
+      - name: Torch
+        q: 2
+      - name: Exit
+  M3:
+    locations:
+      - name: Entrance
+      - name: Gauntlets
+      - name: Crossbow
+      - name: Dragon Claw
+      - name: Hellstaff
+      - name: Phoenix rod
+      - name: Firemace
+        q: 3
+      - name: Enchanted Shield
+      - name: Silver Shield
+      - name: Magic Bag
+      - name: Chaos Device
+      - name: Chicken Orb
+      - name: Urn
+      - name: Ring of Invincibility
+      - name: Shadowsphere
+      - name: Power Tome
+      - name: Torch
+      - name: Exit

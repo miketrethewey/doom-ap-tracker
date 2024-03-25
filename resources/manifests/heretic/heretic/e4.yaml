@@ -1,12 +1,27 @@
-E1:
+E4:
   M1:
     locations:
       - name: Entrance
       - name: Gauntlets
       - name: Crossbow
+      - name: Dragon Claw
+      - name: Hellstaff
       - name: Silver Shield
-      - name: Bag of Holding
-      - name: Tome of Power
+      - name: Magic Bag
+      - name: Chaos Device
+      - name: Map
+      - name: Chicken Orb
+      - name: Ring of Invincibility
+      - name: Shadowsphere
+      - name: Power Tome
+        q12: 2
+        q_3: 2
+        q45: 1
+      - name: Torch
+        q12: 1
+        q_3: 1
+        q45: 0
+      - name: Green Rune
       - name: Yellow Rune
       - name: Exit
   M2:
@@ -15,20 +30,20 @@ E1:
       - name: Gauntlets
       - name: Crossbow
       - name: Dragon Claw
+      - name: Hellstaff
+      - name: Phoenix rod
+      - name: Enchanted Shield
       - name: Silver Shield
-        q12: 2
-        q_3: 2
-        q45: 1
       - name: Magic Bag
-      - name: Map
-      - name: Ring of Invincibility
-        q12: 1
-        q_3: 1
-        q45: 0
-      - name: Shadowsphere
-      - name: Power Tome
         q: 2
-      - name: Torch
+      - name: Chaos Device
+      - name: Chicken Orb
+      - name: Urn
+      - name: Ring of Invincibility
+        q: 2
+      - name: Shadowsphere
+        q: 2
+      - name: Power Tome
       - name: Blue Rune
       - name: Green Rune
       - name: Yellow Rune
@@ -39,43 +54,55 @@ E1:
       - name: Gauntlets
       - name: Crossbow
       - name: Dragon Claw
+      - name: Hellstaff
+      - name: Phoenix rod
+      - name: Firemace
+        q: 5
+      - name: Enchanted Shield
       - name: Silver Shield
       - name: Magic Bag
+        q: 2
+      - name: Chaos Device
+      - name: Map
       - name: Chicken Orb
+        q: 2
+      - name: Urn
       - name: Ring of Invincibility
-        q12: 1
-        q_3: 1
-        q45: 0
+        q: 2
       - name: Shadowsphere
       - name: Power Tome
-        q12: 3
-        q_3: 2
-        q45: 2
+        q: 2
       - name: Torch
+      - name: Blue Rune
       - name: Green Rune
       - name: Yellow Rune
       - name: Exit
   M4:
     locations:
       - name: Entrance
-      - name: Gauntlets
       - name: Crossbow
+        q: 2
       - name: Dragon Claw
+        q: 2
+      - name: Hellstaff
+      - name: Phoenix rod
+        q: 2
+      - name: Firemace
+        q: 5
+      - name: Enchanted Shield
       - name: Silver Shield
+        q: 2
       - name: Magic Bag
-        q12: 1
-        q_3: 1
-        q45: 0
-      - name: Map
+        q: 2
+      - name: Chaos Device
       - name: Chicken Orb
+      - name: Urn
+      - name: Ring of Invincibility
       - name: Shadowsphere
       - name: Power Tome
-        q12: 3
-        q_3: 3
-        q45: 2
+        q: 2
       - name: Torch
-      - name: Green Rune
-      - name: Yellow Rune
+        q: 2
       - name: Exit
   M5:
     locations:
@@ -83,19 +110,24 @@ E1:
       - name: Gauntlets
       - name: Crossbow
       - name: Dragon Claw
+      - name: Hellstaff
+      - name: Phoenix rod
+      - name: Firemace
+        q: 5
+      - name: Enchanted Shield
       - name: Silver Shield
-        q: 2
       - name: Magic Bag
+        q: 2
+      - name: Chaos Device
       - name: Map
       - name: Chicken Orb
+      - name: Urn
+        q: 2
       - name: Ring of Invincibility
       - name: Shadowsphere
       - name: Power Tome
-        q12: 5
-        q_3: 5
-        q45: 3
+        q: 3
       - name: Torch
-        q: 2
       - name: Blue Rune
       - name: Green Rune
       - name: Yellow Rune
@@ -106,24 +138,33 @@ E1:
       - name: Gauntlets
       - name: Crossbow
       - name: Dragon Claw
-      - name: Silver Shield
-        q: 3
-      - name: Magic Bag
-        q12: 3
-        q_3: 3
-        q45: 2
-      - name: Map
-      - name: Chicken Orb
-      - name: Ring of Invincibility
-        q12: 2
+      - name: Hellstaff
+      - name: Phoenix rod
+      - name: Enchanted Shield
+        q12: 1
         q_3: 1
+        q45: 0
+      - name: Silver Shield
+        q12: 2
+        q_3: 2
         q45: 1
+      - name: Magic Bag
+        q: 2
+      - name: Chaos Device
+        q12: 1
+        q_3: 1
+        q45: 0
+      - name: Map
+        q12: 1
+        q_3: 1
+        q45: 0
+      - name: Chicken Orb
+      - name: Urn
+      - name: Ring of Invincibility
       - name: Shadowsphere
       - name: Power Tome
-        q12: 4
-        q_3: 4
-        q45: 3
-      - name: Torch
+        q: 2
+      - name: Blue Rune
       - name: Green Rune
       - name: Yellow Rune
       - name: Exit
@@ -132,19 +173,29 @@ E1:
       - name: Entrance
       - name: Gauntlets
       - name: Crossbow
+        q: 2
       - name: Dragon Claw
+        q: 2
+      - name: Hellstaff
+        q: 2
+      - name: Phoenix rod
+        q: 2
+      - name: Firemace
+        q: 6
+      - name: Enchanted Shield
       - name: Silver Shield
         q: 2
       - name: Magic Bag
+        q: 2
+      - name: Chaos Device
       - name: Map
       - name: Chicken Orb
+      - name: Urn
+        q: 2
       - name: Ring of Invincibility
-        q12: 1
-        q_3: 1
-        q45: 0
       - name: Shadowsphere
       - name: Power Tome
-        q: 2
+        q: 3
       - name: Torch
         q: 2
       - name: Blue Rune
@@ -157,15 +208,25 @@ E1:
       - name: Gauntlets
       - name: Crossbow
       - name: Dragon Claw
+      - name: Hellstaff
+      - name: Phoenix rod
+      - name: Enchanted Shield
       - name: Silver Shield
       - name: Magic Bag
-        q: 2
+        q12: 2
+        q_3: 2
+        q45: 1
+      - name: Chaos Device
       - name: Chicken Orb
+      - name: Urn
       - name: Ring of Invincibility
-        q: 3
       - name: Shadowsphere
       - name: Power Tome
-        q: 2
+        q12: 2
+        q_3: 2
+        q45: 1
+      - name: Torch
+      - name: Yellow Rune
       - name: Exit
   M9:
     locations:
@@ -173,16 +234,26 @@ E1:
       - name: Gauntlets
       - name: Crossbow
       - name: Dragon Claw
+      - name: Hellstaff
+      - name: Phoenix rod
+      - name: Firemace
+        q: 4
+      - name: Enchanted Shield
       - name: Silver Shield
+        q: 2
       - name: Magic Bag
+        q12: 4
+        q_3: 3
+        q45: 2
+      - name: Chaos Device
       - name: Map
       - name: Chicken Orb
+      - name: Urn
       - name: Ring of Invincibility
       - name: Shadowsphere
       - name: Power Tome
-        q: 2
+        q: 3
       - name: Torch
-      - name: Blue Rune
-      - name: Green Rune
+        q: 2
       - name: Yellow Rune
       - name: Exit
