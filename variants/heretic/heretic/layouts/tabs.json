@@ -425,7 +425,7 @@
             "icon": "variants/doom/images/overlays/6-1.png",
             "content": {
               "type": "map",
-              "map": ["e6m1"]
+              "maps": ["e6m1"]
             }
           },
           {
@@ -433,7 +433,7 @@
             "icon": "variants/doom/images/overlays/6-2.png",
             "content": {
               "type": "map",
-              "map": ["e6m2"]
+              "maps": ["e6m2"]
             }
           },
           {
@@ -441,7 +441,7 @@
             "icon": "variants/doom/images/overlays/6-3.png",
             "content": {
               "type": "map",
-              "map": ["e6m3"]
+              "maps": ["e6m3"]
             }
           }
         ]

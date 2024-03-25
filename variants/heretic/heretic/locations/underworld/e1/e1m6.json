@@ -1,0 +1,422 @@
+[
+  {
+    "name": "E1M6",
+    "parent": "The Cathedral (E1M6)",
+    "children": [
+      {
+        "name": "E1M6 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/E1M6 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Gauntlets",
+        "access_rules": ["@The Cathedral (E1M6)/Gauntlets"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Gauntlets",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Crossbow",
+        "access_rules": ["@The Cathedral (E1M6)/Crossbow"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Crossbow",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Dragon Claw",
+        "access_rules": ["@The Cathedral (E1M6)/Dragon Claw"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Dragon Claw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Silver Shield",
+        "access_rules": ["@The Cathedral (E1M6)/Silver Shield"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Silver Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Silver Shield 2",
+        "access_rules": ["@The Cathedral (E1M6)/Silver Shield 2"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Silver Shield 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Silver Shield 3",
+        "access_rules": ["@The Cathedral (E1M6)/Silver Shield 3"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Silver Shield 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Magic Bag",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": ["@The Cathedral (E1M6)/Magic Bag"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Magic Bag",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": [
+              "$difficulty_range|1|low",
+              "$difficulty|1|med",
+              "$difficulty_range|1|high"
+            ],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Magic Bag 2",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": ["@The Cathedral (E1M6)/Magic Bag 2"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Magic Bag 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": [
+              "$difficulty_range|1|low",
+              "$difficulty|1|med",
+              "$difficulty_range|1|high"
+            ],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": ["@The Cathedral (E1M6)/Computer Area Map"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chicken Orb",
+        "access_rules": ["@The Cathedral (E1M6)/Chicken Orb"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Chicken Orb",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Ring of Invincibility",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": ["@The Cathedral (E1M6)/Ring of Invincibility"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Ring of Invincibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": [
+              "$difficulty_range|1|low",
+              "$difficulty|1|med",
+              "$difficulty_range|1|high"
+            ],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shadowsphere",
+        "access_rules": ["@The Cathedral (E1M6)/Shadowsphere"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Shadowsphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Power Tome",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": ["@The Cathedral (E1M6)/Power Tome"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Power Tome",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": [
+              "$difficulty_range|1|low",
+              "$difficulty|1|med",
+              "$difficulty_range|1|high"
+            ],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Power Tome 2",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": ["@The Cathedral (E1M6)/Power Tome 2"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Power Tome 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": [
+              "$difficulty_range|1|low",
+              "$difficulty|1|med",
+              "$difficulty_range|1|high"
+            ],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Power Tome 3",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": ["@The Cathedral (E1M6)/Power Tome 3"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Power Tome 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": [
+              "$difficulty_range|1|low",
+              "$difficulty|1|med",
+              "$difficulty_range|1|high"
+            ],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Torch",
+        "access_rules": ["@The Cathedral (E1M6)/Torch"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Torch",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Green Rune",
+        "access_rules": ["@The Cathedral (E1M6)/Green Rune"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Green Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Rune",
+        "access_rules": ["@The Cathedral (E1M6)/Yellow Rune"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/Yellow Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 432,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "E1M6 Exit",
+        "access_rules": ["@The Cathedral (E1M6)/E1M6 Exit"],
+        "sections": [
+          {
+            "ref": "The Cathedral (E1M6)/E1M6 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m6_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 456,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

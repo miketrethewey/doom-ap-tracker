@@ -15,6 +15,11 @@
       "label": "Levels to Episode",
       "type": "shell",
       "command": "py ./resources/ci/common/levelstoep.py"
+    },
+    {
+      "label": "Invert Maps",
+      "type": "shell",
+      "command": "py ./resources/ci/common/invertmaps.py"
     }
   ]
 }

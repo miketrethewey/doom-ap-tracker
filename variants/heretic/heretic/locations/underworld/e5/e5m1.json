@@ -1,0 +1,535 @@
+[
+  {
+    "name": "E5M1",
+    "parent": "Ochre Cliffs (E5M1)",
+    "children": [
+      {
+        "name": "E5M1 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/E5M1 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Gauntlets",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Gauntlets"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Gauntlets",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Crossbow",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Crossbow"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Crossbow",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Dragon Claw",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Dragon Claw"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Dragon Claw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Hellstaff",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Hellstaff"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Hellstaff",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Phoenix rod",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Phoenix rod"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Phoenix rod",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Firemace",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Firemace"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Firemace",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Firemace 2",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Firemace 2"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Firemace 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Firemace 3",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Firemace 3"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Firemace 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Firemace 4",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Firemace 4"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Firemace 4",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Enchanted Shield",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Enchanted Shield"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Enchanted Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Silver Shield",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Silver Shield"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Silver Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Magic Bag",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Magic Bag"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Magic Bag",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Magic Bag 2",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Magic Bag 2"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Magic Bag 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaos Device",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Chaos Device"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Chaos Device",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Computer Area Map"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chicken Orb",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Chicken Orb"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Chicken Orb",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Urn",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Urn"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Urn",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Ring of Invincibility",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Ring of Invincibility"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Ring of Invincibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 432,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shadowsphere",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Shadowsphere"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Shadowsphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 456,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Power Tome",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Power Tome"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Power Tome",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": [
+              "$difficulty_range|5|low",
+              "$difficulty|5|med",
+              "$difficulty_range|5|high"
+            ],
+            "x": 0,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Power Tome 2",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Power Tome 2"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Power Tome 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": [
+              "$difficulty_range|5|low",
+              "$difficulty|5|med",
+              "$difficulty_range|5|high"
+            ],
+            "x": 24,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Torch",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Torch"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Torch",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 48,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Blue Rune",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Blue Rune"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Blue Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 72,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Green Rune",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Green Rune"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Green Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 96,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Yellow Rune",
+        "access_rules": ["@Ochre Cliffs (E5M1)/Yellow Rune"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/Yellow Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 120,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "E5M1 Exit",
+        "access_rules": ["@Ochre Cliffs (E5M1)/E5M1 Exit"],
+        "sections": [
+          {
+            "ref": "Ochre Cliffs (E5M1)/E5M1 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e5m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m1",
+            "restrict_visibility_rules": ["ep5_on"],
+            "size": 20,
+            "x": 144,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  }
+]

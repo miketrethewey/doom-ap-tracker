@@ -1,0 +1,299 @@
+[
+  {
+    "name": "E5M8",
+    "parent": "Field of Judgement (E5M8)",
+    "children": [
+      {
+        "name": "E5M8 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Field of Judgement (E5M8)/E5M8 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "restrict_visibility_rules": ["ep5_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Gauntlets",
+        "access_rules": ["@Field of Judgement (E5M8)/Gauntlets"],
+        "sections": [
+          {
+            "ref": "Field of Judgement (E5M8)/Gauntlets",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Crossbow",
+        "access_rules": ["@Field of Judgement (E5M8)/Crossbow"],
+        "sections": [
+          {
+            "ref": "Field of Judgement (E5M8)/Crossbow",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Dragon Claw",
+        "access_rules": ["@Field of Judgement (E5M8)/Dragon Claw"],
+        "sections": [
+          {
+            "ref": "Field of Judgement (E5M8)/Dragon Claw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Hellstaff",
+        "access_rules": ["@Field of Judgement (E5M8)/Hellstaff"],
+        "sections": [
+          {
+            "ref": "Field of Judgement (E5M8)/Hellstaff",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Phoenix rod",
+        "access_rules": ["@Field of Judgement (E5M8)/Phoenix rod"],
+        "sections": [
+          {
+            "ref": "Field of Judgement (E5M8)/Phoenix rod",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Enchanted Shield",
+        "access_rules": ["@Field of Judgement (E5M8)/Enchanted Shield"],
+        "sections": [
+          {
+            "ref": "Field of Judgement (E5M8)/Enchanted Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Silver Shield",
+        "access_rules": ["@Field of Judgement (E5M8)/Silver Shield"],
+        "sections": [
+          {
+            "ref": "Field of Judgement (E5M8)/Silver Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Magic Bag",
+        "access_rules": ["@Field of Judgement (E5M8)/Magic Bag"],
+        "sections": [
+          {
+            "ref": "Field of Judgement (E5M8)/Magic Bag",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaos Device",
+        "access_rules": ["@Field of Judgement (E5M8)/Chaos Device"],
+        "sections": [
+          {
+            "ref": "Field of Judgement (E5M8)/Chaos Device",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Urn",
+        "access_rules": ["@Field of Judgement (E5M8)/Urn"],
+        "sections": [
+          {
+            "ref": "Field of Judgement (E5M8)/Urn",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Ring of Invincibility",
+        "access_rules": [
+          "@Field of Judgement (E5M8)/Ring of Invincibility"
+        ],
+        "sections": [
+          {
+            "ref": "Field of Judgement (E5M8)/Ring of Invincibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shadowsphere",
+        "access_rules": ["@Field of Judgement (E5M8)/Shadowsphere"],
+        "sections": [
+          {
+            "ref": "Field of Judgement (E5M8)/Shadowsphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Power Tome",
+        "access_rules": ["@Field of Judgement (E5M8)/Power Tome"],
+        "sections": [
+          {
+            "ref": "Field of Judgement (E5M8)/Power Tome",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "restrict_visibility_rules": ["ep5_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "E5M8 Exit",
+        "access_rules": ["@Field of Judgement (E5M8)/E5M8 Exit"],
+        "sections": [
+          {
+            "ref": "Field of Judgement (E5M8)/E5M8 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e5m8_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e5m8",
+            "restrict_visibility_rules": ["ep5_on"],
+            "size": 20,
+            "x": 336,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

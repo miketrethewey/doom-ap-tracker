@@ -1,0 +1,164 @@
+[
+  {
+    "name": "E1M1",
+    "parent": "The Docks (E1M1)",
+    "children": [
+      {
+        "name": "E1M1 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "The Docks (E1M1)/E1M1 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Gauntlets",
+        "access_rules": ["@The Docks (E1M1)/Gauntlets"],
+        "sections": [
+          {
+            "ref": "The Docks (E1M1)/Gauntlets",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Crossbow",
+        "access_rules": ["@The Docks (E1M1)/Crossbow"],
+        "sections": [
+          {
+            "ref": "The Docks (E1M1)/Crossbow",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Silver Shield",
+        "access_rules": ["@The Docks (E1M1)/Silver Shield"],
+        "sections": [
+          {
+            "ref": "The Docks (E1M1)/Silver Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Bag of Holding",
+        "access_rules": ["@The Docks (E1M1)/Bag of Holding"],
+        "sections": [
+          {
+            "ref": "The Docks (E1M1)/Bag of Holding",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Tome of Power",
+        "access_rules": ["@The Docks (E1M1)/Tome of Power"],
+        "sections": [
+          {
+            "ref": "The Docks (E1M1)/Tome of Power",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Rune",
+        "access_rules": ["@The Docks (E1M1)/Yellow Rune"],
+        "sections": [
+          {
+            "ref": "The Docks (E1M1)/Yellow Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "E1M1 Exit",
+        "access_rules": ["@The Docks (E1M1)/E1M1 Exit"],
+        "sections": [
+          {
+            "ref": "The Docks (E1M1)/E1M1 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 168,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

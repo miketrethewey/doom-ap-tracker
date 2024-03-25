@@ -1,0 +1,297 @@
+[
+  {
+    "name": "E1M8",
+    "parent": "Hell's Maw (E1M8)",
+    "children": [
+      {
+        "name": "E1M8 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Hell's Maw (E1M8)/E1M8 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Gauntlets",
+        "access_rules": ["@Hell's Maw (E1M8)/Gauntlets"],
+        "sections": [
+          {
+            "ref": "Hell's Maw (E1M8)/Gauntlets",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Crossbow",
+        "access_rules": ["@Hell's Maw (E1M8)/Crossbow"],
+        "sections": [
+          {
+            "ref": "Hell's Maw (E1M8)/Crossbow",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Dragon Claw",
+        "access_rules": ["@Hell's Maw (E1M8)/Dragon Claw"],
+        "sections": [
+          {
+            "ref": "Hell's Maw (E1M8)/Dragon Claw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Silver Shield",
+        "access_rules": ["@Hell's Maw (E1M8)/Silver Shield"],
+        "sections": [
+          {
+            "ref": "Hell's Maw (E1M8)/Silver Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Magic Bag",
+        "access_rules": ["@Hell's Maw (E1M8)/Magic Bag"],
+        "sections": [
+          {
+            "ref": "Hell's Maw (E1M8)/Magic Bag",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Magic Bag 2",
+        "access_rules": ["@Hell's Maw (E1M8)/Magic Bag 2"],
+        "sections": [
+          {
+            "ref": "Hell's Maw (E1M8)/Magic Bag 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chicken Orb",
+        "access_rules": ["@Hell's Maw (E1M8)/Chicken Orb"],
+        "sections": [
+          {
+            "ref": "Hell's Maw (E1M8)/Chicken Orb",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Ring of Invincibility",
+        "access_rules": ["@Hell's Maw (E1M8)/Ring of Invincibility"],
+        "sections": [
+          {
+            "ref": "Hell's Maw (E1M8)/Ring of Invincibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Ring of Invincibility 2",
+        "access_rules": ["@Hell's Maw (E1M8)/Ring of Invincibility 2"],
+        "sections": [
+          {
+            "ref": "Hell's Maw (E1M8)/Ring of Invincibility 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Ring of Invincibility 3",
+        "access_rules": ["@Hell's Maw (E1M8)/Ring of Invincibility 3"],
+        "sections": [
+          {
+            "ref": "Hell's Maw (E1M8)/Ring of Invincibility 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shadowsphere",
+        "access_rules": ["@Hell's Maw (E1M8)/Shadowsphere"],
+        "sections": [
+          {
+            "ref": "Hell's Maw (E1M8)/Shadowsphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Power Tome",
+        "access_rules": ["@Hell's Maw (E1M8)/Power Tome"],
+        "sections": [
+          {
+            "ref": "Hell's Maw (E1M8)/Power Tome",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Power Tome 2",
+        "access_rules": ["@Hell's Maw (E1M8)/Power Tome 2"],
+        "sections": [
+          {
+            "ref": "Hell's Maw (E1M8)/Power Tome 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "E1M8 Exit",
+        "access_rules": ["@Hell's Maw (E1M8)/E1M8 Exit"],
+        "sections": [
+          {
+            "ref": "Hell's Maw (E1M8)/E1M8 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m8_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 336,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

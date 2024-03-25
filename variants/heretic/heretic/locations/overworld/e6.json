@@ -1,0 +1,460 @@
+[
+  {
+    "name": "Fate's Path",
+    "parent": "Fate's Path (E6)",
+    "children": [
+      {
+        "name": "Raven's Lair (E6M1)",
+        "access_rules": ["$access|e6m1"],
+        "sections": [
+          {
+            "name": "Gauntlets",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Crossbow",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Crossbow 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Dragon Claw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Dragon Claw 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hellstaff",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hellstaff 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Phoenix rod",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 4",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enchanted Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Shield 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaos Device",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Computer Area Map",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chicken Orb",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Urn",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Urn 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ring of Invincibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shadowsphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "E6M1 Exit",
+            "access_rules": [],
+            "hosted_item": "e6m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 24,
+            "y": 120,
+            "restrict_visibility_rules": ["ep6_on"]
+          }
+        ]
+      },
+      {
+        "name": "The Water Shrine (E6M2)",
+        "access_rules": ["$access|e6m2"],
+        "sections": [
+          {
+            "name": "Gauntlets",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Crossbow",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Crossbow 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Dragon Claw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Dragon Claw 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hellstaff",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hellstaff 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Phoenix rod",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Phoenix rod 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 4",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 5",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enchanted Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enchanted Shield 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Shield 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag 4",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaos Device",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chicken Orb",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Urn",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ring of Invincibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shadowsphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shadowsphere 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Torch",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Torch 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "E6M2 Exit",
+            "access_rules": [],
+            "hosted_item": "e6m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 48,
+            "y": 120,
+            "restrict_visibility_rules": ["ep6_on"]
+          }
+        ]
+      },
+      {
+        "name": "American Legacy (E6M3)",
+        "access_rules": ["$access|e6m3"],
+        "sections": [
+          {
+            "name": "Gauntlets",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Crossbow",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Dragon Claw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hellstaff",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Phoenix rod",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enchanted Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaos Device",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chicken Orb",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Urn",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ring of Invincibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shadowsphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Torch",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "E6M3 Exit",
+            "access_rules": [],
+            "hosted_item": "e6m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 72,
+            "y": 120,
+            "restrict_visibility_rules": ["ep6_on"]
+          }
+        ]
+      }
+    ]
+  }
+]

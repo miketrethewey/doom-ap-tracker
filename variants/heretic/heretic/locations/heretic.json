@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Heretic",
+    "chest_unopened_img": "variants/heretic/images/chests/tome.png",
+    "chest_opened_img": "variants/heretic/images/chests/tome_open.png",
+    "children": [
+      {
+        "name": "Parthoris",
+        "children": [
+          {
+            "name": "City of the Damned (E1)",
+            "color": "#00ff00"
+          },
+          {"name": "Hell's Maw (E2)", "color": "#007fff"},
+          {
+            "name": "The Dome of D'Sparil (E3)",
+            "color": "#ffff00"
+          },
+          {"name": "The Ossuary (E4)", "color": "#00ffff"},
+          {
+            "name": "The Stagnant Demesne (E5)",
+            "color": "#00ffff"
+          },
+          {"name": "Fate's Path (E6)", "color": "#fe7ffe"}
+        ]
+      }
+    ]
+  }
+]

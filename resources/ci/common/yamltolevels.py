@@ -139,17 +139,17 @@ for epID in range(1,len(CONSTANTS["keysets"][baseTheme][baseGame]["episodes"]) +
                                 "x": 24 * locID,
                                 "y": 0
                             }
-                            if locID > 20:
+                            if locID >= 20:
                                 locPos = {
                                     "x": 24 * (locID % 20),
-                                    "y": int(locID / 20)
+                                    "y": 24 * int(locID / 20)
                                 }
                             if "x" in location:
                                 locPos["x"] = location["x"]
                             if "y" in location:
                                 locPos["y"] = location["y"]
 
-                            child["map_locations"][0] = locPos
+                            child["map_locations"][0].update(locPos)
 
                             if isEntrance:
                                 child["access_rules"] = [ "$access|null" ]
@@ -163,3 +163,4 @@ for epID in range(1,len(CONSTANTS["keysets"][baseTheme][baseGame]["episodes"]) +
                         os.makedirs(writePath)
                     with open(os.path.join(writePath,f"e{epID}m{mapIDX}.json"), "w") as jsonFile:
                         json.dump(jsonData, jsonFile, indent=2)
+                        jsonFile.write("\n")

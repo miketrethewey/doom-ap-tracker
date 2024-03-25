@@ -1,0 +1,554 @@
+[
+  {
+    "name": "E4M9",
+    "parent": "Mausoleum (E4M9)",
+    "children": [
+      {
+        "name": "E4M9 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/E4M9 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Gauntlets",
+        "access_rules": ["@Mausoleum (E4M9)/Gauntlets"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Gauntlets",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Crossbow",
+        "access_rules": ["@Mausoleum (E4M9)/Crossbow"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Crossbow",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Dragon Claw",
+        "access_rules": ["@Mausoleum (E4M9)/Dragon Claw"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Dragon Claw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Hellstaff",
+        "access_rules": ["@Mausoleum (E4M9)/Hellstaff"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Hellstaff",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Phoenix rod",
+        "access_rules": ["@Mausoleum (E4M9)/Phoenix rod"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Phoenix rod",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Firemace",
+        "access_rules": ["@Mausoleum (E4M9)/Firemace"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Firemace",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Firemace 2",
+        "access_rules": ["@Mausoleum (E4M9)/Firemace 2"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Firemace 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Firemace 3",
+        "access_rules": ["@Mausoleum (E4M9)/Firemace 3"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Firemace 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Firemace 4",
+        "access_rules": ["@Mausoleum (E4M9)/Firemace 4"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Firemace 4",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Enchanted Shield",
+        "access_rules": ["@Mausoleum (E4M9)/Enchanted Shield"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Enchanted Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Silver Shield",
+        "access_rules": ["@Mausoleum (E4M9)/Silver Shield"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Silver Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Silver Shield 2",
+        "access_rules": ["@Mausoleum (E4M9)/Silver Shield 2"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Silver Shield 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Magic Bag",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": ["@Mausoleum (E4M9)/Magic Bag"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Magic Bag",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": [
+              "$difficulty_range|4|low",
+              "$difficulty|4|med",
+              "$difficulty_range|4|high"
+            ],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Magic Bag 2",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": ["@Mausoleum (E4M9)/Magic Bag 2"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Magic Bag 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": [
+              "$difficulty_range|4|low",
+              "$difficulty|4|med",
+              "$difficulty_range|4|high"
+            ],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaos Device",
+        "access_rules": ["@Mausoleum (E4M9)/Chaos Device"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Chaos Device",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": ["@Mausoleum (E4M9)/Computer Area Map"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chicken Orb",
+        "access_rules": ["@Mausoleum (E4M9)/Chicken Orb"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Chicken Orb",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Urn",
+        "access_rules": ["@Mausoleum (E4M9)/Urn"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Urn",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 432,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Ring of Invincibility",
+        "access_rules": ["@Mausoleum (E4M9)/Ring of Invincibility"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Ring of Invincibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 456,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shadowsphere",
+        "access_rules": ["@Mausoleum (E4M9)/Shadowsphere"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Shadowsphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 0,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Power Tome",
+        "access_rules": ["@Mausoleum (E4M9)/Power Tome"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Power Tome",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 24,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Power Tome 2",
+        "access_rules": ["@Mausoleum (E4M9)/Power Tome 2"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Power Tome 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 48,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Power Tome 3",
+        "access_rules": ["@Mausoleum (E4M9)/Power Tome 3"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Power Tome 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 72,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Torch",
+        "access_rules": ["@Mausoleum (E4M9)/Torch"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Torch",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 96,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Torch 2",
+        "access_rules": ["@Mausoleum (E4M9)/Torch 2"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Torch 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 120,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Yellow Rune",
+        "access_rules": ["@Mausoleum (E4M9)/Yellow Rune"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/Yellow Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 144,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "E4M9 Exit",
+        "access_rules": ["@Mausoleum (E4M9)/E4M9 Exit"],
+        "sections": [
+          {
+            "ref": "Mausoleum (E4M9)/E4M9 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e4m9_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "restrict_visibility_rules": ["ep4_on"],
+            "size": 20,
+            "x": 168,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  }
+]

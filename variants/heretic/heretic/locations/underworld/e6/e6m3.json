@@ -1,0 +1,392 @@
+[
+  {
+    "name": "E6M3",
+    "parent": "American Legacy (E6M3)",
+    "children": [
+      {
+        "name": "E6M3 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/E6M3 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Gauntlets",
+        "access_rules": ["@American Legacy (E6M3)/Gauntlets"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Gauntlets",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Crossbow",
+        "access_rules": ["@American Legacy (E6M3)/Crossbow"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Crossbow",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Dragon Claw",
+        "access_rules": ["@American Legacy (E6M3)/Dragon Claw"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Dragon Claw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Hellstaff",
+        "access_rules": ["@American Legacy (E6M3)/Hellstaff"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Hellstaff",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Phoenix rod",
+        "access_rules": ["@American Legacy (E6M3)/Phoenix rod"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Phoenix rod",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Firemace",
+        "access_rules": ["@American Legacy (E6M3)/Firemace"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Firemace",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Firemace 2",
+        "access_rules": ["@American Legacy (E6M3)/Firemace 2"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Firemace 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Firemace 3",
+        "access_rules": ["@American Legacy (E6M3)/Firemace 3"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Firemace 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Enchanted Shield",
+        "access_rules": ["@American Legacy (E6M3)/Enchanted Shield"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Enchanted Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Silver Shield",
+        "access_rules": ["@American Legacy (E6M3)/Silver Shield"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Silver Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Magic Bag",
+        "access_rules": ["@American Legacy (E6M3)/Magic Bag"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Magic Bag",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaos Device",
+        "access_rules": ["@American Legacy (E6M3)/Chaos Device"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Chaos Device",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chicken Orb",
+        "access_rules": ["@American Legacy (E6M3)/Chicken Orb"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Chicken Orb",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Urn",
+        "access_rules": ["@American Legacy (E6M3)/Urn"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Urn",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Ring of Invincibility",
+        "access_rules": ["@American Legacy (E6M3)/Ring of Invincibility"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Ring of Invincibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shadowsphere",
+        "access_rules": ["@American Legacy (E6M3)/Shadowsphere"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Shadowsphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Power Tome",
+        "access_rules": ["@American Legacy (E6M3)/Power Tome"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Power Tome",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Torch",
+        "access_rules": ["@American Legacy (E6M3)/Torch"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/Torch",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "x": 432,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "E6M3 Exit",
+        "access_rules": ["@American Legacy (E6M3)/E6M3 Exit"],
+        "sections": [
+          {
+            "ref": "American Legacy (E6M3)/E6M3 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e6m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e6m3",
+            "restrict_visibility_rules": ["ep6_on"],
+            "size": 20,
+            "x": 456,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

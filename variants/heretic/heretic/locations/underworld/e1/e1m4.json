@@ -1,0 +1,307 @@
+[
+  {
+    "name": "E1M4",
+    "parent": "The Guard Tower (E1M4)",
+    "children": [
+      {
+        "name": "E1M4 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "The Guard Tower (E1M4)/E1M4 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Gauntlets",
+        "access_rules": ["@The Guard Tower (E1M4)/Gauntlets"],
+        "sections": [
+          {
+            "ref": "The Guard Tower (E1M4)/Gauntlets",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Crossbow",
+        "access_rules": ["@The Guard Tower (E1M4)/Crossbow"],
+        "sections": [
+          {
+            "ref": "The Guard Tower (E1M4)/Crossbow",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Dragon Claw",
+        "access_rules": ["@The Guard Tower (E1M4)/Dragon Claw"],
+        "sections": [
+          {
+            "ref": "The Guard Tower (E1M4)/Dragon Claw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Silver Shield",
+        "access_rules": ["@The Guard Tower (E1M4)/Silver Shield"],
+        "sections": [
+          {
+            "ref": "The Guard Tower (E1M4)/Silver Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Magic Bag",
+        "access_rules": ["@The Guard Tower (E1M4)/Magic Bag"],
+        "sections": [
+          {
+            "ref": "The Guard Tower (E1M4)/Magic Bag",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "restrict_visibility_rules": ["$difficulty_range|1|low", "$difficulty|1|med"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": ["@The Guard Tower (E1M4)/Computer Area Map"],
+        "sections": [
+          {
+            "ref": "The Guard Tower (E1M4)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chicken Orb",
+        "access_rules": ["@The Guard Tower (E1M4)/Chicken Orb"],
+        "sections": [
+          {
+            "ref": "The Guard Tower (E1M4)/Chicken Orb",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shadowsphere",
+        "access_rules": ["@The Guard Tower (E1M4)/Shadowsphere"],
+        "sections": [
+          {
+            "ref": "The Guard Tower (E1M4)/Shadowsphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Power Tome",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": ["@The Guard Tower (E1M4)/Power Tome"],
+        "sections": [
+          {
+            "ref": "The Guard Tower (E1M4)/Power Tome",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "restrict_visibility_rules": [
+              "$difficulty_range|1|low",
+              "$difficulty|1|med",
+              "$difficulty_range|1|high"
+            ],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Power Tome 2",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": ["@The Guard Tower (E1M4)/Power Tome 2"],
+        "sections": [
+          {
+            "ref": "The Guard Tower (E1M4)/Power Tome 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "restrict_visibility_rules": [
+              "$difficulty_range|1|low",
+              "$difficulty|1|med",
+              "$difficulty_range|1|high"
+            ],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Torch",
+        "access_rules": ["@The Guard Tower (E1M4)/Torch"],
+        "sections": [
+          {
+            "ref": "The Guard Tower (E1M4)/Torch",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Green Rune",
+        "access_rules": ["@The Guard Tower (E1M4)/Green Rune"],
+        "sections": [
+          {
+            "ref": "The Guard Tower (E1M4)/Green Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Rune",
+        "access_rules": ["@The Guard Tower (E1M4)/Yellow Rune"],
+        "sections": [
+          {
+            "ref": "The Guard Tower (E1M4)/Yellow Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "E1M4 Exit",
+        "access_rules": ["@The Guard Tower (E1M4)/E1M4 Exit"],
+        "sections": [
+          {
+            "ref": "The Guard Tower (E1M4)/E1M4 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e1m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "restrict_visibility_rules": ["ep1_on"],
+            "size": 20,
+            "x": 336,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

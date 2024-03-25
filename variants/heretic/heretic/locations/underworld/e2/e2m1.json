@@ -1,0 +1,259 @@
+[
+  {
+    "name": "E2M1",
+    "parent": "The Crater (E2M1)",
+    "children": [
+      {
+        "name": "E2M1 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "The Crater (E2M1)/E2M1 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m1",
+            "restrict_visibility_rules": ["ep2_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Crossbow",
+        "access_rules": ["@The Crater (E2M1)/Crossbow"],
+        "sections": [
+          {
+            "ref": "The Crater (E2M1)/Crossbow",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m1",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Dragon Claw",
+        "access_rules": ["@The Crater (E2M1)/Dragon Claw"],
+        "sections": [
+          {
+            "ref": "The Crater (E2M1)/Dragon Claw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m1",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Hellstaff",
+        "access_rules": ["@The Crater (E2M1)/Hellstaff"],
+        "sections": [
+          {
+            "ref": "The Crater (E2M1)/Hellstaff",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m1",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Silver Shield",
+        "access_rules": ["@The Crater (E2M1)/Silver Shield"],
+        "sections": [
+          {
+            "ref": "The Crater (E2M1)/Silver Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m1",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Magic Bag",
+        "access_rules": ["@The Crater (E2M1)/Magic Bag"],
+        "sections": [
+          {
+            "ref": "The Crater (E2M1)/Magic Bag",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m1",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Mystic urn",
+        "access_rules": ["@The Crater (E2M1)/Mystic urn"],
+        "sections": [
+          {
+            "ref": "The Crater (E2M1)/Mystic urn",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m1",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shadowsphere",
+        "access_rules": ["@The Crater (E2M1)/Shadowsphere"],
+        "sections": [
+          {
+            "ref": "The Crater (E2M1)/Shadowsphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m1",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Power Tome",
+        "access_rules": ["@The Crater (E2M1)/Power Tome"],
+        "sections": [
+          {
+            "ref": "The Crater (E2M1)/Power Tome",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m1",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Torch",
+        "access_rules": ["@The Crater (E2M1)/Torch"],
+        "sections": [
+          {
+            "ref": "The Crater (E2M1)/Torch",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m1",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Green Rune",
+        "access_rules": ["@The Crater (E2M1)/Green Rune"],
+        "sections": [
+          {
+            "ref": "The Crater (E2M1)/Green Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m1",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Rune",
+        "access_rules": ["@The Crater (E2M1)/Yellow Rune"],
+        "sections": [
+          {
+            "ref": "The Crater (E2M1)/Yellow Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m1",
+            "restrict_visibility_rules": ["ep2_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "E2M1 Exit",
+        "access_rules": ["@The Crater (E2M1)/E2M1 Exit"],
+        "sections": [
+          {
+            "ref": "The Crater (E2M1)/E2M1 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e2m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m1",
+            "restrict_visibility_rules": ["ep2_on"],
+            "size": 20,
+            "x": 288,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

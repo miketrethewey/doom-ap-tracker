@@ -1,0 +1,430 @@
+[
+  {
+    "name": "E4M2",
+    "parent": "Blockhouse (E4M2)",
+    "children": [
+      {
+        "name": "E4M2 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/E4M2 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Gauntlets",
+        "access_rules": ["@Blockhouse (E4M2)/Gauntlets"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Gauntlets",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Crossbow",
+        "access_rules": ["@Blockhouse (E4M2)/Crossbow"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Crossbow",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Dragon Claw",
+        "access_rules": ["@Blockhouse (E4M2)/Dragon Claw"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Dragon Claw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Hellstaff",
+        "access_rules": ["@Blockhouse (E4M2)/Hellstaff"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Hellstaff",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Phoenix rod",
+        "access_rules": ["@Blockhouse (E4M2)/Phoenix rod"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Phoenix rod",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Enchanted Shield",
+        "access_rules": ["@Blockhouse (E4M2)/Enchanted Shield"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Enchanted Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Silver Shield",
+        "access_rules": ["@Blockhouse (E4M2)/Silver Shield"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Silver Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Magic Bag",
+        "access_rules": ["@Blockhouse (E4M2)/Magic Bag"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Magic Bag",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Magic Bag 2",
+        "access_rules": ["@Blockhouse (E4M2)/Magic Bag 2"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Magic Bag 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaos Device",
+        "access_rules": ["@Blockhouse (E4M2)/Chaos Device"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Chaos Device",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chicken Orb",
+        "access_rules": ["@Blockhouse (E4M2)/Chicken Orb"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Chicken Orb",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Urn",
+        "access_rules": ["@Blockhouse (E4M2)/Urn"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Urn",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Ring of Invincibility",
+        "access_rules": ["@Blockhouse (E4M2)/Ring of Invincibility"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Ring of Invincibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Ring of Invincibility 2",
+        "access_rules": ["@Blockhouse (E4M2)/Ring of Invincibility 2"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Ring of Invincibility 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shadowsphere",
+        "access_rules": ["@Blockhouse (E4M2)/Shadowsphere"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Shadowsphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shadowsphere 2",
+        "access_rules": ["@Blockhouse (E4M2)/Shadowsphere 2"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Shadowsphere 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Power Tome",
+        "access_rules": ["@Blockhouse (E4M2)/Power Tome"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Power Tome",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Blue Rune",
+        "access_rules": ["@Blockhouse (E4M2)/Blue Rune"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Blue Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 432,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Green Rune",
+        "access_rules": ["@Blockhouse (E4M2)/Green Rune"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Green Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 456,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Rune",
+        "access_rules": ["@Blockhouse (E4M2)/Yellow Rune"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/Yellow Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 0,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "E4M2 Exit",
+        "access_rules": ["@Blockhouse (E4M2)/E4M2 Exit"],
+        "sections": [
+          {
+            "ref": "Blockhouse (E4M2)/E4M2 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e4m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "restrict_visibility_rules": ["ep4_on"],
+            "size": 20,
+            "x": 24,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  }
+]

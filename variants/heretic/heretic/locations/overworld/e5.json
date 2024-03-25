@@ -1,0 +1,1240 @@
+[
+  {
+    "name": "The Stagnant Demesne",
+    "parent": "The Stagnant Demesne (E5)",
+    "children": [
+      {
+        "name": "Ochre Cliffs (E5M1)",
+        "access_rules": ["$access|e5m1"],
+        "sections": [
+          {
+            "name": "Gauntlets",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Crossbow",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Dragon Claw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hellstaff",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Phoenix rod",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 4",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enchanted Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaos Device",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Computer Area Map",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chicken Orb",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Urn",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ring of Invincibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shadowsphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome",
+            "note": "#FIXME: Check spawns on difficulties",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome 2",
+            "note": "#FIXME: Check spawns on difficulties",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Torch",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Green Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "E5M1 Exit",
+            "access_rules": [],
+            "hosted_item": "e5m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 24,
+            "y": 96,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Rapids (E5M2)",
+        "access_rules": ["$access|e5m2"],
+        "sections": [
+          {
+            "name": "Gauntlets",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Crossbow",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Dragon Claw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hellstaff",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hellstaff 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Phoenix rod",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Phoenix rod 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 4",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 5",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enchanted Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enchanted Shield 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag",
+            "note": "#FIXME: Check spawns on difficulties",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag 2",
+            "note": "#FIXME: Check spawns on difficulties",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaos Device",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Computer Area Map",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chicken Orb",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Urn",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ring of Invincibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shadowsphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Torch",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Green Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "E5M2 Exit",
+            "access_rules": [],
+            "hosted_item": "e5m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 48,
+            "y": 96,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Quay (E5M3)",
+        "access_rules": ["$access|e5m3"],
+        "sections": [
+          {
+            "name": "Gauntlets",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Crossbow",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Dragon Claw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hellstaff",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Phoenix rod",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 4",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 5",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 6",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enchanted Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Shield",
+            "note": "#FIXME: Check spawns on difficulties",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaos Device",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Computer Area Map",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chicken Orb",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Urn",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ring of Invincibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shadowsphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome",
+            "note": "#FIXME: Check spawns on difficulties",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome 2",
+            "note": "#FIXME: Check spawns on difficulties",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Torch",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Green Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "E5M3 Exit",
+            "access_rules": [],
+            "hosted_item": "e5m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 72,
+            "y": 96,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Courtyard (E5M4)",
+        "access_rules": ["$access|e5m4"],
+        "sections": [
+          {
+            "name": "Gauntlets",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Crossbow",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Dragon Claw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hellstaff",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Phoenix rod",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enchanted Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Shield",
+            "note": "#FIXME: Check spawns on difficulties",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag",
+            "note": "#FIXME: Check spawns on difficulties",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag 2",
+            "note": "#FIXME: Check spawns on difficulties",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaos Device",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Computer Area Map",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chicken Orb",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Urn",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ring of Invincibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shadowsphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome",
+            "note": "#FIXME: Check spawns on difficulties",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome 2",
+            "note": "#FIXME: Check spawns on difficulties",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Torch",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Green Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "E5M4 Exit",
+            "access_rules": [],
+            "hosted_item": "e5m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 96,
+            "y": 96,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Hydratyr (E5M5)",
+        "access_rules": ["$access|e5m5"],
+        "sections": [
+          {
+            "name": "Gauntlets",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Crossbow",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Dragon Claw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hellstaff",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Phoenix rod",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 4",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enchanted Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Shield 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaos Device",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Computer Area Map",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chicken Orb",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Urn",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ring of Invincibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shadowsphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome",
+            "note": "#FIXME: Check spawns on difficulties",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome 2",
+            "note": "#FIXME: Check spawns on difficulties",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Torch",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Green Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "E5M5 Exit",
+            "access_rules": [],
+            "hosted_item": "e5m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 120,
+            "y": 96,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Colonnade (E5M6)",
+        "access_rules": ["$access|e5m6"],
+        "sections": [
+          {
+            "name": "Gauntlets",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Crossbow",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Dragon Claw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hellstaff",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Phoenix rod",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 4",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Firemace 5",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enchanted Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaos Device",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Computer Area Map",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chicken Orb",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Urn",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Urn 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ring of Invincibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ring of Invincibility 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shadowsphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Torch",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Green Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "E5M6 Exit",
+            "access_rules": [],
+            "hosted_item": "e5m6_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 144,
+            "y": 96,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Foetid Manse (E5M7)",
+        "access_rules": ["$access|e5m7"],
+        "sections": [
+          {
+            "name": "Gauntlets",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Crossbow",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Dragon Claw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hellstaff",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Phoenix rod",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enchanted Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaos Device",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Computer Area Map",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chicken Orb",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Urn",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ring of Invincibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shadowsphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome",
+            "note": "#FIXME: Check spawns on difficulties",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome 2",
+            "note": "#FIXME: Check spawns on difficulties",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Torch",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Green Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "E5M7 Exit",
+            "access_rules": [],
+            "hosted_item": "e5m7_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 168,
+            "y": 96,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Field of Judgement (E5M8)",
+        "access_rules": ["$access|e5m8"],
+        "sections": [
+          {
+            "name": "Gauntlets",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Crossbow",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Dragon Claw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hellstaff",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Phoenix rod",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enchanted Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaos Device",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Urn",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ring of Invincibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shadowsphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "E5M8 Exit",
+            "access_rules": [],
+            "hosted_item": "e5m8_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 192,
+            "y": 96,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Skein of D'Sparil (E5M9)",
+        "access_rules": ["$access|e5m9"],
+        "sections": [
+          {
+            "name": "Gauntlets",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Crossbow",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Dragon Claw",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hellstaff",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Phoenix rod",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Enchanted Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Silver Shield",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Magic Bag 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chaos Device",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Computer Area Map",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Chicken Orb",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Urn",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Ring of Invincibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Shadowsphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Power Tome 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Torch",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Green Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Rune",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "E5M9 Exit",
+            "access_rules": [],
+            "hosted_item": "e5m9_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 216,
+            "y": 96,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      }
+    ]
+  }
+]

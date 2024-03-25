@@ -1,0 +1,340 @@
+[
+  {
+    "name": "E4M1",
+    "parent": "Catafalque (E4M1)",
+    "children": [
+      {
+        "name": "E4M1 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/E4M1 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": ["ep4_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Gauntlets",
+        "access_rules": ["@Catafalque (E4M1)/Gauntlets"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/Gauntlets",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Crossbow",
+        "access_rules": ["@Catafalque (E4M1)/Crossbow"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/Crossbow",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Dragon Claw",
+        "access_rules": ["@Catafalque (E4M1)/Dragon Claw"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/Dragon Claw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Hellstaff",
+        "access_rules": ["@Catafalque (E4M1)/Hellstaff"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/Hellstaff",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Silver Shield",
+        "access_rules": ["@Catafalque (E4M1)/Silver Shield"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/Silver Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Magic Bag",
+        "access_rules": ["@Catafalque (E4M1)/Magic Bag"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/Magic Bag",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaos Device",
+        "access_rules": ["@Catafalque (E4M1)/Chaos Device"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/Chaos Device",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": ["@Catafalque (E4M1)/Computer Area Map"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chicken Orb",
+        "access_rules": ["@Catafalque (E4M1)/Chicken Orb"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/Chicken Orb",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Ring of Invincibility",
+        "access_rules": ["@Catafalque (E4M1)/Ring of Invincibility"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/Ring of Invincibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shadowsphere",
+        "access_rules": ["@Catafalque (E4M1)/Shadowsphere"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/Shadowsphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Power Tome",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": ["@Catafalque (E4M1)/Power Tome"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/Power Tome",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": [
+              "$difficulty_range|4|low",
+              "$difficulty|4|med",
+              "$difficulty_range|4|high"
+            ],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Torch",
+        "access_rules": ["@Catafalque (E4M1)/Torch"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/Torch",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": ["$difficulty_range|4|low", "$difficulty|4|med"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Green Rune",
+        "access_rules": ["@Catafalque (E4M1)/Green Rune"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/Green Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Yellow Rune",
+        "access_rules": ["@Catafalque (E4M1)/Yellow Rune"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/Yellow Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "E4M1 Exit",
+        "access_rules": ["@Catafalque (E4M1)/E4M1 Exit"],
+        "sections": [
+          {
+            "ref": "Catafalque (E4M1)/E4M1 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e4m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "restrict_visibility_rules": ["ep4_on"],
+            "size": 20,
+            "x": 384,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  }
+]

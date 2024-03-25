@@ -163,7 +163,7 @@ function load_access()
                         "overlay|variants/" .. "doom" .. "/images/overlays/" .. overlay,
                         "@disabled,overlay|variants/" .. "doom" .. "/images/overlays/" .. overlay
                     )
-                    print(msg)
+                    -- print(msg)
                 end
             end
         end

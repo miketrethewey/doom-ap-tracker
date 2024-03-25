@@ -10,9 +10,11 @@ for filename in ["mapdesignations.lua","keysets.lua"]:
         constantsLua = constantsFile.read()
         CONSTANTS[filename[:filename.find('.')]] = luadata.unserialize(constantsLua)
 
-baseGame = "doom"
+baseTheme = "heretic"
+baseGame = "heretic"
 basePath = os.path.join(
     "variants",
+    baseTheme,
     baseGame,
     "locations",
     "underworld"
@@ -20,16 +22,14 @@ basePath = os.path.join(
 
 numMapsHistory = []
 if os.path.isdir(basePath):
-    print(f"Game: {baseGame}")
+    print(f"Game: {baseTheme}/{baseGame}")
     for episode in os.listdir(basePath):
         if os.path.isdir(os.path.join(basePath,episode)):
             epID = episode[1:]
             print(f"  E{epID}")
-            if int(epID) != 6:
-                continue
-            numMaps = len(CONSTANTS["keysets"][baseGame]["episodes"][int(epID) - 1]["maps"])
+            numMaps = len(CONSTANTS["keysets"][baseTheme][baseGame]["episodes"][int(epID) - 1]["maps"])
             numMapsHistory.append(numMaps)
-            epName = CONSTANTS["keysets"][baseGame]["episodes"][int(epID) - 1]["name"]
+            epName = CONSTANTS["keysets"][baseTheme][baseGame]["episodes"][int(epID) - 1]["name"]
             epRoot = [
                 {
                     "name": epName,
@@ -47,7 +47,7 @@ if os.path.isdir(basePath):
                     ), "r") as mapFile:
                         mapID = os.path.splitext(mapPath)[0][3:]
                         mapHandle = f"e{epID}m{mapID}"
-                        if CONSTANTS["mapdesignations"][baseGame] == "mapxx":
+                        if CONSTANTS["mapdesignations"][baseTheme][baseGame] == "mapxx":
                             mapIDX = mapID
                             # if later "episode" add previous lengths
                             for numEp,numMaps in enumerate(numMapsHistory):
@@ -80,7 +80,7 @@ if os.path.isdir(basePath):
                             {
                                 "map": "overworld",
                                 "x": 24 * int(mapID),
-                                "y": 0,
+                                "y": 24 * (int(epID) - 1) if int(epID) > 1 else 0,
                                 "restrict_visibility_rules": [
                                     f"ep{epID}_on"
                                 ]
@@ -88,5 +88,8 @@ if os.path.isdir(basePath):
                         ]
                         epMaps.append(mapObj)
             epRoot[0]["children"] = epMaps
-            with open(os.path.join(basePath,"..","overworld",f"e{epID}.json"), "w") as epFile:
+            overworldPath = os.path.join(basePath,"..","overworld")
+            if not os.path.isdir(overworldPath):
+                os.makedirs(os.path.join(overworldPath))
+            with open(os.path.join(overworldPath,f"e{epID}.json"), "w") as epFile:
                 json.dump(epRoot, epFile, indent=2)

@@ -1,0 +1,542 @@
+[
+  {
+    "name": "E3M4",
+    "parent": "The Azure Fortress (E3M4)",
+    "children": [
+      {
+        "name": "E3M4 Entrance",
+        "chest_unopened_img": "/images/items/levelstart.png",
+        "chest_opened_img": "/images/items/levelstart.png",
+        "access_rules": ["$access|null"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/E3M4 Entrance",
+            "name": "Level Start",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Gauntlets",
+        "access_rules": ["@The Azure Fortress (E3M4)/Gauntlets"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Gauntlets",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 24,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Crossbow",
+        "access_rules": ["@The Azure Fortress (E3M4)/Crossbow"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Crossbow",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 48,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Dragon Claw",
+        "access_rules": ["@The Azure Fortress (E3M4)/Dragon Claw"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Dragon Claw",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 72,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Hellstaff",
+        "access_rules": ["@The Azure Fortress (E3M4)/Hellstaff"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Hellstaff",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 96,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Phoenix rod",
+        "access_rules": ["@The Azure Fortress (E3M4)/Phoenix rod"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Phoenix rod",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 120,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Enchanted Shield",
+        "access_rules": ["@The Azure Fortress (E3M4)/Enchanted Shield"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Enchanted Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 144,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Enchanted Shield 2",
+        "access_rules": ["@The Azure Fortress (E3M4)/Enchanted Shield 2"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Enchanted Shield 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 168,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Silver Shield",
+        "access_rules": ["@The Azure Fortress (E3M4)/Silver Shield"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Silver Shield",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 192,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Silver Shield 2",
+        "access_rules": ["@The Azure Fortress (E3M4)/Silver Shield 2"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Silver Shield 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 216,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Magic Bag",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": ["@The Azure Fortress (E3M4)/Magic Bag"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Magic Bag",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": [
+              "$difficulty_range|3|low",
+              "$difficulty|3|med",
+              "$difficulty_range|3|high"
+            ],
+            "x": 240,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chaos Device",
+        "access_rules": ["@The Azure Fortress (E3M4)/Chaos Device"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Chaos Device",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 264,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "access_rules": ["@The Azure Fortress (E3M4)/Computer Area Map"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Computer Area Map",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 288,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chicken Orb",
+        "access_rules": ["@The Azure Fortress (E3M4)/Chicken Orb"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Chicken Orb",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 312,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Chicken Orb 2",
+        "access_rules": ["@The Azure Fortress (E3M4)/Chicken Orb 2"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Chicken Orb 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 336,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Urn",
+        "access_rules": ["@The Azure Fortress (E3M4)/Urn"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Urn",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 360,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Urn 2",
+        "access_rules": ["@The Azure Fortress (E3M4)/Urn 2"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Urn 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 384,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Ring of Invincibility",
+        "access_rules": [
+          "@The Azure Fortress (E3M4)/Ring of Invincibility"
+        ],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Ring of Invincibility",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 408,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Shadowsphere",
+        "access_rules": ["@The Azure Fortress (E3M4)/Shadowsphere"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Shadowsphere",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 432,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Power Tome",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": ["@The Azure Fortress (E3M4)/Power Tome"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Power Tome",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": [
+              "$difficulty_range|3|low",
+              "$difficulty|3|med",
+              "$difficulty_range|3|high"
+            ],
+            "x": 456,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Power Tome 2",
+        "note": "#FIXME: Check spawns on difficulties",
+        "access_rules": ["@The Azure Fortress (E3M4)/Power Tome 2"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Power Tome 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": [
+              "$difficulty_range|3|low",
+              "$difficulty|3|med",
+              "$difficulty_range|3|high"
+            ],
+            "x": 0,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Torch",
+        "access_rules": ["@The Azure Fortress (E3M4)/Torch"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Torch",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 24,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Torch 2",
+        "access_rules": ["@The Azure Fortress (E3M4)/Torch 2"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Torch 2",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 48,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Torch 3",
+        "access_rules": ["@The Azure Fortress (E3M4)/Torch 3"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Torch 3",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 72,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Green Rune",
+        "access_rules": ["@The Azure Fortress (E3M4)/Green Rune"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Green Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 96,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Yellow Rune",
+        "access_rules": ["@The Azure Fortress (E3M4)/Yellow Rune"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/Yellow Rune",
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "x": 120,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "E3M4 Exit",
+        "access_rules": ["@The Azure Fortress (E3M4)/E3M4 Exit"],
+        "sections": [
+          {
+            "ref": "The Azure Fortress (E3M4)/E3M4 Exit",
+            "name": "Level Completed",
+            "hosted_item": "e3m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "restrict_visibility_rules": ["ep3_on"],
+            "size": 20,
+            "x": 144,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  }
+]
