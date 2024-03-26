@@ -160,6 +160,118 @@
             "y": 0
           }
         ]
+      },
+      {
+        "name": "Betray",
+        "access_rules": ["$access|map33"],
+        "sections": [
+          {
+            "name": "Chainsaw",
+            "access_rules": ["$access|map33|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Chainsaw 2",
+            "access_rules": ["$access|map33|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Super Shotgun",
+            "note": "Near spawn",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Super Shotgun 2",
+            "note": "Near vanilla Chainsaws",
+            "access_rules": ["$access|map33|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Super Shotgun 3",
+            "note": "Near vanilla Chainsaws",
+            "access_rules": ["$access|map33|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher 2",
+            "access_rules": ["$access|map33|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Rocket Launcher 3",
+            "access_rules": ["$access|map33|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "Plasma Gun",
+            "access_rules": ["$access|map33|red"],
+            "item_count": 1
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "access_rules": ["$access|map33|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Megasphere",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Invisibility",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Keycard",
+            "access_rules": ["$access|map33|red"],
+            "item_count": 1
+          },
+          {
+            "name": "Red Keycard",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Keycard",
+            "access_rules": ["$access|map33|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "MAP33 Exit",
+            "access_rules": ["$access|map33|blue|yellow"],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep4_on"],
+            "x": 0,
+            "y": 0
+          }
+        ]
       }
     ]
   }

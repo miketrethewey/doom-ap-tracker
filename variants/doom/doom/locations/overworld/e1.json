@@ -638,6 +638,57 @@
             "y": 50
           }
         ]
+      },
+      {
+        "name": "Sewers (E1M10)",
+        "access_rules": ["$access|e1m10"],
+        "sections": [
+          {
+            "name": "Chaingun",
+            "access_rules": ["$access|e1m10|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "Armor",
+            "note": "Near vanilla Yellow Keycard",
+            "access_rules": ["$access|e1m10|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "Armor 2",
+            "note": "Near spawn",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Blue Keycard",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Keycard",
+            "access_rules": ["$access|e1m10|blue"],
+            "item_count": 1
+          },
+          {
+            "name": "E1M10 Exit",
+            "access_rules": ["$access|e1m10|blue|yellow"],
+            "hosted_item": "e1m10_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "restrict_visibility_rules": ["ep1_on"],
+            "x":0,
+            "y":0
+          }
+        ]
       }
     ]
   }

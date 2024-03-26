@@ -20,8 +20,8 @@
             "map": "e1m10",
             "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
-            "x": 0,
-            "y": 0
+            "x": 190,
+            "y": 330
           }
         ]
       },
@@ -39,13 +39,14 @@
           {
             "map": "e1m10",
             "restrict_visibility_rules": ["ep1_on"],
-            "x": 24,
-            "y": 0
+            "x": 1930,
+            "y": 360
           }
         ]
       },
       {
         "name": "Armor",
+        "note": "Near vanilla Yellow Keycard",
         "access_rules": ["@Sewers (E1M10)/Armor"],
         "sections": [
           {
@@ -58,8 +59,8 @@
           {
             "map": "e1m10",
             "restrict_visibility_rules": ["ep1_on"],
-            "x": 48,
-            "y": 0
+            "x": 1900,
+            "y": 215
           }
         ]
       },
@@ -77,8 +78,8 @@
           {
             "map": "e1m10",
             "restrict_visibility_rules": ["ep1_on"],
-            "x": 72,
-            "y": 0
+            "x": 365,
+            "y": 100
           }
         ]
       },
@@ -96,8 +97,8 @@
           {
             "map": "e1m10",
             "restrict_visibility_rules": ["ep1_on"],
-            "x": 96,
-            "y": 0
+            "x": 1360,
+            "y": 50
           }
         ]
       },
@@ -115,8 +116,8 @@
           {
             "map": "e1m10",
             "restrict_visibility_rules": ["ep1_on"],
-            "x": 0,
-            "y": 24
+            "x": 1460,
+            "y": 2130
           }
         ]
       },
@@ -134,8 +135,8 @@
           {
             "map": "e1m10",
             "restrict_visibility_rules": ["ep1_on"],
-            "x": 24,
-            "y": 24
+            "x": 1910,
+            "y": 360
           }
         ]
       },
@@ -154,8 +155,8 @@
             "map": "e1m10",
             "restrict_visibility_rules": ["ep1_on"],
             "size": 20,
-            "x": 48,
-            "y": 24
+            "x": 200,
+            "y": 830
           }
         ]
       }
