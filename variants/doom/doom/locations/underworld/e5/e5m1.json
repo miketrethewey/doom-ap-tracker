@@ -27,8 +27,8 @@
         "map_locations": [
           {
             "map": "e5m1",
-            "x": 24,
-            "y": 0,
+            "x": 375,
+            "y": 840,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -40,8 +40,8 @@
         "map_locations": [
           {
             "map": "e5m1",
-            "x": 48,
-            "y": 0,
+            "x": 380,
+            "y": 548,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -53,8 +53,8 @@
         "map_locations": [
           {
             "map": "e5m1",
-            "x": 72,
-            "y": 0,
+            "x": 690,
+            "y": 510,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -66,8 +66,8 @@
         "map_locations": [
           {
             "map": "e5m1",
-            "x": 96,
-            "y": 0,
+            "x": 877,
+            "y": 977,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]

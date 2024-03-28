@@ -71,7 +71,7 @@
             "item_count": 1
           },
           {
-            "name": "Supercharge",
+            "name": "Supercharge 2",
             "note": "With Chaingun, no reqs",
             "access_rules": [],
             "item_count": 1
@@ -89,7 +89,7 @@
             "item_count": 1
           },
           {
-            "name": "Supercharge",
+            "name": "Supercharge 3",
             "note": "Behind Red Switch",
             "access_rules": ["$access|e5m2|red"],
             "item_count": 1
@@ -222,7 +222,7 @@
             "item_count": 1
           },
           {
-            "name": "Mega Armor",
+            "name": "Mega Armor 2",
             "note": "Right section, in crusher area",
             "access_rules": ["$canShootSigil"],
             "visibility_rules": ["$difficulty_range|5|low", "$difficulty|5|med"],
@@ -340,7 +340,7 @@
             "item_count": 1
           },
           {
-            "name": "Armor",
+            "name": "Armor 2",
             "note": "Near exit",
             "access_rules": ["$access|e5m5|yellow"],
             "item_count": 1
@@ -506,7 +506,7 @@
             "item_count": 1
           },
           {
-            "name": "Armor",
+            "name": "Armor 2",
             "note": "Across acid from vanilla Red Skull Key",
             "access_rules": ["$canShootSigil"],
             "item_count": 1
@@ -518,6 +518,12 @@
             "item_count": 1
           },
           {
+            "name": "Computer Area Map",
+            "note": "Next to Mega Armor 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
             "name": "Mega Armor 2",
             "note": "In room with vanilla Computer Area Map",
             "access_rules": [],
@@ -525,7 +531,7 @@
             "item_count": 1
           },
           {
-            "name": "Armor 2",
+            "name": "Armor 3",
             "access_rules": ["$canShootSigil,$access|e5m7|red"],
             "item_count": 1
           },
@@ -696,7 +702,7 @@
             "item_count": 1
           },
           {
-            "name": "Armor",
+            "name": "Armor 2",
             "access_rules": ["$access|e5m9|red"],
             "item_count": 1
           },
@@ -706,7 +712,7 @@
             "item_count": 1
           },
           {
-            "name": "Supercharge",
+            "name": "Supercharge 2",
             "access_rules": ["$canShootSigil,$access|e5m9|blue|red"],
             "item_count": 1
           },

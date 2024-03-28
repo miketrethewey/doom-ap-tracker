@@ -27,8 +27,8 @@
         "map_locations": [
           {
             "map": "e5m7",
-            "x": 24,
-            "y": 0,
+            "x": 130,
+            "y": 485,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -81,8 +81,8 @@
         "map_locations": [
           {
             "map": "e5m7",
-            "x": 120,
-            "y": 0,
+            "x": 440,
+            "y": 460,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -94,8 +94,8 @@
         "map_locations": [
           {
             "map": "e5m7",
-            "x": 144,
-            "y": 0,
+            "x": 285,
+            "y": 260,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -107,22 +107,22 @@
         "map_locations": [
           {
             "map": "e5m7",
-            "x": 168,
-            "y": 0,
+            "x": 685,
+            "y": 625,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
       },
       {
-        "name": "Armor",
+        "name": "Armor 2",
         "note": "Across acid from vanilla Red Skull Key",
-        "access_rules": ["@Nightmare Underworld (E5M7)/Armor"],
+        "access_rules": ["@Nightmare Underworld (E5M7)/Armor 2"],
         "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e5m7",
-            "x": 192,
-            "y": 0,
+            "x": 210,
+            "y": 645,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -149,21 +149,21 @@
         "map_locations": [
           {
             "map": "e5m7",
-            "x": 240,
-            "y": 0,
+            "x": 35,
+            "y": 815,
             "restrict_visibility_rules": ["$difficulty_range|5|low", "$difficulty|5|med"]
           }
         ]
       },
       {
-        "name": "Armor 2",
-        "access_rules": ["@Nightmare Underworld (E5M7)/Armor 2"],
+        "name": "Armor 3",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Armor 3"],
         "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e5m7",
-            "x": 264,
-            "y": 0,
+            "x": 315,
+            "y": 290,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -175,8 +175,8 @@
         "map_locations": [
           {
             "map": "e5m7",
-            "x": 288,
-            "y": 0,
+            "x": 105,
+            "y": 90,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -188,8 +188,22 @@
         "map_locations": [
           {
             "map": "e5m7",
-            "x": 312,
-            "y": 0,
+            "x": 330,
+            "y": 710,
+            "restrict_visibility_rules": ["ep5_on"]
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "note": "Next to vanilla Supercharge '1'",
+        "access_rules": ["@Nightmare Underworld (E5M7)/Computer Area Map"],
+        "sections": [{"name": "Item", "item_count": 1}],
+        "map_locations": [
+          {
+            "map": "e5m7",
+            "x": 60,
+            "y": 810,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -202,8 +216,8 @@
         "map_locations": [
           {
             "map": "e5m7",
-            "x": 336,
-            "y": 0,
+            "x": 45,
+            "y": 770,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]

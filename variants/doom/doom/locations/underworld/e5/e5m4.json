@@ -27,8 +27,8 @@
         "map_locations": [
           {
             "map": "e5m4",
-            "x": 24,
-            "y": 0,
+            "x": 330,
+            "y": 90,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -41,8 +41,8 @@
         "map_locations": [
           {
             "map": "e5m4",
-            "x": 48,
-            "y": 0,
+            "x": 370,
+            "y": 90,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -55,8 +55,8 @@
         "map_locations": [
           {
             "map": "e5m4",
-            "x": 72,
-            "y": 0,
+            "x": 530,
+            "y": 215,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -69,8 +69,8 @@
         "map_locations": [
           {
             "map": "e5m4",
-            "x": 96,
-            "y": 0,
+            "x": 485,
+            "y": 765,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -83,8 +83,8 @@
         "map_locations": [
           {
             "map": "e5m4",
-            "x": 120,
-            "y": 0,
+            "x": 430,
+            "y": 730,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -97,8 +97,8 @@
         "map_locations": [
           {
             "map": "e5m4",
-            "x": 144,
-            "y": 0,
+            "x": 315,
+            "y": 570,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -111,8 +111,8 @@
         "map_locations": [
           {
             "map": "e5m4",
-            "x": 168,
-            "y": 0,
+            "x": 20,
+            "y": 370,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -125,22 +125,22 @@
         "map_locations": [
           {
             "map": "e5m4",
-            "x": 192,
-            "y": 0,
+            "x": 155,
+            "y": 560,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
       },
       {
-        "name": "Mega Armor",
+        "name": "Mega Armor 2",
         "note": "Right section, in crusher area",
-        "access_rules": ["@Paths of Wretchedness (E5M4)/Mega Armor"],
+        "access_rules": ["@Paths of Wretchedness (E5M4)/Mega Armor 2"],
         "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e5m4",
-            "x": 216,
-            "y": 0,
+            "x": 280,
+            "y": 680,
             "restrict_visibility_rules": ["$difficulty_range|5|low", "$difficulty|5|med"]
           }
         ]
@@ -153,8 +153,8 @@
         "map_locations": [
           {
             "map": "e5m4",
-            "x": 240,
-            "y": 0,
+            "x": 280,
+            "y": 680,
             "restrict_visibility_rules": ["$difficulty_range|5|high"]
           }
         ]
@@ -167,8 +167,8 @@
         "map_locations": [
           {
             "map": "e5m4",
-            "x": 264,
-            "y": 0,
+            "x": 300,
+            "y": 805,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -180,8 +180,8 @@
         "map_locations": [
           {
             "map": "e5m4",
-            "x": 288,
-            "y": 0,
+            "x": 405,
+            "y": 1015,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -193,8 +193,8 @@
         "map_locations": [
           {
             "map": "e5m4",
-            "x": 312,
-            "y": 0,
+            "x": 330,
+            "y": 1240,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -206,8 +206,8 @@
         "map_locations": [
           {
             "map": "e5m4",
-            "x": 336,
-            "y": 0,
+            "x": 555,
+            "y": 1000,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]

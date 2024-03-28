@@ -685,8 +685,8 @@
           {
             "map": "overworld",
             "restrict_visibility_rules": ["ep1_on"],
-            "x":0,
-            "y":0
+            "x": 0,
+            "y": 0
           }
         ]
       }

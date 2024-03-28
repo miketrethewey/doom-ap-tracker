@@ -27,8 +27,8 @@
         "map_locations": [
           {
             "map": "e5m9",
-            "x": 24,
-            "y": 0,
+            "x": 445,
+            "y": 590,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -41,8 +41,8 @@
         "map_locations": [
           {
             "map": "e5m9",
-            "x": 48,
-            "y": 0,
+            "x": 780,
+            "y": 370,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -55,8 +55,8 @@
         "map_locations": [
           {
             "map": "e5m9",
-            "x": 72,
-            "y": 0,
+            "x": 780,
+            "y": 390,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -69,8 +69,8 @@
         "map_locations": [
           {
             "map": "e5m9",
-            "x": 96,
-            "y": 0,
+            "x": 990,
+            "y": 725,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -83,8 +83,8 @@
         "map_locations": [
           {
             "map": "e5m9",
-            "x": 120,
-            "y": 0,
+            "x": 125,
+            "y": 450,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -97,8 +97,8 @@
         "map_locations": [
           {
             "map": "e5m9",
-            "x": 144,
-            "y": 0,
+            "x": 100,
+            "y": 420,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -111,21 +111,21 @@
         "map_locations": [
           {
             "map": "e5m9",
-            "x": 168,
-            "y": 0,
+            "x": 60,
+            "y": 450,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
       },
       {
-        "name": "Armor",
+        "name": "Armor 2",
         "access_rules": ["@Realm of Iblis (E5M9)/Armor"],
         "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e5m9",
-            "x": 192,
-            "y": 0,
+            "x": 905,
+            "y": 585,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -137,15 +137,15 @@
         "map_locations": [
           {
             "map": "e5m9",
-            "x": 216,
-            "y": 0,
+            "x": 630,
+            "y": 205,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
       },
       {
-        "name": "Supercharge",
-        "access_rules": ["@Realm of Iblis (E5M9)/Supercharge"],
+        "name": "Supercharge 2",
+        "access_rules": ["@Realm of Iblis (E5M9)/Supercharge 2"],
         "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
@@ -163,8 +163,8 @@
         "map_locations": [
           {
             "map": "e5m9",
-            "x": 264,
-            "y": 0,
+            "x": 380,
+            "y": 520,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]

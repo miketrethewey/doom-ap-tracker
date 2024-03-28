@@ -14,8 +14,8 @@
             "map": "e5m8",
             "restrict_visibility_rules": ["ep5_on"],
             "size": 20,
-            "x": 107,
-            "y": 487
+            "x": 170,
+            "y": 220
           }
         ]
       },
@@ -27,8 +27,8 @@
         "map_locations": [
           {
             "map": "e5m8",
-            "x": 24,
-            "y": 0,
+            "x": 140,
+            "y": 220,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -40,8 +40,8 @@
         "map_locations": [
           {
             "map": "e5m8",
-            "x": 48,
-            "y": 0,
+            "x": 215,
+            "y": 180,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -53,8 +53,8 @@
         "map_locations": [
           {
             "map": "e5m8",
-            "x": 72,
-            "y": 0,
+            "x": 245,
+            "y": 305,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -66,8 +66,8 @@
         "map_locations": [
           {
             "map": "e5m8",
-            "x": 96,
-            "y": 0,
+            "x": 290,
+            "y": 200,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -79,8 +79,8 @@
         "map_locations": [
           {
             "map": "e5m8",
-            "x": 120,
-            "y": 0,
+            "x": 150,
+            "y": 300,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -105,8 +105,8 @@
         "map_locations": [
           {
             "map": "e5m8",
-            "x": 168,
-            "y": 0,
+            "x": 590,
+            "y": 340,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -118,8 +118,8 @@
         "map_locations": [
           {
             "map": "e5m8",
-            "x": 192,
-            "y": 0,
+            "x": 530,
+            "y": 420,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -131,8 +131,8 @@
         "map_locations": [
           {
             "map": "e5m8",
-            "x": 216,
-            "y": 0,
+            "x": 620,
+            "y": 585,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -144,8 +144,8 @@
         "map_locations": [
           {
             "map": "e5m8",
-            "x": 240,
-            "y": 0,
+            "x": 360,
+            "y": 65,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]

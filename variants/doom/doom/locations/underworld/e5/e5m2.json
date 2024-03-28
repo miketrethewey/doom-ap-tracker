@@ -27,8 +27,8 @@
         "map_locations": [
           {
             "map": "e5m2",
-            "x": 24,
-            "y": 0,
+            "x": 455,
+            "y": 670,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -40,8 +40,8 @@
         "map_locations": [
           {
             "map": "e5m2",
-            "x": 48,
-            "y": 0,
+            "x": 430,
+            "y": 685,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -54,8 +54,8 @@
         "map_locations": [
           {
             "map": "e5m2",
-            "x": 72,
-            "y": 0,
+            "x": 430,
+            "y": 655,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -68,22 +68,22 @@
         "map_locations": [
           {
             "map": "e5m2",
-            "x": 96,
-            "y": 0,
+            "x": 665,
+            "y": 470,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
       },
       {
-        "name": "Supercharge",
+        "name": "Supercharge 2",
         "note": "With Chaingun, no reqs",
-        "access_rules": ["@Sheol (E5M2)/Supercharge"],
+        "access_rules": ["@Sheol (E5M2)/Supercharge 2"],
         "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e5m2",
-            "x": 120,
-            "y": 0,
+            "x": 715,
+            "y": 495,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -96,8 +96,8 @@
         "map_locations": [
           {
             "map": "e5m2",
-            "x": 144,
-            "y": 0,
+            "x": 755,
+            "y": 480,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
@@ -110,22 +110,22 @@
         "map_locations": [
           {
             "map": "e5m2",
-            "x": 168,
-            "y": 0,
+            "x": 700,
+            "y": 370,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
       },
       {
-        "name": "Supercharge",
+        "name": "Supercharge 3",
         "note": "Behind Red Switch",
-        "access_rules": ["@Sheol (E5M2)/Supercharge"],
+        "access_rules": ["@Sheol (E5M2)/Supercharge 3"],
         "sections": [{"name": "Item", "item_count": 1}],
         "map_locations": [
           {
             "map": "e5m2",
-            "x": 192,
-            "y": 0,
+            "x": 685,
+            "y": 540,
             "restrict_visibility_rules": ["ep5_on"]
           }
         ]
