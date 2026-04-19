@@ -7,7 +7,7 @@
         "name": "E1M1 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": ["$access|null"],
+        "access_rules": ["$access|e1m1"],
         "sections": [
           {
             "ref": "Hangar (E1M1)/E1M1 Entrance",

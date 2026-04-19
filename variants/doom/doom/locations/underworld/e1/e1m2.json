@@ -7,7 +7,7 @@
         "name": "E1M2 Entrance",
         "chest_unopened_img": "/images/items/levelstart.png",
         "chest_opened_img": "/images/items/levelstart.png",
-        "access_rules": ["$access|null"],
+        "access_rules": ["$access|e1m2"],
         "sections": [
           {
             "ref": "Nuclear Plant (E1M2)/E1M2 Entrance",
